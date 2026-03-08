@@ -14,38 +14,18 @@
 
     <main>
         <div class="hero-section" style="padding: 2rem; max-width: 600px; margin: 0 auto;">
-            <p style="margin-bottom: 2rem;">アプリに関するご質問、不具合のご報告、追加をご希望の機能などがございましたら、以下のフォームよりお気軽にご連絡ください。<br>メッセージは開発者へ直接届きます。</p>
+            <p style="margin-bottom: 2rem;">アプリに関するご質問、不具合のご報告、追加をご希望の機能などがございましたら、以下のメールアドレスまでお気軽にご連絡ください。</p>
 
-            <!-- 
-            【開発者(雨川の旦那)様へ】
-            フォームを実際に機能させるには「Formspree」という無料サービスをおすすめします。
-            1. https://formspree.io/ にアクセスして無料登録します。
-            2. 「New Form」を作成し、発行されたエンドポイントURL（https://formspree.io/f/XXXXXX のようなURL）をコピーします。
-            3. 以下の form タグの action の値を、そのURLに書き換えてください。
-            4. これで、ユーザーが送信ボタンを押すと、登録したメールアドレスに通知が届くようになります！
-            -->
-            
-            <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
-                <div class="form-group">
-                    <label for="name">お名前 / ニックネーム (任意)</label>
-                    <input type="text" id="name" name="name" class="form-control" placeholder="お名前">
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">メールアドレス (返信をご希望の場合)</label>
-                    <input type="email" id="email" name="email" class="form-control" placeholder="example@example.com">
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">お問い合わせ内容 <span style="color:red; font-size:0.8rem;">*必須 (1000文字以内)</span></label>
-                    <textarea id="message" name="message" class="form-control" rows="8" maxlength="1000" placeholder="こちらにメッセージをご入力ください。" required></textarea>
-                </div>
-                
-                <div style="text-align: center; margin-top: 2rem;">
-                    <!-- Formspreeの設定前に押された場合にエラーにならないよう、念のため注意書きを入れ込めます -->
-                    <button type="submit" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">送信する</button>
-                </div>
-            </form>
+            <div style="text-align: center; margin: 3rem 0; padding: 2rem; background-color: #f5f5f5; border-radius: 8px;">
+                <p style="margin-bottom: 1rem; font-weight: bold; color: var(--primary-dark);">【お問い合わせ先メールアドレス】</p>
+                <a href="mailto:hiroking4orikara@gmail.com" style="font-size: 1.2rem; word-break: break-all; color: var(--secondary-color); text-decoration: none; font-weight: bold;">
+                    hiroking4orikara@gmail.com
+                </a>
+                <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #666;">
+                    ※ご返信にお時間をいただく場合がございます。<br>
+                    ※クリックするとお使いのメールソフトが起動します。
+                </p>
+            </div>
             
         </div>
         
