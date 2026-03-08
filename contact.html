@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中学学習アプリ 公式ポータルサイトのお問い合わせ窓口です。アプリに関するご要望・ご意見をお送りいただけます。">
+    <title>お問い合わせ | 中学学習アプリ 公式ポータルサイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>お問い合わせ窓口</h1>
+    </header>
+
+    <main>
+        <div class="hero-section" style="padding: 2rem; max-width: 600px; margin: 0 auto;">
+            <p style="margin-bottom: 2rem;">アプリに関するご質問、不具合のご報告、追加をご希望の機能などがございましたら、以下のフォームよりお気軽にご連絡ください。<br>メッセージは開発者へ直接届きます。</p>
+
+            <!-- 
+            【開発者(雨川の旦那)様へ】
+            フォームを実際に機能させるには「Formspree」という無料サービスをおすすめします。
+            1. https://formspree.io/ にアクセスして無料登録します。
+            2. 「New Form」を作成し、発行されたエンドポイントURL（https://formspree.io/f/XXXXXX のようなURL）をコピーします。
+            3. 以下の form タグの action の値を、そのURLに書き換えてください。
+            4. これで、ユーザーが送信ボタンを押すと、登録したメールアドレスに通知が届くようになります！
+            -->
+            
+            <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
+                <div class="form-group">
+                    <label for="name">お名前 / ニックネーム (任意)</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="お名前">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">メールアドレス (返信をご希望の場合)</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="example@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容 <span style="color:red; font-size:0.8rem;">*必須 (1000文字以内)</span></label>
+                    <textarea id="message" name="message" class="form-control" rows="8" maxlength="1000" placeholder="こちらにメッセージをご入力ください。" required></textarea>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <!-- Formspreeの設定前に押された場合にエラーにならないよう、念のため注意書きを入れ込めます -->
+                    <button type="submit" class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem;">送信する</button>
+                </div>
+            </form>
+            
+        </div>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="index.html" class="btn btn-primary" style="background-color: #757575;">トップページへ戻る</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">ホーム</a> |
+            <a href="privacy.html">プライバシーポリシー</a> |
+            <a href="contact.html">お問い合わせ</a>
+        </div>
+        <p>&copy; 2026 雨川の旦那. All rights reserved.</p>
+    </footer>
+</body>
+</html>
