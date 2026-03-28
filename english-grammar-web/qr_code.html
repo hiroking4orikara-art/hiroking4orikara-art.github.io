@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRコード作成 - 英語文法並べ替え３００</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        #qrcode {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #4e54c8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #3f44a5;
+        }
+
+        .note {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>アプリQRコード</h1>
+
+        <div id="qrcode"></div>
+
+        <p>以下のURLのQRコードです（テスト参加用）：</p>
+        <input type="text" id="urlInput" value="https://play.google.com/apps/testing/com.hiroki.grammar" />
+
+        <button onclick="generateQR()">再生成</button>
+
+        <div class="note">
+            <p><strong>💡 ヒント:</strong></p>
+            <p>テスト参加前の人に送る場合は、参加用URL (<code>https://play.google.com/apps/testing/com.hiroki.grammar</code>)
+                に書き換えて再生成すると親切かもしれません。</p>
+        </div>
+    </div>
+
+    <script>
+        let qrcodeObj = null;
+
+        function generateQR() {
+            const url = document.getElementById('urlInput').value;
+            const container = document.getElementById('qrcode');
+            container.innerHTML = ""; // Clear previous
+
+            qrcodeObj = new QRCode(container, {
+                text: url,
+                width: 200,
+                height: 200,
+                colorDark: "#000000",
+                colorLight: "#ffffff",
+                correctLevel: QRCode.CorrectLevel.H
+            });
+        }
+
+        // Generate on load
+        window.onload = generateQR;
+    </script>
+</body>
+
+</html>

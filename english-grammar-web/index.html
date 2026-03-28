@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>英語文法並べ替え３００</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>英語文法並べ替え３００</h1>
+    <div id="userSection" class="user-section">
+      <button id="calendarBtn" class="btn-icon" title="学習カレンダー"><img src="calendar_icon.png" alt="Calendar" /></button>
+      <div id="starMark" class="star-mark hidden" title="全問正解達成！">⭐</div>
+      <div id="userSelectContainer" class="user-select-container">
+        <button id="currentUserBtn" class="user-select-btn">Guest</button>
+        <div id="userDropdown" class="user-dropdown hidden"></div>
+      </div>
+      <button id="newUserBtn" class="btn-small">＋ 新規</button>
+    </div>
+  </header>
+  <main class="container">
+    <section class="setup">
+      <h2>学習単元選択</h2>
+      <div class="units-container">
+        <div class="grade-section">
+          <h3>中学1年</h3>
+          <label class="select-all"><input type="checkbox" id="selectAll_jhs1"> すべて選択</label>
+          <div class="units">
+            <div class="unit-item"><label><input type="checkbox" value="jhs1_be" /> be動詞</label><div><button class="video-btn btn-small" data-unit="jhs1_be_1">🎬 基本</button> <button class="video-btn btn-small" data-unit="jhs1_be_2">🎬 疑問・否定</button></div></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs1_general" /> 一般動詞</label><div><button class="video-btn btn-small" data-unit="jhs1_general_1">🎬 基本</button> <button class="video-btn btn-small" data-unit="jhs1_general_2">🎬 ３人称単数</button></div></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs1_can" /> 助動詞can</label><button class="video-btn btn-small" data-unit="jhs1_can">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs1_prog" /> 現在進行形</label><button class="video-btn btn-small" data-unit="jhs1_prog">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs1_past" /> 過去形</label><button class="video-btn btn-small" data-unit="jhs1_past">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs1_imperative" /> 命令文</label><button class="video-btn btn-small" data-unit="jhs1_imperative">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs1_interrogative" /> 疑問詞</label><button class="video-btn btn-small" data-unit="jhs1_interrogative">🎬 動画</button></div>
+          </div>
+        </div>
+        <div class="grade-section">
+          <h3>中学2年</h3>
+          <label class="select-all"><input type="checkbox" id="selectAll_jhs2"> すべて選択</label>
+          <div class="units">
+            <div class="unit-item"><label><input type="checkbox" value="jhs2_future" /> 未来形</label><button class="video-btn btn-small" data-unit="jhs2_future">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs2_aux" /> 助動詞</label><button class="video-btn btn-small" data-unit="jhs2_aux">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs2_inf" /> 不定詞・動名詞</label><div><button class="video-btn btn-small" data-unit="jhs2_inf_1" title="不定詞">🎬 ①</button> <button class="video-btn btn-small" data-unit="jhs2_inf_2" title="動名詞">🎬 ②</button></div></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs2_comp" /> 比較</label><button class="video-btn btn-small" data-unit="jhs2_comp">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs2_passive" /> 受動態</label><button class="video-btn btn-small" data-unit="jhs2_passive">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs2_svoo" /> 第4/5文型</label><button class="video-btn btn-small" data-unit="jhs2_svoo">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs2_conjunction" /> 接続詞</label><button class="video-btn btn-small" data-unit="jhs2_conjunction">🎬 動画</button></div>
+          </div>
+        </div>
+        <div class="grade-section">
+          <h3>中学3年</h3>
+          <label class="select-all"><input type="checkbox" id="selectAll_jhs3"> すべて選択</label>
+          <div class="units">
+            <div class="unit-item"><label><input type="checkbox" value="jhs3_perfect" /> 現在完了</label><div><button class="video-btn btn-small" data-unit="jhs3_perfect_1">🎬 経験</button> <button class="video-btn btn-small" data-unit="jhs3_perfect_2">🎬 完了・継続</button></div></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs3_participle" /> 分詞</label><button class="video-btn btn-small" data-unit="jhs3_participle">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs3_relative" /> 関係代名詞</label><button class="video-btn btn-small" data-unit="jhs3_relative">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs3_indirect" /> 間接疑問・付加疑問</label><div><button class="video-btn btn-small" data-unit="jhs3_indirect_1" title="間接疑問">🎬 ①</button> <button class="video-btn btn-small" data-unit="jhs3_indirect_2" title="付加疑問">🎬 ②</button></div></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs3_subjunctive" /> 仮定法過去</label><button class="video-btn btn-small" data-unit="jhs3_subjunctive">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs3_causative" /> 使役動詞</label><button class="video-btn btn-small" data-unit="jhs3_causative">🎬 動画</button></div>
+            <div class="unit-item"><label><input type="checkbox" value="jhs3_it_for_to" /> It is ... for ...</label><button class="video-btn btn-small" data-unit="jhs3_it_for_to">🎬 動画</button></div>
+          </div>
+        </div>
+        <div class="control-panel">
+            <button id="startBtn" class="btn large-start-btn">クイズ開始</button>
+            <div class="settings-row">
+                <label for="questionCountSelect">問題数:</label>
+                <select id="questionCountSelect">
+                    <option value="5">5問</option>
+                    <option value="10">10問</option>
+                    <option value="15">15問</option>
+                </select>
+            </div>
+            <div class="sub-controls">
+                <button id="viewStatsBtn" class="btn stats-btn">📊 学習記録</button>
+                <button id="setupHelpBtn" class="help-btn-small" style="margin: 0;">？ 使い方</button>
+            </div>
+        </div>
+        <!-- Cross Promo for Textbook App -->
+        <div style="margin-top: 30px; display: flex; flex-direction: column; align-items: flex-end;">
+            <p style="font-size: 0.9rem; color: #fff; margin-bottom: 5px;">＼ 姉妹アプリもよろしくね！ ／</p>
+            <a href="https://play.google.com/store/apps/details?id=com.sakkusaku.englishvocab" target="_blank" style="text-decoration: none; display: inline-block;">
+                <button class="promo-btn" style="background: rgba(255,255,255,0.9); border: 2px solid #4CAF50; padding: 10px; border-radius: 15px; display: flex; align-items: center; gap: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+                    <img src="vocab_icon.png" alt="Textbook Vocab" style="width: 50px; height: 50px; border-radius: 10px;">
+                    <div style="text-align: left;">
+                        <div style="font-weight: bold; color: #333; font-size: 1rem;">中学英語 教科書単語</div>
+                        <div style="font-size: 0.8rem; color: #666;">教科書準拠でサクサク覚える！</div>
+                    </div>
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="quiz hidden">
+      <div class="quiz-header">
+        <h2 id="questionCount">問題 1 / 5</h2>
+        <!-- Quiz Help Button -->
+        <button id="quizHelpBtn" class="help-btn-icon">？</button>
+      </div>
+      <div id="japaneseText" class="japanese-text"></div>
+      <div id="answerArea" class="answer-area"></div>
+      <div id="sentenceParts" class="parts"></div>
+      <!-- Feedback now appears here, hiding sentenceParts -->
+      <div id="feedback" class="feedback hidden"></div>
+      <div class="actions">
+        <!-- Hint Button -->
+        <button id="hintBtn" class="btn hint-btn">💡 ヒント</button>
+        <button id="resetBtn" class="btn reset-btn">↺ リセット</button>
+        <button id="submitBtn" class="btn">回答する</button>
+      </div>
+      <div id="nextAction" class="next-action hidden">
+        <button id="nextBtn" class="btn next-btn">次へ</button>
+      </div>
+      <!-- Mascot removed from interior of quiz section -->
+    </section>
+    <section class="results hidden">
+      <h2>結果発表</h2>
+      <div id="resultsContent">
+        <!-- Dynamic content: Score, Mistake List, Retry Button -->
+      </div>
+      <button id="restartBtn" class="btn">トップに戻る</button>
+    </section>
+
+    <section class="stats hidden">
+      <h2>学習記録 <button id="resetStatsBtn" class="btn-small"
+          style="background:#e74c3c; margin-left:1rem; font-size:0.8rem;">学習記録をリセット</button></h2>
+      <div id="statsContent"></div>
+      <button id="closeStatsBtn" class="btn">戻る</button>
+    </section>
+
+    <section class="celebration hidden">
+      <div class="confetti"></div>
+      <h2>Congratulations!</h2>
+      <p>すごい！あなたはすべての問題を解くことができました！</p>
+      <p>英語マスターへの道は開かれた！</p>
+      <div class="medal">🥇</div>
+      <button id="closeCelebrationBtn" class="btn">トップに戻る</button>
+    </section>
+
+    <!-- Generic Modal -->
+    <div id="helpModal" class="modal hidden">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <div id="modalText"></div>
+      </div>
+    </div>
+
+    <!-- Calendar Modal -->
+    <div id="calendarModal" class="modal hidden">
+      <div class="modal-content" style="max-width: 400px;">
+        <span id="closeCalendarModal" class="close">&times;</span>
+        <h2>学習カレンダー</h2>
+        <div id="calendarControls" style="display:flex; justify-content:space-between; margin-bottom:10px;">
+          <button id="prevMonthBtn" class="btn-small">&lt;</button>
+          <span id="currentMonthLabel" style="font-weight:bold; font-size:1.2em;"></span>
+          <button id="nextMonthBtn" class="btn-small">&gt;</button>
+        </div>
+        <div id="calendarGrid" class="calendar-grid"></div>
+        <p style="text-align:right; font-size:0.8em; margin-top:5px;">数字は挑戦した問題数です</p>
+      </div>
+    </div>
+  </main>
+  <div id="mascotContainer" class="mascot-container hidden">
+    <div id="mascotBubble" class="mascot-bubble">Hi! I'm Mook!</div>
+    <img src="mook.png" alt="Mook the Shih Tzu" class="mascot-img">
+  </div>
+  <script src="questions.js"></script>
+  <script src="dictionary.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

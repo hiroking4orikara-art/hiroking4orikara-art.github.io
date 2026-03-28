@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アイコン作成ツール</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <style>
+        body {
+            font-family: 'Mochiy Pop One', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .icon-container {
+            width: 512px;
+            height: 512px;
+            position: relative;
+            background-color: #7b8de6;
+            /* Fallback */
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 背景画像 */
+        .icon-bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* 文字レイアウト */
+        .text-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* テキスト共通スタイル（極太縁取り） */
+        .text-stroke {
+            /* text-shadow: 
+                3px 3px 0 #000, -1px -1px 0 #000,  
+                1px -1px 0 #000, -1px 1px 0 #000,
+                1px 1px 0 #000; */
+            /* より強力な縁取り（SVGフィルタ風の重ねがけ） */
+            text-shadow:
+                4px 4px 0px #003366,
+                -4px -4px 0px #003366,
+                -4px 4px 0px #003366,
+                4px -4px 0px #003366,
+                4px 0px 0px #003366,
+                -4px 0px 0px #003366,
+                0px 4px 0px #003366,
+                0px -4px 0px #003366;
+            filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
+        }
+
+        .top-text {
+            font-size: 56px;
+            color: #ffffff;
+            margin-top: 10px;
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        .bottom-text-group {
+            margin-bottom: 15px;
+            text-align: center;
+            z-index: 10;
+        }
+
+        .main-title {
+            font-size: 80px;
+            color: #ffd700;
+            /* Gold */
+            background: -webkit-linear-gradient(#xffd700, #ffaa00);
+            /* -webkit-background-clip: text; */
+            /* -webkit-text-fill-color: transparent; */
+            /* Gradient text with stroke is hard in CSS alone, sticking to solid color for clarity */
+            margin-bottom: -20px;
+            line-height: 1.1;
+        }
+
+        .sub-title {
+            font-size: 100px;
+            color: #ff6b6b;
+            line-height: 1.1;
+        }
+
+        .controls {
+            margin-top: 30px;
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        /* Play Store Preview (Rounded) */
+        .preview-mask {
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 22%;
+            /* Play Store shape approx */
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border: 1px solid #ddd;
+        }
+
+        .preview-mask img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Google Play アイコン作成</h2>
+
+    <div id="iconArea" class="icon-container">
+        <!-- アップロードされた画像を背景に -->
+        <img src="icon_base.png" class="icon-bg" alt="Icon Background">
+
+        <div class="text-overlay">
+            <div class="text-stroke top-text">中学英文法</div>
+            <div class="bottom-text-group">
+                <div class="text-stroke main-title">並べ替え</div>
+                <div class="text-stroke sub-title">３００！</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button onclick="downloadIcon()">画像をダウンロード (PNG)</button>
+    </div>
+
+    <div style="margin-top:30px; text-align:center;">
+        <p>プレビュー (Play Store風)</p>
+        <div class="preview-mask" id="previewArea">
+            <!-- JS will clone result here -->
+        </div>
+    </div>
+
+    <script>
+        // Copy image to preview on load just to show something
+        const img = document.querySelector('.icon-bg');
+
+        function downloadIcon() {
+            const element = document.getElementById('iconArea');
+            // html2canvas might fail with local file:// images in some browsers due to CORS/Taint
+            // But usually works if file is in same directory in Firefox/Safari, Chrome is strict.
+            // If it fails, user can just screenshot.
+            html2canvas(element, { useCORS: true }).then(canvas => {
+                const link = document.createElement('a');
+                link.download = 'icon_grammar300.png';
+                link.href = canvas.toDataURL();
+                link.click();
+
+                // Update preview
+                const preview = document.getElementById('previewArea');
+                preview.innerHTML = '';
+                const previewImg = document.createElement('img');
+                previewImg.src = canvas.toDataURL();
+                preview.appendChild(previewImg);
+            }).catch(err => {
+                alert('ダウンロードに失敗しました。画面キャプチャ(Windows+Shift+S)を使って保存してください。\nError: ' + err);
+            });
+        }
+    </script>
+</body>
+
+</html>

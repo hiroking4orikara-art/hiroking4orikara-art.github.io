@@ -1,0 +1,32 @@
+[
+  {
+    "unit": "be",
+    "sentenceParts": ["She", "is", "a", "student"],
+    "correctOrder": ["She", "is", "a", "student"],
+    "explanation": "'She is a student' is the correct order for a simple present sentence with the be verb."
+  },
+  {
+    "unit": "be",
+    "sentenceParts": ["They", "are", "teachers"],
+    "correctOrder": ["They", "are", "teachers"],
+    "explanation": "'They are teachers' uses the plural be verb 'are'."
+  },
+  {
+    "unit": "regular",
+    "sentenceParts": ["I", "play", "football"],
+    "correctOrder": ["I", "play", "football"],
+    "explanation": "Simple present regular verb 'play' follows subject-verb-object order."
+  },
+  {
+    "unit": "regular",
+    "sentenceParts": ["She", "studies", "math"],
+    "correctOrder": ["She", "studies", "math"],
+    "explanation": "'studies' is the third person singular form of 'study'."
+  },
+  {
+    "unit": "be",
+    "sentenceParts": ["It", "is", "rainy"],
+    "correctOrder": ["It", "is", "rainy"],
+    "explanation": "Weather expressions use 'it is' + adjective."
+  }
+]
