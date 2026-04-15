@@ -1,0 +1,23 @@
+{
+  "rivers": [],
+  "prefectures": [
+    {
+      "unitId": "gj_7",
+      "idx": 19,
+      "q": "関東地方の北西部にあり、こんにゃくいもの生産やキャベツの抑制栽培が盛んなこの県のなまえは？",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png"
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 20,
+      "q": "成田国際空港があり、落花生などの近郊農業や工業が盛んなこの県のなまえは？",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png"
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 21,
+      "q": "東京の南に位置し、横浜港があり京浜工業地帯の一部となっているこの県のなまえは？",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png"
+    }
+  ]
+}

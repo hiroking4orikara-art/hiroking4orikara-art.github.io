@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Coordinate Picker</title>
+    <style>
+        body { font-family: sans-serif; display: flex; gap: 20px; padding: 20px; }
+        #app { width: 800px; display: flex; flex-direction: column; }
+        #canvas-container { position: relative; display: inline-block; border: 1px solid #ccc; cursor: crosshair; }
+        #map-img { display: block; max-width: 800px; }
+        #overlay-svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible;}
+        pre { background: #eee; padding: 10px; overflow-x: auto; flex-grow: 1; }
+        .controls { margin-bottom: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="controls">
+            <select id="map-selector">
+                <!-- Add options dynamically from found maps -->
+                <option value="assets/images/geography/map_kyushu_blank_1771591728285.png">九州地方</option>
+                <option value="assets/images/geography/map_shikoku_blank_1771591711033.png">四国地方</option>
+                <option value="assets/images/geography/map_chugoku_blank_1771591689143.png">中国地方</option>
+                <option value="assets/images/geography/map_kinki_blank_1771591655064.png">近畿地方</option>
+                <option value="assets/images/geography/map_chubu_blank_1771591636012.png">中部地方</option>
+                <option value="assets/images/geography/map_kanto_blank_1771591579833.png">関東地方</option>
+                <option value="assets/images/geography/map_tohoku_blank_1771591614790.png">東北地方</option>
+                <option value="assets/images/geography/map_japan_blank_1771590893723.png">日本全体</option>
+            </select>
+            <select id="mode-selector">
+                <option value="polyline">河川 (Polyline)</option>
+                <option value="rect">県名マスク (Rect)</option>
+                <option value="text">テキスト (?マーク用)</option>
+            </select>
+            <button id="clear-btn">クリア</button>
+            <button id="undo-btn">元に戻す</button>
+        </div>
+
+        <div id="canvas-container">
+            <img id="map-img" src="assets/images/geography/map_kyushu_blank_1771591728285.png" />
+            <svg id="overlay-svg"></svg>
+        </div>
+    </div>
+    <div style="flex-grow:1;">
+        <h3>Coordinates Log</h3>
+        <pre id="output"></pre>
+        <h3>JSON Format</h3>
+        <pre id="json-output"></pre>
+    </div>
+
+    <script>
+        const img = document.getElementById('map-img');
+        const svg = document.getElementById('overlay-svg');
+        const container = document.getElementById('canvas-container');
+        const output = document.getElementById('output');
+        const jsonOutput = document.getElementById('json-output');
+        const mapSelector = document.getElementById('map-selector');
+        const modeSelector = document.getElementById('mode-selector');
+
+        let points = [];
+        let rectStart = null;
+        let shapes = [];
+
+        mapSelector.addEventListener('change', (e) => {
+            img.src = e.target.value;
+            img.onload = () => resetAll();
+        });
+
+        document.getElementById('clear-btn').addEventListener('click', resetAll);
+        document.getElementById('undo-btn').addEventListener('click', () => {
+            shapes.pop();
+            renderShapes();
+            updateOutput();
+        });
+
+        modeSelector.addEventListener('change', resetAll);
+
+        function resetAll() {
+            points = [];
+            rectStart = null;
+            shapes = [];
+            renderShapes();
+            updateOutput();
+        }
+
+        container.addEventListener('mousedown', (e) => {
+            const rect = img.getBoundingClientRect();
+            const x = (e.clientX - rect.left) / rect.width * 100;
+            const y = (e.clientY - rect.top) / rect.height * 100;
+
+            const mode = modeSelector.value;
+            
+            if (mode === 'polyline') {
+                points.push({x, y});
+                renderShapes();
+                updateOutput();
+            } else if (mode === 'rect') {
+                if (!rectStart) {
+                    rectStart = {x, y};
+                } else {
+                    const width = x - rectStart.x;
+                    const height = y - rectStart.y;
+                    shapes.push({
+                        type: 'rect',
+                        x: width < 0 ? x : rectStart.x,
+                        y: height < 0 ? y : rectStart.y,
+                        width: Math.abs(width),
+                        height: Math.abs(height)
+                    });
+                    rectStart = null;
+                    renderShapes();
+                    updateOutput();
+                }
+            } else if (mode === 'text') {
+                 shapes.push({
+                     type: 'text',
+                     x: x,
+                     y: y,
+                     text: '？'
+                 });
+                 renderShapes();
+                 updateOutput();
+            }
+        });
+
+        function renderShapes() {
+            svg.innerHTML = '';
+            const mode = modeSelector.value;
+
+            // Draw saved shapes
+            shapes.forEach(shape => {
+                if (shape.type === 'rect') {
+                    const el = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                    el.setAttribute('x', shape.x + '%');
+                    el.setAttribute('y', shape.y + '%');
+                    el.setAttribute('width', shape.width + '%');
+                    el.setAttribute('height', shape.height + '%');
+                    el.setAttribute('fill', '#fdfdfd');
+                    el.setAttribute('stroke', '#ccc');
+                    svg.appendChild(el);
+                } else if (shape.type === 'text') {
+                    const el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    el.setAttribute('x', shape.x + '%');
+                    el.setAttribute('y', shape.y + '%');
+                    el.textContent = shape.text;
+                    el.setAttribute('fill', '#c0392b');
+                    el.setAttribute('font-size', '4rem');
+                    el.setAttribute('text-anchor', 'middle');
+                    el.setAttribute('dominant-baseline', 'middle');
+                    svg.appendChild(el);
+                }
+            });
+
+            // Draw current active points
+            if (points.length > 0 && mode === 'polyline') {
+                const ns = "http://www.w3.org/2000/svg";
+                const innerSvg = document.createElementNS(ns, "svg");
+                innerSvg.setAttribute("width", "100%");
+                innerSvg.setAttribute("height", "100%");
+                innerSvg.setAttribute("viewBox", "0 0 100 100");
+                innerSvg.setAttribute("preserveAspectRatio", "none");
+                innerSvg.setAttribute("style", "overflow: visible;");
+
+                const poly = document.createElementNS(ns, 'polyline');
+                const ptsStr = points.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
+                poly.setAttribute('points', ptsStr);
+                poly.setAttribute('fill', 'none');
+                poly.setAttribute('stroke', '#3498db');
+                poly.setAttribute('stroke-width', '5');
+                poly.setAttribute('vector-effect', 'non-scaling-stroke');
+                innerSvg.appendChild(poly);
+                svg.appendChild(innerSvg);
+
+                // Add circles for points
+                points.forEach(p => {
+                    const circ = document.createElementNS(ns, 'circle');
+                    circ.setAttribute('cx', p.x + '%');
+                    circ.setAttribute('cy', p.y + '%');
+                    circ.setAttribute('r', '4');
+                    circ.setAttribute('fill', 'red');
+                    svg.appendChild(circ);
+                });
+            } else if (rectStart && mode === 'rect') {
+                const el = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                el.setAttribute('cx', rectStart.x + '%');
+                el.setAttribute('cy', rectStart.y + '%');
+                el.setAttribute('r', '4');
+                el.setAttribute('fill', 'blue');
+                svg.appendChild(el);
+            }
+        }
+
+        function updateOutput() {
+            let json = [];
+            let log = "Points logged:\n";
+
+            const mode = modeSelector.value;
+
+            if (mode === 'polyline' && points.length > 0) {
+                 const ptsStr = points.map(p => `${Math.round(p.x)},${Math.round(p.y)}`).join(' ');
+                 log += `Polyline points: ${ptsStr}\n`;
+                 json.push({
+                     type: 'polyline',
+                     points: ptsStr,
+                     color: '#3498db',
+                     strokeWidth: '5'
+                 });
+            }
+
+            shapes.forEach(shape => {
+                if (shape.type === 'rect') {
+                    const rx = shape.x.toFixed(1);
+                    const ry = shape.y.toFixed(1);
+                    const rw = shape.width.toFixed(1);
+                    const rh = shape.height.toFixed(1);
+                    log += `Rect: X:${rx}% Y:${ry}% W:${rw}% H:${rh}%\n`;
+                    json.push({
+                        type: 'rect',
+                        x: rx + '%',
+                        y: ry + '%',
+                        width: rw + '%',
+                        height: rh + '%',
+                        fill: '#fdfdfd',
+                        rx: '5',
+                        ry: '5'
+                    });
+                } else if (shape.type === 'text') {
+                    const nx = shape.x.toFixed(1);
+                    const ny = shape.y.toFixed(1);
+                    log += `Text (?): X:${nx}% Y:${ny}%\n`;
+                    json.push({
+                         type: "text",
+                         x: nx + '%',
+                         y: ny + '%',
+                         text: "？",
+                         color: "#c0392b",
+                         fontSize: "4rem",
+                         anchor: "middle",
+                         baseline: "middle"
+                    });
+                }
+            });
+
+            output.textContent = log;
+            jsonOutput.textContent = JSON.stringify(json, null, 2);
+        }
+
+    </script>
+</body>
+</html>

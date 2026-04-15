@@ -1,0 +1,117 @@
+--- PROMPTS ---
+
+Item 1: 法然
+toolImageName: img_batch_13_0
+Prompt: A colorful pop-art illustration for a history textbook representing: 法然. Context: 「南無阿弥陀仏」と唱えるだけで救われる（専修念仏）と説き、浄土宗を開いたのは？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 2: 親鸞
+toolImageName: img_batch_13_1
+Prompt: A colorful pop-art illustration for a history textbook representing: 親鸞. Context: 法然の弟子で、悪人こそが救われるという「悪人正機」を説き、浄土真宗（一向宗）を開いたのは？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 3: 一遍
+toolImageName: img_batch_13_2
+Prompt: A colorful pop-art illustration for a history textbook representing: 一遍. Context: 踊念仏によって教えを広め、時宗を開いたのは？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 4: 日蓮
+toolImageName: img_batch_13_3
+Prompt: A colorful pop-art illustration for a history textbook representing: 日蓮. Context: 「南無妙法蓮華経」という題目を唱えれば救われると説き、日蓮宗（法華宗）を開いたのは？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 5: 栄西
+toolImageName: img_batch_13_4
+Prompt: A colorful pop-art illustration for a history textbook representing: 栄西. Context: 座禅によって悟りを開こうとする「禅宗」の一つ、臨済宗を日本に伝えたのは？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 6: 道元
+toolImageName: img_batch_13_5
+Prompt: A colorful pop-art illustration for a history textbook representing: 道元. Context: 座禅にひたすら打ち込む（只管打坐）ことを説き、曹洞宗を伝えたのは？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 7: 建武の新政
+toolImageName: img_batch_13_6
+Prompt: A colorful pop-art illustration for a history textbook representing: 建武の新政. Context: 鎌倉幕府の滅亡後、後醍醐天皇が始めた、天皇中心の政治を何というか？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 8: 足利尊氏
+toolImageName: img_batch_13_7
+Prompt: A colorful pop-art illustration for a history textbook representing: 足利尊氏. Context: 建武の新政に不満を持つ武士を率いて反乱を起こし、1338年に征夷大将軍となって幕府を開いた人物は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 9: 南北朝時代
+toolImageName: img_batch_13_8
+Prompt: A colorful pop-art illustration for a history textbook representing: 南北朝時代. Context: 足利尊氏が京都に立てた北朝と、後醍醐天皇が奈良の吉野に逃れて立てた南朝が対立し、約60年間争った時代を何というか？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+Item 10: 足利義満
+toolImageName: img_batch_13_9
+Prompt: A colorful pop-art illustration for a history textbook representing: 足利義満. Context: 南北朝の動乱を終わらせ、1392年に南北朝を統一した室町幕府の第3代将軍は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.
+
+--- MAPPINGS FOR NEXT SCRIPT ---
+[
+  {
+    "toolName": "img_batch_13_0",
+    "dest": "h_medieval_3___.png",
+    "q": "「南無阿弥陀仏」と唱えるだけで救われる（専修念仏）と説き、浄土宗を開いたのは？",
+    "a": "法然",
+    "unit": "h_medieval_3"
+  },
+  {
+    "toolName": "img_batch_13_1",
+    "dest": "h_medieval_3___.png",
+    "q": "法然の弟子で、悪人こそが救われるという「悪人正機」を説き、浄土真宗（一向宗）を開いたのは？",
+    "a": "親鸞",
+    "unit": "h_medieval_3"
+  },
+  {
+    "toolName": "img_batch_13_2",
+    "dest": "h_medieval_3___.png",
+    "q": "踊念仏によって教えを広め、時宗を開いたのは？",
+    "a": "一遍",
+    "unit": "h_medieval_3"
+  },
+  {
+    "toolName": "img_batch_13_3",
+    "dest": "h_medieval_3___.png",
+    "q": "「南無妙法蓮華経」という題目を唱えれば救われると説き、日蓮宗（法華宗）を開いたのは？",
+    "a": "日蓮",
+    "unit": "h_medieval_3"
+  },
+  {
+    "toolName": "img_batch_13_4",
+    "dest": "h_medieval_3___.png",
+    "q": "座禅によって悟りを開こうとする「禅宗」の一つ、臨済宗を日本に伝えたのは？",
+    "a": "栄西",
+    "unit": "h_medieval_3"
+  },
+  {
+    "toolName": "img_batch_13_5",
+    "dest": "h_medieval_3___.png",
+    "q": "座禅にひたすら打ち込む（只管打坐）ことを説き、曹洞宗を伝えたのは？",
+    "a": "道元",
+    "unit": "h_medieval_3"
+  },
+  {
+    "toolName": "img_batch_13_6",
+    "dest": "h_medieval_4______.png",
+    "q": "鎌倉幕府の滅亡後、後醍醐天皇が始めた、天皇中心の政治を何というか？",
+    "a": "建武の新政",
+    "unit": "h_medieval_4"
+  },
+  {
+    "toolName": "img_batch_13_7",
+    "dest": "h_medieval_4_____.png",
+    "q": "建武の新政に不満を持つ武士を率いて反乱を起こし、1338年に征夷大将軍となって幕府を開いた人物は？",
+    "a": "足利尊氏",
+    "unit": "h_medieval_4"
+  },
+  {
+    "toolName": "img_batch_13_8",
+    "dest": "h_medieval_4______.png",
+    "q": "足利尊氏が京都に立てた北朝と、後醍醐天皇が奈良の吉野に逃れて立てた南朝が対立し、約60年間争った時代を何というか？",
+    "a": "南北朝時代",
+    "unit": "h_medieval_4"
+  },
+  {
+    "toolName": "img_batch_13_9",
+    "dest": "h_medieval_4_____.png",
+    "q": "南北朝の動乱を終わらせ、1392年に南北朝を統一した室町幕府の第3代将軍は？",
+    "a": "足利義満",
+    "unit": "h_medieval_4"
+  }
+]
+
+Generated apply_batch_auto.js. Please fill in the src fields after generating images.

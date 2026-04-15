@@ -1,0 +1,47 @@
+[
+  {
+    "unit": "h_medieval_5",
+    "index": 2,
+    "q": "15世紀初め、沖縄本島を統一し、琉球王国を建国した人物は？",
+    "a": "尚巴志",
+    "aStr": "尚巴志",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: 尚巴志. Context: 15世紀初め、沖縄本島を統一し、琉球王国を建国した人物は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background. STRICT REQUIREMENT: ABSOLUTELY NO TEXT, NO LETTERS, NO KANJI, NO NUMBERS, AND NO DATES WHATSOEVER. The image must contain only illustrations.",
+    "filename": "h_medieval_5_尚巴志.png"
+  },
+  {
+    "unit": "h_medieval_5",
+    "index": 3,
+    "q": "琉球王国が、日本・中国・東南アジアの間で行った、各国の産物をやり取りする貿易を何というか？",
+    "a": "中継貿易",
+    "aStr": "中継貿易",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: 中継貿易. Context: 琉球王国が、日本・中国・東南アジアの間で行った、各国の産物をやり取りする貿易を何というか？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background. STRICT REQUIREMENT: ABSOLUTELY NO TEXT, NO LETTERS, NO KANJI, NO NUMBERS, AND NO DATES WHATSOEVER. The image must contain only illustrations.",
+    "filename": "h_medieval_5_中継貿易.png"
+  },
+  {
+    "unit": "h_medieval_5",
+    "index": 4,
+    "q": "北海道の先住民族で、狩りや漁を行い、独自の文化を持っていた人々は？",
+    "a": "アイヌ民族",
+    "aStr": "アイヌ民族",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: アイヌ民族. Context: 北海道の先住民族で、狩りや漁を行い、独自の文化を持っていた人々は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background. STRICT REQUIREMENT: ABSOLUTELY NO TEXT, NO LETTERS, NO KANJI, NO NUMBERS, AND NO DATES WHATSOEVER. The image must contain only illustrations.",
+    "filename": "h_medieval_5_アイヌ民族.png"
+  },
+  {
+    "unit": "h_medieval_5",
+    "index": 5,
+    "q": "和人が蝦夷地（北海道）に進出し、館（やかた）を築いて交易を独占したことに対し、1457年に蜂起したアイヌの首長は？",
+    "a": "コシャマイン",
+    "aStr": "コシャマイン",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: コシャマイン. Context: 和人が蝦夷地（北海道）に進出し、館（やかた）を築いて交易を独占したことに対し、1457年に蜂起したアイヌの首長は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background. STRICT REQUIREMENT: ABSOLUTELY NO TEXT, NO LETTERS, NO KANJI, NO NUMBERS, AND NO DATES WHATSOEVER. The image must contain only illustrations.",
+    "filename": "h_medieval_5_コシャマイン.png"
+  },
+  {
+    "unit": "h_medieval_5",
+    "index": 6,
+    "q": "室町時代に朝鮮で作られた、現在も使われている独自の文字は？",
+    "a": "ハングル",
+    "aStr": "ハングル",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: ハングル. Context: 室町時代に朝鮮で作られた、現在も使われている独自の文字は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background. STRICT REQUIREMENT: ABSOLUTELY NO TEXT, NO LETTERS, NO KANJI, NO NUMBERS, AND NO DATES WHATSOEVER. The image must contain only illustrations.",
+    "filename": "h_medieval_5_ハングル.png"
+  }
+]

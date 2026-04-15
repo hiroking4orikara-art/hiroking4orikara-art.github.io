@@ -1,0 +1,254 @@
+[
+  {
+    "unit": "h_modern_5",
+    "index": 8,
+    "q": "第一次世界大戦の講和条約（ベルサイユ条約）に基づいて作られた、世界平和を守るための国際機関は？",
+    "a": "国際連盟",
+    "comment": "事務次長として新渡戸稲造が活躍しました。",
+    "keyword": "国際連盟",
+    "prompt": "Black and white, historical photograph style, serious tone, no text, no pop art. An image representing 国際連盟 (第一次世界大戦の講和条約（ベルサイユ条約）に基づいて作られた、世界平和を守るための国際機関は？)"
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 6,
+    "q": "民主的な教育を行うために1947年に制定された法律は？",
+    "a": "教育基本法",
+    "comment": "小・中学校の9年間が義務教育となりました。",
+    "keyword": "教育基本法",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 教育基本法 (民主的な教育を行うために1947年に制定された法律は？)"
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 7,
+    "q": "満20歳以上のすべての男女に選挙権が認められ、1946年に行われた選挙で初めて誕生したのは？",
+    "a": "女性議員",
+    "comment": "39名の女性議員が当選しました。",
+    "keyword": "女性議員",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 女性議員 (満20歳以上のすべての男女に選挙権が認められ、1946年に行われた選挙で初めて誕生したのは？)"
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 8,
+    "q": "労働者の権利を守るために制定された、労働基準法・労働組合法・労働関係調整法をまとめて何というか？",
+    "a": "労働三法",
+    "comment": "労働者の地位向上と団結権などが保障されました。",
+    "keyword": "労働三法",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 労働三法 (労働者の権利を守るために制定された、労働基準法・労働組合法・労働関係調整法をまとめて何というか？)"
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 9,
+    "q": "1945年に発足した、戦争を防ぎ世界平和を守るための国際機関は？",
+    "a": "国際連合",
+    "comment": "本部はニューヨークに置かれました。日本は1956年に加盟しました。",
+    "keyword": "国際連合",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 国際連合 (1945年に発足した、戦争を防ぎ世界平和を守るための国際機関は？)"
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 10,
+    "q": "1946年1月1日、昭和天皇が自らを神ではなく人間であると宣言したことを何というか？",
+    "a": "人間宣言",
+    "comment": "国民と共に歩む姿勢を示しました。",
+    "keyword": "人間宣言",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 人間宣言 (1946年1月1日、昭和天皇が自らを神ではなく人間であると宣言したことを何というか？)"
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 3,
+    "q": "1949年、中国共産党が国民党を破って建国し、毛沢東が主席となった国は？",
+    "a": "中華人民共和国",
+    "comment": "敗れた国民党（蔣介石）は台湾に逃れました。",
+    "keyword": "中華人民共和国",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 中華人民共和国 (1949年、中国共産党が国民党を破って建国し、毛沢東が主席となった国は？)"
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 6,
+    "q": "1955年、アジアやアフリカの国々が集まり、植民地主義への反対などを確認した会議は？",
+    "a": "アジア・アフリカ会議（バンドン会議）",
+    "comment": "「第三勢力」としての結束を強めました。",
+    "keyword": "アジア・アフリカ会議",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing アジア・アフリカ会議 (1955年、アジアやアフリカの国々が集まり、植民地主義への反対などを確認した会議は？)"
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 7,
+    "q": "1956年、日本とソ連との間で国交が回復した宣言は？",
+    "a": "日ソ共同宣言",
+    "comment": "鳩山一郎首相が調印しました。これにより日本の国際連合への加盟が実現しました。",
+    "keyword": "日ソ共同宣言",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 日ソ共同宣言 (1956年、日本とソ連との間で国交が回復した宣言は？)"
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 8,
+    "q": "1955年に自由民主党が結成されて以来、野党第一党の社会党と対立しながら約38年間政権を維持した体制は？",
+    "a": "55年体制",
+    "comment": "保守（自民党）と革新（社会党）の対立構造が続きました。",
+    "keyword": "55年体制",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 55年体制 (1955年に自由民主党が結成されて以来、野党第一党の社会党と対立しながら約38年間政権を維持した体制は？)"
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 9,
+    "q": "1960年、日米安全保障条約の改定をめぐって起こった大規模な反対運動は？",
+    "a": "安保闘争",
+    "comment": "岸信介内閣は新条約を批准した後に退陣しました。",
+    "keyword": "安保闘争",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 安保闘争 (1960年、日米安全保障条約の改定をめぐって起こった大規模な反対運動は？)"
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 10,
+    "q": "1949年、日本人として初めてノーベル賞（物理学賞）を受賞した人物は？",
+    "a": "湯川秀樹",
+    "comment": "「中間子理論」の研究で受賞し、戦後の日本人に自信を与えました。",
+    "keyword": "湯川秀樹",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 湯川秀樹 (1949年、日本人として初めてノーベル賞（物理学賞）を受賞した人物は？)"
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 3,
+    "q": "1965年、日本と韓国との間で国交が回復した条約は？",
+    "a": "日韓基本条約",
+    "comment": "佐藤栄作内閣の時に結ばれました。",
+    "keyword": "日韓基本条約",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 日韓基本条約 (1965年、日本と韓国との間で国交が回復した条約は？)"
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 4,
+    "q": "1967年に結成された、東南アジア諸国の地域協力機構は？",
+    "a": "ASEAN（東南アジア諸国連合）",
+    "comment": "経済発展と地域の安定を目指して設立されました。",
+    "keyword": "ASEAN",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing ASEAN (1967年に結成された、東南アジア諸国の地域協力機構は？)"
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 5,
+    "q": "1968年、アメリカの施政権下にあったが、日本への返還が実現した諸島は？（正式な返還は1968年6月）",
+    "a": "小笠原諸島",
+    "comment": "沖縄よりも先に返還されました。",
+    "keyword": "小笠原諸島",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 小笠原諸島 (1968年、アメリカの施政権下にあったが、日本への返還が実現した諸島は？（正式な返還は1968年6月）)"
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 9,
+    "q": "1972年、田中角栄首相が訪中し、中国との国交を正常化した宣言は？",
+    "a": "日中共同声明",
+    "comment": "これにより中華民国（台湾）との国交は断絶しました。",
+    "keyword": "日中共同声明",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 日中共同声明 (1972年、田中角栄首相が訪中し、中国との国交を正常化した宣言は？)"
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 10,
+    "q": "1978年、福田赳夫内閣の時に中国と結ばれた平和条約は？",
+    "a": "日中平和友好条約",
+    "comment": "鄧小平副首相が来日しました。",
+    "keyword": "日中平和友好条約",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 日中平和友好条約 (1978年、福田赳夫内閣の時に中国と結ばれた平和条約は？)"
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 4,
+    "q": "1991年、多国籍軍によるイラクへの攻撃で始まった戦争は？",
+    "a": "湾岸戦争",
+    "comment": "日本は資金援助を行いましたが、人的貢献が不十分だと国際社会から批判されました。",
+    "keyword": "湾岸戦争",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 湾岸戦争 (1991年、多国籍軍によるイラクへの攻撃で始まった戦争は？)"
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 5,
+    "q": "湾岸戦争の反省から、1992年に制定された、自衛隊の海外派遣を可能にした法律は？",
+    "a": "PKO協力法",
+    "comment": "国連平和維持活動（PKO）として、カンボジアなどに派遣されました。",
+    "keyword": "PKO協力法",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing PKO協力法 (湾岸戦争の反省から、1992年に制定された、自衛隊の海外派遣を可能にした法律は？)"
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 6,
+    "q": "1993年、ヨーロッパ諸国が経済・通貨の統合を目指して発足させた組織は？",
+    "a": "EU（欧州連合）",
+    "comment": "マーストリヒト条約によりECから発展しました。",
+    "keyword": "EU",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing EU (1993年、ヨーロッパ諸国が経済・通貨の統合を目指して発足させた組織は？)"
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 7,
+    "q": "1995年1月17日に発生し、高速道路の倒壊や火災などで大きな被害を出した地震は？",
+    "a": "阪神・淡路大震災",
+    "comment": "ボランティア活動が活発化し、「ボランティア元年」とも呼ばれました。",
+    "keyword": "阪神・淡路大震災",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 阪神・淡路大震災 (1995年1月17日に発生し、高速道路の倒壊や火災などで大きな被害を出した地震は？)"
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 8,
+    "q": "1995年、地下鉄サリン事件などを引き起こし、社会を震撼させた宗教団体は？",
+    "a": "オウム真理教",
+    "comment": "無差別テロの恐怖を世界に植え付けました。",
+    "keyword": "オウム真理教",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing オウム真理教 (1995年、地下鉄サリン事件などを引き起こし、社会を震撼させた宗教団体は？)"
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 9,
+    "q": "1989年、竹下登内閣の時に初めて導入された税金は？",
+    "a": "消費税",
+    "comment": "当初の税率は3%でした。",
+    "keyword": "消費税",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 消費税 (1989年、竹下登内閣の時に初めて導入された税金は？)"
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 10,
+    "q": "1993年、細川護煕を首相とする連立政権が誕生し、終わった政治体制は？",
+    "a": "55年体制",
+    "comment": "自民党が初めて野党に転落しました。",
+    "keyword": "55年体制",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 55年体制 (1993年、細川護煕を首相とする連立政権が誕生し、終わった政治体制は？)"
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 0,
+    "q": "2001年9月11日、アメリカでハイジャックされた旅客機が高層ビルに突入した事件は？",
+    "a": "アメリカ同時多発テロ",
+    "comment": "これを受けてアメリカは「テロとの戦い」を宣言し、アフガニスタンなどを攻撃しました。",
+    "keyword": "アメリカ同時多発テロ",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing アメリカ同時多発テロ (2001年9月11日、アメリカでハイジャックされた旅客機が高層ビルに突入した事件は？)"
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 3,
+    "q": "2015年に採択された、すべての国が参加する地球温暖化対策の新たな枠組みは？",
+    "a": "パリ協定",
+    "comment": "産業革命前からの気温上昇を2度未満（できれば1.5度）に抑える目標を掲げました。",
+    "keyword": "パリ協定",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing パリ協定 (2015年に採択された、すべての国が参加する地球温暖化対策の新たな枠組みは？)"
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 4,
+    "q": "2015年、国連で採択された「持続可能な開発目標」をアルファベット4文字で何というか？",
+    "a": "SDGs",
+    "comment": "「貧困をなくそう」など17の目標があります。",
+    "keyword": "SDGs",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing SDGs (2015年、国連で採択された「持続可能な開発目標」をアルファベット4文字で何というか？)"
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 11,
+    "q": "島根県に属するが、韓国が不法に占拠している日本固有の領土は？",
+    "a": "竹島",
+    "comment": "日本に「竹島の日」が制定されています。",
+    "keyword": "竹島",
+    "prompt": "Color, but subdued and serious tone, historical photograph or realistic painting style, no text, no pop art. An image representing 竹島 (島根県に属するが、韓国が不法に占拠している日本固有の領土は？)"
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "unit": "gw_1",
+    "index": 15,
+    "question": "経度180度の線のほぼ上にある、日付が変わる基準となる線を何というか？",
+    "correct": "日付変更線",
+    "image": "assets/images/geography/map_world_blank_pacific_1771577772064.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_1_15.jpg"
+  },
+  {
+    "unit": "gw_1",
+    "index": 23,
+    "question": "アンデス山脈などの高地で飼育されている、毛を利用するための家畜は？",
+    "correct": "アルパカ・リャマ",
+    "image": "assets/images/geography/map_samerica_blank_1771578045409.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_1_23.jpg"
+  },
+  {
+    "unit": "gw_2",
+    "index": 61,
+    "question": "アジア州の中で人口や面積が非常に大きく、首都を北京とするこの国のなまえは？",
+    "correct": "中国",
+    "image": "assets/images/geography/map_asia_blank_1771577832482.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_2_61.jpg"
+  },
+  {
+    "unit": "gw_2",
+    "index": 62,
+    "question": "南アジアに位置し、IT産業が盛んで、近年人口が世界一となったこの国のなまえは？",
+    "correct": "インド",
+    "image": "assets/images/geography/map_asia_blank_1771577832482.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_2_62.jpg"
+  },
+  {
+    "unit": "gw_2",
+    "index": 63,
+    "question": "西アジア（中東）にあり、世界有数の石油の産出国であるこの国のなまえは？",
+    "correct": "サウジアラビア",
+    "image": "assets/images/geography/map_asia_blank_1771577832482.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_2_63.jpg"
+  },
+  {
+    "unit": "gw_3",
+    "index": 54,
+    "question": "ヨーロッパの西部に位置し、ロンドンを首都とする島国は？",
+    "correct": "イギリス",
+    "image": "assets/images/geography/map_europe_blank_1771577854406.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_3_54.jpg"
+  },
+  {
+    "unit": "gw_3",
+    "index": 55,
+    "question": "ヨーロッパ最大の農業国であり、首都パリがあるこの国のなまえは？",
+    "correct": "フランス",
+    "image": "assets/images/geography/map_europe_blank_1771577854406.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_3_55.jpg"
+  },
+  {
+    "unit": "gw_3",
+    "index": 56,
+    "question": "ヨーロッパ最大の工業国で、自動車産業などが盛んなこの国のなまえは？",
+    "correct": "ドイツ",
+    "image": "assets/images/geography/map_europe_blank_1771577854406.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_3_56.jpg"
+  },
+  {
+    "unit": "gw_4",
+    "index": 37,
+    "question": "アフリカ大陸の北東部に位置し、ナイル川が流れピラミッドがあるこの国のなまえは？",
+    "correct": "エジプト",
+    "image": "assets/images/geography/map_africa_blank_1771577902246.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_4_37.jpg"
+  },
+  {
+    "unit": "gw_4",
+    "index": 38,
+    "question": "アフリカ大陸の最南端に位置し、かつてアパルトヘイト（人種隔離政策）が行われていた国は？",
+    "correct": "南アフリカ共和国",
+    "image": "assets/images/geography/map_africa_blank_1771577902246.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_4_38.jpg"
+  },
+  {
+    "unit": "gw_4",
+    "index": 39,
+    "question": "ギニア湾に面し、アフリカで最も人口が多い産油国は？",
+    "correct": "ナイジェリア",
+    "image": "assets/images/geography/map_africa_blank_1771577902246.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_4_39.jpg"
+  },
+  {
+    "unit": "gw_5",
+    "index": 42,
+    "question": "北アメリカの中心に位置し、世界最大の経済力と農業生産力を持つこの国のなまえは？",
+    "correct": "アメリカ合衆国",
+    "image": "assets/images/geography/map_namerica_blank_1771577997657.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_5_42.jpg"
+  },
+  {
+    "unit": "gw_5",
+    "index": 43,
+    "question": "北アメリカ大陸の北部に位置し、世界で2番目に広い面積を持つ国は？",
+    "correct": "カナダ",
+    "image": "assets/images/geography/map_namerica_blank_1771577997657.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_5_43.jpg"
+  },
+  {
+    "unit": "gw_5",
+    "index": 44,
+    "question": "北アメリカの南部にあり、スペイン語が公用語であるこの国のなまえは？",
+    "correct": "メキシコ",
+    "image": "assets/images/geography/map_namerica_blank_1771577997657.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_5_44.jpg"
+  },
+  {
+    "unit": "gw_6",
+    "index": 33,
+    "question": "南アメリカで面積が最も広く、アマゾン川が流れるこの国のなまえは？",
+    "correct": "ブラジル",
+    "image": "assets/images/geography/map_samerica_blank_1771578045409.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_6_33.jpg"
+  },
+  {
+    "unit": "gw_6",
+    "index": 34,
+    "question": "南アメリカ大陸の南部にあり、パンパと呼ばれる大草原が広がる国は？",
+    "correct": "アルゼンチン",
+    "image": "assets/images/geography/map_samerica_blank_1771578045409.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_6_34.jpg"
+  },
+  {
+    "unit": "gw_6",
+    "index": 35,
+    "question": "南アメリカ大陸の西岸に沿って、南北に細長く伸びている国は？",
+    "correct": "チリ",
+    "image": "assets/images/geography/map_samerica_blank_1771578045409.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_6_35.jpg"
+  },
+  {
+    "unit": "gw_7",
+    "index": 30,
+    "question": "オセアニア州で最も広い面積を持ち、鉄鉱石などの資源が豊富なこの国のなまえは？",
+    "correct": "オーストラリア",
+    "image": "assets/images/geography/map_oceania_blank_1771577958434.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_7_30.jpg"
+  },
+  {
+    "unit": "gw_7",
+    "index": 31,
+    "question": "オーストラリアの南東に位置し、北島と南島からなる島国は？",
+    "correct": "ニュージーランド",
+    "image": "assets/images/geography/map_oceania_blank_1771577958434.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gw_7_31.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 0,
+    "question": "九州地方の中央部を北東から南西に走る、険しい山地は？",
+    "correct": "九州山地",
+    "image": "assets/images/geography/map_kyushu_blank_1771591728285.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_3_0.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 2,
+    "question": "九州最大の河川で、「筑紫次郎」の異名を持つ川は？",
+    "correct": "筑後川",
+    "image": "assets/images/geography/map_kyushu_blank_1771591728285.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_3_2.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 33,
+    "question": "九州地方で人口が最も多く、アジアの玄関口とも呼ばれるこの県のなまえは？",
+    "correct": "福岡県",
+    "image": "assets/images/geography/map_kyushu_blank_1771591728285.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_3_33.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 34,
+    "question": "かつては外国との貿易窓口（出島）があり、造船業が盛んなこの県のなまえは？",
+    "correct": "長崎県",
+    "image": "assets/images/geography/map_kyushu_blank_1771591728285.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_3_34.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 35,
+    "question": "シラス台地が広がり、さつまいもや豚肉の生産が盛んなこの県のなまえは？",
+    "correct": "鹿児島県",
+    "image": "assets/images/geo/g_geo_038_kyushu_blank.png",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_3_35.jpg"
+  },
+  {
+    "unit": "gj_4",
+    "index": 0,
+    "question": "中国山地と四国山地に挟まれた、年間を通して降水量が少なく晴れの日が多い地域は？",
+    "correct": "瀬戸内海沿岸（瀬戸内）",
+    "image": "assets/images/geography/map_chugoku_blank_1771591689143.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_4_0.jpg"
+  },
+  {
+    "unit": "gj_4",
+    "index": 4,
+    "question": "水不足を解消するため、吉野川から水を引いて作られた用水路は？",
+    "correct": "香川用水",
+    "image": "assets/images/geography/map_shikoku_blank_1771591711033.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_4_4.jpg"
+  },
+  {
+    "unit": "gj_4",
+    "index": 30,
+    "question": "中国地方にあり、原爆ドームや厳島神社などの世界遺産があるこの県のなまえは？",
+    "correct": "広島県",
+    "image": "assets/images/geography/map_chugoku_blank_1771591689143.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_4_30.jpg"
+  },
+  {
+    "unit": "gj_4",
+    "index": 31,
+    "question": "日本最大級の砂丘があり、らっきょうや梨の栽培が盛んなこの県のなまえは？",
+    "correct": "鳥取県",
+    "image": "assets/images/geography/map_chugoku_blank_1771591689143.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_4_31.jpg"
+  },
+  {
+    "unit": "gj_4",
+    "index": 32,
+    "question": "四国地方で面積が最も広く、南は太平洋に面して温暖なこの県のなまえは？",
+    "correct": "高知県",
+    "image": "assets/images/geography/map_shikoku_blank_1771591711033.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_4_32.jpg"
+  },
+  {
+    "unit": "gj_4",
+    "index": 33,
+    "question": "四国地方にあり、みかんの生産量が全国トップクラスのこの県のなまえは？",
+    "correct": "愛媛県",
+    "image": "assets/images/geography/map_shikoku_blank_1771591711033.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_4_33.jpg"
+  },
+  {
+    "unit": "gj_5",
+    "index": 0,
+    "question": "日本最大の湖で、近畿地方の約1450万人の飲料水として利用されているため「近畿地方の水がめ」と呼ばれるのは？",
+    "correct": "琵琶湖",
+    "image": "assets/images/geography/map_kinki_blank_1771591655064.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_5_0.jpg"
+  },
+  {
+    "unit": "gj_5",
+    "index": 2,
+    "question": "紀伊半島の大部分を占める、険しい山々が連なる地域は？",
+    "correct": "紀伊山地",
+    "image": "assets/images/geography/map_kinki_blank_1771591655064.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_5_2.jpg"
+  },
+  {
+    "unit": "gj_5",
+    "index": 24,
+    "question": "近畿地方の中心であり、江戸時代には「天下の台所」と呼ばれたこの府のなまえは？",
+    "correct": "大阪府",
+    "image": "assets/images/geography/map_kinki_blank_1771591655064.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_5_24.jpg"
+  },
+  {
+    "unit": "gj_5",
+    "index": 25,
+    "question": "日本最大の湖「琵琶湖」があり、近畿地方の水がめとなっているこの県のなまえは？",
+    "correct": "滋賀県",
+    "image": "assets/images/geography/map_kinki_blank_1771591655064.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_5_25.jpg"
+  },
+  {
+    "unit": "gj_5",
+    "index": 26,
+    "question": "紀伊半島の南西部にあり、みかんや梅などの果樹栽培が盛んなこの県のなまえは？",
+    "correct": "和歌山県",
+    "image": "assets/images/geography/map_kinki_blank_1771591655064.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_5_26.jpg"
+  },
+  {
+    "unit": "gj_6",
+    "index": 0,
+    "question": "中部地方の中央部を南北に走る、飛騨・木曽・赤石の3つの山脈の総称は？",
+    "correct": "日本アルプス",
+    "image": "assets/images/geography/map_chubu_blank_1771591636012.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_6_0.jpg"
+  },
+  {
+    "unit": "gj_6",
+    "index": 2,
+    "question": "日本最長の川（長さ約367km）で、越後平野を流れて日本海に注ぐ川は？",
+    "correct": "信濃川",
+    "image": "assets/images/geography/map_chubu_blank_1771591636012.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_6_2.jpg"
+  },
+  {
+    "unit": "gj_6",
+    "index": 16,
+    "question": "中部地方にあり、自動車などの工業出荷額が日本一のこの県のなまえは？",
+    "correct": "愛知県",
+    "image": "assets/images/geography/map_chubu_blank_1771591636012.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_6_16.jpg"
+  },
+  {
+    "unit": "gj_6",
+    "index": 17,
+    "question": "越後平野が広がり、「米どころ」として稲作が非常に盛んなこの県のなまえは？",
+    "correct": "新潟県",
+    "image": "assets/images/geography/map_chubu_blank_1771591636012.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_6_17.jpg"
+  },
+  {
+    "unit": "gj_6",
+    "index": 18,
+    "question": "牧ノ原でお茶の栽培が盛んで、富士山の南側に位置するこの県のなまえは？",
+    "correct": "静岡県",
+    "image": "assets/images/geography/map_chubu_blank_1771591636012.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_6_18.jpg"
+  },
+  {
+    "unit": "gj_7",
+    "index": 0,
+    "question": "日本最大の面積を持つ平野で、関東地方の大部分を占めているのは？",
+    "correct": "関東平野",
+    "image": "assets/images/geography/map_kanto_blank_1771591579833.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_7_0.jpg"
+  },
+  {
+    "unit": "gj_7",
+    "index": 2,
+    "question": "流域面積が日本一の川で、「坂東太郎」の異名を持つ川は？",
+    "correct": "利根川",
+    "image": "assets/images/geography/map_kanto_blank_1771591579833.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_7_2.jpg"
+  },
+  {
+    "unit": "gj_7",
+    "index": 19,
+    "question": "関東地方の北西部にあり、こんにゃくいもの生産やキャベツの抑制栽培が盛んなこの県のなまえは？",
+    "correct": "群馬県",
+    "image": "assets/images/geography/map_kanto_blank_1771591579833.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_7_19.jpg"
+  },
+  {
+    "unit": "gj_7",
+    "index": 20,
+    "question": "成田国際空港があり、落花生などの近郊農業や工業が盛んなこの県のなまえは？",
+    "correct": "千葉県",
+    "image": "assets/images/geography/map_kanto_blank_1771591579833.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_7_20.jpg"
+  },
+  {
+    "unit": "gj_7",
+    "index": 21,
+    "question": "東京の南に位置し、横浜港があり京浜工業地帯の一部となっているこの県のなまえは？",
+    "correct": "神奈川県",
+    "image": "assets/images/geography/map_kanto_blank_1771591579833.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_7_21.jpg"
+  },
+  {
+    "unit": "gj_8",
+    "index": 0,
+    "question": "東北地方の中央部を南北に走る、日本の背骨とも呼ばれる山脈は？",
+    "correct": "奥羽山脈",
+    "image": "assets/images/geography/map_tohoku_blank_1771591614790.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_8_0.jpg"
+  },
+  {
+    "unit": "gj_8",
+    "index": 2,
+    "question": "青森県と秋田県にまたがる山地で、世界最大級のブナの原生林が広がっていることから世界自然遺産に登録されたのは？",
+    "correct": "白神山地",
+    "image": "assets/images/geography/map_tohoku_blank_1771591614790.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_8_2.jpg"
+  },
+  {
+    "unit": "gj_8",
+    "index": 16,
+    "question": "本州の最北端にあり、りんごの生産量が日本一のこの県のなまえは？",
+    "correct": "青森県",
+    "image": "assets/images/geography/map_tohoku_blank_1771591614790.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_8_16.jpg"
+  },
+  {
+    "unit": "gj_8",
+    "index": 17,
+    "question": "さくらんぼの生産量が日本一で、盆地が多いこの県のなまえは？",
+    "correct": "山形県",
+    "image": "assets/images/geography/map_tohoku_blank_1771591614790.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_8_17.jpg"
+  },
+  {
+    "unit": "gj_8",
+    "index": 18,
+    "question": "東北地方の中心都市である仙台市があるこの県のなまえは？",
+    "correct": "宮城県",
+    "image": "assets/images/geography/map_tohoku_blank_1771591614790.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_8_18.jpg"
+  },
+  {
+    "unit": "gj_9",
+    "index": 0,
+    "question": "北海道の中央部にある火山群で、最高峰の旭岳（2291m）などを含む場所は？",
+    "correct": "大雪山",
+    "image": "assets/images/geography/map_hokkaido_blank.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_9_0.jpg"
+  },
+  {
+    "unit": "gj_9",
+    "index": 1,
+    "question": "流域面積が日本第2位の大河で、石狩平野を流れて日本海に注ぐ川は？",
+    "correct": "石狩川",
+    "image": "assets/images/geography/map_hokkaido_blank.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_9_1.jpg"
+  },
+  {
+    "unit": "gj_9",
+    "index": 2,
+    "question": "北海道の東部に位置し、冬には流氷が見られ、世界自然遺産に登録されている半島は？",
+    "correct": "知床半島",
+    "image": "assets/images/geography/map_hokkaido_blank.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_9_2.jpg"
+  },
+  {
+    "unit": "gj_9",
+    "index": 3,
+    "question": "日本最大の湿原で、ラムサール条約に登録されているのは？",
+    "correct": "釧路湿原",
+    "image": "assets/images/geography/map_hokkaido_blank.jpg",
+    "new_image": "assets/images/geography/custom_maps/custom_map_gj_9_3.jpg"
+  }
+]

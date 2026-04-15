@@ -1,0 +1,787 @@
+:root {
+    --primary-color: #e7993c;
+    --primary-dark: #cc7a1e;
+    --bg-color: #fdf6e3;
+    --text-color: #333;
+    --header-text: #fff;
+    --card-bg: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: "Zen Kurenaido", sans-serif;
+    background-color: #2c3e50; /* Darker background for workspace feel */
+    color: var(--text-color);
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app-container {
+    width: 100%;
+    height: 100vh;
+    max-width: 100%; /* Allow expanding to full device width */
+    background-color: var(--bg-color);
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    overflow: hidden; /* Hide overflow outside container */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-shrink: 0; /* Header doesn't shrink */
+    background-color: var(--primary-color);
+    color: var(--header-text);
+    padding: 70px 15px 20px 15px; /* Increased Top padding for generous Safe Area */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 100;
+    position: relative; /* Context for absolute title */
+}
+
+/* ... existing code ... */
+
+h1, h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#page-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content; /* Ensure width fits content */
+    max-width: 60%; /* Prevent overlap with buttons */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Screen Management */
+.screen {
+    display: none;
+    padding: 20px 20px 80px 20px; /* 80px bottom padding for AdMob banner */
+    animation: fadeIn 0.3s ease;
+}
+
+.screen.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.menu-card {
+    background-color: var(--card-bg);
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.menu-card:active {
+    background-color: var(--primary-color);
+    color: white;
+    transform: scale(0.98);
+}
+
+.menu-card i {
+    font-size: 2.5rem;
+}
+
+/* Unit List */
+.unit-item {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.unit-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.unit-title {
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 1.4rem; /* Larger font size */
+}
+
+.unit-count {
+    font-size: 1.0rem;
+    color: #666;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.unit-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.unit-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.btn-video {
+    background-color: #ff9800;
+    color: white;
+}
+
+.btn-quiz {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-material {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: black;
+    padding: 5px;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.close-modal {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    background: #000;
+}
+
+.video-wrapper iframe, .video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: auto; /* Allow scrolling within main content */
+    position: relative;
+    min-height: 0; /* Important for flex scrolling */
+}
+
+/* Full Screen Quiz Styles */
+/* Full Screen Quiz Styles */
+#quiz-screen {
+    background-color: #f0fdf4; /* Very light mint/green tint like the english app */
+    padding: 50px 0 0 0; /* Top padding for Safe Area (Notch) */
+    display: none; /* Hidden by default */
+    flex-direction: column;
+}
+
+#quiz-screen.active {
+    display: flex; /* Flex when active */
+}
+
+.quiz-header {
+    flex-shrink: 0;
+}
+
+.quit-btn {
+    background: #fff;
+    border: 2px solid #ccc;
+    color: #555;
+    padding: 5px 15px; /* Smaller padding */
+    border-radius: 20px; /* Pill shape */
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 1rem; /* Smaller font */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.quit-btn:hover {
+    background: #f5f5f5;
+}
+
+.quiz-status {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.quiz-main-content {
+    flex-grow: 1;
+    padding: 10px 0 100px 0; /* Added 100px bottom padding for AdMob banner */
+    width: 90%; /* Constrain width to avoid edge touching */
+    max-width: 600px;
+    margin: 0 auto; /* Center perfectly */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align smoothly from top */
+    position: relative; /* Context for relative positioning of children if needed, though strictly absolute bg needs container relative */
+    z-index: 1; /* Ensure content is above bg */
+}
+
+#quiz-question-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack question and feedback vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 120px; /* Compact by default */
+    transition: min-height 0.3s ease;
+}
+
+#quiz-question-wrapper.wrapper-large-bg {
+    min-height: 250px; /* Expand only when bg image is present */
+}
+
+#quiz-question-wrapper.wrapper-pop-bg {
+    min-height: 320px; /* Provide enough vertical space so square maps aren't cropped */
+}
+
+#quiz-bg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.5; /* Increased for visibility testing */
+    z-index: 1; /* Behind text (z-index 2) but inside relative container */
+    pointer-events: none;
+    transition: background-image 0.3s ease;
+}
+
+#quiz-question {
+    font-size: 1.5rem !important; /* Smaller question text */
+    margin: 10px 0 !important;
+    word-break: break-word; /* Better wrapping */
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.quiz-options-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Smaller gap */
+    width: 100%;
+    margin-top: 20px; /* Smaller margin */
+}
+
+.quiz-option-btn {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 15px; /* Smaller padding */
+    font-size: 1.1rem; /* Smaller font for options */
+    color: #333;
+    font-family: 'Zen Kurenaido', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.1s, background 0.2s;
+}
+
+.quiz-option-btn:hover {
+    background: #fafafa;
+    transform: translateY(-2px);
+    border-color: #aaa;
+}
+
+.quiz-option-btn:active {
+    transform: translateY(0);
+}
+
+#feedback-comment {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dotted #ccc;
+    margin-top: 10px;
+}
+
+#quiz-result {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto; /* Center horizontally with top margin */
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* --- Information Ticker --- */
+.ticker-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    max-width: 600px; /* Increased to fit chars */
+    margin: 10px auto 0 auto;
+    gap: 5px;
+}
+
+.ticker-char {
+    width: 50px; /* Small size as requested */
+    height: auto;
+    object-fit: contain;
+}
+
+.info-ticker-container {
+    flex-grow: 1;
+    background-color: #333;
+    color: #0f0; /* Green LED style */
+    overflow: hidden;
+    white-space: nowrap;
+    /* width handled by flex */
+    margin: 0; /* Margin handled by wrapper */
+    padding: 8px 0;
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+    border: 2px solid #555;
+    font-family: 'Courier New', Courier, monospace; /* Monospace for retro feel */
+    font-weight: bold;
+    font-size: 1.1rem; /* Slightly larger as requested */
+}
+
+.info-ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+    /* Move by -25% because we have 4 copies. */
+    /* Duration is set by JS for constant speed, fallback to 10s */
+    animation: ticker 10s linear infinite; 
+}
+
+.info-ticker-content span {
+    display: inline-block;
+    padding-right: 50px; /* Gap between messages */
+    white-space: nowrap; /* Prevent wrapping inside span */
+}
+
+@keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-25%); }
+}
+
+/* --- Bottom Navigation --- */
+.app-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0; /* Safe area handled by padding-bottom if needed */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+    border-top: 1px solid #eee;
+    flex-shrink: 0; /* Prevent shrinking */
+    z-index: 90;
+    position: relative;
+    padding-bottom: env(safe-area-inset-bottom, 20px); /* Adjust for iPhone home bar */
+}
+
+/* Hide footer when quiz is active (handled by JS toggling class on body or footer) */
+.app-footer.hidden {
+    display: none;
+}
+
+.nav-icon-btn {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 20px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s;
+}
+
+.nav-icon-btn:active {
+    color: var(--primary-color);
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+
+.nav-label {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.user-nav-container {
+    position: relative;
+}
+
+.user-avatar-placeholder {
+    font-size: 1.2rem;
+    background: #eee;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+}
+
+/* User Menu Popup */
+.user-menu {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 180px;
+    z-index: 100;
+    padding: 0.8rem;
+    display: none; /* Hidden by default via class */
+}
+
+.user-menu.active {
+    display: block;
+}
+
+.user-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.user-menu li {
+    padding: 0.8rem;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    color: #333;
+}
+
+.user-menu li:hover {
+    background-color: #f9f9f9;
+}
+
+.user-menu li.current {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.add-user-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* --- Calendar Modal Styles --- */
+.calendar-modal-content, .stats-modal-content {
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 15px;
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.close-modal-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #999;
+    line-height: 1;
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.icon-text-btn {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    background: #eee;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.calendar-cell {
+    background: white;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    position: relative;
+    color: #333;
+}
+
+.calendar-header {
+    font-weight: bold;
+    background: #fdf6e3; /* Match App BG */
+    aspect-ratio: auto;
+    padding: 5px 0;
+    color: var(--primary-dark);
+}
+
+.calendar-count {
+    font-size: 0.7rem;
+    background: var(--primary-color);
+    color: white;
+    padding: 1px 4px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.calendar-today {
+    border: 2px solid var(--primary-dark);
+}
+
+.calendar-legend {
+    font-size: 0.8rem;
+    text-align: right;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+/* Stats Styles */
+.stats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stats-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.stats-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--primary-dark);
+}
+
+.stats-bar-bg {
+    height: 8px;
+    background: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.stats-bar-fill {
+    height: 100%;
+    background: var(--primary-color);
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+/* Hidden Utility */
+.hidden {
+    display: none !important;
+}
+
+/* --- New Stats Tab Styles --- */
+.stats-modal-wrap {
+    width: 100%; /* updated */
+    max-width: 100%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px; /* Increased Safe area */
+}
+.stats-tabs {
+    display: flex;
+    width: 100%;
+}
+.stats-tab {
+    flex: 1;
+    padding: 15px 5px;
+    text-align: center;
+    border: 2px solid #555;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0; /* updated */
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #ccc;
+    color: white;
+    margin-right: -2px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    transition: all 0.2s;
+}
+.stats-tab:last-child {
+    margin-right: 0;
+}
+.stats-tab.tab-geo { background-color: #a7e4ee; color: #fff; }
+.stats-tab.tab-hist { background-color: #f1b6b6; color: #fff; }
+.stats-tab.tab-civ { background-color: #dca3f2; color: #fff; }
+
+.stats-tab.active {
+    z-index: 2;
+    position: relative;
+    padding-bottom: 12px;
+}
+.stats-tab.tab-geo.active { background-color: #8cdce8; }
+.stats-tab.tab-hist.active { background-color: #e89898; }
+.stats-tab.tab-civ.active { background-color: #cb81e8; }
+
+.stats-content-wrapper {
+    border: none;
+    border-radius: 0; /* updated */
+    padding: 50px 15px 15px 15px; /* Added top padding for ~3 lines of blank space */
+    z-index: 1;
+    position: relative;
+    flex: 1;
+    overflow-y: auto;
+    background-color: #fff;
+}
+.stats-content-wrapper.bg-geo { background-color: #8cdce8; }
+.stats-content-wrapper.bg-hist { background-color: #e89898; }
+.stats-content-wrapper.bg-civ { background-color: #cb81e8; }
+
+/* Styles for stats items inside tabs */
+.stats-chapter-block {
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+.stats-chapter-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.stats-unit-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+.stats-unit-name {
+    flex: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.stats-unit-progress-container {
+    flex: 1;
+    height: 12px;
+    background: #444;
+    border: 1px solid #333;
+    position: relative;
+    margin: 0 10px;
+}
+.stats-unit-progress-bar {
+    height: 100%;
+    background: #3b5998; /* Dark blue progress bar from image */
+}
+.stats-unit-percent {
+    flex: 0 0 35px;
+    text-align: right;
+}
+
+.stats-tab.tab-back { background-color: #95a5a6; color: #fff; }
+.stats-tab.tab-back:active { background-color: #7f8c8d; }

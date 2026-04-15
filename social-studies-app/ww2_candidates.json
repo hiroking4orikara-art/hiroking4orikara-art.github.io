@@ -1,0 +1,176 @@
+[
+  {
+    "unit": "h_modern_6",
+    "answer": "世界恐慌",
+    "question": "1929年、アメリカのニューヨークで株価が大暴落したことから始まった不景気は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "ブロック経済",
+    "question": "世界恐慌の影響で、イギリスやフランスが行った、本国と植民地だけで貿易を行う政策は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "ヒトラー",
+    "question": "ドイツでナチスを率いて独裁政治を行い、ユダヤ人を迫害した人物は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "ガンディー",
+    "question": "インドで「非暴力・不服従」を掲げ、イギリスからの独立運動を指導した人物は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "満州事変",
+    "question": "1931年、日本軍が南満州鉄道を爆破し、中国軍のしわざとして満州を占領した事件は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "国際連盟",
+    "question": "満州事変を批判され、日本が1933年に脱退した国際機関は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "五・一五事件",
+    "question": "1932年、海軍の将校らが首相官邸を襲撃し、犬養毅首相を暗殺した事件は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "二・二六事件",
+    "question": "1936年、陸軍の青年将校らが「昭和維新」を掲げて起こしたクーデター未遂事件は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "日中戦争",
+    "question": "1937年、北京郊外での武力衝突（盧溝橋事件）をきっかけに始まった戦争は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "南京事件",
+    "question": "日中戦争の際、日本軍が占領した中国の首都（当時）で、多くの犠牲者を出したとされる事件は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "国家総動員法",
+    "question": "1938年、戦争のために必要な物資や労働力を、議会の承認なしに動員できるようにした法律は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "八紘一宇",
+    "question": "日中戦争の長期化に伴い、国民の戦争協力を強めるために掲げられたスローガンは？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "大政翼賛会",
+    "question": "戦争に協力するために、すべての政党などが解散して合流した組織は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_6",
+    "answer": "大東亜共栄圏",
+    "question": "近衛文麿内閣が掲げた、欧米の支配からアジアを解放し、共存共栄を目指すという構想は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "日独伊三国同盟",
+    "question": "1940年、日本がドイツ・イタリアと結んだ軍事同盟は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "ABCD包囲陣",
+    "question": "日本への石油や鉄などの輸出を禁止し、経済的に追い詰めたアメリカ・イギリス・中国・オランダの包囲網を何というか？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "太平洋戦争",
+    "question": "1941年、日本軍がハワイの真珠湾を攻撃して始まった戦争は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "ミッドウェー海戦",
+    "question": "太平洋戦争の戦況を大きく転換させた、1942年の海戦は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "学徒出陣",
+    "question": "戦局が悪化し、大学の文系学生なども軍隊に召集されたことを何というか？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "学童疎開",
+    "question": "小学生が集団で地方のお寺などに避難し、親元を離れて生活したことを何というか？",
+    "hasImg": true
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "東京大空襲",
+    "question": "1945年3月、一夜にして10万人以上の死者を出した大規模な空襲は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "沖縄県",
+    "question": "1945年3月、アメリカ軍が上陸し、住民を巻き込む激しい地上戦が行われた場所は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "ヤルタ会談",
+    "question": "1945年2月、米・英・ソの首脳が会談し、ソ連の対日参戦などを決めた会議は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "広島・長崎",
+    "question": "1945年8月6日と9日に、原子爆弾が投下された都市の組み合わせで正しいのは？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "ポツダム宣言",
+    "question": "日本が受け入れて降伏した、連合国軍からの降伏勧告宣言を何というか？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "GHQ",
+    "question": "戦争が終わった後、日本を占領し、改革を行った連合国軍最高司令官総司令部の略称は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "配給制",
+    "question": "戦時中、生活必需品などの不足に対し、切符などを使って配る制度を何というか？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "隣組",
+    "question": "戦時中、住民の団結や監視のために10軒程度で作られた組織は？",
+    "hasImg": false
+  },
+  {
+    "unit": "h_modern_7",
+    "answer": "贅沢（ぜいたく）は敵だ",
+    "question": "戦時中、国民の耐乏生活を強いるために掲げられた代表的なスローガンは？",
+    "hasImg": false
+  }
+]

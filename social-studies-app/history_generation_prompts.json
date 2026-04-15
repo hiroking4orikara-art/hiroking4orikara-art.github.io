@@ -1,0 +1,226 @@
+[
+  {
+    "unit": "h_modern_5",
+    "index": 8,
+    "q": "第一次世界大戦の講和条約（ベルサイユ条約）に基づいて作られた、世界平和を守るための国際機関は？",
+    "keyword": "国際連盟",
+    "filename": "league_of_nations.png",
+    "prompt": "Black and white historical photograph style: A meeting hall or assembly of the League of Nations. Serious and formal tone. No text."
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 6,
+    "q": "民主的な教育を行うために1947年に制定された法律は？",
+    "keyword": "教育基本法",
+    "filename": "fundamental_law_of_education.png",
+    "prompt": "Color but subdued historical style: A realistic depiction of an open textbook or school setting from the post-war era symbolizing education. No text. Serious."
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 7,
+    "q": "満20歳以上のすべての男女に選挙権が認められ、1946年に行われた選挙で初めて誕生したのは？",
+    "keyword": "女性議員",
+    "filename": "female_diet_members.png",
+    "prompt": "Color but subdued historical photograph style: A group of women in formal 1940s attire standing together as representatives. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 8,
+    "q": "労働者の権利を守るために制定された、労働基準法・労働組合法・労働関係調整法をまとめて何というか？",
+    "keyword": "労働三法",
+    "filename": "three_labor_laws.png",
+    "prompt": "Color but subdued historical painting style: Workers in 1940s attire shaking hands or holding tools, symbolizing workers rights. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 9,
+    "q": "1945年に発足した、戦争を防ぎ世界平和を守るための国際機関は？",
+    "keyword": "国際連合",
+    "filename": "united_nations.png",
+    "prompt": "Color but subdued realistic style: The UN headquarters building or a grand assembly hall from the mid-20th century. Official and serious tone. No text."
+  },
+  {
+    "unit": "h_contemporary_1",
+    "index": 10,
+    "q": "1946年1月1日、昭和天皇が自らを神ではなく人間であると宣言したことを何というか？",
+    "keyword": "人間宣言",
+    "filename": "humanity_declaration.png",
+    "prompt": "Color but subdued historical photograph style: A formal portrait setting of a Japanese emperor figure in 1946 attire. Dignified, serious tone. No text."
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 3,
+    "q": "1949年、中国共産党が国民党を破って建国し、毛沢東が主席となった国は？",
+    "keyword": "中華人民共和国",
+    "filename": "prc_founding.png",
+    "prompt": "Color but subdued historical painting style: A grand assembly in Tiananmen Square from 1949, representing the founding of a nation. Serious historical tone, no text."
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 6,
+    "q": "1955年、アジアやアフリカの国々が集まり、植民地主義への反対などを確認した会議は？",
+    "keyword": "アジア・アフリカ会議",
+    "filename": "bandung_conference.png",
+    "prompt": "Color but subdued historical photograph style: Asian and African leaders from the 1950s seated at a conference table. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 7,
+    "q": "1956年、日本とソ連との間で国交が回復した宣言は？",
+    "keyword": "日ソ共同宣言",
+    "filename": "japan_soviet_declaration.png",
+    "prompt": "Color but subdued historical photograph style: Japanese and Soviet leaders in the 1950s shaking hands after signing a document. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 8,
+    "q": "1955年に自由民主党が結成されて以来、野党第一党の社会党と対立しながら約38年間政権を維持した体制は？",
+    "keyword": "55年体制",
+    "filename": "1955_system.png",
+    "prompt": "Color but subdued style: The Japanese Diet (parliament) building exterior viewed in the 1950s. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 9,
+    "q": "1960年、日米安全保障条約の改定をめぐって起こった大規模な反対運動は？",
+    "keyword": "安保闘争",
+    "filename": "anpo_protests.png",
+    "prompt": "Color but subdued historical photograph style: A massive crowd of protesters holding blank banners near the Japanese Diet building in 1960. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_2",
+    "index": 10,
+    "q": "1949年、日本人として初めてノーベル賞（物理学賞）を受賞した人物は？",
+    "keyword": "湯川秀樹",
+    "filename": "hideki_yukawa.png",
+    "prompt": "Color but subdued historical portrait style: A Japanese scientist in a suit from the 1940s standing by a blackboard with abstract physics diagrams (no readable text). Serious."
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 3,
+    "q": "1965年、日本と韓国との間で国交が回復した条約は？",
+    "keyword": "日韓基本条約",
+    "filename": "japan_korea_treaty.png",
+    "prompt": "Color but subdued historical photograph style: Japanese and South Korean officials in the 1960s shaking hands across a table. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 4,
+    "q": "1967年に結成された、東南アジア諸国の地域協力機構は？",
+    "keyword": "ASEAN",
+    "filename": "asean_founding.png",
+    "prompt": "Color but subdued historical photograph style: Southeast Asian leaders shaking hands in a line in 1967. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 5,
+    "q": "1968年、アメリカの施政権下にあったが、日本への返還が実現した諸島は？（正式な返還は1968年6月）",
+    "keyword": "小笠原諸島",
+    "filename": "ogasawara_islands.png",
+    "prompt": "Color but subdued realistic style: A landscape of the Ogasawara islands in a retro 1960s photo style (beautiful beach but serious tone). No text."
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 9,
+    "q": "1972年、田中角栄首相が訪中し、中国との国交を正常化した宣言は？",
+    "keyword": "日中共同声明",
+    "filename": "japan_china_communique.png",
+    "prompt": "Color but subdued historical photograph style: Japanese and Chinese leaders shaking hands in 1972. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_3",
+    "index": 10,
+    "q": "1978年、福田赳夫内閣の時に中国と結ばれた平和条約は？",
+    "keyword": "日中平和友好条約",
+    "filename": "japan_china_peace_treaty.png",
+    "prompt": "Color but subdued historical photograph style: Japanese and Chinese leaders exchanging documents in 1978. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 4,
+    "q": "1991年、多国籍軍によるイラクへの攻撃で始まった戦争は？",
+    "keyword": "湾岸戦争",
+    "filename": "gulf_war.png",
+    "prompt": "Color but subdued realistic style: Desert military operation from the 1990s, tanks in the distance at dusk. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 5,
+    "q": "湾岸戦争の反省から、1992年に制定された、自衛隊の海外派遣を可能にした法律は？",
+    "keyword": "PKO協力法",
+    "filename": "pko_cooperation.png",
+    "prompt": "Color but subdued realistic style: Peacekeepers with blue helmets building infrastructure or helping locals. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 6,
+    "q": "1993年、ヨーロッパ諸国が経済・通貨の統合を目指して発足させた組織は？",
+    "keyword": "EU",
+    "filename": "eu_founding.png",
+    "prompt": "Color but subdued realistic style: European flags (without specific text) flying in front of an official building, symbolizing unity in the 1990s. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 7,
+    "q": "1995年1月17日に発生し、高速道路の倒壊や火災などで大きな被害を出した地震は？",
+    "keyword": "阪神・淡路大震災",
+    "filename": "great_hanshin_earthquake.png",
+    "prompt": "Color but subdued realistic style: A collapsed highway in an urban setting, representing a major earthquake disaster. Very solemn and serious tone. No text."
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 8,
+    "q": "1995年、地下鉄サリン事件などを引き起こし、社会を震撼させた宗教団体は？",
+    "keyword": "オウム真理教",
+    "filename": "aum_shinrikyo_incident.png",
+    "prompt": "Color but subdued photojournalism style: Emergency responders and ambulances at a subway entrance in 1995. Dark, serious tone. No text."
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 9,
+    "q": "1989年、竹下登内閣の時に初めて導入された税金は？",
+    "keyword": "消費税",
+    "filename": "consumption_tax_intro.png",
+    "prompt": "Color but subdued realistic style: A cash register and Japanese coins from 1989 on a counter. Serious economic tone, no text."
+  },
+  {
+    "unit": "h_contemporary_4",
+    "index": 10,
+    "q": "1993年、細川護煕を首相とする連立政権が誕生し、終わった政治体制は？",
+    "keyword": "55年体制",
+    "filename": "1955_system.png",
+    "prompt": "Color but subdued style: The Japanese Diet (parliament) building exterior viewed in the 1950s. Serious tone, no text."
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 0,
+    "q": "2001年9月11日、アメリカでハイジャックされた旅客機が高層ビルに突入した事件は？",
+    "keyword": "アメリカ同時多発テロ",
+    "filename": "september_11_attacks.png",
+    "prompt": "Color but subdued realistic style: Smoke billowing in a city skyline across a river, viewed from a distance. Somber, serious tone. No text."
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 3,
+    "q": "2015年に採択された、すべての国が参加する地球温暖化対策の新たな枠組みは？",
+    "keyword": "パリ協定",
+    "filename": "paris_agreement.png",
+    "prompt": "Color but subdued realistic style: A gavel and a globe on a desk representing international climate agreements. Serious, professional tone. No text."
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 4,
+    "q": "2015年、国連で採択された「持続可能な開発目標」をアルファベット4文字で何というか？",
+    "keyword": "SDGs",
+    "filename": "sdgs.png",
+    "prompt": "Color but subdued realistic style: A grid of abstract colorful squares without any icons or text, symbolizing sustainable goals. Professional tone."
+  },
+  {
+    "unit": "h_contemporary_5",
+    "index": 11,
+    "q": "島根県に属するが、韓国が不法に占拠している日本固有の領土は？",
+    "keyword": "竹島",
+    "filename": "takeshima.png",
+    "prompt": "Color but subdued realistic style: A rocky island in the middle of the sea. Serious geographic tone. No text."
+  }
+]

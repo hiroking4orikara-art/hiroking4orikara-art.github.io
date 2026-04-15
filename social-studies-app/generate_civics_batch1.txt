@@ -1,0 +1,42 @@
+/* RUN THIS IN ANTIGRAVITY TOOL CALLS */
+
+// Question: 特定の集団や属性に対して、多くの人が持っている固定的なイメージを何というか？
+// Answer: ステレオタイプ
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"ステレオタイプ\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_________1773667205756.png" });
+
+// Question: 日本の伝統的な文化財のうち、演劇や音楽などの形のないものを何というか？
+// Answer: 無形文化財
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"無形文化財\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_cultural_properties_1773667205757.png" });
+
+// Question: 異なる文化を持つ人々が、互いの文化を尊重し合い、対等な関係を築くことを何というか？
+// Answer: 異文化理解
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"異文化理解\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_______1773667205758.png" });
+
+// Question: テレビや新聞など、大量の情報を不特定多数の人々に伝達する手段を何というか？
+// Answer: マスメディア
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"マスメディア\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new________1773667205759.png" });
+
+// Question: 人間の知的創作活動によって生み出されたものを、創作者が独占的に利用できる権利は？
+// Answer: 知的財産権
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"知的財産権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_rights_1773667205760.png" });
+
+// Question: 新しい技術や発明をした人に与えられる、一定期間その発明を独占できる権利は？
+// Answer: 特許権
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"特許権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_rights_1773667205761.png" });
+
+// Question: 七五三や成人式のように、人生の区切りに行われる儀式を何というか？
+// Answer: 通過儀礼
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"通過儀礼\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new______1773667205762.png" });
+
+// Question: 地域住民が親睦を深め、住みよい地域を作るために自主的に組織する団体は？
+// Answer: 町内会・自治会
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"町内会・自治会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_________1773667205763.png" });
+
+// Question: 異なる文化が接触したときに生じる、誤解や対立を何というか？
+// Answer: 文化摩擦
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"文化摩擦\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_conflict_1773667205764.png" });
+
+// Question: 食料自給率の低下や、輸入食品の安全性などが問題となっている、食に関する課題を何というか？
+// Answer: 食の安全・安心
+// await generate_image({ Prompt: "A conceptual and educational illustration representing \"食の安全・安心\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image.", ImageName: "g_civics_new_self_sufficiency_rate_1773667205765.png" });
+

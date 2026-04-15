@@ -1,0 +1,4 @@
+// I need to use the agent tool `generate_image`. 
+// I can only call the tool a few times per turn.
+// Doing it sequentially via the agent loop will take 238 turns.
+// Let me first add the generated ones to quizData.js then notify the user.

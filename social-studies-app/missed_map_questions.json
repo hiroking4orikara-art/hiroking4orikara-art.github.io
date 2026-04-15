@@ -1,0 +1,93 @@
+[
+  {
+    "unit": "gw_1",
+    "index": 24,
+    "question": "地中海沿岸で見られる、夏の乾燥と冬の降雨という気候は何というか？",
+    "correct": "地中海性気候",
+    "image": "assets/images/geography/g_special_mediterranean_climate_1773760512743.jpg"
+  },
+  {
+    "unit": "gw_1",
+    "index": 53,
+    "question": "イタリアやフランスなどで盛んな、オリーブやブドウを作る農業を何というか？",
+    "correct": "地中海式農業",
+    "image": ""
+  },
+  {
+    "unit": "gw_3",
+    "index": 3,
+    "question": "ヨーロッパ北部を流れ、複数の国を通って黒海や北海に注ぐ川のことを何というか？",
+    "correct": "国際河川",
+    "image": ""
+  },
+  {
+    "unit": "gw_3",
+    "index": 5,
+    "question": "偏西風と暖流の影響で、高緯度のわりに冬でも温暖な気候を何というか？",
+    "correct": "西岸海洋性気候",
+    "image": ""
+  },
+  {
+    "unit": "gw_3",
+    "index": 6,
+    "question": "ヨーロッパ西岸沖を流れる暖流を何というか？",
+    "correct": "北大西洋海流",
+    "image": ""
+  },
+  {
+    "unit": "gw_3",
+    "index": 9,
+    "question": "地中海沿岸で盛んな、夏の乾燥に強い作物を育てる農業を何というか？",
+    "correct": "地中海式農業",
+    "image": "assets/images/geography/geo_olive_1771577049585.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 5,
+    "question": "潮の満ち引きの差が大きく、広大な干潟が見られる九州北西部の海は？",
+    "correct": "有明海",
+    "image": "assets/images/history/h_medieval_5_ming.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 14,
+    "question": "サンゴ礁が発達し、温暖な亜熱帯気候が見られる南西諸島の県は？",
+    "correct": "沖縄県",
+    "image": "assets/images/history/h_modern_7_okinawa_sen_1772302848029.jpg"
+  },
+  {
+    "unit": "gj_3",
+    "index": 31,
+    "question": "アメリカ軍基地が多く存在し、パイナップルやサトウキビの栽培が盛んな県は？",
+    "correct": "沖縄県",
+    "image": "assets/images/history/h_modern_7_okinawa_sen_1772302848029.jpg"
+  },
+  {
+    "unit": "gj_5",
+    "index": 4,
+    "question": "志摩半島などで見られる、海岸線が複雑に入り組んだ地形を何というか？",
+    "correct": "リアス海岸",
+    "image": ""
+  },
+  {
+    "unit": "gj_5",
+    "index": 9,
+    "question": "神戸市の沿岸部を埋め立てて造られた、ポートアイランドや六甲アイランドのような人工島を何というか？",
+    "correct": "人工島",
+    "image": ""
+  },
+  {
+    "unit": "gj_7",
+    "index": 9,
+    "question": "東京湾岸の埋立地を開発して生まれた、お台場や有明などの新しい商業・居住エリアを何というか？",
+    "correct": "臨海副都心",
+    "image": ""
+  },
+  {
+    "unit": "gj_8",
+    "index": 3,
+    "question": "三陸海岸南部に見られる、複雑に入り組んだ海岸地形を何というか？",
+    "correct": "リアス海岸",
+    "image": ""
+  }
+]

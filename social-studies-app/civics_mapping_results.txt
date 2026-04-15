@@ -1,0 +1,230 @@
+UNMATCHED: [c_02_human_rights Q28] "介助犬"
+UNMATCHED: [c_02_human_rights Q29] "ジニ係数"
+UNMATCHED: [c_02_human_rights Q30] "婚姻"
+UNMATCHED: [c_02_human_rights Q31] "権利"
+UNMATCHED: [c_02_human_rights Q32] "義務"
+UNMATCHED: [c_02_human_rights Q33] "基本的人権"
+UNMATCHED: [c_02_human_rights Q34] "アメリカ合衆国憲法"
+MATCHED: [c_02_human_rights Q35] "ワイマール憲法" -> g_civics_1_weimar_constitution_1773475478108.png (Score: 50)
+UNMATCHED: [c_02_human_rights Q36] "主権者"
+UNMATCHED: [c_02_human_rights Q37] "大日本帝国憲法（明治憲法）"
+UNMATCHED: [c_02_human_rights Q38] "ロック"
+UNMATCHED: [c_02_human_rights Q39] "主権平等の原則"
+MATCHED: [c_02_human_rights Q40] "子どもの権利条約（児童の権利条約）" -> g_civics_41_rights_1773581277746.png (Score: 50)
+UNMATCHED: [c_02_human_rights Q41] "参加する権利"
+MATCHED: [c_02_human_rights Q42] "USMCA" -> g_civics_46_usmca_1773583012380.png (Score: 10)
+MATCHED: [c_02_human_rights Q43] "WTO" -> g_civics_48_wto_1773583627153.png (Score: 10)
+MATCHED: [c_02_human_rights Q44] "EPA" -> g_civics_48_epa_1773583640184.png (Score: 10)
+MATCHED: [c_02_human_rights Q45] "TPP" -> g_civics_48_tpp_1773583656472.png (Score: 10)
+UNMATCHED: [c_02_human_rights Q46] "人間の安全保障"
+MATCHED: [c_02_human_rights Q47] "拒否権" -> g_civics_50_veto_power_1773584350813.png (Score: 50)
+UNMATCHED: [c_02_human_rights Q48] "経済社会理事会"
+UNMATCHED: [c_03_politics Q29] "リコール（解職請求）"
+UNMATCHED: [c_03_politics Q35] "予算"
+UNMATCHED: [c_03_politics Q36] "歳入"
+UNMATCHED: [c_03_politics Q37] "歳出"
+UNMATCHED: [c_03_politics Q38] "3R（3つのR）"
+MATCHED: [c_03_politics Q39] "国債" -> g_civics_30_government_1773548232644.png (Score: 50)
+UNMATCHED: [c_03_politics Q40] "地方債"
+UNMATCHED: [c_03_politics Q41] "財政投融資"
+UNMATCHED: [c_03_politics Q42] "貨幣"
+UNMATCHED: [c_03_politics Q43] "為替相場（為替レート）"
+UNMATCHED: [c_03_politics Q44] "社会福祉"
+UNMATCHED: [c_03_politics Q45] "介護保険制度"
+UNMATCHED: [c_03_politics Q46] "四大公害病"
+UNMATCHED: [c_03_politics Q47] "ダイオキシン"
+UNMATCHED: [c_03_politics Q48] "住民運動"
+MATCHED: [c_03_politics Q49] "円高" -> g_civics_34_strong_yen_1773563365633.png (Score: 50)
+UNMATCHED: [c_03_politics Q50] "円安"
+MATCHED: [c_03_politics Q51] "社会保障" -> g_civics_34_social_security_1773563396666.png (Score: 50)
+UNMATCHED: [c_03_politics Q52] "社会保険"
+UNMATCHED: [c_03_politics Q53] "医療保険"
+UNMATCHED: [c_03_politics Q54] "年金保険"
+UNMATCHED: [c_03_politics Q55] "雇用保険"
+UNMATCHED: [c_03_politics Q56] "労災保険"
+UNMATCHED: [c_03_politics Q57] "ゼロエミッション"
+UNMATCHED: [c_03_politics Q58] "不良債権"
+UNMATCHED: [c_03_politics Q59] "ソフト"
+UNMATCHED: [c_03_politics Q60] "情報技術産業（IT産業）"
+UNMATCHED: [c_03_politics Q61] "ベンチャー企業"
+UNMATCHED: [c_03_politics Q62] "有限エネルギー"
+UNMATCHED: [c_03_politics Q63] "再生可能エネルギー"
+UNMATCHED: [c_03_politics Q64] "代替エネルギー"
+UNMATCHED: [c_03_politics Q65] "ユビキタス社会"
+MATCHED: [c_03_politics Q66] "情報リテラシー" -> g_civics_37_information_literacy_1773564914319.png (Score: 50)
+UNMATCHED: [c_03_politics Q67] "情報モラル"
+UNMATCHED: [c_03_politics Q68] "人工知能（AI）"
+UNMATCHED: [c_03_politics Q69] "自給率"
+MATCHED: [c_03_politics Q70] "情報社会（IT社会）" -> g_civics_37_information_society_1773564999779.png (Score: 50)
+MATCHED: [c_03_politics Q71] "IoT" -> g_civics_37_iot_1773565028857.png (Score: 10)
+MATCHED: [c_03_politics Q72] "SNS" -> g_civics_38_sns_1773565154157.png (Score: 10)
+UNMATCHED: [c_03_politics Q73] "バーチャルリアリティ（VR）"
+UNMATCHED: [c_03_politics Q74] "デジタルディバイド（情報格差）"
+UNMATCHED: [c_03_politics Q75] "外国人登録者"
+UNMATCHED: [c_03_politics Q76] "国際協力"
+UNMATCHED: [c_03_politics Q77] "国際分業"
+MATCHED: [c_03_politics Q78] "多文化社会（多文化共生社会）" -> g_civics_38_multicultural_society_1773565249931.png (Score: 50)
+UNMATCHED: [c_03_politics Q79] "平均寿命"
+UNMATCHED: [c_03_politics Q80] "出生率"
+UNMATCHED: [c_03_politics Q81] "少子化社会対策基本法"
+UNMATCHED: [c_03_politics Q82] "老老介護"
+UNMATCHED: [c_03_politics Q83] "1億総活躍社会"
+UNMATCHED: [c_03_politics Q84] "科学"
+MATCHED: [c_03_politics Q85] "伝統文化" -> g_civics_39_traditional_culture_1773565461568.png (Score: 50)
+MATCHED: [c_03_politics Q86] "年中行事" -> g_civics_39_annual_events_1773565476098.png (Score: 50)
+UNMATCHED: [c_03_politics Q87] "文化財"
+UNMATCHED: [c_03_politics Q88] "クールジャパン"
+UNMATCHED: [c_03_politics Q89] "合計特殊出生率"
+UNMATCHED: [c_03_politics Q90] "家族"
+MATCHED: [c_03_politics Q91] "核家族世帯" -> g_civics_39_family_1773565528418.png (Score: 50)
+UNMATCHED: [c_03_politics Q92] "民法"
+UNMATCHED: [c_03_politics Q93] "晩婚化"
+UNMATCHED: [c_03_politics Q94] "相続"
+UNMATCHED: [c_03_politics Q95] "夫婦別姓"
+UNMATCHED: [c_03_politics Q96] "待機児童"
+UNMATCHED: [c_03_politics Q97] "少子高齢社会"
+UNMATCHED: [c_03_politics Q98] "社会集団"
+UNMATCHED: [c_03_politics Q99] "社会的存在"
+UNMATCHED: [c_03_politics Q100] "対立"
+UNMATCHED: [c_03_politics Q101] "効率"
+UNMATCHED: [c_03_politics Q102] "公正"
+UNMATCHED: [c_03_politics Q103] "合意"
+UNMATCHED: [c_03_politics Q104] "ルール（きまり）"
+UNMATCHED: [c_03_politics Q105] "マグナカルタ（大憲章）"
+UNMATCHED: [c_03_politics Q106] "権利の章典"
+UNMATCHED: [c_03_politics Q107] "省資源・省エネルギー"
+UNMATCHED: [c_03_politics Q108] "ハイブリッドカー"
+UNMATCHED: [c_03_politics Q109] "電気自動車"
+UNMATCHED: [c_03_politics Q110] "燃料電池車"
+UNMATCHED: [c_03_politics Q111] "地球温暖化防止京都会議"
+MATCHED: [c_03_politics Q112] "COP" -> g_civics_43_cop_1773581887405.png (Score: 10)
+MATCHED: [c_03_politics Q113] "気候変動枠組条約締約国会議" -> g_civics_11_national_diet_1773503007142.png (Score: 50)
+UNMATCHED: [c_03_politics Q114] "パリ協定"
+UNMATCHED: [c_03_politics Q115] "識字率"
+UNMATCHED: [c_03_politics Q116] "主権国家"
+UNMATCHED: [c_03_politics Q117] "アジア・アフリカ会議（バンドン会議）"
+UNMATCHED: [c_03_politics Q118] "国際社会"
+UNMATCHED: [c_03_politics Q119] "国歌"
+UNMATCHED: [c_03_politics Q120] "国旗"
+UNMATCHED: [c_03_politics Q121] "マイクロクレジット"
+UNMATCHED: [c_03_politics Q122] "ストリートチルドレン"
+MATCHED: [c_03_politics Q123] "GNI" -> g_civics_46_gni_1773582970928.png (Score: 10)
+UNMATCHED: [c_03_politics Q124] "地雷"
+MATCHED: [c_03_politics Q125] "PTBT" -> g_civics_47_ptbt_1773583327513.png (Score: 10)
+MATCHED: [c_03_politics Q126] "NPT" -> g_civics_47_npt_1773583341020.png (Score: 10)
+UNMATCHED: [c_03_politics Q127] "テロリズム（テロ）"
+UNMATCHED: [c_03_politics Q128] "同時多発テロ"
+UNMATCHED: [c_03_politics Q129] "イラク戦争"
+UNMATCHED: [c_03_politics Q130] "IS（イスラム国）"
+MATCHED: [c_03_politics Q131] "NPO（非営利組織）" -> g_civics_49_npo_1773583913643.png (Score: 60)
+MATCHED: [c_03_politics Q132] "特定非営利活動促進法（NPO法）" -> g_civics_49_npo_act_1773583929358.png (Score: 50)
+UNMATCHED: [c_03_politics Q133] "PDCAサイクル"
+UNMATCHED: [c_03_politics Q134] "6か国協議"
+UNMATCHED: [c_03_politics Q135] "サミット（主要国首脳会議）"
+MATCHED: [c_03_politics Q136] "ODA" -> g_civics_50_oda_1773584275124.png (Score: 10)
+MATCHED: [c_03_politics Q137] "JICA（国際協力機構）" -> g_civics_50_jica_1773584288261.png (Score: 10)
+UNMATCHED: [c_03_politics Q138] "集団安全保障"
+MATCHED: [c_03_politics Q139] "国際司法裁判所" -> g_civics_14_courts_1773504084087.png (Score: 50)
+UNMATCHED: [c_04_economy Q2] "寡占（かせん）"
+UNMATCHED: [c_04_economy Q15] "プライマリー・バランス"
+UNMATCHED: [c_04_economy Q20] "多重債務"
+UNMATCHED: [c_04_economy Q29] "寡占（かせん）"
+UNMATCHED: [c_04_economy Q30] "非価格競争"
+UNMATCHED: [c_04_economy Q33] "仲裁"
+UNMATCHED: [c_04_economy Q34] "確定申告"
+UNMATCHED: [c_04_economy Q35] "財政"
+UNMATCHED: [c_04_economy Q36] "景気"
+UNMATCHED: [c_04_economy Q37] "景気変動（景気循環）"
+UNMATCHED: [c_04_economy Q38] "好景気（好況）"
+UNMATCHED: [c_04_economy Q39] "減税"
+UNMATCHED: [c_04_economy Q40] "公債"
+UNMATCHED: [c_04_economy Q41] "通貨"
+UNMATCHED: [c_04_economy Q42] "為替"
+UNMATCHED: [c_04_economy Q43] "消費税"
+UNMATCHED: [c_04_economy Q44] "所得税"
+MATCHED: [c_04_economy Q45] "累進課税" -> g_civics_30_tax_1773548256683.png (Score: 50)
+UNMATCHED: [c_04_economy Q46] "公的扶助"
+UNMATCHED: [c_04_economy Q47] "環境税"
+UNMATCHED: [c_04_economy Q48] "金融の自由化"
+UNMATCHED: [c_04_economy Q49] "デフレスパイラル"
+MATCHED: [c_04_economy Q50] "グローバル化" -> g_civics_37_globalization_1773564958033.png (Score: 50)
+UNMATCHED: [c_04_economy Q51] "インターネットバンキング"
+MATCHED: [c_04_economy Q52] "契約" -> g_civics_23_consumer_contract_act_1773545506699.png (Score: 50)
+UNMATCHED: [c_04_economy Q53] "先進工業国（先進国）"
+UNMATCHED: [c_04_economy Q54] "発展途上国"
+UNMATCHED: [c_04_economy Q55] "新興国"
+UNMATCHED: [c_04_economy Q56] "南北問題"
+UNMATCHED: [c_04_economy Q57] "南南問題"
+UNMATCHED: [c_04_economy Q58] "地域主義（リージョナリズム）"
+MATCHED: [c_04_economy Q59] "GNP" -> g_civics_46_gnp_1773582944219.png (Score: 10)
+MATCHED: [c_04_economy Q60] "GDP" -> g_civics_46_gdp_1773582958296.png (Score: 10)
+MATCHED: [c_04_economy Q61] "APEC" -> g_civics_46_apec_1773582984693.png (Score: 10)
+MATCHED: [c_04_economy Q62] "FTA" -> g_civics_46_fta_1773582997177.png (Score: 10)
+UNMATCHED: [c_04_economy Q63] "アジアNIES"
+MATCHED: [c_04_economy Q64] "UNCTAD" -> g_civics_48_unctad_1773583584906.png (Score: 10)
+MATCHED: [c_04_economy Q65] "OECD" -> g_civics_48_oecd_1773583598442.png (Score: 10)
+UNMATCHED: [c_04_economy Q66] "専門機関"
+UNMATCHED: [c_04_economy Q67] "ILO"
+UNMATCHED: [c_05_global_society Q2] "中国"
+UNMATCHED: [c_05_global_society Q9] "PKO（国連平和維持活動）"
+UNMATCHED: [c_05_global_society Q10] "ラムサール条約"
+UNMATCHED: [c_05_global_society Q11] "ワシントン条約"
+UNMATCHED: [c_05_global_society Q13] "イタイイタイ病"
+UNMATCHED: [c_05_global_society Q18] "オゾン層"
+UNMATCHED: [c_05_global_society Q19] "酸性雨"
+UNMATCHED: [c_05_global_society Q20] "砂漠化"
+UNMATCHED: [c_05_global_society Q21] "レアメタル（希少金属）"
+UNMATCHED: [c_05_global_society Q30] "バイオ燃料"
+UNMATCHED: [c_05_global_society Q31] "ILO（国際労働機関）"
+UNMATCHED: [c_05_global_society Q33] "ウィーン条約"
+UNMATCHED: [c_05_global_society Q34] "ワシントン条約"
+UNMATCHED: [c_05_global_society Q36] "公害対策基本法"
+UNMATCHED: [c_05_global_society Q37] "環境基本法"
+UNMATCHED: [c_05_global_society Q38] "環境省"
+UNMATCHED: [c_05_global_society Q39] "循環型社会"
+UNMATCHED: [c_05_global_society Q40] "公衆衛生"
+UNMATCHED: [c_05_global_society Q41] "PPP（汚染者負担の原則）"
+UNMATCHED: [c_05_global_society Q42] "循環型社会形成推進基本法"
+UNMATCHED: [c_05_global_society Q43] "国立公園"
+UNMATCHED: [c_05_global_society Q44] "エコマーク"
+UNMATCHED: [c_05_global_society Q45] "グローバル・スタンダード"
+UNMATCHED: [c_05_global_society Q46] "インターネット"
+UNMATCHED: [c_05_global_society Q47] "国際競争"
+UNMATCHED: [c_05_global_society Q48] "家制度"
+UNMATCHED: [c_05_global_society Q49] "京都議定書"
+UNMATCHED: [c_05_global_society Q50] "地球環境問題"
+UNMATCHED: [c_05_global_society Q51] "国連人間環境会議"
+MATCHED: [c_05_global_society Q52] "国連環境計画（UNEP）" -> g_civics_43_unep_1773581839382.png (Score: 10)
+UNMATCHED: [c_05_global_society Q53] "国連環境開発会議（地球サミット）"
+UNMATCHED: [c_05_global_society Q54] "持続可能な開発"
+UNMATCHED: [c_05_global_society Q55] "気候変動枠組条約（地球温暖化防止条約）"
+UNMATCHED: [c_05_global_society Q56] "ナショナル・トラスト"
+UNMATCHED: [c_05_global_society Q57] "内政不干渉の原則"
+MATCHED: [c_05_global_society Q58] "アフリカ開発会議（TICAD）" -> g_civics_45_ticad_1773582603582.png (Score: 10)
+UNMATCHED: [c_05_global_society Q59] "国際法"
+UNMATCHED: [c_05_global_society Q60] "ハンガーマップ"
+UNMATCHED: [c_05_global_society Q61] "国際連合"
+UNMATCHED: [c_05_global_society Q62] "オタワ条約"
+UNMATCHED: [c_05_global_society Q63] "核軍縮交渉"
+UNMATCHED: [c_05_global_society Q64] "INF全廃条約（中距離核戦力全廃条約）"
+UNMATCHED: [c_05_global_society Q65] "START（戦略兵器削減条約）"
+MATCHED: [c_05_global_society Q66] "UNESCO" -> g_civics_47_unesco_1773583354088.png (Score: 10)
+MATCHED: [c_05_global_society Q67] "WHO" -> g_civics_48_who_1773583527331.png (Score: 10)
+MATCHED: [c_05_global_society Q68] "IMF" -> g_civics_48_imf_1773583541428.png (Score: 10)
+MATCHED: [c_05_global_society Q69] "UNICEF" -> g_civics_48_unicef_1773583556642.png (Score: 10)
+MATCHED: [c_05_global_society Q70] "UNHCR" -> g_civics_48_unhcr_1773583569153.png (Score: 10)
+MATCHED: [c_05_global_society Q71] "IAEA" -> g_civics_48_iaea_1773583612847.png (Score: 10)
+MATCHED: [c_05_global_society Q72] "NGO（非政府組織）" -> g_civics_49_ngo_1773583896329.png (Score: 10)
+MATCHED: [c_05_global_society Q73] "SDGs（持続可能な開発目標）" -> g_civics_49_sdgs_1773583974277.png (Score: 10)
+MATCHED: [c_05_global_society Q74] "CTBT（包括的核実験禁止条約）" -> g_civics_50_ctbt_1773584213024.png (Score: 10)
+UNMATCHED: [c_05_global_society Q75] "核兵器禁止条約"
+UNMATCHED: [c_05_global_society Q76] "海外協力隊"
+UNMATCHED: [c_05_global_society Q77] "国連総会"
+UNMATCHED: [c_05_global_society Q78] "安全保障理事会"
+UNMATCHED: [c_05_global_society Q79] "PKO"
+UNMATCHED: [c_05_global_society Q80] "国連平和維持活動協力法（PKO協力法）"
+UNMATCHED: [cw_1 Q8] "日本国憲法"
+UNMATCHED: [cw_1 Q9] "平和主義"
+MATCHED: [cw_1 Q10] "外国人参政権" -> g_civics_5_political_rights_1773480811046.png (Score: 50)
+UNMATCHED: [cw_1 Q18] "身体の自由"
+UNMATCHED: [cw_1 Q19] "黙秘権"

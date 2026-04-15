@@ -1,0 +1,1640 @@
+[
+  {
+    "section": "c_1",
+    "index": 10,
+    "question": "特定の集団や属性に対して、多くの人が持っている固定的なイメージを何というか？",
+    "answer": "ステレオタイプ",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205756.png",
+    "prompt": "A conceptual and educational illustration representing \"ステレオタイプ\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 13,
+    "question": "日本の伝統的な文化財のうち、演劇や音楽などの形のないものを何というか？",
+    "answer": "無形文化財",
+    "keyword": "cultural_properties",
+    "filename": "g_civics_new_cultural_properties_1773667205757.png",
+    "prompt": "A conceptual and educational illustration representing \"無形文化財\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 14,
+    "question": "異なる文化を持つ人々が、互いの文化を尊重し合い、対等な関係を築くことを何というか？",
+    "answer": "異文化理解",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205758.png",
+    "prompt": "A conceptual and educational illustration representing \"異文化理解\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 15,
+    "question": "テレビや新聞など、大量の情報を不特定多数の人々に伝達する手段を何というか？",
+    "answer": "マスメディア",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205759.png",
+    "prompt": "A conceptual and educational illustration representing \"マスメディア\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 17,
+    "question": "人間の知的創作活動によって生み出されたものを、創作者が独占的に利用できる権利は？",
+    "answer": "知的財産権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205760.png",
+    "prompt": "A conceptual and educational illustration representing \"知的財産権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 19,
+    "question": "新しい技術や発明をした人に与えられる、一定期間その発明を独占できる権利は？",
+    "answer": "特許権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205761.png",
+    "prompt": "A conceptual and educational illustration representing \"特許権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 21,
+    "question": "七五三や成人式のように、人生の区切りに行われる儀式を何というか？",
+    "answer": "通過儀礼",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205762.png",
+    "prompt": "A conceptual and educational illustration representing \"通過儀礼\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 24,
+    "question": "地域住民が親睦を深め、住みよい地域を作るために自主的に組織する団体は？",
+    "answer": "町内会・自治会",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205763.png",
+    "prompt": "A conceptual and educational illustration representing \"町内会・自治会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 25,
+    "question": "異なる文化が接触したときに生じる、誤解や対立を何というか？",
+    "answer": "文化摩擦",
+    "keyword": "conflict",
+    "filename": "g_civics_new_conflict_1773667205764.png",
+    "prompt": "A conceptual and educational illustration representing \"文化摩擦\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_1",
+    "index": 26,
+    "question": "食料自給率の低下や、輸入食品の安全性などが問題となっている、食に関する課題を何というか？",
+    "answer": "食の安全・安心",
+    "keyword": "self_sufficiency_rate",
+    "filename": "g_civics_new_self_sufficiency_rate_1773667205765.png",
+    "prompt": "A conceptual and educational illustration representing \"食の安全・安心\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 1,
+    "question": "日本国憲法において、主権は誰にあるとされているか？",
+    "answer": "国民",
+    "keyword": "__",
+    "filename": "g_civics_new____1773667205766.png",
+    "prompt": "A conceptual and educational illustration representing \"国民\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 4,
+    "question": "日本国憲法第25条で、「健康で文化的な最低限度の生活を営む権利」と規定されている権利は？",
+    "answer": "生存権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205767.png",
+    "prompt": "A conceptual and educational illustration representing \"生存権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 5,
+    "question": "自由に考え、意見を発表したり、集会を開いたりする自由を何というか？",
+    "answer": "表現の自由",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205768.png",
+    "prompt": "A conceptual and educational illustration representing \"表現の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 6,
+    "question": "不当に逮捕されたり、拘束されたりしない自由を何というか？",
+    "answer": "身体の自由",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205769.png",
+    "prompt": "A conceptual and educational illustration representing \"身体の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 10,
+    "question": "1957年、生活保護の基準が低すぎるとして、生存権の侵害を訴えた裁判は？",
+    "answer": "朝日訴訟",
+    "keyword": "public_assistance",
+    "filename": "g_civics_new_public_assistance_1773667205770.png",
+    "prompt": "A conceptual and educational illustration representing \"朝日訴訟\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 11,
+    "question": "プライバシーの権利が侵害されたとして争われた、三島由紀夫の小説をめぐる事件は？",
+    "answer": "「宴のあと」事件",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205771.png",
+    "prompt": "A conceptual and educational illustration representing \"「宴のあと」事件\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 12,
+    "question": "マスメディアに対して、自分の意見を発表する場（反論記事など）の提供を求める権利は？",
+    "answer": "アクセス権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205772.png",
+    "prompt": "A conceptual and educational illustration representing \"アクセス権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 13,
+    "question": "医療現場などで、患者が医師から十分な説明を受け、納得した上で治療に同意することを何というか？",
+    "answer": "インフォームド・コンセント",
+    "keyword": "_____________",
+    "filename": "g_civics_new_______________1773667205773.png",
+    "prompt": "A conceptual and educational illustration representing \"インフォームド・コンセント\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 14,
+    "question": "1948年、国連で採択された、世界中のすべての人々が達成すべき人権の基準は？",
+    "answer": "世界人権宣言",
+    "keyword": "united_nations",
+    "filename": "g_civics_new_united_nations_1773667205774.png",
+    "prompt": "A conceptual and educational illustration representing \"世界人権宣言\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 16,
+    "question": "18歳未満のすべての人の権利（生きる権利、守られる権利など）を定める条約は？",
+    "answer": "子どもの権利条約",
+    "keyword": "convention_on_rights_of_child",
+    "filename": "g_civics_new_convention_on_rights_of_child_1773667205775.png",
+    "prompt": "A conceptual and educational illustration representing \"子どもの権利条約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 19,
+    "question": "1789年のフランス革命で出された、自由・平等・博愛を掲げた宣言は？",
+    "answer": "フランス人権宣言",
+    "keyword": "________",
+    "filename": "g_civics_new__________1773667205776.png",
+    "prompt": "A conceptual and educational illustration representing \"フランス人権宣言\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 23,
+    "question": "どのような職業に就くかを自由に決めることができる権利は？",
+    "answer": "職業選択の自由",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205777.png",
+    "prompt": "A conceptual and educational illustration representing \"職業選択の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 24,
+    "question": "どのような犯罪に対してどのような刑罰が科されるかを、あらかじめ法律で定めておかなければならないという原則は？",
+    "answer": "罪刑法定主義",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205778.png",
+    "prompt": "A conceptual and educational illustration representing \"罪刑法定主義\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 26,
+    "question": "自分にとって不利益な供述を強要されない権利を何というか？",
+    "answer": "黙秘権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205779.png",
+    "prompt": "A conceptual and educational illustration representing \"黙秘権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 27,
+    "question": "一度判決が確定した事件については、再び裁判で責任を問われないという原則は？",
+    "answer": "一事不再理",
+    "keyword": "duties",
+    "filename": "g_civics_new_duties_1773667205780.png",
+    "prompt": "A conceptual and educational illustration representing \"一事不再理\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 29,
+    "question": "国や地方公共団体が持っている情報を、住民の請求に応じて開示することを定めた制度は？",
+    "answer": "情報公開制度",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205781.png",
+    "prompt": "A conceptual and educational illustration representing \"情報公開制度\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_2",
+    "index": 31,
+    "question": "障害のある人もない人も、互いに支え合い、共に生きる社会を目指す法律は？",
+    "answer": "障害者基本法",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205782.png",
+    "prompt": "A conceptual and educational illustration representing \"障害者基本法\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 7,
+    "question": "衆議院議員選挙で行われている、小選挙区制と比例代表制を組み合わせた制度は？",
+    "answer": "小選挙区比例代表並立制",
+    "keyword": "___________",
+    "filename": "g_civics_new_____________1773667205784.png",
+    "prompt": "A conceptual and educational illustration representing \"小選挙区比例代表並立制\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 10,
+    "question": "小選挙区制の短所として指摘される、落選した候補者に投じられた票が議席に結びつかないことを何というか？",
+    "answer": "死票（しひょう）",
+    "keyword": "__",
+    "filename": "g_civics_new____1773667205785.png",
+    "prompt": "A conceptual and educational illustration representing \"死票\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 15,
+    "question": "公正取引委員会や人事院のように、内閣からある程度独立して職務を行う機関を何というか？",
+    "answer": "行政委員会",
+    "keyword": "fairness",
+    "filename": "g_civics_new_fairness_1773667205786.png",
+    "prompt": "A conceptual and educational illustration representing \"行政委員会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 16,
+    "question": "憲法第15条で、「全体の奉仕者」であって「一部の奉仕者」ではないと定められているのは？",
+    "answer": "公務員",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205787.png",
+    "prompt": "A conceptual and educational illustration representing \"公務員\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 17,
+    "question": "裁判は原則として、一般に公開して行わなければならないという原則を何というか？",
+    "answer": "裁判の公開",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205788.png",
+    "prompt": "A conceptual and educational illustration representing \"裁判の公開\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 19,
+    "question": "法的なトラブル解決のために、情報の提供や費用の立替などを行う「日本司法支援センター」の愛称は？",
+    "answer": "法テラス",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205789.png",
+    "prompt": "A conceptual and educational illustration representing \"法テラス\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 22,
+    "question": "平成の時代に、財政基盤の強化などを目的として、多くの市町村が合併したことを何というか？",
+    "answer": "平成の大合併",
+    "keyword": "public_finance",
+    "filename": "g_civics_new_public_finance_1773667205790.png",
+    "prompt": "A conceptual and educational illustration representing \"平成の大合併\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 23,
+    "question": "衆議院と参議院の議決が異なった場合、衆議院の議決が国会の議決となることを何というか？",
+    "answer": "衆議院の優越",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205791.png",
+    "prompt": "A conceptual and educational illustration representing \"衆議院の優越\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 29,
+    "question": "地方議会の解散や、首長・議員の解職を請求することを何というか？",
+    "answer": "リコール（解職請求）",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205792.png",
+    "prompt": "A conceptual and educational illustration representing \"リコール\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 31,
+    "question": "国会の委員会において、少数の専門的な議員によって詳細な審査を行うために設置されるものは？",
+    "answer": "常任委員会",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205793.png",
+    "prompt": "A conceptual and educational illustration representing \"常任委員会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 33,
+    "question": "特定の事柄について、住民の意思を直接問うために行われる投票は？",
+    "answer": "住民投票",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205794.png",
+    "prompt": "A conceptual and educational illustration representing \"住民投票\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 34,
+    "question": "選挙区のあちこちにポスターを貼ったり、街頭演説をしたりする選挙運動ができる期間は？",
+    "answer": "公示（告示）日から投票日の前日まで",
+    "keyword": "_____________",
+    "filename": "g_civics_new_______________1773667205795.png",
+    "prompt": "A conceptual and educational illustration representing \"公示日から投票日の前日まで\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 35,
+    "question": "国会の委員会において、少数の専門的な議員によって詳細な審査を行うために設置されるものは？",
+    "answer": "常任委員会",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205796.png",
+    "prompt": "A conceptual and educational illustration representing \"常任委員会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 36,
+    "question": "地方公共団体の首長が、議会の議決に対して異議がある場合にやり直しを求める権限は？",
+    "answer": "再議権（拒否権）",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205797.png",
+    "prompt": "A conceptual and educational illustration representing \"再議権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 37,
+    "question": "特定の事柄について、住民の意思を直接問うために行われる投票は？",
+    "answer": "住民投票",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205798.png",
+    "prompt": "A conceptual and educational illustration representing \"住民投票\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 38,
+    "question": "選挙区のあちこちにポスターを貼ったり、街頭演説をしたりする選挙運動ができる期間は？",
+    "answer": "公示（告示）日から投票日の前日まで",
+    "keyword": "_____________",
+    "filename": "g_civics_new_______________1773667205799.png",
+    "prompt": "A conceptual and educational illustration representing \"公示日から投票日の前日まで\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 39,
+    "question": "国会の委員会において、少数の専門的な議員によって詳細な審査を行うために設置されるものは？",
+    "answer": "常任委員会",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205800.png",
+    "prompt": "A conceptual and educational illustration representing \"常任委員会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 40,
+    "question": "地方公共団体の首長が、議会の議決に対して異議がある場合にやり直しを求める権限は？",
+    "answer": "再議権（拒否権）",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205801.png",
+    "prompt": "A conceptual and educational illustration representing \"再議権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 41,
+    "question": "特定の事柄について、住民の意思を直接問うために行われる投票は？",
+    "answer": "住民投票",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205802.png",
+    "prompt": "A conceptual and educational illustration representing \"住民投票\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_3",
+    "index": 42,
+    "question": "選挙区のあちこちにポスターを貼ったり、街頭演説をしたりする選挙運動ができる期間は？",
+    "answer": "公示（告示）日から投票日の前日まで",
+    "keyword": "_____________",
+    "filename": "g_civics_new_______________1773667205803.png",
+    "prompt": "A conceptual and educational illustration representing \"公示日から投票日の前日まで\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 2,
+    "question": "少数の企業が市場を支配し、価格などが決まる状態を何というか？",
+    "answer": "寡占（かせん）",
+    "keyword": "__",
+    "filename": "g_civics_new____1773667205804.png",
+    "prompt": "A conceptual and educational illustration representing \"寡占\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 15,
+    "question": "国や地方公共団体の歳出が、税金などの借金以外の収入で賄えているかを示す指標は？",
+    "answer": "プライマリー・バランス",
+    "keyword": "expenditure",
+    "filename": "g_civics_new_expenditure_1773667205806.png",
+    "prompt": "A conceptual and educational illustration representing \"プライマリー・バランス\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 16,
+    "question": "40歳以上の国民が保険料を支払い、介護が必要になった時にサービスを受けられる制度は？",
+    "answer": "介護保険制度",
+    "keyword": "nursing_care_insurance",
+    "filename": "g_civics_new_nursing_care_insurance_1773667205807.png",
+    "prompt": "A conceptual and educational illustration representing \"介護保険制度\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 20,
+    "question": "複数の金融業者から借金を重ね、返済が困難になっている状態を何というか？",
+    "answer": "多重債務",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205808.png",
+    "prompt": "A conceptual and educational illustration representing \"多重債務\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 23,
+    "question": "パートやアルバイト、派遣社員など、正社員以外の雇用形態をまとめて何というか？",
+    "answer": "非正規雇用",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205809.png",
+    "prompt": "A conceptual and educational illustration representing \"非正規雇用\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 25,
+    "question": "1ドル＝100円だった相場が、1ドル＝80円になった場合、海外旅行に行く日本人にとっては得か損か？",
+    "answer": "得になる（少ない円でドルを買えるから）",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205810.png",
+    "prompt": "A conceptual and educational illustration representing \"得になる\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 27,
+    "question": "税収全体に占める、直接税と間接税の割合のことを何というか？",
+    "answer": "直間比率",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205811.png",
+    "prompt": "A conceptual and educational illustration representing \"直間比率\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 28,
+    "question": "将来受け取る年金の財源を、その時代の現役世代が納める保険料で賄う方式を何というか？",
+    "answer": "賦課方式（ふかほうしき）",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205812.png",
+    "prompt": "A conceptual and educational illustration representing \"賦課方式\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 29,
+    "question": "市場で、少数の企業が商品を生産・販売し、価格などが支配されている状態を何というか？",
+    "answer": "寡占（かせん）",
+    "keyword": "__",
+    "filename": "g_civics_new____1773667205813.png",
+    "prompt": "A conceptual and educational illustration representing \"寡占\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 30,
+    "question": "寡占市場において、価格競争を避け、宣伝やデザイン、サービスなどで競争することを何というか？",
+    "answer": "非価格競争",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205814.png",
+    "prompt": "A conceptual and educational illustration representing \"非価格競争\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_4",
+    "index": 33,
+    "question": "労働争議が発生した際、労働委員会が当事者の間に入って解決を図る手続きのうち、最も関与が強いものは？",
+    "answer": "仲裁",
+    "keyword": "__",
+    "filename": "g_civics_new____1773667205815.png",
+    "prompt": "A conceptual and educational illustration representing \"仲裁\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 1,
+    "question": "国際連合の主要機関の一つで、世界の平和と安全の維持に責任を持つ機関は？",
+    "answer": "安全保障理事会",
+    "keyword": "un_security_council",
+    "filename": "g_civics_new_un_security_council_1773667205816.png",
+    "prompt": "A conceptual and educational illustration representing \"安全保障理事会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 2,
+    "question": "安全保障理事会の常任理事国は、アメリカ、イギリス、フランス、ロシアとどこか？",
+    "answer": "中国",
+    "keyword": "un_security_council",
+    "filename": "g_civics_new_un_security_council_1773667205817.png",
+    "prompt": "A conceptual and educational illustration representing \"中国\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 3,
+    "question": "地球環境問題の一つで、化石燃料の大量消費などにより地球の平均気温が上昇することは？",
+    "answer": "地球温暖化",
+    "keyword": "finite_energy",
+    "filename": "g_civics_new_finite_energy_1773667205818.png",
+    "prompt": "A conceptual and educational illustration representing \"地球温暖化\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 4,
+    "question": "将来の世代の欲求を満たしつつ、現在の世代の欲求も満たすような開発を何というか？",
+    "answer": "持続可能な開発",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205819.png",
+    "prompt": "A conceptual and educational illustration representing \"持続可能な開発\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 7,
+    "question": "二酸化炭素の排出を抑えるため、再生可能エネルギーとして注目されているのは？",
+    "answer": "太陽光発電",
+    "keyword": "renewable_energy",
+    "filename": "g_civics_new_renewable_energy_1773667205820.png",
+    "prompt": "A conceptual and educational illustration representing \"太陽光発電\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 8,
+    "question": "先進国と発展途上国との間の経済格差の問題を何というか？",
+    "answer": "南北問題",
+    "keyword": "north_south_problem",
+    "filename": "g_civics_new_north_south_problem_1773667205821.png",
+    "prompt": "A conceptual and educational illustration representing \"南北問題\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 9,
+    "question": "地域紛争の解決などのために、国連が各国の軍隊などを派遣して行う活動は？",
+    "answer": "PKO（国連平和維持活動）",
+    "keyword": "united_nations",
+    "filename": "g_civics_new_united_nations_1773667205822.png",
+    "prompt": "A conceptual and educational illustration representing \"PKO\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 10,
+    "question": "水鳥の生息地として重要な湿地を保護することを目的とした条約は？",
+    "answer": "ラムサール条約",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205823.png",
+    "prompt": "A conceptual and educational illustration representing \"ラムサール条約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 11,
+    "question": "絶滅のおそれのある野生動植物の国際取引を規制する条約は？",
+    "answer": "ワシントン条約",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205824.png",
+    "prompt": "A conceptual and educational illustration representing \"ワシントン条約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 12,
+    "question": "熊本県の水俣湾沿岸で発生し、工場排水に含まれる有機水銀が原因となった公害病は？",
+    "answer": "水俣病",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205825.png",
+    "prompt": "A conceptual and educational illustration representing \"水俣病\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 13,
+    "question": "富山県の神通川流域で発生し、鉱山から排出されたカドミウムが原因となった公害病は？",
+    "answer": "イタイイタイ病",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205826.png",
+    "prompt": "A conceptual and educational illustration representing \"イタイイタイ病\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 18,
+    "question": "冷蔵庫の冷媒などに使われていたフロンガスが原因で破壊され、有害な紫外線の増加を招いているものは？",
+    "answer": "オゾン層",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205827.png",
+    "prompt": "A conceptual and educational illustration representing \"オゾン層\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 19,
+    "question": "工場や自動車から排出される硫黄酸化物や窒素酸化物が原因で、森林を枯らしたりする雨は？",
+    "answer": "酸性雨",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205828.png",
+    "prompt": "A conceptual and educational illustration representing \"酸性雨\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 20,
+    "question": "過度な放牧や森林伐採などが原因で、土地が不毛化してしまう現象を何というか？",
+    "answer": "砂漠化",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205829.png",
+    "prompt": "A conceptual and educational illustration representing \"砂漠化\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 21,
+    "question": "携帯電話やハイテク製品の製造に不可欠な、埋蔵量が少ない、または抽出が難しい金属を何というか？",
+    "answer": "レアメタル（希少金属）",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205830.png",
+    "prompt": "A conceptual and educational illustration representing \"レアメタル\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 22,
+    "question": "地下の岩盤層に含まれる天然ガスで、新しいエネルギー資源として注目されているものは？",
+    "answer": "シェールガス",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205831.png",
+    "prompt": "A conceptual and educational illustration representing \"シェールガス\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 23,
+    "question": "発電と同時に、その際に出る熱を給湯や暖房などに有効利用するシステムは？",
+    "answer": "コージェネレーションシステム",
+    "keyword": "______________",
+    "filename": "g_civics_new________________1773667205832.png",
+    "prompt": "A conceptual and educational illustration representing \"コージェネレーションシステム\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 24,
+    "question": "国家の安全だけでなく、一人一人の人間の生命や尊厳を守るという考え方を何というか？",
+    "answer": "人間の安全保障",
+    "keyword": "human_security",
+    "filename": "g_civics_new_human_security_1773667205833.png",
+    "prompt": "A conceptual and educational illustration representing \"人間の安全保障\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 25,
+    "question": "対人地雷の使用、貯蔵、生産などを全面的に禁止する条約は？",
+    "answer": "対人地雷全面禁止条約（オタワ条約）",
+    "keyword": "ottawa_treaty",
+    "filename": "g_civics_new_ottawa_treaty_1773667205834.png",
+    "prompt": "A conceptual and educational illustration representing \"対人地雷全面禁止条約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 26,
+    "question": "特定の国や地域との間で、関税撤廃だけでなく、投資や人の移動の自由化なども含めた幅広い経済連携協定は？",
+    "answer": "EPA（経済連携協定）",
+    "keyword": "epa",
+    "filename": "g_civics_new_epa_1773667205835.png",
+    "prompt": "A conceptual and educational illustration representing \"EPA\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 27,
+    "question": "2000年代以降、急速な経済成長を遂げたブラジル、ロシア、インド、中国、南アフリカの総称は？",
+    "answer": "BRICS（ブリックス）",
+    "keyword": "BRICS",
+    "filename": "g_civics_new_BRICS_1773667205836.png",
+    "prompt": "A conceptual and educational illustration representing \"BRICS\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 28,
+    "question": "パレスチナ地方で対立が続いている、ユダヤ人とアラブ人の間の紛争を何というか？",
+    "answer": "パレスチナ問題",
+    "keyword": "conflict",
+    "filename": "g_civics_new_conflict_1773667205837.png",
+    "prompt": "A conceptual and educational illustration representing \"パレスチナ問題\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 30,
+    "question": "石油資源に依存せず、トウモロコシやサトウキビなどの植物から作られる燃料は？",
+    "answer": "バイオ燃料",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205838.png",
+    "prompt": "A conceptual and educational illustration representing \"バイオ燃料\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 31,
+    "question": "国連の専門機関で、労働条件の改善や社会保障の充実を目指す機関は？",
+    "answer": "ILO（国際労働機関）",
+    "keyword": "united_nations",
+    "filename": "g_civics_new_united_nations_1773667205840.png",
+    "prompt": "A conceptual and educational illustration representing \"ILO\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 33,
+    "question": "1985年に採択され、オゾン層の保護を定めた条約は？",
+    "answer": "ウィーン条約",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205841.png",
+    "prompt": "A conceptual and educational illustration representing \"ウィーン条約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "c_5",
+    "index": 34,
+    "question": "特定の野生動植物の絶滅を防ぐため、国際的な取引を規制する条約は？",
+    "answer": "ワシントン条約",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205842.png",
+    "prompt": "A conceptual and educational illustration representing \"ワシントン条約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 0,
+    "question": "人が生まれながらにもっている、人間らしく生きるためにおかしてはならない権利を何というか？",
+    "answer": "基本的人権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205843.png",
+    "prompt": "A conceptual and educational illustration representing \"基本的人権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 1,
+    "question": "1215年にイギリスで発布された、国王の権力を制限した文書はどれか？",
+    "answer": "マグナカルタ（大憲章）",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205844.png",
+    "prompt": "A conceptual and educational illustration representing \"マグナカルタ\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 3,
+    "question": "1689年に名誉革命ののち、イギリスで発布され、議会の同意なしに税金をかけないことなどを定めた法律は何か？",
+    "answer": "権利の章典",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205845.png",
+    "prompt": "A conceptual and educational illustration representing \"権利の章典\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 4,
+    "question": "『統治二論（市民政府二論）』を著し、権力が不当に行使されたときの「抵抗権」を主張したイギリスの思想家は誰か？",
+    "answer": "ロック",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205846.png",
+    "prompt": "A conceptual and educational illustration representing \"ロック\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 5,
+    "question": "『法の精神』を著し、国家の権力への集中を防ぐために「三権分立」を主張したフランスの思想家は誰か？",
+    "answer": "モンテスキュー",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205847.png",
+    "prompt": "A conceptual and educational illustration representing \"モンテスキュー\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 6,
+    "question": "『社会契約論』を著し、人民主権を唱えてフランス革命に大きな影響を与えたフランスの思想家は誰か？",
+    "answer": "ルソー",
+    "keyword": "contract",
+    "filename": "g_civics_new_contract_1773667205848.png",
+    "prompt": "A conceptual and educational illustration representing \"ルソー\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 7,
+    "question": "人権を保障するために、憲法によって政治権力を制限するという考え方やしくみを何というか？",
+    "answer": "立憲主義",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205849.png",
+    "prompt": "A conceptual and educational illustration representing \"立憲主義\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 8,
+    "question": "1946年11月3日に公布され、翌年5月3日に施行された日本の「最高法規」は何か？",
+    "answer": "日本国憲法",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205850.png",
+    "prompt": "A conceptual and educational illustration representing \"日本国憲法\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 9,
+    "question": "日本国憲法の三大原則のうち、「国民主権」「基本的人権の尊重」ともう一つは何か？",
+    "answer": "平和主義",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205851.png",
+    "prompt": "A conceptual and educational illustration representing \"平和主義\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 10,
+    "question": "主に日本国籍を持たずに日本に住んでいる人に対し、地方選挙などでの投票を認めるべきだという考えに関わる権利を何というか。",
+    "answer": "外国人参政権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205852.png",
+    "prompt": "A conceptual and educational illustration representing \"外国人参政権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 11,
+    "question": "人が互いに個人として自分と相手を大切にし、ともに助け合って生きていく社会を何というか。",
+    "answer": "共生社会",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205853.png",
+    "prompt": "A conceptual and educational illustration representing \"共生社会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 12,
+    "question": "障がい者や高齢者などが安全・快適に暮らせるように、生活する上で障害となるものを取り除こうという考え方を何というか。",
+    "answer": "バリアフリー",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205854.png",
+    "prompt": "A conceptual and educational illustration representing \"バリアフリー\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 13,
+    "question": "年齢や障がいの有無にかかわらず、すべての人が使いやすいようにあらかじめつくられたデザインを何というか。",
+    "answer": "ユニバーサルデザイン",
+    "keyword": "universal_design",
+    "filename": "g_civics_new_universal_design_1773667205855.png",
+    "prompt": "A conceptual and educational illustration representing \"ユニバーサルデザイン\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 14,
+    "question": "障がいがある人もない人も、高齢者も子どもも、それぞれを分けるのではなく、ともに地域の中で暮らしていこうという考え方を何というか。",
+    "answer": "ノーマライゼーション",
+    "keyword": "__________",
+    "filename": "g_civics_new____________1773667205856.png",
+    "prompt": "A conceptual and educational illustration representing \"ノーマライゼーション\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 15,
+    "question": "職場などで起きる、相手の意思に反した性的な嫌がらせを何というか。",
+    "answer": "セクシュアル・ハラスメント（セクハラ）",
+    "keyword": "_____________",
+    "filename": "g_civics_new_______________1773667205857.png",
+    "prompt": "A conceptual and educational illustration representing \"セクシュアル・ハラスメント\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 16,
+    "question": "男性と女性が互いに人権を尊重し合い、責任を分け合って対等な立場で能力をいかすことができる社会を何というか。",
+    "answer": "男女共同参画社会",
+    "keyword": "duties",
+    "filename": "g_civics_new_duties_1773667205858.png",
+    "prompt": "A conceptual and educational illustration representing \"男女共同参画社会\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 17,
+    "question": "すべての人が生きていく上で、自由にものを考え、意見を述べ、行動することを保障する権利を何というか。",
+    "answer": "自由権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205859.png",
+    "prompt": "A conceptual and educational illustration representing \"自由権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 18,
+    "question": "正当な理由なしに、人間の身体が他者から拘束されない権利のことを何というか。",
+    "answer": "身体の自由",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205860.png",
+    "prompt": "A conceptual and educational illustration representing \"身体の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 19,
+    "question": "被疑者や被告人に認められている、取り調べや裁判で自分に不利益となることを話さなくてもよい権利を何というか。",
+    "answer": "黙秘権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205861.png",
+    "prompt": "A conceptual and educational illustration representing \"黙秘権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 20,
+    "question": "個人が自由にものを考え、思想や信仰をもち、自分の意見を述べる自由を指す、自由権の1つは何か。",
+    "answer": "精神の自由",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205862.png",
+    "prompt": "A conceptual and educational illustration representing \"精神の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 21,
+    "question": "「精神の自由」のうち、個人がどのような宗教を信じるのも信じないのも自由とするものを何というか。",
+    "answer": "信教の自由",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205863.png",
+    "prompt": "A conceptual and educational illustration representing \"信教の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 22,
+    "question": "「精神の自由」のうち、人々が目的を持って集まったり団体をつくったりする自由や、考えを外部に発表する自由をまとめて何というか。",
+    "answer": "集会・結社・表現の自由",
+    "keyword": "___________",
+    "filename": "g_civics_new_____________1773667205864.png",
+    "prompt": "A conceptual and educational illustration representing \"集会・結社・表現の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 23,
+    "question": "「精神の自由」のうち、学問を研究したり、研究の成果を発表したり、教えたりする自由を何というか。",
+    "answer": "学問の自由",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205865.png",
+    "prompt": "A conceptual and educational illustration representing \"学問の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 24,
+    "question": "個人が住む場所を決めたり、職業を選んだり、自分の財産を利用したりする自由をまとめて何というか。",
+    "answer": "経済活動の自由",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205866.png",
+    "prompt": "A conceptual and educational illustration representing \"経済活動の自由\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 25,
+    "question": "人権は最大限保障されるが、他人の人権と衝突する場合などに、社会全体の利益のために人権が制限される原理を何というか。",
+    "answer": "公共の福祉",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205867.png",
+    "prompt": "A conceptual and educational illustration representing \"公共の福祉\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 26,
+    "question": "日本国憲法第25条の「すべて国民は、健康で文化的な最低限度の生活を営む権利を有する」という条文で保障されている権利は何か。",
+    "answer": "生存権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205868.png",
+    "prompt": "A conceptual and educational illustration representing \"生存権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 27,
+    "question": "国や年金を運営している組織に保険料を支払い、受け取る資格を満たした場合に支給されるお金のしくみを何というか。",
+    "answer": "年金",
+    "keyword": "money",
+    "filename": "g_civics_new_money_1773667205869.png",
+    "prompt": "A conceptual and educational illustration representing \"年金\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 28,
+    "question": "すべての国民が能力に応じてひとしく教育を受けることができる社会権の一つを何というか。",
+    "answer": "教育を受ける権利",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205870.png",
+    "prompt": "A conceptual and educational illustration representing \"教育を受ける権利\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 29,
+    "question": "社会権の一つで、働く意思と能力のある人が、国に対して労働の機会を求めることができる権利を何というか。",
+    "answer": "勤労の権利",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205871.png",
+    "prompt": "A conceptual and educational illustration representing \"勤労の権利\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 30,
+    "question": "労働三権とも呼ばれる、労働者の権利を守るために定められている権利の総称を何というか。",
+    "answer": "労働基本権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205872.png",
+    "prompt": "A conceptual and educational illustration representing \"労働基本権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 31,
+    "question": "労働基本権の1つで、労働者が団結して行動できるように労働組合をつくる権利を何というか。",
+    "answer": "団結権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205873.png",
+    "prompt": "A conceptual and educational illustration representing \"団結権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 32,
+    "question": "国民が政治に参加する権利を総称して何というか。",
+    "answer": "参政権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205874.png",
+    "prompt": "A conceptual and educational illustration representing \"参政権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 33,
+    "question": "同じ親の細胞などからつくられた個体を何というか。",
+    "answer": "クローン",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205875.png",
+    "prompt": "A conceptual and educational illustration representing \"クローン\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 34,
+    "question": "卵子と精子を体内でなく体外で受精させることを何というか。",
+    "answer": "体外受精",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205876.png",
+    "prompt": "A conceptual and educational illustration representing \"体外受精\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 35,
+    "question": "HIV（ヒト免疫不全ウイルス）への感染によって、体の免疫力が低下する病気を何というか。",
+    "answer": "エイズ（後天性免疫不全症候群）",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205878.png",
+    "prompt": "A conceptual and educational illustration representing \"エイズ\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 36,
+    "question": "自分の意思で自分の技術や時間を提供して、社会的な人助けをする人やその行為を何というか。",
+    "answer": "ボランティア",
+    "keyword": "volunteer",
+    "filename": "g_civics_new_volunteer_1773667205879.png",
+    "prompt": "A conceptual and educational illustration representing \"ボランティア\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 37,
+    "question": "社会集団のなかでさまざまな意見が出て対立や争いが発生したときに、それを調整するために話し合いをしたり、ルールを決めたりして解決していくことを何というか。",
+    "answer": "政治",
+    "keyword": "social_group",
+    "filename": "g_civics_new_social_group_1773667205880.png",
+    "prompt": "A conceptual and educational illustration representing \"政治\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 38,
+    "question": "国民の意思にしたがって政治を行うという考え方を何というか。",
+    "answer": "民主主義",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205881.png",
+    "prompt": "A conceptual and educational illustration representing \"民主主義\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 39,
+    "question": "全員で直接話し合って政治的な決定を行う仕組みを何というか。",
+    "answer": "直接民主制",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205882.png",
+    "prompt": "A conceptual and educational illustration representing \"直接民主制\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 40,
+    "question": "選挙で選ばれた代表者が話し合って政治を決定する仕組みを何というか。",
+    "answer": "間接民主制（代議制）",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205883.png",
+    "prompt": "A conceptual and educational illustration representing \"間接民主制\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 41,
+    "question": "話し合っても意見が一致しない場合に、数が多いほうの意見にしたがうという民主主義の基本原理を何というか。",
+    "answer": "多数決の原理",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205884.png",
+    "prompt": "A conceptual and educational illustration representing \"多数決の原理\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 42,
+    "question": "多数決の原理において、決定する前に少数の意見も十分に聞き入れるべきであるという考え方を何というか。",
+    "answer": "少数意見の尊重",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205885.png",
+    "prompt": "A conceptual and educational illustration representing \"少数意見の尊重\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 43,
+    "question": "国政について話し合うための代表者を選ぶ、18歳以上のすべての国民に認められている権利は何か。",
+    "answer": "選挙権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205886.png",
+    "prompt": "A conceptual and educational illustration representing \"選挙権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 44,
+    "question": "選挙に立候補して、国会議員や地方公共団体の長、地方議会議員になることができる権利は何か。",
+    "answer": "被選挙権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205887.png",
+    "prompt": "A conceptual and educational illustration representing \"被選挙権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 45,
+    "question": "最高裁判所の裁判官が適任かどうかを、衆議院議員総選挙の際に国民が投票で審査する権利は何か。",
+    "answer": "国民審査権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205888.png",
+    "prompt": "A conceptual and educational illustration representing \"国民審査権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 46,
+    "question": "国や地方公共団体に対して、政治上の要望を平穏に行うことができる権利は何か。",
+    "answer": "請願権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205889.png",
+    "prompt": "A conceptual and educational illustration representing \"請願権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 47,
+    "question": "国会が憲法改正の発議を行った際に、国民がそれに対して賛成か反対かの意思を示す権利は何か。",
+    "answer": "国民投票権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205890.png",
+    "prompt": "A conceptual and educational illustration representing \"国民投票権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 48,
+    "question": "人権が侵害されたときに、国などに救済を求めることができる権利の総称は何か。",
+    "answer": "請求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205891.png",
+    "prompt": "A conceptual and educational illustration representing \"請求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 49,
+    "question": "公務員の不法行為などによって損害を受けた場合に、国や地方公共団体に賠償を求めることができる権利は何か。",
+    "answer": "国家賠償請求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205892.png",
+    "prompt": "A conceptual and educational illustration representing \"国家賠償請求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 50,
+    "question": "刑事裁判で無罪が確定した場合などに、国に対して金銭による補償を求めることができる権利は何か。",
+    "answer": "刑事補償請求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205893.png",
+    "prompt": "A conceptual and educational illustration representing \"刑事補償請求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 51,
+    "question": "国や地方公共団体が持っている情報の公開を求めることができる権利は何か。",
+    "answer": "知る権利",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205894.png",
+    "prompt": "A conceptual and educational illustration representing \"知る権利\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 52,
+    "question": "私的な生活を他人に勝手に公開されない権利や、自分の情報をコントロールする権利を何というか。",
+    "answer": "プライバシーの権利",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205895.png",
+    "prompt": "A conceptual and educational illustration representing \"プライバシーの権利\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 53,
+    "question": "個人のプライバシーを守るため、企業や行政機関などに個人情報の適切な取り扱いを義務付けた法律は何か。",
+    "answer": "個人情報保護法",
+    "keyword": "duties",
+    "filename": "g_civics_new_duties_1773667205896.png",
+    "prompt": "A conceptual and educational illustration representing \"個人情報保護法\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 54,
+    "question": "自分の顔や姿を無断で撮影されたり、公表されたり、商品に利用されたりしない権利は何か。",
+    "answer": "肖像権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205897.png",
+    "prompt": "A conceptual and educational illustration representing \"肖像権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 55,
+    "question": "職場において、地位の優位性を背景に、業務の適正な範囲を超えて精神的・身体的苦痛を与える行為を何というか。",
+    "answer": "パワーハラスメント（パワハラ）",
+    "keyword": "_________",
+    "filename": "g_civics_new___________1773667205898.png",
+    "prompt": "A conceptual and educational illustration representing \"パワーハラスメント\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 56,
+    "question": "思想や感情を創作的に表現した文芸、学術、美術、音楽などの作品の作者に与えられる権利を何というか。",
+    "answer": "著作権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205899.png",
+    "prompt": "A conceptual and educational illustration representing \"著作権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 57,
+    "question": "個人が自分の生き方や生活について、他から干渉されずに自由に決定する権利は何か。",
+    "answer": "自己決定権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205900.png",
+    "prompt": "A conceptual and educational illustration representing \"自己決定権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 58,
+    "question": "「生命、自由及び幸福追求に対する国民の権利」として、日本国憲法第13条で保障されており、新しい人権の根拠ともなる権利は何か。",
+    "answer": "幸福追求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205901.png",
+    "prompt": "A conceptual and educational illustration representing \"幸福追求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 59,
+    "question": "生活する上で、きれいで快適な環境を求める権利を何というか。",
+    "answer": "環境権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205902.png",
+    "prompt": "A conceptual and educational illustration representing \"環境権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 60,
+    "question": "大規模な開発を行う前に、それが周囲の環境にどのような影響を及ぼすかを事前に調査・評価し、対策を立てる制度を何というか。",
+    "answer": "環境アセスメント（環境影響評価）",
+    "keyword": "________",
+    "filename": "g_civics_new__________1773667205903.png",
+    "prompt": "A conceptual and educational illustration representing \"環境アセスメント\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 61,
+    "question": "1948年に国連総会で採択された、すべての人類が生まれながらにして持つ基本的人権と自由の保障を世界に向けて示した宣言を何というか。",
+    "answer": "世界人権宣言",
+    "keyword": "united_nations",
+    "filename": "g_civics_new_united_nations_1773667205904.png",
+    "prompt": "A conceptual and educational illustration representing \"世界人権宣言\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 62,
+    "question": "世界人権宣言の内容を条約化し、批准した国に法的な拘束力を持たせた国際条約を何というか。",
+    "answer": "国際人権規約",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205905.png",
+    "prompt": "A conceptual and educational illustration representing \"国際人権規約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 63,
+    "question": "不当に逮捕・拘禁されている人々の釈放や死刑の廃止などを訴え、1977年にノーベル平和賞を受賞した国際的な人権団体（NGO）は何か。",
+    "answer": "アムネスティ・インターナショナル",
+    "keyword": "ngo",
+    "filename": "g_civics_new_ngo_1773667205906.png",
+    "prompt": "A conceptual and educational illustration representing \"アムネスティ・インターナショナル\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 64,
+    "question": "生き物の親から子に遺伝子がどのように受けつがれているかを調べることで、遺伝によって起こる病気などを解明することを何というか。",
+    "answer": "遺伝子診断",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205907.png",
+    "prompt": "A conceptual and educational illustration representing \"遺伝子診断\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 65,
+    "question": "ある生物の細胞に別の生物の遺伝子を組み込む技術によって、新しい性質を持たせて作られた作物を何というか。",
+    "answer": "遺伝子組み換え食品",
+    "keyword": "_________",
+    "filename": "g_civics_new___________1773667205908.png",
+    "prompt": "A conceptual and educational illustration representing \"遺伝子組み換え食品\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 66,
+    "question": "同じ親の細胞などからつくられた個体を何というか。",
+    "answer": "クローン",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205909.png",
+    "prompt": "A conceptual and educational illustration representing \"クローン\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 67,
+    "question": "卵子と精子を体内でなく体外で受精させることを何というか。",
+    "answer": "体外受精",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205911.png",
+    "prompt": "A conceptual and educational illustration representing \"体外受精\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 68,
+    "question": "HIV（ヒト免疫不全ウイルス）への感染によって、体の免疫力が低下する病気を何というか。",
+    "answer": "エイズ（後天性免疫不全症候群）",
+    "keyword": "___",
+    "filename": "g_civics_new_____1773667205912.png",
+    "prompt": "A conceptual and educational illustration representing \"エイズ\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 69,
+    "question": "自分の意思で自分の技術や時間を提供して、社会的な人助けをする人やその行為を何というか。",
+    "answer": "ボランティア",
+    "keyword": "volunteer",
+    "filename": "g_civics_new_volunteer_1773667205913.png",
+    "prompt": "A conceptual and educational illustration representing \"ボランティア\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 70,
+    "question": "社会集団のなかでさまざまな意見が出て対立や争いが発生したときに、それを調整するために話し合いをしたり、ルールを決めたりして解決していくことを何というか。",
+    "answer": "政治",
+    "keyword": "social_group",
+    "filename": "g_civics_new_social_group_1773667205914.png",
+    "prompt": "A conceptual and educational illustration representing \"政治\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 71,
+    "question": "国民の意思にしたがって政治を行うという考え方を何というか。",
+    "answer": "民主主義",
+    "keyword": "____",
+    "filename": "g_civics_new______1773667205915.png",
+    "prompt": "A conceptual and educational illustration representing \"民主主義\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 72,
+    "question": "全員で直接話し合って政治的な決定を行う仕組みを何というか。",
+    "answer": "直接民主制",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205916.png",
+    "prompt": "A conceptual and educational illustration representing \"直接民主制\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 73,
+    "question": "選挙で選ばれた代表者が話し合って政治を決定する仕組みを何というか。",
+    "answer": "間接民主制（代議制）",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205917.png",
+    "prompt": "A conceptual and educational illustration representing \"間接民主制\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 74,
+    "question": "話し合っても意見が一致しない場合に、数が多いほうの意見にしたがうという民主主義の基本原理を何というか。",
+    "answer": "多数決の原理",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205918.png",
+    "prompt": "A conceptual and educational illustration representing \"多数決の原理\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 75,
+    "question": "多数決の原理において、決定する前に少数の意見も十分に聞き入れるべきであるという考え方を何というか。",
+    "answer": "少数意見の尊重",
+    "keyword": "_______",
+    "filename": "g_civics_new_________1773667205919.png",
+    "prompt": "A conceptual and educational illustration representing \"少数意見の尊重\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 76,
+    "question": "国政について話し合うための代表者を選ぶ、18歳以上のすべての国民に認められている権利は何か。",
+    "answer": "選挙権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205920.png",
+    "prompt": "A conceptual and educational illustration representing \"選挙権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 77,
+    "question": "選挙に立候補して、国会議員や地方公共団体の長、地方議会議員になることができる権利は何か。",
+    "answer": "被選挙権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205921.png",
+    "prompt": "A conceptual and educational illustration representing \"被選挙権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 78,
+    "question": "最高裁判所の裁判官が適任かどうかを、衆議院議員総選挙の際に国民が投票で審査する権利は何か。",
+    "answer": "国民審査権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205922.png",
+    "prompt": "A conceptual and educational illustration representing \"国民審査権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 79,
+    "question": "国や地方公共団体に対して、政治上の要望を平穏に行うことができる権利は何か。",
+    "answer": "請願権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205923.png",
+    "prompt": "A conceptual and educational illustration representing \"請願権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 80,
+    "question": "国会が憲法改正の発議を行った際に、国民がそれに対して賛成か反対かの意思を示す権利は何か。",
+    "answer": "国民投票権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205924.png",
+    "prompt": "A conceptual and educational illustration representing \"国民投票権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 81,
+    "question": "人権が侵害されたときに、国などに救済を求めることができる権利の総称は何か。",
+    "answer": "請求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205925.png",
+    "prompt": "A conceptual and educational illustration representing \"請求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 82,
+    "question": "公務員の不法行為などによって損害を受けた場合に、国や地方公共団体に賠償を求めることができる権利は何か。",
+    "answer": "国家賠償請求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205926.png",
+    "prompt": "A conceptual and educational illustration representing \"国家賠償請求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 83,
+    "question": "刑事裁判で無罪が確定した場合などに、国に対して金銭による補償を求めることができる権利は何か。",
+    "answer": "刑事補償請求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205927.png",
+    "prompt": "A conceptual and educational illustration representing \"刑事補償請求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 84,
+    "question": "国や地方公共団体が持っている情報の公開を求めることができる権利は何か。",
+    "answer": "知る権利",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205928.png",
+    "prompt": "A conceptual and educational illustration representing \"知る権利\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 85,
+    "question": "私的な生活を他人に勝手に公開されない権利や、自分の情報をコントロールする権利を何というか。",
+    "answer": "プライバシーの権利",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205929.png",
+    "prompt": "A conceptual and educational illustration representing \"プライバシーの権利\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 86,
+    "question": "個人のプライバシーを守るため、企業や行政機関などに個人情報の適切な取り扱いを義務付けた法律は何か。",
+    "answer": "個人情報保護法",
+    "keyword": "duties",
+    "filename": "g_civics_new_duties_1773667205930.png",
+    "prompt": "A conceptual and educational illustration representing \"個人情報保護法\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 87,
+    "question": "自分の顔や姿を無断で撮影されたり、公表されたり、商品に利用されたりしない権利は何か。",
+    "answer": "肖像権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205931.png",
+    "prompt": "A conceptual and educational illustration representing \"肖像権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 88,
+    "question": "職場において、地位の優位性を背景に、業務の適正な範囲を超えて精神的・身体的苦痛を与える行為を何というか。",
+    "answer": "パワーハラスメント（パワハラ）",
+    "keyword": "_________",
+    "filename": "g_civics_new___________1773667205932.png",
+    "prompt": "A conceptual and educational illustration representing \"パワーハラスメント\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 89,
+    "question": "思想や感情を創作的に表現した文芸、学術、美術、音楽などの作品の作者に与えられる権利を何というか。",
+    "answer": "著作権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205933.png",
+    "prompt": "A conceptual and educational illustration representing \"著作権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 90,
+    "question": "個人が自分の生き方や生活について、他から干渉されずに自由に決定する権利は何か。",
+    "answer": "自己決定権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205934.png",
+    "prompt": "A conceptual and educational illustration representing \"自己決定権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 91,
+    "question": "「生命、自由及び幸福追求に対する国民の権利」として、日本国憲法第13条で保障されており、新しい人権の根拠ともなる権利は何か。",
+    "answer": "幸福追求権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205935.png",
+    "prompt": "A conceptual and educational illustration representing \"幸福追求権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 92,
+    "question": "生活する上で、きれいで快適な環境を求める権利を何というか。",
+    "answer": "環境権",
+    "keyword": "rights",
+    "filename": "g_civics_new_rights_1773667205936.png",
+    "prompt": "A conceptual and educational illustration representing \"環境権\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 93,
+    "question": "大規模な開発を行う前に、それが周囲の環境にどのような影響を及ぼすかを事前に調査・評価し、対策を立てる制度を何というか。",
+    "answer": "環境アセスメント（環境影響評価）",
+    "keyword": "________",
+    "filename": "g_civics_new__________1773667205937.png",
+    "prompt": "A conceptual and educational illustration representing \"環境アセスメント\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 94,
+    "question": "1948年に国連総会で採択された、すべての人類が生まれながらにして持つ基本的人権と自由の保障を世界に向けて示した宣言を何というか。",
+    "answer": "世界人権宣言",
+    "keyword": "united_nations",
+    "filename": "g_civics_new_united_nations_1773667205938.png",
+    "prompt": "A conceptual and educational illustration representing \"世界人権宣言\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 95,
+    "question": "世界人権宣言の内容を条約化し、批准した国に法的な拘束力を持たせた国際条約を何というか。",
+    "answer": "国際人権規約",
+    "keyword": "______",
+    "filename": "g_civics_new________1773667205939.png",
+    "prompt": "A conceptual and educational illustration representing \"国際人権規約\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 96,
+    "question": "不当に逮捕・拘禁されている人々の釈放や死刑の廃止などを訴え、1977年にノーベル平和賞を受賞した国際的な人権団体（NGO）は何か。",
+    "answer": "アムネスティ・インターナショナル",
+    "keyword": "ngo",
+    "filename": "g_civics_new_ngo_1773667205940.png",
+    "prompt": "A conceptual and educational illustration representing \"アムネスティ・インターナショナル\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 97,
+    "question": "生き物の親から子に遺伝子がどのように受けつがれているかを調べることで、遺伝によって起こる病気などを解明することを何というか。",
+    "answer": "遺伝子診断",
+    "keyword": "_____",
+    "filename": "g_civics_new_______1773667205941.png",
+    "prompt": "A conceptual and educational illustration representing \"遺伝子診断\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  },
+  {
+    "section": "cw_1",
+    "index": 98,
+    "question": "ある生物の細胞に別の生物の遺伝子を組み込む技術によって、新しい性質を持たせて作られた作物を何というか。",
+    "answer": "遺伝子組み換え食品",
+    "keyword": "_________",
+    "filename": "g_civics_new___________1773667205942.png",
+    "prompt": "A conceptual and educational illustration representing \"遺伝子組み換え食品\" in the context of Japanese civics, society, or economy. The image should be abstract or conceptual, clear, and visually engaging. No text, words, or letters should be visible in the image."
+  }
+]

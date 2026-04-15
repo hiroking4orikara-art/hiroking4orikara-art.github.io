@@ -1,0 +1,1 @@
+const fs=require('fs'); ['temp_h_takeshima.js', 'temp_history_apply.js', 'quiz_data.js'].forEach(f=>{ if(fs.existsSync(f)) { let c=fs.readFileSync(f,'utf8'); console.log(f, (c.match(/img:/g)||[]).length + (c.match(/image:/g)||[]).length); } })

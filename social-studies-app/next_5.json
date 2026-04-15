@@ -1,0 +1,42 @@
+[
+  {
+    "unit": "h_medieval_4",
+    "index": 1,
+    "q": "建武の新政に不満を持つ武士を率いて反乱を起こし、1338年に征夷大将軍となって幕府を開いた人物は？",
+    "a": "足利尊氏",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: 足利尊氏. Context: 建武の新政に不満を持つ武士を率いて反乱を起こし、1338年に征夷大将軍となって幕府を開いた人物は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.",
+    "filename": "h_medieval_4_足利尊氏.png"
+  },
+  {
+    "unit": "h_medieval_4",
+    "index": 2,
+    "q": "足利尊氏が京都に立てた北朝と、後醍醐天皇が奈良の吉野に逃れて立てた南朝が対立し、約60年間争った時代を何というか？",
+    "a": "南北朝時代",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: 南北朝時代. Context: 足利尊氏が京都に立てた北朝と、後醍醐天皇が奈良の吉野に逃れて立てた南朝が対立し、約60年間争った時代を何というか？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.",
+    "filename": "h_medieval_4_南北朝時代.png"
+  },
+  {
+    "unit": "h_medieval_4",
+    "index": 3,
+    "q": "南北朝の動乱を終わらせ、1392年に南北朝を統一した室町幕府の第3代将軍は？",
+    "a": "足利義満",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: 足利義満. Context: 南北朝の動乱を終わらせ、1392年に南北朝を統一した室町幕府の第3代将軍は？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.",
+    "filename": "h_medieval_4_足利義満.png"
+  },
+  {
+    "unit": "h_medieval_4",
+    "index": 4,
+    "q": "室町幕府において、将軍を補佐する役職を何というか？",
+    "a": "管領",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: 管領. Context: 室町幕府において、将軍を補佐する役職を何というか？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.",
+    "filename": "h_medieval_4_管領.png"
+  },
+  {
+    "unit": "h_medieval_4",
+    "index": 5,
+    "q": "鎌倉時代の守護が力を強め、一国全体を支配するようになった大名を何というか？",
+    "a": "守護大名",
+    "prompt": "A colorful pop-art illustration for a history textbook representing: 守護大名. Context: 鎌倉時代の守護が力を強め、一国全体を支配するようになった大名を何というか？. Style: vibrant colors, clear outlines, comic-book style dots, engaging, educational, simple background, NO TEXT.",
+    "filename": "h_medieval_4_守護大名.png"
+  }
+]

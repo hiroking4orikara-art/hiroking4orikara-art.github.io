@@ -1,0 +1,782 @@
+{
+  "found": [
+    {
+      "unit": "h_early_modern_3",
+      "index": 5,
+      "q": "1637年、九州でキリスト教徒への弾圧や重い税に苦しむ人々が起こした一揆は？",
+      "a": "島原・天草一揆",
+      "newPath": "assets/images/history/h_early_modern_3_buke_shohatto.png"
+    },
+    {
+      "unit": "h_early_modern_3",
+      "index": 8,
+      "q": "鎖国中、長崎の出島で貿易を許された国は、中国（清）とどこか？",
+      "a": "オランダ",
+      "newPath": "assets/images/history/h_early_modern_3_buke_shohatto.png"
+    },
+    {
+      "unit": "h_early_modern_3",
+      "index": 9,
+      "q": "「鎖国の四つの窓」のうち、対馬藩を通じて国交のあった国は？",
+      "a": "朝鮮",
+      "newPath": "assets/images/history/h_early_modern_3_buke_shohatto.png"
+    },
+    {
+      "unit": "h_early_modern_3",
+      "index": 10,
+      "q": "「鎖国の四つの窓」のうち、薩摩藩（鹿児島県）が実質的に支配していたのは？",
+      "a": "琉球王国",
+      "newPath": "assets/images/history/h_early_modern_3_buke_shohatto.png"
+    },
+    {
+      "unit": "h_early_modern_3",
+      "index": 12,
+      "q": "江戸時代、朝鮮との外交を担当し、釜山に「倭館」を置いて貿易を行った藩は？",
+      "a": "対馬藩（宗氏）",
+      "newPath": "assets/images/history/h_early_modern_3_buke_shohatto.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 2,
+      "q": "商品として売るために栽培された、綿花・菜種・藍などの作物を何というか？",
+      "a": "商品作物",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 3,
+      "q": "犯罪の防止や年貢の納入において、共同責任を負わせるために作られた5～6軒のグループは？",
+      "a": "五人組",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 4,
+      "q": "江戸時代、大阪は全国の物資が集まる中心地として何と呼ばれたか？",
+      "a": "天下の台所",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 5,
+      "q": "上方（大阪・京都）を中心に栄えた、町人たちの活気あふれる文化を何というか？",
+      "a": "元禄文化",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 6,
+      "q": "「奥の細道」などで知られ、新しい俳諧の作風を確立した人物は？",
+      "a": "松尾芭蕉",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 7,
+      "q": "「日本永代蔵」などの浮世草子で、町人の生活を描いた作家は？",
+      "a": "井原西鶴",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 11,
+      "q": "江戸時代の農業技術で、イワシなどを干して作った販売用の肥料を何というか？",
+      "a": "干鰯（金肥）",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 12,
+      "q": "江戸時代、大阪と江戸の間で、木綿や油・酒などの生活物資を運んだ定期船は？",
+      "a": "菱垣廻船・樽廻船",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 13,
+      "q": "幕府の命令で、西回り航路や東回り航路を整備した商人は？",
+      "a": "河村瑞賢",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_4",
+      "index": 14,
+      "q": "江戸幕府の財政を支えた、世界最大級の産出量を誇った金山は？",
+      "a": "佐渡金山",
+      "newPath": "assets/images/history/h_early_modern_4_bitchuguwa.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 0,
+      "q": "8代将軍徳川吉宗が行った、質素倹約や新田開発を進めた改革は？",
+      "a": "享保の改革",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 1,
+      "q": "徳川吉宗が、庶民の意見を聞くために設置したものは？",
+      "a": "目安箱",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 2,
+      "q": "徳川吉宗が定めた、大名に米を献上させる代わりに参勤交代の期間を短くした制度は？",
+      "a": "上げ米の制",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 3,
+      "q": "飢饉に備えて、徳川吉宗が青木昆陽に栽培を奨励させた作物は？",
+      "a": "サツマイモ（甘藷）",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 4,
+      "q": "株仲間の結成を認めて商業を奨励したが、賄賂が横行した老中は？",
+      "a": "田沼意次",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 5,
+      "q": "田沼意次の後、老中となり、寛政の改革を行った人物は？",
+      "a": "松平定信",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 8,
+      "q": "田沼意次の時代、長崎貿易で銅の代わりに輸出が奨励された、干しアワビやフカヒレなどの海産物を何というか？",
+      "a": "俵物",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_5",
+      "index": 9,
+      "q": "日本古来の精神や文化を研究する「国学」を大成し、『古事記伝』を著した人物は？",
+      "a": "本居宣長",
+      "newPath": "assets/images/history/h_early_modern_5_kaitai.png"
+    },
+    {
+      "unit": "h_early_modern_6",
+      "index": 0,
+      "q": "19世紀初め、江戸の町人を中心に栄えた、皮肉や滑稽さを好む文化を何というか？",
+      "a": "化政文化",
+      "newPath": "assets/images/history/h_early_modern_6_hiroshige.png"
+    },
+    {
+      "unit": "h_early_modern_6",
+      "index": 6,
+      "q": "1825年、幕府が出した、外国船を見つけたら砲撃して追い払うよう命じた法令は？",
+      "a": "異国船打払令",
+      "newPath": "assets/images/history/h_early_modern_6_hiroshige.png"
+    },
+    {
+      "unit": "h_early_modern_6",
+      "index": 7,
+      "q": "1837年、大坂で不作と飢饉に苦しむ人々を救うため、幕府の元役人が起こした反乱は？",
+      "a": "大塩平八郎の乱",
+      "newPath": "assets/images/history/h_early_modern_6_hiroshige.png"
+    },
+    {
+      "unit": "h_early_modern_6",
+      "index": 8,
+      "q": "幕府の鎖国政策を批判し、処罰された渡辺崋山や高野長英の事件を何というか？",
+      "a": "蛮社の獄",
+      "newPath": "assets/images/history/h_early_modern_6_hiroshige.png"
+    },
+    {
+      "unit": "h_early_modern_6",
+      "index": 9,
+      "q": "老中の水野忠邦が行った、株仲間の解散や人返し令などの改革は？",
+      "a": "天保の改革",
+      "newPath": "assets/images/history/h_early_modern_6_hiroshige.png"
+    },
+    {
+      "unit": "h_early_modern_6",
+      "index": 10,
+      "q": "1853年、浦賀（神奈川県）に来航し、日本に開国を迫ったアメリカの使節は？",
+      "a": "ペリー",
+      "newPath": "assets/images/history/h_early_modern_6_hiroshige.png"
+    },
+    {
+      "unit": "h_early_modern_6",
+      "index": 13,
+      "q": "1837年、日本人漂流民を送り届けようとしたアメリカの商船を、幕府が砲撃して追い払った事件は？",
+      "a": "モリソン号事件",
+      "newPath": "assets/images/history/h_early_modern_6_hiroshige.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 1,
+      "q": "五箇条の御誓文の翌日、民衆に対して出された立て札（掲示）を何というか？",
+      "a": "五榜の掲示",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 2,
+      "q": "1869年、大名から土地（版）と人民（籍）を天皇に返させた改革は？",
+      "a": "版籍奉還",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 3,
+      "q": "1871年、政府が藩を廃止して県を置き、中央から役人を派遣して治めさせた改革は？",
+      "a": "廃藩置県",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 4,
+      "q": "「四民平等」のスローガンのもと、江戸時代の身分制度を廃止し、皇族以外のすべての人に名乗ることを許したのは？",
+      "a": "苗字（名字）",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 5,
+      "q": "満20歳以上の男子に兵役の義務を負わせた法令は？",
+      "a": "徴兵令",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 6,
+      "q": "土地の所有者に地券を発行し、地価の3%を現金で納めさせた改革は？",
+      "a": "地租改正",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 7,
+      "q": "1872年に出され、満6歳以上の男女すべてに小学校教育を受けさせることにした法令は？",
+      "a": "学制",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 8,
+      "q": "江戸と横浜の間に初めて開通し、「陸蒸気（おかじょうき）」と呼ばれた交通機関は？",
+      "a": "鉄道",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 9,
+      "q": "飛脚にかわって全国均一料金で手紙を届ける「郵便制度」を創設した人物は？",
+      "a": "前島密",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 12,
+      "q": "当時のスローガンで、経済を発展させて軍隊を強くすることを何というか？",
+      "a": "富国強兵",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 13,
+      "q": "西洋の文化が入り、人々の生活が変化したこと（ざんぎり頭や牛鍋、太陽暦の採用など）を何というか？",
+      "a": "文明開化",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 14,
+      "q": "1874年、征韓論を主張して政府を去った江藤新平らが佐賀県で起こした反乱は？",
+      "a": "佐賀の乱",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_1",
+      "index": 15,
+      "q": "1877年、西郷隆盛を指導者として鹿児島の士族が起こした、最大かつ最後の士族の反乱は？",
+      "a": "西南戦争",
+      "newPath": "assets/images/history/h_modern_1_bunmei_1773341920113.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 4,
+      "q": "1881年、政府が10年後の国会開設を約束した際に、それに向けて組織された板垣退助を党首とする政党は？",
+      "a": "自由党",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 5,
+      "q": "政府が、新聞や演説などで政府を批判することを厳しく取り締まった法律は？",
+      "a": "新聞紙条例・讒謗律（ざんぼうりつ）",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 7,
+      "q": "ヨーロッパの憲法を調査し、初代内閣総理大臣となった人物は？",
+      "a": "伊藤博文",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 8,
+      "q": "1885年に内閣制度が作られた際、初代の外務大臣に就任したのは？（「鹿鳴館」で有名）",
+      "a": "井上馨",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 9,
+      "q": "1889年に発布された、天皇が国民に与える形（欽定憲法）で制定された憲法は？",
+      "a": "大日本帝国憲法",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 10,
+      "q": "大日本帝国憲法において、国民（臣民）の権利はどのように規定されていたか？",
+      "a": "法律の範囲内で認められた",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 11,
+      "q": "1890年に教育の基本理念として出され、天皇への忠義や親孝行を説いたものは？",
+      "a": "教育勅語",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_2",
+      "index": 12,
+      "q": "1890年に開かれた、日本初の議会を何というか？",
+      "a": "帝国議会",
+      "newPath": "assets/images/history/h_modern_2_chichibu.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 1,
+      "q": "日清戦争の直前、イギリスとの間で治外法権（領事裁判権）の撤廃に成功した外務大臣は？",
+      "a": "陸奥宗光",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 2,
+      "q": "1894年に朝鮮半島での反乱（甲午農民戦争）をきっかけに始まった、日本と清（中国）の戦争は？",
+      "a": "日清戦争",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 3,
+      "q": "下関条約・ポーツマス条約での、中国側の代表（全権）は？",
+      "a": "李鴻章",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 4,
+      "q": "下関条約で日本が得た領土は、台湾とどこか？",
+      "a": "遼東半島",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 5,
+      "q": "下関条約で日本が遼東半島を得たことに対し、ロシア・ドイツ・フランスが返還を要求した出来事は？",
+      "a": "三国干渉",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 7,
+      "q": "1900年、清（中国）で起こった、外国勢力を追い出そうとする「扶清滅洋」を掲げた反乱は？",
+      "a": "義和団事件",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 8,
+      "q": "1902年、ロシアの南下に対抗するために日本がイギリスと結んだ同盟は？",
+      "a": "日英同盟",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 9,
+      "q": "日露戦争の開戦に際し、「君死にたまふことなかれ」という詩を発表した歌人は？",
+      "a": "与謝野晶子",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 10,
+      "q": "1904年に始まった、日本とロシアとの戦争は？",
+      "a": "日露戦争",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 11,
+      "q": "日露戦争の講和条約（ポーツマス条約）を仲介したアメリカ大統領は？",
+      "a": "セオドア・ルーズベルト",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 12,
+      "q": "ポーツマス条約で、日本が得た領土は？",
+      "a": "樺太（サハリン）の南半分",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 13,
+      "q": "日露戦争後、賠償金が得られなかったことに不満を持つ人々が起こした暴動事件は？",
+      "a": "日比谷焼き打ち事件",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 14,
+      "q": "1910年、日本が朝鮮半島を完全に領土とした出来事を何というか？",
+      "a": "韓国併合",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_3",
+      "index": 15,
+      "q": "日露戦争後の1911年、関税自主権の回復（完全な条約改正）に成功した外務大臣は？",
+      "a": "小村寿太郎",
+      "newPath": "assets/images/history/h_modern_3_giwadan_1773342569899.png"
+    },
+    {
+      "unit": "h_modern_4",
+      "index": 18,
+      "q": "米ぬかからオリザニン（ビタミンB1）を発見し、脚気の予防に貢献した人物は？",
+      "a": "鈴木梅太郎",
+      "newPath": "assets/images/history/h_modern_4_fukuzawa.png"
+    },
+    {
+      "unit": "h_modern_4",
+      "index": 19,
+      "q": "アドレナリンやタカジアスターゼを発見した化学者は？",
+      "a": "高峰譲吉",
+      "newPath": "assets/images/history/h_modern_4_fukuzawa.png"
+    },
+    {
+      "unit": "h_modern_4",
+      "index": 20,
+      "q": "伝統的な木彫技術に西洋の写実性を取り入れ、「老猿」などの傑作を残した彫刻家は？",
+      "a": "高村光雲",
+      "newPath": "assets/images/history/h_modern_4_fukuzawa.png"
+    },
+    {
+      "unit": "h_modern_4",
+      "index": 21,
+      "q": "「悲母観音」を描き、岡倉天心とともに日本画の改革に努めた画家は？",
+      "a": "狩野芳崖",
+      "newPath": "assets/images/history/h_modern_4_fukuzawa.png"
+    },
+    {
+      "unit": "h_modern_4",
+      "index": 22,
+      "q": "ロダンの影響を受け、「女」などの作品を残した近代彫刻の先駆者は？",
+      "a": "荻原守衛",
+      "newPath": "assets/images/history/h_modern_4_fukuzawa.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 8,
+      "q": "第一次世界大戦の講和条約（ベルサイユ条約）に基づいて作られた、世界平和を守るための国際機関は？",
+      "a": "国際連盟",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 9,
+      "q": "朝鮮で起こった、日本の植民地支配からの独立を求める運動は？",
+      "a": "三・一独立運動",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 11,
+      "q": "「青鞜」を発刊し、「元始、女性は太陽であった」と平塚らいてうらが訴えた運動は？",
+      "a": "女性解放運動",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 12,
+      "q": "被差別部落の人々が、差別からの解放と平等を求めて結成した団体は？",
+      "a": "全国水平社",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 13,
+      "q": "1925年に制定された、満25歳以上のすべての男子に選挙権を与えた法律は？",
+      "a": "普通選挙法",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 14,
+      "q": "普通選挙法と同時に制定された、社会主義運動などを取り締まる法律は？",
+      "a": "治安維持法",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 15,
+      "q": "1925年、新聞や雑誌に加えて開始された、新しい情報の伝達手段は？",
+      "a": "ラジオ放送",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 17,
+      "q": "第一次世界大戦の好景気（大戦景気）により、急に金持ちになった人々を何というか？",
+      "a": "成金",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 18,
+      "q": "天皇機関説を唱え、政党政治の理論的支柱となった憲法学者は？",
+      "a": "美濃部達吉",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 19,
+      "q": "平塚らいてうとともに新婦人協会を設立し、戦後も女性の地位向上に尽くした人物は？",
+      "a": "市川房枝",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 22,
+      "q": "「善の研究」を著し、東洋と西洋の思想を融合させた「西田哲学」を確立した哲学者は？",
+      "a": "西田幾多郎",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 23,
+      "q": "強力な磁石鋼（KS鋼）を発明し、「鉄の神様」と呼ばれた物理学者は？",
+      "a": "本多光太郎",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_modern_5",
+      "index": 24,
+      "q": "民芸運動を提唱し、無名の職人が作った日用品（民衆的工芸）の美を称賛した人物は？",
+      "a": "柳宗悦",
+      "newPath": "assets/images/history/h_modern_5_chian_1773343001388.png"
+    },
+    {
+      "unit": "h_contemporary_1",
+      "index": 6,
+      "q": "民主的な教育を行うために1947年に制定された法律は？",
+      "a": "教育基本法",
+      "newPath": "assets/images/history/h_contemporary_1_josei_1773343276424.png"
+    },
+    {
+      "unit": "h_contemporary_1",
+      "index": 7,
+      "q": "満20歳以上のすべての男女に選挙権が認められ、1946年に行われた選挙で初めて誕生したのは？",
+      "a": "女性議員",
+      "newPath": "assets/images/history/h_contemporary_1_josei_1773343276424.png"
+    },
+    {
+      "unit": "h_contemporary_1",
+      "index": 8,
+      "q": "労働者の権利を守るために制定された、労働基準法・労働組合法・労働関係調整法をまとめて何というか？",
+      "a": "労働三法",
+      "newPath": "assets/images/history/h_contemporary_1_josei_1773343276424.png"
+    },
+    {
+      "unit": "h_contemporary_1",
+      "index": 9,
+      "q": "1945年に発足した、戦争を防ぎ世界平和を守るための国際機関は？",
+      "a": "国際連合",
+      "newPath": "assets/images/history/h_contemporary_1_josei_1773343276424.png"
+    },
+    {
+      "unit": "h_contemporary_1",
+      "index": 10,
+      "q": "1946年1月1日、昭和天皇が自らを神ではなく人間であると宣言したことを何というか？",
+      "a": "人間宣言",
+      "newPath": "assets/images/history/h_contemporary_1_josei_1773343276424.png"
+    },
+    {
+      "unit": "h_contemporary_2",
+      "index": 3,
+      "q": "1949年、中国共産党が国民党を破って建国し、毛沢東が主席となった国は？",
+      "a": "中華人民共和国",
+      "newPath": "assets/images/history/h_contemporary_2_55nen_1773343411182.png"
+    },
+    {
+      "unit": "h_contemporary_2",
+      "index": 6,
+      "q": "1955年、アジアやアフリカの国々が集まり、植民地主義への反対などを確認した会議は？",
+      "a": "アジア・アフリカ会議（バンドン会議）",
+      "newPath": "assets/images/history/h_contemporary_2_55nen_1773343411182.png"
+    },
+    {
+      "unit": "h_contemporary_2",
+      "index": 7,
+      "q": "1956年、日本とソ連との間で国交が回復した宣言は？",
+      "a": "日ソ共同宣言",
+      "newPath": "assets/images/history/h_contemporary_2_55nen_1773343411182.png"
+    },
+    {
+      "unit": "h_contemporary_2",
+      "index": 8,
+      "q": "1955年に自由民主党が結成されて以来、野党第一党の社会党と対立しながら約38年間政権を維持した体制は？",
+      "a": "55年体制",
+      "newPath": "assets/images/history/h_contemporary_2_55nen_1773343411182.png"
+    },
+    {
+      "unit": "h_contemporary_2",
+      "index": 9,
+      "q": "1960年、日米安全保障条約の改定をめぐって起こった大規模な反対運動は？",
+      "a": "安保闘争",
+      "newPath": "assets/images/history/h_contemporary_2_55nen_1773343411182.png"
+    },
+    {
+      "unit": "h_contemporary_2",
+      "index": 10,
+      "q": "1949年、日本人として初めてノーベル賞（物理学賞）を受賞した人物は？",
+      "a": "湯川秀樹",
+      "newPath": "assets/images/history/h_contemporary_2_55nen_1773343411182.png"
+    },
+    {
+      "unit": "h_contemporary_3",
+      "index": 3,
+      "q": "1965年、日本と韓国との間で国交が回復した条約は？",
+      "a": "日韓基本条約",
+      "newPath": "assets/images/history/h_contemporary_3_asean_1773343491452.png"
+    },
+    {
+      "unit": "h_contemporary_3",
+      "index": 4,
+      "q": "1967年に結成された、東南アジア諸国の地域協力機構は？",
+      "a": "ASEAN（東南アジア諸国連合）",
+      "newPath": "assets/images/history/h_contemporary_3_asean_1773343491452.png"
+    },
+    {
+      "unit": "h_contemporary_3",
+      "index": 5,
+      "q": "1968年、アメリカの施政権下にあったが、日本への返還が実現した諸島は？（正式な返還は1968年6月）",
+      "a": "小笠原諸島",
+      "newPath": "assets/images/history/h_contemporary_3_asean_1773343491452.png"
+    },
+    {
+      "unit": "h_contemporary_3",
+      "index": 9,
+      "q": "1972年、田中角栄首相が訪中し、中国との国交を正常化した宣言は？",
+      "a": "日中共同声明",
+      "newPath": "assets/images/history/h_contemporary_3_asean_1773343491452.png"
+    },
+    {
+      "unit": "h_contemporary_3",
+      "index": 10,
+      "q": "1978年、福田赳夫内閣の時に中国と結ばれた平和条約は？",
+      "a": "日中平和友好条約",
+      "newPath": "assets/images/history/h_contemporary_3_asean_1773343491452.png"
+    },
+    {
+      "unit": "h_contemporary_4",
+      "index": 4,
+      "q": "1991年、多国籍軍によるイラクへの攻撃で始まった戦争は？",
+      "a": "湾岸戦争",
+      "newPath": "assets/images/history/h_contemporary_4_55nen_owari_1773343744582.png"
+    },
+    {
+      "unit": "h_contemporary_4",
+      "index": 5,
+      "q": "湾岸戦争の反省から、1992年に制定された、自衛隊の海外派遣を可能にした法律は？",
+      "a": "PKO協力法",
+      "newPath": "assets/images/history/h_contemporary_4_pko_1773343640594.png"
+    },
+    {
+      "unit": "h_contemporary_4",
+      "index": 6,
+      "q": "1993年、ヨーロッパ諸国が経済・通貨の統合を目指して発足させた組織は？",
+      "a": "EU（欧州連合）",
+      "newPath": "assets/images/history/h_contemporary_4_eu_1773343658446.png"
+    },
+    {
+      "unit": "h_contemporary_4",
+      "index": 7,
+      "q": "1995年1月17日に発生し、高速道路の倒壊や火災などで大きな被害を出した地震は？",
+      "a": "阪神・淡路大震災",
+      "newPath": "assets/images/history/h_contemporary_4_55nen_owari_1773343744582.png"
+    },
+    {
+      "unit": "h_contemporary_4",
+      "index": 8,
+      "q": "1995年、地下鉄サリン事件などを引き起こし、社会を震撼させた宗教団体は？",
+      "a": "オウム真理教",
+      "newPath": "assets/images/history/h_contemporary_4_55nen_owari_1773343744582.png"
+    },
+    {
+      "unit": "h_contemporary_4",
+      "index": 9,
+      "q": "1989年、竹下登内閣の時に初めて導入された税金は？",
+      "a": "消費税",
+      "newPath": "assets/images/history/h_contemporary_4_55nen_owari_1773343744582.png"
+    },
+    {
+      "unit": "h_contemporary_4",
+      "index": 10,
+      "q": "1993年、細川護煕を首相とする連立政権が誕生し、終わった政治体制は？",
+      "a": "55年体制",
+      "newPath": "assets/images/history/h_contemporary_4_55nen_owari_1773343744582.png"
+    },
+    {
+      "unit": "h_contemporary_5",
+      "index": 0,
+      "q": "2001年9月11日、アメリカでハイジャックされた旅客機が高層ビルに突入した事件は？",
+      "a": "アメリカ同時多発テロ",
+      "newPath": "assets/images/history/h_contemporary_5_911_1773343761113.png"
+    },
+    {
+      "unit": "h_contemporary_5",
+      "index": 3,
+      "q": "2015年に採択された、すべての国が参加する地球温暖化対策の新たな枠組みは？",
+      "a": "パリ協定",
+      "newPath": "assets/images/history/h_contemporary_5_911_1773343761113.png"
+    },
+    {
+      "unit": "h_contemporary_5",
+      "index": 4,
+      "q": "2015年、国連で採択された「持続可能な開発目標」をアルファベット4文字で何というか？",
+      "a": "SDGs",
+      "newPath": "assets/images/history/h_contemporary_5_sdgs_1773343811627.png"
+    },
+    {
+      "unit": "h_contemporary_5",
+      "index": 11,
+      "q": "島根県に属するが、韓国が不法に占拠している日本固有の領土は？",
+      "a": "竹島",
+      "newPath": "assets/images/history/h_contemporary_5_911_1773343761113.png"
+    }
+  ],
+  "missing": [
+    {
+      "unit": "h_modern_2",
+      "index": 13,
+      "q": "第1回衆議院議員総選挙の選挙権を持っていたのは？",
+      "a": "直接国税15円以上を納める満25歳以上の男子"
+    }
+  ]
+}

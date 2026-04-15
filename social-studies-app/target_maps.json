@@ -1,0 +1,194 @@
+[
+  {
+    "unitId": "gj_9",
+    "idx": 0,
+    "q": "北海道の中央部にある火山群で、最高峰の旭岳（2291m）などを含む場所は？",
+    "img": "images/geography/japan_hokkaido_map.png"
+  },
+  {
+    "unitId": "gj_9",
+    "idx": 1,
+    "q": "流域面積が日本第2位の大河で、石狩平野を流れて日本海に注ぐ川は？",
+    "img": "assets/images/geography/map_japan_blank_1771590893723.png",
+    "mapOverlay": [
+      {
+        "type": "polyline",
+        "points": "76,26 73,24 70,24",
+        "color": "#3498db",
+        "strokeWidth": "5"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_9",
+    "idx": 2,
+    "q": "北海道の東部に位置し、冬には流氷が見られ、世界自然遺産に登録されている半島は？",
+    "img": "assets/images/geography/map_japan_blank_1771590893723.png",
+    "mapOverlay": [
+      {
+        "type": "polygon",
+        "points": "92,10 95,7 93,6 90,8",
+        "fill": "rgba(230, 126, 34, 0.4)",
+        "color": "#d35400",
+        "strokeWidth": "2"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_9",
+    "idx": 3,
+    "q": "日本最大の湿原で、ラムサール条約に登録されているのは？",
+    "img": "assets/images/geography/map_japan_blank_1771590893723.png",
+    "mapOverlay": [
+      {
+        "type": "circle",
+        "cx": "90",
+        "cy": "16",
+        "r": "3",
+        "fill": "rgba(52, 152, 219, 0.5)",
+        "color": "#2980b9"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_3",
+    "idx": 0,
+    "q": "九州地方の中央部を北東から南西に走る、険しい山地は？",
+    "img": "assets/images/geography/map_kyushu_blank_1771591728285.png",
+    "mapOverlay": [
+      {
+        "type": "polygon",
+        "points": "40,40 50,35 60,60 45,70",
+        "fill": "rgba(46, 204, 113, 0.4)",
+        "color": "#27ae60",
+        "strokeWidth": "2"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_3",
+    "idx": 2,
+    "q": "九州最大の河川で、「筑紫次郎」の異名を持つ川は？",
+    "img": "assets/images/geography/map_kyushu_blank_1771591728285.png",
+    "mapOverlay": [
+      {
+        "type": "polyline",
+        "points": "62,42 50,41 37,41 30,42",
+        "color": "#3498db",
+        "strokeWidth": "5"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_3",
+    "idx": 6,
+    "q": "山の斜面や谷間の傾斜地に、階段状に作られた水田を何というか？",
+    "img": "assets/images/geography/geo_jp_tanada_1771590803814.png"
+  },
+  {
+    "unitId": "gj_3",
+    "idx": 7,
+    "q": "熊本県北東部にある、世界最大級のカルデラを持つ火山は？",
+    "img": "assets/images/geography/map_kyushu_blank_1771591728285.png",
+    "mapOverlay": [
+      {
+        "type": "rect",
+        "x": "29%",
+        "y": "54%",
+        "width": "13%",
+        "height": "3%",
+        "fill": "#ffffff"
+      },
+      {
+        "type": "text",
+        "x": "45%",
+        "y": "52%",
+        "text": "？",
+        "color": "#c0392b",
+        "fontSize": "4rem",
+        "anchor": "middle"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_3",
+    "idx": 33,
+    "q": "九州地方で人口が最も多く、アジアの玄関口とも呼ばれるこの県のなまえは？",
+    "img": "assets/images/geography/map_kyushu_blank_1771591728285.png",
+    "mapOverlay": [
+      {
+        "type": "circle",
+        "cx": "45",
+        "cy": "15",
+        "r": "12",
+        "fill": "white",
+        "color": "white",
+        "strokeWidth": "0"
+      },
+      {
+        "type": "text",
+        "x": "45%",
+        "y": "15%",
+        "text": "？",
+        "color": "#c0392b",
+        "fontSize": "4rem",
+        "anchor": "middle",
+        "baseline": "middle"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_3",
+    "idx": 34,
+    "q": "かつては外国との貿易窓口（出島）があり、造船業が盛んなこの県のなまえは？",
+    "img": "assets/images/geography/map_kyushu_blank_1771591728285.png",
+    "mapOverlay": [
+      {
+        "type": "circle",
+        "cx": "18",
+        "cy": "40",
+        "r": "12",
+        "fill": "white",
+        "color": "white",
+        "strokeWidth": "0"
+      },
+      {
+        "type": "text",
+        "x": "18%",
+        "y": "40%",
+        "text": "？",
+        "color": "#c0392b",
+        "fontSize": "4rem",
+        "anchor": "middle",
+        "baseline": "middle"
+      }
+    ]
+  },
+  {
+    "unitId": "gj_3",
+    "idx": 35,
+    "q": "シラス台地が広がり、さつまいもや豚肉の生産が盛んなこの県のなまえは？",
+    "img": "assets/images/geography/map_kyushu_blank_1771591728285.png",
+    "mapOverlay": [
+      {
+        "type": "circle",
+        "cx": "45",
+        "cy": "80",
+        "r": "12",
+        "fill": "white",
+        "color": "white",
+        "strokeWidth": "0"
+      },
+      {
+        "type": "text",
+        "x": "45%",
+        "y": "80%",
+        "text": "？",
+        "color": "#c0392b",
+        "fontSize": "4rem",
+        "anchor": "middle",
+        "baseline": "middle"
+      }
+    ]
+  }
+]

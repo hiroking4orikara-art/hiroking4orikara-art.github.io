@@ -1,0 +1,312 @@
+{
+  "japan_overlays": [
+    {
+      "unitId": "gj_3",
+      "idx": 2,
+      "q": "九州最大の河川で、「筑紫次郎」の異名を持つ川は？",
+      "a": "筑後川",
+      "img": "assets/images/geography/map_kyushu_blank_1771591728285.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "polyline",
+          "points": "45,30 30,35",
+          "color": "#3498db",
+          "strokeWidth": "5"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_4",
+      "idx": 4,
+      "q": "水不足を解消するため、吉野川から水を引いて作られた用水路は？",
+      "a": "香川用水",
+      "img": "assets/images/geography/map_shikoku_blank_1771591711033.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "polyline",
+          "points": "60,40 50,20",
+          "color": "#3498db",
+          "strokeWidth": "5"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_4",
+      "idx": 32,
+      "q": "四国地方で面積が最も広く、南は太平洋に面して温暖なこの県のなまえは？",
+      "a": "高知県",
+      "img": "assets/images/geography/map_shikoku_blank_1771591711033.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "text",
+          "x": "40%",
+          "y": "70%",
+          "text": "？",
+          "color": "#c0392b",
+          "fontSize": "4rem",
+          "anchor": "middle",
+          "baseline": "middle"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_4",
+      "idx": 33,
+      "q": "四国地方にあり、みかんの生産量が全国トップクラスのこの県のなまえは？",
+      "a": "愛媛県",
+      "img": "assets/images/geography/map_shikoku_blank_1771591711033.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "text",
+          "x": "25%",
+          "y": "40%",
+          "text": "？",
+          "color": "#c0392b",
+          "fontSize": "4rem",
+          "anchor": "middle",
+          "baseline": "middle"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_6",
+      "idx": 2,
+      "q": "日本最長の川（長さ約367km）で、越後平野を流れて日本海に注ぐ川は？",
+      "a": "信濃川",
+      "img": "assets/images/geography/map_chubu_blank_1771591636012.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "polyline",
+          "points": "60,40 50,20",
+          "color": "#3498db",
+          "strokeWidth": "5"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_6",
+      "idx": 17,
+      "q": "越後平野が広がり、「米どころ」として稲作が非常に盛んなこの県のなまえは？",
+      "a": "新潟県",
+      "img": "assets/images/geography/map_chubu_blank_1771591636012.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "text",
+          "x": "70%",
+          "y": "20%",
+          "text": "？",
+          "color": "#c0392b",
+          "fontSize": "4rem",
+          "anchor": "middle",
+          "baseline": "middle"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 2,
+      "q": "流域面積が日本一の川で、「坂東太郎」の異名を持つ川は？",
+      "a": "利根川",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "polyline",
+          "points": "30,20 60,50 85,45",
+          "color": "#3498db",
+          "strokeWidth": "5"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 20,
+      "q": "成田国際空港があり、落花生などの近郊農業や工業が盛んなこの県のなまえは？",
+      "a": "千葉県",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "text",
+          "x": "75%",
+          "y": "65%",
+          "text": "？",
+          "color": "#c0392b",
+          "fontSize": "4rem",
+          "anchor": "middle",
+          "baseline": "middle"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 21,
+      "q": "東京の南に位置し、横浜港があり京浜工業地帯の一部となっているこの県のなまえは？",
+      "a": "神奈川県",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "text",
+          "x": "40%",
+          "y": "75%",
+          "text": "？",
+          "color": "#c0392b",
+          "fontSize": "4rem",
+          "anchor": "middle",
+          "baseline": "middle"
+        }
+      ]
+    },
+    {
+      "unitId": "gj_9",
+      "idx": 1,
+      "q": "流域面積が日本第2位の大河で、石狩平野を流れて日本海に注ぐ川は？",
+      "a": "石狩川",
+      "img": "assets/images/geography/map_japan_blank_1771590893723.png",
+      "hasOverlay": true,
+      "mapOverlay": [
+        {
+          "type": "polyline",
+          "points": "81,17 78,20 74,21 73,22",
+          "color": "#3498db",
+          "strokeWidth": "3"
+        }
+      ]
+    }
+  ],
+  "prefecture_quizzes": [
+    {
+      "unitId": "gj_3",
+      "idx": 7,
+      "q": "熊本県北東部にある、世界最大級のカルデラを持つ火山は？",
+      "a": "阿蘇山",
+      "img": "assets/images/geography/map_kyushu_blank_1771591728285.png"
+    },
+    {
+      "unitId": "gj_3",
+      "idx": 33,
+      "q": "九州地方で人口が最も多く、アジアの玄関口とも呼ばれるこの県のなまえは？",
+      "a": "福岡県",
+      "img": "assets/images/geography/map_kyushu_blank_1771591728285.png"
+    },
+    {
+      "unitId": "gj_3",
+      "idx": 34,
+      "q": "かつては外国との貿易窓口（出島）があり、造船業が盛んなこの県のなまえは？",
+      "a": "長崎県",
+      "img": "assets/images/geography/map_kyushu_blank_1771591728285.png"
+    },
+    {
+      "unitId": "gj_3",
+      "idx": 35,
+      "q": "シラス台地が広がり、さつまいもや豚肉の生産が盛んなこの県のなまえは？",
+      "a": "鹿児島県",
+      "img": "assets/images/geography/map_kyushu_blank_1771591728285.png"
+    },
+    {
+      "unitId": "gj_4",
+      "idx": 30,
+      "q": "中国地方にあり、原爆ドームや厳島神社などの世界遺産があるこの県のなまえは？",
+      "a": "広島県",
+      "img": "assets/images/geography/map_chugoku_blank_1771591689143.png"
+    },
+    {
+      "unitId": "gj_4",
+      "idx": 31,
+      "q": "日本最大級の砂丘があり、らっきょうや梨の栽培が盛んなこの県のなまえは？",
+      "a": "鳥取県",
+      "img": "assets/images/geography/map_chugoku_blank_1771591689143.png"
+    },
+    {
+      "unitId": "gj_4",
+      "idx": 32,
+      "q": "四国地方で面積が最も広く、南は太平洋に面して温暖なこの県のなまえは？",
+      "a": "高知県",
+      "img": "assets/images/geography/map_shikoku_blank_1771591711033.png"
+    },
+    {
+      "unitId": "gj_4",
+      "idx": 33,
+      "q": "四国地方にあり、みかんの生産量が全国トップクラスのこの県のなまえは？",
+      "a": "愛媛県",
+      "img": "assets/images/geography/map_shikoku_blank_1771591711033.png"
+    },
+    {
+      "unitId": "gj_6",
+      "idx": 16,
+      "q": "中部地方にあり、自動車などの工業出荷額が日本一のこの県のなまえは？",
+      "a": "愛知県",
+      "img": "assets/images/geography/map_chubu_blank_1771591636012.png"
+    },
+    {
+      "unitId": "gj_6",
+      "idx": 17,
+      "q": "越後平野が広がり、「米どころ」として稲作が非常に盛んなこの県のなまえは？",
+      "a": "新潟県",
+      "img": "assets/images/geography/map_chubu_blank_1771591636012.png"
+    },
+    {
+      "unitId": "gj_6",
+      "idx": 18,
+      "q": "牧ノ原でお茶の栽培が盛んで、富士山の南側に位置するこの県のなまえは？",
+      "a": "静岡県",
+      "img": "assets/images/geography/map_chubu_blank_1771591636012.png"
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 19,
+      "q": "関東地方の北西部にあり、こんにゃくいもの生産やキャベツの抑制栽培が盛んなこの県のなまえは？",
+      "a": "群馬県",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png"
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 20,
+      "q": "成田国際空港があり、落花生などの近郊農業や工業が盛んなこの県のなまえは？",
+      "a": "千葉県",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png"
+    },
+    {
+      "unitId": "gj_7",
+      "idx": 21,
+      "q": "東京の南に位置し、横浜港があり京浜工業地帯の一部となっているこの県のなまえは？",
+      "a": "神奈川県",
+      "img": "assets/images/geography/map_kanto_blank_1771591579833.png"
+    },
+    {
+      "unitId": "gj_8",
+      "idx": 2,
+      "q": "青森県と秋田県にまたがる山地で、世界最大級のブナの原生林が広がっていることから世界自然遺産に登録されたのは？",
+      "a": "白神山地",
+      "img": "assets/images/geography/map_tohoku_blank_1771591614790.png"
+    },
+    {
+      "unitId": "gj_8",
+      "idx": 16,
+      "q": "本州の最北端にあり、りんごの生産量が日本一のこの県のなまえは？",
+      "a": "青森県",
+      "img": "assets/images/geography/map_tohoku_blank_1771591614790.png"
+    },
+    {
+      "unitId": "gj_8",
+      "idx": 17,
+      "q": "さくらんぼの生産量が日本一で、盆地が多いこの県のなまえは？",
+      "a": "山形県",
+      "img": "assets/images/geography/map_tohoku_blank_1771591614790.png"
+    },
+    {
+      "unitId": "gj_8",
+      "idx": 18,
+      "q": "東北地方の中心都市である仙台市があるこの県のなまえは？",
+      "a": "宮城県",
+      "img": "assets/images/geography/map_tohoku_blank_1771591614790.png"
+    }
+  ]
+}
