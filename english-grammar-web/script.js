@@ -796,10 +796,24 @@ function handleSubmitOrNext() {
   }
 }
 
-function readAloudCurrentSentence() {
+async function readAloudCurrentSentence() {
   if (quizQuestions.length === 0 || currentIndex >= quizQuestions.length) return;
   const currentQ = quizQuestions[currentIndex];
   const textToRead = currentQ.correctOrder.join(' ');
+  
+  if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.TextToSpeech) {
+    try {
+      if (readAloudBtn) readAloudBtn.classList.add('flash-hint');
+      await window.Capacitor.Plugins.TextToSpeech.speak({
+        text: textToRead,
+        lang: 'en-US',
+      });
+      if (readAloudBtn) readAloudBtn.classList.remove('flash-hint');
+      return;
+    } catch (e) {
+      console.warn("Capacitor TTS error:", e);
+    }
+  }
   
   if ('speechSynthesis' in window) {
     window.speechSynthesis.cancel();
@@ -812,7 +826,7 @@ function readAloudCurrentSentence() {
       setTimeout(() => readAloudBtn.classList.remove('flash-hint'), 1000);
     }
   } else {
-    alert("お使いのブラウザは音声読み上げに対応していません。");
+    alert("お使いの端末は音声読み上げに対応していません。");
   }
 }
 
