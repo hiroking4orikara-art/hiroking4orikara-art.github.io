@@ -500,7 +500,56 @@ const RAW_DATA = [
     ["jhs3_it_for_to", ["It", "is", "happy", "for", "Bob", "to", "sleep", "."], "It is happy for Bob to sleep .", "ボブにとって、眠ることは幸せです"],
     ["jhs3_it_for_to", ["It", "is", "important", "for", "children", "to", "play", "outside", "."], "It is important for children to play outside .", "子供たちにとって、外で遊ぶことは重要だ"],
     ["jhs3_it_for_to", ["It", "is", "wonderful", "to", "be", "kind", "to", "someone", "."], "It is wonderful to be kind to someone .", "誰かに優しくすることは素晴らしいです"],
-    ["jhs3_it_for_to", ["Is", "it", "difficult", "for", "them", "to", "travel", "abroad", "?"], "Is it difficult for them to travel abroad ?", "彼らにとって旅行に行くことは難しいですか？"]
+    ["jhs3_it_for_to", ["Is", "it", "difficult", "for", "them", "to", "travel", "abroad", "?"], "Is it difficult for them to travel abroad ?", "彼らにとって旅行に行くことは難しいですか？"],
+
+    // --- EXPANSION: JHS 1 Imperative (imperative) ---
+    ["jhs1_imperative", ["Wash", "your", "hands", "before", "dinner", "."], "Wash your hands before dinner .", "夕食の前に手を洗いなさい"],
+    ["jhs1_imperative", ["Let's", "take", "a", "picture", "here", "."], "Let's take a picture here .", "ここで写真を撮りましょう"],
+    ["jhs1_imperative", ["Don't", "play", "games", "all", "night", "."], "Don't play games all night .", "一晩中ゲームをしてはいけません"],
+    ["jhs1_imperative", ["Show", "me", "your", "notebook", ",", "please", "."], "Show me your notebook , please .", "あなたのノートを見せてください"],
+    ["jhs1_imperative", ["Wait", "for", "me", "."], "Wait for me .", "私を待って"],
+    ["jhs1_imperative", ["Don't", "eat", "too", "much", "."], "Don't eat too much .", "食べすぎないで"],
+    ["jhs1_imperative", ["Help", "your", "mother", "."], "Help your mother .", "お母さんを手伝いなさい"],
+    // --- EXPANSION: JHS 1 Interrogative (interrogative) ---
+    ["jhs1_interrogative", ["How", "many", "books", "do", "you", "read", "?"], "How many books do you read ?", "何冊の本を読みますか？"],
+    ["jhs1_interrogative", ["How", "many", "brothers", "do", "you", "have", "?"], "How many brothers do you have ?", "何人兄弟がいますか？"],
+    ["jhs1_interrogative", ["How", "long", "is", "this", "movie", "?"], "How long is this movie ?", "この映画はどのくらいの長さですか？"],
+    ["jhs1_interrogative", ["How", "long", "did", "you", "stay", "there", "?"], "How long did you stay there ?", "そこにどのくらい長く滞在しましたか？"],
+    ["jhs1_interrogative", ["What", "time", "is", "it", "now", "?"], "What time is it now ?", "今は何時ですか？"],
+    ["jhs1_interrogative", ["What", "time", "do", "you", "usually", "get", "up", "?"], "What time do you usually get up ?", "あなたはたいてい何時に起きますか？"],
+    ["jhs1_interrogative", ["Which", "pen", "is", "yours", "?"], "Which pen is yours ?", "どちらのペンがあなたのものですか？"],
+    ["jhs1_interrogative", ["When", "is", "your", "birthday", "?"], "When is your birthday ?", "あなたの誕生日はいつですか？"],
+    // --- EXPANSION: JHS 2 Conjunctions (conjunction) ---
+    ["jhs2_conjunction", ["I", "know", "that", "she", "is", "busy", "."], "I know that she is busy .", "彼女が忙しいことを私は知っています"],
+    ["jhs2_conjunction", ["He", "said", "that", "he", "was", "tired", "."], "He said that he was tired .", "彼は疲れていると言いました"],
+    ["jhs2_conjunction", ["Did", "you", "know", "that", "Ken", "likes", "music", "?"], "Did you know that Ken likes music ?", "ケンが音楽を好きだということを知っていましたか？"],
+    ["jhs2_conjunction", ["I", "am", "sure", "that", "you", "will", "pass", "the", "exam", "."], "I am sure that you will pass the exam .", "あなたが試験に合格すると私は確信しています"],
+    ["jhs2_conjunction", ["I", "hope", "that", "you", "can", "come", "to", "my", "party", "."], "I hope that you can come to my party .", "私のパーティーにあなたが来られることを願っています"],
+    ["jhs2_conjunction", ["She", "thinks", "that", "this", "book", "is", "interesting", "."], "She thinks that this book is interesting .", "彼女はこの本が面白いと思っています"],
+    ["jhs2_conjunction", ["I", "believe", "that", "he", "is", "a", "good", "doctor", "."], "I believe that he is a good doctor .", "私は彼が良い医者だと信じています"],
+    // --- EXPANSION: JHS 3 Relative (relative) ---
+    ["jhs3_relative", ["The", "girl", "who", "is", "reading", "a", "book", "is", "Yumi", "."], "The girl who is reading a book is Yumi .", "本を読んでいる少女はユミです"],
+    ["jhs3_relative", ["I", "want", "to", "buy", "a", "car", "that", "is", "fast", "."], "I want to buy a car that is fast .", "私は速い車を買いたいです"],
+    ["jhs3_relative", ["This", "is", "a", "movie", "which", "makes", "people", "happy", "."], "This is a movie which makes people happy .", "これは人々を幸せにする映画です"],
+    ["jhs3_relative", ["Is", "there", "anything", "that", "I", "can", "do", "?"], "Is there anything that I can do ?", "私ができることは何かありますか？"],
+    ["jhs3_relative", ["The", "man", "who", "I", "met", "yesterday", "is", "her", "father", "."], "The man who I met yesterday is her father .", "私が昨日会った男性は彼女の父親です"],
+    ["jhs3_relative", ["This", "is", "the", "computer", "which", "I", "use", "every", "day", "."], "This is the computer which I use every day .", "これは私が毎日使っているコンピューターです"],
+    ["jhs3_relative", ["A", "dictionary", "is", "a", "book", "which", "gives", "us", "the", "meanings", "of", "words", "."], "A dictionary is a book which gives us the meanings of words .", "辞書とは単語の意味を私たちに与える本です"],
+    // --- EXPANSION: JHS 3 Indirect Question (indirect) ---
+    ["jhs3_indirect", ["Do", "you", "know", "what", "time", "it", "is", "?"], "Do you know what time it is ?", "何時か知っていますか？"],
+    ["jhs3_indirect", ["Can", "you", "tell", "me", "how", "old", "he", "is", "?"], "Can you tell me how old he is ?", "彼が何歳か教えてくれませんか？"],
+    ["jhs3_indirect", ["I", "don't", "know", "who", "broke", "the", "window", "."], "I don't know who broke the window .", "誰が窓を割ったのかわかりません"],
+    ["jhs3_indirect", ["He", "asked", "me", "why", "I", "was", "late", "."], "He asked me why I was late .", "彼はなぜ私が遅れたのか尋ねました"],
+    ["jhs3_indirect", ["I", "wonder", "where", "she", "lives", "."], "I wonder where she lives .", "彼女はどこに住んでいるのだろう"],
+    ["jhs3_indirect", ["Do", "you", "know", "what", "this", "means", "?"], "Do you know what this means ?", "これが何を意味するかわかりますか？"],
+    // --- EXPANSION: JHS 3 Causative (causative) ---
+    ["jhs3_causative", ["His", "words", "made", "me", "happy", "."], "His words made me happy .", "彼の言葉は私を嬉しくさせた"],
+    ["jhs3_causative", ["This", "song", "makes", "me", "sad", "."], "This song makes me sad .", "この歌は私を悲しくさせます"],
+    ["jhs3_causative", ["I", "will", "let", "you", "use", "my", "bike", "."], "I will let you use my bike .", "私の自転車を使わせてあげましょう"],
+    ["jhs3_causative", ["She", "had", "her", "brother", "fix", "her", "computer", "."], "She had her brother fix her computer .", "彼女は弟にコンピューターを直してもらった"],
+    ["jhs3_causative", ["The", "teacher", "made", "him", "clean", "the", "room", "."], "The teacher made him clean the room .", "先生は彼に部屋を掃除させた"],
+    ["jhs3_causative", ["My", "father", "doesn't", "let", "me", "watch", "TV", "late", "at", "night", "."], "My father doesn't let me watch TV late at night .", "父は夜遅くに私にテレビを見させてくれません"],
+    ["jhs3_causative", ["We", "had", "the", "waiter", "bring", "some", "water", "."], "We had the waiter bring some water .", "私たちはウェイターに水を持ってきてもらった"]
 ];
 
 const QUESTION_DATA = RAW_DATA.map(item => ({
