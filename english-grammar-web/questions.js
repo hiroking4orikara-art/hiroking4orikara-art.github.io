@@ -532,7 +532,7 @@ const RAW_DATA = [
     ["jhs3_relative", ["I", "want", "to", "buy", "a", "car", "that", "is", "fast", "."], "I want to buy a car that is fast .", "私は速い車を買いたいです"],
     ["jhs3_relative", ["This", "is", "a", "movie", "which", "makes", "people", "happy", "."], "This is a movie which makes people happy .", "これは人々を幸せにする映画です"],
     ["jhs3_relative", ["Is", "there", "anything", "that", "I", "can", "do", "?"], "Is there anything that I can do ?", "私ができることは何かありますか？"],
-    ["jhs3_relative", ["The", "man", "who", "I", "met", "yesterday", "is", "her", "father", "."], "The man who I met yesterday is her father .", "私が昨日会った男性は彼女の父親です"],
+    ["jhs3_relative", ["The", "man", "that", "I", "met", "yesterday", "is", "her", "father", "."], "The man that I met yesterday is her father .", "私が昨日会った男性は彼女の父親です"],
     ["jhs3_relative", ["This", "is", "the", "computer", "which", "I", "use", "every", "day", "."], "This is the computer which I use every day .", "これは私が毎日使っているコンピューターです"],
     ["jhs3_relative", ["A", "dictionary", "is", "a", "book", "which", "gives", "us", "the", "meanings", "of", "words", "."], "A dictionary is a book which gives us the meanings of words .", "辞書とは単語の意味を私たちに与える本です"],
     // --- EXPANSION: JHS 3 Indirect Question (indirect) ---
