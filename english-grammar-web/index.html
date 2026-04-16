@@ -114,8 +114,11 @@
     <section class="quiz hidden">
       <div class="quiz-header">
         <h2 id="questionCount">問題 1 / 5</h2>
-        <!-- Quiz Help Button -->
-        <button id="quizHelpBtn" class="help-btn-icon">？</button>
+        <!-- Quiz Help Button & Read Aloud -->
+        <div style="display: flex; gap: 0.5rem;">
+          <button id="readAloudBtn" class="help-btn-icon" title="英文を読み上げる" style="font-size: 1.2rem;">🔊</button>
+          <button id="quizHelpBtn" class="help-btn-icon">？</button>
+        </div>
       </div>
       <div id="japaneseText" class="japanese-text"></div>
       <div id="answerArea" class="answer-area"></div>
@@ -186,7 +189,7 @@
   </div>
   <script src="questions.js?v=202604161652"></script>
   <script src="dictionary.js?v=202604161652"></script>
-  <script src="script.js"></script>
+  <script src="script.js?v=202604161715"></script>
 </body>
 
 </html>

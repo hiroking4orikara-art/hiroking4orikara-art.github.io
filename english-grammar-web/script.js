@@ -80,6 +80,7 @@ const partsDiv = document.getElementById('sentenceParts');
 const feedbackDiv = document.getElementById('feedback');
 const questionCountH2 = document.getElementById('questionCount');
 const statsContent = document.getElementById('statsContent');
+const readAloudBtn = document.getElementById('readAloudBtn');
 
 // Help Modal Elements
 const setupHelpBtn = document.getElementById('setupHelpBtn');
@@ -129,6 +130,7 @@ function init() {
 
   setupHelpBtn.addEventListener('click', () => showHelp('setup'));
   quizHelpBtn.addEventListener('click', () => showHelp('quiz'));
+  if (readAloudBtn) readAloudBtn.addEventListener('click', readAloudCurrentSentence);
   closeModal.addEventListener('click', () => helpModal.classList.add('hidden'));
   window.addEventListener('click', (e) => {
     if (e.target === helpModal) helpModal.classList.add('hidden');
@@ -791,6 +793,26 @@ function handleSubmitOrNext() {
     }
   } else {
     submitAnswer();
+  }
+}
+
+function readAloudCurrentSentence() {
+  if (quizQuestions.length === 0 || currentIndex >= quizQuestions.length) return;
+  const currentQ = quizQuestions[currentIndex];
+  const textToRead = currentQ.correctOrder.join(' ');
+  
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(textToRead);
+    utterance.lang = 'en-US';
+    window.speechSynthesis.speak(utterance);
+    
+    if (readAloudBtn) {
+      readAloudBtn.classList.add('flash-hint');
+      setTimeout(() => readAloudBtn.classList.remove('flash-hint'), 1000);
+    }
+  } else {
+    alert("お使いのブラウザは音声読み上げに対応していません。");
   }
 }
 
