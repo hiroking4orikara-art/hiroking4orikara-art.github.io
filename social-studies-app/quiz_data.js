@@ -12559,7 +12559,7 @@ const QUIZ_DATA = {
       "img": "assets/images/history/h_early_modern_6_watanabe.jpg",
       "choices": [
         "渡辺崋山",
-        "高野長英",
+        "杉田玄白",
         "大塩平八郎",
         "吉田松陰"
       ],
