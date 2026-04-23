@@ -207,7 +207,7 @@ const QUIZ_DATA = {
       ],
       "a": "日付変更線",
       "comment": "この線を東に越えるときは日付を1日戻し、西に越えるときは1日進めます。",
-      "answerImg": "assets/images/geography/g_gw_1_101_international_date_line_1773417502615.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_1_15.jpg",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -683,7 +683,7 @@ const QUIZ_DATA = {
       "a": "南極条約",
       "comment": "軍事利用の禁止や領有権の凍結などが定められています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_52_antarctic_treaty_1773409439983.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_51_south_america_antipode_1773409416566.jpg"
     },
     {
       "q": "北緯40度以北の都市が多いヨーロッパで、冬でも比較的暖かい理由に関係する海流は？",
@@ -696,7 +696,7 @@ const QUIZ_DATA = {
       "a": "北大西洋海流（暖流）",
       "comment": "暖流の上を吹く偏西風が暖かさを運びます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_138_north_atlantic_drift_1773418187213.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_52_antarctic_treaty_1773409439983.jpg"
     },
     {
       "q": "イタリアやフランスなどで盛んな、オリーブやブドウを作る農業を何というか？",
@@ -2465,7 +2465,7 @@ const QUIZ_DATA = {
       "a": "北大西洋海流",
       "comment": "この暖流の上を偏西風が吹き、暖かさを運びます。",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "answerImg": "assets/images/geography/g_gw_1_138_north_atlantic_drift_1773418187213.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_6.jpg",
       "img": "assets/images/geography/custom_maps/custom_map_gw_3_6.jpg"
     },
     {
@@ -12519,6 +12519,18 @@ const QUIZ_DATA = {
       "comment": "物価を下げるために株仲間を解散させましたが、かえって経済が混乱しました。"
     },
     {
+      "q": "1853年、浦賀（神奈川県）に来航し、日本に開国を迫ったアメリカの使節は？",
+      "img": "assets/images/history/h_early_modern_6_matthew_perry_1773374856428.jpg",
+      "choices": [
+        "ペリー",
+        "ハリス",
+        "マッカーサー",
+        "ザビエル"
+      ],
+      "a": "ペリー",
+      "comment": "4隻の黒船で来航し、翌年、日米和親条約が結ばれました。"
+    },
+    {
       "q": "化政文化の頃、多くの美人画（「ポッピンを吹く女」など）を描いた浮世絵師は？",
       "img": "assets/images/history/h_early_modern_6_kitagawa.jpg",
       "choices": [
@@ -12559,7 +12571,7 @@ const QUIZ_DATA = {
       "img": "assets/images/history/h_early_modern_6_watanabe.jpg",
       "choices": [
         "渡辺崋山",
-        "杉田玄白",
+        "高野長英",
         "大塩平八郎",
         "吉田松陰"
       ],
@@ -12567,7 +12579,7 @@ const QUIZ_DATA = {
       "comment": "高野長英と共に「蛮社の獄」で弾圧されました。"
     }
   ],
-      "h_early_modern_7": [
+  "h_early_modern_7": [
     {
       "q": "1853年、浦賀（神奈川県）に来航し、日本に開国を迫ったアメリカの使節は？",
       "img": "assets/images/history/h_early_modern_6_matthew_perry_1773374856428.jpg",
@@ -14761,7 +14773,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1972年、アメリカから日本に返還された、戦後長くアメリカの統治下にあった県は？",
-      "img": "assets/images/history/h_contemporary_3_okinawa_reversion.jpg",
+      "img": "assets/images/history/h_modern_7_okinawa_sen_1772302848029.jpg",
       "choices": [
         "沖縄県",
         "北海道",

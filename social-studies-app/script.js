@@ -553,7 +553,7 @@ const app = {
 
             if (selectedQuestions.length === 0) {
                 alert("全ての問題を完璧にクリアしました！すごい！");
-                this.quizState.questions = this.shuffleArray([...allQuestions]).slice(0, 10);
+                this.quizState.questions = this.shuffleArray([...allQuestions]).slice(0, 5);
             } else {
                 this.quizState.questions = selectedQuestions;
             }
@@ -590,7 +590,7 @@ const app = {
 
     // === Restored Functions ===
     selectQuestionsForSession(unitId, allQuestions) {
-        const historyKey = `quiz_history_${app.currentUser}_${unitId}`;
+        const historyKey = `quiz_history_${unitId}`;
         const historyParams = JSON.parse(localStorage.getItem(historyKey)) || {};
 
         const unseen = [];
@@ -625,7 +625,7 @@ const app = {
             ...sortedOthers
         ];
 
-        return queue.slice(0, 10);
+        return queue.slice(0, 5);
     },
 
     shuffleArray(array) {
@@ -633,7 +633,7 @@ const app = {
     },
 
     saveQuizResult(unitId, questionText, isCorrect) {
-        const historyKey = `quiz_history_${app.currentUser}_${unitId}`;
+        const historyKey = `quiz_history_${unitId}`;
         const history = JSON.parse(localStorage.getItem(historyKey)) || {};
         
         if (!history[questionText]) {
@@ -660,7 +660,7 @@ const app = {
         const progressEl = document.getElementById('quiz-progress');
         if(progressEl) progressEl.innerText = `Question ${this.quizState.currentIndex + 1} / ${total}`;
 
-        document.getElementById('quiz-question').innerText = `Q. ${q.q}`;
+        document.getElementById('quiz-question').innerHTML = `Q. ${q.q}`;
         
         // Image and Overlay Handling
         const imgOuter = document.getElementById('quiz-image-outer');
@@ -899,7 +899,7 @@ const app = {
         choices.forEach(choice => {
             const btn = document.createElement('button');
             btn.className = 'quiz-option-btn';
-            btn.innerText = choice;
+            btn.innerHTML = choice;
             btn.onclick = () => app.checkAnswer(choice);
             optionsContainer.appendChild(btn);
         });
@@ -981,50 +981,6 @@ const app = {
         const score = this.quizState.score;
         const total = this.quizState.questions.length;
         document.getElementById('score-text').innerText = `${total}問中、${score}問正解！`;
-
-        let progressTextDiv = document.getElementById('result-progress-text');
-        if (!progressTextDiv) {
-            progressTextDiv = document.createElement('div');
-            progressTextDiv.id = 'result-progress-text';
-            progressTextDiv.style.fontSize = '1.3rem';
-            progressTextDiv.style.marginTop = '10px';
-            progressTextDiv.style.color = '#333';
-            progressTextDiv.style.fontWeight = 'bold';
-            const scoreTextEl = document.getElementById('score-text');
-            scoreTextEl.parentNode.insertBefore(progressTextDiv, scoreTextEl.nextSibling);
-        }
-
-        const hId = `quiz_history_${app.currentUser}_${this.quizState.currentUnitId}`;
-        const history = JSON.parse(localStorage.getItem(hId) || '{}');
-        let answeredVars = Object.keys(history).length;
-
-        let unitTotalQ = 0;
-        let unitTitle = "";
-        const subject = this.state.currentSubject;
-        if (typeof UNIT_DATA !== 'undefined' && UNIT_DATA[subject]) {
-            for (let branch of UNIT_DATA[subject]) {
-                if (branch.units) {
-                    let u = branch.units.find(x => x.id === this.quizState.currentUnitId);
-                    if (u) {
-                        unitTitle = branch.title + " " + u.title;
-                        if (typeof QUIZ_DATA !== 'undefined' && QUIZ_DATA[this.quizState.currentUnitId]) {
-                            unitTotalQ = QUIZ_DATA[this.quizState.currentUnitId].length;
-                        } else if (u.count) {
-                            unitTotalQ = u.count;
-                        }
-                        break;
-                    }
-                }
-            }
-        }
-
-        if (unitTotalQ > 0) {
-            if (answeredVars > unitTotalQ) answeredVars = unitTotalQ;
-            progressTextDiv.innerText = `${unitTitle} （${unitTotalQ}問中${answeredVars}問）`;
-        } else {
-            progressTextDiv.innerText = '';
-        }
-
 
         // Clear existing buttons to prevent duplicates
         // Create container if not exists
@@ -1396,7 +1352,7 @@ app.switchStatsTab = function(subject) {
         
         if (branch.units) {
             branch.units.forEach(unit => {
-                const hId = `quiz_history_${app.currentUser}_${unit.id}`;
+                const hId = `quiz_history_${unit.id}`;
                 const history = JSON.parse(localStorage.getItem(hId) || '{}');
                 let answeredVars = Object.keys(history).length;
                 
@@ -1427,7 +1383,7 @@ app.switchStatsTab = function(subject) {
     });
     
     // Add Reset Button at the bottom
-    html += `<div style="margin-top: 40px; margin-bottom: 80px; text-align: center;">
+    html += `<div style="margin-top: 40px; margin-bottom: 20px; text-align: center;">
                 <button onclick="app.resetStatsData()" style="background-color: #e74c3c; color: white; border: none; padding: 15px 30px; font-size: 1.2rem; font-weight: bold; border-radius: 30px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.2); font-family: 'Zen Kurenaido', sans-serif;">
                     <i class="fas fa-trash-alt"></i> 学習の記録をリセット
                 </button>
@@ -1438,11 +1394,11 @@ app.switchStatsTab = function(subject) {
 
 app.resetStatsData = function() {
     if (confirm('学習の記録をリセットしますか？')) {
-        // Find and remove all quiz_history keys for current user
+        // Find and remove all quiz_history keys
         const keysToRemove = [];
         for (let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i);
-            if (key && key.startsWith(`quiz_history_${app.currentUser}_`)) {
+            if (key && key.startsWith('quiz_history_')) {
                 keysToRemove.push(key);
             }
         }
