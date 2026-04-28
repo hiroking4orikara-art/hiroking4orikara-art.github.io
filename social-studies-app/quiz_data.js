@@ -13496,7 +13496,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "コッホに学び、破傷風の治療法を発見したり、伝染病研究所を作った医学者は？",
-      "img": "assets/images/history/h_modern_4_kanou_1773342844133.jpg",
+      "img": "assets/images/history/h_modern_4_kitasato_new.jpg",
       "choices": [
         "北里柴三郎",
         "野口英世",
@@ -13508,7 +13508,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "黄熱病の研究で世界的に知られ、アフリカで亡くなった細菌学者は？",
-      "img": "assets/images/history/h_modern_4_kuroda.jpg",
+      "img": "assets/images/history/h_modern_4_noguchi_new.jpg",
       "choices": [
         "野口英世",
         "北里柴三郎",
@@ -13581,7 +13581,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「一握の砂」などの歌集を出し、「はたらけどはたらけど…」の歌で知られる人物は？",
-      "img": "assets/images/history/h_modern_4_mori.jpg",
+      "img": "assets/images/history/h_modern_4_ishikawa_new.jpg",
       "choices": [
         "石川啄木",
         "正岡子規",
@@ -13605,7 +13605,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "フェノロサの指導を受け、伝統的な日本画の復興に尽力した人物は？",
-      "img": "assets/images/history/h_modern_4_natsume.jpg",
+      "img": "assets/images/history/h_modern_4_okakura_new.jpg",
       "choices": [
         "岡倉天心",
         "黒田清輝",
@@ -14462,7 +14462,7 @@ const QUIZ_DATA = {
       ],
       "a": "戦争",
       "comment": "戦力の不保持と交戦権の否認も定められました。",
-      "answerImg": "assets/images/history/h_contemporary_1_article_9_renunciation_of_war_1773666550689.jpg",
+      "answerImg": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -14773,7 +14773,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1972年、アメリカから日本に返還された、戦後長くアメリカの統治下にあった県は？",
-      "img": "assets/images/history/h_modern_7_okinawa_sen_1772302848029.jpg",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
       "choices": [
         "沖縄県",
         "北海道",
