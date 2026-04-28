@@ -980,7 +980,34 @@ const app = {
         
         const score = this.quizState.score;
         const total = this.quizState.questions.length;
-        document.getElementById('score-text').innerText = `${total}問中、${score}問正解！`;
+        
+        let unitTitle = 'テスト';
+        let unitTotal = total;
+        
+        // Try to find the actual unit title and total questions from UNIT_DATA
+        if (typeof UNIT_DATA !== 'undefined') {
+            ['geography', 'history', 'civics'].forEach(subj => {
+                if (UNIT_DATA[subj]) {
+                    UNIT_DATA[subj].forEach(branch => {
+                        if (branch.units) {
+                            const u = branch.units.find(un => un.id === this.quizState.currentUnitId);
+                            if (u) {
+                                unitTitle = u.title;
+                                unitTotal = (typeof QUIZ_DATA !== 'undefined' && QUIZ_DATA[u.id]) ? QUIZ_DATA[u.id].length : (u.count || total);
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        
+        // Custom names for exams
+        if (this.quizState.currentUnitId === 'gj_exam') unitTitle = '日本地理 総復習';
+        if (this.quizState.currentUnitId === 'gw_exam') unitTitle = '世界地理 総復習';
+        if (this.quizState.currentUnitId === 'h_exam_all') unitTitle = '歴史 総復習';
+        if (this.quizState.currentUnitId === 'c_exam_all') unitTitle = '公民 総復習';
+
+        document.getElementById('score-text').innerHTML = `<span style="font-size: 1.5rem; color: #34495e;">${unitTitle} （全${unitTotal}問中）</span><br>${total}問中、${score}問正解！`;
 
         // Clear existing buttons to prevent duplicates
         // Create container if not exists
