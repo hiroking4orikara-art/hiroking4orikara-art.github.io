@@ -13642,7 +13642,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "原子の模型（土星型原子模型）を発表したが、当時は評価されなかった物理学者は？",
-      "img": "assets/images/history/h_modern_4_ogiwara_1773342862393.jpg",
+      "img": "assets/images/history/h_modern_4_nagaoka_new.jpg",
       "choices": [
         "長岡半太郎",
         "湯川秀樹",
