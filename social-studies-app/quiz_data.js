@@ -13460,7 +13460,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "経済を支配するようになった、三井・三菱・住友・安田などの巨大な企業グループを何というか？",
-      "img": "assets/images/history/h_modern_4_futabatei.jpg",
+      "img": "assets/images/history/h_modern_4_zaibatsu_new.jpg",
       "choices": [
         "財閥",
         "カルテル",
@@ -13532,7 +13532,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "言文一致体で「浮雲」を書いた、近代日本文学の先駆けとされる作家は？",
-      "img": "assets/images/history/h_modern_4_futabatei.jpg",
+      "img": "assets/images/history/h_modern_4_futabatei_new.jpg",
       "choices": [
         "二葉亭四迷",
         "坪内逍遥",
@@ -13569,7 +13569,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「たけくらべ」などで知られる、明治時代の女性作家は？",
-      "img": "assets/images/history/h_modern_4_masaoka.jpg",
+      "img": "assets/images/history/h_modern_4_higuchi_new.jpg",
       "choices": [
         "樋口一葉",
         "与謝野晶子",
@@ -13654,7 +13654,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地球の緯度が変化することを発見し、「Z項」と名付けた天文学者は？",
-      "img": "assets/images/history/h_modern_4_suzuki_1773342781544.jpg",
+      "img": "assets/images/history/h_modern_4_kimura_new.jpg",
       "choices": [
         "木村栄",
         "長岡半太郎",
