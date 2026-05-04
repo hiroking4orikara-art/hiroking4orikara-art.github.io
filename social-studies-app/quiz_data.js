@@ -9307,7 +9307,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "古墳時代を中心に、大和（奈良県）地方の勢力が中心となって各地の豪族を従えて作った政治連合は？",
-      "img": "assets/images/history/h_ancient_4_daisenkofun.jpg",
+      "img": "assets/images/history/h_ancient_4_yamato_regime.png",
       "choices": [
         "ヤマト政権",
         "鎌倉幕府",
@@ -9345,7 +9345,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "中国の歴史書『宋書』倭国伝に記されている、中国に使いを送った5人の倭の王をまとめて何というか？",
-      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
+      "img": "assets/images/history/h_ancient_4_five_kings_of_wa.png",
       "choices": [
         "倭の五王",
         "五摂家",
@@ -9409,7 +9409,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "4世紀末、倭（日本）が朝鮮半島へ進出し、高句麗と戦ったことなどが刻まれている石碑は？",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
+      "img": "assets/images/history/h_ancient_2_gwanggaeto_stele.png",
       "choices": [
         "好太王碑（広開土王碑）",
         "金印",
@@ -9451,7 +9451,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "593年、推古天皇の摂政となり、天皇中心の国づくりを進めた人物は？",
-      "img": "assets/images/history/h_ancient_shotoku_1772414719515.jpg",
+      "img": "assets/images/history/h_ancient_5_shotoku_taishi.png",
       "choices": [
         "聖徳太子（厩戸皇子）",
         "中大兄皇子",
@@ -9519,7 +9519,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "607年、小野妹子らが派遣された中国の王朝は？",
-      "img": "assets/images/history/h_ancient_1_hands.png",
+      "img": "assets/images/history/h_ancient_5_kenzuishi.jpg",
       "choices": [
         "隋",
         "唐",
@@ -9582,7 +9582,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖徳太子が亡くなった後、蘇我氏（蝦夷・入鹿）が権力を独占し、対立したのは誰の一族か？",
-      "img": "assets/images/history/h_ancient_shotoku_1772414719515.jpg",
+      "img": "assets/images/history/h_ancient_5_shotoku_taishi.png",
       "choices": [
         "天皇家（聖徳太子の一族）",
         "藤原氏",
