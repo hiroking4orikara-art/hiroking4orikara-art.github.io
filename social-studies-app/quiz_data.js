@@ -8593,6 +8593,7 @@ const QUIZ_DATA = {
   "h_ancient_1": [
     {
       "q": "現在発見されている最も古い人類の祖先（猿人）として、アフリカで骨が発見されたものを何というか？",
+      "img": "assets/images/history/h_ancient_1_australopithecus.jpg",
       "choices": [
         "アウストラロピテクス",
         "ネアンデルタール人",
@@ -8606,7 +8607,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "人類が二足歩行を始めたことで発達した、道具を作ったり使ったりするための体の部位は？",
-      "img": "assets/images/history/h_ancient_1_evolution_hand.jpg",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "手（前あし）",
         "あご",
@@ -8618,6 +8619,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "氷河期などの厳しい環境に適応し、火や言葉を使用し始めた人類（原人）は？",
+      "img": "assets/images/history/h_ancient_1_peking_man.jpg",
       "choices": [
         "北京原人",
         "アウストラロピテクス",
@@ -8667,7 +8669,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前3000年頃、ナイル川の流域で栄えた文明は？",
-      "img": "assets/images/history/h_ancient_1_egyptian_civ.jpg",
+      "img": "assets/images/history/h_ancient_1_egypt_1772304266987.jpg",
       "choices": [
         "エジプト文明",
         "メソポタミア文明",
@@ -8691,7 +8693,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明で使用された、絵のような形をした文字は？",
-      "img": "assets/images/history/h_ancient_1_hieroglyphs.jpg",
+      "img": "assets/images/history/h_ancient_1_egypt_1772304266987.jpg",
       "choices": [
         "象形文字",
         "楔形文字",
@@ -8703,7 +8705,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "チグリス川・ユーフラテス川の流域で栄えた文明は？",
-      "img": "assets/images/history/h_ancient_1_mesopotamian_civ.jpg",
+      "img": "assets/images/history/h_ancient_1_mesopotamia_1772304284010.jpg",
       "choices": [
         "メソポタミア文明",
         "エジプト文明",
@@ -8727,6 +8729,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "粘土板に刻んで使用された、メソポタミア文明の文字は？",
+      "img": "assets/images/history/h_ancient_1_cuneiform.jpg",
       "choices": [
         "楔形文字",
         "象形文字",
@@ -8752,6 +8755,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "黄河流域で栄えた、現在確認されている中国最古の王朝は？",
+      "img": "assets/images/history/g_history_ancient_yellow_river_generated.png",
       "choices": [
         "殷",
         "秦",
@@ -8777,7 +8781,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前6世紀ごろにインドでシャカ（釈迦）が開いた宗教は？",
-      "img": "assets/images/history/h_ancient_1_buddhism.jpg",
+      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
       "choices": [
         "仏教",
         "キリスト教",
@@ -8789,7 +8793,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "パレスチナ地方でイエスが広め、「神の愛」を説いた宗教は？",
-      "img": "assets/images/history/h_ancient_christianity_1772414580245.jpg",
+      "img": "assets/images/history/h_ancient_1_christianity.jpg",
       "choices": [
         "キリスト教",
         "ユダヤ教",
@@ -8801,7 +8805,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明の農業に大きな恵みをもたらした、アフリカ大陸を北上して地中海に注ぐ世界最長の川は？",
-      "img": "assets/images/history/h_ancient_nile_1772414594835.jpg",
+      "img": "assets/images/history/h_ancient_1_nile_river.jpg",
       "choices": [
         "ナイル川",
         "チグリス川",
@@ -8813,6 +8817,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明で作られた、ナイル川の氾濫の時期を知るために星の動きなどを元にした暦は？",
+      "img": "assets/images/history/h_ancient_1_solar_calendar.jpg",
       "choices": [
         "太陽暦",
         "太陰暦",
@@ -8826,6 +8831,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "メソポタミア文明が栄えた地域を流れる2つの川は、チグリス川と、もう一つは何川？",
+      "img": "assets/images/history/h_ancient_1_mesopotamia_1772304284010.jpg",
       "choices": [
         "ユーフラテス川",
         "ナイル川",
@@ -8839,6 +8845,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "メソポタミア文明で作られた、月の満ち欠けを基準にした暦は？",
+      "img": "assets/images/history/h_ancient_1_lunar_calendar.jpg",
       "choices": [
         "太陰暦",
         "太陽暦",
@@ -8876,6 +8883,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アレクサンドロス大王の遠征によって生まれた、ギリシャ文化とオリエント文化が融合した文化は？",
+      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
       "choices": [
         "ヘレニズム文化",
         "ルネサンス",
@@ -8891,6 +8899,7 @@ const QUIZ_DATA = {
   "h_ancient_2": [
     {
       "q": "紀元前221年に中国を統一し、最初の皇帝（始皇帝）となった人物が建てた国は？",
+      "img": "assets/images/history/h_ancient_2_qin_dynasty.jpg",
       "choices": [
         "秦",
         "漢",
@@ -8916,6 +8925,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "秦の後に中国を統一し、約400年続いた帝国は？",
+      "img": "assets/images/history/h_ancient_2_han_dynasty.jpg",
       "choices": [
         "漢",
         "唐",
@@ -8929,6 +8939,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "漢の時代に開かれた、中国と西方（ローマ帝国など）を結ぶ交易路を何というか？",
+      "img": "assets/images/history/h_ancient_2_silk_road.jpg",
       "choices": [
         "シルクロード（絹の道）",
         "象牙の道",
@@ -8942,6 +8953,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前6世紀ごろの中国で、孔子が説いた教えは？",
+      "img": "assets/images/history/h_ancient_2_confucianism.jpg",
       "choices": [
         "儒教",
         "道教",
@@ -8955,6 +8967,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮半島北部から中国東北部にかけ、紀元前後こ頃に栄えた国は？",
+      "img": "assets/images/history/h_ancient_2_goguryeo.jpg",
       "choices": [
         "高句麗",
         "新羅",
@@ -8968,6 +8981,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "4世紀ごろ、朝鮮半島の南西部（日本に近い側）にあった国は？",
+      "img": "assets/images/history/h_ancient_2_baekje.jpg",
       "choices": [
         "百済",
         "新羅",
@@ -8981,6 +8995,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "4世紀ごろ、朝鮮半島の南東部にあった国は？",
+      "img": "assets/images/history/h_ancient_2_silla.jpg",
       "choices": [
         "新羅",
         "百済",
@@ -8994,6 +9009,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "古代の日本が朝鮮半島南部の地域（伽耶諸国など）と深い関わりを持っていたことを示す、鉄資源などを求めて進出していた地域の呼び名は？",
+      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "任那（加羅）",
         "楽浪郡",
@@ -9007,7 +9023,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "中国の歴史書『漢書』地理志に記された、紀元前1世紀ごろの日本の呼び名は？",
-      "img": "assets/images/history/h_ancient_2_wakoku.jpg",
+      "img": "assets/images/history/h_ancient_2_han_dynasty.jpg",
       "choices": [
         "倭",
         "日本",
@@ -9055,7 +9071,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "卑弥呼が使いを送り、親魏倭王の称号や鏡などを授かった中国の王朝は？",
-      "img": "assets/images/history/h_ancient_2_wei.jpg",
+      "img": "assets/images/history/h_ancient_2_himiko.jpg",
       "choices": [
         "魏",
         "呉",
@@ -9067,6 +9083,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "邪馬台国の女王・卑弥呼が使いを送った「魏」は、中国の三国時代の国の一つですが、残りの二つは？",
+      "img": "assets/images/history/h_ancient_2_himiko.jpg",
       "choices": [
         "呉・蜀",
         "秦・漢",
@@ -9082,7 +9099,7 @@ const QUIZ_DATA = {
   "h_ancient_3": [
     {
       "q": "約1万年以上前から始まった、狩りや採集を行い、縄目の文様がある土器を使用していた時代は？",
-      "img": "assets/images/history/h_ancient_3_jomon.jpg",
+      "img": "assets/images/history/g_history_ancient_jomon_pit.png",
       "choices": [
         "縄文時代",
         "弥生時代",
@@ -9118,6 +9135,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "縄文時代に作られた、魔除けや豊作を祈るために使われたと考えられる人形（ひとがた）の土製品は？",
+      "img": "assets/images/history/h_ancient_3_dogu.jpg",
       "choices": [
         "土偶",
         "埴輪",
@@ -9143,7 +9161,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前4世紀ごろ、大陸から伝わり、日本の生活を大きく変化させた農業技術は？",
-      "img": "assets/images/history/h_ancient_rice_farming_1772414609121.jpg",
+      "img": "assets/images/history/h_ancient_3_rice_farming.jpg",
       "choices": [
         "稲作",
         "畑作",
@@ -9155,7 +9173,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "稲作が広まったことによって始まった、薄手で硬く、赤褐色の土器が使われた時代は？",
-      "img": "assets/images/history/h_ancient_3_yayoi.jpg",
+      "img": "assets/images/history/g_history_ancient_yayoi_kuni.png",
       "choices": [
         "弥生時代",
         "縄文時代",
@@ -9215,7 +9233,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "静岡県にある、水田跡や住居跡が見つかった弥生時代の代表的な遺跡は？",
-      "img": "assets/images/history/h_ancient_3_toro.jpg",
+      "img": "assets/images/history/g_history_ancient_yayoi_kuni.png",
       "choices": [
         "登呂遺跡",
         "三内丸山遺跡",
@@ -9227,6 +9245,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "弥生時代、稲作が広まるにつれて、土地や水をめぐる争いが起き、やがて何が形成されていったか？",
+      "img": "assets/images/history/g_history_ancient_yayoi_kuni.png",
       "choices": [
         "クニ（小国）",
         "帝国",
@@ -9266,7 +9285,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大阪府にある、世界最大級の面積を持つ日本最大の前方後円墳は？",
-      "img": "assets/images/history/h_ancient_4_daisenkofun.jpg",
+      "img": "assets/images/history/h_ancient_4_kofun.jpg",
       "choices": [
         "大仙古墳（仁徳天皇陵）",
         "五色塚古墳",
@@ -9290,7 +9309,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "古墳時代を中心に、大和（奈良県）地方の勢力が中心となって各地の豪族を従えて作った政治連合は？",
-      "img": "assets/images/history/h_ancient_4_yamato.jpg",
+      "img": "assets/images/history/h_ancient_4_kofun.jpg",
       "choices": [
         "ヤマト政権",
         "鎌倉幕府",
@@ -9302,6 +9321,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ヤマト政権のトップである王は、のちに天皇と呼ばれるようになるが、当時は何と呼ばれていたか？",
+      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
       "choices": [
         "大王（おおきみ）",
         "将軍",
@@ -9315,7 +9335,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "埼玉県の稲荷山古墳から出土した鉄剣に刻まれていた名前から、関東地方まで勢力を伸ばしていたことがわかる大王は？",
-      "img": "assets/images/history/h_ancient_4_wakatakeru.jpg",
+      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
       "choices": [
         "ワカタケル大王（雄略天皇）",
         "聖徳太子",
@@ -9327,7 +9347,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "中国の歴史書『宋書』倭国伝に記されている、中国に使いを送った5人の倭の王をまとめて何というか？",
-      "img": "assets/images/history/h_ancient_4_fivekings.jpg",
+      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
       "choices": [
         "倭の五王",
         "五摂家",
@@ -9339,6 +9359,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮半島などから日本に移り住み、漢字や儒教、土木技術などを伝えた人々を何というか？",
+      "img": "assets/images/history/h_ancient_4_toraijin.jpg",
       "choices": [
         "渡来人",
         "遣唐使",
@@ -9364,6 +9385,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "漢字を伝えたとされる、百済から来た渡来人は？",
+      "img": "assets/images/history/h_ancient_2_han_dynasty.jpg",
       "choices": [
         "王仁（わに）",
         "鑑真",
@@ -9377,7 +9399,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "6世紀半ば、百済の聖明王から日本の欽明天皇に伝えられたものは？",
-      "img": "assets/images/history/h_ancient_4_buddhism_arrival.jpg",
+      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
       "choices": [
         "仏教",
         "キリスト教",
@@ -9389,7 +9411,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "4世紀末、倭（日本）が朝鮮半島へ進出し、高句麗と戦ったことなどが刻まれている石碑は？",
-      "img": "assets/images/history/h_ancient_4_gwanggaeto.jpg",
+      "img": "assets/images/history/h_ancient_2_goguryeo.jpg",
       "choices": [
         "好太王碑（広開土王碑）",
         "金印",
@@ -9401,6 +9423,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ヤマト政権が、豪族に氏（うじ）や姓（かばね）を与えて、身分や役割を定めた制度は？",
+      "img": "assets/images/history/g_history_ancient_shisei_system_generated.png",
       "choices": [
         "氏姓制度",
         "身分制度",
@@ -9416,6 +9439,7 @@ const QUIZ_DATA = {
   "h_ancient_5": [
     {
       "q": "6世紀末、対立していた物部氏を倒し、政治の実権を握った豪族は？",
+      "img": "assets/images/history/h_ancient_5_soga_clan.jpg",
       "choices": [
         "蘇我氏",
         "藤原氏",
@@ -9441,6 +9465,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本で最初の女性の天皇であり、聖徳太子を摂政とした天皇は？",
+      "img": "assets/images/history/h_ancient_shotoku_1772414719515.jpg",
       "choices": [
         "推古天皇",
         "持統天皇",
@@ -9454,6 +9479,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "603年、家柄にとらわれず、才能や功績のある人物を役人に取り立てるために定められた制度は？",
+      "img": "assets/images/history/h_ancient_5_kani_junikai_1773665479179.jpg",
       "choices": [
         "冠位十二階",
         "十七条の憲法",
@@ -9467,6 +9493,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "604年、役人の心構えを示すために定められた、「和を以て貴しと為す」で始まる法は？",
+      "img": "assets/images/history/h_ancient_5_jushichijyo_kenpo_1773665495687.jpg",
       "choices": [
         "十七条の憲法",
         "御成敗式目",
@@ -9480,6 +9507,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "中国（隋）の進んだ制度や文化を取り入れるために派遣された使節を何というか？",
+      "img": "assets/images/history/h_ancient_5_kenzuishi.jpg",
       "choices": [
         "遣隋使",
         "遣唐使",
@@ -9493,6 +9521,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "607年、小野妹子らが派遣された中国の王朝は？",
+      "img": "assets/images/history/h_ancient_5_ono_no_imoko.jpg",
       "choices": [
         "隋",
         "唐",
@@ -9506,6 +9535,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "遣隋使として派遣され、「日出づる処の天子…」で始まる手紙を隋の皇帝（煬帝）に渡した人物は？",
+      "img": "assets/images/history/h_ancient_5_ono_no_imoko.jpg",
       "choices": [
         "小野妹子",
         "阿倍仲麻呂",
@@ -9543,7 +9573,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "法隆寺に安置されている、飛鳥文化を代表する仏像のひとつで、アルカイックスマイル（古風な微笑み）で知られるものは？",
-      "img": "assets/images/history/h_ancient_5_shakasonzo.jpg",
+      "img": "assets/images/history/h_ancient_5_horyuji.jpg",
       "choices": [
         "釈迦三尊像",
         "興福寺阿修羅像",
@@ -9569,6 +9599,7 @@ const QUIZ_DATA = {
   "h_ancient_6": [
     {
       "q": "645年、中大兄皇子と中臣鎌足らが協力して蘇我氏（蘇我入鹿）を倒し、始めた政治改革を何というか？",
+      "img": "assets/images/history/h_ancient_6_taika_no_kaishin_1773665627759.jpg",
       "choices": [
         "大化の改新",
         "明治維新",
@@ -9582,6 +9613,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大化の改新で示された、土地と人民を国家（天皇）のものとする方針を何というか？",
+      "img": "assets/images/history/g_history_ancient_kochi_komin_generated.png",
       "choices": [
         "公地公民",
         "版籍奉還",
@@ -9595,6 +9627,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大化の改新の中心人物の一人で、中大兄皇子とともに蘇我氏を倒し、のちに藤原の姓を賜った人物は？",
+      "img": "assets/images/history/h_ancient_6_nakatomi_no_kamatari.jpg",
       "choices": [
         "中臣鎌足（藤原鎌足）",
         "小野妹子",
@@ -9608,6 +9641,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "663年、百済の復興を助けるために朝鮮半島へ出兵したが、唐・新羅の連合軍に大敗した戦いは？",
+      "img": "assets/images/history/h_ancient_6_hakusukinoe.jpg",
       "choices": [
         "白村江の戦い",
         "壬申の乱",
@@ -9621,6 +9655,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "中大兄皇子が即位した後の名前（天皇名）は？",
+      "img": "assets/images/history/h_ancient_6_tenchi_tenno_1773665700437.jpg",
       "choices": [
         "天智天皇",
         "天武天皇",
@@ -9634,6 +9669,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "天智天皇の死後、跡継ぎを巡って弟（大海人皇子）と息子（大友皇子）が争い、弟が勝利した戦いは？",
+      "img": "assets/images/history/h_ancient_6_jinshin_no_ran_1773665718422.jpg",
       "choices": [
         "壬申の乱",
         "承久の乱",
@@ -9659,6 +9695,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "701年に制定された、唐の法律にならって政治の仕組みや刑罰の決まりを定めた法律は？",
+      "img": "assets/images/history/h_ancient_6_taiho_code.jpg",
       "choices": [
         "大宝律令",
         "御成敗式目",
@@ -9685,7 +9722,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "律令制度のもとで、6歳以上の男女に口分田を与え、死ぬと国に返させる制度は？",
-      "img": "assets/images/history/h_ancient_handen_1772414732823.jpg",
+      "img": "assets/images/history/h_ancient_7_konden_einen_shizai_ho.jpg",
       "choices": [
         "班田収授法",
         "墾田永年私財法",
@@ -9709,6 +9746,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "都での労役の代わりに布などを納める税を何というか？",
+      "img": "assets/images/history/h_early_modern_4_cash_crops_1773374713255.jpg",
       "choices": [
         "庸",
         "調",
@@ -9722,6 +9760,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "708年に発行された、唐の貨幣にならって作られた日本最初の流通貨幣は？",
+      "img": "assets/images/history/h_ancient_6_wado_kaichin_1773665786603.jpg",
       "choices": [
         "和同開珎",
         "寛永通宝",
@@ -9761,7 +9800,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平城京に都を移した時の天皇は？",
-      "img": "assets/images/history/h_ancient_7_genmei.jpg",
+      "img": "assets/images/history/h_ancient_7_heijokyo.jpg",
       "choices": [
         "元明天皇",
         "聖武天皇",
@@ -9773,7 +9812,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平城京で使われた、役人が文字や記録を書くために使った木の札を何というか？",
-      "img": "assets/images/history/h_ancient_7_mokkan.jpg",
+      "img": "assets/images/history/h_ancient_7_heijokyo.jpg",
       "choices": [
         "木簡",
         "竹簡",
@@ -9794,7 +9833,8 @@ const QUIZ_DATA = {
       "a": "逃散",
       "comment": "戸籍を偽って税を逃れようとする人（偽籍）もいました。",
       "answerImg": "assets/images/history/h_ancient_7_chosan_1773665849694.jpg",
-      "imgCaption": "※画像はイメージです"
+      "imgCaption": "※画像はイメージです",
+      "img": "assets/images/history/h_ancient_6_chosan_fleeing.jpg"
     },
     {
       "q": "神話や伝承をもとに、天武天皇の命で編纂され、712年に完成した日本最古の歴史書は？",
@@ -9822,6 +9862,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "『古事記』と『日本書紀』をあわせて何と呼ぶか？",
+      "img": "assets/images/history/h_ancient_7_kojiki.jpg",
       "choices": [
         "記紀",
         "六国史",
@@ -9847,7 +9888,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "天皇や貴族だけでなく、防人や農民の歌も収められている、日本最古の和歌集は？",
-      "img": "assets/images/history/h_ancient_8_manyoshu.jpg",
+      "img": "assets/images/history/h_ancient_7_manyoshu.jpg",
       "choices": [
         "万葉集",
         "古今和歌集",
@@ -9859,7 +9900,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "万葉集に収められている「貧窮問答歌」を詠み、農民の苦しい生活を描いた人物は？",
-      "img": "assets/images/history/h_ancient_8_yamanoue_no_okura.jpg",
+      "img": "assets/images/history/h_ancient_7_manyoshu.jpg",
       "choices": [
         "山上憶良",
         "大伴家持",
@@ -9873,6 +9914,7 @@ const QUIZ_DATA = {
   "h_ancient_8": [
     {
       "q": "奈良時代、仏教の力で国を守り、災害や疫病を鎮めようとした天皇は？",
+      "img": "assets/images/history/h_ancient_8_emperor_shomu.jpg",
       "choices": [
         "聖武天皇",
         "天智天皇",
@@ -9910,6 +9952,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖武天皇の時代に栄えた、中国（唐）や西域などの影響を受けた国際色豊かな仏教文化を何というか？",
+      "img": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.jpg",
       "choices": [
         "天平文化",
         "飛鳥文化",
@@ -9935,6 +9978,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "度重なる遭難や失明を乗り越えて来日し、正しい仏教の戒律を伝えた唐の僧は？",
+      "img": "assets/images/history/h_ancient_8_ganjin.jpg",
       "choices": [
         "鑑真",
         "行基",
@@ -9948,7 +9992,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鑑真が奈良に開いた、金堂などの天平様式の建物が残る寺院は？",
-      "img": "assets/images/history/h_ancient_8_toshodaiji.jpg",
+      "img": "assets/images/history/h_ancient_8_ganjin.jpg",
       "choices": [
         "唐招提寺",
         "東大寺",
@@ -9960,7 +10004,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "興福寺にある、三つの顔と六つの腕を持つ仏像で、天平文化を代表する彫刻作品は？",
-      "img": "assets/images/history/h_ancient_8_ashura.jpg",
+      "img": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.jpg",
       "choices": [
         "阿修羅像",
         "弥勒菩薩像",
@@ -9984,7 +10028,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "東大寺の正倉院に見られる、湿気を調整する機能に優れた建築様式は？",
-      "img": "assets/images/history/h_ancient_8_azekura.jpg",
+      "img": "assets/images/history/g_history_ancient_todaiji_construction.png",
       "choices": [
         "校倉造",
         "寝殿造",
@@ -9996,7 +10040,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖武天皇の后で、聖武天皇とともに仏教を厚く信仰し、孤児や病人のための施設を作った人物は？",
-      "img": "assets/images/history/h_ancient_8_empress_komyo.jpg",
+      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
       "choices": [
         "光明皇后",
         "持統天皇",
@@ -10046,6 +10090,7 @@ const QUIZ_DATA = {
   "h_ancient_9": [
     {
       "q": "794年、桓武天皇が京都に移した、以後1000年以上日本の都となった都市は？",
+      "img": "assets/images/history/h_ancient_9_heian_kyo.jpg",
       "choices": [
         "平安京",
         "平城京",
@@ -10059,6 +10104,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "桓武天皇の命を受け、東北地方の蝦夷（えみし）を平定するために征夷大将軍に任命された人物は？",
+      "img": "assets/images/history/h_ancient_9_sakanoue_no_tamuramaro.jpg",
       "choices": [
         "坂上田村麻呂",
         "阿倍仲麻呂",
@@ -10072,7 +10118,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "最澄が開き、比叡山延暦寺を総本山とする仏教の宗派は？",
-      "img": "assets/images/history/h_ancient_9_tendai.jpg",
+      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
       "choices": [
         "天台宗",
         "真言宗",
@@ -10084,7 +10130,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "空海が開き、高野山金剛峯寺を総本山とする仏教の宗派は？",
-      "img": "assets/images/history/h_ancient_9_shingon.jpg",
+      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
       "choices": [
         "真言宗",
         "天台宗",
@@ -10096,7 +10142,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "894年、菅原道真の提案によって停止されたものは？",
-      "img": "assets/images/history/h_ancient_kentoshi_1772414751956.jpg",
+      "img": "assets/images/history/g_history_ancient_kokufu_bunka_kana_generated.png",
       "choices": [
         "遣唐使",
         "遣隋使",
@@ -10108,6 +10154,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "藤原氏が、天皇が幼い時は「摂政」、成人してからは「関白」という職について行った政治を何というか？",
+      "img": "assets/images/history/g_history_ancient_sekkan_seiji.png",
       "choices": [
         "摂関政治",
         "院政",
@@ -10121,6 +10168,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「この世をば　わが世とぞ思う…」の歌を詠み、摂関政治の全盛期を築いた人物は？",
+      "img": "assets/images/history/h_ancient_9_fujiwara_no_michinaga.jpg",
       "choices": [
         "藤原道長",
         "藤原頼通",
@@ -10146,7 +10194,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平安時代の中頃に生まれた、漢字を変形させて日本語の音を表せるようにした文字は？",
-      "img": "assets/images/history/h_ancient_kana_1772414903142.jpg",
+      "img": "assets/images/history/g_history_ancient_kokufu_bunka_kana_generated.png",
       "choices": [
         "かな文字",
         "のぼり文字",
@@ -10206,7 +10254,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「南無阿弥陀仏」と念仏を唱えれば、死後に極楽浄土へ行けると説いた教えは？",
-      "img": "assets/images/history/h_ancient_9_jodo_shinko_1773374588229.jpg",
+      "img": "assets/images/history/g_history_ancient_jodo_shinko.png",
       "choices": [
         "浄土信仰",
         "天台宗",
@@ -10326,7 +10374,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平清盛が兵庫の港（現在の神戸港）を修築して推進した、中国の宋との貿易は？",
-      "img": "assets/images/history/h_contemporary_2_nisso_1773343394014.jpg",
+      "img": "assets/images/history/g_history_ancient_taira_no_kiyomori_generated.png",
       "choices": [
         "日宋貿易",
         "勘合貿易",
@@ -10352,7 +10400,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "源頼朝が開いた、日本初の本格的な武家政権を何というか？",
-      "img": "assets/images/history/h_medieval_1_bakufu.jpg",
+      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.jpg",
       "choices": [
         "鎌倉幕府",
         "室町幕府",
@@ -10364,7 +10412,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府が、軍事・警察の仕事として国ごとに置いた役職は？",
-      "img": "assets/images/history/h_medieval_4_shugo_daimyo.jpg",
+      "img": "assets/images/history/h_medieval_4_kanrei.jpg",
       "choices": [
         "守護",
         "地頭",
@@ -10376,7 +10424,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府が、年貢の取り立てや土地の管理を行うために荘園や公領ごとに置いた役職は？",
-      "img": "assets/images/history/h_medieval_1_goon_hoko.jpg",
+      "img": "assets/images/history/h_ancient_8_shoen.jpg",
       "choices": [
         "地頭",
         "守護",
@@ -10400,7 +10448,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将軍が御家人に対して領地を保護したり、新しい領地を与えたりすることを何というか？",
-      "img": "assets/images/history/h_medieval_1_goseibai_shikimoku.jpg",
+      "img": "assets/images/history/h_medieval_1_goon_hoko.jpg",
       "choices": [
         "御恩",
         "奉公",
@@ -10424,7 +10472,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "源頼朝の死後、政治の実権を握った北条氏が就いた、将軍を補佐する役職は？",
-      "img": "assets/images/history/h_medieval_1_hojo_masako.jpg",
+      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.jpg",
       "choices": [
         "執権",
         "管領",
@@ -10436,7 +10484,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "源頼朝の妻で、頼朝の死後「尼将軍」と呼ばれ、幕府の危機を救った人物は？",
-      "img": "assets/images/history/h_medieval_1_jito.jpg",
+      "img": "assets/images/history/g_history_medieval_masako_speech.png",
       "choices": [
         "北条政子",
         "日野富子",
@@ -10460,7 +10508,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "承久の乱の後、幕府が朝廷や西国の武士を監視するために京都に設置した役所は？",
-      "img": "assets/images/history/h_medieval_1_minamotoyoshinaka_1772802530993.jpg",
+      "img": "assets/images/history/h_medieval_1_rokuhara.jpg",
       "choices": [
         "六波羅探題",
         "京都所司代",
@@ -10484,7 +10532,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "二期作が始まり、定期市が開かれるなど、鎌倉時代の民衆の生活が向上した背景には何の発達があるか？",
-      "img": "assets/images/history/h_medieval_1_nimousaku_1772802594834.jpg",
+      "img": "assets/images/history/h_medieval_1_teikiichi.jpg",
       "choices": [
         "農業技術",
         "工業技術",
@@ -10496,7 +10544,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1183年、砺波山（くりから峠）の戦いで平氏を破って京都に入ったが、後に源義経らに追われて敗死した人物は？",
-      "img": "assets/images/history/h_medieval_1_nogyogijutsu_1772801855861.jpg",
+      "img": "assets/images/history/h_medieval_1_minamotoyoshinaka_1772802530993.jpg",
       "choices": [
         "源義仲（木曽義仲）",
         "源義経",
@@ -10544,7 +10592,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府の初代執権で、源頼朝の妻・北条政子の父である人物は？",
-      "img": "assets/images/history/h_medieval_1_hojo_tokimasa_1773374628970.jpg",
+      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.jpg",
       "choices": [
         "北条時政",
         "北条義時",
@@ -10556,7 +10604,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "承久の乱の時の執権で、朝廷軍を破り、執権政治を確立させた人物は？",
-      "img": "assets/images/history/h_medieval_1_hojo_yoshitoki_1773374641862.jpg",
+      "img": "assets/images/history/h_medieval_1_jokyu.jpg",
       "choices": [
         "北条義時",
         "北条時政",
@@ -10568,7 +10616,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府の3代将軍で、鶴岡八幡宮で公暁（くぎょう）に暗殺され、源氏の正統が絶える原因となった人物は？",
-      "img": "assets/images/history/h_medieval_1_minamoto_no_sanetomo_1773374657116.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
       "choices": [
         "源実朝",
         "源頼家",
@@ -10580,7 +10628,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代初期の荘園で、地頭の非道を訴えた「ミミヲキリハナヲソギ…」という訴状で有名な和歌山県の荘園は？",
-      "img": "assets/images/history/h_medieval_1_ategawa_no_sho_1773374670654.jpg",
+      "img": "assets/images/history/g_history_ancient_todaiji_construction.png",
       "choices": [
         "阿充河荘（あてがわのしょう）",
         "大田文",
@@ -10654,7 +10702,7 @@ const QUIZ_DATA = {
   "h_medieval_2": [
     {
       "q": "13世紀初め、チンギス・ハンが建国し、ユーラシア大陸にまたがる大帝国を築いた国は？",
-      "img": "assets/images/history/h_medieval_2_akutou.jpg",
+      "img": "assets/images/history/h_medieval_2_mongolteikoku_1772802716926.jpg",
       "choices": [
         "モンゴル帝国",
         "元",
@@ -10666,7 +10714,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "モンゴル帝国の皇帝フビライ・ハンが、日本に従うよう求めたが拒否されたため、二度にわたって日本を攻めた出来事を何というか？",
-      "img": "assets/images/history/h_medieval_2_ashikaga.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
       "choices": [
         "元寇",
         "倭寇",
@@ -10678,7 +10726,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇の時の鎌倉幕府の執権で、元の要求を拒否し、御家人を指揮して戦った人物は？",
-      "img": "assets/images/history/h_medieval_2_bourui.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
       "choices": [
         "北条時宗",
         "北条泰時",
@@ -10690,7 +10738,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元軍が使った、火薬を詰めて爆発させる武器を何というか？",
-      "img": "assets/images/history/h_medieval_2_tetsuhau.jpg",
+      "img": "assets/images/history/h_early_modern_1_teppo.jpg",
       "choices": [
         "てつはう",
         "鉄砲",
@@ -10714,7 +10762,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府に不満を持つ武士たちを呼びかけ、1333年に鎌倉幕府を滅亡に追い込んだ天皇は？",
-      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
+      "img": "assets/images/history/h_medieval_2_godaigo.jpg",
       "choices": [
         "後醍醐天皇",
         "後鳥羽上皇",
@@ -10726,7 +10774,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "後醍醐天皇の呼びかけに応じ、六波羅探題を攻め落とした有力御家人は？",
-      "img": "assets/images/history/h_medieval_2_godaigo.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_takauji.jpg",
       "choices": [
         "足利尊氏",
         "新田義貞",
@@ -10738,7 +10786,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "後醍醐天皇の呼びかけに応じ、鎌倉に攻め込んで北条氏を滅ぼした有力御家人は？",
-      "img": "assets/images/history/h_medieval_2_godaigotenno_1772802837831.jpg",
+      "img": "assets/images/history/h_medieval_2_godaigo.jpg",
       "choices": [
         "新田義貞",
         "足利尊氏",
@@ -10750,7 +10798,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇の際、日本軍の防備を助けたとされる、二度とも吹いた暴風雨を何と呼んだか？",
-      "img": "assets/images/history/h_medieval_2_hojotokimune_1772802779789.jpg",
+      "img": "assets/images/history/h_medieval_2_kamikaze.jpg",
       "choices": [
         "神風",
         "台風",
@@ -10762,7 +10810,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇防備のために九州北部の海岸に築かれた、石で作られた防壁は？",
-      "img": "assets/images/history/h_medieval_2_ikkiuchi.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
       "choices": [
         "防塁（石築地）",
         "城壁",
@@ -10774,7 +10822,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "イタリアの商人で、フビライ・ハンに仕え、帰国後に『世界の記述（東方見聞録）』で日本を「黄金の国ジパング」と紹介した人物は？",
-      "img": "assets/images/history/h_medieval_2_kamikaze.jpg",
+      "img": "assets/images/history/h_medieval_2_marcopolo.jpg",
       "choices": [
         "マルコ・ポーロ",
         "コロンブス",
@@ -10786,7 +10834,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇の際、集団戦法をとる元軍に対し、日本軍がとった戦法は？",
-      "img": "assets/images/history/h_medieval_2_marcopolo.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
       "choices": [
         "一騎打ち",
         "鉄砲隊",
@@ -10798,7 +10846,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1297年、鎌倉幕府が御家人を救うために出した、借金の帳消しを命じる法令は？",
-      "img": "assets/images/history/h_medieval_2_einin.jpg",
+      "img": "assets/images/history/h_medieval_2_tokuseirei.jpg",
       "choices": [
         "永仁の徳政令",
         "寛政の改革",
@@ -10810,7 +10858,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代末期、荘園領主や幕府に従わず、年貢を奪うなどの乱暴を働いた武装集団を何というか？",
-      "img": "assets/images/history/h_medieval_2_nitta.jpg",
+      "img": "assets/images/history/h_medieval_2_akutou.jpg",
       "choices": [
         "悪党",
         "野盗",
@@ -10824,7 +10872,7 @@ const QUIZ_DATA = {
   "h_medieval_3": [
     {
       "q": "鎌倉時代に生まれた、素朴で力強い武士の気風を反映した文化を何というか？",
-      "img": "assets/images/history/h_medieval_3_dogen.jpg",
+      "img": "assets/images/history/h_medieval_3_kongo.jpg",
       "choices": [
         "鎌倉文化",
         "国風文化",
@@ -10848,7 +10896,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「祇園精舎の鐘の声…」で始まり、平氏の繁栄と没落を描いた軍記物は？",
-      "img": "assets/images/history/h_medieval_3_eisai.jpg",
+      "img": "assets/images/history/h_medieval_3_biwa_hoshi_1773374684764.jpg",
       "choices": [
         "平家物語",
         "源氏物語",
@@ -10896,7 +10944,6 @@ const QUIZ_DATA = {
     },
     {
       "q": "後鳥羽上皇の命で藤原定家らが編集した、巧みな表現の和歌集は？",
-      "img": "assets/images/history/h_medieval_3_shinkokin.jpg",
       "choices": [
         "新古今和歌集",
         "古今和歌集",
@@ -10904,11 +10951,12 @@ const QUIZ_DATA = {
         "金槐和歌集"
       ],
       "a": "新古今和歌集",
-      "comment": "武士や僧の歌も多く収められています。"
+      "comment": "武士や僧の歌も多く収められています。",
+      "aImg": "assets/images/history/h_medieval_3_shinkokin.jpg"
     },
     {
       "q": "「南無阿弥陀仏」と唱えるだけで救われる（専修念仏）と説き、浄土宗を開いたのは？",
-      "img": "assets/images/history/h_medieval_3_ippen.jpg",
+      "img": "assets/images/history/h_medieval_3_honen.jpg",
       "choices": [
         "法然",
         "親鸞",
@@ -10932,7 +10980,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "踊念仏によって教えを広め、時宗を開いたのは？",
-      "img": "assets/images/history/h_medieval_3_nichiren.jpg",
+      "img": "assets/images/history/h_medieval_3_ippen.jpg",
       "choices": [
         "一遍",
         "法然",
@@ -10944,7 +10992,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「南無妙法蓮華経」という題目を唱えれば救われると説き、日蓮宗（法華宗）を開いたのは？",
-      "img": "assets/images/history/h_medieval_3_shinkokin.jpg",
+      "img": "assets/images/history/h_medieval_3_nichiren.jpg",
       "choices": [
         "日蓮",
         "栄西",
@@ -10956,7 +11004,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "座禅によって悟りを開こうとする「禅宗」の一つ、臨済宗を日本に伝えたのは？",
-      "img": "assets/images/history/h_medieval_3_shinran.jpg",
+      "img": "assets/images/history/h_medieval_3_eisai.jpg",
       "choices": [
         "栄西",
         "道元",
@@ -10982,7 +11030,7 @@ const QUIZ_DATA = {
   "h_medieval_4": [
     {
       "q": "鎌倉幕府の滅亡後、後醍醐天皇が始めた、天皇中心の政治を何というか？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_takauji.jpg",
+      "img": "assets/images/history/h_medieval_4_kenmu.jpg",
       "choices": [
         "建武の新政",
         "大化の改新",
@@ -10994,7 +11042,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "建武の新政に不満を持つ武士を率いて反乱を起こし、1338年に征夷大将軍となって幕府を開いた人物は？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_takauji.jpg",
       "choices": [
         "足利尊氏",
         "足利義満",
@@ -11006,7 +11054,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足利尊氏が京都に立てた北朝と、後醍醐天皇が奈良の吉野に逃れて立てた南朝が対立し、約60年間争った時代を何というか？",
-      "img": "assets/images/history/h_medieval_4_kango_boueki.jpg",
+      "img": "assets/images/history/h_medieval_4_nanbokucho.jpg",
       "choices": [
         "南北朝時代",
         "戦国時代",
@@ -11018,7 +11066,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "南北朝の動乱を終わらせ、1392年に南北朝を統一した室町幕府の第3代将軍は？",
-      "img": "assets/images/history/h_medieval_4_kanrei.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
       "choices": [
         "足利義満",
         "足利尊氏",
@@ -11030,7 +11078,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町幕府において、将軍を補佐する役職を何というか？",
-      "img": "assets/images/history/h_medieval_4_kenmu.jpg",
+      "img": "assets/images/history/h_medieval_4_kanrei.jpg",
       "choices": [
         "管領",
         "執権",
@@ -11054,7 +11102,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足利義満が中国（明）との間で行った、正式な貿易船に合い札を持たせた貿易を何というか？",
-      "img": "assets/images/history/h_medieval_4_kango_boueki.jpg",
+      "img": "assets/images/history/g_history_medieval_kango_tally_matching.png",
       "choices": [
         "勘合貿易（日明貿易）",
         "朱印船貿易",
@@ -11092,7 +11140,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "14世紀末、高麗を倒して朝鮮半島に建てられた国は？",
-      "img": "assets/images/history/h_early_modern_3_chosen.jpg",
+      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "朝鮮国（李氏朝鮮）",
         "新羅",
@@ -11116,7 +11164,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "琉球王国が、日本・中国・東南アジアの間で行った、各国の産物をやり取りする貿易を何というか？",
-      "img": "assets/images/history/h_medieval_5_hangeul.jpg",
+      "img": "assets/images/history/h_medieval_5_chukei_boueki.jpg",
       "choices": [
         "中継貿易",
         "勘合貿易",
@@ -11140,7 +11188,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "和人が蝦夷地（北海道）に進出し、館（やかた）を築いて交易を独占したことに対し、1457年に蜂起したアイヌの首長は？",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
+      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.jpg",
       "choices": [
         "コシャマイン",
         "シャクシャイン",
@@ -11152,7 +11200,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代に朝鮮で作られた、現在も使われている独自の文字は？",
-      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.jpg",
+      "img": "assets/images/history/g_history_medieval_hangul_creation.png",
       "choices": [
         "ハングル",
         "かな文字",
@@ -11164,7 +11212,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日明貿易（勘合貿易）において、日本からの主な輸出品は？",
-      "img": "assets/images/history/h_medieval_5_export.jpg",
+      "img": "assets/images/history/g_history_medieval_kango_tally_matching.png",
       "choices": [
         "刀剣・銅・硫黄",
         "生糸・陶磁器",
@@ -11176,7 +11224,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日明貿易（勘合貿易）において、明からの主な輸入品は？",
-      "img": "assets/images/history/h_medieval_5_import.jpg",
+      "img": "assets/images/history/g_history_medieval_kango_tally_matching.png",
       "choices": [
         "銅銭・生糸・陶磁器",
         "刀剣・銅",
@@ -11190,7 +11238,7 @@ const QUIZ_DATA = {
   "h_medieval_6": [
     {
       "q": "足利義満の頃の、公家文化と武家文化が融合した、明るく華やかな文化を何というか？",
-      "img": "assets/images/history/h_medieval_6_bashaku_1772980331219.jpg",
+      "img": "assets/images/history/h_medieval_6_kinkaku.jpg",
       "choices": [
         "北山文化",
         "東山文化",
@@ -11214,7 +11262,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "観阿弥・世阿弥親子によって大成された、面をつけて演じる歌舞劇は？",
-      "img": "assets/images/history/h_medieval_6_doikki_1772980315893.jpg",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "能（能楽）",
         "歌舞伎",
@@ -11226,7 +11274,6 @@ const QUIZ_DATA = {
     },
     {
       "q": "能の合間に演じられる、庶民の生活や風刺を扱った滑稽な劇は？",
-      "img": "assets/images/history/h_medieval_6_doso_1772980404797.jpg",
       "choices": [
         "狂言",
         "漫才",
@@ -11234,7 +11281,8 @@ const QUIZ_DATA = {
         "人形浄瑠璃"
       ],
       "a": "狂言",
-      "comment": "当時の話し言葉が使われています。"
+      "comment": "当時の話し言葉が使われています。",
+      "aImg": "assets/images/history/h_medieval_6_kyogen.jpg"
     },
     {
       "q": "足利義政の頃の、禅宗の影響を受けた、簡素で深みのある文化を何というか？",
@@ -11250,7 +11298,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足利義政が京都の東山に建てた、簡素で落ち着いた美しさを持つ建物は？",
-      "img": "assets/images/history/h_early_modern_1_silver.jpg",
+      "img": "assets/images/history/h_medieval_6_ginkaku.jpg",
       "choices": [
         "銀閣",
         "金閣",
@@ -11274,7 +11322,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "明で水墨画を学び、日本独自の水墨画を大成した人物は？",
-      "img": "assets/images/history/h_medieval_6_kinkaku.jpg",
+      "img": "assets/images/history/h_medieval_6_suibokuga.jpg",
       "choices": [
         "雪舟",
         "狩野永徳",
@@ -11310,7 +11358,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、農民たちが作った自治組織を何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
+      "img": "assets/images/history/g_history_medieval_so_village_meeting.png",
       "choices": [
         "惣（惣村）",
         "座",
@@ -11322,7 +11370,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "農民たちが団結して、年貢の軽減や借金の帳消し（徳政）を求めて起こした反乱を何というか？",
-      "img": "assets/images/history/h_medieval_6_otogizoushi.jpg",
+      "img": "assets/images/history/h_medieval_6_doikki_1772980315893.jpg",
       "choices": [
         "土一揆",
         "国一揆",
@@ -11334,7 +11382,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、馬を使って物資を運んだ運送業者を何というか？",
-      "img": "assets/images/history/h_medieval_6_shocho_1772980421165.jpg",
+      "img": "assets/images/history/h_medieval_6_bashaku_1772980331219.jpg",
       "choices": [
         "馬借（ばしゃく）",
         "問屋",
@@ -11346,7 +11394,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、港などで商品の保管や運送、販売を行った業者を何というか？",
-      "img": "assets/images/history/h_medieval_6_shoinzukuri.jpg",
+      "img": "assets/images/history/h_medieval_6_toiya_1772980345705.jpg",
       "choices": [
         "問（問屋）",
         "土倉",
@@ -11358,7 +11406,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、高利貸しを営んだ質屋のような業者を何というか？",
-      "img": "assets/images/history/h_medieval_6_suibokuga.jpg",
+      "img": "assets/images/history/h_medieval_6_doso_1772980404797.jpg",
       "choices": [
         "土倉（どそう）",
         "酒屋",
@@ -11370,7 +11418,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、商工業者が同業者ごとに結成し、朝廷や寺社に税を納める代わりに営業の独占権を認められた組織は？",
-      "img": "assets/images/history/h_medieval_6_za.jpg",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "座",
         "株仲間",
@@ -11382,7 +11430,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1428年、近江の馬借らが徳政令を求めて蜂起し、京都に乱入した、日本初の大規模な土一揆は？",
-      "img": "assets/images/history/h_medieval_6_toiya_1772980345705.jpg",
+      "img": "assets/images/history/h_medieval_6_shocho_1772980421165.jpg",
       "choices": [
         "正長の土一揆",
         "加賀の一向一揆",
@@ -11396,7 +11444,7 @@ const QUIZ_DATA = {
   "h_medieval_7": [
     {
       "q": "1467年、将軍（足利義政）の跡継ぎ問題などをきっかけに始まり、11年間続いて京都を焼け野原にした戦乱は？",
-      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
+      "img": "assets/images/history/g_history_medieval_onin_no_ran.png",
       "choices": [
         "応仁の乱",
         "保元の乱",
@@ -11408,7 +11456,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱のきっかけとなった跡継ぎ問題で、争いに関係した第8代将軍は？",
-      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980625957.jpg",
+      "img": "assets/images/history/g_history_medieval_onin_no_ran.png",
       "choices": [
         "足利義政",
         "足利義満",
@@ -11420,7 +11468,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱で東軍の総大将となった人物は？",
-      "img": "assets/images/history/h_medieval_7_gekokujo_1772980555958.jpg",
+      "img": "assets/images/history/g_history_medieval_onin_no_ran.png",
       "choices": [
         "細川勝元",
         "山名宗全",
@@ -11444,7 +11492,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "加賀国（現在の石川県）で、浄土真宗の信者らが守護大名を倒し、約100年間にわたって自治を行った出来事は？",
-      "img": "assets/images/history/h_medieval_7_gion.jpg",
+      "img": "assets/images/history/h_medieval_7_kaga_ikko_ikki_1772980540508.jpg",
       "choices": [
         "加賀の一向一揆",
         "山城の国一揆",
@@ -11456,7 +11504,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "身分の低い者が、実力で上の者を倒して地位を奪う風潮を何というか？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
+      "img": "assets/images/history/h_medieval_7_gekokujo_1772980555958.jpg",
       "choices": [
         "下剋上",
         "一所懸命",
@@ -11468,7 +11516,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱の後、各地の守護大名や守護代などが成長し、独自の領国支配を行うようになった大名を何というか？",
-      "img": "assets/images/history/h_medieval_7_hosokawa.jpg",
+      "img": "assets/images/history/h_medieval_7_sengoku_daimyo_1772980436077.jpg",
       "choices": [
         "戦国大名",
         "守護大名",
@@ -11480,7 +11528,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦国大名が、領地を治めるために独自に定めた法律を何というか？",
-      "img": "assets/images/history/h_medieval_7_jinkaishu_1772980569807.jpg",
+      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
       "choices": [
         "分国法",
         "御成敗式目",
@@ -11492,7 +11540,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦国時代、甲斐（山梨県）の武田信玄が定めた分国法は？",
-      "img": "assets/images/history/h_medieval_7_jokamachi.jpg",
+      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
       "choices": [
         "甲州法度之次第",
         "塵芥集",
@@ -11504,7 +11552,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦国時代、東北地方の伊達氏が定めた分国法は？",
-      "img": "assets/images/history/h_medieval_7_kaga_ikko_ikki_1772980540508.jpg",
+      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
       "choices": [
         "塵芥集（じんかいしゅう）",
         "甲州法度之次第",
@@ -11528,7 +11576,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日明貿易で栄え、「東洋のベニス」とも呼ばれた、36人の会合衆（えごうしゅう）によって自治が行われた都市は？",
-      "img": "assets/images/history/h_medieval_7_koshu_hatto_1772980468342.jpg",
+      "img": "assets/images/history/h_medieval_7_sakai_1772980587543.jpg",
       "choices": [
         "堺（大阪府）",
         "博多（福岡県）",
@@ -11540,7 +11588,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日宋貿易以来の貿易港として栄え、12人の年行司によって自治が行われた都市は？",
-      "img": "assets/images/history/h_medieval_7_sakai_1772980587543.jpg",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "博多（福岡県）",
         "堺",
@@ -11552,7 +11600,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱の後、京都で町衆（まちしゅう）と呼ばれる裕福な商工業者たちが復興させ、現在まで続く祭りは？",
-      "img": "assets/images/history/h_medieval_7_sengoku_daimyo_1772980436077.jpg",
+      "img": "assets/images/history/h_medieval_7_gion.jpg",
       "choices": [
         "祇園祭",
         "天神祭",
@@ -11578,6 +11626,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "免罪符（贖宥状）の販売を批判し、ドイツで宗教改革を始めた人物は？",
+      "img": "assets/images/history/h_early_modern_1_luther_1773020209374.jpg",
       "choices": [
         "ルター",
         "カルバン",
@@ -11591,6 +11640,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1492年、西インド諸島に到達し、アメリカ大陸発見のきっかけを作った人物は？",
+      "img": "assets/images/history/h_early_modern_1_columbus_1773020222528.jpg",
       "choices": [
         "コロンブス",
         "バスコ・ダ・ガマ",
@@ -11604,6 +11654,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1498年、喜望峰を回ってインド航路を発見したポルトガルの探検家は？",
+      "img": "assets/images/history/h_early_modern_1_vasco_da_gama_1773020239061.jpg",
       "choices": [
         "バスコ・ダ・ガマ",
         "マゼラン",
@@ -11617,6 +11668,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "世界一周を成し遂げ、地球が球体であることを実証した一行の指揮者は？",
+      "img": "assets/images/history/h_early_modern_1_magellan_1773020255905.jpg",
       "choices": [
         "マゼラン",
         "コロンブス",
@@ -11642,6 +11694,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1549年、鹿児島に上陸し、日本にキリスト教を伝えたイエズス会の宣教師は？",
+      "img": "assets/images/history/h_early_modern_1_francis_xavier_1773666323655.jpg",
       "choices": [
         "フランシスコ・ザビエル",
         "ルイス・フロイス",
@@ -11655,6 +11708,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ポルトガル人やスペイン人との間で行われた貿易を何というか？",
+      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.jpg",
       "choices": [
         "南蛮貿易",
         "勘合貿易",
@@ -11668,6 +11722,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "キリスト教の信者となった大名を何というか？",
+      "img": "assets/images/history/h_early_modern_1_kirishitan_daimyo_1773020321046.jpg",
       "choices": [
         "キリシタン大名",
         "守護大名",
@@ -11681,6 +11736,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1582年、九州のキリシタン大名たちがローマ教皇のもとへ送った使節団は？",
+      "img": "assets/images/history/h_early_modern_1_tensho_embassy_1773020338207.jpg",
       "choices": [
         "天正遣欧少年使節",
         "岩倉使節団",
@@ -11694,7 +11750,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "南蛮貿易で、日本から主に輸出された鉱物は？",
-      "img": "assets/images/history/h_early_modern_1_silver.jpg",
+      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.jpg",
       "choices": [
         "銀",
         "銅",
@@ -11720,7 +11776,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "織田信長が将軍・足利き義昭を追放し、滅ぼした幕府は？",
-      "img": "assets/images/history/h_early_modern_2_muromachi_bakufu_1773020387281.jpg",
+      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.jpg",
       "choices": [
         "室町幕府",
         "鎌倉幕府",
@@ -11768,7 +11824,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "一向一揆の拠点であったが、信長に降伏し、後に大阪城が築かれた場所にあった寺は？",
-      "img": "assets/images/history/h_early_modern_2_ishiyama.jpg",
+      "img": "assets/images/history/h_medieval_7_kaga_ikko_ikki_1772980540508.jpg",
       "choices": [
         "石山本願寺",
         "延暦寺",
@@ -11780,7 +11836,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1582年、明智光秀に本能寺で襲われ、自害した出来事を何というか？",
-      "img": "assets/images/history/h_early_modern_2_honnouji.jpg",
+      "img": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.jpg",
       "choices": [
         "本能寺の変",
         "桶狭間の戦い",
@@ -11852,7 +11908,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "織田信長や豊臣秀吉の頃の、大名や豪商の富を背景とした、豪華で雄大な文化を何というか？",
-      "img": "assets/images/history/h_early_modern_2_momoyama_culture_1773020471924.jpg",
+      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.jpg",
       "choices": [
         "桃山文化",
         "元禄文化",
@@ -11900,7 +11956,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "出雲の阿国が京都で始め、後の歌舞伎の起源となった踊りは？",
-      "img": "assets/images/history/h_early_modern_2_kabuki_odori_1773020515070.jpg",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "かぶき踊り",
         "盆踊り",
@@ -11914,7 +11970,7 @@ const QUIZ_DATA = {
   "h_early_modern_3": [
     {
       "q": "1600年、徳川家康が石田三成らを破り、天下分け目の戦いと呼ばれた戦いは？",
-      "img": "assets/images/history/h_early_modern_3_sekigahara.jpg",
+      "img": "assets/images/history/h_early_modern_2_nagashino.jpg",
       "choices": [
         "関ヶ原の戦い",
         "大阪冬の陣",
@@ -11938,7 +11994,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "関ヶ原の戦い以前から徳川氏に従っていた大名を何というか？",
-      "img": "assets/images/history/h_early_modern_3_fudai_daimyo.jpg",
+      "img": "assets/images/history/h_medieval_4_shugo_daimyo.jpg",
       "choices": [
         "譜代大名",
         "親藩",
@@ -12046,7 +12102,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "松前藩（北海道）が独自の支配権を認められ、交易を行っていた相手は？",
-      "img": "assets/images/history/h_early_modern_3_chosen.jpg",
+      "img": "assets/images/history/h_medieval_5_ainu_1772980283499.jpg",
       "choices": [
         "アイヌ民族",
         "ロシア",
@@ -12058,7 +12114,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸時代、朝鮮との外交を担当し、釜山に「倭館」を置いて貿易を行った藩は？",
-      "img": "assets/images/history/h_early_modern_3_tsushima.jpg",
+      "img": "assets/images/history/h_early_modern_3_chosen.jpg",
       "choices": [
         "対馬藩（宗氏）",
         "松前藩（松前氏）",
@@ -12070,7 +12126,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "オランダ船が来航するたびに提出させた、海外の情勢を記した報告書は？",
-      "img": "assets/images/history/h_early_modern_3_fusetsusho.jpg",
+      "img": "assets/images/history/h_early_modern_3_oranda.jpg",
       "choices": [
         "オランダ風説書",
         "解体新書",
@@ -12460,7 +12516,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "全国を測量して、精密な日本地図「大日本沿海輿地全図」を作った人物は？",
-      "img": "assets/images/history/h_early_modern_6_ino.jpg",
+      "img": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.jpg",
       "choices": [
         "伊能忠敬",
         "間宮林蔵",
@@ -12496,7 +12552,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "幕府の鎖国政策を批判し、処罰された渡辺崋山や高野長英の事件を何というか？",
-      "img": "assets/images/history/h_early_modern_6_bansha_no_goku_1773374812551.jpg",
+      "img": "assets/images/history/h_early_modern_7_ansei_purge.jpg",
       "choices": [
         "蛮社の獄",
         "安政の大獄",
@@ -12544,7 +12600,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "わずか10ヶ月ほどの活動期間で、個性的な役者絵を数多く描いた謎の浮世絵師は？",
-      "img": "assets/images/history/h_early_modern_6_toshusai.jpg",
+      "img": "assets/images/history/h_early_modern_4_hishikawa.jpg",
       "choices": [
         "東洲斎写楽",
         "喜多川歌麿",
@@ -12556,7 +12612,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1837年、日本人漂流民を送り届けようとしたアメリカの商船を、幕府が砲撃して追い払った事件は？",
-      "img": "assets/images/history/h_early_modern_6_morrison_incident_1773374870186.jpg",
+      "img": "assets/images/history/h_early_modern_6_ikokusen_uchiharai_rei_1773374782638.jpg",
       "choices": [
         "モリソン号事件",
         "フェートン号事件",
@@ -12568,7 +12624,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "モリソン号事件に対する幕府の対応を批判し、『慎機論』を書いて処罰された人物は？",
-      "img": "assets/images/history/h_early_modern_6_watanabe.jpg",
+      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.jpg",
       "choices": [
         "渡辺崋山",
         "高野長英",
@@ -12690,7 +12746,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1867年、民衆が「天からお札が降ってきた」と騒ぎ、世直しを求めて踊り狂った騒動は？",
-      "img": "assets/images/history/h_early_modern_7_ee_ja_nai_ka.jpg",
+      "img": "assets/images/history/h_modern_5_kome_sodo_1773666475858.jpg",
       "choices": [
         "ええじゃないか",
         "打ちこわし",
@@ -12738,7 +12794,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "王政復古の大号令を中心となって進めた公家で、明治時代には欧米使節団の大使にもなったのは？",
-      "img": "assets/images/history/h_early_modern_7_iwakura_tomomi.jpg",
+      "img": "assets/images/history/h_early_modern_7_osei_fukko.jpg",
       "choices": [
         "岩倉具視",
         "三条実美",
@@ -12762,7 +12818,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "絶対王政を倒し、市民が基本的人権や政治参加の権利を獲得した革命を総称して何というか？",
-      "img": "assets/images/history/h_early_modern_7_civic_revolution.jpg",
+      "img": "assets/images/history/h_early_modern_7_industrial_revolution.jpg",
       "choices": [
         "市民革命",
         "産業革命",
@@ -12822,7 +12878,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "フランス革命後の混乱を収め、皇帝となってヨーロッパの大半を支配した軍人は？",
-      "img": "assets/images/history/h_early_modern_7_napoleon.jpg",
+      "img": "assets/images/history/h_early_modern_7_french_revolution.jpg",
       "choices": [
         "ナポレオン",
         "クロムウェル",
@@ -12858,7 +12914,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "18世紀以降、イギリス・アフリカ・アメリカ（西インド諸島）などの3地域間で行われた貿易は？",
-      "img": "assets/images/history/h_early_modern_7_triangular_trade.jpg",
+      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.jpg",
       "choices": [
         "三角貿易",
         "日宋貿易",
@@ -12884,7 +12940,7 @@ const QUIZ_DATA = {
   "h_modern_1": [
     {
       "q": "1868年、天皇中心の新しい政府を作るために定められた、政治の基本方針は？",
-      "img": "assets/images/history/h_meiji_charter_oath_1773375454921.jpg",
+      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
       "choices": [
         "五箇条の御誓文",
         "十七条の憲法",
@@ -12897,7 +12953,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "五箇条の御誓文の翌日、民衆に対して出された立て札（掲示）を何というか？",
-      "img": "assets/images/history/h_modern_1_gobou_1773341723175.jpg",
+      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
       "choices": [
         "五榜の掲示",
         "御触書",
@@ -12993,7 +13049,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "飛脚にかわって全国均一料金で手紙を届ける「郵便制度」を創設した人物は？",
-      "img": "assets/images/history/h_modern_1_maejima_1773341871605.jpg",
+      "img": "assets/images/history/h_modern_4_fukuzawa.jpg",
       "choices": [
         "前島密",
         "渋沢栄一",
@@ -13017,7 +13073,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "岩倉使節団に最年少（6歳）で参加し、後に女子英学塾（現在の津田塾大学）を創設した女性は？",
-      "img": "assets/images/history/h_modern_1_chiso_1773341819391.jpg",
+      "img": "assets/images/history/h_modern_1_iwakura.jpg",
       "choices": [
         "津田梅子",
         "樋口一葉",
@@ -13053,7 +13109,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1874年、征韓論を主張して政府を去った江藤新平らが佐賀県で起こした反乱は？",
-      "img": "assets/images/history/h_modern_1_saga_1773341937020.jpg",
+      "img": "assets/images/history/h_medieval_2_kamikaze.jpg",
       "choices": [
         "佐賀の乱",
         "西南戦争",
@@ -13079,7 +13135,7 @@ const QUIZ_DATA = {
   "h_modern_2": [
     {
       "q": "1874年、板垣退助らが政府に対して提出した、国民が選んだ議員による議会の開設を求めた意見書は？",
-      "img": "assets/images/history/h_modern_2_minsen.jpg",
+      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.jpg",
       "choices": [
         "民撰議院設立建白書",
         "五箇条の御誓文",
@@ -13104,7 +13160,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "自由民権運動の理論的指導者で、「東洋のルソー」と呼ばれた人物は？",
-      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
+      "img": "assets/images/history/h_modern_nakae_chomin.png",
       "choices": [
         "中江兆民",
         "植木枝盛",
@@ -13116,7 +13172,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "民間の人々が独自に作成した憲法の草案を何というか？（植木枝盛の「東洋大日本国国憲按」などが有名）",
-      "img": "assets/images/history/h_modern_2_houritsu_1773342438474.jpg",
+      "img": "assets/images/history/h_modern_shigi_kenpo.png",
       "choices": [
         "私擬憲法",
         "欽定憲法",
@@ -13128,7 +13184,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1881年、政府が10年後の国会開設を約束した際に、それに向けて組織された板垣退助を党首とする政党は？",
-      "img": "assets/images/history/h_modern_2_jiyutou_1773342252801.jpg",
+      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.jpg",
       "choices": [
         "自由党",
         "立憲改進党",
@@ -13140,7 +13196,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "政府が、新聞や演説などで政府を批判することを厳しく取り締まった法律は？",
-      "img": "assets/images/history/h_modern_2_shinbun_1773342268008.jpg",
+      "img": "assets/images/history/h_modern_zanbouritsu.png",
       "choices": [
         "新聞紙条例・讒謗律（ざんぼうりつ）",
         "治安維持法",
@@ -13152,7 +13208,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1884年、埼玉県で困窮した農民たちが起こした、自由民権運動の激化を示す事件は？",
-      "img": "assets/images/history/h_modern_2_chichibu.jpg",
+      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.jpg",
       "choices": [
         "秩父事件",
         "米騒動",
@@ -13176,7 +13232,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1885年に内閣制度が作られた際、初代の外務大臣に就任したのは？（「鹿鳴館」で有名）",
-      "img": "assets/images/history/h_modern_2_inoue_1773342309163.jpg",
+      "img": "assets/images/history/h_modern_3_mutsu_1773342472302.jpg",
       "choices": [
         "井上馨",
         "陸奥宗光",
@@ -13188,7 +13244,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1889年に発布された、天皇が国民に与える形（欽定憲法）で制定された憲法は？",
-      "img": "assets/images/history/h_modern_2_teikoku_1773342395256.jpg",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "大日本帝国憲法",
         "日本国憲法",
@@ -13200,7 +13256,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大日本帝国憲法において、国民（臣民）の権利はどのように規定されていたか？",
-      "img": "assets/images/history/h_meiji_constitution_rights_1773375484380.jpg",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "法律の範囲内で認められた",
         "無制限に認められた",
@@ -13252,7 +13308,7 @@ const QUIZ_DATA = {
   "h_modern_3": [
     {
       "q": "1886年、イギリス船が沈没した際に、日本人乗客が見殺しにされた事件は？",
-      "img": "assets/images/history/h_normanton_incident_1773375497759.jpg",
+      "img": "assets/images/history/h_modern_3_normanton_incident_1773374920117.jpg",
       "choices": [
         "ノルマントン号事件",
         "生麦事件",
@@ -13289,7 +13345,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "下関条約・ポーツマス条約での、中国側の代表（全権）は？",
-      "img": "assets/images/history/h_modern_3_rikyoushou_1773342506842.jpg",
+      "img": "assets/images/history/h_modern_2_itou_1773342283856.jpg",
       "choices": [
         "李鴻章",
         "蔣介石",
@@ -13301,7 +13357,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "下関条約で日本が得た領土は、台湾とどこか？",
-      "img": "assets/images/history/h_modern_3_ryoutou_1773342522994.jpg",
+      "img": "assets/images/history/h_modern_3_sangoku_1773342541270.jpg",
       "choices": [
         "遼東半島",
         "朝鮮半島",
@@ -13385,7 +13441,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日露戦争の講和条約（ポーツマス条約）を仲介したアメリカ大統領は？",
-      "img": "assets/images/history/h_modern_3_roosevelt_1773342637857.jpg",
+      "img": "assets/images/history/h_modern_3_nichiro_1773342626453.jpg",
       "choices": [
         "セオドア・ルーズベルト",
         "ウィルソン",
@@ -13472,7 +13528,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日清戦争の賠償金の一部を使って、北九州に建設された官営の製鉄所は？",
-      "img": "assets/images/history/h_modern_4_yawata.jpg",
+      "img": "assets/images/history/h_modern_3_yawata.jpg",
       "choices": [
         "八幡製鉄所",
         "富岡製糸場",
@@ -13484,7 +13540,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足尾銅山鉱毒事件の実態を訴え、天皇への直訴を試みるなど、生涯をかけて解決に取り組んだ人物は？",
-      "img": "assets/images/history/h_modern_4_tanaka.jpg",
+      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.jpg",
       "choices": [
         "田中正造",
         "板垣退助",
@@ -13569,7 +13625,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「たけくらべ」などで知られる、明治時代の女性作家は？",
-      "img": "assets/images/history/h_modern_4_higuchi_new.jpg",
+      "img": "assets/images/history/h_modern_3_yosano_1773342605390.jpg",
       "choices": [
         "樋口一葉",
         "与謝野晶子",
@@ -13666,7 +13722,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "米ぬかからオリザニン（ビタミンB1）を発見し、脚気の予防に貢献した人物は？",
-      "img": "assets/images/history/h_suzuki_umetaro_1773375525634.jpg",
+      "img": "assets/images/history/h_modern_4_umetaro_suzuki_1773374964572.jpg",
       "choices": [
         "鈴木梅太郎",
         "高峰譲吉",
@@ -13744,7 +13800,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "第一次世界大戦のきっかけとなった、オーストリア皇太子夫妻が暗殺された事件は？",
-      "img": "assets/images/history/h_modern_5_fusen_1773342974151.jpg",
+      "img": "assets/images/history/h_modern_6_manshu_jihen_1772283403167.jpg",
       "choices": [
         "サラエボ事件",
         "柳条湖事件",
@@ -13768,7 +13824,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "第一次世界大戦中、日本が中国政府に突きつけた要求は？",
-      "img": "assets/images/history/h_modern_5_hara_takashi.jpg",
+      "img": "assets/images/history/h_modern_7_potsdam_1772302919946.jpg",
       "choices": [
         "二十一カ条の要求",
         "ポツダム宣言",
@@ -13792,7 +13848,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ロシア革命に干渉するために、日本などが軍隊を送った出来事は？",
-      "img": "assets/images/history/h_modern_5_ichikawa_1773343064412.jpg",
+      "img": "assets/images/history/h_modern_5_russian_revolution.jpg",
       "choices": [
         "シベリア出兵",
         "北方領土問題",
@@ -13804,6 +13860,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1918年、米の値段が上がったことに怒った人々が起こした暴動は？",
+      "img": "assets/images/history/h_modern_5_kome_sodo_1773666475858.jpg",
       "choices": [
         "米騒動",
         "打ちこわし",
@@ -13817,7 +13874,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "米騒動の後、日本で初めて本格的な政党内閣を組織した「平民宰相」は？",
-      "img": "assets/images/history/h_modern_5_josei_1773342941412.jpg",
+      "img": "assets/images/history/h_modern_5_hara_takashi.jpg",
       "choices": [
         "原敬",
         "加藤高明",
@@ -13853,6 +13910,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大正時代、民主主義を求める運動や風潮が高まったことを何というか？",
+      "img": "assets/images/history/h_modern_5_taisho_democracy.jpg",
       "choices": [
         "大正デモクラシー",
         "文明開化",
@@ -13891,7 +13949,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1925年に制定された、満25歳以上のすべての男子に選挙権を与えた法律は？",
-      "img": "assets/images/history/h_universal_suffrage_1773375604435.jpg",
+      "img": "assets/images/history/h_modern_5_general_election_law_1773375034348.jpg",
       "choices": [
         "普通選挙法",
         "治安維持法",
@@ -13904,7 +13962,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "普通選挙法と同時に制定された、社会主義運動などを取り締まる法律は？",
-      "img": "assets/images/history/h_peace_preservation_law_1773375622564.jpg",
+      "img": "assets/images/history/h_modern_5_chian_1773343001388.jpg",
       "choices": [
         "治安維持法",
         "国家総動員法",
@@ -13929,7 +13987,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1923年9月1日に発生し、東京・横浜を中心に甚大な被害をもたらした自然災害は？",
-      "img": "assets/images/history/h_modern_5_kanto_earthquake.jpg",
+      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
       "choices": [
         "関東大震災",
         "阪神・淡路大震災",
@@ -13953,7 +14011,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "天皇機関説を唱え、政党政治の理論的支柱となった憲法学者は？",
-      "img": "assets/images/history/h_modern_5_minobe_1773343048586.jpg",
+      "img": "assets/images/history/h_ancient_3_yoshinogari.jpg",
       "choices": [
         "美濃部達吉",
         "吉野作造",
@@ -13965,7 +14023,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平塚らいてうとともに新婦人協会を設立し、戦後も女性の地位向上に尽くした人物は？",
-      "img": "assets/images/history/h_ichikawa_fusae_1773375636600.jpg",
+      "img": "assets/images/history/h_modern_3_yosano_1773342605390.jpg",
       "choices": [
         "市川房枝",
         "与謝野晶子",
@@ -13990,7 +14048,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「貧乏物語」を書いて貧困問題を論じ、後にマルクス経済学の研究に進んだ経済学者は？",
-      "img": "assets/images/history/h_modern_5_kawakami_1772244249505.jpg",
+      "img": "assets/images/history/h_medieval_7_sakai_1772980587543.jpg",
       "choices": [
         "河上肇",
         "幸徳秋水",
@@ -14148,7 +14206,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日中戦争の際、日本軍が占領した中国の首都（当時）で、多くの犠牲者を出したとされる事件は？",
-      "img": "assets/images/history/h_modern_6_nankin_jihen_1772283521854.jpg",
+      "img": "assets/images/history/h_modern_6_nitchu_sensou_1772283487209.jpg",
       "choices": [
         "南京事件",
         "上海事変",
@@ -14172,7 +14230,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日中戦争の長期化に伴い、国民の戦争協力を強めるために掲げられたスローガンは？",
-      "img": "assets/images/history/h_modern_6_hakkou_ichiu_1772283551485.jpg",
+      "img": "assets/images/history/h_modern_6_nitchu_sensou_1772283487209.jpg",
       "choices": [
         "八紘一宇",
         "富国強兵",
@@ -14196,7 +14254,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "近衛文麿内閣が掲げた、欧米の支配からアジアを解放し、共存共栄を目指すという構想は？",
-      "img": "assets/images/history/h_modern_6_daitoua_kyoueiken_1772283598273.jpg",
+      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
       "choices": [
         "大東亜共栄圏",
         "ヨーロッパ連合",
@@ -14222,7 +14280,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本への石油や鉄などの輸出を禁止し、経済的に追い詰めたアメリカ・イギリス・中国・オランダの包囲網を何というか？",
-      "img": "assets/images/history/h_modern_7_abcd_houijin_1772302738952.jpg",
+      "img": "assets/images/history/h_early_modern_3_oranda.jpg",
       "choices": [
         "ABCD包囲陣",
         "三国干渉",
@@ -14246,7 +14304,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "太平洋戦争の戦況を大きく転換させた、1942年の海戦は？",
-      "img": "assets/images/history/h_modern_7_midway_1772283649427.jpg",
+      "img": "assets/images/history/h_modern_7_taiheiyou_sensou_1772283634578.jpg",
       "choices": [
         "ミッドウェー海戦",
         "日本海海戦",
@@ -14258,7 +14316,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦局が悪化し、大学の文系学生なども軍隊に召集されたことを何というか？",
-      "img": "assets/images/history/h_modern_7_gakudo_sokai_1772244267399.jpg",
+      "img": "assets/images/history/h_modern_7_gakuto_shutsujin_1772302755596.jpg",
       "choices": [
         "学徒出陣",
         "学童疎開",
@@ -14270,7 +14328,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "小学生が集団で地方のお寺などに避難し、親元を離れて生活したことを何というか？",
-      "img": "assets/images/history/h_modern_7_gakudo_sokai_1772302809433.jpg",
+      "img": "assets/images/history/h_modern_7_gakudo_sokai_1772244267399.jpg",
       "choices": [
         "学童疎開",
         "集団就職",
@@ -14354,7 +14412,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦時中、生活必需品などの不足に対し、切符などを使って配る制度を何というか？",
-      "img": "assets/images/history/h_modern_7_haikyuusei_1772302959481.jpg",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "配給制",
         "座",
@@ -14366,7 +14424,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦時中、住民の団結や監視のために10軒程度で作られた組織は？",
-      "img": "assets/images/history/h_modern_7_tonarigumi_1772302987573.jpg",
+      "img": "assets/images/history/h_early_modern_4_goningumi.jpg",
       "choices": [
         "隣組",
         "五人組",
@@ -14378,7 +14436,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦時中、国民の耐乏生活を強いるために掲げられた代表的なスローガンは？",
-      "img": "assets/images/history/h_modern_7_zeitaku_teki_1772303003253.jpg",
+      "img": "assets/images/history/h_modern_1_fukoku_1773341886843.jpg",
       "choices": [
         "贅沢（ぜいたく）は敵だ",
         "富国強兵",
@@ -14392,6 +14450,7 @@ const QUIZ_DATA = {
   "h_contemporary_1": [
     {
       "q": "GHQの指令により、軍隊の解散や、戦争協力者の追放、選挙権の拡大などが行われたことを何というか？",
+      "img": "assets/images/history/h_modern_1_fukoku_1773341886843.jpg",
       "choices": [
         "戦後改革（民主化政策）",
         "大正デモクラシー",
@@ -14429,7 +14488,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1946年11月3日に公布され、翌年5月3日に施行された、日本の現行憲法は？",
-      "img": "assets/images/history/h_contemporary_1_kenpou_1772244704026.jpg",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "日本国憲法",
         "大日本帝国憲法",
@@ -14441,6 +14500,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法において、天皇の地位はどのように規定されているか？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "日本国の象徴",
         "日本の元首",
@@ -14454,6 +14514,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法第9条で放棄すると定めているものは？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "戦争",
         "税金",
@@ -14515,7 +14576,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1946年1月1日、昭和天皇が自らを神ではなく人間であると宣言したことを何というか？",
-      "img": "assets/images/history/humanity_declaration_1773368781759.jpg",
+      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
       "choices": [
         "人間宣言",
         "玉音放送",
@@ -14527,7 +14588,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦後の混乱期、駅前などに不法に開かれ、食料や生活用品が売買された市場を何というか？",
-      "img": "assets/images/history/h_contemporary_1_yamiichi_1772244726326.jpg",
+      "img": "assets/images/history/h_medieval_1_teikiichi.jpg",
       "choices": [
         "闇市（やみいち）",
         "定期市",
@@ -14553,7 +14614,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1950年、朝鮮半島の北と南が武力衝突して始まった戦争は？",
-      "img": "assets/images/history/h_early_modern_3_chosen.jpg",
+      "img": "assets/images/history/h_contemporary_2_korean_war.jpg",
       "choices": [
         "朝鮮戦争",
         "ベトナム戦争",
@@ -14565,6 +14626,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮戦争の際に日本国内の治安維持のために作られ、後に自衛隊へと発展した組織は？",
+      "img": "assets/images/history/h_contemporary_2_keisatsu_yobitai_1773666567725.jpg",
       "choices": [
         "警察予備隊",
         "特別高等警察",
@@ -14578,7 +14640,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1949年、中国共産党が国民党を破って建国し、毛沢東が主席となった国は？",
-      "img": "assets/images/history/prc_founding_1773368835910.jpg",
+      "img": "assets/images/history/h_contemporary_2_chuuka_1773343360454.jpg",
       "choices": [
         "中華人民共和国",
         "中華民国",
@@ -14602,7 +14664,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "サンフランシスコ平和条約と同時に結ばれ、アメリカ軍が日本に駐留することを認めた条約は？",
-      "img": "assets/images/history/h_contemporary_2_anpo_1773343425775.jpg",
+      "img": "assets/images/history/h_contemporary_2_us_japan_security_new_1774106549986.png",
       "choices": [
         "日米安全保障条約",
         "日米和親条約",
@@ -14638,7 +14700,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1955年に自由民主党が結成されて以来、野党第一党の社会党と対立しながら約38年間政権を維持した体制は？",
-      "img": "assets/images/history/1955_system_1773368892221.jpg",
+      "img": "assets/images/history/h_modern_5_taisho_democracy.jpg",
       "choices": [
         "55年体制",
         "大正デモクラシー",
@@ -14650,7 +14712,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1960年、日米安全保障条約の改定をめぐって起こった大規模な反対運動は？",
-      "img": "assets/images/history/anpo_protests_1773368944517.jpg",
+      "img": "assets/images/history/h_contemporary_2_us_japan_security_new_1774106549986.png",
       "choices": [
         "安保闘争",
         "学生運動",
@@ -14676,7 +14738,7 @@ const QUIZ_DATA = {
   "h_contemporary_3": [
     {
       "q": "1960年代、日本経済が急速に発展し、世界第2位の経済大国になった時期を何というか？",
-      "img": "assets/images/history/h_contemporary_3_koudo_1772244756535.jpg",
+      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "高度経済成長",
         "バブル経済",
@@ -14700,7 +14762,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "高度経済成長期に普及した「三種の神器」とは、白黒テレビ、洗濯機とあと一つは？",
-      "img": "assets/images/history/h_contemporary_3_refrigerator_1772244281830.jpg",
+      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "冷蔵庫",
         "クーラー",
@@ -14736,7 +14798,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1968年、アメリカの施政権下にあったが、日本への返還が実現した諸島は？（正式な返還は1968年6月）",
-      "img": "assets/images/history/ogasawara_islands_1773369026963.jpg",
+      "img": "assets/images/history/h_contemporary_3_ogasawara_1773343511497.jpg",
       "choices": [
         "小笠原諸島",
         "沖縄県",
@@ -14760,6 +14822,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1971年、政府が設置した、公害対策や環境保全を担当する国の機関は？",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境庁（現在の環境省）",
         "公害等調整委員会",
@@ -14823,7 +14886,7 @@ const QUIZ_DATA = {
   "h_contemporary_4": [
     {
       "q": "1973年、第四次中東戦争をきっかけに原油価格が高騰し、世界経済が混乱した出来事を何というか？",
-      "img": "assets/images/history/h_contemporary_4_oil_shock.jpg",
+      "img": "assets/images/history/h_contemporary_3_oil_shock_new_1774108656300.png",
       "choices": [
         "石油危機（オイルショック）",
         "世界恐慌",
@@ -14847,7 +14910,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1989年、東西冷戦の象徴であった壁が取り払われた出来事は？",
-      "img": "assets/images/history/h_contemporary_4_berlin_1772244822418.jpg",
+      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
       "choices": [
         "ベルリンの壁崩壊",
         "ドイツ統一",
@@ -14859,6 +14922,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1989年、米ソ首脳が冷戦の終結を宣言した会談は？",
+      "img": "assets/images/history/h_contemporary_4_malta_conference_1773666611995.jpg",
       "choices": [
         "マルタ会談",
         "ヤルタ会談",
@@ -14884,7 +14948,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "湾岸戦争の反省から、1992年に制定された、自衛隊の海外派遣を可能にした法律は？",
-      "img": "assets/images/history/pko_cooperation_1773369159816.jpg",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "PKO協力法",
         "テロ対策特別措置法",
@@ -14944,7 +15008,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1993年、細川護煕を首相とする連立政権が誕生し、終わった政治体制は？",
-      "img": "assets/images/history/1955_system_1773368892221.jpg",
+      "img": "assets/images/history/h_modern_5_taisho_democracy.jpg",
       "choices": [
         "55年体制",
         "総力戦体制",
@@ -14994,7 +15058,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2015年に採択された、すべての国が参加する地球温暖化対策の新たな枠組みは？",
-      "img": "assets/images/history/paris_agreement_1773369293123.jpg",
+      "img": "assets/images/history/h_modern_paris_agreement.png",
       "choices": [
         "パリ協定",
         "京都議定書",
@@ -15018,7 +15082,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2000年代以降、インターネットや携帯電話などが急速に普及し、社会が大きく変化したことを何というか？",
-      "img": "assets/images/history/h_contemporary_5_it_1772244841788.jpg",
+      "img": "assets/images/history/h_modern_it_revolution.png",
       "choices": [
         "IT革命（情報革命）",
         "産業革命",
@@ -15042,7 +15106,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "かつて日本で深刻だった公害を教訓に、資源を有効活用し、環境への負荷を減らす社会を何というか？",
-      "img": "assets/images/history/h_contemporary_5_junkangata_1772244917568.jpg",
+      "img": "assets/images/history/h_modern_circular_economy.png",
       "choices": [
         "循環型社会",
         "情報化社会",
@@ -15054,6 +15118,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2002年、日本と北朝鮮の首脳会談で、北朝鮮が認めて謝罪した問題は？",
+      "img": "assets/images/history/h_modern_abduction_issue.png",
       "choices": [
         "日本人拉致問題",
         "核開発問題",
@@ -15067,6 +15132,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "沖縄県にある、アメリカ軍基地の移設問題で揺れている飛行場は？",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
       "choices": [
         "普天間飛行場",
         "嘉手納基地",
@@ -15080,6 +15146,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2010年、中国漁船衝突事件をきっかけに問題となった、沖縄県の島々（日本固有の領土）は？",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
       "choices": [
         "尖閣諸島",
         "竹島",
@@ -15120,6 +15187,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1215年にイギリスで発布された、国王の権力を制限した文書はどれか？",
+      "img": "assets/images/history/h_early_modern_7_american_independence.jpg",
       "choices": [
         "マグナカルタ（大憲章）",
         "権利の章典",
@@ -15133,6 +15201,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1919年にドイツで制定され、世界で初めて社会権を保障した憲法はどれか？",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "ワイマール憲法",
         "大日本帝国憲法",
@@ -15146,6 +15215,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1689年に名誉革命ののち、イギリスで発布され、議会の同意なしに税金をかけないことなどを定めた法律は何か？",
+      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "権利の章典",
         "マグナカルタ",
@@ -15159,6 +15229,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "『統治二論（市民政府二論）』を著し、権力が不当に行使されたときの「抵抗権」を主張したイギリスの思想家は誰か？",
+      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "ロック",
         "ルソー",
@@ -15185,6 +15256,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "『社会契約論』を著し、人民主権を唱えてフランス革命に大きな影響を与えたフランスの思想家は誰か？",
+      "img": "assets/images/history/h_early_modern_7_french_revolution.jpg",
       "choices": [
         "ルソー",
         "モンテスキュー",
@@ -15211,6 +15283,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1946年11月3日に公布され、翌年5月3日に施行された日本の「最高法規」は何か？",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "日本国憲法",
         "大日本帝国憲法",
@@ -15224,6 +15297,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法の三大原則のうち、「国民主権」「基本的人権の尊重」ともう一つは何か？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "平和主義",
         "象徴天皇制",
@@ -15315,6 +15389,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "男性と女性が互いに人権を尊重し合い、責任を分け合って対等な立場で能力をいかすことができる社会を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "男女共同参画社会",
         "共生社会",
@@ -15328,6 +15403,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "すべての人が生きていく上で、自由にものを考え、意見を述べ、行動することを保障する権利を何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "自由権",
         "平等権",
@@ -15354,6 +15430,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "被疑者や被告人に認められている、取り調べや裁判で自分に不利益となることを話さなくてもよい権利を何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "黙秘権",
         "肖像権",
@@ -15432,6 +15509,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "人権は最大限保障されるが、他人の人権と衝突する場合などに、社会全体の利益のために人権が制限される原理を何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "公共の福祉",
         "権利の濫用禁止",
@@ -15445,6 +15523,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法第25条の「すべて国民は、健康で文化的な最低限度の生活を営む権利を有する」という条文で保障されている権利は何か。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "生存権",
         "教育を受ける権利",
@@ -15471,6 +15550,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "すべての国民が能力に応じてひとしく教育を受けることができる社会権の一つを何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "教育を受ける権利",
         "学習権",
@@ -15484,6 +15564,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "社会権の一つで、働く意思と能力のある人が、国に対して労働の機会を求めることができる権利を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "勤労の権利",
         "労働基本権",
@@ -15575,6 +15656,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "自分の意思で自分の技術や時間を提供して、社会的な人助けをする人やその行為を何というか。",
+      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
       "choices": [
         "ボランティア",
         "NPO",
@@ -15861,6 +15943,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「生命、自由及び幸福追求に対する国民の権利」として、日本国憲法第13条で保障されており、新しい人権の根拠ともなる権利は何か。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "幸福追求権",
         "自己決定権",
@@ -15874,6 +15957,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "生活する上で、きれいで快適な環境を求める権利を何というか。",
+      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "環境権",
         "生存権",
@@ -15887,6 +15971,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大規模な開発を行う前に、それが周囲の環境にどのような影響を及ぼすかを事前に調査・評価し、対策を立てる制度を何というか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境アセスメント（環境影響評価）",
         "環境基本計画",
@@ -15991,6 +16076,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "インターネットなどを通じて、大量の情報が瞬時に行き交う社会は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報社会（情報化社会）",
         "工業社会",
@@ -16030,6 +16116,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "それぞれの地域の風土や歴史の中で育まれてきた、独自の生活様式や価値観は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "伝統文化",
         "大衆文化",
@@ -16043,6 +16130,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "男女が性別にかかわりなく、個性と能力を発揮できる社会を目指して制定された法律は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "男女共同参画社会基本法",
         "男女雇用機会均等法",
@@ -16082,6 +16170,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "情報を正しく判断し、活用する能力のことを何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報リテラシー",
         "メディアリテラシー",
@@ -16108,6 +16197,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将来の世代の利益を損なわない範囲で、現在の世代の教求を満たす社会のあり方は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な社会",
         "高度情報社会",
@@ -16121,6 +16211,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "自発的に社会貢献活動を行う、「志願者」という意味の言葉は？",
+      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
       "choices": [
         "ボランティア",
         "ドナー",
@@ -16134,6 +16225,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本の伝統的な文化財のうち、演劇や音楽などの形のないものを何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "無形文化財",
         "有形文化財",
@@ -16225,6 +16317,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "正月や盆など、毎年決まった時期に行われる行事を何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "年中行事",
         "通過儀礼",
@@ -16277,6 +16370,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地域住民が親睦を深め、住みよい地域を作るために自主的に組織する団体は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "町内会・自治会",
         "NPO法人",
@@ -16329,6 +16423,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法の三大原則は、国民主権、平和主義と何か？",
+      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
       "choices": [
         "基本的人権の尊重",
         "天皇主権",
@@ -16342,6 +16437,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法において、主権は誰にあるとされているか？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国民",
         "天皇",
@@ -16368,6 +16464,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法第14条で定められている、人種や信条、性別などで差別されない原則は？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "法の下の平等",
         "機会均等",
@@ -16381,6 +16478,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法第25条で、「健康で文化的な最低限度の生活を営む権利」と規定されている権利は？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "生存権",
         "自由権",
@@ -16576,6 +16674,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1789年のフランス革命で出された、自由・平等・博愛を掲げた宣言は？",
+      "img": "assets/images/history/h_early_modern_7_american_independence.jpg",
       "choices": [
         "フランス人権宣言",
         "アメリカ独立宣言",
@@ -16615,6 +16714,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大学などが、外部の権力（政府など）から干渉されずに研究や教育を行う権利は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "学問の自由",
         "教育を受ける権利",
@@ -16719,6 +16819,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アイヌ民族を先住民族と明記し、独自の文化の振興などを定めた2019年の法律は？",
+      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.jpg",
       "choices": [
         "アイヌ施策推進法",
         "アイヌ文化振興法",
@@ -16745,6 +16846,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国の権力を立法、行政、司法の三つに分け、抑制と均衡を保つ仕組みは？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "三権分立",
         "地方自治",
@@ -16758,6 +16860,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法において、「国権の最高機関」であり「唯一の立法機関」とされるのは？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国会",
         "内閣",
@@ -16849,6 +16952,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地域の政治をその地域の住民や自治体が行うことを、「民主主義の学校」と呼んだことにちなんで何というか？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方自治",
         "直接請求権",
@@ -17005,6 +17109,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1999年に制定された、国と地方の関係を「対等・協力」の関係に変えることを目指した法律は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方分権一括法",
         "地方自治法",
@@ -17018,6 +17123,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国政選挙や都道府県知事選挙の事務など、本来は国の仕事だが、法令により地方公共団体が処理する事務は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "法定受託事務",
         "自治事務",
@@ -17031,6 +17137,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平成の時代に、財政基盤の強化などを目的として、多くの市町村が合併したことを何というか？",
+      "img": "assets/images/history/h_modern_1_haihan_1773341754956.jpg",
       "choices": [
         "平成の大合併",
         "廃藩置県",
@@ -17096,6 +17203,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地方自治法などの特定の法律を制定するために、対象となる地方公共団体の住民の投票で過半数の賛成が必要な制度は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "住民投票",
         "リコール",
@@ -17109,6 +17217,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地方自治において、住民が署名を集めて、条例の制定や改廃を首長に請求する権利を何というか？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "直接請求権",
         "請願権",
@@ -17187,6 +17296,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "選挙区のあちこちにポスターを貼ったり、街頭演説をしたりする選挙運動ができる期間は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "公示（告示）日から投票日の前日まで",
         "解散日から投票日まで",
@@ -17278,6 +17388,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "物価が継続的に上昇し、貨幣価値が下がる現象を何というか？",
+      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "インフレーション",
         "デフレーション",
@@ -17291,6 +17402,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "納税者と税を負担する人が異なる税金を何というか？",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -17304,6 +17416,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "所得税のように、所得が高くなるにつれて税率が高くなる仕組みは？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "累進課税",
         "逆進性",
@@ -17421,6 +17534,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "商品を買う時に支払う消費税のように、税金を納める人と負担する人が異なる税金を何というか？",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -17538,6 +17652,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1990年代初め、株価や地価が急激に下落し、景気が後退した現象を何というか？",
+      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "バブル経済の崩壊",
         "リーマン・ショック",
@@ -17551,6 +17666,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "税収全体に占める、直接税と間接税の割合のことを何というか？",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "直間比率",
         "税負担率",
@@ -17642,6 +17758,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1945年に設立された、世界の平和と安全を守るための国際機関は？",
+      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
       "choices": [
         "国際連合",
         "国際連盟",
@@ -17655,6 +17772,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国際連合の主要機関の一つで、世界の平和と安全の維持に責任を持つ機関は？",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "安全保障理事会",
         "総会",
@@ -17694,6 +17812,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将来の世代の欲求を満たしつつ、現在の世代の欲求も満たすような開発を何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な開発",
         "経済成長",
@@ -17707,6 +17826,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2015年に国連で採択された、「持続可能な開発目標」の略称は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "SDGs",
         "GDP",
@@ -17720,6 +17840,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国境なき医師団やアムネスティ・インターナショナルなど、利益を目的とせずに活動する民間組織は？",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NGO（非政府組織）",
         "NPO（非営利組織）",
@@ -17733,6 +17854,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "二酸化炭素の排出を抑えるため、再生可能エネルギーとして注目されているのは？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "太陽光発電",
         "火力発電",
@@ -17759,6 +17881,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地域紛争の解決などのために、国連が各国の軍隊などを派遣して行う活動は？",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "PKO（国連平和維持活動）",
         "ODA（政府開発援助）",
@@ -17798,6 +17921,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "熊本県の水俣湾沿岸で発生し、工場排水に含まれる有機水銀が原因となった公害病は？",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "水俣病",
         "新潟水俣病",
@@ -17811,6 +17935,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "富山県の神通川流域で発生し、鉱山から排出されたカドミウムが原因となった公害病は？",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "イタイイタイ病",
         "水俣病",
@@ -17889,6 +18014,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "工場や自動車から排出される硫黄酸化物や窒素酸化物が原因で、森林を枯らしたりする雨は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "酸性雨",
         "集中豪雨",
@@ -18097,6 +18223,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "難民の保護や支援を行う、国連の機関は？",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "UNHCR（国連難民高等弁務官事務所）",
         "UNICEF（国連児童基金）",
@@ -18138,6 +18265,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "インターネットなどを通じて、大量の情報が瞬時に行き交う社会は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報社会（情報化社会）",
         "工業社会",
@@ -18177,6 +18305,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "それぞれの地域の風土や歴史の中で育まれてきた、独自の生活様式や価値観は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "伝統文化",
         "大衆文化",
@@ -18190,6 +18319,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "男女が性別にかかわりなく、個性と能力を発揮できる社会を目指して制定された法律は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "男女共同参画社会基本法",
         "男女雇用機会均等法",
@@ -18229,6 +18359,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "情報を正しく判断し、活用する能力のことを何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報リテラシー",
         "メディアリテラシー",
@@ -18255,6 +18386,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将来の世代の利益を損なわない範囲で、現在の世代の教求を満たす社会のあり方は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な社会",
         "高度情報社会",
@@ -18268,6 +18400,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "自発的に社会貢献活動を行う、「志願者」という意味の言葉は？",
+      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
       "choices": [
         "ボランティア",
         "ドナー",
@@ -18281,6 +18414,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本の伝統的な文化財のうち、演劇や音楽などの形のないものを何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "無形文化財",
         "有形文化財",
@@ -18372,6 +18506,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "正月や盆など、毎年決まった時期に行われる行事を何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "年中行事",
         "通過儀礼",
@@ -18425,6 +18560,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地域住民が親睦を深め、住みよい地域を作るために自主的に組織する団体は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "町内会・自治会",
         "NPO法人",
@@ -18620,6 +18756,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地方自治で、住民が重要事項に対して直接意思を反映し、一定数以上の署名をもとに首長や議員の解職、条例の制定・改廃などを請求できる権利を何というか。",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "直接請求権",
         "参政権",
@@ -18828,6 +18965,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "税金を納める義務のある納税者と、実際に負担する担税者が一致しない税金（消費税や関税など）を何というか。",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -18880,6 +19018,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "必要な情報を選び、活用する能力のことを何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報リテラシー",
         "情報モラル",
@@ -18906,6 +19045,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "記憶・学習といった人間が知能を使う活動を行い、言語を理解したり、論理的に考えたりすることが期待されたコンピュータープログラムのことを何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "人工知能（AI）",
         "バーチャルリアリティ（VR）",
@@ -18997,6 +19137,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "インターネットを通じて、口座の残高照会や振込・振替の銀行のサービスが利用できるシステムを何というか。",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "インターネットバンキング",
         "オンラインバンキング",
@@ -19036,6 +19177,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "情報通信技術の利用が進むにつれて生じる、年齢、教育、所得などの違いによるコンピューターを使う能力の差から生じる格差を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "デジタルディバイド（情報格差）",
         "経済格差",
@@ -19062,6 +19204,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "災害、疫病など地球規模の問題に対し、各国が力を合わせて取り組むことを何というか。",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "国際協力",
         "国際貢献",
@@ -19166,6 +19309,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本の少子高齢化を止め、家庭や職場、地域の人々誰もが活躍できる社会をめざし、50年後も人口1億人を維持しようとする政策をめざす社会を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "1億総活躍社会",
         "地方創生",
@@ -19192,6 +19336,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "歴史の中ではぐくまれ、人々の間で価値あるものとして古くから継承されてきた文化のことを何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "伝統文化",
         "大衆文化",
@@ -19270,6 +19415,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "夫婦のみ、もしくは夫婦と未婚の子ども、または父母のうち一方と未婚の子どもからなる家族形態のことを何というか。",
+      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "核家族世帯",
         "拡大家族世帯",
@@ -19478,6 +19624,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "法律によって認められている権限や自由のことを何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "権利",
         "義務",
@@ -19491,6 +19638,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "したがうべきとされること、当然しなければならないこと。ルールをつくる際には権利とともに明らかにすることが大切なものは何か。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "義務",
         "権利",
@@ -19517,6 +19665,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1689年にイギリスで発布された法律。名誉革命がおこり、議会の要求を国王が承認して発布されたものを何というか。",
+      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "権利の章典",
         "マグナカルタ",
@@ -19530,6 +19679,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国のあり方を最終的に判断する権利を持つ人のことを何というか。",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "主権者",
         "君主",
@@ -19543,6 +19693,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1889年2月11日に発布された、日本最初の近代的な憲法を何というか。",
+      "img": "assets/images/history/h_ancient_5_jushichijyo_kenpo_1773665495687.jpg",
       "choices": [
         "大日本帝国憲法（明治憲法）",
         "日本国憲法",
@@ -19556,6 +19707,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "イギリスの思想家で、『統治二論』をあらわし、すべての人間は生まれながらに生命や自由、財産に対する権利をもち、権力が不当に行使されているときには抵抗する権利（抵抗権）があることを主張した人物は誰か。",
+      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "ロック",
         "ルソー",
@@ -19569,6 +19721,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "資源やエネルギーを効率的に利用し、むだな消費をしないことを何というか。",
+      "img": "assets/images/history/h_contemporary_3_oil_shock_new_1774108656300.png",
       "choices": [
         "省資源・省エネルギー",
         "リサイクル",
@@ -19591,7 +19744,8 @@ const QUIZ_DATA = {
       "a": "パリ協定",
       "comment": "先進国のみに削減目標を課していた京都議定書に代わるものです。",
       "answerImg": "assets/images/civics/g_civics_44_paris_agreement_1773582253708.jpg",
-      "imgCaption": "※画像はイメージです"
+      "imgCaption": "※画像はイメージです",
+      "img": "assets/images/history/h_modern_paris_agreement.png"
     },
     {
       "q": "国際社会において国家間の関係を取り決めた法で、条約と国際慣習法に大きく分けられるものを何というか。",
@@ -19608,6 +19762,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1989年に国際連合総会で採択された、子どもの基本的人権を国際的に保障することを目的とした条約を何というか。日本は1994年に批准した。",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "子どもの権利条約（児童の権利条約）",
         "世界人権宣言",
@@ -19673,6 +19828,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国際連合の主要機関の一つで、貿易や工業化といった経済問題や、子どもや女性の権利といった社会問題について研究や勧告を行う機関を何というか。",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "経済社会理事会",
         "安全保障理事会",
@@ -19688,6 +19844,7 @@ const QUIZ_DATA = {
   "c_2": [
     {
       "q": "日本国憲法の三大原則は、国民主権、平和主義と何か？",
+      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
       "choices": [
         "基本的人権の尊重",
         "天皇主権",
@@ -19701,6 +19858,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法において、主権は誰にあるとされているか？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国民",
         "天皇",
@@ -19727,6 +19885,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法第14条で定められている、人種や信条、性別などで差別されない原則は？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "法の下の平等",
         "機会均等",
@@ -19740,6 +19899,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法第25条で、「健康で文化的な最低限度の生活を営む権利」と規定されている権利は？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "生存権",
         "自由権",
@@ -19935,6 +20095,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1789年のフランス革命で出された、自由・平等・博愛を掲げた宣言は？",
+      "img": "assets/images/history/h_early_modern_7_american_independence.jpg",
       "choices": [
         "フランス人権宣言",
         "アメリカ独立宣言",
@@ -19974,6 +20135,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大学などが、外部の権力（政府など）から干渉されずに研究や教育を行う権利は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "学問の自由",
         "教育を受ける権利",
@@ -20078,6 +20240,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アイヌ民族を先住民族と明記し、独自の文化の振興などを定めた2019年の法律は？",
+      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.jpg",
       "choices": [
         "アイヌ施策推進法",
         "アイヌ文化振興法",
@@ -20221,6 +20384,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国民の中から選挙を通じて選ばれた国会議員によってなりたっている機関を何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国会",
         "内閣",
@@ -20234,6 +20398,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法において「国の唯一の立法機関」と定められている機関における、法律を制定する権限（行為）を何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "立法",
         "行政",
@@ -20286,6 +20451,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国会が制定した法律や予算にもとづいて政治を行うことを何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "行政",
         "立法",
@@ -20299,6 +20465,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "法にもとづいてもめごとなどを解決することを指し、その権限は最高裁判所と下級裁判所に属すると定められているものを何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "司法",
         "立法",
@@ -20338,6 +20505,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国や地方公共団体といった公的機関に勤務する者で、日本国憲法第15条で「全体の奉仕者」と定められている人々を何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "公務員",
         "会社員",
@@ -20390,6 +20558,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "裁判所で実際に裁判を担当する国家公務員で、日本国憲法第76条で「自らの良心に従い、拘束されるのは憲法と法律だけである」と定められているのは誰か。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "裁判官",
         "検察官",
@@ -20442,6 +20611,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "すべての国民が健康で文化的な生活を送ることができるように、国が国民の最低限度の生活を保障しようとするしくみを何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "社会保障",
         "基本的人権",
@@ -20481,6 +20651,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1787年にアメリカで制定された憲法。世界で最初の成文憲法であり、民主主義や三権分立について規定している憲法は何か。",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "アメリカ合衆国憲法",
         "フランス憲法",
@@ -20533,6 +20704,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "すでに世界にある核兵器を減らすための取り組みを何というか。",
+      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
       "choices": [
         "核軍縮交渉",
         "軍備拡張",
@@ -20559,6 +20731,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "政府によってつくられたのではなく、民間によってつくられた国際的な協力組織をアルファベットで何というか。",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NGO（非政府組織）",
         "NPO（非営利組織）",
@@ -20598,6 +20771,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平和をおびやかす地域紛争などの事態の悪化や国際的な拡大を防止するために国連が行う活動をアルファベットで何というか。",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "PKO",
         "PKF",
@@ -20611,6 +20785,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平和維持活動（PKO）などに対し、自衛隊などが参加できるようにするため、1992年に日本で制定された法律を何というか。",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "国連平和維持活動協力法（PKO協力法）",
         "周辺事態法",
@@ -20626,6 +20801,7 @@ const QUIZ_DATA = {
   "c_3": [
     {
       "q": "国の権力を立法、行政、司法の三つに分け、抑制と均衡を保つ仕組みは？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "三権分立",
         "地方自治",
@@ -20639,6 +20815,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法において、「国権の最高機関」であり「唯一の立法機関」とされるのは？",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国会",
         "内閣",
@@ -20730,6 +20907,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地域の政治をその地域の住民や自治体が行うことを、「民主主義の学校」と呼んだことにちなんで何というか？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方自治",
         "直接請求権",
@@ -20886,6 +21064,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1999年に制定された、国と地方の関係を「対等・協力」の関係に変えることを目指した法律は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方分権一括法",
         "地方自治法",
@@ -20899,6 +21078,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国政選挙や都道府県知事選挙の事務など、本来は国の仕事だが、法令により地方公共団体が処理する事務は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "法定受託事務",
         "自治事務",
@@ -20912,6 +21092,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平成の時代に、財政基盤の強化などを目的として、多くの市町村が合併したことを何というか？",
+      "img": "assets/images/history/h_modern_1_haihan_1773341754956.jpg",
       "choices": [
         "平成の大合併",
         "廃藩置県",
@@ -20977,6 +21158,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地方自治法などの特定の法律を制定するために、対象となる地方公共団体の住民の投票で過半数の賛成が必要な制度は？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "住民投票",
         "リコール",
@@ -20990,6 +21172,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地方自治において、住民が署名を集めて、条例の制定や改廃を首長に請求する権利を何というか？",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "直接請求権",
         "請願権",
@@ -21068,6 +21251,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "選挙区のあちこちにポスターを貼ったり、街頭演説をしたりする選挙運動ができる期間は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "公示（告示）日から投票日の前日まで",
         "解散日から投票日まで",
@@ -21237,6 +21421,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1つの選挙区から2人以上の代表を選出する選挙方法を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "大選挙区制",
         "小選挙区制",
@@ -21315,6 +21500,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "選挙において、選挙区ごとに有権者の数と議員定数の比率に差が出ているため、一票の価値に差が出てしまっている状態のことを何というか。",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "一票の格差",
         "死票",
@@ -21328,6 +21514,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "選挙運動の中心人物が選挙違反をした場合に、候補者の当選が無効になる制度を何というか。",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "連座制",
         "小選挙区制",
@@ -21952,6 +22139,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国の権力を「立法」「行政」「司法」の3つに分散・独立させているしくみを何というか。",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "三権分立（権力分立）",
         "議院内閣制",
@@ -22082,6 +22270,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "都道府県や市（区）町村など、地方自治が行われる単位となる団体を何というか。",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方公共団体（地方自治体）",
         "非政府組織（NGO）",
@@ -22095,6 +22284,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "それぞれの地域の住民が、自分たちの住んでいる地域の政治を自らの手で行うことであり、「民主主義の学校」といわれるものを何というか。",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方自治",
         "国政",
@@ -22108,6 +22298,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "住民の意思にもとづいて地方の政治を行うことであり、地方自治を行うための要素の1つである原則を何というか。",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "住民自治",
         "団体自治",
@@ -22160,6 +22351,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "従来の国が画一的に政治を行う中央集権を改め、地方公共団体が自主的に地域の実情にあった政治を行うことを何というか。",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方分権",
         "中央集権",
@@ -22264,6 +22456,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "行政と民間組織などいくつかの組織や集団が、同じ目的に向かって協力しながら進んでいくことを何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "協働",
         "競争",
@@ -22277,6 +22470,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "中心部に都市機能や居住地をコンパクトにまとめたまち、またはそのまちづくりを何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "コンパクトシティ",
         "エコタウン",
@@ -22303,6 +22497,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "市町村や特定の地域において、地域社会が主体となって独自の特産品開発などを行い、地域の活性化を進めようとする運動を何というか。",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "村おこし（町おこし）",
         "町内会",
@@ -22511,6 +22706,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "公害が深刻化したため、公害を防ぎ、国民の健康と生活環境を守ることを目的に1967年に制定された法律を何というか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "公害対策基本法",
         "環境基本法",
@@ -22524,6 +22720,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "様々な環境問題に取り組むため、公害防止や自然環境の保護などのために設置された国の行政機関はどこか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境省",
         "厚生労働省",
@@ -22576,6 +22773,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地域でおこっている問題について、そこに住んでいる人々が、国や地方公共団体、企業に対して解決を訴えたり、求めたりする運動を何というか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "住民運動",
         "消費者運動",
@@ -22602,6 +22800,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "気候変動枠組条約締約国会議などを指す「締約国会議」の略称をアルファベット3文字で何というか。",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "COP",
         "NPT",
@@ -22706,6 +22905,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国際連合の主要機関の一つで、国家間における法的な争いについて、国際法にもとづき裁判を行い、平和的な解決をはかる機関を何というか。",
+      "img": "assets/images/history/h_early_modern_3_oranda.jpg",
       "choices": [
         "国際司法裁判所",
         "国際刑事裁判所",
@@ -22784,6 +22984,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "裁判官が、国会や内閣などからの影響を受けず、独立して公正中立に裁判を行う原則を何というか。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "司法権の独立",
         "三権分立",
@@ -22877,6 +23078,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "物価が継続的に上昇し、貨幣価値が下がる現象を何というか？",
+      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "インフレーション",
         "デフレーション",
@@ -22890,6 +23092,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "納税者と税を負担する人が異なる税金を何というか？",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -22903,6 +23106,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "所得税のように、所得が高くなるにつれて税率が高くなる仕組みは？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "累進課税",
         "逆進性",
@@ -23020,6 +23224,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "商品を買う時に支払う消費税のように、税金を納める人と負担する人が異なる税金を何というか？",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -23149,6 +23354,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "税収全体に占める、直接税と間接税の割合のことを何というか？",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "直間比率",
         "税負担率",
@@ -23395,6 +23601,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "代金の後払いで買い物や飲食ができる仕組みのカードで、あらかじめ決められた日に銀行口座から代金が引き落とされるものを何というか。",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "クレジットカード",
         "デビットカード",
@@ -23473,6 +23680,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "流通のなかで、品物を仕入れ、小売業者に販売する業者を何というか。（一般に問屋ともいわれる）",
+      "img": "assets/images/history/h_medieval_6_toiya_1772980345705.jpg",
       "choices": [
         "卸売業（おろしうりぎょう）",
         "小売業",
@@ -23564,6 +23772,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "働く意思や能力があるのに、職がなく失業し、働く機会が得られない人のことを何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "失業者",
         "ニート",
@@ -23629,6 +23838,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "企業などが資本を元手に、利潤の追求を目的として生産活動を行う経済のしくみを何というか。",
+      "img": "assets/images/history/h_early_modern_7_industrial_revolution.jpg",
       "choices": [
         "資本主義経済",
         "社会主義経済",
@@ -23642,6 +23852,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "生産手段を国家など統制組織が所有し、生産や流通を統制組織が指導する計画経済が行われている経済を何というか。",
+      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "社会主義経済",
         "資本主義経済",
@@ -23694,6 +23905,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "利益を見込んでお金を出すことを何というか。株式や公債の購入などがある。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "投資",
         "貯蓄",
@@ -23850,6 +24062,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "さまざまな市場が社会のすみずみにまではりめぐらされている経済のしくみで、市場を通じて需要量や供給量、価格の調節が行われるものを何というか。",
+      "img": "assets/images/history/h_early_modern_7_capitalism.jpg",
       "choices": [
         "市場経済",
         "計画経済",
@@ -24175,6 +24388,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国に納める税金（所得税や法人税、消費税など）のことをまとめて何というか。",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "国税",
         "地方税",
@@ -24188,6 +24402,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1月1日から12月31日までの1年間の売上、経費、所得など、または消費税額を計算し、税務署に申告して納税額を確定する手続きを何というか。",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "確定申告",
         "年末調整",
@@ -24214,6 +24429,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "資本主義経済において、好景気（好況）と不景気（不況）が交互にくり返されることを何というか。",
+      "img": "assets/images/history/h_early_modern_7_capitalism.jpg",
       "choices": [
         "景気変動（景気循環）",
         "インフレーション",
@@ -24240,6 +24456,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "環境を保全するため、国の基本的な方針や原則を定めた法律。それまでの公害対策基本法にかわって1993年に制定されたものは何か。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境基本法",
         "公害対策基本法",
@@ -24253,6 +24470,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "資源を有効に活用していくための考え方で、リデュース、リユース、リサイクルの3つの行動の頭文字をとった言葉は何か。",
+      "img": "assets/images/history/h_contemporary_5_sdgs_1773343811627.jpg",
       "choices": [
         "3R（3つのR）",
         "LCA",
@@ -24275,7 +24493,8 @@ const QUIZ_DATA = {
       "a": "循環型社会",
       "comment": "これまでの「大量生産・大量消費・大量廃棄型」の社会にかわるものとして示されました。",
       "answerImg": "assets/images/civics/g_civics_32_sound_material_cycle_society_1773562829905.jpg",
-      "imgCaption": "※画像はイメージです"
+      "imgCaption": "※画像はイメージです",
+      "img": "assets/images/history/h_modern_circular_economy.png"
     },
     {
       "q": "不景気（不況）のときにとられる財政政策の1つで、家計や企業から徴収する税金（租税）を減らすことを何というか。",
@@ -24318,6 +24537,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "社会の中で実際に使われているお金のことで、日本銀行券や硬貨（現金通貨）と、銀行の預金（預金通貨）をあわせて何というか。",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "通貨",
         "外貨",
@@ -24331,6 +24551,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "現金を直接輸送しない資金の決済方法を何というか。銀行振込や口座からの引き落とし、手形や小切手などがある。",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "為替",
         "融資",
@@ -24370,6 +24591,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国民の健康の保持・増進のため、病気の予防や生活環境の整備などを行うしくみを何というか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "公衆衛生",
         "社会福祉",
@@ -24409,6 +24631,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "水俣病、イタイイタイ病、新潟水俣病、四日市ぜんそくのことをまとめて何というか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "四大公害病",
         "特定疾患",
@@ -24448,6 +24671,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "購入する商品・サービスにかけられる税金で、国税であり間接税であるものは何か。",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "消費税",
         "所得税",
@@ -24461,6 +24685,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "個人の所得に対してかけられる税金で、国税であり直接税であるものは何か。",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "所得税",
         "消費税",
@@ -24574,7 +24799,8 @@ const QUIZ_DATA = {
       "a": "循環型社会形成推進基本法",
       "comment": "容器包装リサイクル法、家電リサイクル法など、各種のリサイクル法の基本的な枠組みとなっています。",
       "answerImg": "assets/images/civics/g_civics_35_basic_act_for_establishing_a_sound_material_cycle_society_1773563607700.jpg",
-      "imgCaption": "※画像はイメージです"
+      "imgCaption": "※画像はイメージです",
+      "img": "assets/images/history/h_modern_circular_economy.png"
     },
     {
       "q": "日本の景勝地や貴重な自然環境が残されている場所で、国によって指定された公園を何というか。",
@@ -24604,6 +24830,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ある産業で排出された廃棄物を、別の産業が原材料などとして有効活用することにより、社会全体の廃棄物をゼロにするという考え方を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "ゼロエミッション",
         "3R",
@@ -24630,6 +24857,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "金融機関が企業などに融資（資金を貸すこと）した貸付金のうち、返してもらうことが困難となりそうな貸付金のことを何というか。",
+      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "不良債権",
         "国債",
@@ -24656,6 +24884,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "物価下落と経済活動の縮小が相互に作用して、景気が悪化する悪循環のことを何というか。",
+      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "デフレスパイラル",
         "スタグフレーション",
@@ -24708,6 +24937,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "とることができる年数が限られているエネルギーのことで、石油、石炭、天然ガスといった化石燃料をさして何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "有限エネルギー",
         "無限エネルギー",
@@ -24721,6 +24951,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "なくなる可能性のない自然エネルギーのことで、太陽光や風力、地熱、水力、波力、バイオマスなどをまとめて何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "再生可能エネルギー",
         "有限エネルギー",
@@ -24734,6 +24965,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "化石燃料にかわる新しいエネルギーの総称を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "代替エネルギー",
         "自然エネルギー",
@@ -24955,6 +25187,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "社会に貢献するサービスに取り組む、利益の追求を目的としない民間組織をアルファベットで何というか。",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NPO（非営利組織）",
         "NGO（非政府組織）",
@@ -24968,6 +25201,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "発展途上国に対して、先進工業国などの政府が行う資金援助や技術協力のことをアルファベット3文字で何というか。",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "ODA",
         "NGO",
@@ -25006,6 +25240,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "経済・社会・文化などに関する国際問題を専門的に扱い、経済社会理事会を通じて国際連合と連携している国際機関を総称して何というか（UNESCOやILOなど）。",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "専門機関",
         "補助機関",
@@ -25034,7 +25269,7 @@ const QUIZ_DATA = {
   "c_5": [
     {
       "q": "1945年に設立された、世界の平和と安全を守るための国際機関は？",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
+      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
       "choices": [
         "国際連合",
         "国際連盟",
@@ -25046,6 +25281,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国際連合の主要機関の一つで、世界の平和と安全の維持に責任を持つ機関は？",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "安全保障理事会",
         "総会",
@@ -25085,6 +25321,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将来の世代の欲求を満たしつつ、現在の世代の欲求も満たすような開発を何というか？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な開発",
         "経済成長",
@@ -25098,7 +25335,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2015年に国連で採択された、「持続可能な開発目標」の略称は？",
-      "img": "assets/images/history/h_contemporary_5_sdgs_1773343811627.jpg",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "SDGs",
         "GDP",
@@ -25110,6 +25347,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国境なき医師団やアムネスティ・インターナショナルなど、利益を目的とせずに活動する民間組織は？",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NGO（非政府組織）",
         "NPO（非営利組織）",
@@ -25123,6 +25361,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "二酸化炭素の排出を抑えるため、再生可能エネルギーとして注目されているのは？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "太陽光発電",
         "火力発電",
@@ -25149,6 +25388,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地域紛争の解決などのために、国連が各国の軍隊などを派遣して行う活動は？",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "PKO（国連平和維持活動）",
         "ODA（政府開発援助）",
@@ -25188,6 +25428,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "熊本県の水俣湾沿岸で発生し、工場排水に含まれる有機水銀が原因となった公害病は？",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "水俣病",
         "新潟水俣病",
@@ -25201,6 +25442,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "富山県の神通川流域で発生し、鉱山から排出されたカドミウムが原因となった公害病は？",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "イタイイタイ病",
         "水俣病",
@@ -25279,6 +25521,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "工場や自動車から排出される硫黄酸化物や窒素酸化物が原因で、森林を枯らしたりする雨は？",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "酸性雨",
         "集中豪雨",
@@ -25487,6 +25730,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "難民の保護や支援を行う、国連の機関は？",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "UNHCR（国連難民高等弁務官事務所）",
         "UNICEF（国連児童基金）",
@@ -25500,6 +25744,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「生命、自由及び幸福追求に対する国民の権利」として、日本国憲法第13条で保障されており、新しい人権の根拠ともなる権利は何か。",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "幸福追求権",
         "自己決定権",
@@ -25513,6 +25758,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "生活する上で、きれいで快適な環境を求める権利を何というか。",
+      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "環境権",
         "生存権",
@@ -25526,6 +25772,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大規模な開発を行う前に、それが周囲の環境にどのような影響を及ぼすかを事前に調査・評価し、対策を立てる制度を何というか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境アセスメント（環境影響評価）",
         "環境基本計画",
@@ -25630,6 +25877,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地球環境問題の原因の一つである、地球規模での環境汚染や環境破壊がもとで発生するさまざまな問題をまとめて何というか。",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "地球環境問題",
         "公害問題",
@@ -25669,6 +25917,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1992年にブラジルのリオデジャネイロで開かれた、「持続可能な開発」を基本理念とする環境に関する国際会議を何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "国連環境開発会議（地球サミット）",
         "国連人間環境会議",
@@ -25682,6 +25931,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将来の世代に資源と良好な環境を残せるように、開発と環境保全を調和させようとする考えを何というか（1992年の地球サミットの基本理念）。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な開発",
         "人間環境宣言",
@@ -25825,6 +26075,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "サンフランシスコ会議で採択された憲章にもとづき、1945年に発足した国際平和機構を何というか。",
+      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
       "choices": [
         "国際連合",
         "国際連盟",
@@ -25877,6 +26128,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アメリカ合衆国とソ連（ロシア）との間で結ばれた、大陸間をこえて直接攻撃できる核ミサイルの削減に関する条約をアルファベットで何というか。",
+      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
       "choices": [
         "START（戦略兵器削減条約）",
         "SALT（戦略兵器制限交渉）",
@@ -25981,6 +26233,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2001年9月11日に、アメリカ合衆国のニューヨークやワシントンなどで同時におこった旅客機によるテロ事件を何というか。",
+      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
       "choices": [
         "同時多発テロ",
         "冷戦の終結",
@@ -26033,6 +26286,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国連が2015年に定めた、2030年までに達成すべき17の目標をアルファベットで何というか。",
+      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "SDGs（持続可能な開発目標）",
         "MDGs（ミレニアム開発目標）",
@@ -26059,6 +26313,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "北朝鮮の核開発問題について、日本、アメリカ、韓国、中国、ロシア、北朝鮮の担当者が話し合う会議を何というか（2003年〜2008年）。",
+      "img": "assets/images/history/h_modern_abduction_issue.png",
       "choices": [
         "6か国協議",
         "サミット",
@@ -26085,6 +26340,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "全加盟国で構成される国際連合の中心的機関を何というか。",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "国連総会",
         "安全保障理事会",
@@ -26098,6 +26354,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "国際連合の主要機関の一つで、世界の平和と安全の維持を目的とし、常任理事国5か国と非常任理事国10か国で構成される機関を何というか。",
+      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "安全保障理事会",
         "国連総会",

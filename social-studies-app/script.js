@@ -1007,7 +1007,13 @@ const app = {
         if (this.quizState.currentUnitId === 'h_exam_all') unitTitle = '歴史 総復習';
         if (this.quizState.currentUnitId === 'c_exam_all') unitTitle = '公民 総復習';
 
-        document.getElementById('score-text').innerHTML = `<span style="font-size: 1.5rem; color: #34495e;">${unitTitle} （全${unitTotal}問中）</span><br>${total}問中、${score}問正解！`;
+        // Calculate progress (answeredVars) for this unit
+        const hId = `quiz_history_${this.currentUser}_${this.quizState.currentUnitId}`;
+        const history = JSON.parse(localStorage.getItem(hId) || '{}');
+        let answeredVars = Object.keys(history).length;
+        if (answeredVars > unitTotal) answeredVars = unitTotal;
+
+        document.getElementById('score-text').innerHTML = `<span style="font-size: 1.5rem; color: #34495e;">${unitTitle} （${unitTotal}問中${answeredVars}問）</span><br>${total}問中、${score}問正解！`;
 
         // Clear existing buttons to prevent duplicates
         // Create container if not exists
@@ -1431,11 +1437,7 @@ app.resetStatsData = function() {
         }
         keysToRemove.forEach(k => localStorage.removeItem(k));
         
-        // Also remove activity count
-        if (this.currentUser) {
-            localStorage.removeItem('social_activity_' + this.currentUser);
-        }
-        
+        // Activity count is preserved so the calendar doesn't clear.
         alert('学習の記録をリセットしました。');
         
         // Ensure UI updates properly by re-rendering active tab
