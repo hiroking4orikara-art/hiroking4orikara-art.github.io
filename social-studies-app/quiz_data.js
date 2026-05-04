@@ -8882,7 +8882,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アレクサンドロス大王の遠征によって生まれた、ギリシャ文化とオリエント文化が融合した文化は？",
-      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
+      "img": "assets/images/history/h_ancient_1_hellenism_1773665036779.jpg",
       "choices": [
         "ヘレニズム文化",
         "ルネサンス",
@@ -8891,7 +8891,6 @@ const QUIZ_DATA = {
       ],
       "a": "ヘレニズム文化",
       "comment": "「ギリシャ風の」という意味があります。",
-      "answerImg": "assets/images/history/h_ancient_1_hellenism_1773665036779.jpg",
       "imgCaption": "※画像はイメージです"
     }
   ],
