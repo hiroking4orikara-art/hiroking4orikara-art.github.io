@@ -25,7 +25,8 @@
     "index": 4,
     "q": "世界一周を成し遂げ、地球が球体であることを実証した一行の指揮者は？",
     "a": "マゼラン",
-    "comment": "マゼラン自身はフィリピンで戦死しましたが、部下が航海を続けました。"
+    "comment": "マゼラン自身はフィリピンで戦死しましたが、部下が航海を続けました。",
+    "img": "assets/images/music/exp/exp_conductor.png"
   },
   {
     "section": "h_early_modern_1",

@@ -921,7 +921,8 @@
     "unit": "h_medieval_1",
     "index": 13,
     "q": "1183年、砺波山（くりから峠）の戦いで平氏を破って京都に入ったが、後に源義経らに追われて敗死した人物は？",
-    "a": "源義仲（木曽義仲）"
+    "a": "源義仲（木曽義仲）",
+    "img": "assets/images/music/exp/exp_kabuki.jpg"
   },
   {
     "unit": "h_medieval_1",
@@ -1011,7 +1012,8 @@
     "unit": "h_medieval_2",
     "index": 2,
     "q": "元寇の時の鎌倉幕府の執権で、元の要求を拒否し、御家人を指揮して戦った人物は？",
-    "a": "北条時宗"
+    "a": "北条時宗",
+    "img": "assets/images/music/exp/exp_conductor.png"
   },
   {
     "unit": "h_medieval_2",
@@ -1473,7 +1475,8 @@
     "unit": "h_early_modern_1",
     "index": 4,
     "q": "世界一周を成し遂げ、地球が球体であることを実証した一行の指揮者は？",
-    "a": "マゼラン"
+    "a": "マゼラン",
+    "img": "assets/images/music/exp/exp_conductor.png"
   },
   {
     "unit": "h_early_modern_1",
@@ -1611,7 +1614,8 @@
     "unit": "h_early_modern_2",
     "index": 16,
     "q": "出雲の阿国が京都で始め、後の歌舞伎の起源となった踊りは？",
-    "a": "かぶき踊り"
+    "a": "かぶき踊り",
+    "img": "assets/images/music/exp/exp_kabuki.jpg"
   },
   {
     "unit": "h_early_modern_3",
@@ -1755,7 +1759,8 @@
     "unit": "h_early_modern_4",
     "index": 8,
     "q": "人形浄瑠璃の脚本を書き、心中物などで人気を博した人物は？",
-    "a": "近松門左衛門"
+    "a": "近松門左衛門",
+    "img": "assets/images/music/exp/exp_bunraku.jpg"
   },
   {
     "unit": "h_early_modern_4",

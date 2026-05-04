@@ -26,7 +26,8 @@
       "index": 4,
       "q": "世界一周を成し遂げ、地球が球体であることを実証した一行の指揮者は？",
       "a": "マゼラン",
-      "newPath": "assets/images/history/h_early_modern_1_magellan_1773020255905.png"
+      "newPath": "assets/images/history/h_early_modern_1_magellan_1773020255905.png",
+      "img": "assets/images/music/exp/exp_conductor.png"
     },
     {
       "unit": "h_early_modern_1",
@@ -110,7 +111,8 @@
       "index": 16,
       "q": "出雲の阿国が京都で始め、後の歌舞伎の起源となった踊りは？",
       "a": "かぶき踊り",
-      "newPath": "assets/images/history/h_early_modern_2_azuchijo.png"
+      "newPath": "assets/images/history/h_early_modern_2_azuchijo.png",
+      "img": "assets/images/music/exp/exp_kabuki.jpg"
     },
     {
       "unit": "h_early_modern_3",

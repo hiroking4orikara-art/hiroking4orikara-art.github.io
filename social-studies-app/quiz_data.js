@@ -8607,7 +8607,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "人類が二足歩行を始めたことで発達した、道具を作ったり使ったりするための体の部位は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
+      "img": "assets/images/history/h_ancient_1_hands.png",
       "choices": [
         "手（前あし）",
         "あご",
@@ -8669,7 +8669,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前3000年頃、ナイル川の流域で栄えた文明は？",
-      "img": "assets/images/history/h_ancient_1_egypt_1772304266987.jpg",
+      "img": "assets/images/history/h_ancient_1_egyptian_civ.jpg",
       "choices": [
         "エジプト文明",
         "メソポタミア文明",
@@ -8693,7 +8693,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明で使用された、絵のような形をした文字は？",
-      "img": "assets/images/history/h_ancient_1_egypt_1772304266987.jpg",
+      "img": "assets/images/history/h_ancient_1_hieroglyph.png",
       "choices": [
         "象形文字",
         "楔形文字",
@@ -8705,7 +8705,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "チグリス川・ユーフラテス川の流域で栄えた文明は？",
-      "img": "assets/images/history/h_ancient_1_mesopotamia_1772304284010.jpg",
+      "img": "assets/images/history/h_ancient_1_mesopotamian_civ.jpg",
       "choices": [
         "メソポタミア文明",
         "エジプト文明",
@@ -8831,7 +8831,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "メソポタミア文明が栄えた地域を流れる2つの川は、チグリス川と、もう一つは何川？",
-      "img": "assets/images/history/h_ancient_1_mesopotamia_1772304284010.jpg",
+      "img": "assets/images/history/h_ancient_1_mesopotamian_civ.jpg",
       "choices": [
         "ユーフラテス川",
         "ナイル川",
@@ -8840,7 +8840,6 @@ const QUIZ_DATA = {
       ],
       "a": "ユーフラテス川",
       "comment": "この2つの川の間の地域を「メソポタミア（川の間の土地）」と呼びます。",
-      "answerImg": "assets/images/history/h_ancient_1_euphrates_river_1773664998780.jpg",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -9261,7 +9260,7 @@ const QUIZ_DATA = {
   "h_ancient_4": [
     {
       "q": "3世紀後半から作られ始めた、大王（天皇）などの有力者の墓を何というか？",
-      "img": "assets/images/history/h_ancient_4_kofun.jpg",
+      "img": "assets/images/history/h_ancient_4_daisenkofun.jpg",
       "choices": [
         "古墳",
         "貝塚",
@@ -9285,7 +9284,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大阪府にある、世界最大級の面積を持つ日本最大の前方後円墳は？",
-      "img": "assets/images/history/h_ancient_4_kofun.jpg",
+      "img": "assets/images/history/h_ancient_4_daisenkofun.jpg",
       "choices": [
         "大仙古墳（仁徳天皇陵）",
         "五色塚古墳",
@@ -9309,7 +9308,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "古墳時代を中心に、大和（奈良県）地方の勢力が中心となって各地の豪族を従えて作った政治連合は？",
-      "img": "assets/images/history/h_ancient_4_kofun.jpg",
+      "img": "assets/images/history/h_ancient_4_daisenkofun.jpg",
       "choices": [
         "ヤマト政権",
         "鎌倉幕府",
@@ -9411,7 +9410,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "4世紀末、倭（日本）が朝鮮半島へ進出し、高句麗と戦ったことなどが刻まれている石碑は？",
-      "img": "assets/images/history/h_ancient_2_goguryeo.jpg",
+      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "好太王碑（広開土王碑）",
         "金印",
@@ -9521,7 +9520,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "607年、小野妹子らが派遣された中国の王朝は？",
-      "img": "assets/images/history/h_ancient_5_ono_no_imoko.jpg",
+      "img": "assets/images/history/h_ancient_1_hands.png",
       "choices": [
         "隋",
         "唐",
@@ -9530,7 +9529,6 @@ const QUIZ_DATA = {
       ],
       "a": "隋",
       "comment": "日本（倭）の王から隋の皇帝への手紙を持参しました。",
-      "answerImg": "assets/images/history/h_ancient_5_sui_dynasty_1773665534394.jpg",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -9760,7 +9758,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "708年に発行された、唐の貨幣にならって作られた日本最初の流通貨幣は？",
-      "img": "assets/images/history/h_ancient_6_wado_kaichin_1773665786603.jpg",
+      "img": "assets/images/history/h_ancient_6_wadokaichin.jpg",
       "choices": [
         "和同開珎",
         "寛永通宝",
@@ -9769,7 +9767,6 @@ const QUIZ_DATA = {
       ],
       "a": "和同開珎",
       "comment": "「富本銭」というさらに古いお金も見つかっていますが、広く流通したのはこちらです。",
-      "answerImg": "assets/images/history/h_ancient_6_wado_kaichin_1773665786603.jpg",
       "imgCaption": "※画像はイメージです"
     }
   ],
@@ -10218,7 +10215,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "清少納言によって書かれた、「春はあけぼの」で始まる随筆集は？",
-      "img": "assets/images/history/h_ancient_9_makura.jpg",
+      "img": "assets/images/history/g_history_medieval_fall_of_kamakura.png",
       "choices": [
         "枕草子",
         "徒然草",
@@ -10314,7 +10311,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "939年、伊予（愛媛県）の国司であったが、瀬戸内海で海賊を率いて反乱を起こした人物は？",
-      "img": "assets/images/history/h_ancient_sumitomo_1772415012889.jpg",
+      "img": "assets/images/history/h_ancient_9_masakado.jpg",
       "choices": [
         "藤原純友",
         "平将門",
@@ -10508,7 +10505,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "承久の乱の後、幕府が朝廷や西国の武士を監視するために京都に設置した役所は？",
-      "img": "assets/images/history/h_medieval_1_rokuhara.jpg",
+      "img": "assets/images/history/h_medieval_1_jokyu.jpg",
       "choices": [
         "六波羅探題",
         "京都所司代",
@@ -10520,7 +10517,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1232年、北条泰時が定めた、御家人の権利や裁判の基準を示した日本初の武家法は？",
-      "img": "assets/images/history/h_medieval_1_goseibai_shikimoku.jpg",
+      "img": "assets/images/history/h_medieval_1_goseibaishikimoku_1772801818714.jpg",
       "choices": [
         "御成敗式目（貞永式目）",
         "武家諸法度",
@@ -10592,7 +10589,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府の初代執権で、源頼朝の妻・北条政子の父である人物は？",
-      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.jpg",
+      "img": "assets/images/history/g_history_medieval_masako_speech.png",
       "choices": [
         "北条時政",
         "北条義時",
@@ -10604,7 +10601,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "承久の乱の時の執権で、朝廷軍を破り、執権政治を確立させた人物は？",
-      "img": "assets/images/history/h_medieval_1_jokyu.jpg",
+      "img": "assets/images/history/g_history_medieval_masako_speech.png",
       "choices": [
         "北条義時",
         "北条時政",
@@ -10628,7 +10625,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代初期の荘園で、地頭の非道を訴えた「ミミヲキリハナヲソギ…」という訴状で有名な和歌山県の荘園は？",
-      "img": "assets/images/history/g_history_ancient_todaiji_construction.png",
+      "img": "assets/images/history/h_ancient_8_shoen.jpg",
       "choices": [
         "阿充河荘（あてがわのしょう）",
         "大田文",
@@ -10810,7 +10807,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇防備のために九州北部の海岸に築かれた、石で作られた防壁は？",
-      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "防塁（石築地）",
         "城壁",
@@ -10822,7 +10819,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "イタリアの商人で、フビライ・ハンに仕え、帰国後に『世界の記述（東方見聞録）』で日本を「黄金の国ジパング」と紹介した人物は？",
-      "img": "assets/images/history/h_medieval_2_marcopolo.jpg",
+      "img": "assets/images/history/g_history_early_modern_1_age_of_discovery_1.png",
       "choices": [
         "マルコ・ポーロ",
         "コロンブス",
@@ -10920,7 +10917,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "兼好法師（吉田兼好）が書いた、無常観がつづられた随筆集は？",
-      "img": "assets/images/history/h_medieval_3_tsurezure.jpg",
+      "img": "assets/images/history/g_history_medieval_tsurezuregusa_kenko.png",
       "choices": [
         "徒然草",
         "方丈記",
@@ -10952,11 +10949,12 @@ const QUIZ_DATA = {
       ],
       "a": "新古今和歌集",
       "comment": "武士や僧の歌も多く収められています。",
-      "aImg": "assets/images/history/h_medieval_3_shinkokin.jpg"
+      "aImg": "assets/images/history/h_medieval_3_shinkokin.jpg",
+      "img": "assets/images/history/h_medieval_3_shinkokin.jpg"
     },
     {
       "q": "「南無阿弥陀仏」と唱えるだけで救われる（専修念仏）と説き、浄土宗を開いたのは？",
-      "img": "assets/images/history/h_medieval_3_honen.jpg",
+      "img": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.jpg",
       "choices": [
         "法然",
         "親鸞",
@@ -10980,7 +10978,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "踊念仏によって教えを広め、時宗を開いたのは？",
-      "img": "assets/images/history/h_medieval_3_ippen.jpg",
+      "img": "assets/images/history/h_early_modern_6_jippensha.jpg",
       "choices": [
         "一遍",
         "法然",
@@ -11114,7 +11112,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮半島や中国沿岸を荒らし回った、日本の海賊集団を何というか？",
-      "img": "assets/images/history/h_medieval_4_wako.jpg",
+      "img": "assets/images/history/h_ancient_2_wakoku.jpg",
       "choices": [
         "倭寇",
         "水軍",
@@ -11128,7 +11126,7 @@ const QUIZ_DATA = {
   "h_medieval_5": [
     {
       "q": "14世紀、元を北へ追いやり、漢民族が再び中国に建てた国は？",
-      "img": "assets/images/history/h_medieval_5_ming.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
       "choices": [
         "明",
         "清",
@@ -11200,7 +11198,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代に朝鮮で作られた、現在も使われている独自の文字は？",
-      "img": "assets/images/history/g_history_medieval_hangul_creation.png",
+      "img": "assets/images/history/h_medieval_5_hangeul.jpg",
       "choices": [
         "ハングル",
         "かな文字",
@@ -11262,7 +11260,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "観阿弥・世阿弥親子によって大成された、面をつけて演じる歌舞劇は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
       "choices": [
         "能（能楽）",
         "歌舞伎",
@@ -11282,7 +11280,8 @@ const QUIZ_DATA = {
       ],
       "a": "狂言",
       "comment": "当時の話し言葉が使われています。",
-      "aImg": "assets/images/history/h_medieval_6_kyogen.jpg"
+      "aImg": "assets/images/history/h_medieval_6_kyogen.jpg",
+      "img": "assets/images/history/h_medieval_6_kyogen.jpg"
     },
     {
       "q": "足利義政の頃の、禅宗の影響を受けた、簡素で深みのある文化を何というか？",
@@ -11358,7 +11357,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、農民たちが作った自治組織を何というか？",
-      "img": "assets/images/history/g_history_medieval_so_village_meeting.png",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "惣（惣村）",
         "座",
@@ -11430,7 +11429,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1428年、近江の馬借らが徳政令を求めて蜂起し、京都に乱入した、日本初の大規模な土一揆は？",
-      "img": "assets/images/history/h_medieval_6_shocho_1772980421165.jpg",
+      "img": "assets/images/history/h_medieval_6_doikki_1772980315893.jpg",
       "choices": [
         "正長の土一揆",
         "加賀の一向一揆",
@@ -11480,7 +11479,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "京都の山城国（現在の京都府南部）で、武士や農民が守護大名を追い出し、8年間にわたって自治を行った出来事は？",
-      "img": "assets/images/history/h_medieval_7_yamashiro.jpg",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "山城の国一揆",
         "加賀の一向一揆",
@@ -11516,7 +11515,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱の後、各地の守護大名や守護代などが成長し、独自の領国支配を行うようになった大名を何というか？",
-      "img": "assets/images/history/h_medieval_7_sengoku_daimyo_1772980436077.jpg",
+      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
       "choices": [
         "戦国大名",
         "守護大名",
@@ -11836,7 +11835,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1582年、明智光秀に本能寺で襲われ、自害した出来事を何というか？",
-      "img": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.jpg",
+      "img": "assets/images/history/h_early_modern_2_honnouji.jpg",
       "choices": [
         "本能寺の変",
         "桶狭間の戦い",
@@ -11956,7 +11955,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "出雲の阿国が京都で始め、後の歌舞伎の起源となった踊りは？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
+      "img": "assets/images/history/h_ancient_1_hands.png",
       "choices": [
         "かぶき踊り",
         "盆踊り",
@@ -12078,7 +12077,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「鎖国の四つの窓」のうち、対馬藩を通じて国交のあった国は？",
-      "img": "assets/images/history/h_early_modern_3_chosen.jpg",
+      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "朝鮮",
         "琉球王国",
@@ -12090,7 +12089,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「鎖国の四つの窓」のうち、薩摩藩（鹿児島県）が実質的に支配していたのは？",
-      "img": "assets/images/history/h_early_modern_3_ryukyu.jpg",
+      "img": "assets/images/history/g_history_medieval_ryukyu_chukey_boueki.png",
       "choices": [
         "琉球王国",
         "アイヌ民族",
@@ -12114,7 +12113,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸時代、朝鮮との外交を担当し、釜山に「倭館」を置いて貿易を行った藩は？",
-      "img": "assets/images/history/h_early_modern_3_chosen.jpg",
+      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "対馬藩（宗氏）",
         "松前藩（松前氏）",
@@ -12516,7 +12515,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "全国を測量して、精密な日本地図「大日本沿海輿地全図」を作った人物は？",
-      "img": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.jpg",
+      "img": "assets/images/history/h_ancient_3_yoshinogari.jpg",
       "choices": [
         "伊能忠敬",
         "間宮林蔵",
@@ -12686,7 +12685,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "幕府の政策を批判した吉田松陰などの尊王攘夷派の人物が、多数処罰された事件は？",
-      "img": "assets/images/history/h_early_modern_7_ansei_purge.jpg",
+      "img": "assets/images/history/h_early_modern_5_kansei_strict.png",
       "choices": [
         "安政の大獄",
         "蛮社の獄",
@@ -12953,7 +12952,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "五箇条の御誓文の翌日、民衆に対して出された立て札（掲示）を何というか？",
-      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
+      "img": "assets/images/history/h_ancient_1_christianity.jpg",
       "choices": [
         "五榜の掲示",
         "御触書",
@@ -13049,7 +13048,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "飛脚にかわって全国均一料金で手紙を届ける「郵便制度」を創設した人物は？",
-      "img": "assets/images/history/h_modern_4_fukuzawa.jpg",
+      "img": "assets/images/history/h_ancient_1_hands.png",
       "choices": [
         "前島密",
         "渋沢栄一",
@@ -13061,7 +13060,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "不平等条約の改正交渉などのため、岩倉具視を全権大使として欧米に派遣された使節団は？",
-      "img": "assets/images/history/h_modern_1_iwakura.jpg",
+      "img": "assets/images/history/h_early_modern_7_iwakura_tomomi.jpg",
       "choices": [
         "岩倉使節団",
         "遣欧少年使節",
@@ -13073,7 +13072,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "岩倉使節団に最年少（6歳）で参加し、後に女子英学塾（現在の津田塾大学）を創設した女性は？",
-      "img": "assets/images/history/h_modern_1_iwakura.jpg",
+      "img": "assets/images/history/h_early_modern_7_iwakura_tomomi.jpg",
       "choices": [
         "津田梅子",
         "樋口一葉",
@@ -13269,7 +13268,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1890年に教育の基本理念として出され、天皇への忠義や親孝行を説いたものは？",
-      "img": "assets/images/history/h_modern_2_kyouiku_1773342378576.jpg",
+      "img": "assets/images/history/h_contemporary_1_kyouiku_1773343259399.jpg",
       "choices": [
         "教育勅語",
         "軍人勅諭",
@@ -13281,7 +13280,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1890年に開かれた、日本初の議会を何というか？",
-      "img": "assets/images/history/h_modern_2_teikoku_1773342395256.jpg",
+      "img": "assets/images/history/h_medieval_2_mongolteikoku_1772802716926.jpg",
       "choices": [
         "帝国議会",
         "国会",
@@ -13503,7 +13502,7 @@ const QUIZ_DATA = {
   "h_modern_4": [
     {
       "q": "日清戦争の頃に軽工業（製糸・紡績）が、日露戦争の頃に重工業が発展したことを何というか？",
-      "img": "assets/images/history/h_japan_industrial_revolution_1773375512035.jpg",
+      "img": "assets/images/history/h_early_modern_7_industrial_revolution.jpg",
       "choices": [
         "日本の産業革命",
         "文明開化",
@@ -13540,7 +13539,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足尾銅山鉱毒事件の実態を訴え、天皇への直訴を試みるなど、生涯をかけて解決に取り組んだ人物は？",
-      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.jpg",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "田中正造",
         "板垣退助",
@@ -13649,7 +13648,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「柿くへば鐘が鳴るなり法隆寺」など、俳句や短歌の改革を行った人物は？",
-      "img": "assets/images/history/h_modern_4_masaoka.jpg",
+      "img": "assets/images/history/h_ancient_5_horyuji.jpg",
       "choices": [
         "正岡子規",
         "松尾芭蕉",
@@ -14170,7 +14169,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1932年、海軍の将校らが首相官邸を襲撃し、犬養毅首相を暗殺した事件は？",
-      "img": "assets/images/history/h_modern_6_515_jihen_1772283457942.jpg",
+      "img": "assets/images/history/h_ancient_2_silk_road_1773665159298.jpg",
       "choices": [
         "五・一五事件",
         "二・二六事件",
@@ -14182,7 +14181,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1936年、陸軍の青年将校らが「昭和維新」を掲げて起こしたクーデター未遂事件は？",
-      "img": "assets/images/history/h_modern_6_226_jihen_1772283472750.jpg",
+      "img": "assets/images/history/h_ancient_2_baekje_1773665203226.jpg",
       "choices": [
         "二・二六事件",
         "五・一五事件",
@@ -14352,7 +14351,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1945年3月、アメリカ軍が上陸し、住民を巻き込む激しい地上戦が行われた場所は？",
-      "img": "assets/images/history/h_modern_7_okinawa_sen_1772302848029.jpg",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
       "choices": [
         "沖縄県",
         "鹿児島県",
@@ -14450,7 +14449,7 @@ const QUIZ_DATA = {
   "h_contemporary_1": [
     {
       "q": "GHQの指令により、軍隊の解散や、戦争協力者の追放、選挙権の拡大などが行われたことを何というか？",
-      "img": "assets/images/history/h_modern_1_fukoku_1773341886843.jpg",
+      "img": "assets/images/history/h_modern_7_ghq_1772302935349.jpg",
       "choices": [
         "戦後改革（民主化政策）",
         "大正デモクラシー",
@@ -14459,7 +14458,6 @@ const QUIZ_DATA = {
       ],
       "a": "戦後改革（民主化政策）",
       "comment": "「国民主権」「基本的人権の尊重」「平和主義」の考え方が広められました。",
-      "answerImg": "assets/images/history/h_contemporary_1_sengo_kaikaku_1773666511836.jpg",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15058,7 +15056,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2015年に採択された、すべての国が参加する地球温暖化対策の新たな枠組みは？",
-      "img": "assets/images/history/h_modern_paris_agreement.png",
+      "img": "assets/images/history/paris_agreement_1773369293123.jpg",
       "choices": [
         "パリ協定",
         "京都議定書",
@@ -15082,7 +15080,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2000年代以降、インターネットや携帯電話などが急速に普及し、社会が大きく変化したことを何というか？",
-      "img": "assets/images/history/h_modern_it_revolution.png",
+      "img": "assets/images/history/h_contemporary_4_it_revolution_new_1774109692004.png",
       "choices": [
         "IT革命（情報革命）",
         "産業革命",
@@ -15106,7 +15104,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "かつて日本で深刻だった公害を教訓に、資源を有効活用し、環境への負荷を減らす社会を何というか？",
-      "img": "assets/images/history/h_modern_circular_economy.png",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "循環型社会",
         "情報化社会",
@@ -15118,7 +15116,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2002年、日本と北朝鮮の首脳会談で、北朝鮮が認めて謝罪した問題は？",
-      "img": "assets/images/history/h_modern_abduction_issue.png",
+      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "日本人拉致問題",
         "核開発問題",
@@ -15127,7 +15125,6 @@ const QUIZ_DATA = {
       ],
       "a": "日本人拉致問題",
       "comment": "小泉純一郎首相が訪朝し、一部の被害者が帰国しました。",
-      "answerImg": "assets/images/history/h_contemporary_5_rachi_mondai_1773666625846.jpg",
       "imgCaption": "※画像はイメージです"
     },
     {
