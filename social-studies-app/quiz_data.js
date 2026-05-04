@@ -10,12 +10,12 @@ const QUIZ_DATA = {
       ],
       "a": "3：7",
       "comment": "陸地が約3、海洋が約7の割合です。",
-      "answerImg": "assets/images/geography/g_gw_1_01_earth_surface_1773408157220.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_01_earth_surface_1773408157220.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地球上で最も面積が大きい大陸はどれか？",
-      "img": "assets/images/geography/g_special_eurasia_map_1773760492277.jpg",
+      "img": "assets/images/geography/g_special_eurasia_map_1773760492277.webp",
       "choices": [
         "ユーラシア大陸",
         "アフリカ大陸",
@@ -24,7 +24,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユーラシア大陸",
       "comment": "ユーラシア大陸が最大で、オーストラリア大陸が最小です。",
-      "answerImg": "assets/images/geography/g_special_eurasia_map_1773760492277.jpg",
+      "answerImg": "assets/images/geography/g_special_eurasia_map_1773760492277.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -38,7 +38,7 @@ const QUIZ_DATA = {
       "a": "太平洋",
       "comment": "太平洋、大西洋、インド洋を「三大洋」と呼びます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_03_pacific_ocean_1773408193078.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_03_pacific_ocean_1773408193078.webp"
     },
     {
       "q": "本初子午線が通る都市はどこか？",
@@ -50,7 +50,7 @@ const QUIZ_DATA = {
       ],
       "a": "ロンドン",
       "comment": "イギリスのロンドン（旧グリニッジ天文台）を通る線が経度0度です。",
-      "answerImg": "assets/images/geography/g_gw_1_04_prime_meridian_1773408212217.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_04_prime_meridian_1773408212217.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -63,7 +63,7 @@ const QUIZ_DATA = {
       ],
       "a": "赤道",
       "comment": "赤道を境に北を北半球、南を南半球と呼びます。",
-      "answerImg": "assets/images/geography/g_gw_1_05_equator_1773408232565.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_05_equator_1773408232565.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -76,7 +76,7 @@ const QUIZ_DATA = {
       ],
       "a": "高床式の住居",
       "comment": "風通しを良くし、湿気や熱を防ぐために床を高くしています。",
-      "answerImg": "assets/images/geography/g_gw_1_06_stilt_house_1773408251697.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_06_stilt_house_1773408251697.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -89,7 +89,7 @@ const QUIZ_DATA = {
       ],
       "a": "窓が小さい",
       "comment": "外の熱気が中に入らないように、窓を小さく壁を厚くします。",
-      "answerImg": "assets/images/geography/g_gw_1_07_adobe_house_1773408276138.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_07_adobe_house_1773408276138.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -102,7 +102,7 @@ const QUIZ_DATA = {
       ],
       "a": "ゲル",
       "comment": "中国ではパオとも呼ばれますが、モンゴルではゲルと呼びます。",
-      "answerImg": "assets/images/geography/g_gw_1_1_ger_1773376225399.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_1_ger_1773376225399.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -115,7 +115,7 @@ const QUIZ_DATA = {
       ],
       "a": "熱帯",
       "comment": "熱帯雨林やサバナ気候が含まれます。",
-      "answerImg": "assets/images/geography/g_gw_1_2_tropical_1773376240404.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_2_tropical_1773376240404.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -128,7 +128,7 @@ const QUIZ_DATA = {
       ],
       "a": "乾燥帯",
       "comment": "砂漠気候やステップ気候が含まれます。",
-      "answerImg": "assets/images/geography/g_gw_1_3_dry_1773376252908.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_3_dry_1773376252908.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -141,7 +141,7 @@ const QUIZ_DATA = {
       ],
       "a": "温帯",
       "comment": "温暖湿潤気候などが含まれます。",
-      "answerImg": "assets/images/geography/g_gw_1_4_temperate_1773376264811.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_4_temperate_1773376264811.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -155,7 +155,7 @@ const QUIZ_DATA = {
       "a": "冷帯（亜寒帯）",
       "comment": "夏は短いが気温が上がり、樹木が育ちます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_11_temperate_climate_1773408358901.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_11_temperate_climate_1773408358901.webp"
     },
     {
       "q": "最も小さい大陸はどれか？",
@@ -167,7 +167,7 @@ const QUIZ_DATA = {
       ],
       "a": "オーストラリア大陸",
       "comment": "六大陸の中で最小です。",
-      "answerImg": "assets/images/geography/g_gw_1_13_australia_continent_1773408398552.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_13_australia_continent_1773408398552.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -180,7 +180,7 @@ const QUIZ_DATA = {
       ],
       "a": "経線",
       "comment": "北極と南極を結ぶ縦の線を経線と呼びます。",
-      "answerImg": "assets/images/geography/g_gw_1_14_longitude_1773408421627.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_14_longitude_1773408421627.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -193,12 +193,12 @@ const QUIZ_DATA = {
       ],
       "a": "緯線",
       "comment": "赤道に平行な横の線を緯線と呼びます。",
-      "answerImg": "assets/images/geography/g_gw_1_15_latitude_1773408442096.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_15_latitude_1773408442096.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "経度180度の線のほぼ上にある、日付が変わる基準となる線を何というか？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_1_15.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_1_15.webp",
       "choices": [
         "日付変更線",
         "本初子午線",
@@ -207,7 +207,7 @@ const QUIZ_DATA = {
       ],
       "a": "日付変更線",
       "comment": "この線を東に越えるときは日付を1日戻し、西に越えるときは1日進めます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_1_15.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_1_15.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -220,7 +220,7 @@ const QUIZ_DATA = {
       ],
       "a": "1時間",
       "comment": "360度 ÷ 24時間 ＝ 15度 なので、15度で1時間の時差が生まれます。",
-      "answerImg": "assets/images/geography/g_gw_1_17_time_difference_1773408631161.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_17_time_difference_1773408631161.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -233,7 +233,7 @@ const QUIZ_DATA = {
       ],
       "a": "中心からの距離と方位が正しい",
       "comment": "航空図などに利用されます。",
-      "answerImg": "assets/images/geography/g_gw_1_18_azimuthal_projection_1773408654977.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_18_azimuthal_projection_1773408654977.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -246,7 +246,7 @@ const QUIZ_DATA = {
       ],
       "a": "分布図",
       "comment": "人口密度や生産量などの分布を表すの適しています。",
-      "answerImg": "assets/images/geography/g_gw_1_19_mollweide_projection_1773408677177.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_19_mollweide_projection_1773408677177.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -259,7 +259,7 @@ const QUIZ_DATA = {
       ],
       "a": "航海図",
       "comment": "等角航路が直線で表されるため、航海に適しています。",
-      "answerImg": "assets/images/geography/g_gw_1_20_mercator_projection_1773408702471.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_20_mercator_projection_1773408702471.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -272,12 +272,12 @@ const QUIZ_DATA = {
       ],
       "a": "アジア州",
       "comment": "ユーラシア大陸の東部に位置します。",
-      "answerImg": "assets/images/geography/g_gw_1_21_asia_1773408723490.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_21_asia_1773408723490.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "ヨーロッパ州とアジア州を合わせた大陸を何と呼ぶか？",
-      "img": "assets/images/geography/g_special_eurasia_map_1773760492277.jpg",
+      "img": "assets/images/geography/g_special_eurasia_map_1773760492277.webp",
       "choices": [
         "ユーラシア大陸",
         "パンゲア大陸",
@@ -286,7 +286,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユーラシア大陸",
       "comment": "ヨーロッパ（Europe）とアジア（Asia）を合わせた造語です。",
-      "answerImg": "assets/images/geography/g_gw_1_22_eurasia_1773408745792.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_22_eurasia_1773408745792.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -299,12 +299,12 @@ const QUIZ_DATA = {
       ],
       "a": "イグルー",
       "comment": "寒さを防ぐための工夫がされています。",
-      "answerImg": "assets/images/geography/g_gw_1_23_igloo_1773408761912.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_23_igloo_1773408761912.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "アンデス山脈などの高地で飼育されている、毛を利用するための家畜は？",
-      "img": "assets/images/geography/g_gw_1_24_alpaca_1773408784872.jpg",
+      "img": "assets/images/geography/g_gw_1_24_alpaca_1773408784872.webp",
       "choices": [
         "アルパカ・リャマ",
         "ヒツジ",
@@ -313,12 +313,12 @@ const QUIZ_DATA = {
       ],
       "a": "アルパカ・リャマ",
       "comment": "高地の環境に適応した動物です。",
-      "answerImg": "assets/images/geography/g_gw_1_24_alpaca_1773408784872.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_24_alpaca_1773408784872.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地中海沿岸で見られる、夏の乾燥と冬の降雨という気候は何というか？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_1_24.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_1_24.webp",
       "choices": [
         "地中海性気候",
         "西岸海洋性気候",
@@ -327,12 +327,12 @@ const QUIZ_DATA = {
       ],
       "a": "地中海性気候",
       "comment": "オリーブやブドウの栽培（地中海式農業）が盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_1_24.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_1_24.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "偏西風と暖流の影響で、高緯度のわりに冬でも温暖な西ヨーロッパの気候は？",
-      "img": "assets/images/geography/geo_gw_3_5_marine_west_coast_climate_1773837750972.jpg",
+      "img": "assets/images/geography/geo_gw_3_5_marine_west_coast_climate_1773837750972.webp",
       "choices": [
         "西岸海洋性気候",
         "地中海性気候",
@@ -341,7 +341,7 @@ const QUIZ_DATA = {
       ],
       "a": "西岸海洋性気候",
       "comment": "ロンドンなどがこの気候に属します。",
-      "answerImg": "assets/images/geography/g_gw_1_26_west_coast_marine_climate_1773408822749.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_26_west_coast_marine_climate_1773408822749.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -354,7 +354,7 @@ const QUIZ_DATA = {
       ],
       "a": "ツンドラ気候",
       "comment": "氷雪気候は一年中氷と雪に覆われています。",
-      "answerImg": "assets/images/geography/g_gw_1_5_tundra_1773376278600.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_5_tundra_1773376278600.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -367,7 +367,7 @@ const QUIZ_DATA = {
       ],
       "a": "オセアニア州",
       "comment": "多くの島々が含まれます。",
-      "answerImg": "assets/images/geography/g_gw_1_28_oceania_1773408866236.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_28_oceania_1773408866236.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -380,7 +380,7 @@ const QUIZ_DATA = {
       ],
       "a": "インド",
       "comment": "中国を抜いて世界一となりました。",
-      "answerImg": "assets/images/geography/g_gw_1_29_high_population_1773408883320.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_29_high_population_1773408883320.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -393,7 +393,7 @@ const QUIZ_DATA = {
       ],
       "a": "アフリカ",
       "comment": "植民地時代に緯線や経線を使って人為的に引かれたためです。",
-      "answerImg": "assets/images/geography/g_gw_1_30_africa_borders_1773408905035.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_30_africa_borders_1773408905035.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -406,7 +406,7 @@ const QUIZ_DATA = {
       ],
       "a": "対蹠点（たいせきてん）",
       "comment": "日本の対蹠点は南アメリカのアマゾン川河口付近（ブラジル沖）です。",
-      "answerImg": "assets/images/geography/g_gw_1_31_antipode_1773409009447.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_31_antipode_1773409009447.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -419,7 +419,7 @@ const QUIZ_DATA = {
       ],
       "a": "午後9時（21時）",
       "comment": "日本はイギリスより9時間進んでいます（GMT+9）。",
-      "answerImg": "assets/images/geography/g_gw_1_32_london_japan_time_1773409029828.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_32_london_japan_time_1773409029828.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -432,12 +432,12 @@ const QUIZ_DATA = {
       ],
       "a": "ポルトガル語",
       "comment": "南アメリカの多くの国はスペイン語ですが、ブラジルはポルトガル語です。",
-      "answerImg": "assets/images/geography/g_gw_1_33_brazil_portuguese_1773409041623.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_33_brazil_portuguese_1773409041623.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東南アジア諸国連合の略称は？",
-      "img": "assets/images/history/h_contemporary_3_asean_1773343491452.jpg",
+      "img": "assets/images/history/h_contemporary_3_asean_1773343491452.webp",
       "choices": [
         "ASEAN",
         "EU",
@@ -446,12 +446,12 @@ const QUIZ_DATA = {
       ],
       "a": "ASEAN",
       "comment": "東南アジアの経済・文化的発展を目的に結成されました。",
-      "answerImg": "assets/images/geography/g_gw_1_34_asean_1773409059880.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_34_asean_1773409059880.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "ヨーロッパ連合の略称は？",
-      "img": "assets/images/history/h_contemporary_4_eu_1773343658446.jpg",
+      "img": "assets/images/history/h_contemporary_4_eu_1773343658446.webp",
       "choices": [
         "EU",
         "UN",
@@ -460,7 +460,7 @@ const QUIZ_DATA = {
       ],
       "a": "EU",
       "comment": "多くの加盟国で共通通貨ユーロが導入されています。",
-      "answerImg": "assets/images/geography/g_gw_1_35_eu_1773409080888.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_35_eu_1773409080888.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -473,7 +473,7 @@ const QUIZ_DATA = {
       ],
       "a": "豚肉",
       "comment": "イスラム教では豚肉を食べることが禁じられています。",
-      "answerImg": "assets/images/geography/g_gw_1_36_islam_pork_1773409093824.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_36_islam_pork_1773409093824.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -486,12 +486,12 @@ const QUIZ_DATA = {
       ],
       "a": "牛",
       "comment": "インドの人口の多くを占めるヒンドゥー教徒は牛肉を食べません。",
-      "answerImg": "assets/images/geography/g_gw_1_37_hindu_cow_1773409114989.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_37_hindu_cow_1773409114989.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "世界で最も信者数が多い宗教は？",
-      "img": "assets/images/history/h_ancient_christianity_1772414580245.jpg",
+      "img": "assets/images/history/h_ancient_christianity_1772414580245.webp",
       "choices": [
         "キリスト教",
         "イスラム教",
@@ -500,7 +500,7 @@ const QUIZ_DATA = {
       ],
       "a": "キリスト教",
       "comment": "ヨーロッパ、南北アメリカ、オセアニアなどで広く信仰されています。",
-      "answerImg": "assets/images/geography/g_gw_1_38_christianity_1773409130615.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_38_christianity_1773409130615.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -513,7 +513,7 @@ const QUIZ_DATA = {
       ],
       "a": "サリー",
       "comment": "地域やカーストによって着方が異なります。",
-      "answerImg": "assets/images/geography/g_gw_1_39_sari_1773409150172.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_39_sari_1773409150172.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -526,7 +526,7 @@ const QUIZ_DATA = {
       ],
       "a": "ポンチョ",
       "comment": "高地の寒さに対応するため、リャマやアルパカの毛で織られます。",
-      "answerImg": "assets/images/geography/g_gw_1_40_poncho_1773409171359.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_40_poncho_1773409171359.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -539,7 +539,7 @@ const QUIZ_DATA = {
       ],
       "a": "米",
       "comment": "雨が多く高温な地域（モンスーンアジア）に稲作が適しています。",
-      "answerImg": "assets/images/geography/g_gw_1_41_rice_paddy_1773409184522.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_41_rice_paddy_1773409184522.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -552,7 +552,7 @@ const QUIZ_DATA = {
       ],
       "a": "小麦",
       "comment": "比較的乾燥した涼しい気候でも育ち、パンやパスタに加工されます。",
-      "answerImg": "assets/images/geography/g_gw_1_42_wheat_field_1773409202935.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_42_wheat_field_1773409202935.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -565,7 +565,7 @@ const QUIZ_DATA = {
       ],
       "a": "サバナ気候",
       "comment": "ライオンやキリンなどの野生動物が多く生息しています。",
-      "answerImg": "assets/images/geography/g_gw_1_6_savanna_1773376290331.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_6_savanna_1773376290331.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -578,7 +578,7 @@ const QUIZ_DATA = {
       ],
       "a": "スコール",
       "comment": "短時間に激しく降り、気温を一時的に下げます。",
-      "answerImg": "assets/images/geography/g_gw_1_44_squall_1773409244561.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_44_squall_1773409244561.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -591,7 +591,7 @@ const QUIZ_DATA = {
       ],
       "a": "夏の強い日差しや熱を防ぐため",
       "comment": "石造りは熱を通しにくく、白壁は日光を反射します。",
-      "answerImg": "assets/images/geography/g_gw_1_7_mediterranean_houses_1773376305008.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_7_mediterranean_houses_1773376305008.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -604,7 +604,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユニオンジャック",
       "comment": "かつてイギリスの植民地であった歴史を示しています。",
-      "answerImg": "assets/images/geography/g_gw_1_46_union_jack_flag_1773409327640.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_46_union_jack_flag_1773409327640.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -617,7 +617,7 @@ const QUIZ_DATA = {
       ],
       "a": "BRICS",
       "comment": "それぞれの国名の頭文字をとっています（Brazil, Russia, India, China, South Africa）。",
-      "answerImg": "assets/images/geography/g_gw_1_47_brics_1773409347816.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_47_brics_1773409347816.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -630,7 +630,7 @@ const QUIZ_DATA = {
       ],
       "a": "石油（原油）",
       "comment": "石油埋蔵量が多く、OPEC（石油輸出国機構）に加盟する国が多いです。",
-      "answerImg": "assets/images/geography/g_gw_1_48_middle_east_oil_1773409362400.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_48_middle_east_oil_1773409362400.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -643,7 +643,7 @@ const QUIZ_DATA = {
       ],
       "a": "ロシア",
       "comment": "ユーラシア大陸の北部に広がる世界最大の国です。",
-      "answerImg": "assets/images/geography/g_gw_1_49_russia_1773409382295.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_49_russia_1773409382295.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -656,7 +656,7 @@ const QUIZ_DATA = {
       ],
       "a": "東経135度",
       "comment": "兵庫県明石市を通る線です。",
-      "answerImg": "assets/images/geography/g_gw_1_50_akashi_meridian_1773409400594.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_50_akashi_meridian_1773409400594.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -669,7 +669,7 @@ const QUIZ_DATA = {
       ],
       "a": "南アメリカ大陸",
       "comment": "日本の対蹠点（裏側）は南米付近です。",
-      "answerImg": "assets/images/geography/g_gw_1_51_south_america_antipode_1773409416566.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_51_south_america_antipode_1773409416566.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -683,7 +683,7 @@ const QUIZ_DATA = {
       "a": "南極条約",
       "comment": "軍事利用の禁止や領有権の凍結などが定められています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_51_south_america_antipode_1773409416566.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_51_south_america_antipode_1773409416566.webp"
     },
     {
       "q": "北緯40度以北の都市が多いヨーロッパで、冬でも比較的暖かい理由に関係する海流は？",
@@ -696,7 +696,7 @@ const QUIZ_DATA = {
       "a": "北大西洋海流（暖流）",
       "comment": "暖流の上を吹く偏西風が暖かさを運びます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_52_antarctic_treaty_1773409439983.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_52_antarctic_treaty_1773409439983.webp"
     },
     {
       "q": "イタリアやフランスなどで盛んな、オリーブやブドウを作る農業を何というか？",
@@ -708,9 +708,9 @@ const QUIZ_DATA = {
       ],
       "a": "地中海式農業",
       "comment": "夏の乾燥に強い作物を育てます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_1_53.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_1_53.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_1_53.jpg"
+      "img": "assets/images/geography/custom_maps/custom_map_gw_1_53.webp"
     },
     {
       "q": "アメリカ合衆国のように、多様な民族や文化が混在している社会を何というか？",
@@ -722,7 +722,7 @@ const QUIZ_DATA = {
       ],
       "a": "多文化社会",
       "comment": "「人種のるつぼ」や「サラダボウル」と呼ばれたりします。",
-      "answerImg": "assets/images/geography/g_gw_1_55_melting_pot_1773409504851.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_55_melting_pot_1773409504851.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -735,12 +735,12 @@ const QUIZ_DATA = {
       ],
       "a": "漢民族",
       "comment": "中国には55の少数民族も暮らしています。",
-      "answerImg": "assets/images/geography/g_gw_1_56_han_chinese_1773409522197.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_56_han_chinese_1773409522197.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東南アジアで信仰する人が多い、仏教やイスラム教以外の宗教は、フィリピンなどで何が多いか？",
-      "img": "assets/images/history/h_ancient_christianity_1772414580245.jpg",
+      "img": "assets/images/history/h_ancient_christianity_1772414580245.webp",
       "choices": [
         "キリスト教",
         "ヒンドゥー教",
@@ -749,7 +749,7 @@ const QUIZ_DATA = {
       ],
       "a": "キリスト教",
       "comment": "フィリピンはスペインの植民地時代の影響でキリスト教徒（カトリック）が多いです。",
-      "answerImg": "assets/images/geography/g_gw_1_57_christianity_philippines_1773409542155.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_57_christianity_philippines_1773409542155.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -762,7 +762,7 @@ const QUIZ_DATA = {
       ],
       "a": "スワヒリ語など",
       "comment": "現地の共通語としてスワヒリ語などが使われますが、公用語として英語やフランス語が使われる国も多いです。",
-      "answerImg": "assets/images/geography/g_gw_1_58_african_languages_1773409555890.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_58_african_languages_1773409555890.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -775,7 +775,7 @@ const QUIZ_DATA = {
       ],
       "a": "アボリジニ",
       "comment": "独自の文化や美術（アボリジナルアート）を持っています。マオリはニュージーランドです。",
-      "answerImg": "assets/images/geography/g_gw_1_59_aboriginal_1773409575649.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_59_aboriginal_1773409575649.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -788,7 +788,7 @@ const QUIZ_DATA = {
       ],
       "a": "マオリ",
       "comment": "ラグビーの試合前に行う「ハカ」という踊りが有名です。",
-      "answerImg": "assets/images/geography/g_gw_1_60_maori_1773409589887.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_60_maori_1773409589887.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -802,7 +802,7 @@ const QUIZ_DATA = {
       "a": "北極海",
       "comment": "北極海は三大洋には含まれません。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_9_arctic_ocean_1773376331985.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_9_arctic_ocean_1773376331985.webp"
     }
   ],
   "gw_2": [
@@ -816,7 +816,7 @@ const QUIZ_DATA = {
       ],
       "a": "漢民族",
       "comment": "残りの約1割は55の少数民族です。",
-      "answerImg": "assets/images/geography/geo_gw_2_0_han_chinese_1773837491863.jpg",
+      "answerImg": "assets/images/geography/geo_gw_2_0_han_chinese_1773837491863.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -829,7 +829,7 @@ const QUIZ_DATA = {
       ],
       "a": "一人っ子政策",
       "comment": "この政策の結果、少子高齢化（ヘイハイツ）が急速に進んでいます。",
-      "answerImg": "assets/images/geography/g_gw_1_63_one_child_policy_1773409684810.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_63_one_child_policy_1773409684810.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -842,7 +842,7 @@ const QUIZ_DATA = {
       ],
       "a": "経済特区",
       "comment": "シェンチェン（深圳）などが代表的です。",
-      "answerImg": "assets/images/geography/g_gw_1_64_sez_china_1773409705230.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_64_sez_china_1773409705230.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -855,7 +855,7 @@ const QUIZ_DATA = {
       ],
       "a": "シェンチェン",
       "comment": "かつては静かな漁村でしたが、巨大な工業・ハイテク都市に成長しました。",
-      "answerImg": "assets/images/geography/g_gw_1_65_shenzhen_1773409724617.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_65_shenzhen_1773409724617.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -868,7 +868,7 @@ const QUIZ_DATA = {
       ],
       "a": "民工（農民工）",
       "comment": "都市部の労働力不足を補う重要な存在です。",
-      "answerImg": "assets/images/geography/g_gw_1_66_mingong_1773409740681.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_66_mingong_1773409740681.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -881,7 +881,7 @@ const QUIZ_DATA = {
       ],
       "a": "西部大開発",
       "comment": "道路や鉄道の整備、資源開発などが進められています。",
-      "answerImg": "assets/images/geography/g_gw_1_67_western_development_1773409760010.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_67_western_development_1773409760010.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -894,7 +894,7 @@ const QUIZ_DATA = {
       ],
       "a": "郷鎮企業",
       "comment": "農家の余剰労働力を吸収し、経済の活性化に貢献しました。",
-      "answerImg": "assets/images/geography/g_gw_1_68_township_enterprises_1773409783964.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_68_township_enterprises_1773409783964.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -907,7 +907,7 @@ const QUIZ_DATA = {
       ],
       "a": "長江",
       "comment": "中流域には世界最大級の三峡ダムがあります。",
-      "answerImg": "assets/images/geography/g_gw_1_69_chang_jiang_1773409803569.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_69_chang_jiang_1773409803569.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -920,7 +920,7 @@ const QUIZ_DATA = {
       ],
       "a": "黄河",
       "comment": "多量の土砂（黄土）を含んで流れるため黄色く濁って見えます。",
-      "answerImg": "assets/images/geography/g_gw_2_10_yellow_river_1773376568212.jpg",
+      "answerImg": "assets/images/geography/g_gw_2_10_yellow_river_1773376568212.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -933,12 +933,12 @@ const QUIZ_DATA = {
       ],
       "a": "畑作（小麦など）",
       "comment": "麺類や点心（ギョーザ・肉まん）などの食文化が発達しました。",
-      "answerImg": "assets/images/geography/g_gw_2_11_wheat_field_1773376581443.jpg",
+      "answerImg": "assets/images/geography/g_gw_2_11_wheat_field_1773376581443.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中国南部（華南）などの温暖で雨が多い地域で盛んな農業は？",
-      "img": "assets/images/history/h_ancient_rice_farming_1772414609121.jpg",
+      "img": "assets/images/history/h_ancient_rice_farming_1772414609121.webp",
       "choices": [
         "稲作（米）",
         "畑作（小麦）",
@@ -947,7 +947,7 @@ const QUIZ_DATA = {
       ],
       "a": "稲作（米）",
       "comment": "米を主食とし、二期作が行われる地域もあります。",
-      "answerImg": "assets/images/geography/g_gw_1_72_wet_rice_farming_1773409858341.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_72_wet_rice_farming_1773409858341.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -960,7 +960,7 @@ const QUIZ_DATA = {
       ],
       "a": "香港",
       "comment": "「一国二制度」のもとで高度な自治が認められてきました。",
-      "answerImg": "assets/images/geography/g_gw_1_73_hong_kong_1773409879854.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_73_hong_kong_1773409879854.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -973,7 +973,7 @@ const QUIZ_DATA = {
       ],
       "a": "華人・華僑",
       "comment": "東南アジアの国々などで経済の実権を握っていることが多いです。",
-      "answerImg": "assets/images/geography/g_gw_2_12_chinatown_1773376600876.jpg",
+      "answerImg": "assets/images/geography/g_gw_2_12_chinatown_1773376600876.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -986,7 +986,7 @@ const QUIZ_DATA = {
       ],
       "a": "ソウル",
       "comment": "政治・経済・文化の中心地です。",
-      "answerImg": "assets/images/geography/g_gw_1_75_south_korea_1773409912685.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_75_south_korea_1773409912685.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -999,12 +999,12 @@ const QUIZ_DATA = {
       ],
       "a": "軍事境界線",
       "comment": "北側が朝鮮民主主義人民共和国、南側が大韓民国です。",
-      "answerImg": "assets/images/geography/g_gw_1_76_38th_parallel_1773409980230.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_76_38th_parallel_1773409980230.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "韓国の伝統的な民族衣装を何というか？",
-      "img": "assets/images/geography/geo_hanbok_1771576904795.jpg",
+      "img": "assets/images/geography/geo_hanbok_1771576904795.webp",
       "choices": [
         "チマ・チョゴリ",
         "チャイナドレス",
@@ -1013,12 +1013,12 @@ const QUIZ_DATA = {
       ],
       "a": "チマ・チョゴリ",
       "comment": "「チマ」はスカート、「チョゴリ」は上着を意味します。",
-      "answerImg": "assets/images/geography/g_gw_1_77_hanbok_1773410000028.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_77_hanbok_1773410000028.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東南アジア諸国連合の略称は？",
-      "img": "assets/images/history/h_contemporary_3_asean_1773343491452.jpg",
+      "img": "assets/images/history/h_contemporary_3_asean_1773343491452.webp",
       "choices": [
         "ASEAN",
         "APEC",
@@ -1027,12 +1027,12 @@ const QUIZ_DATA = {
       ],
       "a": "ASEAN",
       "comment": "地域の平和と安定、経済成長を目的に結成されました。",
-      "answerImg": "assets/images/geography/geo_gw_2_16_asean_map_1773837505413.jpg",
+      "answerImg": "assets/images/geography/geo_gw_2_16_asean_map_1773837505413.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東南アジアの大河の河口付近の三角州などで盛んな農業は？",
-      "img": "assets/images/history/h_ancient_rice_farming_1772414609121.jpg",
+      "img": "assets/images/history/h_ancient_rice_farming_1772414609121.webp",
       "choices": [
         "稲作",
         "畑作",
@@ -1041,7 +1041,7 @@ const QUIZ_DATA = {
       ],
       "a": "稲作",
       "comment": "タイのチャオプラヤ川やベトナムのメコン川流域が有名です。",
-      "answerImg": "assets/images/geography/g_gw_1_78_delta_rice_1773410015395.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_78_delta_rice_1773410015395.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1054,12 +1054,12 @@ const QUIZ_DATA = {
       ],
       "a": "二期作",
       "comment": "二毛作は「米と麦」など異なる作物を作ることを指します。",
-      "answerImg": "assets/images/geography/g_gw_2_13_double_cropping_1773376615294.jpg",
+      "answerImg": "assets/images/geography/g_gw_2_13_double_cropping_1773376615294.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "かつて欧米諸国の植民地時代に開かれた、特定の商品作物を大規模に栽培する農園を何というか？",
-      "img": "assets/images/geography/geo_plantation_1771577122087.jpg",
+      "img": "assets/images/geography/geo_plantation_1771577122087.webp",
       "choices": [
         "プランテーション",
         "バイオテクノロジー",
@@ -1068,7 +1068,7 @@ const QUIZ_DATA = {
       ],
       "a": "プランテーション",
       "comment": "天然ゴム、油やし、コーヒー、バナナなどが栽培されています。",
-      "answerImg": "assets/images/geography/g_gw_1_80_plantation_1773410052167.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_80_plantation_1773410052167.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1081,7 +1081,7 @@ const QUIZ_DATA = {
       ],
       "a": "油やし（パーム油）",
       "comment": "アブラヤシから採れるパーム油は世界中で利用されています。",
-      "answerImg": "assets/images/geography/g_gw_1_81_oil_palm_1773410075494.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_81_oil_palm_1773410075494.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1094,7 +1094,7 @@ const QUIZ_DATA = {
       ],
       "a": "コーヒー豆",
       "comment": "ブラジルに次ぐ世界第2位の輸出国です（時期による）。",
-      "answerImg": "assets/images/geography/g_gw_1_82_vietnam_coffee_1773410092549.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_82_vietnam_coffee_1773410092549.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1107,12 +1107,12 @@ const QUIZ_DATA = {
       ],
       "a": "イスラム教",
       "comment": "インドネシアは世界最大のイスラム教徒人口を抱える国です。",
-      "answerImg": "assets/images/geography/g_gw_1_83_islam_indonesia_1773410114096.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_83_islam_indonesia_1773410114096.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "フィリピンで多くの人々が信仰している宗教は？",
-      "img": "assets/images/history/h_ancient_christianity_1772414580245.jpg",
+      "img": "assets/images/history/h_ancient_christianity_1772414580245.webp",
       "choices": [
         "キリスト教",
         "イスラム教",
@@ -1121,12 +1121,12 @@ const QUIZ_DATA = {
       ],
       "a": "キリスト教",
       "comment": "かつてスペインの植民地だった影響です。",
-      "answerImg": "assets/images/geography/g_gw_1_84_christianity_philippines_2_1773410130380.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_84_christianity_philippines_2_1773410130380.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "タイやミャンマーなど、インドシナ半島で広く信仰されている宗教は？",
-      "img": "assets/images/history/h_ancient_buddhism_1772414564492.jpg",
+      "img": "assets/images/history/h_ancient_buddhism_1772414564492.webp",
       "choices": [
         "仏教",
         "イスラム教",
@@ -1135,7 +1135,7 @@ const QUIZ_DATA = {
       ],
       "a": "仏教",
       "comment": "町中に多くの寺院があり、僧侶は尊敬されています。",
-      "answerImg": "assets/images/geography/g_gw_1_85_buddhism_indochina_1773410149337.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_85_buddhism_indochina_1773410149337.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1148,7 +1148,7 @@ const QUIZ_DATA = {
       ],
       "a": "アジアNIES",
       "comment": "韓国、台湾、香港、シンガポールの4つを指します。",
-      "answerImg": "assets/images/geography/g_gw_1_88_asian_nies_1773417115708.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_88_asian_nies_1773417115708.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1161,7 +1161,7 @@ const QUIZ_DATA = {
       ],
       "a": "ドイモイ（刷新）",
       "comment": "社会主義体制を維持しつつ、経済の自由化を進めています。",
-      "answerImg": "assets/images/geography/g_gw_1_89_doi_moi_1773417132860.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_89_doi_moi_1773417132860.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1174,7 +1174,7 @@ const QUIZ_DATA = {
       ],
       "a": "中国を抜いて世界1位",
       "comment": "約14億人を超え、世界最大の人口大国となりました。",
-      "answerImg": "assets/images/geography/g_gw_1_90_india_population_1773417148377.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_90_india_population_1773417148377.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1187,7 +1187,7 @@ const QUIZ_DATA = {
       ],
       "a": "ヒンドゥー教",
       "comment": "人口の約8割が信仰しています。",
-      "answerImg": "assets/images/geography/g_gw_1_91_hinduism_1773417174652.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_91_hinduism_1773417174652.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1200,7 +1200,7 @@ const QUIZ_DATA = {
       ],
       "a": "牛",
       "comment": "街中を牛が歩いていても大切に扱われます。",
-      "answerImg": "assets/images/geography/geo_gw_2_29_sacred_cow_1773837519934.jpg",
+      "answerImg": "assets/images/geography/geo_gw_2_29_sacred_cow_1773837519934.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1213,7 +1213,7 @@ const QUIZ_DATA = {
       ],
       "a": "サリー",
       "comment": "色鮮やかな布を体に巻き付けて着ます。",
-      "answerImg": "assets/images/geography/g_gw_1_93_sari_1773417206482.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_93_sari_1773417206482.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1226,12 +1226,12 @@ const QUIZ_DATA = {
       ],
       "a": "カースト制度",
       "comment": "憲法では差別が禁止されていますが、社会慣習として残っています。",
-      "answerImg": "assets/images/geography/g_gw_1_94_caste_system_1773417221738.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_94_caste_system_1773417221738.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "インド南部のベンガルールなどで盛んな、コンピュータ・ソフトウェア関連の産業は？",
-      "img": "assets/images/geography/geo_it_worker_1771577325115.jpg",
+      "img": "assets/images/geography/geo_it_worker_1771577325115.webp",
       "choices": [
         "ICT（情報通信技術）産業",
         "自動車産業",
@@ -1240,7 +1240,7 @@ const QUIZ_DATA = {
       ],
       "a": "ICT（情報通信技術）産業",
       "comment": "アメリカとの時差を利用して24時間体制で開発などができます。",
-      "answerImg": "assets/images/geography/g_gw_1_95_it_bengaluru_1773417236969.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_95_it_bengaluru_1773417236969.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1253,7 +1253,7 @@ const QUIZ_DATA = {
       ],
       "a": "茶",
       "comment": "イギリス植民地時代にプランテーションが開かれました。",
-      "answerImg": "assets/images/geography/g_gw_1_96_assam_tea_1773417262046.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_96_assam_tea_1773417262046.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1266,7 +1266,7 @@ const QUIZ_DATA = {
       ],
       "a": "綿花",
       "comment": "デカン高原のレグール土という土壌が栽培に適しています。",
-      "answerImg": "assets/images/geography/g_gw_1_97_cotton_1773417276053.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_97_cotton_1773417276053.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1279,7 +1279,7 @@ const QUIZ_DATA = {
       ],
       "a": "イスラム教",
       "comment": "聖地メッカに向かって1日5回お祈りをします。",
-      "answerImg": "assets/images/geography/g_gw_1_98_islam_middle_east_1773417289437.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_98_islam_middle_east_1773417289437.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1292,7 +1292,7 @@ const QUIZ_DATA = {
       ],
       "a": "コーラン",
       "comment": "アラビア語で書かれており、翻訳されたものは厳密にはコーランとは認められません。",
-      "answerImg": "assets/images/geography/g_gw_1_99_quran_1773417306299.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_99_quran_1773417306299.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1305,12 +1305,12 @@ const QUIZ_DATA = {
       ],
       "a": "ラマダン",
       "comment": "この期間、日中は水も食事も口にしません。",
-      "answerImg": "assets/images/geography/g_gw_1_100_ramadan_1773417319169.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_100_ramadan_1773417319169.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "ペルシア湾周辺の国々が多く産出する地下資源は？",
-      "img": "assets/images/geography/geo_oil_rig_1771577294360.jpg",
+      "img": "assets/images/geography/geo_oil_rig_1771577294360.webp",
       "choices": [
         "石油（原油）",
         "石炭",
@@ -1319,7 +1319,7 @@ const QUIZ_DATA = {
       ],
       "a": "石油（原油）",
       "comment": "世界有数の産油地帯です。",
-      "answerImg": "assets/images/geography/g_gw_1_103_persian_gulf_oil_1773417533629.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_103_persian_gulf_oil_1773417533629.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1333,11 +1333,11 @@ const QUIZ_DATA = {
       "a": "OPEC（石油輸出国機構）",
       "comment": "サウジアラビアやイランなどが加盟しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_104_opec_1773417552741.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_104_opec_1773417552741.webp"
     },
     {
       "q": "乾燥した地域で、貴重な水がある場所に行われる農業を何というか？",
-      "img": "assets/images/geography/geo_dates_1771577267268.jpg",
+      "img": "assets/images/geography/geo_dates_1771577267268.webp",
       "choices": [
         "オアシス農業",
         "焼畑農業",
@@ -1346,7 +1346,7 @@ const QUIZ_DATA = {
       ],
       "a": "オアシス農業",
       "comment": "ナツメヤシや小麦などが栽培されます。",
-      "answerImg": "assets/images/geography/g_gw_1_105_oasis_agriculture_1773417568605.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_105_oasis_agriculture_1773417568605.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1360,7 +1360,7 @@ const QUIZ_DATA = {
       "a": "遊牧",
       "comment": "モンゴルや西アジアの乾燥地帯で行われています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_106_nomadic_herding_1773417588024.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_106_nomadic_herding_1773417588024.webp"
     },
     {
       "q": "夏と冬で風向きが逆になる風を何というか？",
@@ -1372,7 +1372,7 @@ const QUIZ_DATA = {
       ],
       "a": "季節風（モンスーン）",
       "comment": "夏は海から陸へ、冬は陸から海へ吹き、雨季と乾季をもたらします。",
-      "answerImg": "assets/images/geography/g_gw_1_107_monsoon_1773417604026.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_107_monsoon_1773417604026.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1385,7 +1385,7 @@ const QUIZ_DATA = {
       ],
       "a": "ヒマラヤ山脈",
       "comment": "最高峰エベレスト（チョモランマ）があります。",
-      "answerImg": "assets/images/geography/g_gw_2_14_himalayas_1773376629006.jpg",
+      "answerImg": "assets/images/geography/g_gw_2_14_himalayas_1773376629006.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1398,7 +1398,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウラル山脈",
       "comment": "ロシアの中を南北に走っています。",
-      "answerImg": "assets/images/geography/g_gw_1_109_ural_mountains_1773417633124.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_109_ural_mountains_1773417633124.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1411,7 +1411,7 @@ const QUIZ_DATA = {
       ],
       "a": "ペルシア湾",
       "comment": "日本に輸入される原油の多くがここを通ります。",
-      "answerImg": "assets/images/geography/g_gw_1_110_strait_of_hormuz_1773417647135.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_110_strait_of_hormuz_1773417647135.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1424,12 +1424,12 @@ const QUIZ_DATA = {
       ],
       "a": "レアメタル",
       "comment": "携帯電話やハイテク製品の製造に不可欠な金属です。",
-      "answerImg": "assets/images/geography/g_gw_1_111_rare_metals_1773417670401.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_111_rare_metals_1773417670401.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "アンコール・ワットなどの遺跡がある東南アジアの国は？",
-      "img": "assets/images/geography/geo_angkor_wat_1771577387899.jpg",
+      "img": "assets/images/geography/geo_angkor_wat_1771577387899.webp",
       "choices": [
         "カンボジア",
         "タイ",
@@ -1438,7 +1438,7 @@ const QUIZ_DATA = {
       ],
       "a": "カンボジア",
       "comment": "国旗にもアンコール・ワットが描かれています。",
-      "answerImg": "assets/images/geography/g_gw_1_112_angkor_wat_1773417685497.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_112_angkor_wat_1773417685497.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1451,12 +1451,12 @@ const QUIZ_DATA = {
       ],
       "a": "BRICS",
       "comment": "経済発展が著しく、世界経済への影響力を強めています。",
-      "answerImg": "assets/images/geography/geo_gw_2_48_brics_map_1773837533836.jpg",
+      "answerImg": "assets/images/geography/geo_gw_2_48_brics_map_1773837533836.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "イスラム教徒の女性が外出時に身につける、髪や肌を覆う布を何というか？",
-      "img": "assets/images/geography/geo_chador_1771576874789.jpg",
+      "img": "assets/images/geography/geo_chador_1771576874789.webp",
       "choices": [
         "チャドル（ヒジャブ）",
         "サリー",
@@ -1465,7 +1465,7 @@ const QUIZ_DATA = {
       ],
       "a": "チャドル（ヒジャブ）",
       "comment": "国や地域によって呼び名や形が異なります。",
-      "answerImg": "assets/images/geography/g_gw_1_114_hijab_1773417714540.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_114_hijab_1773417714540.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1478,7 +1478,7 @@ const QUIZ_DATA = {
       ],
       "a": "都市問題",
       "comment": "急速な都市化にインフラ整備が追いついていないことが原因です。",
-      "answerImg": "assets/images/geography/g_gw_1_116_urban_issues_1773417757911.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_116_urban_issues_1773417757911.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1491,7 +1491,7 @@ const QUIZ_DATA = {
       ],
       "a": "乾燥帯（砂漠気候）",
       "comment": "国土の大部分が砂漠におおわれています。",
-      "answerImg": "assets/images/geography/g_gw_1_117_saudi_desert_1773417774192.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_117_saudi_desert_1773417774192.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1505,7 +1505,7 @@ const QUIZ_DATA = {
       "a": "環太平洋造山帯",
       "comment": "日本もここに含まれ、地震や火山が多いです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_7_35_pacific_ring_1773397893610.jpg"
+      "answerImg": "assets/images/geography/g_gw_7_35_pacific_ring_1773397893610.webp"
     },
     {
       "q": "マレーシアがかつて目指した、日本や韓国の経済発展を見習おうという政策は？",
@@ -1517,7 +1517,7 @@ const QUIZ_DATA = {
       ],
       "a": "ルックイースト政策",
       "comment": "マハティール首相が提唱しました。",
-      "answerImg": "assets/images/geography/g_gw_1_119_look_east_policy_1773417801375.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_119_look_east_policy_1773417801375.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1530,7 +1530,7 @@ const QUIZ_DATA = {
       ],
       "a": "西アジア（中東）",
       "comment": "サウジアラビアやアラブ首長国連邦などからの輸入が多いです。",
-      "answerImg": "assets/images/geography/g_gw_1_120_oil_import_1773417817540.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_120_oil_import_1773417817540.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1543,7 +1543,7 @@ const QUIZ_DATA = {
       ],
       "a": "元",
       "comment": "「人民元」とも呼ばれます。",
-      "answerImg": "assets/images/geography/g_gw_1_121_yuan_1773417836666.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_121_yuan_1773417836666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1556,7 +1556,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウォン",
       "comment": "K-POPやドラマなどの文化輸出も盛んです。",
-      "answerImg": "assets/images/geography/g_gw_1_122_won_1773417850204.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_122_won_1773417850204.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1569,12 +1569,12 @@ const QUIZ_DATA = {
       ],
       "a": "中国",
       "comment": "所得の向上により、巨大な消費市場としても注目されています。",
-      "answerImg": "assets/images/geography/g_gw_1_123_factory_of_the_world_1773417863372.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_123_factory_of_the_world_1773417863372.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "インドにある、ムガル帝国の皇帝が愛妃のために建てた白大理石の美しい廟（お墓）は？",
-      "img": "assets/images/geography/gw_asia_tajmahal_1771578460695.jpg",
+      "img": "assets/images/geography/gw_asia_tajmahal_1771578460695.webp",
       "choices": [
         "タージ・マハル",
         "アンコール・ワット",
@@ -1583,12 +1583,12 @@ const QUIZ_DATA = {
       ],
       "a": "タージ・マハル",
       "comment": "世界遺産に登録されており、イスラム建築の傑作とされています。",
-      "answerImg": "assets/images/geography/g_gw_1_124_taj_mahal_1773417877736.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_124_taj_mahal_1773417877736.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中国の長江中流に建設された、世界最大級の水力発電用ダムは？",
-      "img": "assets/images/geography/geo_three_gorges_dam_1771577417498.jpg",
+      "img": "assets/images/geography/geo_three_gorges_dam_1771577417498.webp",
       "choices": [
         "三峡ダム",
         "アスワン・ハイ・ダム",
@@ -1597,12 +1597,12 @@ const QUIZ_DATA = {
       ],
       "a": "三峡ダム",
       "comment": "洪水防止や水力発電の目的で作られましたが、環境への影響も懸念されています。",
-      "answerImg": "assets/images/geography/g_gw_1_126_three_gorges_dam_1773417948634.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_126_three_gorges_dam_1773417948634.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東南アジアなどの蒸し暑い地域で見られる、風通しを良くし、湿気や動物を防ぐための住居は？",
-      "img": "assets/images/geography/geo_stilt_house_1771576783281.jpg",
+      "img": "assets/images/geography/geo_stilt_house_1771576783281.webp",
       "choices": [
         "高床式の住居",
         "石造りの家",
@@ -1611,12 +1611,12 @@ const QUIZ_DATA = {
       ],
       "a": "高床式の住居",
       "comment": "床を高くすることで、涼しく過ごせる工夫がされています。",
-      "answerImg": "assets/images/geography/g_gw_1_127_stilt_house_asia_1773417962078.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_127_stilt_house_asia_1773417962078.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "アジア州の中で人口や面積が非常に大きく、首都を北京とするこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_2_61.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_2_61.webp",
       "choices": [
         "中国",
         "インド",
@@ -1625,12 +1625,12 @@ const QUIZ_DATA = {
       ],
       "a": "中国",
       "comment": "世界有数の経済大国です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_2_61.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_2_61.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "南アジアに位置し、IT産業が盛んで、近年人口が世界一となったこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_2_62.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_2_62.webp",
       "choices": [
         "インド",
         "パキスタン",
@@ -1639,12 +1639,12 @@ const QUIZ_DATA = {
       ],
       "a": "インド",
       "comment": "ヒンドゥー教徒が多い国です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_2_62.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_2_62.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "西アジア（中東）にあり、世界有数の石油の産出国であるこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_2_63.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_2_63.webp",
       "choices": [
         "サウジアラビア",
         "イラン",
@@ -1653,7 +1653,7 @@ const QUIZ_DATA = {
       ],
       "a": "サウジアラビア",
       "comment": "イスラム教の聖地メッカがあります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_2_63.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_2_63.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
@@ -1668,7 +1668,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウラル山脈",
       "comment": "ロシア連邦はこの山脈を境にヨーロッパ側とアジア側に分けられます。",
-      "answerImg": "assets/images/geography/geo_gw_3_0_ural_mountains_1773837548704.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_0_ural_mountains_1773837548704.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1681,7 +1681,7 @@ const QUIZ_DATA = {
       ],
       "a": "ロッキー山脈",
       "comment": "標高が高く険しい山脈で、環太平洋造山帯の一部です。",
-      "answerImg": "assets/images/geography/geo_gw_3_41_rocky_mountains_1773839206005.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_41_rocky_mountains_1773839206005.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1694,7 +1694,7 @@ const QUIZ_DATA = {
       ],
       "a": "乾燥帯",
       "comment": "西経100度を境に、西側は降水量が少なく乾燥帯（ステップ気候や砂漠気候）が広がります。",
-      "answerImg": "assets/images/geography/geo_gw_3_46_dry_climate_1773840662961.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_46_dry_climate_1773840662961.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1707,7 +1707,7 @@ const QUIZ_DATA = {
       ],
       "a": "適地適作",
       "comment": "広大な土地と大型機械を利用し、合理的に農業を行っています。",
-      "answerImg": "assets/images/geography/geo_gw_3_51_crop_matching_1773840825796.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_51_crop_matching_1773840825796.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1720,7 +1720,7 @@ const QUIZ_DATA = {
       ],
       "a": "アボリジニ",
       "comment": "独自の文化や言語を持ち、古くから自然と結びついた生活を送ってきました。",
-      "answerImg": "assets/images/geography/geo_gw_3_56_aboriginal_1773841020920.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_56_aboriginal_1773841020920.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1733,7 +1733,7 @@ const QUIZ_DATA = {
       ],
       "a": "エルサレム",
       "comment": "地中海東岸にあり、長年にわたり宗教的な対立の場にもなっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_61_jerusalem_1773841259525.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_61_jerusalem_1773841259525.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1746,7 +1746,7 @@ const QUIZ_DATA = {
       ],
       "a": "緯線や経線",
       "comment": "そのため、アフリカの国境線は現在でも直線的なものが多く見られます。",
-      "answerImg": "assets/images/geography/geo_gw_3_66_straight_borders_1773841457749.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_66_straight_borders_1773841457749.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1759,7 +1759,7 @@ const QUIZ_DATA = {
       ],
       "a": "大地溝帯（グレートリフトバレー）",
       "comment": "この周辺にはキリマンジャロなどの高い山や深く細長い湖が多く存在します。",
-      "answerImg": "assets/images/geography/geo_gw_3_71_great_rift_valley_1773841771969.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_71_great_rift_valley_1773841771969.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1772,7 +1772,7 @@ const QUIZ_DATA = {
       ],
       "a": "インカ帝国",
       "comment": "マチュピチュなどの高度な石造建築技術を用いた遺跡が現在も残っています。",
-      "answerImg": "assets/images/geography/geo_gw_3_76_inca_empire_1773841947662.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_76_inca_empire_1773841947662.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1785,7 +1785,7 @@ const QUIZ_DATA = {
       ],
       "a": "温室効果ガス",
       "comment": "これらのガスが増えることで、地球全体の平均気温が少しずつ上昇しています。",
-      "answerImg": "assets/images/geography/geo_gw_3_81_greenhouse_gas_1773842129929.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_81_greenhouse_gas_1773842129929.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1798,7 +1798,7 @@ const QUIZ_DATA = {
       ],
       "a": "高山気候",
       "comment": "標高が高いため、赤道付近でも涼しく過ごしやすい気候になっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_86_highland_climate_1773842363763.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_86_highland_climate_1773842363763.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1811,7 +1811,7 @@ const QUIZ_DATA = {
       ],
       "a": "経線",
       "comment": "経度はイギリスのロンドンを通る本初子午線を0度として、東西にそれぞれ180度ずつ表します。",
-      "answerImg": "assets/images/geography/geo_gw_3_91_longitude_1773842605100.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_91_longitude_1773842605100.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1824,7 +1824,7 @@ const QUIZ_DATA = {
       ],
       "a": "緯線",
       "comment": "緯度は赤道を0度として、南北にそれぞれ90度ずつ表します。",
-      "answerImg": "assets/images/geography/geo_gw_3_92_latitude_1773842619277.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_92_latitude_1773842619277.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1837,7 +1837,7 @@ const QUIZ_DATA = {
       ],
       "a": "太平洋",
       "comment": "地球上の海洋面積の約半分を占めています。",
-      "answerImg": "assets/images/geography/geo_gw_3_93_pacific_ocean_1773842633232.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_93_pacific_ocean_1773842633232.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1850,7 +1850,7 @@ const QUIZ_DATA = {
       ],
       "a": "大西洋",
       "comment": "かつてヨーロッパから新大陸へ向かう航路として重要な役割を果たしました。",
-      "answerImg": "assets/images/geography/geo_gw_3_94_atlantic_ocean_1773842645375.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_94_atlantic_ocean_1773842645375.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1863,7 +1863,7 @@ const QUIZ_DATA = {
       ],
       "a": "インド洋",
       "comment": "世界で3番目に大きな大洋で、古くから季節風を利用した交易が盛んでした。",
-      "answerImg": "assets/images/geography/geo_gw_3_95_indian_ocean_reused.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_95_indian_ocean_reused.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1876,7 +1876,7 @@ const QUIZ_DATA = {
       ],
       "a": "地中海性気候",
       "comment": "夏の乾燥に強いオリーブやぶどうなどの栽培が盛んに行われています。",
-      "answerImg": "assets/images/geography/geo_gw_3_87_mediterranean_climate_1773842377436.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_87_mediterranean_climate_1773842377436.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1889,7 +1889,7 @@ const QUIZ_DATA = {
       ],
       "a": "季節風",
       "comment": "夏は海から、冬は大陸から吹き、地域の気候や農業に大きな影響を与えます。",
-      "answerImg": "assets/images/geography/geo_gw_3_88_monsoon_1773842396686.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_88_monsoon_1773842396686.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1902,7 +1902,7 @@ const QUIZ_DATA = {
       ],
       "a": "9時間",
       "comment": "東経135度 ÷ 15度 ＝ 9時間 となります。日本の方がロンドンより9時間時間が進んでいます。",
-      "answerImg": "assets/images/geography/geo_gw_3_89_time_difference_9h_1773842412013.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_89_time_difference_9h_1773842412013.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1915,7 +1915,7 @@ const QUIZ_DATA = {
       ],
       "a": "1時間",
       "comment": "地球は1日（24時間）で1周（360度）自転するため、360 ÷ 24 ＝ 15度 となります。",
-      "answerImg": "assets/images/geography/geo_gw_3_90_time_difference_1h_1773842428372.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_90_time_difference_1h_1773842428372.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1928,7 +1928,7 @@ const QUIZ_DATA = {
       ],
       "a": "ロンドン",
       "comment": "かつての旧グリニッジ天文台を通る経線（経度0度）を世界の時間の基準としています。",
-      "answerImg": "assets/images/geography/geo_gw_3_82_london_meridian_1773842147097.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_82_london_meridian_1773842147097.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1941,7 +1941,7 @@ const QUIZ_DATA = {
       ],
       "a": "熱帯",
       "comment": "熱帯雨林やサバンナなどが広がっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_83_tropical_zone_1773842164068.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_83_tropical_zone_1773842164068.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1954,7 +1954,7 @@ const QUIZ_DATA = {
       ],
       "a": "温帯",
       "comment": "日本のほか、西ヨーロッパやアメリカ合衆国の東部などもこの気候帯に含まれます。",
-      "answerImg": "assets/images/geography/geo_gw_3_84_temperate_zone_1773842179603.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_84_temperate_zone_1773842179603.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1967,7 +1967,7 @@ const QUIZ_DATA = {
       ],
       "a": "寒帯",
       "comment": "ツンドラ気候や氷雪気候に分類され、コケ類が育つ程度で農業には向きません。",
-      "answerImg": "assets/images/geography/geo_gw_3_85_polar_zone_1773842194118.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_85_polar_zone_1773842194118.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1980,7 +1980,7 @@ const QUIZ_DATA = {
       ],
       "a": "ブラジル",
       "comment": "アマゾン川流域には熱帯雨林が広がっています。公用語はポルトガル語です。",
-      "answerImg": "assets/images/geography/geo_gw_3_77_brazil_1773841959807.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_77_brazil_1773841959807.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -1993,7 +1993,7 @@ const QUIZ_DATA = {
       ],
       "a": "パンパ",
       "comment": "温暖な気候を活かして、小麦やとうもろこしの栽培、牛や羊の放牧などが盛んに行われています。",
-      "answerImg": "assets/images/geography/geo_gw_3_78_pampas_1773841973944.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_78_pampas_1773841973944.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2006,7 +2006,7 @@ const QUIZ_DATA = {
       ],
       "a": "バイオエタノール",
       "comment": "化石燃料の代わりとなる環境にやさしいエネルギーとして注目・利用されています。",
-      "answerImg": "assets/images/geography/geo_gw_3_79_bioethanol_1773841990427.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_79_bioethanol_1773841990427.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2019,7 +2019,7 @@ const QUIZ_DATA = {
       ],
       "a": "エルニーニョ現象",
       "comment": "逆に海面水温が平年より低くなる現象をラニーニャ現象と呼びます。",
-      "answerImg": "assets/images/geography/geo_gw_3_80_elnino_1773842007385.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_80_elnino_1773842007385.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2032,7 +2032,7 @@ const QUIZ_DATA = {
       ],
       "a": "黒人奴隷",
       "comment": "大西洋をまたぐ三角貿易によって、多くのアフリカの人々が故郷を奪われました。",
-      "answerImg": "assets/images/geography/geo_gw_3_72_slave_trade_1773841789178.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_72_slave_trade_1773841789178.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2045,7 +2045,7 @@ const QUIZ_DATA = {
       ],
       "a": "コートジボワール",
       "comment": "隣国のガーナもカカオ豆の生産と輸出で有名です。",
-      "answerImg": "assets/images/geography/geo_gw_3_73_cote_divoire_1773841807288.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_73_cote_divoire_1773841807288.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2058,7 +2058,7 @@ const QUIZ_DATA = {
       ],
       "a": "モノカルチャー経済",
       "comment": "天候や国際価格の変動によって国の収入が不安定になりやすいという問題があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_74_monoculture_economy_1773841820192.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_74_monoculture_economy_1773841820192.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2071,7 +2071,7 @@ const QUIZ_DATA = {
       ],
       "a": "アフリカ連合（AU）",
       "comment": "2002年にアフリカ統一機構（OAU）から発展して発足し、問題の解決に取り組んでいます。",
-      "answerImg": "assets/images/geography/geo_gw_3_75_african_union_1773841833901.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_75_african_union_1773841833901.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2084,7 +2084,7 @@ const QUIZ_DATA = {
       ],
       "a": "南アフリカ共和国",
       "comment": "かつてはアパルトヘイトという人種隔離政策が行われていました。",
-      "answerImg": "assets/images/geography/geo_gw_3_67_south_africa_1773841473557.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_67_south_africa_1773841473557.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2097,7 +2097,7 @@ const QUIZ_DATA = {
       ],
       "a": "アパルトヘイト",
       "comment": "国際的な非難を受け、1991年に関連法が廃止されました。",
-      "answerImg": "assets/images/geography/geo_gw_3_68_apartheid_1773841486574.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_68_apartheid_1773841486574.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2110,7 +2110,7 @@ const QUIZ_DATA = {
       ],
       "a": "砂漠化",
       "comment": "過度な放牧や伐採、干ばつなどが原因とされています。",
-      "answerImg": "assets/images/geography/geo_gw_3_69_desertification_1773841503698.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_69_desertification_1773841503698.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2123,7 +2123,7 @@ const QUIZ_DATA = {
       ],
       "a": "ナイル川",
       "comment": "古代から農業用水や交通路として周辺の人々の生活を支えてきました。",
-      "answerImg": "assets/images/geography/geo_gw_3_70_nile_river_1773841520494.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_70_nile_river_1773841520494.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2136,7 +2136,7 @@ const QUIZ_DATA = {
       ],
       "a": "オアシス",
       "comment": "人々はオアシスの周辺に集まり、農業を行ったり集落を作ったりしています。",
-      "answerImg": "assets/images/geography/geo_gw_3_62_oasis_1773841273887.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_62_oasis_1773841273887.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2149,7 +2149,7 @@ const QUIZ_DATA = {
       ],
       "a": "石油（原油）",
       "comment": "サウジアラビアやアラブ首長国連邦などで豊富に産出されます。",
-      "answerImg": "assets/images/geography/geo_gw_3_63_oil_1773841288403.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_63_oil_1773841288403.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2162,7 +2162,7 @@ const QUIZ_DATA = {
       ],
       "a": "イスラム教",
       "comment": "豚肉を食べない、断食（ラマダン）を行うなどの戒律があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_64_islam_1773841304055.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_64_islam_1773841304055.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2175,7 +2175,7 @@ const QUIZ_DATA = {
       ],
       "a": "モスク",
       "comment": "イスラム教徒（ムスリム）が日に5回の礼拝を行う神聖な場所です。",
-      "answerImg": "assets/images/geography/geo_gw_3_65_mosque_1773841318031.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_65_mosque_1773841318031.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2188,7 +2188,7 @@ const QUIZ_DATA = {
       ],
       "a": "グレートバリアリーフ",
       "comment": "世界遺産にも登録されており、美しい海に多様な海洋生物が生息しています。",
-      "answerImg": "assets/images/geography/geo_gw_3_57_great_barrier_reef_1773841037878.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_57_great_barrier_reef_1773841037878.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2201,7 +2201,7 @@ const QUIZ_DATA = {
       ],
       "a": "マオリ",
       "comment": "独自の文化を持ち、伝統的な踊り「ハカ」なども有名です。",
-      "answerImg": "assets/images/geography/geo_gw_3_58_maori_1773841053715.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_58_maori_1773841053715.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2214,7 +2214,7 @@ const QUIZ_DATA = {
       ],
       "a": "白豪主義",
       "comment": "現在はこの政策は廃止され、多様な文化や民族を認める「多文化主義」がとられています。",
-      "answerImg": "assets/images/geography/geo_gw_3_59_white_australia_policy_1773841069420.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_59_white_australia_policy_1773841069420.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2227,7 +2227,7 @@ const QUIZ_DATA = {
       ],
       "a": "鉄鉱石",
       "comment": "オーストラリアでは西部で鉄鉱石、東部で石炭が多く産出され、日本への輸出も多いです。",
-      "answerImg": "assets/images/geography/geo_gw_3_60_iron_ore_1773841083616.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_60_iron_ore_1773841083616.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2240,7 +2240,7 @@ const QUIZ_DATA = {
       ],
       "a": "カリフォルニア州",
       "comment": "サンフランシスコ郊外のシリコンバレーには、多くのIT関連企業が集まっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_52_california_1773840839744.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_52_california_1773840839744.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2253,7 +2253,7 @@ const QUIZ_DATA = {
       ],
       "a": "クスコ",
       "comment": "高度な石造建築技術を用いた遺跡が多く残っています。",
-      "answerImg": "assets/images/geography/geo_gw_3_53_cusco_1773840856120.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_53_cusco_1773840856120.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2266,7 +2266,7 @@ const QUIZ_DATA = {
       ],
       "a": "アマゾン川",
       "comment": "流域には世界最大の熱帯雨林（セルバ）が広がっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_54_amazon_river_1773840869899.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_54_amazon_river_1773840869899.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2279,7 +2279,7 @@ const QUIZ_DATA = {
       ],
       "a": "ポルトガル語",
       "comment": "南アメリカではブラジル以外の多くの国でスペイン語が話されていますが、ブラジルはポルトガル語です。",
-      "answerImg": "assets/images/geography/geo_gw_3_55_portuguese_language_1773840885259.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_55_portuguese_language_1773840885259.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2292,7 +2292,7 @@ const QUIZ_DATA = {
       ],
       "a": "ハリケーン",
       "comment": "カリブ海やメキシコ湾などで発生し、大きな被害をもたらすことがあります。",
-      "answerImg": "assets/images/geography/geo_gw_3_47_hurricane_1773840677243.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_47_hurricane_1773840677243.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2305,7 +2305,7 @@ const QUIZ_DATA = {
       ],
       "a": "ネイティブ・アメリカン",
       "comment": "独自の文化や言語を持って自然と共生する生活を送っていました。",
-      "answerImg": "assets/images/geography/geo_gw_3_48_native_american_1773840694394.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_48_native_american_1773840694394.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2318,7 +2318,7 @@ const QUIZ_DATA = {
       ],
       "a": "プロテスタント",
       "comment": "イギリス系などの移民が多く持ち込んだため、広く信仰されています。",
-      "answerImg": "assets/images/geography/geo_gw_3_49_protestant_1773840712413.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_49_protestant_1773840712413.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2331,7 +2331,7 @@ const QUIZ_DATA = {
       ],
       "a": "ヒスパニック",
       "comment": "近年、アメリカ合衆国において特に南部の州などで人口が大きく増加しています。",
-      "answerImg": "assets/images/geography/geo_gw_3_50_hispanic_1773840727377.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_50_hispanic_1773840727377.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2344,7 +2344,7 @@ const QUIZ_DATA = {
       ],
       "a": "アパラチア山脈",
       "comment": "古くからあるため浸食が進み、なだらかな山脈になっています。石炭が豊富です。",
-      "answerImg": "assets/images/geography/geo_gw_3_42_appalachian_mountains_1773839221419.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_42_appalachian_mountains_1773839221419.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2357,7 +2357,7 @@ const QUIZ_DATA = {
       ],
       "a": "ミシシッピ川",
       "comment": "北アメリカで最も長い川の一つで、流域では農業が盛んです。",
-      "answerImg": "assets/images/geography/geo_gw_3_43_mississippi_river_1773839235841.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_43_mississippi_river_1773839235841.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2370,7 +2370,7 @@ const QUIZ_DATA = {
       ],
       "a": "五大湖",
       "comment": "スペリオル湖、ミシガン湖、ヒューロン湖、エリー湖、オンタリオ湖の5つです。周辺は工業が発達しています。",
-      "answerImg": "assets/images/geography/geo_gw_3_44_great_lakes_1773839251026.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_44_great_lakes_1773839251026.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2383,7 +2383,7 @@ const QUIZ_DATA = {
       ],
       "a": "西経100度",
       "comment": "この経線を境に、東側は降水量が多く、西側は乾燥した気候になっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_45_100th_meridian_west_1773839266672.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_45_100th_meridian_west_1773839266672.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2396,12 +2396,12 @@ const QUIZ_DATA = {
       ],
       "a": "アルプス山脈",
       "comment": "最高峰はモンブラン（標高4810m）です。",
-      "answerImg": "assets/images/geography/geo_gw_3_1_alps_1773837692813.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_1_alps_1773837692813.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "スカンディナビア半島などで見られる、氷河によって削られてできた複雑な海岸線を何というか？",
-      "img": "assets/images/geography/geo_fjord_1771577453788.jpg",
+      "img": "assets/images/geography/geo_fjord_1771577453788.webp",
       "choices": [
         "フィヨルド",
         "リアス海岸",
@@ -2410,7 +2410,7 @@ const QUIZ_DATA = {
       ],
       "a": "フィヨルド",
       "comment": "奥深く入り込んだ湾が特徴で、良港となります。",
-      "answerImg": "assets/images/geography/geo_gw_3_2_fjord_1773837706408.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_2_fjord_1773837706408.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2423,9 +2423,9 @@ const QUIZ_DATA = {
       ],
       "a": "国際河川",
       "comment": "ライン川やドナウ川が代表的で、外国船が自由に航行できます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_3.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_3.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_3_3.jpg"
+      "img": "assets/images/geography/custom_maps/custom_map_gw_3_3.webp"
     },
     {
       "q": "アルプス山脈から北海に注ぐ、ヨーロッパの重要な水上交通路となっている川は？",
@@ -2437,7 +2437,7 @@ const QUIZ_DATA = {
       ],
       "a": "ライン川",
       "comment": "河口にはユーロポート（オランダ）があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_4_rhine_river_1773837735390.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_4_rhine_river_1773837735390.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2450,9 +2450,9 @@ const QUIZ_DATA = {
       ],
       "a": "西岸海洋性気候",
       "comment": "ロンドンやパリなどが含まれます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_5.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_5.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_3_5.jpg"
+      "img": "assets/images/geography/custom_maps/custom_map_gw_3_5.webp"
     },
     {
       "q": "ヨーロッパ西岸沖を流れる暖流を何というか？",
@@ -2465,12 +2465,12 @@ const QUIZ_DATA = {
       "a": "北大西洋海流",
       "comment": "この暖流の上を偏西風が吹き、暖かさを運びます。",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_6.jpg",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_3_6.jpg"
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_6.webp",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_3_6.webp"
     },
     {
       "q": "地中海沿岸で見られる、夏は乾燥し冬に雨が降る気候は？",
-      "img": "assets/images/geography/g_special_mediterranean_climate_1773760512743.jpg",
+      "img": "assets/images/geography/g_special_mediterranean_climate_1773760512743.webp",
       "choices": [
         "地中海性気候",
         "西岸海洋性気候",
@@ -2479,7 +2479,7 @@ const QUIZ_DATA = {
       ],
       "a": "地中海性気候",
       "comment": "夏はほとんど雨が降らず、日差しが強いです。",
-      "answerImg": "assets/images/geography/geo_gw_3_7_mediterranean_climate_1773837837570.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_7_mediterranean_climate_1773837837570.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2492,12 +2492,12 @@ const QUIZ_DATA = {
       ],
       "a": "白夜",
       "comment": "冬には逆に太陽が昇らない「極夜」が見られます。",
-      "answerImg": "assets/images/geography/geo_gw_3_8_midnight_sun_1773837853181.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_8_midnight_sun_1773837853181.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地中海沿岸で盛んな、夏の乾燥に強い作物を育てる農業を何というか？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_3_9.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_3_9.webp",
       "choices": [
         "地中海式農業",
         "混合農業",
@@ -2506,12 +2506,12 @@ const QUIZ_DATA = {
       ],
       "a": "地中海式農業",
       "comment": "オリーブ、ブドウ、オレンジ、コルクガシなどが栽培されます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_9.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_9.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "イタリアやフランス、スペインなどで作られる、ブドウを原料としたお酒は？",
-      "img": "assets/images/geography/geo_grapes_1771577200021.jpg",
+      "img": "assets/images/geography/geo_grapes_1771577200021.webp",
       "choices": [
         "ワイン",
         "ビール",
@@ -2520,7 +2520,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワイン",
       "comment": "地中海の気候がブドウ栽培に適しています。",
-      "answerImg": "assets/images/geography/geo_gw_3_10_wine_1773837881314.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_10_wine_1773837881314.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2533,7 +2533,7 @@ const QUIZ_DATA = {
       ],
       "a": "混合農業",
       "comment": "小麦やライ麦などの栽培と、豚や牛の飼育を組み合わせます。",
-      "answerImg": "assets/images/geography/geo_gw_3_11_mixed_farming_1773837997105.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_11_mixed_farming_1773837997105.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2546,7 +2546,7 @@ const QUIZ_DATA = {
       ],
       "a": "酪農",
       "comment": "バターやチーズなどの乳製品が生産・輸出されています。",
-      "answerImg": "assets/images/geography/geo_gw_3_12_dairy_farming_1773838012747.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_12_dairy_farming_1773838012747.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2559,7 +2559,7 @@ const QUIZ_DATA = {
       ],
       "a": "EU（ヨーロッパ連合）",
       "comment": "European Unionの略です。本部はブリュッセル（ベルギー）にあります。",
-      "answerImg": "assets/images/geography/geo_gw_3_13_european_union_1773838030719.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_13_european_union_1773838030719.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2572,7 +2572,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユーロ",
       "comment": "国境を越えた経済活動がスムーズになりました。",
-      "answerImg": "assets/images/geography/geo_gw_3_14_euro_currency_1773838048188.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_14_euro_currency_1773838048188.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2585,7 +2585,7 @@ const QUIZ_DATA = {
       ],
       "a": "パスポートの提示（入国審査）",
       "comment": "シェンゲン協定により、国境検査なしで移動できます。",
-      "answerImg": "assets/images/geography/geo_gw_3_15_schengen_area_1773838065654.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_15_schengen_area_1773838065654.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2598,7 +2598,7 @@ const QUIZ_DATA = {
       ],
       "a": "重化学工業",
       "comment": "かつては炭田と鉄鉱石を結びつけて発展しました。",
-      "answerImg": "assets/images/geography/geo_gw_3_16_ruhr_industry_1773838162072.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_16_ruhr_industry_1773838162072.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2611,7 +2611,7 @@ const QUIZ_DATA = {
       ],
       "a": "航空機",
       "comment": "エアバス社が有名で、EU各国が部品を製造して組み立てています。",
-      "answerImg": "assets/images/geography/geo_gw_3_17_airbus_toulouse_1773838176661.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_17_airbus_toulouse_1773838176661.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2624,7 +2624,7 @@ const QUIZ_DATA = {
       ],
       "a": "北海原油（石油）",
       "comment": "パイプラインでヨーロッパ各地に送られています。",
-      "answerImg": "assets/images/geography/geo_gw_3_18_north_sea_oil_1773838190463.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_18_north_sea_oil_1773838190463.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2637,7 +2637,7 @@ const QUIZ_DATA = {
       ],
       "a": "ポルダー",
       "comment": "国土の4分の1が海面より低いオランダならではの土地です。",
-      "answerImg": "assets/images/geography/geo_gw_3_19_polder_1773838204188.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_19_polder_1773838204188.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2650,7 +2650,7 @@ const QUIZ_DATA = {
       ],
       "a": "イギリス",
       "comment": "綿織物工業から機械工業へと発展しました。",
-      "answerImg": "assets/images/geography/geo_gw_3_20_industrial_revolution_1773838221252.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_20_industrial_revolution_1773838221252.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2663,7 +2663,7 @@ const QUIZ_DATA = {
       ],
       "a": "フランス",
       "comment": "食料自給率が高く、農業大国として知られています。",
-      "answerImg": "assets/images/geography/geo_gw_3_21_france_1773838326688.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_21_france_1773838326688.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2676,12 +2676,12 @@ const QUIZ_DATA = {
       ],
       "a": "ドイツ",
       "comment": "ベンツ、BMW、フォルクスワーゲンなどの自動車メーカーが有名です。",
-      "answerImg": "assets/images/geography/geo_gw_3_22_germany_1773838342355.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_22_germany_1773838342355.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "長靴のような形をした半島に位置し、北部のミラノなどで服飾産業が盛んな国は？",
-      "img": "assets/images/geography/gw_europe_colosseum_1771578620609.jpg",
+      "img": "assets/images/geography/gw_europe_colosseum_1771578620609.webp",
       "choices": [
         "イタリア",
         "ギリシャ",
@@ -2690,7 +2690,7 @@ const QUIZ_DATA = {
       ],
       "a": "イタリア",
       "comment": "「第3のイタリア」と呼ばれる地域では中小企業による職人技が光ります。",
-      "answerImg": "assets/images/geography/geo_gw_3_23_italy_1773838356094.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_23_italy_1773838356094.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2703,7 +2703,7 @@ const QUIZ_DATA = {
       ],
       "a": "スイス",
       "comment": "国際連合（UN）の欧州本部などが置かれています。",
-      "answerImg": "assets/images/geography/geo_gw_3_24_switzerland_1773838373819.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_24_switzerland_1773838373819.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2716,7 +2716,7 @@ const QUIZ_DATA = {
       ],
       "a": "モスクワ",
       "comment": "政治・経済の中心地です。",
-      "answerImg": "assets/images/geography/geo_gw_3_25_moscow_1773838389734.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_25_moscow_1773838389734.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2729,7 +2729,7 @@ const QUIZ_DATA = {
       ],
       "a": "チェルノーゼム（黒土）",
       "comment": "小麦の大産地となっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_26_chernozem_1773838562333.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_26_chernozem_1773838562333.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2742,7 +2742,7 @@ const QUIZ_DATA = {
       ],
       "a": "シベリア鉄道",
       "comment": "モスクワからウラジオストクまでを結んでいます。",
-      "answerImg": "assets/images/geography/geo_gw_3_27_trans_siberian_railway_1773838577823.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_27_trans_siberian_railway_1773838577823.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2755,7 +2755,7 @@ const QUIZ_DATA = {
       ],
       "a": "キリスト教",
       "comment": "プロテスタント、カトリック、正教会などに分かれています。",
-      "answerImg": "assets/images/geography/geo_gw_3_28_christianity_europe_1773838593576.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_28_christianity_europe_1773838593576.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2768,7 +2768,7 @@ const QUIZ_DATA = {
       ],
       "a": "プロテスタント",
       "comment": "ゲルマン系言語を話す人々に多い傾向があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_29_protestantism_1773838611839.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_29_protestantism_1773838611839.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2781,7 +2781,7 @@ const QUIZ_DATA = {
       ],
       "a": "カトリック",
       "comment": "ラテン系言語を話す人々に多い傾向があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_30_catholicism_1773838626655.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_30_catholicism_1773838626655.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2794,7 +2794,7 @@ const QUIZ_DATA = {
       ],
       "a": "正教会",
       "comment": "スラブ系言語を話す人々に多い傾向があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_31_orthodox_church_1773838810245.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_31_orthodox_church_1773838810245.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2807,7 +2807,7 @@ const QUIZ_DATA = {
       ],
       "a": "難民",
       "comment": "紛争や貧困を逃れてヨーロッパを目指す人が増えています。",
-      "answerImg": "assets/images/geography/geo_gw_3_32_refugees_1773838824477.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_32_refugees_1773838824477.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2820,7 +2820,7 @@ const QUIZ_DATA = {
       ],
       "a": "北側・西側",
       "comment": "逆に東欧や南欧からの出稼ぎ労働者が増えています。",
-      "answerImg": "assets/images/geography/geo_gw_3_33_eu_economy_1773838838686.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_33_eu_economy_1773838838686.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2833,7 +2833,7 @@ const QUIZ_DATA = {
       ],
       "a": "ブレグジット(Brexit)",
       "comment": "2020年に正式にEUを離脱しました。",
-      "answerImg": "assets/images/geography/geo_gw_3_34_brexit_1773838853245.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_34_brexit_1773838853245.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2846,7 +2846,7 @@ const QUIZ_DATA = {
       ],
       "a": "TGV",
       "comment": "日本の新幹線のライバルとも言える高速鉄道です。",
-      "answerImg": "assets/images/geography/geo_gw_3_35_tgv_1773838867612.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_35_tgv_1773838867612.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2859,7 +2859,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユーロスター",
       "comment": "ロンドンとパリを約2時間強で結びます。",
-      "answerImg": "assets/images/geography/geo_gw_3_36_eurostar_1773838994489.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_36_eurostar_1773838994489.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2872,7 +2872,7 @@ const QUIZ_DATA = {
       ],
       "a": "シュヴァルツヴァルト（黒い森）",
       "comment": "環境問題への取り組みが進むきっかけとなりました。",
-      "answerImg": "assets/images/geography/geo_gw_3_37_black_forest_1773839010219.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_37_black_forest_1773839010219.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2885,7 +2885,7 @@ const QUIZ_DATA = {
       ],
       "a": "環境都市（エコシティ）",
       "comment": "太陽光発電の導入や車の乗り入れ制限などを行っています。",
-      "answerImg": "assets/images/geography/geo_gw_3_38_eco_city_1773839022982.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_38_eco_city_1773839022982.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2898,7 +2898,7 @@ const QUIZ_DATA = {
       ],
       "a": "スキポール空港",
       "comment": "海上交通と航空交通の結節点となっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_39_schiphol_airport_1773839035524.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_39_schiphol_airport_1773839035524.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2911,7 +2911,7 @@ const QUIZ_DATA = {
       ],
       "a": "天然ガス・石油",
       "comment": "ヨーロッパのエネルギー事情はロシアに依存している部分があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_40_russian_pipelines_1773839049781.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_40_russian_pipelines_1773839049781.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2924,7 +2924,7 @@ const QUIZ_DATA = {
       ],
       "a": "幾何学模様（アラベスク）",
       "comment": "かつてイスラム勢力に支配されていた歴史の名残です。",
-      "answerImg": "assets/images/geography/geo_gw_3_41_arabesque_1773883186268.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_41_arabesque_1773883186268.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2937,7 +2937,7 @@ const QUIZ_DATA = {
       ],
       "a": "サーミ",
       "comment": "北欧諸国やロシア北部にまたがって居住しています。",
-      "answerImg": "assets/images/geography/geo_gw_3_42_sami_people_1773883205327.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_42_sami_people_1773883205327.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2951,7 +2951,7 @@ const QUIZ_DATA = {
       "a": "バルト三国",
       "comment": "旧ソ連から独立し、現在はEUに加盟しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_43_baltic_states_1773883221821.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_43_baltic_states_1773883221821.webp"
     },
     {
       "q": "ベルギー、オランダ、ルクセンブルクの3国の総称は？",
@@ -2963,7 +2963,7 @@ const QUIZ_DATA = {
       ],
       "a": "ベネルクス三国",
       "comment": "EC（ヨーロッパ共同体）の設立当初からの加盟国です。",
-      "answerImg": "assets/images/geography/geo_gw_3_44_benelux_1773883237637.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_44_benelux_1773883237637.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2976,7 +2976,7 @@ const QUIZ_DATA = {
       ],
       "a": "ロッテルダム（ユーロポート）",
       "comment": "石油化学コンビナートも集まっています。",
-      "answerImg": "assets/images/geography/geo_gw_3_45_rotterdam_europort_1773883257973.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_45_rotterdam_europort_1773883257973.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -2989,7 +2989,7 @@ const QUIZ_DATA = {
       ],
       "a": "バチカン市国",
       "comment": "カトリック教会の総本山（ローマ教皇庁）があります。",
-      "answerImg": "assets/images/geography/geo_gw_3_46_vatican_city_1773883418302.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_46_vatican_city_1773883418302.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3002,7 +3002,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会保障制度（福祉）",
       "comment": "「高福祉・高負担」の国として知られます（スウェーデンなど）。",
-      "answerImg": "assets/images/geography/geo_gw_3_47_welfare_state_1773883431123.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_47_welfare_state_1773883431123.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3015,7 +3015,7 @@ const QUIZ_DATA = {
       ],
       "a": "労働者の権利として定着しているから",
       "comment": "2週間〜1ヶ月程度の休暇を取り、地中海などで過ごす人が多いです。",
-      "answerImg": "assets/images/geography/geo_gw_3_48_vacance_1773883446637.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_48_vacance_1773883446637.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3028,7 +3028,7 @@ const QUIZ_DATA = {
       ],
       "a": "高床式にする",
       "comment": "建物の熱で凍土が溶け、家が傾くのを防ぐためです。",
-      "answerImg": "assets/images/geography/geo_gw_3_49_siberia_stilt_house_1773883463430.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_49_siberia_stilt_house_1773883463430.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3041,7 +3041,7 @@ const QUIZ_DATA = {
       ],
       "a": "北海道（稚内より北）",
       "comment": "樺太（サハリン）北部と同じくらいの緯度ですが、ロンドンは温暖です。",
-      "answerImg": "assets/images/geography/geo_gw_3_50_london_hokkaido_latitude_1773883476096.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_50_london_hokkaido_latitude_1773883476096.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3054,7 +3054,7 @@ const QUIZ_DATA = {
       ],
       "a": "トウモロコシ・小麦",
       "comment": "「ヨーロッパの穀倉」とも呼ばれる農業地帯です。",
-      "answerImg": "assets/images/geography/geo_gw_3_51_puszta_agriculture_1773883608301.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_51_puszta_agriculture_1773883608301.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3067,7 +3067,7 @@ const QUIZ_DATA = {
       ],
       "a": "窓が小さく壁が厚い（石造り）",
       "comment": "夏の強い日差しと熱気を防ぐためです。",
-      "answerImg": "assets/images/geography/geo_gw_3_52_mediterranean_house_1773883625203.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_52_mediterranean_house_1773883625203.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3080,12 +3080,12 @@ const QUIZ_DATA = {
       ],
       "a": "12個",
       "comment": "完璧さと充実を表す数として12個の星が円を描いています（加盟国数とは関係ありません）。",
-      "answerImg": "assets/images/geography/geo_gw_3_53_eu_flag_12stars_1773883639766.jpg",
+      "answerImg": "assets/images/geography/geo_gw_3_53_eu_flag_12stars_1773883639766.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "ヨーロッパの西部に位置し、ロンドンを首都とする島国は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_3_54.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_3_54.webp",
       "choices": [
         "イギリス",
         "フランス",
@@ -3094,12 +3094,12 @@ const QUIZ_DATA = {
       ],
       "a": "イギリス",
       "comment": "産業革命が始まった国です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_54.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_54.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "ヨーロッパ最大の農業国であり、首都パリがあるこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_3_55.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_3_55.webp",
       "choices": [
         "フランス",
         "スペイン",
@@ -3108,12 +3108,12 @@ const QUIZ_DATA = {
       ],
       "a": "フランス",
       "comment": "小麦などの輸出が盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_55.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_55.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "ヨーロッパ最大の工業国で、自動車産業などが盛んなこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_3_56.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_3_56.webp",
       "choices": [
         "ドイツ",
         "イギリス",
@@ -3122,7 +3122,7 @@ const QUIZ_DATA = {
       ],
       "a": "ドイツ",
       "comment": "首都はベルリンです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_56.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_3_56.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
@@ -3138,7 +3138,7 @@ const QUIZ_DATA = {
       "a": "サハラ砂漠",
       "comment": "日本の約24倍もの面積があります。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_north_religion_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_north_religion_illustration.webp"
     },
     {
       "q": "サハラ砂漠の南縁に広がる、砂漠化が進行している半乾燥地域を何というか？",
@@ -3150,11 +3150,11 @@ const QUIZ_DATA = {
       ],
       "a": "サヘル",
       "comment": "過放牧や過耕作、人口増加などが原因で砂漠化が進んでいます。",
-      "answerImg": "assets/images/geography/g_gw_4_22_sahel_1773376751159.jpg"
+      "answerImg": "assets/images/geography/g_gw_4_22_sahel_1773376751159.webp"
     },
     {
       "q": "アフリカ大陸を北上して地中海に注ぐ、世界最長の川は？",
-      "img": "assets/images/history/h_ancient_nile_1772414594835.jpg",
+      "img": "assets/images/history/h_ancient_nile_1772414594835.webp",
       "choices": [
         "ナイル川",
         "コンゴ川",
@@ -3164,7 +3164,7 @@ const QUIZ_DATA = {
       "a": "ナイル川",
       "comment": "流域では古くから文明が栄え、現在も農業用水として重要です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_70_nile_river_1773841520494.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_70_nile_river_1773841520494.webp"
     },
     {
       "q": "赤道付近のアフリカ西部に位置し、カカオ豆の栽培が盛んな湾岸地域は？",
@@ -3177,7 +3177,7 @@ const QUIZ_DATA = {
       "a": "ギニア湾",
       "comment": "コートジボワールやガーナなどの国々が面しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/map_africa_blank_1771577902246.jpg"
+      "answerImg": "assets/images/geography/map_africa_blank_1771577902246.webp"
     },
     {
       "q": "アフリカ大陸の最高峰であり、赤道直下にありながら山頂に雪がある山は？",
@@ -3190,7 +3190,7 @@ const QUIZ_DATA = {
       "a": "キリマンジャロ山",
       "comment": "「アフリカの屋根」とも呼ばれます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/kilimanjaro_illustration.jpg"
+      "answerImg": "assets/images/geography/kilimanjaro_illustration.webp"
     },
     {
       "q": "アフリカ中部の赤道直下に広がる、熱帯雨林におおわれた盆地は？",
@@ -3203,7 +3203,7 @@ const QUIZ_DATA = {
       "a": "コンゴ盆地",
       "comment": "ゴリラやチンパンジーなどの野生動物が生息しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/map_africa_blank_1771577902246.jpg"
+      "answerImg": "assets/images/geography/map_africa_blank_1771577902246.webp"
     },
     {
       "q": "かつてアフリカの国々を植民地として支配していた主な地域は？",
@@ -3216,7 +3216,7 @@ const QUIZ_DATA = {
       "a": "ヨーロッパ",
       "comment": "イギリスやフランスなどが多くの植民地を持っていました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_66_straight_borders_1773841457749.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_66_straight_borders_1773841457749.webp"
     },
     {
       "q": "アフリカの国境線が直線的である理由として最も適切なものは？",
@@ -3229,7 +3229,7 @@ const QUIZ_DATA = {
       "a": "植民地時代に宗主国が人為的に決めたから",
       "comment": "民族の分布を無視して引かれたため、独立後も紛争の原因となりました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_66_straight_borders_1773841457749.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_66_straight_borders_1773841457749.webp"
     },
     {
       "q": "1960年にアフリカの17カ国が一斉に独立したことから、この年は何と呼ばれるか？",
@@ -3242,7 +3242,7 @@ const QUIZ_DATA = {
       "a": "アフリカの年",
       "comment": "その後も多くの国が独立を果たしました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_75_african_union_1773841833901.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_75_african_union_1773841833901.webp"
     },
     {
       "q": "かつて南アフリカ共和国で行われていた、極端な人種隔離政策を何というか？",
@@ -3255,7 +3255,7 @@ const QUIZ_DATA = {
       "a": "アパルトヘイト",
       "comment": "黒人の居住地や職業を制限し、白人を優遇しました。1991年に廃止されました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_south_africa_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_south_africa_illustration.webp"
     },
     {
       "q": "アパルトヘイト撤廃に尽力し、南アフリカ共和国初の黒人大統領となった人物は？",
@@ -3268,7 +3268,7 @@ const QUIZ_DATA = {
       "a": "マンデラ",
       "comment": "長年の投獄生活を経て、民族融和を進めました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_south_africa_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_south_africa_illustration.webp"
     },
     {
       "q": "アフリカ諸国の主権と領土を守り、統合を目指す目的で組織された連合は？",
@@ -3281,7 +3281,7 @@ const QUIZ_DATA = {
       "a": "AU（アフリカ連合）",
       "comment": "2002年に発足し、ほぼ全ての国が加盟しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_75_african_union_1773841833901.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_75_african_union_1773841833901.webp"
     },
     {
       "q": "特定の農産物や鉱産資源の輸出に頼る経済構造を何というか？",
@@ -3294,7 +3294,7 @@ const QUIZ_DATA = {
       "a": "モノカルチャー経済",
       "comment": "国際価格の変動や天候の影響を受けやすく、経済が不安定になりがちです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_74_monoculture_economy_1773841820192.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_74_monoculture_economy_1773841820192.webp"
     },
     {
       "q": "コバルトやクロムなど、埋蔵量は少ないがハイテク産業に不可欠な金属を何というか？",
@@ -3307,7 +3307,7 @@ const QUIZ_DATA = {
       "a": "レアメタル（希少金属）",
       "comment": "南アフリカ共和国などで多く産出されます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_111_rare_metals_1773417670401.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_111_rare_metals_1773417670401.webp"
     },
     {
       "q": "カカオ、コーヒー、茶などの輸出用作物を、大規模な農園で栽培する農業を何というか？",
@@ -3319,7 +3319,7 @@ const QUIZ_DATA = {
       ],
       "a": "プランテーション農業",
       "comment": "植民地時代にヨーロッパ人によって開かれました。",
-      "answerImg": "assets/images/geography/g_gw_4_23_plantation_1773376769203.jpg"
+      "answerImg": "assets/images/geography/g_gw_4_23_plantation_1773376769203.webp"
     },
     {
       "q": "発展途上国の産物を公正な価格で取引し、生産者の生活を支える貿易の仕組みは？",
@@ -3332,7 +3332,7 @@ const QUIZ_DATA = {
       "a": "フェアトレード",
       "comment": "コーヒーやチョコレートなどで広まっています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_74_monoculture_economy_1773841820192.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_74_monoculture_economy_1773841820192.webp"
     },
     {
       "q": "アフリカ大陸最大の人口と石油産出量を誇る、ギニア湾岸の国は？",
@@ -3345,7 +3345,7 @@ const QUIZ_DATA = {
       "a": "ナイジェリア",
       "comment": "OPECにも加盟している産油国です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_nigeria_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_nigeria_illustration.webp"
     },
     {
       "q": "世界有数のカカオ豆の生産国で、かつて「ゴールドコースト」と呼ばれた国は？",
@@ -3358,7 +3358,7 @@ const QUIZ_DATA = {
       "a": "ガーナ",
       "comment": "日本のチョコレートの原料の多くがガーナ産です（コートジボワールも多い）。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.jpg"
+      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.webp"
     },
     {
       "q": "コーヒーの原産地とされ、アフリカ最古の独立国の一つでもある国は？",
@@ -3371,11 +3371,11 @@ const QUIZ_DATA = {
       "a": "エチオピア",
       "comment": "高原地帯でのコーヒー栽培が盛んです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.jpg"
+      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.webp"
     },
     {
       "q": "茶の栽培や野生動物の保護（サファリ観光）が盛んな、赤道直下の国は？",
-      "img": "assets/images/geography/gw_africa_savanna_1771578489631.jpg",
+      "img": "assets/images/geography/gw_africa_savanna_1771578489631.webp",
       "choices": [
         "ケニア",
         "エチオピア",
@@ -3385,7 +3385,7 @@ const QUIZ_DATA = {
       "a": "ケニア",
       "comment": "イギリス植民地時代に茶のプランテーションが開かれました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/gw_africa_savanna_1771578489631.jpg"
+      "answerImg": "assets/images/geography/gw_africa_savanna_1771578489631.webp"
     },
     {
       "q": "アフリカ大陸最大の経済力を持ち、金やダイヤモンドの産出が多い国は？",
@@ -3398,7 +3398,7 @@ const QUIZ_DATA = {
       "a": "南アフリカ共和国",
       "comment": "BRICSの一員としても数えられます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_south_africa_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_south_africa_illustration.webp"
     },
     {
       "q": "古代文明発祥の地であり、スエズ運河がある国は？",
@@ -3411,7 +3411,7 @@ const QUIZ_DATA = {
       "a": "エジプト",
       "comment": "ナイル川の恵みを受けて農業や観光業が盛んです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_north_religion_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_north_religion_illustration.webp"
     },
     {
       "q": "アラビア語を話し、イスラム教徒が多いのはアフリカのどの地域か？",
@@ -3424,7 +3424,7 @@ const QUIZ_DATA = {
       "a": "北部",
       "comment": "北アフリカは西アジアとのつながりが深いです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_north_religion_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_north_religion_illustration.webp"
     },
     {
       "q": "キリスト教徒が多く、英語やフランス語を公用語とする国が多いのはアフリカのどの地域か？",
@@ -3437,7 +3437,7 @@ const QUIZ_DATA = {
       "a": "中・南部（サハラ以南）",
       "comment": "植民地時代の宗主国の言語や宗教の影響を受けています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.jpg"
+      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.webp"
     },
     {
       "q": "アフリカの都市部で発生している、居住環境の悪い地域（貧民街）を何というか？",
@@ -3450,7 +3450,7 @@ const QUIZ_DATA = {
       "a": "スラム",
       "comment": "農村から職を求めて都市に人が集まり、形成されます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_slum_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_slum_illustration.webp"
     },
     {
       "q": "2011年にスーダンから独立した、アフリカで最も新しい国は？",
@@ -3463,7 +3463,7 @@ const QUIZ_DATA = {
       "a": "南スーダン",
       "comment": "石油資源などがありますが、政情不安定が続いています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/map_africa_blank_1771577902246.jpg"
+      "answerImg": "assets/images/geography/map_africa_blank_1771577902246.webp"
     },
     {
       "q": "コートジボワールやガーナの主食としても食べられる、キャッサバやヤムイモなどを何と呼ぶか？",
@@ -3476,7 +3476,7 @@ const QUIZ_DATA = {
       "a": "いも類（根茎類）",
       "comment": "これらをすりつぶして餅のようにした「フフ」などの料理があります。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_jp_satsumaimo_1771590962833.jpg"
+      "answerImg": "assets/images/geography/geo_jp_satsumaimo_1771590962833.webp"
     },
     {
       "q": "アフリカの人口について正しい記述はどれか？",
@@ -3489,7 +3489,7 @@ const QUIZ_DATA = {
       "a": "急速に増加しており、「人口爆発」と呼ばれる",
       "comment": "21世紀中に世界で最も人口が増える地域と予測されています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_slum_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_slum_illustration.webp"
     },
     {
       "q": "地中海と紅海を結ぶ、エジプトにある運河は？",
@@ -3502,7 +3502,7 @@ const QUIZ_DATA = {
       "a": "スエズ運河",
       "comment": "ヨーロッパとアジアを結ぶ海上交通の要衝です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_north_religion_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_north_religion_illustration.webp"
     },
     {
       "q": "南アフリカ共和国などで産出される、自動車の排ガス浄化装置に使われる白金（プラチナ）などの金属も何に含まれるか？",
@@ -3515,7 +3515,7 @@ const QUIZ_DATA = {
       "a": "レアメタル",
       "comment": "世界的な産出地となっています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_south_africa_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_south_africa_illustration.webp"
     },
     {
       "q": "タンザニアやケニアでマサイ族などが伝統的に行ってきた、牛などの家畜を飼うスタイルは？",
@@ -3528,7 +3528,7 @@ const QUIZ_DATA = {
       "a": "遊牧",
       "comment": "草や水を求めて移動しながら生活してきましたが、定住化も進んでいます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/g_gw_1_106_nomadic_herding_1773417588024.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_106_nomadic_herding_1773417588024.webp"
     },
     {
       "q": "アフリカで携帯電話の普及に伴い急速に広がったサービスは？",
@@ -3541,7 +3541,7 @@ const QUIZ_DATA = {
       "a": "モバイル送金（電子決済）",
       "comment": "ケニアの「M-Pesa（エムペサ）」などが有名で、銀行口座がなくても送金できます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_it_worker_1771577325115.jpg"
+      "answerImg": "assets/images/geography/geo_it_worker_1771577325115.webp"
     },
     {
       "q": "サハラ砂漠より南の地域を指す言葉として使われるのは？",
@@ -3553,7 +3553,7 @@ const QUIZ_DATA = {
       ],
       "a": "サブサハラ",
       "comment": "「サハラ（砂漠）の下」という意味です。",
-      "answerImg": "assets/images/geography/g_gw_4_24_sub_saharan_1773376781364.jpg"
+      "answerImg": "assets/images/geography/g_gw_4_24_sub_saharan_1773376781364.webp"
     },
     {
       "q": "かつてアメリカ大陸へ労働力として強制的に連れて行かれた人々は？",
@@ -3566,7 +3566,7 @@ const QUIZ_DATA = {
       "a": "黒人奴隷",
       "comment": "「三角貿易」によって多くの人々が故郷を追われました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/geo_gw_3_72_slave_trade_1773841789178.jpg"
+      "answerImg": "assets/images/geography/geo_gw_3_72_slave_trade_1773841789178.webp"
     },
     {
       "q": "ダイヤモンドの産出が多いアフリカ南部の国は？",
@@ -3579,7 +3579,7 @@ const QUIZ_DATA = {
       "a": "ボツワナ・南アフリカ",
       "comment": "ボツワナはダイヤモンド産業で経済成長しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/africa_south_africa_illustration.jpg"
+      "answerImg": "assets/images/geography/africa_south_africa_illustration.webp"
     },
     {
       "q": "マダガスカル島に生息する、キツネザルなどの独自の生態系が見られる理由は？",
@@ -3591,14 +3591,14 @@ const QUIZ_DATA = {
       ],
       "a": "大陸から早くに分離して孤立していたから",
       "comment": "「進化の実験場」や「第8の大陸」とも呼ばれます。",
-      "answerImg": "assets/images/geography/g_gw_4_25_madagascar_1773397724287.jpg",
+      "answerImg": "assets/images/geography/g_gw_4_25_madagascar_1773397724287.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "a": "アディスアベバ（エチオピア）",
       "comment": "エチオピアの首都です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.jpg",
+      "answerImg": "assets/images/geography/bg_africa_pop_art_1771587978888.webp",
       "q": "AU（アフリカ連合）の本部が置かれている都市は？",
       "choices": [
         "アディスアベバ（エチオピア）",
@@ -3609,7 +3609,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アフリカ大陸の北東部に位置し、ナイル川が流れピラミッドがあるこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_4_37.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_4_37.webp",
       "choices": [
         "エジプト",
         "スーダン",
@@ -3619,11 +3619,11 @@ const QUIZ_DATA = {
       "a": "エジプト",
       "comment": "首都はカイロです。",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_4_37.jpg"
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_4_37.webp"
     },
     {
       "q": "アフリカ大陸の最南端に位置し、かつてアパルトヘイト（人種隔離政策）が行われていた国は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_4_38.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_4_38.webp",
       "choices": [
         "南アフリカ共和国",
         "ケニア",
@@ -3633,11 +3633,11 @@ const QUIZ_DATA = {
       "a": "南アフリカ共和国",
       "comment": "金やダイヤモンドなどの鉱産資源が豊富です。",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_4_38.jpg"
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_4_38.webp"
     },
     {
       "q": "ギニア湾に面し、アフリカで最も人口が多い産油国は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_4_39.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_4_39.webp",
       "choices": [
         "ナイジェリア",
         "エジプト",
@@ -3647,7 +3647,7 @@ const QUIZ_DATA = {
       "a": "ナイジェリア",
       "comment": "急速な経済成長を続けています。",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_4_39.jpg"
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_4_39.webp"
     }
   ],
   "gw_5": [
@@ -3662,7 +3662,7 @@ const QUIZ_DATA = {
       "a": "ロッキー山脈",
       "comment": "環太平洋造山帯に属し、標高4000m級の山々が連なっています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_rocky_mountains.jpg"
+      "answerImg": "assets/images/geography/namerica_rocky_mountains.webp"
     },
     {
       "q": "北アメリカ大陸の東部になだらかに広がる、比較的低い山脈は？",
@@ -3675,7 +3675,7 @@ const QUIZ_DATA = {
       "a": "アパラチア山脈",
       "comment": "なだらかな山並みで、良質な石炭が産出されます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_appalachian_mountains.jpg"
+      "answerImg": "assets/images/geography/namerica_appalachian_mountains.webp"
     },
     {
       "q": "アメリカ合衆国の中央部を北から南へ流れ、メキシコ湾に注ぐ同国最長の川は？",
@@ -3688,7 +3688,7 @@ const QUIZ_DATA = {
       "a": "ミシシッピ川",
       "comment": "流域には肥沃な平原が広がり、農業の中心地となっています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_mississippi_river.jpg"
+      "answerImg": "assets/images/geography/namerica_mississippi_river.webp"
     },
     {
       "q": "アメリカ合衆国とカナダの国境付近にある、世界最大級の淡水湖群を何というか？",
@@ -3701,7 +3701,7 @@ const QUIZ_DATA = {
       "a": "五大湖",
       "comment": "スペリオル湖、ミシガン湖、ヒューロン湖、エリー湖、オンタリオ湖の5つです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_great_lakes.jpg"
+      "answerImg": "assets/images/geography/namerica_great_lakes.webp"
     },
     {
       "q": "アメリカ南東部にある、北回帰線に近い温暖な半島は？",
@@ -3714,7 +3714,7 @@ const QUIZ_DATA = {
       "a": "フロリダ半島",
       "comment": "リゾート地として知られ、宇宙センターなどもあります。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_florida_vacation.jpg"
+      "answerImg": "assets/images/geography/namerica_florida_vacation.webp"
     },
     {
       "q": "アメリカと南アメリカの間にある、多くの島々が浮かぶ海域は？",
@@ -3727,7 +3727,7 @@ const QUIZ_DATA = {
       "a": "カリブ海",
       "comment": "キューバやジャマイカなどの国々（西インド諸島）があります。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_caribbean_sea.jpg"
+      "answerImg": "assets/images/geography/namerica_caribbean_sea.webp"
     },
     {
       "q": "西経100度の経線は、アメリカの農業において何の境界とほぼ一致するか？",
@@ -3740,7 +3740,7 @@ const QUIZ_DATA = {
       "a": "年降水量500mm（湿潤と乾燥の境界）",
       "comment": "この線を境に、東側は畑作や酪農、西側は牧畜や灌漑農業が主になります。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_100_meridian.jpg"
+      "answerImg": "assets/images/geography/namerica_100_meridian.webp"
     },
     {
       "q": "8月から9月にかけてメキシコ湾岸地域などを襲う、発達した熱帯低気圧を何というか？",
@@ -3752,7 +3752,7 @@ const QUIZ_DATA = {
       ],
       "a": "ハリケーン",
       "comment": "日本でいう台風と同じような強烈な嵐です。",
-      "answerImg": "assets/images/geography/namerica_hurricane.jpg",
+      "answerImg": "assets/images/geography/namerica_hurricane.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3765,7 +3765,7 @@ const QUIZ_DATA = {
       ],
       "a": "適地適作",
       "comment": "アメリカの農業の特徴の一つです。",
-      "answerImg": "assets/images/geography/namerica_right_crop_right_land.jpg",
+      "answerImg": "assets/images/geography/namerica_right_crop_right_land.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3778,7 +3778,7 @@ const QUIZ_DATA = {
       ],
       "a": "グレートプレーンズ",
       "comment": "主に牧畜や灌漑農業が行われています。",
-      "answerImg": "assets/images/geography/namerica_great_plains.jpg",
+      "answerImg": "assets/images/geography/namerica_great_plains.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3791,7 +3791,7 @@ const QUIZ_DATA = {
       ],
       "a": "プレーリー",
       "comment": "小麦やトウモロコシの大産地となっています。",
-      "answerImg": "assets/images/geography/namerica_prairie.jpg",
+      "answerImg": "assets/images/geography/namerica_prairie.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3805,7 +3805,7 @@ const QUIZ_DATA = {
       "a": "コーンベルト",
       "comment": "大豆も多く栽培され、家畜の飼料となります。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_corn_belt.jpg"
+      "answerImg": "assets/images/geography/namerica_corn_belt.webp"
     },
     {
       "q": "かつてアメリカ南部で黒人奴隷を使って広大なプランテーションで作られた作物は？",
@@ -3818,7 +3818,7 @@ const QUIZ_DATA = {
       "a": "綿花",
       "comment": "現在は機械化が進んでいますが、かつては「綿花地帯（コットンベルト）」と呼ばれました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_cotton_plantation_history.jpg"
+      "answerImg": "assets/images/geography/namerica_cotton_plantation_history.webp"
     },
     {
       "q": "乾燥した地域で、地下水をくみ上げてスプリンクラーで円形に散水する灌漑方式を何というか？",
@@ -3831,11 +3831,11 @@ const QUIZ_DATA = {
       "a": "センターピボット",
       "comment": "空から見ると巨大な緑の円形農地が見えます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_center_pivot.jpg"
+      "answerImg": "assets/images/geography/namerica_center_pivot.webp"
     },
     {
       "q": "肉牛を出荷前に集中して肥育するための施設を何というか？",
-      "img": "assets/images/geography/geo_cow_1771577030990.jpg",
+      "img": "assets/images/geography/geo_cow_1771577030990.webp",
       "choices": [
         "フィードロット",
         "サイロ",
@@ -3845,11 +3845,11 @@ const QUIZ_DATA = {
       "a": "フィードロット",
       "comment": "効率よく肉を生産するための大規模なシステムです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_feedlot.jpg"
+      "answerImg": "assets/images/geography/namerica_feedlot.webp"
     },
     {
       "q": "アメリカ合衆国南西部のコロラド川に削られてできた、世界的に有名な大峡谷は？",
-      "img": "assets/images/geography/gw_namerica_grandcanyon_1771578535886.jpg",
+      "img": "assets/images/geography/gw_namerica_grandcanyon_1771578535886.webp",
       "choices": [
         "グランドキャニオン",
         "グレートバリアリーフ",
@@ -3859,7 +3859,7 @@ const QUIZ_DATA = {
       "a": "グランドキャニオン",
       "comment": "長い年月をかけて川が大地を削った、壮大な自然景観です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/grand_canyon_illustration.jpg"
+      "answerImg": "assets/images/geography/grand_canyon_illustration.webp"
     },
     {
       "q": "農産物の生産だけでなく、加工・流通・販売までを一体的に行う農業関連産業を何というか？",
@@ -3871,7 +3871,7 @@ const QUIZ_DATA = {
       ],
       "a": "アグリビジネス",
       "comment": "巨大な穀物商社などが世界的な影響力を持っています。",
-      "answerImg": "assets/images/geography/namerica_agribusiness.jpg",
+      "answerImg": "assets/images/geography/namerica_agribusiness.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -3885,7 +3885,7 @@ const QUIZ_DATA = {
       "a": "穀物メジャー",
       "comment": "カーギル社などが有名です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_grain_majors.jpg"
+      "answerImg": "assets/images/geography/namerica_grain_majors.webp"
     },
     {
       "q": "アメリカでかつて工業の中心だった北緯37度以北の地域から、近年工場が移転している南部の地域を何というか？",
@@ -3898,7 +3898,7 @@ const QUIZ_DATA = {
       "a": "サンベルト",
       "comment": "温暖な気候、安価な労働力や土地、石油資源などを背景に発展しました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_sunbelt.jpg"
+      "answerImg": "assets/images/geography/namerica_sunbelt.webp"
     },
     {
       "q": "サンフランシスコ郊外にある、ICT（情報通信技術）関連の企業が集中している地域は？",
@@ -3911,7 +3911,7 @@ const QUIZ_DATA = {
       "a": "シリコンバレー",
       "comment": "GoogleやAppleなどの世界的なIT企業が集まっています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/silicon_valley_illustration.jpg"
+      "answerImg": "assets/images/geography/silicon_valley_illustration.webp"
     },
     {
       "q": "五大湖周辺のデトロイトでかつて盛んだった、アメリカを象徴する産業は？",
@@ -3924,7 +3924,7 @@ const QUIZ_DATA = {
       "a": "自動車産業",
       "comment": "近年は日本車などとの競争や工場の海外移転で変化しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_detroit_auto_industry.jpg"
+      "answerImg": "assets/images/geography/namerica_detroit_auto_industry.webp"
     },
     {
       "q": "ヒューストンなどで盛んな、NASAの宇宙センターなどがある産業は？",
@@ -3937,7 +3937,7 @@ const QUIZ_DATA = {
       "a": "航空宇宙産業",
       "comment": "広大な土地と晴天率の高さが適していました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_houston_aerospace.jpg"
+      "answerImg": "assets/images/geography/namerica_houston_aerospace.webp"
     },
     {
       "q": "世界中の国々に拠点を置き、国境を越えて活動する巨大企業を何というか？",
@@ -3950,7 +3950,7 @@ const QUIZ_DATA = {
       "a": "多国籍企業",
       "comment": "生産コストの安い国に工場を置くなど、世界規模で活動します。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_multinational_corporation.jpg"
+      "answerImg": "assets/images/geography/namerica_multinational_corporation.webp"
     },
     {
       "q": "アメリカ合衆国は、世界中から多くの人々が移り住んでできたことから何と呼ばれるか？",
@@ -3963,7 +3963,7 @@ const QUIZ_DATA = {
       "a": "移民の国",
       "comment": "建国以来、ヨーロッパやアフリカ、アジアなどから多くの移民を受け入れてきました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/statue_of_liberty_illustration.jpg"
+      "answerImg": "assets/images/geography/statue_of_liberty_illustration.webp"
     },
     {
       "q": "近年アメリカで急増している、メキシコやカリブ海諸国などからのスペイン語を話す移民を何というか？",
@@ -3976,7 +3976,7 @@ const QUIZ_DATA = {
       "a": "ヒスパニック",
       "comment": "人口の約2割近くを占め、スペイン語の看板なども増えています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_hispanic_culture.jpg"
+      "answerImg": "assets/images/geography/namerica_hispanic_culture.webp"
     },
     {
       "q": "かつてのアメリカ社会は、多様な文化が溶け合うとして何に例えられたか？",
@@ -3989,7 +3989,7 @@ const QUIZ_DATA = {
       "a": "人種のるつぼ",
       "comment": "「メルティング・ポット」と呼ばれました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_melting_pot.jpg"
+      "answerImg": "assets/images/geography/namerica_melting_pot.webp"
     },
     {
       "q": "現在のアメリカ社会は、それぞれの文化の独自性を尊重するとして何に例えられるか？",
@@ -4002,7 +4002,7 @@ const QUIZ_DATA = {
       "a": "人種のサラダボウル",
       "comment": "野菜（文化）が混ざり合いながらも、それぞれの味（個性）を残している状態です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_salad_bowl.jpg"
+      "answerImg": "assets/images/geography/namerica_salad_bowl.webp"
     },
     {
       "q": "アメリカの先住民族を何と呼ぶか？（コロンブスがインド人と間違えたことに由来する呼称もあるが現在は下記が一般的）",
@@ -4015,7 +4015,7 @@ const QUIZ_DATA = {
       "a": "ネイティブ・アメリカン",
       "comment": "以前は「インディアン」と呼ばれていました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_native_american.jpg"
+      "answerImg": "assets/images/geography/namerica_native_american.webp"
     },
     {
       "q": "ボストンからワシントンD.C.にかけての、巨大都市が連なった地域を何というか？",
@@ -4028,7 +4028,7 @@ const QUIZ_DATA = {
       "a": "メガロポリス（巨帯都市）",
       "comment": "ニューヨーク、フィラデルフィアなど政治・経済の中枢が集中しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_megalopolis.jpg"
+      "answerImg": "assets/images/geography/namerica_megalopolis.webp"
     },
     {
       "q": "世界中に広まっている、ハンバーガーやフライドチキンなどの食事スタイルを何というか？",
@@ -4041,7 +4041,7 @@ const QUIZ_DATA = {
       "a": "ファストフード",
       "comment": "手軽に短時間で食べられることから世界中で普及しました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_fast_food.jpg"
+      "answerImg": "assets/images/geography/namerica_fast_food.webp"
     },
     {
       "q": "カナダで英語とともに公用語となっている言語は？",
@@ -4054,7 +4054,7 @@ const QUIZ_DATA = {
       "a": "フランス語",
       "comment": "特にケベック州にはフランス系住民が多く住んでいます。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_canada_french.jpg"
+      "answerImg": "assets/images/geography/namerica_canada_french.webp"
     },
     {
       "q": "カナダの国旗に描かれている、同国の象徴ともいえる植物の葉は？",
@@ -4067,7 +4067,7 @@ const QUIZ_DATA = {
       "a": "カエデ（メープル）",
       "comment": "メープルシロップの産地としても有名です。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_canada_maple.jpg"
+      "answerImg": "assets/images/geography/namerica_canada_maple.webp"
     },
     {
       "q": "メキシコの公用語は何か？",
@@ -4080,7 +4080,7 @@ const QUIZ_DATA = {
       "a": "スペイン語",
       "comment": "かつてスペインの植民地だったためです。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_mexico_spanish.jpg"
+      "answerImg": "assets/images/geography/namerica_mexico_spanish.webp"
     },
     {
       "q": "アメリカ、カナダ、メキシコの3国間で結ばれている、自由貿易協定を何というか（新協定）？",
@@ -4093,7 +4093,7 @@ const QUIZ_DATA = {
       "a": "USMCA（米国・メキシコ・カナダ協定）",
       "comment": "旧NAFTA（北米自由貿易協定）が見直され、新しくなりました。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_usmca.jpg"
+      "answerImg": "assets/images/geography/namerica_usmca.webp"
     },
     {
       "q": "メキシコとアメリカの国境付近で見られる、アメリカ企業の組み立て工場などを何というか？（発展）",
@@ -4106,7 +4106,7 @@ const QUIZ_DATA = {
       "a": "マキラドーラ",
       "comment": "安価な労働力を求めてアメリカ企業が進出しています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/namerica_maquiladora.jpg"
+      "answerImg": "assets/images/geography/namerica_maquiladora.webp"
     },
     {
       "q": "ニューヨークにある、世界の金融の中心地とされる街路は？",
@@ -4118,7 +4118,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウォール街",
       "comment": "世界恐慌のきっかけとなった場所でもあります。",
-      "answerImg": "assets/images/geography/namerica_wall_street.jpg"
+      "answerImg": "assets/images/geography/namerica_wall_street.webp"
     },
     {
       "q": "アメリカで開発された、地下の岩盤層に含まれる天然ガスを何というか？",
@@ -4130,7 +4130,7 @@ const QUIZ_DATA = {
       ],
       "a": "シェールガス",
       "comment": "新しい掘削技術により生産量が急増し「シェール革命」と呼ばれました。",
-      "answerImg": "assets/images/geography/namerica_shale_gas.jpg"
+      "answerImg": "assets/images/geography/namerica_shale_gas.webp"
     },
     {
       "q": "世界最大のスーパーマーケットチェーンなどを生んだ、大量に仕入れて安く売る仕組みは？",
@@ -4142,7 +4142,7 @@ const QUIZ_DATA = {
       ],
       "a": "チェーンストア（流通革命）",
       "comment": "ウォルマートなどが代表的です。",
-      "answerImg": "assets/images/geography/namerica_chain_store.jpg"
+      "answerImg": "assets/images/geography/namerica_chain_store.webp"
     },
     {
       "q": "北アメリカ大陸の五大湖周辺や東海岸の気候は？",
@@ -4154,7 +4154,7 @@ const QUIZ_DATA = {
       ],
       "a": "冷帯（亜寒帯）湿潤気候",
       "comment": "冬は寒さが厳しく、夏は比較的涼しいです（南部は温暖湿潤気候）。",
-      "answerImg": "assets/images/geography/namerica_cold_climate_northeast.jpg"
+      "answerImg": "assets/images/geography/namerica_cold_climate_northeast.webp"
     },
     {
       "q": "アメリカ合衆国の首都は？",
@@ -4166,7 +4166,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワシントンD.C.",
       "comment": "政治の中心地です（経済の中心はニューヨーク）。",
-      "answerImg": "assets/images/geography/namerica_washington_dc.jpg"
+      "answerImg": "assets/images/geography/namerica_washington_dc.webp"
     },
     {
       "q": "1960年代に公民権運動を指導した人物は？",
@@ -4178,7 +4178,7 @@ const QUIZ_DATA = {
       ],
       "a": "キング牧師",
       "comment": "「私には夢がある（I Have a Dream）」の演説で知られます。",
-      "answerImg": "assets/images/geography/namerica_martin_luther_king.jpg"
+      "answerImg": "assets/images/geography/namerica_martin_luther_king.webp"
     },
     {
       "q": "キューバ危機などで知られる、カリブ海の社会主義国は？",
@@ -4190,12 +4190,12 @@ const QUIZ_DATA = {
       ],
       "a": "キューバ",
       "comment": "砂糖（サトウキビ）の生産が盛んです。",
-      "answerImg": "assets/images/geography/namerica_cuba.jpg",
+      "answerImg": "assets/images/geography/namerica_cuba.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "北アメリカの中心に位置し、世界最大の経済力と農業生産力を持つこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_5_42.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_5_42.webp",
       "choices": [
         "アメリカ合衆国",
         "カナダ",
@@ -4204,12 +4204,12 @@ const QUIZ_DATA = {
       ],
       "a": "アメリカ合衆国",
       "comment": "首都はワシントンD.C.です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_5_42.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_5_42.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "北アメリカ大陸の北部に位置し、世界で2番目に広い面積を持つ国は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_5_43.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_5_43.webp",
       "choices": [
         "カナダ",
         "アメリカ合衆国",
@@ -4218,12 +4218,12 @@ const QUIZ_DATA = {
       ],
       "a": "カナダ",
       "comment": "首都はオタワで、公用語は英語とフランス語です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_5_43.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_5_43.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "北アメリカの南部にあり、スペイン語が公用語であるこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_5_44.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_5_44.webp",
       "choices": [
         "メキシコ",
         "アメリカ合衆国",
@@ -4232,7 +4232,7 @@ const QUIZ_DATA = {
       ],
       "a": "メキシコ",
       "comment": "かつてアステカ文明が栄えました。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_5_44.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_5_44.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
@@ -4247,11 +4247,11 @@ const QUIZ_DATA = {
       ],
       "a": "アンデス山脈",
       "comment": "環太平洋造山帯に属し、標高6000mを超える山々があります。",
-      "answerImg": "assets/images/geography/g_gw_1_102_andes_alpaca_1773417517900.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_102_andes_alpaca_1773417517900.webp"
     },
     {
       "q": "世界最大の流域面積を誇る、南アメリカ大陸北部を流れる川は？",
-      "img": "assets/images/geography/gw_samerica_amazon_1771578564099.jpg",
+      "img": "assets/images/geography/gw_samerica_amazon_1771578564099.webp",
       "choices": [
         "アマゾン川",
         "ミシシッピ川",
@@ -4260,7 +4260,7 @@ const QUIZ_DATA = {
       ],
       "a": "アマゾン川",
       "comment": "流域には世界最大の熱帯雨林が広がっています。",
-      "answerImg": "assets/images/geography/amazon_rainforest_illustration.jpg"
+      "answerImg": "assets/images/geography/amazon_rainforest_illustration.webp"
     },
     {
       "q": "アマゾン川流域に広がる、密林（熱帯雨林）を何というか？",
@@ -4272,7 +4272,7 @@ const QUIZ_DATA = {
       ],
       "a": "セルバ",
       "comment": "「地球の肺」とも呼ばれますが、開発による破壊が進んでいます。",
-      "answerImg": "assets/images/geography/amazon_rainforest_illustration.jpg"
+      "answerImg": "assets/images/geography/amazon_rainforest_illustration.webp"
     },
     {
       "q": "アルゼンチン中部などに広がる、肥沃な温帯の草原を何というか？",
@@ -4284,7 +4284,7 @@ const QUIZ_DATA = {
       ],
       "a": "パンパ",
       "comment": "小麦の栽培や牛の牧畜が盛んです。",
-      "answerImg": "assets/images/geography/g_gw_5_28_great_plains_1773397776230.jpg"
+      "answerImg": "assets/images/geography/g_gw_5_28_great_plains_1773397776230.webp"
     },
     {
       "q": "アルゼンチンとウルグアイの国境を流れ、大西洋に注ぐ大きな河口を持つ川は？",
@@ -4296,7 +4296,7 @@ const QUIZ_DATA = {
       ],
       "a": "ラプラタ川",
       "comment": "河口部はエスチュアリー（三角江）となっており、良港が発達しています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "数年に一度、ペルー沖の海水温が異常に高くなり、世界的な以上気象の原因ともなる現象は？",
@@ -4308,7 +4308,7 @@ const QUIZ_DATA = {
       ],
       "a": "エルニーニョ現象",
       "comment": "本来は冷たい海域ですが、暖かくなることで魚が獲れなくなるなどの被害も出ます。",
-      "answerImg": "assets/images/geography/g_gw_6_32_el_nino_1773397840356.jpg",
+      "answerImg": "assets/images/geography/g_gw_6_32_el_nino_1773397840356.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -4321,7 +4321,7 @@ const QUIZ_DATA = {
       ],
       "a": "インカ帝国",
       "comment": "クスコを首都とし、高度な石造建築技術や段々畑を持っていました。",
-      "answerImg": "assets/images/geography/machu_picchu_illustration.jpg"
+      "answerImg": "assets/images/geography/machu_picchu_illustration.webp"
     },
     {
       "q": "「空中都市」とも呼ばれる、アンデス山脈の山中にあるインカ帝国の遺跡は？",
@@ -4333,7 +4333,7 @@ const QUIZ_DATA = {
       ],
       "a": "マチュピチュ",
       "comment": "世界遺産に登録されており、多くの観光客が訪れます。",
-      "answerImg": "assets/images/geography/machu_picchu_illustration.jpg"
+      "answerImg": "assets/images/geography/machu_picchu_illustration.webp"
     },
     {
       "q": "16世紀以降、南アメリカの多くの地域を植民地として支配した国は？",
@@ -4345,7 +4345,7 @@ const QUIZ_DATA = {
       ],
       "a": "スペイン",
       "comment": "ブラジルを除くほとんどの国がスペイン領でした。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "ブラジルを植民地として支配し、現在も同国で公用語となっている言語の国は？",
@@ -4357,7 +4357,7 @@ const QUIZ_DATA = {
       ],
       "a": "ポルトガル",
       "comment": "南アメリカで唯一のポルトガル語圏です。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "ヨーロッパ系の白人と先住民（インディオ）との混血の人々を何というか？",
@@ -4369,7 +4369,7 @@ const QUIZ_DATA = {
       ],
       "a": "メスチソ",
       "comment": "南アメリカの多くの国で人口の大きな割合を占めています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "南アメリカの先住民を総称して何と呼ぶか？（コロンブスの誤解に由来する呼称）",
@@ -4381,11 +4381,11 @@ const QUIZ_DATA = {
       ],
       "a": "インディオ",
       "comment": "ネイティブ・アメリカンとも呼ばれますが、中南米ではインディオという呼称も一般的です。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "アンデス地域などで先住民が着用する、四角い布の真ん中に穴を開けて頭からかぶる伝統的な衣服は？",
-      "img": "assets/images/geography/geo_poncho_1771576832748.jpg",
+      "img": "assets/images/geography/geo_poncho_1771576832748.webp",
       "choices": [
         "ポンチョ",
         "サリー",
@@ -4394,7 +4394,7 @@ const QUIZ_DATA = {
       ],
       "a": "ポンチョ",
       "comment": "防寒や雨よけに優れ、アルパカなどの毛で作られます。",
-      "answerImg": "assets/images/geography/g_gw_1_102_andes_alpaca_1773417517900.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_102_andes_alpaca_1773417517900.webp"
     },
     {
       "q": "特定の農産物や鉱産資源の生産・輸出に依存する、かつての南米諸国に多く見られた経済構造は？",
@@ -4406,7 +4406,7 @@ const QUIZ_DATA = {
       ],
       "a": "モノカルチャー経済",
       "comment": "コーヒーや銅など、一つの品目に頼りすぎると経済が不安定になります。",
-      "answerImg": "assets/images/geography/g_gw_6_33_monoculture_1773397853842.jpg",
+      "answerImg": "assets/images/geography/g_gw_6_33_monoculture_1773397853842.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -4419,7 +4419,7 @@ const QUIZ_DATA = {
       ],
       "a": "バイオエタノール",
       "comment": "ブラジルではサトウキビから作られ、ガソリンに混ぜて使われます。",
-      "answerImg": "assets/images/geography/g_gw_1_142_mixed_farming_1773418250632.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_142_mixed_farming_1773418250632.webp"
     },
     {
       "q": "アルゼンチン、ブラジル、パラグアイ、ウルグアイなどで結成された、地域経済統合組織は？",
@@ -4431,11 +4431,11 @@ const QUIZ_DATA = {
       ],
       "a": "MERCOSUR（南米南部共同市場）",
       "comment": "域内の関税撤廃や対外共通関税などを目指しています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "アンデス山脈で放牧されている、ラクダ科の動物は？（毛織物の原料や荷運び用）",
-      "img": "assets/images/geography/geo_alpaca_1771576964998.jpg",
+      "img": "assets/images/geography/geo_alpaca_1771576964998.webp",
       "choices": [
         "リャマ・アルパカ",
         "羊・ヤギ",
@@ -4444,7 +4444,7 @@ const QUIZ_DATA = {
       ],
       "a": "リャマ・アルパカ",
       "comment": "高地に適応した家畜として古くから利用されています。",
-      "answerImg": "assets/images/geography/g_gw_1_102_andes_alpaca_1773417517900.jpg"
+      "answerImg": "assets/images/geography/g_gw_1_102_andes_alpaca_1773417517900.webp"
     },
     {
       "q": "南アメリカ大陸で最大の面積と人口を持ち、BRICSの一員でもある国は？",
@@ -4456,7 +4456,7 @@ const QUIZ_DATA = {
       ],
       "a": "ブラジル",
       "comment": "コーヒー豆や鉄鉱石の生産でも世界有数です。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "ブラジル高原などで栽培が盛んな、世界一の生産量を誇る農産物は？",
@@ -4468,7 +4468,7 @@ const QUIZ_DATA = {
       ],
       "a": "コーヒー豆",
       "comment": "「サンパウロ」などが集散地として発展しました。",
-      "answerImg": "assets/images/geography/g_gw_4_23_plantation_1773376769203.jpg"
+      "answerImg": "assets/images/geography/g_gw_4_23_plantation_1773376769203.webp"
     },
     {
       "q": "ブラジルなどで多く産出される、鉄の原料となる鉱産資源は？",
@@ -4480,7 +4480,7 @@ const QUIZ_DATA = {
       ],
       "a": "鉄鉱石",
       "comment": "カラジャス鉱山などが有名で、日本にも多く輸出されています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "南北に細長い国土を持ち、銅の生産量が世界一の国は？",
@@ -4492,7 +4492,7 @@ const QUIZ_DATA = {
       ],
       "a": "チリ",
       "comment": "アンデス山脈沿いに鉱山が多くあります。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "かつてインカ帝国の中心地であり、銀や銅の産出も多い国は？",
@@ -4504,7 +4504,7 @@ const QUIZ_DATA = {
       ],
       "a": "ペルー",
       "comment": "首都はリマ。魚粉（アンチョビ）の生産も盛んです。",
-      "answerImg": "assets/images/geography/machu_picchu_illustration.jpg"
+      "answerImg": "assets/images/geography/machu_picchu_illustration.webp"
     },
     {
       "q": "アルゼンチンの主食であり、世界的な輸出品でもある穀物は？",
@@ -4516,7 +4516,7 @@ const QUIZ_DATA = {
       ],
       "a": "小麦",
       "comment": "パンパで大規模に栽培されています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "かつてブラジルに、多くの日本人が移住した目的は主に何の栽培のためか？",
@@ -4528,7 +4528,7 @@ const QUIZ_DATA = {
       ],
       "a": "コーヒー",
       "comment": "現在、ブラジルには世界最大の日系人社会があります（約200万人）。",
-      "answerImg": "assets/images/geography/g_gw_4_23_plantation_1773376769203.jpg"
+      "answerImg": "assets/images/geography/g_gw_4_23_plantation_1773376769203.webp"
     },
     {
       "q": "アマゾンの熱帯雨林開発のために建設された、内陸部を横断する道路を何というか？",
@@ -4540,7 +4540,7 @@ const QUIZ_DATA = {
       ],
       "a": "トランスアマゾニアンハイウェー",
       "comment": "開発が進む一方で、環境破壊や先住民への影響も問題視されています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "ブラジルで近年生産が急増している、食用油や飼料の原料となる作物は？",
@@ -4552,7 +4552,7 @@ const QUIZ_DATA = {
       ],
       "a": "大豆",
       "comment": "セラードと呼ばれる地域などの開発により生産が増えています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "南アメリカ原産のイモ類で、タピオカの原料にもなるものは？",
@@ -4564,7 +4564,7 @@ const QUIZ_DATA = {
       ],
       "a": "キャッサバ（マニオク）",
       "comment": "熱帯地域で広く栽培され、主食の一つとなっています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "赤道直下の国だが、高地にあるため春のように涼しい首都を持つ国は？（キト、ボゴタなど）",
@@ -4576,7 +4576,7 @@ const QUIZ_DATA = {
       ],
       "a": "エクアドル・コロンビア",
       "comment": "低緯度でも標高が高いと気温が下がる「高山気候」を利用して常春のような気候になります。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "ブラジルの首都はどこか？（リオデジャネイロから内陸部に遷都された）",
@@ -4588,7 +4588,7 @@ const QUIZ_DATA = {
       ],
       "a": "ブラジリア",
       "comment": "内陸部の開発を進めるために建設された計画都市で、飛行機の形をしています。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "アルゼンチンの首都で、「南米のパリ」とも呼ばれる美しい街並みの都市は？",
@@ -4600,11 +4600,11 @@ const QUIZ_DATA = {
       ],
       "a": "ブエノスアイレス",
       "comment": "ラプラタ川の河口に位置します。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "南アメリカの多くの国で信仰されている宗教は？",
-      "img": "assets/images/history/h_ancient_christianity_1772414580245.jpg",
+      "img": "assets/images/history/h_ancient_christianity_1772414580245.webp",
       "choices": [
         "キリスト教（カトリック）",
         "キリスト教（プロテスタント）",
@@ -4613,7 +4613,7 @@ const QUIZ_DATA = {
       ],
       "a": "キリスト教（カトリック）",
       "comment": "スペインやポルトガルなど、カトリック教国の植民地だった影響です。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "チリ北部にある、世界で最も乾燥した砂漠の一つとされる砂漠は？",
@@ -4625,7 +4625,7 @@ const QUIZ_DATA = {
       ],
       "a": "アタカマ砂漠",
       "comment": "銅鉱山が多く分布しています。",
-      "answerImg": "assets/images/geography/g_gw_6_34_atacama_1773397877053.jpg",
+      "answerImg": "assets/images/geography/g_gw_6_34_atacama_1773397877053.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -4638,11 +4638,11 @@ const QUIZ_DATA = {
       ],
       "a": "OPEC",
       "comment": "南アメリカ有数の産油国です。",
-      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.jpg"
+      "answerImg": "assets/images/geography/map_samerica_blank_1771578045409.webp"
     },
     {
       "q": "南アメリカで面積が最も広く、アマゾン川が流れるこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_6_33.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_6_33.webp",
       "choices": [
         "ブラジル",
         "アルゼンチン",
@@ -4651,12 +4651,12 @@ const QUIZ_DATA = {
       ],
       "a": "ブラジル",
       "comment": "ポルトガル語が公用語となっています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_6_33.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_6_33.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "南アメリカ大陸の南部にあり、パンパと呼ばれる大草原が広がる国は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_6_34.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_6_34.webp",
       "choices": [
         "アルゼンチン",
         "ブラジル",
@@ -4665,12 +4665,12 @@ const QUIZ_DATA = {
       ],
       "a": "アルゼンチン",
       "comment": "牛肉や小麦の生産が盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_6_34.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_6_34.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "南アメリカ大陸の西岸に沿って、南北に細長く伸びている国は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_6_35.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_6_35.webp",
       "choices": [
         "チリ",
         "アルゼンチン",
@@ -4679,7 +4679,7 @@ const QUIZ_DATA = {
       ],
       "a": "チリ",
       "comment": "銅の生産量が世界一です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_6_35.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_6_35.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
@@ -4694,7 +4694,7 @@ const QUIZ_DATA = {
       ],
       "a": "オーストラリア大陸",
       "comment": "日本の約20倍の面積がありますが、人口は日本の約4分の1程度です。",
-      "answerImg": "assets/images/geography/oceania_australia_wildlife.jpg"
+      "answerImg": "assets/images/geography/oceania_australia_wildlife.webp"
     },
     {
       "q": "オーストラリアの東側に連なる、険しい山脈は？",
@@ -4706,7 +4706,7 @@ const QUIZ_DATA = {
       ],
       "a": "グレートディバイディング山脈",
       "comment": "「大分水嶺」とも呼ばれ、雨を降らせる風を遮るため内陸部は乾燥します。",
-      "answerImg": "assets/images/geography/oceania_great_dividing_range.jpg"
+      "answerImg": "assets/images/geography/oceania_great_dividing_range.webp"
     },
     {
       "q": "オーストラリア北東岸に広がる、世界最大のサンゴ礁地帯は？",
@@ -4718,11 +4718,11 @@ const QUIZ_DATA = {
       ],
       "a": "グレートバリアリーフ",
       "comment": "全長約2000kmに及び、世界遺産にも登録されています。",
-      "answerImg": "assets/images/geography/oceania_great_barrier_reef_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_great_barrier_reef_illustration.webp"
     },
     {
       "q": "オーストラリア内陸部にある、世界最大級の一枚岩は？（先住民の聖地）",
-      "img": "assets/images/geography/gw_oceania_uluru_1771578587441.jpg",
+      "img": "assets/images/geography/gw_oceania_uluru_1771578587441.webp",
       "choices": [
         "ウルル（エアーズロック）",
         "ガンガラーの谷",
@@ -4731,7 +4731,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウルル（エアーズロック）",
       "comment": "先住民アボリジニの聖地であり、現在は登山が禁止されています。",
-      "answerImg": "assets/images/geography/oceania_outback_uluru_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_outback_uluru_illustration.webp"
     },
     {
       "q": "オーストラリアの大部分を占める気候帯は？",
@@ -4743,7 +4743,7 @@ const QUIZ_DATA = {
       ],
       "a": "乾燥帯",
       "comment": "内陸部（アウトバック）には広大な砂漠が広がっています。",
-      "answerImg": "assets/images/geography/oceania_outback_uluru_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_outback_uluru_illustration.webp"
     },
     {
       "q": "オーストラリアの先住民族を何というか？",
@@ -4755,7 +4755,7 @@ const QUIZ_DATA = {
       ],
       "a": "アボリジニ",
       "comment": "独自の文化を持っていましたが、イギリス人の入植により迫害されました。",
-      "answerImg": "assets/images/geography/oceania_outback_uluru_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_outback_uluru_illustration.webp"
     },
     {
       "q": "18世紀後半からオーストラリアを植民地として支配した国は？",
@@ -4767,7 +4767,7 @@ const QUIZ_DATA = {
       ],
       "a": "イギリス",
       "comment": "国旗にもユニオンジャック（イギリス国旗）が描かれています。",
-      "answerImg": "assets/images/geography/oceania_british_colonization.jpg"
+      "answerImg": "assets/images/geography/oceania_british_colonization.webp"
     },
     {
       "q": "かつてオーストラリアでとられていた、白人以外の移民を制限する政策は？",
@@ -4779,7 +4779,7 @@ const QUIZ_DATA = {
       ],
       "a": "白豪主義",
       "comment": "1970年代に廃止され、現在は多文化社会を目指しています。",
-      "answerImg": "assets/images/geography/oceania_white_australia.jpg"
+      "answerImg": "assets/images/geography/oceania_white_australia.webp"
     },
     {
       "q": "多様な民族や文化が共生することを目指す社会を何というか？",
@@ -4791,7 +4791,7 @@ const QUIZ_DATA = {
       ],
       "a": "多文化社会",
       "comment": "アジアからの移民も増え、多様性を尊重する動きが進んでいます。",
-      "answerImg": "assets/images/geography/oceania_multicultural_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_multicultural_illustration.webp"
     },
     {
       "q": "オーストラリアで盛んな、地下水を掘り抜き井戸でくみ上げて行う牧畜は？",
@@ -4803,7 +4803,7 @@ const QUIZ_DATA = {
       ],
       "a": "羊や牛の放牧",
       "comment": "牛は肉牛として、羊は羊毛（メリノ種）や肉として輸出されます。",
-      "answerImg": "assets/images/geography/oceania_sheep_farming_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_sheep_farming_illustration.webp"
     },
     {
       "q": "オーストラリア北西部で露天掘りによって大規模に採掘される鉱産資源は？",
@@ -4815,7 +4815,7 @@ const QUIZ_DATA = {
       ],
       "a": "鉄鉱石",
       "comment": "日本や中国などに大量に輸出されています。",
-      "answerImg": "assets/images/geography/oceania_mining_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_mining_illustration.webp"
     },
     {
       "q": "オーストラリア東部で多く産出され、日本にも輸出されている燃料資源は？",
@@ -4827,7 +4827,7 @@ const QUIZ_DATA = {
       ],
       "a": "石炭",
       "comment": "良質な石炭がとれる炭田があります。",
-      "answerImg": "assets/images/geography/oceania_mining_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_mining_illustration.webp"
     },
     {
       "q": "オーストラリア北部で産出される、アルミニウムの原料となる鉱石は？",
@@ -4839,7 +4839,7 @@ const QUIZ_DATA = {
       ],
       "a": "ボーキサイト",
       "comment": "赤土のような見た目をしています。",
-      "answerImg": "assets/images/geography/oceania_mining_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_mining_illustration.webp"
     },
     {
       "q": "1960年代までオーストラリアの最大の貿易相手国だったが、現在その地位が低下した国は？",
@@ -4851,7 +4851,7 @@ const QUIZ_DATA = {
       ],
       "a": "イギリス",
       "comment": "イギリスがEU（EC）に加盟したことなどにより、アジアとの結びつきを強めました。",
-      "answerImg": "assets/images/geography/oceania_british_colonization.jpg"
+      "answerImg": "assets/images/geography/oceania_british_colonization.webp"
     },
     {
       "q": "現在、オーストラリアの最大の貿易相手国となっている国は？",
@@ -4863,7 +4863,7 @@ const QUIZ_DATA = {
       ],
       "a": "中国",
       "comment": "鉄鉱石などの資源を大量に輸出しています。",
-      "answerImg": "assets/images/geography/oceania_china_trade.jpg"
+      "answerImg": "assets/images/geography/oceania_china_trade.webp"
     },
     {
       "q": "日本とオーストラリアなど、季節が逆になることを利用した貿易の利点は？",
@@ -4875,7 +4875,7 @@ const QUIZ_DATA = {
       ],
       "a": "端境期（作物がとれない時期）に野菜などを供給できる",
       "comment": "冬の日本に、夏のアーストラリアからアスパラガスなどが届きます。",
-      "answerImg": "assets/images/geography/oceania_reverse_seasons.jpg"
+      "answerImg": "assets/images/geography/oceania_reverse_seasons.webp"
     },
     {
       "q": "ニュージーランドの北島・南島などが属する、地震や火山が多い造山帯は？",
@@ -4888,7 +4888,7 @@ const QUIZ_DATA = {
       "a": "環太平洋造山帯",
       "comment": "温泉を利用した地熱発電も行われています。",
       "imgCaption": "※画像はイメージです",
-      "answerImg": "assets/images/geography/oceania_pacific_ring_of_fire.jpg"
+      "answerImg": "assets/images/geography/oceania_pacific_ring_of_fire.webp"
     },
     {
       "q": "ニュージーランドの先住民族を何というか？",
@@ -4900,11 +4900,11 @@ const QUIZ_DATA = {
       ],
       "a": "マオリ",
       "comment": "独自の文化（ハカなど）が尊重され、公用語の一つにもなっています。",
-      "answerImg": "assets/images/geography/oceania_maori_culture.jpg"
+      "answerImg": "assets/images/geography/oceania_maori_culture.webp"
     },
     {
       "q": "ニュージーランドで人口よりも飼育数の方が多い家畜は？",
-      "img": "assets/images/geography/geo_sheep_1771577007001.jpg",
+      "img": "assets/images/geography/geo_sheep_1771577007001.webp",
       "choices": [
         "羊",
         "馬",
@@ -4913,7 +4913,7 @@ const QUIZ_DATA = {
       ],
       "a": "羊",
       "comment": "羊肉や羊毛、酪農製品が重要な輸出品です。",
-      "answerImg": "assets/images/geography/oceania_sheep_farming_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_sheep_farming_illustration.webp"
     },
     {
       "q": "太平洋に点在する島々は、ミクロネシア、メラネシアン、あと一つは何という地域に分けられるか？",
@@ -4925,7 +4925,7 @@ const QUIZ_DATA = {
       ],
       "a": "ポリネシア",
       "comment": "ハワイやニュージーランドもポリネシアに含まれます。",
-      "answerImg": "assets/images/geography/oceania_polynesia_islands.jpg"
+      "answerImg": "assets/images/geography/oceania_polynesia_islands.webp"
     },
     {
       "q": "サンゴ礁の島々など、標高が低いために地球温暖化による海面上昇の危機にある国々は？",
@@ -4937,7 +4937,7 @@ const QUIZ_DATA = {
       ],
       "a": "ツバルやキリバスなどの島国",
       "comment": "国土の水没や井戸水の塩害などが深刻な問題となっています。",
-      "answerImg": "assets/images/geography/oceania_tuvalu_illustration.jpg",
+      "answerImg": "assets/images/geography/oceania_tuvalu_illustration.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -4950,7 +4950,7 @@ const QUIZ_DATA = {
       ],
       "a": "観光業",
       "comment": "美しい海や自然を求めて世界中から観光客が訪れます。",
-      "answerImg": "assets/images/geography/sydney_opera_house_illustration.jpg"
+      "answerImg": "assets/images/geography/sydney_opera_house_illustration.webp"
     },
     {
       "q": "日本とオーストラリアは経度が近いため、どういった特徴があるか？",
@@ -4962,7 +4962,7 @@ const QUIZ_DATA = {
       ],
       "a": "時差が少ない（1～2時間程度）",
       "comment": "ビジネスや旅行での連絡がとりやすい利点があります。",
-      "answerImg": "assets/images/geography/oceania_time_zone.jpg"
+      "answerImg": "assets/images/geography/oceania_time_zone.webp"
     },
     {
       "q": "オーストラリアの首都はどこか？（シドニーとメルボルンの間の計画都市）",
@@ -4974,7 +4974,7 @@ const QUIZ_DATA = {
       ],
       "a": "キャンベラ",
       "comment": "二大都市の対立を避けるために建設されました。",
-      "answerImg": "assets/images/geography/oceania_canberra_illustration.jpg"
+      "answerImg": "assets/images/geography/oceania_canberra_illustration.webp"
     },
     {
       "q": "ニュージーランドの首都はどこか？",
@@ -4986,7 +4986,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウェリントン",
       "comment": "世界で最も南にある首都といわれます。",
-      "answerImg": "assets/images/geography/oceania_new_zealand_landscape.jpg"
+      "answerImg": "assets/images/geography/oceania_new_zealand_landscape.webp"
     },
     {
       "q": "オーストラリアの国旗にある、南半球で見られる星座は？",
@@ -4998,7 +4998,7 @@ const QUIZ_DATA = {
       ],
       "a": "南十字星（サザンクロス）",
       "comment": "ニュージーランドの国旗にも描かれています。",
-      "answerImg": "assets/images/geography/oceania_southern_cross.jpg"
+      "answerImg": "assets/images/geography/oceania_southern_cross.webp"
     },
     {
       "q": "オーストラリアが加盟している、アジア太平洋地域の経済協力会議は？",
@@ -5010,7 +5010,7 @@ const QUIZ_DATA = {
       ],
       "a": "APEC（アジア太平洋経済協力）",
       "comment": "環太平洋の国々で経済的な結びつきを強めています。",
-      "answerImg": "assets/images/geography/oceania_apec_cooperation.jpg"
+      "answerImg": "assets/images/geography/oceania_apec_cooperation.webp"
     },
     {
       "q": "オーストラリアの内陸部で、医師が飛行機を使って巡回診療を行う仕組みを何というか？",
@@ -5022,7 +5022,7 @@ const QUIZ_DATA = {
       ],
       "a": "フライングドクター",
       "comment": "広大な国土で医療を届けるための工夫です。",
-      "answerImg": "assets/images/geography/oceania_flying_doctor.jpg"
+      "answerImg": "assets/images/geography/oceania_flying_doctor.webp"
     },
     {
       "q": "若い人が海外で働きながら長期滞在できる制度で、オーストラリアなどが人気なのは？",
@@ -5034,7 +5034,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワーキングホリデー",
       "comment": "日本との間で協定が結ばれており、多くの若者が利用しています。",
-      "answerImg": "assets/images/geography/oceania_working_holiday_backpackers.jpg"
+      "answerImg": "assets/images/geography/oceania_working_holiday_backpackers.webp"
     },
     {
       "q": "オーストラリアの乾燥地域で見られる、地面を掘り下げて作られた住居を何というか？",
@@ -5046,11 +5046,11 @@ const QUIZ_DATA = {
       ],
       "a": "地下住居（ダグ・アウト・ハウス）",
       "comment": "オパール採掘地であるクーバーペディなどが有名で、暑さを避けるためです。",
-      "answerImg": "assets/images/geography/oceania_underground_house.jpg"
+      "answerImg": "assets/images/geography/oceania_underground_house.webp"
     },
     {
       "q": "オセアニア州で最も広い面積を持ち、鉄鉱石などの資源が豊富なこの国のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_7_30.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_7_30.webp",
       "choices": [
         "オーストラリア",
         "ニュージーランド",
@@ -5059,12 +5059,12 @@ const QUIZ_DATA = {
       ],
       "a": "オーストラリア",
       "comment": "カンガルーやコアラなどの独自の動物が生息しています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_7_30.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_7_30.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "オーストラリアの南東に位置し、北島と南島からなる島国は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gw_7_31.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gw_7_31.webp",
       "choices": [
         "ニュージーランド",
         "オーストラリア",
@@ -5073,7 +5073,7 @@ const QUIZ_DATA = {
       ],
       "a": "ニュージーランド",
       "comment": "羊の飼育が盛んで、マオリの文化があります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_7_31.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gw_7_31.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
@@ -5088,7 +5088,7 @@ const QUIZ_DATA = {
       ],
       "a": "南鳥島",
       "comment": "日本で最も早く日の出が見られる場所の一つです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch1_minamitorishima_1773719626811.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch1_minamitorishima_1773719626811.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5101,7 +5101,7 @@ const QUIZ_DATA = {
       ],
       "a": "与那国島",
       "comment": "台湾まで約110kmの距離にあります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch1_yonagunijima_1773719640642.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch1_yonagunijima_1773719640642.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5114,7 +5114,7 @@ const QUIZ_DATA = {
       ],
       "a": "排他的経済水域（EEZ）",
       "comment": "沿岸国が水産資源や鉱産資源を優先的に利用できる権利を持ちます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch1_eez_1773719655080.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch1_eez_1773719655080.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5127,7 +5127,7 @@ const QUIZ_DATA = {
       ],
       "a": "ドイツ",
       "comment": "世界で見ると約60番目の広さです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_doitsu_1773719869958.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_doitsu_1773719869958.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5140,7 +5140,7 @@ const QUIZ_DATA = {
       ],
       "a": "領土・領海・領空",
       "comment": "領空は、領土と領海の上空のことです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_territory_1773735706502.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_territory_1773735706502.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5153,7 +5153,7 @@ const QUIZ_DATA = {
       ],
       "a": "12海里（約22km）",
       "comment": "かつては3海里でしたが、現在は多くの国が12海里を採用しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_ryoukai_1773719882435.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_ryoukai_1773719882435.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5166,7 +5166,7 @@ const QUIZ_DATA = {
       ],
       "a": "フォッサマグナ",
       "comment": "西の縁は糸魚川・静岡構造線と呼ばれ、ここを境に東日本と西日本の地質が分かれます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch1_fossa_magna_1773719684140.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch1_fossa_magna_1773719684140.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5179,7 +5179,7 @@ const QUIZ_DATA = {
       ],
       "a": "奥羽山脈",
       "comment": "奥羽山脈は東北地方を縦断する山脈です。日本アルプスは飛騨（北）・木曽（中央）・赤石（南）山脈です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_ou_mountains_1773720742452.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_ou_mountains_1773720742452.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5192,7 +5192,7 @@ const QUIZ_DATA = {
       ],
       "a": "海溝",
       "comment": "日本海溝などは水深8000mを超えます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch1_trench_1773719743969.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch1_trench_1773719743969.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5205,7 +5205,7 @@ const QUIZ_DATA = {
       ],
       "a": "南海トラフ",
       "comment": "巨大地震（南海トラフ地震）の発生が懸念されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch1_nankai_trough_1773719758330.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch1_nankai_trough_1773719758330.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5218,7 +5218,7 @@ const QUIZ_DATA = {
       ],
       "a": "季節風（モンスーン）",
       "comment": "夏は南東から、冬は北西から吹きます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_kisetsufuu_1773719925025.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_kisetsufuu_1773719925025.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5231,7 +5231,7 @@ const QUIZ_DATA = {
       ],
       "a": "日本海側",
       "comment": "日本海を渡る風が大量の水蒸気を含むためです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_sea_of_japan_side_1773719943013.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_sea_of_japan_side_1773719943013.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5244,7 +5244,7 @@ const QUIZ_DATA = {
       ],
       "a": "太平洋側",
       "comment": "東京や大阪などの大都市はこの気候帯に含まれます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_pacific_side_1773719957804.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_pacific_side_1773719957804.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5257,7 +5257,7 @@ const QUIZ_DATA = {
       ],
       "a": "中央高地の気候",
       "comment": "長野県などに見られる内陸性の気候です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_central_highland_1773720038236.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_central_highland_1773720038236.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5270,7 +5270,7 @@ const QUIZ_DATA = {
       ],
       "a": "瀬戸内の気候",
       "comment": "ため池が多く作られているのが特徴です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_setouchi_1773720023986.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_setouchi_1773720023986.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5283,7 +5283,7 @@ const QUIZ_DATA = {
       ],
       "a": "南西諸島の気候",
       "comment": "亜熱帯気候に属し、冬でも温暖です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_nansei_islands_1773720050373.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_nansei_islands_1773720050373.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5296,7 +5296,7 @@ const QUIZ_DATA = {
       ],
       "a": "北海道の気候",
       "comment": "冷帯（亜寒帯）に属します。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_hokkaido_climate_1773720755890.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_hokkaido_climate_1773720755890.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5309,7 +5309,7 @@ const QUIZ_DATA = {
       ],
       "a": "人口密度",
       "comment": "1㎢あたりの人数（人/㎢）で表されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_population_density_1773720769165.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_population_density_1773720769165.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5322,7 +5322,7 @@ const QUIZ_DATA = {
       ],
       "a": "少子高齢化",
       "comment": "日本では世界に先駆けて進行しており、労働力不足や社会保障費の増大が課題です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_aging_population_1773720075846.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_aging_population_1773720075846.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5335,7 +5335,7 @@ const QUIZ_DATA = {
       ],
       "a": "人口爆発",
       "comment": "医療の発展などによる死亡率の低下などが原因です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_population_explosion_1773720785011.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_population_explosion_1773720785011.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5348,7 +5348,7 @@ const QUIZ_DATA = {
       ],
       "a": "ライフライン",
       "comment": "災害時にはこれらの復旧が最優先されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_lifeline_1773720797914.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_lifeline_1773720797914.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5361,7 +5361,7 @@ const QUIZ_DATA = {
       ],
       "a": "減災",
       "comment": "災害を完全に防ぐこと（防災）だけでなく、起きた時の被害を最小限にする考え方です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_disaster_mitigation_1773720819774.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_disaster_mitigation_1773720819774.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5374,7 +5374,7 @@ const QUIZ_DATA = {
       ],
       "a": "公助",
       "comment": "自らを助ける「自助」、地域で助け合う「共助」と合わせて重要です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_public_assistance_1773720835244.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_public_assistance_1773720835244.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
@@ -5389,7 +5389,7 @@ const QUIZ_DATA = {
       ],
       "a": "鉄鉱石",
       "comment": "自動車や建築材料として大量に使われます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_iron_ore_1773720848945.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_iron_ore_1773720848945.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5402,7 +5402,7 @@ const QUIZ_DATA = {
       ],
       "a": "ボーキサイト",
       "comment": "製錬に大量の電気を必要とするため「電気の缶詰」とも呼ばれます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_bauxite_1773720863603.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_bauxite_1773720863603.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5415,7 +5415,7 @@ const QUIZ_DATA = {
       ],
       "a": "LNG（液化天然ガス）",
       "comment": "体積が600分の1になり、専用のタンカーで輸送されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_lng_1773720875963.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_lng_1773720875963.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5428,7 +5428,7 @@ const QUIZ_DATA = {
       ],
       "a": "レアメタル（希少金属）",
       "comment": "ニッケル、コバルト、リチウムなどが含まれます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_rare_metal_1773720893652.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_rare_metal_1773720893652.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5441,7 +5441,7 @@ const QUIZ_DATA = {
       ],
       "a": "石炭",
       "comment": "火力発電や製鉄の燃料として現在も重要です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_coal_1773720907381.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_coal_1773720907381.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5454,7 +5454,7 @@ const QUIZ_DATA = {
       ],
       "a": "エネルギーミックス",
       "comment": "安定供給、環境適合、経済効率などを考慮して決定されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_energy_mix_1773720922231.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_energy_mix_1773720922231.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5467,7 +5467,7 @@ const QUIZ_DATA = {
       ],
       "a": "二酸化炭素（CO2）",
       "comment": "温室効果ガスの一種です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_co2_1773720937212.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_co2_1773720937212.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5480,7 +5480,7 @@ const QUIZ_DATA = {
       ],
       "a": "フロンガス",
       "comment": "現在は特定フロンの生産・使用が規制されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_cfc_1773720949338.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_cfc_1773720949338.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5493,7 +5493,7 @@ const QUIZ_DATA = {
       ],
       "a": "オゾン層",
       "comment": "上空20〜30km付近に存在します。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_ozone_layer_1773720969106.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_ozone_layer_1773720969106.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5506,7 +5506,7 @@ const QUIZ_DATA = {
       ],
       "a": "ヒートアイランド現象",
       "comment": "熱中症のリスクを高める要因にもなっています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_heat_island_1773719990343.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_heat_island_1773719990343.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5519,7 +5519,7 @@ const QUIZ_DATA = {
       ],
       "a": "酸性雨",
       "comment": "コンクリートの建物を溶かす被害も出ています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_acid_rain_1773735307628.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_acid_rain_1773735307628.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5532,7 +5532,7 @@ const QUIZ_DATA = {
       ],
       "a": "三大都市圏",
       "comment": "日本の人口の大部分がここに集中しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_three_major_metropolitan_1773735322012.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_three_major_metropolitan_1773735322012.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5545,7 +5545,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方中枢都市",
       "comment": "それぞれの地方ブロック（北海道、東北、中国、九州）の中心です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_core_city_1773720216983.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_core_city_1773720216983.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5558,7 +5558,7 @@ const QUIZ_DATA = {
       ],
       "a": "衛星都市（ベッドタウン）",
       "comment": "昼間の人口よりも夜間の人口の方が多くなる傾向があります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_bed_town_1773735338996.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_bed_town_1773735338996.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5571,7 +5571,7 @@ const QUIZ_DATA = {
       ],
       "a": "過密",
       "comment": "都市部特有の問題です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_overcrowding_1773735356639.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_overcrowding_1773735356639.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5584,7 +5584,7 @@ const QUIZ_DATA = {
       ],
       "a": "過疎",
       "comment": "農山村地域などで深刻化しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_depopulation_1773720096009.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_depopulation_1773720096009.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5597,7 +5597,7 @@ const QUIZ_DATA = {
       ],
       "a": "政令指定都市",
       "comment": "行政区（〇〇市△△区）が設置されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_designated_city_1773720232979.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_designated_city_1773720232979.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5610,7 +5610,7 @@ const QUIZ_DATA = {
       ],
       "a": "ドーナツ化現象",
       "comment": "地価の高騰などが原因で起きました（近年は都心回帰も見られます）。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_doughnut_phenomenon_1773735372186.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_doughnut_phenomenon_1773735372186.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5623,7 +5623,7 @@ const QUIZ_DATA = {
       ],
       "a": "都心回帰",
       "comment": "高層マンションの建設などが背景にあります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_return_to_city_center_1773735398892.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_return_to_city_center_1773735398892.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5636,7 +5636,7 @@ const QUIZ_DATA = {
       ],
       "a": "第一次ベビーブーム",
       "comment": "この時期に生まれた世代を団塊の世代と呼びます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_first_baby_boom_1773735413955.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_first_baby_boom_1773735413955.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5649,12 +5649,12 @@ const QUIZ_DATA = {
       ],
       "a": "減反政策（生産調整）",
       "comment": "現在は廃止されていますが、飼料用米への転作などが進められています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_acreage_reduction_1773735428145.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_acreage_reduction_1773735428145.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "同じ耕地で、1年間に2種類の作物を栽培すること（例：米のあとに麦）を何というか？",
-      "img": "assets/images/history/h_medieval_1_nimosaku.jpg",
+      "img": "assets/images/history/h_medieval_1_nimosaku.webp",
       "choices": [
         "二毛作",
         "二期作",
@@ -5674,7 +5674,7 @@ const QUIZ_DATA = {
       ],
       "a": "二期作",
       "comment": "温暖な気候を利用して行われます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_double_cropping_1773735444256.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_double_cropping_1773735444256.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5687,7 +5687,7 @@ const QUIZ_DATA = {
       ],
       "a": "近郊農業",
       "comment": "輸送コストが安く済むメリットがあります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_suburban_agriculture_1773720434442.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_suburban_agriculture_1773720434442.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5700,7 +5700,7 @@ const QUIZ_DATA = {
       ],
       "a": "施設園芸農業",
       "comment": "季節に関係なく出荷でき、品質も管理しやすくなります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_greenhouse_horticulture_1773720390767.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_greenhouse_horticulture_1773720390767.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5713,7 +5713,7 @@ const QUIZ_DATA = {
       ],
       "a": "促成栽培",
       "comment": "冬から春にかけて、ピーマンやきゅうりなどを出荷します。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_forcing_culture_1773720410774.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_forcing_culture_1773720410774.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5726,7 +5726,7 @@ const QUIZ_DATA = {
       ],
       "a": "抑制栽培",
       "comment": "夏にレタスやキャベツ（高原野菜）を出荷します。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_retarding_culture_1773720421834.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_retarding_culture_1773720421834.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5739,7 +5739,7 @@ const QUIZ_DATA = {
       ],
       "a": "第二種兼業農家",
       "comment": "日本の農家の多くを占めていましたが、近年は減少傾向にあります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_part_time_farmer_1773735458498.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_part_time_farmer_1773735458498.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5752,7 +5752,7 @@ const QUIZ_DATA = {
       ],
       "a": "有機栽培（オーガニック）",
       "comment": "食の安全への関心の高まりから注目されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_organic_farming_1773735487708.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_organic_farming_1773735487708.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5765,7 +5765,7 @@ const QUIZ_DATA = {
       ],
       "a": "栽培漁業（育てる漁業）",
       "comment": "「とる漁業」から「育てる漁業」への転換が進められています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_cultivating_fishery_1773720278479.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_cultivating_fishery_1773720278479.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5778,7 +5778,7 @@ const QUIZ_DATA = {
       ],
       "a": "養殖漁業",
       "comment": "真珠、カキ、ホタテ、ノリ、ハマチ、マダイなどが盛んです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_aquaculture_1773720294513.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_aquaculture_1773720294513.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5791,7 +5791,7 @@ const QUIZ_DATA = {
       ],
       "a": "遠洋漁業",
       "comment": "各国の200海里水域の設定などにより、漁獲量は減少しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_pelagic_fishery_1773720374360.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_pelagic_fishery_1773720374360.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5804,7 +5804,7 @@ const QUIZ_DATA = {
       ],
       "a": "干潟",
       "comment": "ムツゴロウなどの生物が生息し、ノリの養殖も盛んです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_tidal_flat_1773735503655.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_tidal_flat_1773735503655.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5817,7 +5817,7 @@ const QUIZ_DATA = {
       ],
       "a": "森林",
       "comment": "フィンランドなどに次ぐ世界有数の森林国です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_forest_1773735518449.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_forest_1773735518449.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5830,7 +5830,7 @@ const QUIZ_DATA = {
       ],
       "a": "青森ひば",
       "comment": "腐りにくく、建築材として優れています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_aomori_hiba_1773735533488.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_aomori_hiba_1773735533488.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5843,7 +5843,7 @@ const QUIZ_DATA = {
       ],
       "a": "太平洋ベルト",
       "comment": "日本の工業生産額の多くがこの地域に集中しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_pacific_belt_1773720483237.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_pacific_belt_1773720483237.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5856,7 +5856,7 @@ const QUIZ_DATA = {
       ],
       "a": "京浜工業地帯",
       "comment": "「京」は東京、「浜」は横浜を指します。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_keihin_industrial_1773720110872.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_keihin_industrial_1773720110872.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5869,7 +5869,7 @@ const QUIZ_DATA = {
       ],
       "a": "中京工業地帯",
       "comment": "豊田市（自動車）や四日市市（石油化学）などが中心です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_chukyo_industrial_1773720124206.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_chukyo_industrial_1773720124206.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5882,7 +5882,7 @@ const QUIZ_DATA = {
       ],
       "a": "阪神工業地帯",
       "comment": "中小企業の工場が多いのも特徴です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_hanshin_industrial_1773720136503.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_hanshin_industrial_1773720136503.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5895,7 +5895,7 @@ const QUIZ_DATA = {
       ],
       "a": "北九州工業地域",
       "comment": "かつては四大工業地帯の一つでしたが、地位が低下し「地域」と呼ばれています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_kitakyushu_industrial_1773720151130.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_kitakyushu_industrial_1773720151130.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5908,7 +5908,7 @@ const QUIZ_DATA = {
       ],
       "a": "北関東工業地域",
       "comment": "高速道路網の発達により工場が進出しました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_kitakanto_industrial_1773735548372.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_kitakanto_industrial_1773735548372.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5921,7 +5921,7 @@ const QUIZ_DATA = {
       ],
       "a": "京葉工業地域",
       "comment": "化学工業の割合が高いのが特徴です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_keiyo_industrial_1773720171232.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_keiyo_industrial_1773720171232.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5934,7 +5934,7 @@ const QUIZ_DATA = {
       ],
       "a": "瀬戸内工業地域",
       "comment": "海上輸送の便利さを活かしています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_setouchi_industrial_1773720204765.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_setouchi_industrial_1773720204765.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5947,7 +5947,7 @@ const QUIZ_DATA = {
       ],
       "a": "産業の空洞化",
       "comment": "円高や安い労働力を求めて海外進出が進んだことが原因です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_hollowing_out_1773735575492.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_hollowing_out_1773735575492.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5960,7 +5960,7 @@ const QUIZ_DATA = {
       ],
       "a": "加工貿易",
       "comment": "資源の乏しい日本のかつての典型的な貿易スタイルでした。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_processing_trade_1773720308144.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_processing_trade_1773720308144.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5973,7 +5973,7 @@ const QUIZ_DATA = {
       ],
       "a": "ハブ空港",
       "comment": "車輪の中心（ハブ）のように路線が放射状に伸びることから名付けられました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_hub_airport_1773735590611.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_hub_airport_1773735590611.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5986,7 +5986,7 @@ const QUIZ_DATA = {
       ],
       "a": "航空輸送",
       "comment": "九州などの空港周辺にIC工場が集まる理由の一つです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_air_transport_1773735604645.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_air_transport_1773735604645.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -5999,7 +5999,7 @@ const QUIZ_DATA = {
       ],
       "a": "海上輸送（船舶）",
       "comment": "輸送コストが最も安く済みます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_marine_transport_1773735620352.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_marine_transport_1773735620352.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6012,7 +6012,7 @@ const QUIZ_DATA = {
       ],
       "a": "東海道新幹線",
       "comment": "東京オリンピックの開催に合わせて開業しました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_tokaido_shinkansen_1773735635176.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_tokaido_shinkansen_1773735635176.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6025,7 +6025,7 @@ const QUIZ_DATA = {
       ],
       "a": "第三次産業",
       "comment": "現在の日本で働く人の約7割がこの産業に従事しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_tertiary_industry_1773735663911.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_tertiary_industry_1773735663911.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6038,7 +6038,7 @@ const QUIZ_DATA = {
       ],
       "a": "モノカルチャー経済",
       "comment": "価格変動の影響を受けやすく、経済が不安定になりがちです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_monoculture_economy_1773735678729.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_monoculture_economy_1773735678729.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6051,7 +6051,7 @@ const QUIZ_DATA = {
       ],
       "a": "バイオマス発電",
       "comment": "カーボンニュートラルなエネルギーとして期待されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_biomass_1773735693322.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_biomass_1773735693322.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6064,7 +6064,7 @@ const QUIZ_DATA = {
       ],
       "a": "地熱発電",
       "comment": "日本は火山国であるため、潜在的な資源量は多いです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_geothermal_power_1773735845158.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_geothermal_power_1773735845158.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6077,14 +6077,14 @@ const QUIZ_DATA = {
       ],
       "a": "時間距離",
       "comment": "交通機関の発達により、物理的な距離が変わらなくても時間距離は短縮されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_time_distance_1773735860568.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_time_distance_1773735860568.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "gj_3": [
     {
       "q": "九州地方の中央部を北東から南西に走る、険しい山地は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_0.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_0.webp",
       "choices": [
         "九州山地",
         "筑紫山地",
@@ -6093,7 +6093,7 @@ const QUIZ_DATA = {
       ],
       "a": "九州山地",
       "comment": "温暖で降水量が多く、林業や水力発電が盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_0.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_0.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -6106,12 +6106,12 @@ const QUIZ_DATA = {
       ],
       "a": "筑紫山地",
       "comment": "なだらかな山地で、筑豊炭田などがありました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_tsukushi_mountains_1773735879678.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_tsukushi_mountains_1773735879678.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "九州最大の河川で、「筑紫次郎」の異名を持つ川は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_2.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_2.webp",
       "choices": [
         "筑後川",
         "球磨川",
@@ -6120,7 +6120,7 @@ const QUIZ_DATA = {
       ],
       "a": "筑後川",
       "comment": "熊本・大分・福岡・佐賀を流れ、有明海に注ぎます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_2.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_2.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -6133,7 +6133,7 @@ const QUIZ_DATA = {
       ],
       "a": "筑紫平野",
       "comment": "有明海沿岸の干拓地も含みます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_tsukushi_plain_1773735894595.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_tsukushi_plain_1773735894595.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6146,12 +6146,12 @@ const QUIZ_DATA = {
       ],
       "a": "クリーク",
       "comment": "農業用水の確保や洪水調整のために作られましたが、最近は減少しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_creek_1773735907603.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_creek_1773735907603.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "潮の満ち引きの差が大きく、広大な干潟が見られる九州北西部の海は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_5.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_5.webp",
       "choices": [
         "有明海",
         "不知火海",
@@ -6160,12 +6160,12 @@ const QUIZ_DATA = {
       ],
       "a": "有明海",
       "comment": "ムツゴロウなどの珍しい生物が生息し、ノリの養殖も日本一です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_5.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_5.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "山の斜面や谷間の傾斜地に、階段状に作られた水田を何というか？",
-      "img": "assets/images/geography/geo_jp_tanada_1771590803814.jpg",
+      "img": "assets/images/geography/geo_jp_tanada_1771590803814.webp",
       "choices": [
         "棚田（千枚田）",
         "段々畑",
@@ -6185,7 +6185,7 @@ const QUIZ_DATA = {
       ],
       "a": "阿蘇山",
       "comment": "「火の国」熊本のシンボルです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_mt_aso_1773735932546.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_mt_aso_1773735932546.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6198,7 +6198,7 @@ const QUIZ_DATA = {
       ],
       "a": "カルデラ",
       "comment": "スペイン語で「大鍋」という意味です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_caldera_1773735948803.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_caldera_1773735948803.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6211,7 +6211,7 @@ const QUIZ_DATA = {
       ],
       "a": "桜島",
       "comment": "かつては島でしたが、大正時代の大噴火で大隅半島と陸続きになりました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_sakurajima_1773735962350.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_sakurajima_1773735962350.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6224,7 +6224,7 @@ const QUIZ_DATA = {
       ],
       "a": "雲仙岳（普賢岳）",
       "comment": "平成新山という新しい溶岩ドームが形成されました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_mt_unzen_1773735977725.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_mt_unzen_1773735977725.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6237,7 +6237,7 @@ const QUIZ_DATA = {
       ],
       "a": "シラス台地",
       "comment": "水はけが良すぎるため稲作には不向きで、畑作や畜産が中心です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_shirasu_plateau_1773735996360.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_shirasu_plateau_1773735996360.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6250,7 +6250,7 @@ const QUIZ_DATA = {
       ],
       "a": "屋久島",
       "comment": "樹齢数千年の「縄文杉」などの屋久杉で有名です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_yakushima_1773736021219.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_yakushima_1773736021219.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6263,12 +6263,12 @@ const QUIZ_DATA = {
       ],
       "a": "種子島",
       "comment": "日本のロケット打ち上げの拠点となっています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_tanegashima_1773736033300.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_tanegashima_1773736033300.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "サンゴ礁が発達し、温暖な亜熱帯気候が見られる南西諸島の県は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_14.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_14.webp",
       "choices": [
         "沖縄県",
         "鹿児島県",
@@ -6277,7 +6277,7 @@ const QUIZ_DATA = {
       ],
       "a": "沖縄県",
       "comment": "かつては琉球王国として栄えました。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_14.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_14.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -6290,7 +6290,7 @@ const QUIZ_DATA = {
       ],
       "a": "促成栽培",
       "comment": "きゅうりやピーマンなどが東京や大阪へ出荷されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_forcing_culture_1773720410774.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_forcing_culture_1773720410774.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6303,7 +6303,7 @@ const QUIZ_DATA = {
       ],
       "a": "さつまいも",
       "comment": "鹿児島県はさつまいもの生産量が日本一です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_sweet_potato_1773736048280.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_sweet_potato_1773736048280.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6316,7 +6316,7 @@ const QUIZ_DATA = {
       ],
       "a": "茶",
       "comment": "知覧茶などが有名です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_tea_1773736062579.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_tea_1773736062579.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6329,7 +6329,7 @@ const QUIZ_DATA = {
       ],
       "a": "畜産",
       "comment": "鹿児島県の畜産産出額は全国トップクラスです（ブロイラー、黒豚など）。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_livestock_1773736075928.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_livestock_1773736075928.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6342,7 +6342,7 @@ const QUIZ_DATA = {
       ],
       "a": "い草",
       "comment": "日本国内の生産量のほとんどを熊本県が占めています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_igusa_1773736102673.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_igusa_1773736102673.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6355,12 +6355,12 @@ const QUIZ_DATA = {
       ],
       "a": "のり",
       "comment": "遠浅の干潟を利用して行われます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_nori_1773736117587.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_nori_1773736117587.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1901年に操業を開始した、北九州工業地帯の発展の中心となった製鉄所は？",
-      "img": "assets/images/history/h_modern_4_yawata.jpg",
+      "img": "assets/images/history/h_modern_4_yawata.webp",
       "choices": [
         "八幡製鉄所",
         "釜石製鉄所",
@@ -6380,7 +6380,7 @@ const QUIZ_DATA = {
       ],
       "a": "エネルギー革命",
       "comment": "これにより筑豊炭田などの炭鉱は閉山しました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_energy_revolution_1773736131010.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_energy_revolution_1773736131010.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6393,7 +6393,7 @@ const QUIZ_DATA = {
       ],
       "a": "シリコンアイランド",
       "comment": "綺麗な水、空気、空港や高速道路の利便性が背景にあります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_silicon_island_1773736156254.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_silicon_island_1773736156254.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6406,7 +6406,7 @@ const QUIZ_DATA = {
       ],
       "a": "エコタウン事業",
       "comment": "かつての公害克服の経験が生かされています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_eco_town_1773736170906.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_eco_town_1773736170906.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6419,7 +6419,7 @@ const QUIZ_DATA = {
       ],
       "a": "ゼロエミッション",
       "comment": "循環型社会の実現に向けた重要な概念です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_zero_emission_1773736199049.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_zero_emission_1773736199049.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6432,7 +6432,7 @@ const QUIZ_DATA = {
       ],
       "a": "水俣病",
       "comment": "工場排水に含まれていたメチル水銀が原因でした。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_minamata_disease_1773736212403.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_minamata_disease_1773736212403.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6445,12 +6445,12 @@ const QUIZ_DATA = {
       ],
       "a": "赤潮",
       "comment": "養殖魚が窒息死するなど大きな被害が出ることがあります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_red_tide_1773736225186.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_red_tide_1773736225186.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "自然環境や歴史的遺産を保護・保全し、未来へ引き継ぐためにユネスコが登録するものは？",
-      "img": "assets/images/history/h_early_modern_1_silver.jpg",
+      "img": "assets/images/history/h_early_modern_1_silver.webp",
       "choices": [
         "世界遺産",
         "国宝",
@@ -6459,7 +6459,7 @@ const QUIZ_DATA = {
       ],
       "a": "世界遺産",
       "comment": "文化遺産、自然遺産、複合遺産の3種類があります。",
-      "answerImg": "assets/images/geography/g_geo_world_heritage_fixed.jpg"
+      "answerImg": "assets/images/geography/g_geo_world_heritage_fixed.webp"
     },
     {
       "q": "自然環境を観光資源として体験・学習し、環境保全につなげる観光のあり方を何というか？",
@@ -6471,7 +6471,7 @@ const QUIZ_DATA = {
       ],
       "a": "エコツーリズム",
       "comment": "屋久島などで盛んに行われています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_ecotourism_1773736239361.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_ecotourism_1773736239361.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6484,12 +6484,12 @@ const QUIZ_DATA = {
       ],
       "a": "福岡市",
       "comment": "国の出先機関や企業の支店が多く集まる地方中枢都市です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_fukuoka_city_1773736253573.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_fukuoka_city_1773736253573.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "アメリカ軍基地が多く存在し、パイナップルやサトウキビの栽培が盛んな県は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_31.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_31.webp",
       "choices": [
         "沖縄県",
         "鹿児島県",
@@ -6498,12 +6498,12 @@ const QUIZ_DATA = {
       ],
       "a": "沖縄県",
       "comment": "観光業も主要な産業となっています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_31.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_31.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "日本が加盟している、国際的な平和と安全を維持するための機関（本部はニューヨーク）は？",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
+      "img": "assets/images/history/united_nations_1773368765000.webp",
       "choices": [
         "国際連合（国連）",
         "ユネスコ",
@@ -6515,7 +6515,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "九州地方で人口が最も多く、アジアの玄関口とも呼ばれるこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_33.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_33.webp",
       "choices": [
         "福岡県",
         "佐賀県",
@@ -6524,12 +6524,12 @@ const QUIZ_DATA = {
       ],
       "a": "福岡県",
       "comment": "福岡市や北九州市などの政令指定都市があります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_33.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_33.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "かつては外国との貿易窓口（出島）があり、造船業が盛んなこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_34.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_34.webp",
       "choices": [
         "長崎県",
         "佐賀県",
@@ -6538,12 +6538,12 @@ const QUIZ_DATA = {
       ],
       "a": "長崎県",
       "comment": "リアス海岸が広がり、島がとても多い県です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_34.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_34.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "シラス台地が広がり、さつまいもや豚肉の生産が盛んなこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_3_35.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_3_35.webp",
       "choices": [
         "鹿児島県",
         "宮崎県",
@@ -6552,14 +6552,14 @@ const QUIZ_DATA = {
       ],
       "a": "鹿児島県",
       "comment": "桜島などの火山があります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_35.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_3_35.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
   "gj_4": [
     {
       "q": "中国山地と四国山地に挟まれた、年間を通して降水量が少なく晴れの日が多い地域は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_4_0.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_4_0.webp",
       "choices": [
         "瀬戸内海沿岸（瀬戸内）",
         "南四国（太平洋側）",
@@ -6568,7 +6568,7 @@ const QUIZ_DATA = {
       ],
       "a": "瀬戸内海沿岸（瀬戸内）",
       "comment": "季節風が山地に遮られるため、雨が少なく温暖です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_0.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_0.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -6581,7 +6581,7 @@ const QUIZ_DATA = {
       ],
       "a": "山陰（日本海側）",
       "comment": "鳥取砂丘などの砂丘も見られます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_sanin_1773736280744.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_sanin_1773736280744.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6594,7 +6594,7 @@ const QUIZ_DATA = {
       ],
       "a": "南四国（太平洋側）",
       "comment": "高知県などは「雨の多い地域」として知られます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_south_shikoku_1773736296649.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_south_shikoku_1773736296649.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6607,12 +6607,12 @@ const QUIZ_DATA = {
       ],
       "a": "ため池",
       "comment": "日本最大のため池「満濃池」などが有名です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_reservoir_1773736308679.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_reservoir_1773736308679.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "水不足を解消するため、吉野川から水を引いて作られた用水路は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_4_4.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_4_4.webp",
       "choices": [
         "香川用水",
         "愛知用水",
@@ -6621,7 +6621,7 @@ const QUIZ_DATA = {
       ],
       "a": "香川用水",
       "comment": "徳島県を流れる吉野川から、香川県の讃岐平野へ水を送っています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_4.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_4.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -6634,7 +6634,7 @@ const QUIZ_DATA = {
       ],
       "a": "鳥取砂丘",
       "comment": "らっきょうやメロンなどの栽培に利用されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_tottori_sand_dunes_1773736323950.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_tottori_sand_dunes_1773736323950.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6647,7 +6647,7 @@ const QUIZ_DATA = {
       ],
       "a": "広島市",
       "comment": "太田川の三角州（デルタ）上に発達した都市です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_hiroshima_city_1773736339448.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_hiroshima_city_1773736339448.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6660,7 +6660,7 @@ const QUIZ_DATA = {
       ],
       "a": "平和記念都市",
       "comment": "原爆ドームや平和記念公園があり、世界中から多くの人が訪れます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_peace_memorial_city_1773736371695.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_peace_memorial_city_1773736371695.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6673,7 +6673,7 @@ const QUIZ_DATA = {
       ],
       "a": "本州四国連絡橋",
       "comment": "神戸・鳴門ルート、児島・坂出ルート、尾道・今治ルートの3つがあります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_honshu_shikoku_bridge_1773736386192.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_honshu_shikoku_bridge_1773736386192.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6686,12 +6686,12 @@ const QUIZ_DATA = {
       ],
       "a": "瀬戸大橋",
       "comment": "道路と鉄道が併用されているのが特徴です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_seto_ohashi_1773736399474.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_seto_ohashi_1773736399474.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "兵庫県神戸市と淡路島を結ぶ、世界最大級のつり橋は？",
-      "img": "assets/images/history/h_medieval_5_ming.jpg",
+      "img": "assets/images/history/h_medieval_5_ming.webp",
       "choices": [
         "明石海峡大橋",
         "大鳴門橋",
@@ -6711,7 +6711,7 @@ const QUIZ_DATA = {
       ],
       "a": "瀬戸内しまなみ海道",
       "comment": "サイクリングの聖地としても人気があります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_shimanami_kaido_1773736414228.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_shimanami_kaido_1773736414228.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6724,7 +6724,7 @@ const QUIZ_DATA = {
       ],
       "a": "広島市",
       "comment": "人口100万人を超える大都市です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_hiroshima_city_1773736339448.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_hiroshima_city_1773736339448.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6737,7 +6737,7 @@ const QUIZ_DATA = {
       ],
       "a": "ストロー現象",
       "comment": "コップの飲み物をストローで吸い上げる様子に例えられました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_straw_effect_1773736431275.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_straw_effect_1773736431275.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6750,7 +6750,7 @@ const QUIZ_DATA = {
       ],
       "a": "促成栽培",
       "comment": "ビニールハウスを利用して栽培されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_forcing_culture_1773720410774.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_forcing_culture_1773720410774.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6763,7 +6763,7 @@ const QUIZ_DATA = {
       ],
       "a": "らっきょう・梨",
       "comment": "「二十世紀梨」などが有名です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_rakkyo_pear_1773736457736.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_rakkyo_pear_1773736457736.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6776,7 +6776,7 @@ const QUIZ_DATA = {
       ],
       "a": "みかん（柑橘類）",
       "comment": "水はけの良い山の斜面を利用して栽培されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_mikan_1773736472304.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_mikan_1773736472304.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6789,7 +6789,7 @@ const QUIZ_DATA = {
       ],
       "a": "ぶどう（マスカット）・もも",
       "comment": "「フルーツ王国」とも呼ばれます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_grapes_peaches_1773736486064.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_grapes_peaches_1773736486064.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6802,7 +6802,7 @@ const QUIZ_DATA = {
       ],
       "a": "オリーブ",
       "comment": "気候が地中海性気候に似ているため栽培に適しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_olive_1773736498562.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_olive_1773736498562.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6815,7 +6815,7 @@ const QUIZ_DATA = {
       ],
       "a": "瀬戸内工業地域",
       "comment": "埋め立て地を利用して広い工場用地を確保しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_setouchi_industrial_1773720204765.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_setouchi_industrial_1773720204765.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6828,7 +6828,7 @@ const QUIZ_DATA = {
       ],
       "a": "石油化学コンビナート",
       "comment": "岡山県の水島地区や山口県の周南地区などが代表的です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_petrochemical_complex_1773736776347.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_petrochemical_complex_1773736776347.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6841,7 +6841,7 @@ const QUIZ_DATA = {
       ],
       "a": "水島地区",
       "comment": "製鉄所や石油化学コンビナート、自動車工場が集まっています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_mizushima_1773736791938.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_mizushima_1773736791938.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6854,7 +6854,7 @@ const QUIZ_DATA = {
       ],
       "a": "自動車工業",
       "comment": "広島湾に面し、輸出にも有利です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_automobile_1773736806602.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_automobile_1773736806602.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6867,7 +6867,7 @@ const QUIZ_DATA = {
       ],
       "a": "塩田",
       "comment": "現在は廃止され、その跡地は工業用地などに利用されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_salt_pan_1773736820791.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_salt_pan_1773736820791.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6880,7 +6880,7 @@ const QUIZ_DATA = {
       ],
       "a": "過疎化",
       "comment": "地域社会の維持が困難になる深刻な問題です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_depopulation_1773720096009.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_depopulation_1773720096009.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6893,7 +6893,7 @@ const QUIZ_DATA = {
       ],
       "a": "限界集落",
       "comment": "村おこしなどの地域活性化策が模索されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_marginal_village_1773736835765.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_marginal_village_1773736835765.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6906,7 +6906,7 @@ const QUIZ_DATA = {
       ],
       "a": "町おこし（村おこし）",
       "comment": "「B-1グランプリ」などのご当地グルメもその一つです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_town_revitalization_1773736860078.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_town_revitalization_1773736860078.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6919,7 +6919,7 @@ const QUIZ_DATA = {
       ],
       "a": "しじみ",
       "comment": "宍道湖は日本有数のしじみの産地です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_shijimi_1773736875012.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_shijimi_1773736875012.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6932,7 +6932,7 @@ const QUIZ_DATA = {
       ],
       "a": "厳島神社",
       "comment": "平清盛によって整備されました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_itsukushima_shrine_1773736888673.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_itsukushima_shrine_1773736888673.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -6945,12 +6945,12 @@ const QUIZ_DATA = {
       ],
       "a": "出雲大社",
       "comment": "本殿は国宝に指定されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_izumo_taisha_1773736903715.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_izumo_taisha_1773736903715.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中国地方にあり、原爆ドームや厳島神社などの世界遺産があるこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_4_30.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_4_30.webp",
       "choices": [
         "広島県",
         "岡山県",
@@ -6959,12 +6959,12 @@ const QUIZ_DATA = {
       ],
       "a": "広島県",
       "comment": "カキの養殖や自動車工業も盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_30.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_30.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "日本最大級の砂丘があり、らっきょうや梨の栽培が盛んなこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_4_31.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_4_31.webp",
       "choices": [
         "鳥取県",
         "島根県",
@@ -6973,12 +6973,12 @@ const QUIZ_DATA = {
       ],
       "a": "鳥取県",
       "comment": "中国地方の日本海側（山陰地方）にあります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_31.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_31.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "四国地方で面積が最も広く、南は太平洋に面して温暖なこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_4_32.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_4_32.webp",
       "choices": [
         "高知県",
         "愛媛県",
@@ -6987,12 +6987,12 @@ const QUIZ_DATA = {
       ],
       "a": "高知県",
       "comment": "なすやピーマンの促成栽培が盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_32.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_32.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "四国地方にあり、みかんの生産量が全国トップクラスのこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_4_33.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_4_33.webp",
       "choices": [
         "愛媛県",
         "香川県",
@@ -7001,14 +7001,14 @@ const QUIZ_DATA = {
       ],
       "a": "愛媛県",
       "comment": "瀬戸内海に面し、しまなみ海道が通っています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_33.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_4_33.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
   "gj_5": [
     {
       "q": "日本最大の湖で、近畿地方の約1450万人の飲料水として利用されているため「近畿地方の水がめ」と呼ばれるのは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_5_0.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_5_0.webp",
       "choices": [
         "琵琶湖",
         "霞ヶ浦",
@@ -7017,7 +7017,7 @@ const QUIZ_DATA = {
       ],
       "a": "琵琶湖",
       "comment": "滋賀県の面積の約6分の1を占めています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_0.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_0.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7030,12 +7030,12 @@ const QUIZ_DATA = {
       ],
       "a": "ラムサール条約",
       "comment": "イランのラムサールで採択されました。北海道の釧路湿原なども登録されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_ramsar_convention_1773736918257.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_ramsar_convention_1773736918257.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "紀伊半島の大部分を占める、険しい山々が連なる地域は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_5_2.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_5_2.webp",
       "choices": [
         "紀伊山地",
         "四国山地",
@@ -7044,7 +7044,7 @@ const QUIZ_DATA = {
       ],
       "a": "紀伊山地",
       "comment": "温暖で降水量が非常に多く、日本有数の多雨地帯です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_2.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_2.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7057,7 +7057,7 @@ const QUIZ_DATA = {
       ],
       "a": "林業",
       "comment": "豊富な雨と温暖な気候が樹木の生育に適しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_forestry_1773736945662.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_forestry_1773736945662.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7070,9 +7070,9 @@ const QUIZ_DATA = {
       ],
       "a": "リアス海岸",
       "comment": "波が静かなため、真珠やカキの養殖に適しています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_4.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_4.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_5_4.jpg"
+      "img": "assets/images/geography/custom_maps/custom_map_gj_5_4.webp"
     },
     {
       "q": "瀬戸内海で最も大きな島で、たまねぎの栽培などが盛んな島は？",
@@ -7084,7 +7084,7 @@ const QUIZ_DATA = {
       ],
       "a": "淡路島",
       "comment": "兵庫県に属し、明石海峡大橋で神戸市と結ばれています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_awaji_island_1773736974902.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_awaji_island_1773736974902.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7097,7 +7097,7 @@ const QUIZ_DATA = {
       ],
       "a": "大阪市",
       "comment": "全国から物資が集まり、商業の中心地として栄えました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_osaka_city_1773736987698.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_osaka_city_1773736987698.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7110,7 +7110,7 @@ const QUIZ_DATA = {
       ],
       "a": "中小工場が多い",
       "comment": "歯ブラシから人工衛星の部品まで、多種多様な製品を作っています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_small_large_factories_1773737004369.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_small_large_factories_1773737004369.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7123,7 +7123,7 @@ const QUIZ_DATA = {
       ],
       "a": "ニュータウン",
       "comment": "大阪の千里ニュータウンや泉北ニュータウンなどが有名ですが、現在は住民の高齢化が進んでいます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_new_town_1773737037591.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_new_town_1773737037591.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7136,9 +7136,9 @@ const QUIZ_DATA = {
       ],
       "a": "人工島",
       "comment": "六甲山を削った土砂を使って海を埋め立て、「山、海へ行く」と言われました。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_9.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_9.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_5_9.jpg"
+      "img": "assets/images/geography/custom_maps/custom_map_gj_5_9.webp"
     },
     {
       "q": "大阪湾の泉州沖に造られた、騒音問題の解消などを目的とした日本初の24時間利用可能な空港は？",
@@ -7150,7 +7150,7 @@ const QUIZ_DATA = {
       ],
       "a": "関西国際空港",
       "comment": "完全な人工島の上に建設された空港です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_kansai_airport_1773737063948.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_kansai_airport_1773737063948.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7163,7 +7163,7 @@ const QUIZ_DATA = {
       ],
       "a": "阪神工業地帯",
       "comment": "戦前は日本最大の工業地帯でした。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_hanshin_industrial_1773720136503.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_hanshin_industrial_1773720136503.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7176,7 +7176,7 @@ const QUIZ_DATA = {
       ],
       "a": "パネルベイ",
       "comment": "現在は海外との競争激化により生産は減少していますが、蓄電池などの新産業も生まれています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_panel_bay_1773737080365.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_panel_bay_1773737080365.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7189,7 +7189,7 @@ const QUIZ_DATA = {
       ],
       "a": "近郊農業",
       "comment": "京都や大阪の周辺で盛んに行われています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_suburban_agriculture_1773720434442.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_suburban_agriculture_1773720434442.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7202,7 +7202,7 @@ const QUIZ_DATA = {
       ],
       "a": "みかん",
       "comment": "和歌山県はみかんの生産量が日本一です（年により変動あり）。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_mikan_1773737094621.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_mikan_1773737094621.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7215,7 +7215,7 @@ const QUIZ_DATA = {
       ],
       "a": "京都市（平安京）",
       "comment": "碁盤の目状の道路区画などの古い町並みが残っています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_kyoto_city_1773737119330.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_kyoto_city_1773737119330.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7228,7 +7228,7 @@ const QUIZ_DATA = {
       ],
       "a": "奈良市（平城京）",
       "comment": "シルクロードの終着点とも呼ばれ、国際色豊かな天平文化が栄えました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_nara_city_1773737136727.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_nara_city_1773737136727.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7241,7 +7241,7 @@ const QUIZ_DATA = {
       ],
       "a": "西陣織",
       "comment": "応仁の乱の後に発展しました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_nishijin_ori_1773737151135.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_nishijin_ori_1773737151135.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7254,7 +7254,7 @@ const QUIZ_DATA = {
       ],
       "a": "京友禅",
       "comment": "水で洗ってのりを落とす「友禅流し」が有名です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_kyo_yuzen_1773737169637.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_kyo_yuzen_1773737169637.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7267,7 +7267,7 @@ const QUIZ_DATA = {
       ],
       "a": "祇園祭",
       "comment": "7月の1ヶ月間にわたって行われ、山鉾巡行がハイライトです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_gion_festival_1773737186309.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_gion_festival_1773737186309.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7280,7 +7280,7 @@ const QUIZ_DATA = {
       ],
       "a": "重要文化財",
       "comment": "その中でも特に価値の高いものが「国宝」に指定されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_important_cultural_property_1773737214366.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_important_cultural_property_1773737214366.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7293,7 +7293,7 @@ const QUIZ_DATA = {
       ],
       "a": "古都保存法",
       "comment": "京都、奈良、鎌倉などが指定されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_ancient_capital_preservation_1773737231073.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_ancient_capital_preservation_1773737231073.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7306,7 +7306,7 @@ const QUIZ_DATA = {
       ],
       "a": "高野山・熊野三山・吉野大峯",
       "comment": "自然崇拝と結びついた文化的景観が評価されました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_koyasan_kumano_yoshino_1773737245468.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_koyasan_kumano_yoshino_1773737245468.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7319,12 +7319,12 @@ const QUIZ_DATA = {
       ],
       "a": "伝統的工芸品",
       "comment": "西陣織、清水焼、京友禅などが指定されています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_traditional_crafts_1773737261360.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_traditional_crafts_1773737261360.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "近畿地方の中心であり、江戸時代には「天下の台所」と呼ばれたこの府のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_5_24.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_5_24.webp",
       "choices": [
         "大阪府",
         "京都府",
@@ -7333,12 +7333,12 @@ const QUIZ_DATA = {
       ],
       "a": "大阪府",
       "comment": "面積は小さいですが、人口がとても多いです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_24.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_24.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "日本最大の湖「琵琶湖」があり、近畿地方の水がめとなっているこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_5_25.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_5_25.webp",
       "choices": [
         "滋賀県",
         "奈良県",
@@ -7347,12 +7347,12 @@ const QUIZ_DATA = {
       ],
       "a": "滋賀県",
       "comment": "県の中央に大きな湖があります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_25.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_25.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "紀伊半島の南西部にあり、みかんや梅などの果樹栽培が盛んなこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_5_26.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_5_26.webp",
       "choices": [
         "和歌山県",
         "奈良県",
@@ -7361,14 +7361,14 @@ const QUIZ_DATA = {
       ],
       "a": "和歌山県",
       "comment": "温暖な気候を利用して果物がたくさん作られています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_26.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_5_26.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
   "gj_6": [
     {
       "q": "中部地方の中央部を南北に走る、飛騨・木曽・赤石の3つの山脈の総称は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_6_0.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_6_0.webp",
       "choices": [
         "日本アルプス",
         "奥羽山脈",
@@ -7377,7 +7377,7 @@ const QUIZ_DATA = {
       ],
       "a": "日本アルプス",
       "comment": "「日本の屋根」とも呼ばれる、3000m級の山々です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_0.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_0.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7390,12 +7390,12 @@ const QUIZ_DATA = {
       ],
       "a": "富士山",
       "comment": "静岡県と山梨県にまたがる美しい独立峰です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_mt_fuji_1773737276518.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_mt_fuji_1773737276518.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本最長の川（長さ約367km）で、越後平野を流れて日本海に注ぐ川は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_6_2.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_6_2.webp",
       "choices": [
         "信濃川",
         "利根川",
@@ -7404,7 +7404,7 @@ const QUIZ_DATA = {
       ],
       "a": "信濃川",
       "comment": "長野県では千曲川と呼ばれます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_2.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_2.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7417,7 +7417,7 @@ const QUIZ_DATA = {
       ],
       "a": "濃尾平野",
       "comment": "堤防で囲まれた集落の工夫が今も見られます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_nobi_plain_1773737301915.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_nobi_plain_1773737301915.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7430,7 +7430,7 @@ const QUIZ_DATA = {
       ],
       "a": "ぶどう・もも",
       "comment": "昼夜の気温差が大きい盆地の気候が果樹栽培に適しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_grapes_peaches_yamanashi_1773737315443.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_grapes_peaches_yamanashi_1773737315443.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7443,7 +7443,7 @@ const QUIZ_DATA = {
       ],
       "a": "抑制栽培",
       "comment": "他の産地が出荷できない夏に出荷時期をずらすことで、高い価格で売ることができます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_retarding_culture_1773720421834.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_retarding_culture_1773720421834.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7456,7 +7456,7 @@ const QUIZ_DATA = {
       ],
       "a": "施設園芸農業",
       "comment": "温暖な気候を利用し、ビニールハウスなどで栽培します。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_greenhouse_horticulture_1773720390767.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_greenhouse_horticulture_1773720390767.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7469,7 +7469,7 @@ const QUIZ_DATA = {
       ],
       "a": "水田単作",
       "comment": "越後平野などは日本有数の穀倉地帯となっています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_single_crop_rice_1773737332482.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_single_crop_rice_1773737332482.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7482,7 +7482,7 @@ const QUIZ_DATA = {
       ],
       "a": "茶",
       "comment": "明治時代に開墾が始まりました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_tea_1773736062579.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_tea_1773736062579.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7495,7 +7495,7 @@ const QUIZ_DATA = {
       ],
       "a": "中京工業地帯",
       "comment": "豊田市の自動車、四日市市の石油化学コンビナートなどが有名です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_chukyo_industrial_1773720124206.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_chukyo_industrial_1773720124206.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7508,7 +7508,7 @@ const QUIZ_DATA = {
       ],
       "a": "東海工業地域",
       "comment": "富士市では製紙・パルプ工業も盛んです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_tokai_industrial_1773737348521.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_tokai_industrial_1773737348521.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7521,7 +7521,7 @@ const QUIZ_DATA = {
       ],
       "a": "精密機械工業",
       "comment": "時計やカメラ、現在は電子部品の生産が盛んです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_precision_machinery_1773737363616.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_precision_machinery_1773737363616.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7534,7 +7534,7 @@ const QUIZ_DATA = {
       ],
       "a": "地場産業",
       "comment": "地域経済を支える重要な産業です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch5_local_industry_1773737393680.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch5_local_industry_1773737393680.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7547,7 +7547,7 @@ const QUIZ_DATA = {
       ],
       "a": "合掌造り",
       "comment": "世界文化遺産に登録されています。屋根裏ではかつて養蚕が行われていました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_gassho_zukuri_1773738322321.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_gassho_zukuri_1773738322321.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7560,7 +7560,7 @@ const QUIZ_DATA = {
       ],
       "a": "輪島塗",
       "comment": "「沈金」や「螺鈿」などの技法が使われます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_wajima_nuri_1773756327856.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_wajima_nuri_1773756327856.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7573,12 +7573,12 @@ const QUIZ_DATA = {
       ],
       "a": "セントレア（中部国際空港）",
       "comment": "中部地方の空の玄関として、地域の活性化に貢献しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_centrair_1773756343020.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_centrair_1773756343020.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中部地方にあり、自動車などの工業出荷額が日本一のこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_6_16.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_6_16.webp",
       "choices": [
         "愛知県",
         "静岡県",
@@ -7587,12 +7587,12 @@ const QUIZ_DATA = {
       ],
       "a": "愛知県",
       "comment": "中京工業地帯の中心的な県です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_16.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_16.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "越後平野が広がり、「米どころ」として稲作が非常に盛んなこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_6_17.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_6_17.webp",
       "choices": [
         "新潟県",
         "富山県",
@@ -7601,12 +7601,12 @@ const QUIZ_DATA = {
       ],
       "a": "新潟県",
       "comment": "日本海に面した長い海岸線を持つ県です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_17.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_17.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "牧ノ原でお茶の栽培が盛んで、富士山の南側に位置するこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_6_18.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_6_18.webp",
       "choices": [
         "静岡県",
         "山梨県",
@@ -7615,14 +7615,14 @@ const QUIZ_DATA = {
       ],
       "a": "静岡県",
       "comment": "ピアノなどの楽器やオートバイの生産も盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_18.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_6_18.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
   "gj_7": [
     {
       "q": "日本最大の面積を持つ平野で、関東地方の大部分を占めているのは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_7_0.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_7_0.webp",
       "choices": [
         "関東平野",
         "石狩平野",
@@ -7631,7 +7631,7 @@ const QUIZ_DATA = {
       ],
       "a": "関東平野",
       "comment": "火山灰が堆積した赤土の台地が広がっています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_0.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_0.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7644,12 +7644,12 @@ const QUIZ_DATA = {
       ],
       "a": "関東ローム",
       "comment": "水はけが良いため、畑作に適しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_kanto_loam_1773756359638.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_kanto_loam_1773756359638.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "流域面積が日本一の川で、「坂東太郎」の異名を持つ川は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_7_2.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_7_2.webp",
       "choices": [
         "利根川",
         "信濃川",
@@ -7658,7 +7658,7 @@ const QUIZ_DATA = {
       ],
       "a": "利根川",
       "comment": "かつては洪水を防ぐために流路が変えられました（利根川東遷）。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_2.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_2.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7671,12 +7671,12 @@ const QUIZ_DATA = {
       ],
       "a": "からっ風",
       "comment": "日本海側で雪を降らせた後の乾いた風です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_karakaze_1773756375629.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_karakaze_1773756375629.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東京の南方約1000kmの太平洋上にあり、独自の生態系を持つことから世界自然遺産に登録されている島々は？",
-      "img": "assets/images/history/ogasawara_islands_1773369026963.jpg",
+      "img": "assets/images/history/ogasawara_islands_1773369026963.webp",
       "choices": [
         "小笠原諸島",
         "伊豆諸島",
@@ -7696,7 +7696,7 @@ const QUIZ_DATA = {
       ],
       "a": "一極集中",
       "comment": "交通渋滞や地価の高騰、ゴミ問題などの原因となっています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_overconcentration_1773756390559.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_overconcentration_1773756390559.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7709,7 +7709,7 @@ const QUIZ_DATA = {
       ],
       "a": "霞が関・永田町",
       "comment": "千代田区に位置しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_kasumigaseki_1773756416471.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_kasumigaseki_1773756416471.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7722,7 +7722,7 @@ const QUIZ_DATA = {
       ],
       "a": "新都心（業務核都市）",
       "comment": "首都機能の分散などが目的とされています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_new_city_center_1773756432603.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_new_city_center_1773756432603.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7735,7 +7735,7 @@ const QUIZ_DATA = {
       ],
       "a": "ターミナル駅",
       "comment": "駅周辺には百貨店やオフィスビルが立ち並び、副都心を形成しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_terminal_station_1773756450819.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_terminal_station_1773756450819.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7748,9 +7748,9 @@ const QUIZ_DATA = {
       ],
       "a": "臨海副都心",
       "comment": "「東京テレポートタウン」などとも呼ばれます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_9.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_9.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_7_9.jpg"
+      "img": "assets/images/geography/custom_maps/custom_map_gj_7_9.webp"
     },
     {
       "q": "2012年に完成した世界一高い自立式電波塔（634m）は？",
@@ -7762,7 +7762,7 @@ const QUIZ_DATA = {
       ],
       "a": "東京スカイツリー",
       "comment": "かつての「武蔵国」にちなんで634mとなりました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_tokyo_skytree_1773756483958.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_tokyo_skytree_1773756483958.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7775,7 +7775,7 @@ const QUIZ_DATA = {
       ],
       "a": "京浜工業地帯",
       "comment": "機械工業や印刷業の割合が高いことが特徴です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_keihin_industrial_1773720110872.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_keihin_industrial_1773720110872.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7788,7 +7788,7 @@ const QUIZ_DATA = {
       ],
       "a": "京葉工業地域",
       "comment": "化学工業の割合が非常に高いです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_keiyo_industrial_1773720171232.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_keiyo_industrial_1773720171232.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7801,7 +7801,7 @@ const QUIZ_DATA = {
       ],
       "a": "北関東工業地域",
       "comment": "地価が安く、交通の便が良いことから工場が進出しました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_kitakanto_industrial_1773735548372.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_kitakanto_industrial_1773735548372.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7814,7 +7814,7 @@ const QUIZ_DATA = {
       ],
       "a": "東京国際空港（羽田空港）",
       "comment": "旅客数で世界有数の規模を誇ります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_haneda_airport_1773756508777.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_haneda_airport_1773756508777.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7827,7 +7827,7 @@ const QUIZ_DATA = {
       ],
       "a": "成田国際空港",
       "comment": "多くの国際貨物が取り扱われています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_narita_airport_1773756523577.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_narita_airport_1773756523577.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7840,7 +7840,7 @@ const QUIZ_DATA = {
       ],
       "a": "筑波研究学園都市",
       "comment": "東京への一極集中を緩和する目的もありました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_tsukuba_science_city_1773756536613.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_tsukuba_science_city_1773756536613.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7853,7 +7853,7 @@ const QUIZ_DATA = {
       ],
       "a": "近郊農業",
       "comment": "新鮮な農産物を少ない輸送コストで供給できます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_suburban_agriculture_1773720434442.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_suburban_agriculture_1773720434442.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7866,12 +7866,12 @@ const QUIZ_DATA = {
       ],
       "a": "抑制栽培（高原野菜）",
       "comment": "浅間山の麓などの高冷地で行われています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_retarding_culture_1773720421834.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_retarding_culture_1773720421834.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "関東地方の北西部にあり、こんにゃくいもの生産やキャベツの抑制栽培が盛んなこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_7_19.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_7_19.webp",
       "choices": [
         "群馬県",
         "栃木県",
@@ -7880,12 +7880,12 @@ const QUIZ_DATA = {
       ],
       "a": "群馬県",
       "comment": "草津温泉などの温泉でも有名です。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_19.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_19.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "成田国際空港があり、落花生などの近郊農業や工業が盛んなこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_7_20.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_7_20.webp",
       "choices": [
         "千葉県",
         "茨城県",
@@ -7894,12 +7894,12 @@ const QUIZ_DATA = {
       ],
       "a": "千葉県",
       "comment": "東京湾に面し、京葉工業地域が広がっています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_20.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_20.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "東京の南に位置し、横浜港があり京浜工業地帯の一部となっているこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_7_21.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_7_21.webp",
       "choices": [
         "神奈川県",
         "千葉県",
@@ -7908,14 +7908,14 @@ const QUIZ_DATA = {
       ],
       "a": "神奈川県",
       "comment": "人口が東京都に次いで多く、鎌倉などの観光地もあります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_21.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_7_21.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
   "gj_8": [
     {
       "q": "東北地方の中央部を南北に走る、日本の背骨とも呼ばれる山脈は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_8_0.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_8_0.webp",
       "choices": [
         "奥羽山脈",
         "日高山脈",
@@ -7924,7 +7924,7 @@ const QUIZ_DATA = {
       ],
       "a": "奥羽山脈",
       "comment": "この山脈によって、太平洋側と日本海側の気候が分かれます。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_0.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_0.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7937,12 +7937,12 @@ const QUIZ_DATA = {
       ],
       "a": "やませ",
       "comment": "気温が上がらず、イネの生育が悪くなる「冷害」の原因となります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_yamase_1773719976574.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_yamase_1773719976574.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "青森県と秋田県にまたがる山地で、世界最大級のブナの原生林が広がっていることから世界自然遺産に登録されたのは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_8_2.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_8_2.webp",
       "choices": [
         "白神山地",
         "屋久島",
@@ -7951,7 +7951,7 @@ const QUIZ_DATA = {
       ],
       "a": "白神山地",
       "comment": "1993年に日本で初めて世界遺産に登録されました。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_2.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_2.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -7964,9 +7964,9 @@ const QUIZ_DATA = {
       ],
       "a": "リアス海岸",
       "comment": "波が静かなため養殖業に適していますが、津波の被害を受けやすい地形でもあります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_3.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_3.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_8_3.jpg"
+      "img": "assets/images/geography/custom_maps/custom_map_gj_8_3.webp"
     },
     {
       "q": "三陸海岸沖の、暖流（日本海流）と寒流（千島海流）がぶつかる良い漁場のことを何というか？",
@@ -7978,7 +7978,7 @@ const QUIZ_DATA = {
       ],
       "a": "潮目（潮境）",
       "comment": "プランクトンが豊富で、多くの魚が集まります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_ocean_currents_boundary_1773756549864.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_ocean_currents_boundary_1773756549864.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -7991,7 +7991,7 @@ const QUIZ_DATA = {
       ],
       "a": "りんご",
       "comment": "涼しい気候が栽培に適しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_apples_1773756566750.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_apples_1773756566750.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8004,12 +8004,12 @@ const QUIZ_DATA = {
       ],
       "a": "さくらんぼ",
       "comment": "「佐藤錦」などの品種が有名です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_cherries_1773756592288.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_cherries_1773756592288.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東北地方で広く行われている農業で、庄内平野や仙台平野などが代表的な産地となっているのは？",
-      "img": "assets/images/history/h_ancient_rice_farming_1772414609121.jpg",
+      "img": "assets/images/history/h_ancient_rice_farming_1772414609121.webp",
       "choices": [
         "稲作",
         "畑作",
@@ -8029,7 +8029,7 @@ const QUIZ_DATA = {
       ],
       "a": "南部鉄器",
       "comment": "保温性に優れ、丈夫なことから古くから親しまれています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_nambu_ironware_1773756609377.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_nambu_ironware_1773756609377.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8042,7 +8042,7 @@ const QUIZ_DATA = {
       ],
       "a": "将棋の駒",
       "comment": "全国の約9割を生産しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_shogi_pieces_1773756627266.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_shogi_pieces_1773756627266.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8055,7 +8055,7 @@ const QUIZ_DATA = {
       ],
       "a": "漆器（会津塗・津軽塗）",
       "comment": "独特の模様や技法が受け継がれています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_lacquerware_1773756643809.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_lacquerware_1773756643809.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8068,7 +8068,7 @@ const QUIZ_DATA = {
       ],
       "a": "工業団地",
       "comment": "交通の便が良い場所に、自動車や電子部品の工場が進出しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_industrial_park_1773756659466.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_industrial_park_1773756659466.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8081,7 +8081,7 @@ const QUIZ_DATA = {
       ],
       "a": "青森ねぶた祭",
       "comment": "東北三大祭りの一つで、ハネトと呼ばれる踊り手が盛り上げます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_aomori_nebuta_1773756687419.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_aomori_nebuta_1773756687419.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8094,7 +8094,7 @@ const QUIZ_DATA = {
       ],
       "a": "秋田竿燈まつり",
       "comment": "稲穂に見立てて豊作を祈ります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_akita_kanto_1773756703873.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_akita_kanto_1773756703873.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8107,7 +8107,7 @@ const QUIZ_DATA = {
       ],
       "a": "仙台七夕まつり",
       "comment": "伊達政宗の時代から続く伝統行事です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_sendai_tanabata_1773756719923.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_sendai_tanabata_1773756719923.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8120,12 +8120,12 @@ const QUIZ_DATA = {
       ],
       "a": "山形花笠まつり",
       "comment": "紅花をあしらった笠が特徴的です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_yamagata_hanagasa_1773756736552.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_yamagata_hanagasa_1773756736552.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "本州の最北端にあり、りんごの生産量が日本一のこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_8_16.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_8_16.webp",
       "choices": [
         "青森県",
         "秋田県",
@@ -8134,12 +8134,12 @@ const QUIZ_DATA = {
       ],
       "a": "青森県",
       "comment": "津軽平野でりんご栽培が盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_16.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_16.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "さくらんぼの生産量が日本一で、盆地が多いこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_8_17.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_8_17.webp",
       "choices": [
         "山形県",
         "秋田県",
@@ -8148,12 +8148,12 @@ const QUIZ_DATA = {
       ],
       "a": "山形県",
       "comment": "夏場の盆地の暑さを利用して果物栽培が行われています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_17.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_17.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "東北地方の中心都市である仙台市があるこの県のなまえは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_8_18.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_8_18.webp",
       "choices": [
         "宮城県",
         "岩手県",
@@ -8162,14 +8162,14 @@ const QUIZ_DATA = {
       ],
       "a": "宮城県",
       "comment": "仙台平野では米作りも盛んです。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_18.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_8_18.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     }
   ],
   "gj_9": [
     {
       "q": "北海道の中央部にある火山群で、最高峰の旭岳（2291m）などを含む場所は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_9_0.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_9_0.webp",
       "choices": [
         "大雪山",
         "日高山脈",
@@ -8178,12 +8178,12 @@ const QUIZ_DATA = {
       ],
       "a": "大雪山",
       "comment": "「北海道の屋根」とも呼ばれる国立公園があります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_0.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_0.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "流域面積が日本第2位の大河で、石狩平野を流れて日本海に注ぐ川は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_9_1.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_9_1.webp",
       "choices": [
         "石狩川",
         "信濃川",
@@ -8192,12 +8192,12 @@ const QUIZ_DATA = {
       ],
       "a": "石狩川",
       "comment": "アイヌ語で「曲がりくねって流れる川」という意味があります。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_1.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_1.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "北海道の東部に位置し、冬には流氷が見られ、世界自然遺産に登録されている半島は？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_9_2.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_9_2.webp",
       "choices": [
         "知床半島",
         "根室半島",
@@ -8206,12 +8206,12 @@ const QUIZ_DATA = {
       ],
       "a": "知床半島",
       "comment": "貴重な動植物が生息し、独自の生態系が保たれています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_2.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_2.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
       "q": "日本最大の湿原で、ラムサール条約に登録されているのは？",
-      "img": "assets/images/geography/custom_maps/custom_map_gj_9_3.jpg",
+      "img": "assets/images/geography/custom_maps/custom_map_gj_9_3.webp",
       "choices": [
         "釧路湿原",
         "尾瀬ヶ原",
@@ -8220,7 +8220,7 @@ const QUIZ_DATA = {
       ],
       "a": "釧路湿原",
       "comment": "タンチョウなどの貴重な野鳥が生息しています。",
-      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_3.jpg",
+      "answerImg": "assets/images/geography/custom_maps/custom_map_gj_9_3.webp",
       "imgCaption": "※現在位置が示されたオリジナルマップです"
     },
     {
@@ -8233,7 +8233,7 @@ const QUIZ_DATA = {
       ],
       "a": "北方領土",
       "comment": "日本固有の領土であり、返還を求める運動が続いています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch1_northern_territories_1773719670816.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch1_northern_territories_1773719670816.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8246,7 +8246,7 @@ const QUIZ_DATA = {
       ],
       "a": "梅雨がなく、台風の影響が少ない",
       "comment": "冷帯（亜寒帯）に属し、冬は寒さが厳しく雪が多いですが、夏は涼しく過ごしやすいです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_no_rainy_season_1773756749883.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_no_rainy_season_1773756749883.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8259,7 +8259,7 @@ const QUIZ_DATA = {
       ],
       "a": "アイヌの人々",
       "comment": "自然界のあらゆるものに魂が宿ると考える独自の信仰を持っていました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_ainu_1773756778577.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_ainu_1773756778577.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8272,7 +8272,7 @@ const QUIZ_DATA = {
       ],
       "a": "屯田兵",
       "comment": "厳しい自然と闘いながら、原野を切り開いていきました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_tondenhei_1773756795408.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_tondenhei_1773756795408.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8285,7 +8285,7 @@ const QUIZ_DATA = {
       ],
       "a": "札幌市",
       "comment": "日本最北の政令指定都市で、人口は約200万人です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_sapporo_1773756812000.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_sapporo_1773756812000.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8298,7 +8298,7 @@ const QUIZ_DATA = {
       ],
       "a": "大規模農業",
       "comment": "農家1戸あたりの耕地面積は、都府県の平均の10倍以上あります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_large_scale_agriculture_1773756827537.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_large_scale_agriculture_1773756827537.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8311,7 +8311,7 @@ const QUIZ_DATA = {
       ],
       "a": "輪作",
       "comment": "じゃがいも、小麦、てんさい（ビート）、豆類などを組み合わせて栽培します。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_crop_rotation_1773756843935.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_crop_rotation_1773756843935.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8324,7 +8324,7 @@ const QUIZ_DATA = {
       ],
       "a": "酪農",
       "comment": "乳牛を飼育し、生乳やバター、チーズなどの乳製品を生産しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_dairy_farming_1773756869900.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_dairy_farming_1773756869900.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8337,7 +8337,7 @@ const QUIZ_DATA = {
       ],
       "a": "客土",
       "comment": "品種改良や技術の進歩により、北海道は日本有数の米の産地となりました。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_kyakudo_1773756887642.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_kyakudo_1773756887642.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8350,7 +8350,7 @@ const QUIZ_DATA = {
       ],
       "a": "石炭",
       "comment": "夕張や釧路などに炭鉱がありましたが、現在はほとんど閉山しています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch3_coal_1773720907381.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch3_coal_1773720907381.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8363,7 +8363,7 @@ const QUIZ_DATA = {
       ],
       "a": "養殖漁業（栽培漁業）",
       "comment": "「とる漁業」から「育てる漁業」への転換が進んでいます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch2_aquaculture_1773720294513.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch2_aquaculture_1773720294513.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8376,7 +8376,7 @@ const QUIZ_DATA = {
       ],
       "a": "エコツーリズム",
       "comment": "自然観察ツアーなどが人気を集めています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch4_ecotourism_1773736239361.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch4_ecotourism_1773736239361.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
@@ -8391,7 +8391,7 @@ const QUIZ_DATA = {
       ],
       "a": "地形図",
       "comment": "2万5千分の1や5万分の1などの縮尺があります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_topographic_map_1773756902781.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_topographic_map_1773756902781.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8404,7 +8404,7 @@ const QUIZ_DATA = {
       ],
       "a": "上",
       "comment": "特に指定がない限り、地図の上側が北です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_north_direction_1773756919845.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_north_direction_1773756919845.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8417,7 +8417,7 @@ const QUIZ_DATA = {
       ],
       "a": "等高線",
       "comment": "土地の高低や傾斜の様子を知ることができます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_contour_lines_1773756934385.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_contour_lines_1773756934385.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8430,7 +8430,7 @@ const QUIZ_DATA = {
       ],
       "a": "急である",
       "comment": "反対に、間隔が広いところは傾斜が緩やかです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_steep_terrain_1773756960075.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_steep_terrain_1773756960075.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8443,7 +8443,7 @@ const QUIZ_DATA = {
       ],
       "a": "10m",
       "comment": "計曲線（太い線）は50mごとに引かれています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_10m_1773756977567.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_10m_1773756977567.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8456,7 +8456,7 @@ const QUIZ_DATA = {
       ],
       "a": "20m",
       "comment": "計曲線（太い線）は100mごとに引かれています。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_20m_1773756997444.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_20m_1773756997444.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8469,7 +8469,7 @@ const QUIZ_DATA = {
       ],
       "a": "縮尺",
       "comment": "「実際の距離 × 縮尺の分母」で地図上の長さを計算できます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_large_scale_agriculture_1773756827537.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_large_scale_agriculture_1773756827537.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8482,7 +8482,7 @@ const QUIZ_DATA = {
       ],
       "a": "市役所（東京都の区役所）",
       "comment": "二重丸のような記号です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_city_hall_1773757027043.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_city_hall_1773757027043.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8495,7 +8495,7 @@ const QUIZ_DATA = {
       ],
       "a": "小・中学校",
       "comment": "漢字の「文」をデザインしたものです。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_school_1773757051652.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_school_1773757051652.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8508,7 +8508,7 @@ const QUIZ_DATA = {
       ],
       "a": "警察署",
       "comment": "交番の記号「✕」とは区別されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_police_station_1773757066618.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_police_station_1773757066618.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8521,7 +8521,7 @@ const QUIZ_DATA = {
       ],
       "a": "三角点",
       "comment": "見通しのよい山頂などに設置されます。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_triangulation_station_1773757082853.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_triangulation_station_1773757082853.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8534,7 +8534,7 @@ const QUIZ_DATA = {
       ],
       "a": "水準点",
       "comment": "四角形の中に小さな四角がある記号です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_benchmark_1773757096333.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_benchmark_1773757096333.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8547,7 +8547,7 @@ const QUIZ_DATA = {
       ],
       "a": "野外調査（フィールドワーク）",
       "comment": "実際の様子を肌で感じることが大切です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_fieldwork_1773757112206.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_fieldwork_1773757112206.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8560,7 +8560,7 @@ const QUIZ_DATA = {
       ],
       "a": "文献調査",
       "comment": "野外調査の前に行う予備調査としても重要です。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_literature_survey_1773757137474.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_literature_survey_1773757137474.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8573,7 +8573,7 @@ const QUIZ_DATA = {
       ],
       "a": "主題図",
       "comment": "土地利用図、人口分布図、ハザードマップなどがこれにあたります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_thematic_map_1773757153207.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_thematic_map_1773757153207.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -8586,14 +8586,14 @@ const QUIZ_DATA = {
       ],
       "a": "ドットマップ",
       "comment": "点の集まり具合で、分布の偏りが視覚的にわかります。",
-      "answerImg": "assets/images/geography/g_japan_geo_batch6_dot_map_1773757169950.jpg",
+      "answerImg": "assets/images/geography/g_japan_geo_batch6_dot_map_1773757169950.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "h_ancient_1": [
     {
       "q": "現在発見されている最も古い人類の祖先（猿人）として、アフリカで骨が発見されたものを何というか？",
-      "img": "assets/images/history/h_ancient_1_australopithecus.jpg",
+      "img": "assets/images/history/h_ancient_1_australopithecus.webp",
       "choices": [
         "アウストラロピテクス",
         "ネアンデルタール人",
@@ -8602,12 +8602,12 @@ const QUIZ_DATA = {
       ],
       "a": "アウストラロピテクス",
       "comment": "約700万年～600万年前にアフリカに現れました。",
-      "answerImg": "assets/images/history/h_ancient_1_australopithecus_1773664905136.jpg",
+      "answerImg": "assets/images/history/h_ancient_1_australopithecus_1773664905136.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "人類が二足歩行を始めたことで発達した、道具を作ったり使ったりするための体の部位は？",
-      "img": "assets/images/history/h_ancient_1_hands.png",
+      "img": "assets/images/history/h_ancient_1_hands.webp",
       "choices": [
         "手（前あし）",
         "あご",
@@ -8619,7 +8619,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "氷河期などの厳しい環境に適応し、火や言葉を使用し始めた人類（原人）は？",
-      "img": "assets/images/history/h_ancient_1_peking_man.jpg",
+      "img": "assets/images/history/h_ancient_1_peking_man.webp",
       "choices": [
         "北京原人",
         "アウストラロピテクス",
@@ -8628,12 +8628,12 @@ const QUIZ_DATA = {
       ],
       "a": "北京原人",
       "comment": "ジャワ原人や北京原人などが「原人」に含まれます。",
-      "answerImg": "assets/images/history/h_ancient_1_peking_man_1773664920387.jpg",
+      "answerImg": "assets/images/history/h_ancient_1_peking_man_1773664920387.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "現在の人類の直接の祖先にあたる人類（新人）で、フランスで洞窟壁画などが発見されたのは？",
-      "img": "assets/images/history/h_ancient_1_cromagnon.jpg",
+      "img": "assets/images/history/h_ancient_1_cromagnon.webp",
       "choices": [
         "クロマニョン人",
         "ネアンデルタール人",
@@ -8645,7 +8645,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "旧石器時代に使われていた、石を打ち砕いて鋭くしただけの石器を何というか？",
-      "img": "assets/images/history/h_ancient_1_dasei.jpg",
+      "img": "assets/images/history/h_ancient_1_dasei.webp",
       "choices": [
         "打製石器",
         "磨製石器",
@@ -8657,7 +8657,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "新石器時代に使われ始めた、石を磨いて形を整えた石器を何というか？",
-      "img": "assets/images/history/h_ancient_1_masei.jpg",
+      "img": "assets/images/history/h_ancient_1_masei.webp",
       "choices": [
         "磨製石器",
         "打製石器",
@@ -8669,7 +8669,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前3000年頃、ナイル川の流域で栄えた文明は？",
-      "img": "assets/images/history/h_ancient_1_egyptian_civ.jpg",
+      "img": "assets/images/history/h_ancient_1_egyptian_civ.webp",
       "choices": [
         "エジプト文明",
         "メソポタミア文明",
@@ -8681,7 +8681,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明で作られた、国王の墓と考えられる巨大な建造物は？",
-      "img": "assets/images/history/h_ancient_1_pyramid.jpg",
+      "img": "assets/images/history/h_ancient_1_pyramid.webp",
       "choices": [
         "ピラミッド",
         "ジッグラト",
@@ -8693,7 +8693,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明で使用された、絵のような形をした文字は？",
-      "img": "assets/images/history/h_ancient_1_hieroglyph.png",
+      "img": "assets/images/history/h_ancient_1_hieroglyph.webp",
       "choices": [
         "象形文字",
         "楔形文字",
@@ -8705,7 +8705,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "チグリス川・ユーフラテス川の流域で栄えた文明は？",
-      "img": "assets/images/history/h_ancient_1_mesopotamian_civ.jpg",
+      "img": "assets/images/history/h_ancient_1_mesopotamian_civ.webp",
       "choices": [
         "メソポタミア文明",
         "エジプト文明",
@@ -8717,7 +8717,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "メソポタミア文明で作られた、「目には目を、歯には歯を」で有名な法律は？",
-      "img": "assets/images/history/h_ancient_1_hammurabi_1772304299374.jpg",
+      "img": "assets/images/history/h_ancient_1_hammurabi_1772304299374.webp",
       "choices": [
         "ハンムラビ法典",
         "ローマ法大全",
@@ -8729,7 +8729,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "粘土板に刻んで使用された、メソポタミア文明の文字は？",
-      "img": "assets/images/history/h_ancient_1_cuneiform.jpg",
+      "img": "assets/images/history/h_ancient_1_cuneiform.webp",
       "choices": [
         "楔形文字",
         "象形文字",
@@ -8738,12 +8738,12 @@ const QUIZ_DATA = {
       ],
       "a": "楔形文字",
       "comment": "葦の茎などを押し付けて文字を書きました。",
-      "answerImg": "assets/images/history/h_ancient_1_cuneiform_1773664942160.jpg",
+      "answerImg": "assets/images/history/h_ancient_1_cuneiform_1773664942160.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "インダス川流域で栄え、モヘンジョ・ダロなどの都市遺跡を残した文明は？",
-      "img": "assets/images/history/h_ancient_1_indus.jpg",
+      "img": "assets/images/history/h_ancient_1_indus.webp",
       "choices": [
         "インダス文明",
         "ガンジス文明",
@@ -8755,7 +8755,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "黄河流域で栄えた、現在確認されている中国最古の王朝は？",
-      "img": "assets/images/history/g_history_ancient_yellow_river_generated.png",
+      "img": "assets/images/history/g_history_ancient_yellow_river_generated.webp",
       "choices": [
         "殷",
         "秦",
@@ -8764,12 +8764,12 @@ const QUIZ_DATA = {
       ],
       "a": "殷",
       "comment": "青銅器や甲骨文字が使用されました。",
-      "answerImg": "assets/images/history/h_ancient_1_shang_dynasty_1773664958492.jpg",
+      "answerImg": "assets/images/history/h_ancient_1_shang_dynasty_1773664958492.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "亀の甲羅や牛の骨に刻まれ、現在の漢字の元となった文字は？",
-      "img": "assets/images/history/h_ancient_1_oracle_bone.jpg",
+      "img": "assets/images/history/h_ancient_1_oracle_bone.webp",
       "choices": [
         "甲骨文字",
         "金石文字",
@@ -8781,7 +8781,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前6世紀ごろにインドでシャカ（釈迦）が開いた宗教は？",
-      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
+      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.webp",
       "choices": [
         "仏教",
         "キリスト教",
@@ -8793,7 +8793,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "パレスチナ地方でイエスが広め、「神の愛」を説いた宗教は？",
-      "img": "assets/images/history/h_ancient_1_christianity.jpg",
+      "img": "assets/images/history/h_ancient_1_christianity.webp",
       "choices": [
         "キリスト教",
         "ユダヤ教",
@@ -8805,7 +8805,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明の農業に大きな恵みをもたらした、アフリカ大陸を北上して地中海に注ぐ世界最長の川は？",
-      "img": "assets/images/history/h_ancient_1_nile_river.jpg",
+      "img": "assets/images/history/h_ancient_1_nile_river.webp",
       "choices": [
         "ナイル川",
         "チグリス川",
@@ -8817,7 +8817,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "エジプト文明で作られた、ナイル川の氾濫の時期を知るために星の動きなどを元にした暦は？",
-      "img": "assets/images/history/h_ancient_1_solar_calendar.jpg",
+      "img": "assets/images/history/h_ancient_1_solar_calendar.webp",
       "choices": [
         "太陽暦",
         "太陰暦",
@@ -8826,12 +8826,12 @@ const QUIZ_DATA = {
       ],
       "a": "太陽暦",
       "comment": "現在の私たちが使っている暦（グレゴリオ暦）の元になりました。",
-      "answerImg": "assets/images/history/h_ancient_1_solar_calendar_1773664982443.jpg",
+      "answerImg": "assets/images/history/h_ancient_1_solar_calendar_1773664982443.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "メソポタミア文明が栄えた地域を流れる2つの川は、チグリス川と、もう一つは何川？",
-      "img": "assets/images/history/h_ancient_1_mesopotamian_civ.jpg",
+      "img": "assets/images/history/h_ancient_1_mesopotamian_civ.webp",
       "choices": [
         "ユーフラテス川",
         "ナイル川",
@@ -8844,7 +8844,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "メソポタミア文明で作られた、月の満ち欠けを基準にした暦は？",
-      "img": "assets/images/history/h_ancient_1_lunar_calendar.jpg",
+      "img": "assets/images/history/h_ancient_1_lunar_calendar.webp",
       "choices": [
         "太陰暦",
         "太陽暦",
@@ -8853,12 +8853,12 @@ const QUIZ_DATA = {
       ],
       "a": "太陰暦",
       "comment": "1年が354日となるため、うるう月を設けて調整していました。",
-      "answerImg": "assets/images/history/h_ancient_1_lunar_calendar_1773665022805.jpg",
+      "answerImg": "assets/images/history/h_ancient_1_lunar_calendar_1773665022805.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "古代中国の「殷」の時代に使われた、占いの結果などを記録するための文字（漢字の原型）は？",
-      "img": "assets/images/history/h_ancient_1_oracle_bone.jpg",
+      "img": "assets/images/history/h_ancient_1_oracle_bone.webp",
       "choices": [
         "甲骨文字",
         "象形文字",
@@ -8870,7 +8870,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本で「旧石器時代」の存在が証明されるきっかけとなった、群馬県で相沢忠洋氏が発見した遺跡は？",
-      "img": "assets/images/history/h_ancient_1_iwajuku.jpg",
+      "img": "assets/images/history/h_ancient_1_iwajuku.webp",
       "choices": [
         "岩宿遺跡",
         "三内丸山遺跡",
@@ -8882,7 +8882,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アレクサンドロス大王の遠征によって生まれた、ギリシャ文化とオリエント文化が融合した文化は？",
-      "img": "assets/images/history/h_ancient_1_hellenism_1773665036779.jpg",
+      "img": "assets/images/history/h_ancient_1_hellenism_1773665036779.webp",
       "choices": [
         "ヘレニズム文化",
         "ルネサンス",
@@ -8897,7 +8897,7 @@ const QUIZ_DATA = {
   "h_ancient_2": [
     {
       "q": "紀元前221年に中国を統一し、最初の皇帝（始皇帝）となった人物が建てた国は？",
-      "img": "assets/images/history/h_ancient_2_qin_dynasty.jpg",
+      "img": "assets/images/history/h_ancient_2_qin_dynasty.webp",
       "choices": [
         "秦",
         "漢",
@@ -8906,12 +8906,12 @@ const QUIZ_DATA = {
       ],
       "a": "秦",
       "comment": "貨幣や文字、物差しの統一を行いました。",
-      "answerImg": "assets/images/history/h_ancient_2_qin_dynasty_1773665056394.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_qin_dynasty_1773665056394.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "秦の始皇帝が、北方の遊牧民の侵入を防ぐために修築した巨大な建造物は？",
-      "img": "assets/images/history/h_ancient_2_greatwall.jpg",
+      "img": "assets/images/history/h_ancient_2_greatwall.webp",
       "choices": [
         "万里の長城",
         "ピラミッド",
@@ -8923,7 +8923,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "秦の後に中国を統一し、約400年続いた帝国は？",
-      "img": "assets/images/history/h_ancient_2_han_dynasty.jpg",
+      "img": "assets/images/history/h_ancient_2_han_dynasty.webp",
       "choices": [
         "漢",
         "唐",
@@ -8932,12 +8932,12 @@ const QUIZ_DATA = {
       ],
       "a": "漢",
       "comment": "この時代に現在の中国の民族（漢民族）の基礎ができました。",
-      "answerImg": "assets/images/history/h_ancient_2_han_dynasty_1773665072237.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_han_dynasty_1773665072237.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "漢の時代に開かれた、中国と西方（ローマ帝国など）を結ぶ交易路を何というか？",
-      "img": "assets/images/history/h_ancient_2_silk_road.jpg",
+      "img": "assets/images/history/h_ancient_2_silk_road.webp",
       "choices": [
         "シルクロード（絹の道）",
         "象牙の道",
@@ -8946,12 +8946,12 @@ const QUIZ_DATA = {
       ],
       "a": "シルクロード（絹の道）",
       "comment": "中国からは絹織物が、西方からは馬やブドウなどが伝わりました。",
-      "answerImg": "assets/images/history/h_ancient_2_silk_road_1773665159298.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_silk_road_1773665159298.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "紀元前6世紀ごろの中国で、孔子が説いた教えは？",
-      "img": "assets/images/history/h_ancient_2_confucianism.jpg",
+      "img": "assets/images/history/h_ancient_2_confucianism.webp",
       "choices": [
         "儒教",
         "道教",
@@ -8960,12 +8960,12 @@ const QUIZ_DATA = {
       ],
       "a": "儒教",
       "comment": "「仁（思いやり）」や「礼（礼儀）」を重視し、後の政治に大きな影響を与えました。",
-      "answerImg": "assets/images/history/h_ancient_2_confucianism_1773665172915.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_confucianism_1773665172915.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "朝鮮半島北部から中国東北部にかけ、紀元前後こ頃に栄えた国は？",
-      "img": "assets/images/history/h_ancient_2_goguryeo.jpg",
+      "img": "assets/images/history/h_ancient_2_goguryeo.webp",
       "choices": [
         "高句麗",
         "新羅",
@@ -8974,12 +8974,12 @@ const QUIZ_DATA = {
       ],
       "a": "高句麗",
       "comment": "広大な領土を持ち、強大な勢力を誇りました。",
-      "answerImg": "assets/images/history/h_ancient_2_goguryeo_1773665186558.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_goguryeo_1773665186558.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "4世紀ごろ、朝鮮半島の南西部（日本に近い側）にあった国は？",
-      "img": "assets/images/history/h_ancient_2_baekje.jpg",
+      "img": "assets/images/history/h_ancient_2_baekje.webp",
       "choices": [
         "百済",
         "新羅",
@@ -8988,12 +8988,12 @@ const QUIZ_DATA = {
       ],
       "a": "百済",
       "comment": "日本（ヤマト政権）と友好関係にあり、仏教などを伝えました。",
-      "answerImg": "assets/images/history/h_ancient_2_baekje_1773665203226.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_baekje_1773665203226.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "4世紀ごろ、朝鮮半島の南東部にあった国は？",
-      "img": "assets/images/history/h_ancient_2_silla.jpg",
+      "img": "assets/images/history/h_ancient_2_silla.webp",
       "choices": [
         "新羅",
         "百済",
@@ -9002,12 +9002,12 @@ const QUIZ_DATA = {
       ],
       "a": "新羅",
       "comment": "後に唐と結んで朝鮮半島を統一しました。",
-      "answerImg": "assets/images/history/h_ancient_2_silla_1773665229923.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_silla_1773665229923.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "古代の日本が朝鮮半島南部の地域（伽耶諸国など）と深い関わりを持っていたことを示す、鉄資源などを求めて進出していた地域の呼び名は？",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
+      "img": "assets/images/history/h_ancient_2_gaya_confederacy.webp",
       "choices": [
         "任那（加羅）",
         "楽浪郡",
@@ -9016,12 +9016,12 @@ const QUIZ_DATA = {
       ],
       "a": "任那（加羅）",
       "comment": "日本はここから鉄や進んだ技術を取り入れました。",
-      "answerImg": "assets/images/history/h_ancient_2_mimana_1773665244879.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_mimana_1773665244879.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中国の歴史書『漢書』地理志に記された、紀元前1世紀ごろの日本の呼び名は？",
-      "img": "assets/images/history/h_ancient_2_han_dynasty.jpg",
+      "img": "assets/images/history/h_ancient_2_han_dynasty.webp",
       "choices": [
         "倭",
         "日本",
@@ -9033,7 +9033,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "57年、後漢の光武帝から金印を授かったとされる、九州北部にあった国の王は？",
-      "img": "assets/images/history/h_ancient_2_nakoku.jpg",
+      "img": "assets/images/history/h_ancient_2_nakoku.webp",
       "choices": [
         "奴国の王",
         "邪馬台国の女王",
@@ -9045,7 +9045,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "福岡県の志賀島で発見された、国宝でもある金で作られた印は？",
-      "img": "assets/images/history/h_ancient_2_kinin.jpg",
+      "img": "assets/images/history/h_ancient_2_kinin.webp",
       "choices": [
         "金印",
         "銅鐸",
@@ -9057,7 +9057,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "3世紀ごろ、中国の歴史書『魏志』倭人伝に登場する、30余りの国を従えた女王は？",
-      "img": "assets/images/history/h_ancient_2_himiko.jpg",
+      "img": "assets/images/history/h_ancient_2_himiko.webp",
       "choices": [
         "卑弥呼",
         "推古天皇",
@@ -9069,7 +9069,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "卑弥呼が使いを送り、親魏倭王の称号や鏡などを授かった中国の王朝は？",
-      "img": "assets/images/history/h_ancient_2_himiko.jpg",
+      "img": "assets/images/history/h_ancient_2_himiko.webp",
       "choices": [
         "魏",
         "呉",
@@ -9081,7 +9081,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "邪馬台国の女王・卑弥呼が使いを送った「魏」は、中国の三国時代の国の一つですが、残りの二つは？",
-      "img": "assets/images/history/h_ancient_2_himiko.jpg",
+      "img": "assets/images/history/h_ancient_2_himiko.webp",
       "choices": [
         "呉・蜀",
         "秦・漢",
@@ -9090,14 +9090,14 @@ const QUIZ_DATA = {
       ],
       "a": "呉・蜀",
       "comment": "魏・呉・蜀が争った三国志の時代です。",
-      "answerImg": "assets/images/history/h_ancient_2_wu_shu_1773665285580.jpg",
+      "answerImg": "assets/images/history/h_ancient_2_wu_shu_1773665285580.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "h_ancient_3": [
     {
       "q": "約1万年以上前から始まった、狩りや採集を行い、縄目の文様がある土器を使用していた時代は？",
-      "img": "assets/images/history/g_history_ancient_jomon_pit.png",
+      "img": "assets/images/history/g_history_ancient_jomon_pit.webp",
       "choices": [
         "縄文時代",
         "弥生時代",
@@ -9109,7 +9109,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "縄文時代の人々が住んでいた、地面を掘り下げて床を作り、柱を立てて屋根をかけた住居は？",
-      "img": "assets/images/history/h_ancient_3_tateana.jpg",
+      "img": "assets/images/history/h_ancient_3_tateana.webp",
       "choices": [
         "竪穴住居",
         "高床倉庫",
@@ -9121,7 +9121,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "縄文時代の人々が食べ物の残りかすなどを捨てた場所で、当時の生活を知る手がかりとなるものは？",
-      "img": "assets/images/history/h_ancient_3_kaizuka.jpg",
+      "img": "assets/images/history/h_ancient_3_kaizuka.webp",
       "choices": [
         "貝塚",
         "古墳",
@@ -9133,7 +9133,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "縄文時代に作られた、魔除けや豊作を祈るために使われたと考えられる人形（ひとがた）の土製品は？",
-      "img": "assets/images/history/h_ancient_3_dogu.jpg",
+      "img": "assets/images/history/h_ancient_3_dogu.webp",
       "choices": [
         "土偶",
         "埴輪",
@@ -9142,12 +9142,12 @@ const QUIZ_DATA = {
       ],
       "a": "土偶",
       "comment": "女性をかたどったものが多く発見されています。",
-      "answerImg": "assets/images/history/h_ancient_3_dogu_1773665260899.jpg",
+      "answerImg": "assets/images/history/h_ancient_3_dogu_1773665260899.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "青森県にある、縄文時代の最大級の集落遺跡は？",
-      "img": "assets/images/history/h_ancient_3_sannaimaruyama.jpg",
+      "img": "assets/images/history/h_ancient_3_sannaimaruyama.webp",
       "choices": [
         "三内丸山遺跡",
         "吉野ヶ里遺跡",
@@ -9159,7 +9159,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀元前4世紀ごろ、大陸から伝わり、日本の生活を大きく変化させた農業技術は？",
-      "img": "assets/images/history/h_ancient_3_rice_farming.jpg",
+      "img": "assets/images/history/h_ancient_3_rice_farming.webp",
       "choices": [
         "稲作",
         "畑作",
@@ -9171,7 +9171,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "稲作が広まったことによって始まった、薄手で硬く、赤褐色の土器が使われた時代は？",
-      "img": "assets/images/history/g_history_ancient_yayoi_kuni.png",
+      "img": "assets/images/history/g_history_ancient_yayoi_kuni.webp",
       "choices": [
         "弥生時代",
         "縄文時代",
@@ -9183,7 +9183,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "弥生時代に稲の穂を摘み取るために使われた、石で作られた道具は？",
-      "img": "assets/images/history/h_ancient_3_ishibocho.jpg",
+      "img": "assets/images/history/h_ancient_3_ishibocho.webp",
       "choices": [
         "石包丁",
         "打製石器",
@@ -9195,7 +9195,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "収穫した米を湿気やネズミから守るために作られた、床を高くした建物は？",
-      "img": "assets/images/history/h_ancient_3_takayuka.jpg",
+      "img": "assets/images/history/h_ancient_3_takayuka.webp",
       "choices": [
         "高床倉庫",
         "竪穴住居",
@@ -9207,7 +9207,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "稲作とともに大陸から伝わった、祭りの道具（銅鐸など）や武器・工具として使われた道具は？",
-      "img": "assets/images/history/h_ancient_3_kinzokuki.jpg",
+      "img": "assets/images/history/h_ancient_3_kinzokuki.webp",
       "choices": [
         "金属器",
         "石器",
@@ -9219,7 +9219,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "佐賀県にある、弥生時代の大規模な環濠集落の遺跡は？",
-      "img": "assets/images/history/h_ancient_3_yoshinogari.jpg",
+      "img": "assets/images/history/h_ancient_3_yoshinogari.webp",
       "choices": [
         "吉野ヶ里遺跡",
         "三内丸山遺跡",
@@ -9231,7 +9231,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "静岡県にある、水田跡や住居跡が見つかった弥生時代の代表的な遺跡は？",
-      "img": "assets/images/history/g_history_ancient_yayoi_kuni.png",
+      "img": "assets/images/history/g_history_ancient_yayoi_kuni.webp",
       "choices": [
         "登呂遺跡",
         "三内丸山遺跡",
@@ -9243,7 +9243,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "弥生時代、稲作が広まるにつれて、土地や水をめぐる争いが起き、やがて何が形成されていったか？",
-      "img": "assets/images/history/g_history_ancient_yayoi_kuni.png",
+      "img": "assets/images/history/g_history_ancient_yayoi_kuni.webp",
       "choices": [
         "クニ（小国）",
         "帝国",
@@ -9252,14 +9252,14 @@ const QUIZ_DATA = {
       ],
       "a": "クニ（小国）",
       "comment": "指導者が現れ、身分の差も生まれていきました。",
-      "answerImg": "assets/images/history/h_ancient_3_kuni_1773665300705.jpg",
+      "answerImg": "assets/images/history/h_ancient_3_kuni_1773665300705.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "h_ancient_4": [
     {
       "q": "3世紀後半から作られ始めた、大王（天皇）などの有力者の墓を何というか？",
-      "img": "assets/images/history/h_ancient_4_daisenkofun.jpg",
+      "img": "assets/images/history/h_ancient_4_daisenkofun.webp",
       "choices": [
         "古墳",
         "貝塚",
@@ -9271,7 +9271,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本独特の古墳の形で、円と四角を組み合わせた鍵穴のような形をしているものを何というか？",
-      "img": "assets/images/history/h_ancient_4_zenpokoenfun.jpg",
+      "img": "assets/images/history/h_ancient_4_zenpokoenfun.webp",
       "choices": [
         "前方後円墳",
         "円墳",
@@ -9283,7 +9283,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大阪府にある、世界最大級の面積を持つ日本最大の前方後円墳は？",
-      "img": "assets/images/history/h_ancient_4_daisenkofun.jpg",
+      "img": "assets/images/history/h_ancient_4_daisenkofun.webp",
       "choices": [
         "大仙古墳（仁徳天皇陵）",
         "五色塚古墳",
@@ -9295,7 +9295,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "古墳の頂上や周囲に並べられた、人や馬、家などの形をした焼物は？",
-      "img": "assets/images/history/h_ancient_4_haniwa.jpg",
+      "img": "assets/images/history/h_ancient_4_haniwa.webp",
       "choices": [
         "埴輪",
         "土偶",
@@ -9307,7 +9307,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "古墳時代を中心に、大和（奈良県）地方の勢力が中心となって各地の豪族を従えて作った政治連合は？",
-      "img": "assets/images/history/h_ancient_4_yamato_regime.png",
+      "img": "assets/images/history/h_ancient_4_yamato_regime.webp",
       "choices": [
         "ヤマト政権",
         "鎌倉幕府",
@@ -9319,7 +9319,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ヤマト政権のトップである王は、のちに天皇と呼ばれるようになるが、当時は何と呼ばれていたか？",
-      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
+      "img": "assets/images/history/h_ancient_4_okimi_great_king.webp",
       "choices": [
         "大王（おおきみ）",
         "将軍",
@@ -9328,12 +9328,12 @@ const QUIZ_DATA = {
       ],
       "a": "大王（おおきみ）",
       "comment": "中国や朝鮮の記録にも登場します。",
-      "answerImg": "assets/images/history/h_ancient_4_ookimi_1773665315735.jpg",
+      "answerImg": "assets/images/history/h_ancient_4_ookimi_1773665315735.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "埼玉県の稲荷山古墳から出土した鉄剣に刻まれていた名前から、関東地方まで勢力を伸ばしていたことがわかる大王は？",
-      "img": "assets/images/history/h_ancient_4_okimi_great_king.jpg",
+      "img": "assets/images/history/h_ancient_4_okimi_great_king.webp",
       "choices": [
         "ワカタケル大王（雄略天皇）",
         "聖徳太子",
@@ -9345,7 +9345,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "中国の歴史書『宋書』倭国伝に記されている、中国に使いを送った5人の倭の王をまとめて何というか？",
-      "img": "assets/images/history/h_ancient_4_five_kings_of_wa.png",
+      "img": "assets/images/history/h_ancient_4_five_kings_of_wa.webp",
       "choices": [
         "倭の五王",
         "五摂家",
@@ -9357,7 +9357,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮半島などから日本に移り住み、漢字や儒教、土木技術などを伝えた人々を何というか？",
-      "img": "assets/images/history/h_ancient_4_toraijin.jpg",
+      "img": "assets/images/history/h_ancient_4_toraijin.webp",
       "choices": [
         "渡来人",
         "遣唐使",
@@ -9366,12 +9366,12 @@ const QUIZ_DATA = {
       ],
       "a": "渡来人",
       "comment": "日本の文化や技術の発展に大きく貢献しました。",
-      "answerImg": "assets/images/history/h_ancient_4_toraijin_1773665386588.jpg",
+      "answerImg": "assets/images/history/h_ancient_4_toraijin_1773665386588.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "渡来人によって伝えられた、高温で焼かれた硬い灰色の土器を何というか？",
-      "img": "assets/images/history/h_ancient_4_sueki.jpg",
+      "img": "assets/images/history/h_ancient_4_sueki.webp",
       "choices": [
         "須恵器",
         "縄文土器",
@@ -9383,7 +9383,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "漢字を伝えたとされる、百済から来た渡来人は？",
-      "img": "assets/images/history/h_ancient_2_han_dynasty.jpg",
+      "img": "assets/images/history/h_ancient_2_han_dynasty.webp",
       "choices": [
         "王仁（わに）",
         "鑑真",
@@ -9392,12 +9392,12 @@ const QUIZ_DATA = {
       ],
       "a": "王仁（わに）",
       "comment": "『論語』や『千字文』を伝えたと言われています。",
-      "answerImg": "assets/images/history/h_ancient_4_wani_1773665402188.jpg",
+      "answerImg": "assets/images/history/h_ancient_4_wani_1773665402188.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "6世紀半ば、百済の聖明王から日本の欽明天皇に伝えられたものは？",
-      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
+      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.webp",
       "choices": [
         "仏教",
         "キリスト教",
@@ -9409,7 +9409,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "4世紀末、倭（日本）が朝鮮半島へ進出し、高句麗と戦ったことなどが刻まれている石碑は？",
-      "img": "assets/images/history/h_ancient_2_gwanggaeto_stele.png",
+      "img": "assets/images/history/h_ancient_2_gwanggaeto_stele.webp",
       "choices": [
         "好太王碑（広開土王碑）",
         "金印",
@@ -9421,7 +9421,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ヤマト政権が、豪族に氏（うじ）や姓（かばね）を与えて、身分や役割を定めた制度は？",
-      "img": "assets/images/history/g_history_ancient_shisei_system_generated.png",
+      "img": "assets/images/history/g_history_ancient_shisei_system_generated.webp",
       "choices": [
         "氏姓制度",
         "身分制度",
@@ -9430,14 +9430,14 @@ const QUIZ_DATA = {
       ],
       "a": "氏姓制度",
       "comment": "臣（おみ）や連（むらじ）などの姓（カバネ）が与えられました。",
-      "answerImg": "assets/images/history/h_ancient_4_shisei_seido_1773665420642.jpg",
+      "answerImg": "assets/images/history/h_ancient_4_shisei_seido_1773665420642.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "h_ancient_5": [
     {
       "q": "6世紀末、対立していた物部氏を倒し、政治の実権を握った豪族は？",
-      "img": "assets/images/history/h_ancient_5_soga_clan.jpg",
+      "img": "assets/images/history/h_ancient_5_soga_clan.webp",
       "choices": [
         "蘇我氏",
         "藤原氏",
@@ -9446,12 +9446,12 @@ const QUIZ_DATA = {
       ],
       "a": "蘇我氏",
       "comment": "仏教の受け入れを巡って物部氏と対立していました。",
-      "answerImg": "assets/images/history/h_ancient_5_soga_no_umako_1773665440558.jpg",
+      "answerImg": "assets/images/history/h_ancient_5_soga_no_umako_1773665440558.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "593年、推古天皇の摂政となり、天皇中心の国づくりを進めた人物は？",
-      "img": "assets/images/history/h_ancient_5_shotoku_taishi.png",
+      "img": "assets/images/history/h_ancient_5_shotoku_taishi.webp",
       "choices": [
         "聖徳太子（厩戸皇子）",
         "中大兄皇子",
@@ -9463,7 +9463,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本で最初の女性の天皇であり、聖徳太子を摂政とした天皇は？",
-      "img": "assets/images/history/h_ancient_shotoku_1772414719515.jpg",
+      "img": "assets/images/history/h_ancient_shotoku_1772414719515.webp",
       "choices": [
         "推古天皇",
         "持統天皇",
@@ -9472,12 +9472,12 @@ const QUIZ_DATA = {
       ],
       "a": "推古天皇",
       "comment": "飛鳥京（奈良県）に都を置きました。",
-      "answerImg": "assets/images/history/h_ancient_5_suiko_tenno_1773665465079.jpg",
+      "answerImg": "assets/images/history/h_ancient_5_suiko_tenno_1773665465079.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "603年、家柄にとらわれず、才能や功績のある人物を役人に取り立てるために定められた制度は？",
-      "img": "assets/images/history/h_ancient_5_kani_junikai_1773665479179.jpg",
+      "img": "assets/images/history/h_ancient_5_kani_junikai_1773665479179.webp",
       "choices": [
         "冠位十二階",
         "十七条の憲法",
@@ -9486,12 +9486,12 @@ const QUIZ_DATA = {
       ],
       "a": "冠位十二階",
       "comment": "冠の色（紫・青・赤・黄・白・黒の濃淡）で位を区別しました。",
-      "answerImg": "assets/images/history/h_ancient_5_kani_junikai_1773665479179.jpg",
+      "answerImg": "assets/images/history/h_ancient_5_kani_junikai_1773665479179.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "604年、役人の心構えを示すために定められた、「和を以て貴しと為す」で始まる法は？",
-      "img": "assets/images/history/h_ancient_5_jushichijyo_kenpo_1773665495687.jpg",
+      "img": "assets/images/history/h_ancient_5_jushichijyo_kenpo_1773665495687.webp",
       "choices": [
         "十七条の憲法",
         "御成敗式目",
@@ -9500,12 +9500,12 @@ const QUIZ_DATA = {
       ],
       "a": "十七条の憲法",
       "comment": "天皇の命令に従うことや、仏教を敬うことなどが説かれました。",
-      "answerImg": "assets/images/history/h_ancient_5_jushichijyo_kenpo_1773665495687.jpg",
+      "answerImg": "assets/images/history/h_ancient_5_jushichijyo_kenpo_1773665495687.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中国（隋）の進んだ制度や文化を取り入れるために派遣された使節を何というか？",
-      "img": "assets/images/history/h_ancient_5_kenzuishi.jpg",
+      "img": "assets/images/history/h_ancient_5_kenzuishi.webp",
       "choices": [
         "遣隋使",
         "遣唐使",
@@ -9514,12 +9514,12 @@ const QUIZ_DATA = {
       ],
       "a": "遣隋使",
       "comment": "対等な外交を目指して送られました。",
-      "answerImg": "assets/images/history/h_ancient_5_kenzuishi_1773665518885.jpg",
+      "answerImg": "assets/images/history/h_ancient_5_kenzuishi_1773665518885.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "607年、小野妹子らが派遣された中国の王朝は？",
-      "img": "assets/images/history/h_ancient_5_kenzuishi.jpg",
+      "img": "assets/images/history/h_ancient_5_kenzuishi.webp",
       "choices": [
         "隋",
         "唐",
@@ -9532,7 +9532,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "遣隋使として派遣され、「日出づる処の天子…」で始まる手紙を隋の皇帝（煬帝）に渡した人物は？",
-      "img": "assets/images/history/h_ancient_5_ono_no_imoko.jpg",
+      "img": "assets/images/history/h_ancient_5_ono_no_imoko.webp",
       "choices": [
         "小野妹子",
         "阿倍仲麻呂",
@@ -9541,12 +9541,12 @@ const QUIZ_DATA = {
       ],
       "a": "小野妹子",
       "comment": "隋の皇帝を怒らせましたが、国交を開くことに成功しました。",
-      "answerImg": "assets/images/history/h_ancient_5_ono_no_imoko_1773665553181.jpg",
+      "answerImg": "assets/images/history/h_ancient_5_ono_no_imoko_1773665553181.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "聖徳太子が建立したとされる、現存する世界最古の木造建築物は？",
-      "img": "assets/images/history/h_ancient_5_horyuji.jpg",
+      "img": "assets/images/history/h_ancient_5_horyuji.webp",
       "choices": [
         "法隆寺",
         "東大寺",
@@ -9558,7 +9558,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "飛鳥時代に栄えた、日本で最初の仏教文化を何というか？",
-      "img": "assets/images/history/h_ancient_5_asuka_culture.jpg",
+      "img": "assets/images/history/h_ancient_5_asuka_culture.webp",
       "choices": [
         "飛鳥文化",
         "天平文化",
@@ -9570,7 +9570,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "法隆寺に安置されている、飛鳥文化を代表する仏像のひとつで、アルカイックスマイル（古風な微笑み）で知られるものは？",
-      "img": "assets/images/history/h_ancient_5_horyuji.jpg",
+      "img": "assets/images/history/h_ancient_5_horyuji.webp",
       "choices": [
         "釈迦三尊像",
         "興福寺阿修羅像",
@@ -9582,7 +9582,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖徳太子が亡くなった後、蘇我氏（蝦夷・入鹿）が権力を独占し、対立したのは誰の一族か？",
-      "img": "assets/images/history/h_ancient_5_shotoku_family.png",
+      "img": "assets/images/history/h_ancient_5_shotoku_family.webp",
       "choices": [
         "天皇家（聖徳太子の一族）",
         "藤原氏",
@@ -9596,7 +9596,7 @@ const QUIZ_DATA = {
   "h_ancient_6": [
     {
       "q": "645年、中大兄皇子と中臣鎌足らが協力して蘇我氏（蘇我入鹿）を倒し、始めた政治改革を何というか？",
-      "img": "assets/images/history/h_ancient_6_taika_no_kaishin_1773665627759.jpg",
+      "img": "assets/images/history/h_ancient_6_taika_no_kaishin_1773665627759.webp",
       "choices": [
         "大化の改新",
         "明治維新",
@@ -9605,12 +9605,12 @@ const QUIZ_DATA = {
       ],
       "a": "大化の改新",
       "comment": "天皇中心の政治を目指しました。",
-      "answerImg": "assets/images/history/h_ancient_6_taika_no_kaishin_1773665627759.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_taika_no_kaishin_1773665627759.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "大化の改新で示された、土地と人民を国家（天皇）のものとする方針を何というか？",
-      "img": "assets/images/history/g_history_ancient_kochi_komin_generated.png",
+      "img": "assets/images/history/g_history_ancient_kochi_komin_generated.webp",
       "choices": [
         "公地公民",
         "版籍奉還",
@@ -9619,12 +9619,12 @@ const QUIZ_DATA = {
       ],
       "a": "公地公民",
       "comment": "それまで豪族が支配していた土地や人民を、国が直接支配するようにしました。",
-      "answerImg": "assets/images/history/h_ancient_6_kochi_komin_1773665643463.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_kochi_komin_1773665643463.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "大化の改新の中心人物の一人で、中大兄皇子とともに蘇我氏を倒し、のちに藤原の姓を賜った人物は？",
-      "img": "assets/images/history/h_ancient_6_nakatomi_no_kamatari.jpg",
+      "img": "assets/images/history/h_ancient_6_nakatomi_no_kamatari.webp",
       "choices": [
         "中臣鎌足（藤原鎌足）",
         "小野妹子",
@@ -9633,12 +9633,12 @@ const QUIZ_DATA = {
       ],
       "a": "中臣鎌足（藤原鎌足）",
       "comment": "藤原氏の繁栄の基礎を築きました。",
-      "answerImg": "assets/images/history/h_ancient_6_nakatomi_no_kamatari_1773665659425.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_nakatomi_no_kamatari_1773665659425.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "663年、百済の復興を助けるために朝鮮半島へ出兵したが、唐・新羅の連合軍に大敗した戦いは？",
-      "img": "assets/images/history/h_ancient_6_hakusukinoe.jpg",
+      "img": "assets/images/history/h_ancient_6_hakusukinoe.webp",
       "choices": [
         "白村江の戦い",
         "壬申の乱",
@@ -9647,12 +9647,12 @@ const QUIZ_DATA = {
       ],
       "a": "白村江の戦い",
       "comment": "敗戦後、九州に大宰府や防人（さきもり）を置いて防備を固めました。",
-      "answerImg": "assets/images/history/h_ancient_6_hakusukinoe_1773665676582.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_hakusukinoe_1773665676582.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中大兄皇子が即位した後の名前（天皇名）は？",
-      "img": "assets/images/history/h_ancient_6_tenchi_tenno_1773665700437.jpg",
+      "img": "assets/images/history/h_ancient_6_tenchi_tenno_1773665700437.webp",
       "choices": [
         "天智天皇",
         "天武天皇",
@@ -9661,12 +9661,12 @@ const QUIZ_DATA = {
       ],
       "a": "天智天皇",
       "comment": "日本初の全国的な戸籍（庚午年籍）を作りました。",
-      "answerImg": "assets/images/history/h_ancient_6_tenchi_tenno_1773665700437.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_tenchi_tenno_1773665700437.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "天智天皇の死後、跡継ぎを巡って弟（大海人皇子）と息子（大友皇子）が争い、弟が勝利した戦いは？",
-      "img": "assets/images/history/h_ancient_6_jinshin_no_ran_1773665718422.jpg",
+      "img": "assets/images/history/h_ancient_6_jinshin_no_ran_1773665718422.webp",
       "choices": [
         "壬申の乱",
         "承久の乱",
@@ -9675,12 +9675,12 @@ const QUIZ_DATA = {
       ],
       "a": "壬申の乱",
       "comment": "勝利した大海人皇子は天武天皇として即位し、強力な政治を行いました。",
-      "answerImg": "assets/images/history/h_ancient_6_jinshin_no_ran_1773665718422.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_jinshin_no_ran_1773665718422.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "天武天皇の皇后で、夫の後を継いで即位し、本格的な都である藤原京を造営した天皇は？",
-      "img": "assets/images/history/h_ancient_6_jito.jpg",
+      "img": "assets/images/history/h_ancient_6_jito.webp",
       "choices": [
         "持統天皇",
         "推古天皇",
@@ -9692,7 +9692,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "701年に制定された、唐の法律にならって政治の仕組みや刑罰の決まりを定めた法律は？",
-      "img": "assets/images/history/h_ancient_6_taiho_code.jpg",
+      "img": "assets/images/history/h_ancient_6_taiho_code.webp",
       "choices": [
         "大宝律令",
         "御成敗式目",
@@ -9701,7 +9701,7 @@ const QUIZ_DATA = {
       ],
       "a": "大宝律令",
       "comment": "「律」は刑罰の決まり、「令」は政治の仕組みの決まりのことです。",
-      "answerImg": "assets/images/history/h_ancient_6_taiho_ritsuryo_1773665734698.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_taiho_ritsuryo_1773665734698.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -9714,12 +9714,12 @@ const QUIZ_DATA = {
       ],
       "a": "律令国家",
       "comment": "天皇を中心に、貴族や役人が政治を行う仕組みが整いました。",
-      "answerImg": "assets/images/history/h_ancient_6_ritsuryo_kokka_1773665749102.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_ritsuryo_kokka_1773665749102.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "律令制度のもとで、6歳以上の男女に口分田を与え、死ぬと国に返させる制度は？",
-      "img": "assets/images/history/h_ancient_7_konden_einen_shizai_ho.jpg",
+      "img": "assets/images/history/h_ancient_7_konden_einen_shizai_ho.webp",
       "choices": [
         "班田収授法",
         "墾田永年私財法",
@@ -9731,7 +9731,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "収穫量の約3%の稲を納める税を何というか？",
-      "img": "assets/images/history/h_ancient_6_so_tax.jpg",
+      "img": "assets/images/history/h_ancient_6_so_tax.webp",
       "choices": [
         "租",
         "調",
@@ -9743,7 +9743,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "都での労役の代わりに布などを納める税を何というか？",
-      "img": "assets/images/history/h_early_modern_4_cash_crops_1773374713255.jpg",
+      "img": "assets/images/history/h_ancient_6_cho_tax.webp",
       "choices": [
         "庸",
         "調",
@@ -9752,12 +9752,12 @@ const QUIZ_DATA = {
       ],
       "a": "庸",
       "comment": "「調」は特産物を納める税です。",
-      "answerImg": "assets/images/history/h_ancient_6_yo_1773665770539.jpg",
+      "answerImg": "assets/images/history/h_ancient_6_yo_1773665770539.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "708年に発行された、唐の貨幣にならって作られた日本最初の流通貨幣は？",
-      "img": "assets/images/history/h_ancient_6_wadokaichin.jpg",
+      "img": "assets/images/history/h_ancient_6_wadokaichin.webp",
       "choices": [
         "和同開珎",
         "寛永通宝",
@@ -9772,7 +9772,7 @@ const QUIZ_DATA = {
   "h_ancient_7": [
     {
       "q": "710年、唐の都「長安」にならって奈良に造られた都は？",
-      "img": "assets/images/history/h_ancient_7_heijokyo.jpg",
+      "img": "assets/images/history/h_ancient_7_heijokyo.webp",
       "choices": [
         "平城京",
         "平安京",
@@ -9784,7 +9784,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平城京のモデルとなった、中国（唐）の都は？",
-      "img": "assets/images/history/h_ancient_7_changan.jpg",
+      "img": "assets/images/history/h_ancient_7_changan.webp",
       "choices": [
         "長安",
         "洛陽",
@@ -9796,7 +9796,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平城京に都を移した時の天皇は？",
-      "img": "assets/images/history/h_ancient_7_heijokyo.jpg",
+      "img": "assets/images/history/h_ancient_7_heijokyo.webp",
       "choices": [
         "元明天皇",
         "聖武天皇",
@@ -9808,7 +9808,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平城京で使われた、役人が文字や記録を書くために使った木の札を何というか？",
-      "img": "assets/images/history/h_ancient_7_mokkan.jpg",
+      "img": "assets/images/history/h_ancient_7_mokkan.webp",
       "choices": [
         "木簡",
         "竹簡",
@@ -9828,13 +9828,13 @@ const QUIZ_DATA = {
       ],
       "a": "逃散",
       "comment": "戸籍を偽って税を逃れようとする人（偽籍）もいました。",
-      "answerImg": "assets/images/history/h_ancient_7_chosan_1773665849694.jpg",
+      "answerImg": "assets/images/history/h_ancient_7_chosan_1773665849694.webp",
       "imgCaption": "※画像はイメージです",
-      "img": "assets/images/history/h_ancient_6_chosan_fleeing.jpg"
+      "img": "assets/images/history/h_ancient_6_chosan_fleeing.webp"
     },
     {
       "q": "神話や伝承をもとに、天武天皇の命で編纂され、712年に完成した日本最古の歴史書は？",
-      "img": "assets/images/history/h_ancient_7_kojiki.png",
+      "img": "assets/images/history/h_ancient_7_kojiki.webp",
       "choices": [
         "古事記",
         "日本書紀",
@@ -9846,7 +9846,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "720年に完成した、国造りの様子などが漢文で年代順に記された歴史書は？",
-      "img": "assets/images/history/h_ancient_7_nihon_shoki.png",
+      "img": "assets/images/history/h_ancient_7_nihon_shoki.webp",
       "choices": [
         "日本書紀",
         "古事記",
@@ -9858,7 +9858,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "『古事記』と『日本書紀』をあわせて何と呼ぶか？",
-      "img": "assets/images/history/h_ancient_7_kojiki.jpg",
+      "img": "assets/images/history/h_ancient_7_kojiki.webp",
       "choices": [
         "記紀",
         "六国史",
@@ -9867,12 +9867,12 @@ const QUIZ_DATA = {
       ],
       "a": "記紀",
       "comment": "古代史研究の重要な史料となっています。",
-      "answerImg": "assets/images/history/h_ancient_7_kiki_1773665865570.jpg",
+      "answerImg": "assets/images/history/h_ancient_7_kiki_1773665865570.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地方の国ごとに、自然、産物、伝説などを記録して提出させた書物は？",
-      "img": "assets/images/history/h_ancient_7_fudoki.jpg",
+      "img": "assets/images/history/h_ancient_7_fudoki.webp",
       "choices": [
         "風土記",
         "日本書紀",
@@ -9892,12 +9892,12 @@ const QUIZ_DATA = {
       ],
       "a": "万葉集",
       "comment": "大伴家持らが編集に関わったとされ、約4500首が収められています。",
-      "answerImg": "assets/images/history/h_ancient_7_manyoshu.jpg",
+      "answerImg": "assets/images/history/h_ancient_7_manyoshu.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "万葉集に収められている「貧窮問答歌」を詠み、農民の苦しい生活を描いた人物は？",
-      "img": "assets/images/history/h_ancient_7_manyoshu.jpg",
+      "img": "assets/images/history/h_ancient_7_manyoshu.webp",
       "choices": [
         "山上憶良",
         "大伴家持",
@@ -9911,7 +9911,7 @@ const QUIZ_DATA = {
   "h_ancient_8": [
     {
       "q": "奈良時代、仏教の力で国を守り、災害や疫病を鎮めようとした天皇は？",
-      "img": "assets/images/history/h_ancient_8_emperor_shomu.jpg",
+      "img": "assets/images/history/h_ancient_8_emperor_shomu.webp",
       "choices": [
         "聖武天皇",
         "天智天皇",
@@ -9920,12 +9920,12 @@ const QUIZ_DATA = {
       ],
       "a": "聖武天皇",
       "comment": "国ごとに国分寺・国分尼寺を建てるよう命じました。",
-      "answerImg": "assets/images/history/h_ancient_8_shomu_tenno_1773665878547.jpg",
+      "answerImg": "assets/images/history/h_ancient_8_shomu_tenno_1773665878547.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "聖武天皇の命令で、都（奈良）の東大寺に作られた巨大な仏像は？",
-      "img": "assets/images/history/h_ancient_8_daibutsu.jpg",
+      "img": "assets/images/history/h_ancient_8_daibutsu.webp",
       "choices": [
         "大仏（盧舎那仏）",
         "釈迦三尊像",
@@ -9937,7 +9937,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大仏建立に協力し、民衆への布教や社会事業（橋や池を作るなど）を行った僧は？",
-      "img": "assets/images/history/h_ancient_8_gyoki.jpg",
+      "img": "assets/images/history/h_ancient_8_gyoki_generated.webp",
       "choices": [
         "行基",
         "鑑真",
@@ -9949,7 +9949,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖武天皇の時代に栄えた、中国（唐）や西域などの影響を受けた国際色豊かな仏教文化を何というか？",
-      "img": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.jpg",
+      "img": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.webp",
       "choices": [
         "天平文化",
         "飛鳥文化",
@@ -9958,12 +9958,12 @@ const QUIZ_DATA = {
       ],
       "a": "天平文化",
       "comment": "シルクロードを通じてもたらされた文物が数多く残っています。",
-      "answerImg": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.jpg",
+      "answerImg": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "聖武天皇の遺品などが収められている、東大寺にある校倉造（あぜくらづくり）の建物は？",
-      "img": "assets/images/history/g_history_ancient_shosoin_new.jpg",
+      "img": "assets/images/history/g_history_ancient_shosoin_new.webp",
       "choices": [
         "正倉院",
         "法隆寺夢殿",
@@ -9975,7 +9975,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "度重なる遭難や失明を乗り越えて来日し、正しい仏教の戒律を伝えた唐の僧は？",
-      "img": "assets/images/history/h_ancient_8_ganjin.jpg",
+      "img": "assets/images/history/h_ancient_8_ganjin_generated.webp",
       "choices": [
         "鑑真",
         "行基",
@@ -9984,12 +9984,12 @@ const QUIZ_DATA = {
       ],
       "a": "鑑真",
       "comment": "6回目の航海でようやく日本に到着しました。",
-      "answerImg": "assets/images/history/h_ancient_8_ganjin_1773665918480.jpg",
+      "answerImg": "assets/images/history/h_ancient_8_ganjin_1773665918480.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "鑑真が奈良に開いた、金堂などの天平様式の建物が残る寺院は？",
-      "img": "assets/images/history/h_ancient_8_ganjin.jpg",
+      "img": "assets/images/history/h_ancient_8_toshodaiji_generated.webp",
       "choices": [
         "唐招提寺",
         "東大寺",
@@ -10001,7 +10001,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "興福寺にある、三つの顔と六つの腕を持つ仏像で、天平文化を代表する彫刻作品は？",
-      "img": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.jpg",
+      "img": "assets/images/history/h_ancient_8_tenpyo_bunka_1773665893986.webp",
       "choices": [
         "阿修羅像",
         "弥勒菩薩像",
@@ -10013,7 +10013,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「春過ぎて　夏来にけらし　白妙の　衣ほすてふ　天の香久山」の歌を詠んだ天皇は？",
-      "img": "assets/images/history/h_ancient_6_jito.jpg",
+      "img": "assets/images/history/h_ancient_6_jito.webp",
       "choices": [
         "持統天皇",
         "天智天皇",
@@ -10025,7 +10025,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "東大寺の正倉院に見られる、湿気を調整する機能に優れた建築様式は？",
-      "img": "assets/images/history/g_history_ancient_todaiji_construction.png",
+      "img": "assets/images/history/g_history_ancient_todaiji_construction.webp",
       "choices": [
         "校倉造",
         "寝殿造",
@@ -10037,7 +10037,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖武天皇の后で、聖武天皇とともに仏教を厚く信仰し、孤児や病人のための施設を作った人物は？",
-      "img": "assets/images/history/h_ancient_7_komyo_kogo.png",
+      "img": "assets/images/history/h_ancient_7_komyo_kogo.webp",
       "choices": [
         "光明皇后",
         "持統天皇",
@@ -10049,7 +10049,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "743年、聖武天皇が出した、新しく開墾した土地の永久私有を認める法律は？",
-      "img": "assets/images/history/h_ancient_7_konden_einen_shizai_ho.jpg",
+      "img": "assets/images/history/h_ancient_7_konden_einen_shizai_ho.webp",
       "choices": [
         "墾田永年私財法",
         "三世一身法",
@@ -10061,7 +10061,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "墾田永年私財法によって広がった、貴族や寺社の私有地を何というか？",
-      "img": "assets/images/history/h_ancient_7_shoen.png",
+      "img": "assets/images/history/h_ancient_7_shoen.webp",
       "choices": [
         "荘園",
         "公領",
@@ -10073,7 +10073,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "遣唐使として唐に渡り、玄宗皇帝に重用されたが、日本への帰国を果たせずに現地で亡くなった人物は？",
-      "img": "assets/images/history/h_ancient_8_abe_no_nakamaro.jpg",
+      "img": "assets/images/history/h_ancient_8_abe_no_nakamaro.webp",
       "choices": [
         "阿倍仲麻呂",
         "小野妹子",
@@ -10087,7 +10087,7 @@ const QUIZ_DATA = {
   "h_ancient_9": [
     {
       "q": "794年、桓武天皇が京都に移した、以後1000年以上日本の都となった都市は？",
-      "img": "assets/images/history/h_ancient_9_heian_kyo.jpg",
+      "img": "assets/images/history/h_ancient_9_heian_kyo.webp",
       "choices": [
         "平安京",
         "平城京",
@@ -10096,12 +10096,12 @@ const QUIZ_DATA = {
       ],
       "a": "平安京",
       "comment": "「鳴くよ（794）ウグイス平安京」の語呂合わせで知られます。",
-      "answerImg": "assets/images/history/h_ancient_9_heiankyo_1773665932372.jpg",
+      "answerImg": "assets/images/history/h_ancient_9_heiankyo_1773665932372.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "桓武天皇の命を受け、東北地方の蝦夷（えみし）を平定するために征夷大将軍に任命された人物は？",
-      "img": "assets/images/history/h_ancient_9_sakanoue_no_tamuramaro.jpg",
+      "img": "assets/images/history/h_ancient_9_sakanoue_no_tamuramaro.webp",
       "choices": [
         "坂上田村麻呂",
         "阿倍仲麻呂",
@@ -10110,12 +10110,12 @@ const QUIZ_DATA = {
       ],
       "a": "坂上田村麻呂",
       "comment": "京都の清水寺を建てたことでも知られています。",
-      "answerImg": "assets/images/history/h_ancient_9_sakanoue_no_tamuramaro_1773665948197.jpg",
+      "answerImg": "assets/images/history/h_ancient_9_sakanoue_no_tamuramaro_1773665948197.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "最澄が開き、比叡山延暦寺を総本山とする仏教の宗派は？",
-      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
+      "img": "assets/images/history/h_ancient_9_saicho_enryakuji.webp",
       "choices": [
         "天台宗",
         "真言宗",
@@ -10127,7 +10127,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "空海が開き、高野山金剛峯寺を総本山とする仏教の宗派は？",
-      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
+      "img": "assets/images/history/h_ancient_9_kukai_kongobuji.webp",
       "choices": [
         "真言宗",
         "天台宗",
@@ -10139,7 +10139,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "894年、菅原道真の提案によって停止されたものは？",
-      "img": "assets/images/history/g_history_ancient_kokufu_bunka_kana_generated.png",
+      "img": "assets/images/history/h_ancient_9_kentoushi_generated.webp",
       "choices": [
         "遣唐使",
         "遣隋使",
@@ -10151,7 +10151,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "藤原氏が、天皇が幼い時は「摂政」、成人してからは「関白」という職について行った政治を何というか？",
-      "img": "assets/images/history/g_history_ancient_sekkan_seiji.png",
+      "img": "assets/images/history/g_history_ancient_sekkan_seiji.webp",
       "choices": [
         "摂関政治",
         "院政",
@@ -10160,12 +10160,12 @@ const QUIZ_DATA = {
       ],
       "a": "摂関政治",
       "comment": "娘を天皇の后にし、その子を天皇にすることで権力を握りました。",
-      "answerImg": "assets/images/history/h_ancient_9_sekkan_seiji_1773665963410.jpg",
+      "answerImg": "assets/images/history/h_ancient_9_sekkan_seiji_1773665963410.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "「この世をば　わが世とぞ思う…」の歌を詠み、摂関政治の全盛期を築いた人物は？",
-      "img": "assets/images/history/h_ancient_9_fujiwara_no_michinaga.jpg",
+      "img": "assets/images/history/h_ancient_9_fujiwara_no_michinaga.webp",
       "choices": [
         "藤原道長",
         "藤原頼通",
@@ -10174,12 +10174,12 @@ const QUIZ_DATA = {
       ],
       "a": "藤原道長",
       "comment": "この歌は「望月の欠けたることもなしと思へば」と続きます。",
-      "answerImg": "assets/images/history/h_ancient_9_fujiwara_no_michinaga_1773665982075.jpg",
+      "answerImg": "assets/images/history/h_ancient_9_fujiwara_no_michinaga_1773665982075.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "藤原道長の子で、京都の宇治に平等院鳳凰堂を建てた人物は？",
-      "img": "assets/images/history/h_ancient_yorimichi_1772414883279.jpg",
+      "img": "assets/images/history/h_ancient_yorimichi_1772414883279.webp",
       "choices": [
         "藤原頼通",
         "藤原不比等",
@@ -10191,7 +10191,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平安時代の中頃に生まれた、漢字を変形させて日本語の音を表せるようにした文字は？",
-      "img": "assets/images/history/g_history_ancient_kokufu_bunka_kana_generated.png",
+      "img": "assets/images/history/g_history_ancient_kokufu_bunka_kana_generated.webp",
       "choices": [
         "かな文字",
         "のぼり文字",
@@ -10203,7 +10203,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紫式部によって書かれた、光源氏を主人公とする長編小説は？",
-      "img": "assets/images/history/h_ancient_9_genji.jpg",
+      "img": "assets/images/history/h_ancient_9_genji.webp",
       "choices": [
         "源氏物語",
         "枕草子",
@@ -10215,7 +10215,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "清少納言によって書かれた、「春はあけぼの」で始まる随筆集は？",
-      "img": "assets/images/history/g_history_medieval_fall_of_kamakura.png",
+      "img": "assets/images/history/h_ancient_9_makurano_soshi_generated.webp",
       "choices": [
         "枕草子",
         "徒然草",
@@ -10227,7 +10227,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "醍醐天皇の命で編集された、日本最初の勅撰和歌集は？",
-      "img": "assets/images/history/h_ancient_kokin_1772414918054.jpg",
+      "img": "assets/images/history/h_ancient_kokin_1772414918054.webp",
       "choices": [
         "古今和歌集",
         "万葉集",
@@ -10239,7 +10239,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平安時代の貴族の住居に見られる、庭園や池を持った日本風の建築様式は？",
-      "img": "assets/images/history/h_ancient_9_shinden.jpg",
+      "img": "assets/images/history/h_ancient_9_shinden.webp",
       "choices": [
         "寝殿造",
         "書院造",
@@ -10251,7 +10251,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「南無阿弥陀仏」と念仏を唱えれば、死後に極楽浄土へ行けると説いた教えは？",
-      "img": "assets/images/history/g_history_ancient_jodo_shinko.png",
+      "img": "assets/images/history/g_history_ancient_jodo_shinko.webp",
       "choices": [
         "浄土信仰",
         "天台宗",
@@ -10263,7 +10263,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "紀貫之が、女性の仮名文字をまねて書いたとされる日記文学は？",
-      "img": "assets/images/history/h_ancient_9_tosa.jpg",
+      "img": "assets/images/history/h_ancient_9_tosa.webp",
       "choices": [
         "土佐日記",
         "蜻蛉日記",
@@ -10275,7 +10275,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平安時代中期、京の市中で念仏を広め、「市聖（いちのひじり）」と呼ばれた僧は？",
-      "img": "assets/images/history/h_ancient_kuya_1772414931137.jpg",
+      "img": "assets/images/history/h_ancient_kuya_1772414931137.webp",
       "choices": [
         "空也",
         "親鸞",
@@ -10287,7 +10287,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平安時代末期、平清盛によって整備され、日宋貿易の拠点となった港は？",
-      "img": "assets/images/history/h_ancient_owada_1772414997019.jpg",
+      "img": "assets/images/history/h_ancient_owada_1772414997019.webp",
       "choices": [
         "大輪田泊",
         "博多之津",
@@ -10299,7 +10299,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "935年、下総（千葉県北部・茨城県）で反乱を起こし、「新皇」と名乗って関東地方を一時的に支配した人物は？",
-      "img": "assets/images/history/h_ancient_9_masakado.jpg",
+      "img": "assets/images/history/h_ancient_9_masakado_generated.webp",
       "choices": [
         "平将門",
         "藤原純友",
@@ -10311,7 +10311,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "939年、伊予（愛媛県）の国司であったが、瀬戸内海で海賊を率いて反乱を起こした人物は？",
-      "img": "assets/images/history/h_ancient_9_masakado.jpg",
+      "img": "assets/images/history/h_ancient_9_sumitomo_generated.webp",
       "choices": [
         "藤原純友",
         "平将門",
@@ -10323,7 +10323,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平安時代後期、奥州（東北地方）で金や馬の産物で富を築き、中尊寺金色堂などを建てて栄えた一族は？",
-      "img": "assets/images/history/h_ancient_9_fujiwara.jpg",
+      "img": "assets/images/history/h_ancient_9_fujiwara.webp",
       "choices": [
         "奥州藤原氏",
         "平氏",
@@ -10335,7 +10335,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1156年、崇徳上皇と後白河天皇の対立から都で起こった戦乱は？",
-      "img": "assets/images/history/h_ancient_hogen_1772415030167.jpg",
+      "img": "assets/images/history/h_ancient_hogen_1772415030167.webp",
       "choices": [
         "保元の乱",
         "平治の乱",
@@ -10347,7 +10347,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1159年、源義朝と平清盛が対立し、平清盛が勝利して平氏政権の基盤を築いた戦乱は？",
-      "img": "assets/images/history/h_ancient_heiji_1772415054446.jpg",
+      "img": "assets/images/history/h_ancient_heiji_1772415054446.webp",
       "choices": [
         "平治の乱",
         "保元の乱",
@@ -10359,7 +10359,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大寺院が朝廷や摂関家に要求を通すために使った、武装した僧侶を何というか？",
-      "img": "assets/images/history/h_ancient_9_sohei.jpg",
+      "img": "assets/images/history/h_ancient_9_sohei.webp",
       "choices": [
         "僧兵",
         "国司",
@@ -10371,7 +10371,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平清盛が兵庫の港（現在の神戸港）を修築して推進した、中国の宋との貿易は？",
-      "img": "assets/images/history/g_history_ancient_taira_no_kiyomori_generated.png",
+      "img": "assets/images/history/g_history_ancient_taira_no_kiyomori_generated.webp",
       "choices": [
         "日宋貿易",
         "勘合貿易",
@@ -10385,7 +10385,7 @@ const QUIZ_DATA = {
   "h_medieval_1": [
     {
       "q": "1185年、壇ノ浦の戦いで平氏を滅ぼした後、国ごとに守護・地頭を置くことを朝廷に認めさせた人物は？",
-      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.jpg",
+      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.webp",
       "choices": [
         "源頼朝",
         "源義経",
@@ -10397,7 +10397,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "源頼朝が開いた、日本初の本格的な武家政権を何というか？",
-      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.jpg",
+      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.webp",
       "choices": [
         "鎌倉幕府",
         "室町幕府",
@@ -10409,7 +10409,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府が、軍事・警察の仕事として国ごとに置いた役職は？",
-      "img": "assets/images/history/h_medieval_4_kanrei.jpg",
+      "img": "assets/images/history/h_medieval_4_kanrei.webp",
       "choices": [
         "守護",
         "地頭",
@@ -10421,7 +10421,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府が、年貢の取り立てや土地の管理を行うために荘園や公領ごとに置いた役職は？",
-      "img": "assets/images/history/h_ancient_8_shoen.jpg",
+      "img": "assets/images/history/h_ancient_8_shoen_generated.webp",
       "choices": [
         "地頭",
         "守護",
@@ -10433,7 +10433,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将軍と御家人の間の「御恩と奉公」の関係による支配の仕組みを何制度というか？",
-      "img": "assets/images/history/h_medieval_1_goon_hoko.jpg",
+      "img": "assets/images/history/h_medieval_1_goon_hoko.webp",
       "choices": [
         "封建制度",
         "律令制度",
@@ -10445,7 +10445,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "将軍が御家人に対して領地を保護したり、新しい領地を与えたりすることを何というか？",
-      "img": "assets/images/history/h_medieval_1_goon_hoko.jpg",
+      "img": "assets/images/history/h_medieval_1_goon_hoko.webp",
       "choices": [
         "御恩",
         "奉公",
@@ -10457,7 +10457,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "御家人が将軍のために、戦いの時に命がけで戦ったり、京都や鎌倉の警備をしたりすることを何というか？",
-      "img": "assets/images/history/h_medieval_1_goon_hoko.jpg",
+      "img": "assets/images/history/h_medieval_1_goon_hoko.webp",
       "choices": [
         "奉公",
         "御恩",
@@ -10469,7 +10469,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "源頼朝の死後、政治の実権を握った北条氏が就いた、将軍を補佐する役職は？",
-      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.jpg",
+      "img": "assets/images/history/h_medieval_yoritomo_1772415133001.webp",
       "choices": [
         "執権",
         "管領",
@@ -10481,7 +10481,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "源頼朝の妻で、頼朝の死後「尼将軍」と呼ばれ、幕府の危機を救った人物は？",
-      "img": "assets/images/history/g_history_medieval_masako_speech.png",
+      "img": "assets/images/history/g_history_medieval_masako_speech.webp",
       "choices": [
         "北条政子",
         "日野富子",
@@ -10493,7 +10493,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1221年、後鳥羽上皇が鎌倉幕府を倒そうとして兵を挙げたが、敗れた戦いは？",
-      "img": "assets/images/history/h_medieval_1_jokyu.jpg",
+      "img": "assets/images/history/h_medieval_1_jokyu.webp",
       "choices": [
         "承久の乱",
         "保元の乱",
@@ -10505,7 +10505,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "承久の乱の後、幕府が朝廷や西国の武士を監視するために京都に設置した役所は？",
-      "img": "assets/images/history/h_medieval_1_jokyu.jpg",
+      "img": "assets/images/history/h_medieval_1_jokyu.webp",
       "choices": [
         "六波羅探題",
         "京都所司代",
@@ -10517,7 +10517,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1232年、北条泰時が定めた、御家人の権利や裁判の基準を示した日本初の武家法は？",
-      "img": "assets/images/history/h_medieval_1_goseibaishikimoku_1772801818714.jpg",
+      "img": "assets/images/history/h_medieval_1_goseibaishikimoku_generated.webp",
       "choices": [
         "御成敗式目（貞永式目）",
         "武家諸法度",
@@ -10529,7 +10529,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "二期作が始まり、定期市が開かれるなど、鎌倉時代の民衆の生活が向上した背景には何の発達があるか？",
-      "img": "assets/images/history/h_medieval_1_teikiichi.jpg",
+      "img": "assets/images/history/h_medieval_1_teikiichi.webp",
       "choices": [
         "農業技術",
         "工業技術",
@@ -10541,7 +10541,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1183年、砺波山（くりから峠）の戦いで平氏を破って京都に入ったが、後に源義経らに追われて敗死した人物は？",
-      "img": "assets/images/history/h_medieval_1_minamotoyoshinaka_1772802530993.jpg",
+      "img": "assets/images/history/h_medieval_1_minamotoyoshinaka_1772802530993.webp",
       "choices": [
         "源義仲（木曽義仲）",
         "源義経",
@@ -10553,7 +10553,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府において、一般政務や財政を担当した役所は？",
-      "img": "assets/images/history/h_medieval_1_rokuhara.jpg",
+      "img": "assets/images/history/h_medieval_1_rokuhara.webp",
       "choices": [
         "政所（まんどころ）",
         "問注所",
@@ -10565,7 +10565,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府において、御家人の統率や軍事・警察を担当した役所は？",
-      "img": "assets/images/history/h_medieval_1_samurai_dokoro_1773374601126.jpg",
+      "img": "assets/images/history/h_medieval_1_samurai_dokoro_1773374601126.webp",
       "choices": [
         "侍所",
         "政所",
@@ -10577,7 +10577,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府において、裁判を担当した役所は？",
-      "img": "assets/images/history/h_medieval_1_monchujo_1773374615836.jpg",
+      "img": "assets/images/history/h_medieval_1_monchujo_1773374615836.webp",
       "choices": [
         "問注所",
         "政所",
@@ -10589,7 +10589,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府の初代執権で、源頼朝の妻・北条政子の父である人物は？",
-      "img": "assets/images/history/g_history_medieval_masako_speech.png",
+      "img": "assets/images/history/g_history_medieval_masako_speech.webp",
       "choices": [
         "北条時政",
         "北条義時",
@@ -10601,7 +10601,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "承久の乱の時の執権で、朝廷軍を破り、執権政治を確立させた人物は？",
-      "img": "assets/images/history/g_history_medieval_masako_speech.png",
+      "img": "assets/images/history/g_history_medieval_masako_speech.webp",
       "choices": [
         "北条義時",
         "北条時政",
@@ -10613,7 +10613,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府の3代将軍で、鶴岡八幡宮で公暁（くぎょう）に暗殺され、源氏の正統が絶える原因となった人物は？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
+      "img": "assets/images/history/h_medieval_minamoto_no_sanetomo.webp",
       "choices": [
         "源実朝",
         "源頼家",
@@ -10625,7 +10625,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代初期の荘園で、地頭の非道を訴えた「ミミヲキリハナヲソギ…」という訴状で有名な和歌山県の荘園は？",
-      "img": "assets/images/history/h_ancient_8_shoen.jpg",
+      "img": "assets/images/history/h_ancient_8_shoen_generated.webp",
       "choices": [
         "阿充河荘（あてがわのしょう）",
         "大田文",
@@ -10637,7 +10637,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代、武士の間で広まった、馬に乗って疾走しながら的を射る訓練を何というか？",
-      "img": "assets/images/history/h_medieval_1_yabusame_1772802564519.jpg",
+      "img": "assets/images/history/h_medieval_1_yabusame_1772802564519.webp",
       "choices": [
         "流鏑馬（やぶさめ）",
         "犬追物",
@@ -10649,7 +10649,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代の農業で、西日本を中心に広まった、同じ耕地で米と麦を交互に作る農法は？",
-      "img": "assets/images/history/h_medieval_1_nimosaku.jpg",
+      "img": "assets/images/history/h_medieval_1_nimosaku.webp",
       "choices": [
         "二毛作",
         "二期作",
@@ -10661,7 +10661,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代に広まった、牛や馬を利用して田畑を耕す農法は？",
-      "img": "assets/images/history/h_medieval_1_gyubakou_1772802622169.jpg",
+      "img": "assets/images/history/h_medieval_1_gyubakou_1772802622169.webp",
       "choices": [
         "牛馬耕",
         "深耕",
@@ -10673,7 +10673,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代、交通の要所や寺社の門前などで、月に数回開かれた市を何というか？",
-      "img": "assets/images/history/h_medieval_1_teikiichi.jpg",
+      "img": "assets/images/history/h_medieval_1_teikiichi.webp",
       "choices": [
         "定期市",
         "楽市・楽座",
@@ -10685,7 +10685,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代の武士の相続方法で、親の領地を兄弟などで分けて相続することを何というか？",
-      "img": "assets/images/history/h_medieval_1_bunkatsusozoku_1772802687732.jpg",
+      "img": "assets/images/history/h_medieval_1_bunkatsusozoku_1772802687732.webp",
       "choices": [
         "分割相続",
         "単独相続",
@@ -10699,7 +10699,7 @@ const QUIZ_DATA = {
   "h_medieval_2": [
     {
       "q": "13世紀初め、チンギス・ハンが建国し、ユーラシア大陸にまたがる大帝国を築いた国は？",
-      "img": "assets/images/history/h_medieval_2_mongolteikoku_1772802716926.jpg",
+      "img": "assets/images/history/h_medieval_2_mongolteikoku_1772802716926.webp",
       "choices": [
         "モンゴル帝国",
         "元",
@@ -10711,7 +10711,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "モンゴル帝国の皇帝フビライ・ハンが、日本に従うよう求めたが拒否されたため、二度にわたって日本を攻めた出来事を何というか？",
-      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_1772802750152.webp",
       "choices": [
         "元寇",
         "倭寇",
@@ -10723,7 +10723,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇の時の鎌倉幕府の執権で、元の要求を拒否し、御家人を指揮して戦った人物は？",
-      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_1772802750152.webp",
       "choices": [
         "北条時宗",
         "北条泰時",
@@ -10735,7 +10735,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元軍が使った、火薬を詰めて爆発させる武器を何というか？",
-      "img": "assets/images/history/h_early_modern_1_teppo.jpg",
+      "img": "assets/images/history/h_early_modern_1_teppo.webp",
       "choices": [
         "てつはう",
         "鉄砲",
@@ -10747,7 +10747,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇の後、御家人が借金に苦しむようになったため、幕府が出した借金を帳消しにする法令は？",
-      "img": "assets/images/history/h_medieval_2_tokuseirei.jpg",
+      "img": "assets/images/history/h_medieval_2_tokuseirei.webp",
       "choices": [
         "徳政令",
         "御成敗式目",
@@ -10759,7 +10759,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉幕府に不満を持つ武士たちを呼びかけ、1333年に鎌倉幕府を滅亡に追い込んだ天皇は？",
-      "img": "assets/images/history/h_medieval_2_godaigo.jpg",
+      "img": "assets/images/history/h_medieval_2_godaigo.webp",
       "choices": [
         "後醍醐天皇",
         "後鳥羽上皇",
@@ -10771,7 +10771,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "後醍醐天皇の呼びかけに応じ、六波羅探題を攻め落とした有力御家人は？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_takauji.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_takauji.webp",
       "choices": [
         "足利尊氏",
         "新田義貞",
@@ -10783,7 +10783,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "後醍醐天皇の呼びかけに応じ、鎌倉に攻め込んで北条氏を滅ぼした有力御家人は？",
-      "img": "assets/images/history/h_medieval_2_godaigo.jpg",
+      "img": "assets/images/history/h_medieval_2_godaigo.webp",
       "choices": [
         "新田義貞",
         "足利尊氏",
@@ -10795,7 +10795,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇の際、日本軍の防備を助けたとされる、二度とも吹いた暴風雨を何と呼んだか？",
-      "img": "assets/images/history/h_medieval_2_kamikaze.jpg",
+      "img": "assets/images/history/h_medieval_2_kamikaze.webp",
       "choices": [
         "神風",
         "台風",
@@ -10807,7 +10807,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇防備のために九州北部の海岸に築かれた、石で作られた防壁は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_borui.webp",
       "choices": [
         "防塁（石築地）",
         "城壁",
@@ -10819,7 +10819,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "イタリアの商人で、フビライ・ハンに仕え、帰国後に『世界の記述（東方見聞録）』で日本を「黄金の国ジパング」と紹介した人物は？",
-      "img": "assets/images/history/g_history_early_modern_1_age_of_discovery_1.png",
+      "img": "assets/images/history/g_history_early_modern_1_age_of_discovery_1.webp",
       "choices": [
         "マルコ・ポーロ",
         "コロンブス",
@@ -10831,7 +10831,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "元寇の際、集団戦法をとる元軍に対し、日本軍がとった戦法は？",
-      "img": "assets/images/history/h_medieval_2_genko_1772802750152.jpg",
+      "img": "assets/images/history/h_medieval_2_genko_1772802750152.webp",
       "choices": [
         "一騎打ち",
         "鉄砲隊",
@@ -10843,7 +10843,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1297年、鎌倉幕府が御家人を救うために出した、借金の帳消しを命じる法令は？",
-      "img": "assets/images/history/h_medieval_2_tokuseirei.jpg",
+      "img": "assets/images/history/h_medieval_2_tokuseirei.webp",
       "choices": [
         "永仁の徳政令",
         "寛政の改革",
@@ -10855,7 +10855,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代末期、荘園領主や幕府に従わず、年貢を奪うなどの乱暴を働いた武装集団を何というか？",
-      "img": "assets/images/history/h_medieval_2_akutou.jpg",
+      "img": "assets/images/history/h_medieval_2_akutou.webp",
       "choices": [
         "悪党",
         "野盗",
@@ -10869,7 +10869,7 @@ const QUIZ_DATA = {
   "h_medieval_3": [
     {
       "q": "鎌倉時代に生まれた、素朴で力強い武士の気風を反映した文化を何というか？",
-      "img": "assets/images/history/h_medieval_3_kongo.jpg",
+      "img": "assets/images/history/h_medieval_3_kamakura_culture.webp",
       "choices": [
         "鎌倉文化",
         "国風文化",
@@ -10881,7 +10881,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "東大寺南大門にある、運慶・快慶らが作った力強い仏像は？",
-      "img": "assets/images/history/h_medieval_3_kongo.jpg",
+      "img": "assets/images/history/h_medieval_3_kongo.webp",
       "choices": [
         "金剛力士像",
         "阿修羅像",
@@ -10893,7 +10893,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「祇園精舎の鐘の声…」で始まり、平氏の繁栄と没落を描いた軍記物は？",
-      "img": "assets/images/history/h_medieval_3_biwa_hoshi_1773374684764.jpg",
+      "img": "assets/images/history/h_medieval_3_biwa_hoshi_1773374684764.webp",
       "choices": [
         "平家物語",
         "源氏物語",
@@ -10905,7 +10905,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平家物語を語り継いだ、琵琶を弾きながら物語を語る盲目の芸人を何というか？",
-      "img": "assets/images/history/h_medieval_3_biwa_hoshi_1773374684764.jpg",
+      "img": "assets/images/history/h_medieval_3_biwa_hoshi_1773374684764.webp",
       "choices": [
         "琵琶法師",
         "能楽師",
@@ -10917,7 +10917,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "兼好法師（吉田兼好）が書いた、無常観がつづられた随筆集は？",
-      "img": "assets/images/history/g_history_medieval_tsurezuregusa_kenko.png",
+      "img": "assets/images/history/g_history_medieval_tsurezuregusa_kenko.webp",
       "choices": [
         "徒然草",
         "方丈記",
@@ -10929,7 +10929,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鴨長明が書いた、大火や飢饉などの災害と世の無常をつづった随筆集は？",
-      "img": "assets/images/history/h_medieval_3_hojoki.jpg",
+      "img": "assets/images/history/h_medieval_3_hojoki.webp",
       "choices": [
         "方丈記",
         "徒然草",
@@ -10949,12 +10949,12 @@ const QUIZ_DATA = {
       ],
       "a": "新古今和歌集",
       "comment": "武士や僧の歌も多く収められています。",
-      "aImg": "assets/images/history/h_medieval_3_shinkokin.jpg",
-      "img": "assets/images/history/h_medieval_3_shinkokin.jpg"
+      "aImg": "assets/images/history/h_medieval_3_shinkokin.webp",
+      "img": "assets/images/history/h_medieval_3_shinkokin.webp"
     },
     {
       "q": "「南無阿弥陀仏」と唱えるだけで救われる（専修念仏）と説き、浄土宗を開いたのは？",
-      "img": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.jpg",
+      "img": "assets/images/history/h_medieval_3_honen_jodoshu.webp",
       "choices": [
         "法然",
         "親鸞",
@@ -10966,7 +10966,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "法然の弟子で、悪人こそが救われるという「悪人正機」を説き、浄土真宗（一向宗）を開いたのは？",
-      "img": "assets/images/history/h_medieval_3_shinran.jpg",
+      "img": "assets/images/history/h_medieval_3_shinran.webp",
       "choices": [
         "親鸞",
         "法然",
@@ -10978,7 +10978,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "踊念仏によって教えを広め、時宗を開いたのは？",
-      "img": "assets/images/history/h_early_modern_6_jippensha.jpg",
+      "img": "assets/images/history/h_medieval_3_ippen_jishu.webp",
       "choices": [
         "一遍",
         "法然",
@@ -10990,7 +10990,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「南無妙法蓮華経」という題目を唱えれば救われると説き、日蓮宗（法華宗）を開いたのは？",
-      "img": "assets/images/history/h_medieval_3_nichiren.jpg",
+      "img": "assets/images/history/h_medieval_3_nichiren.webp",
       "choices": [
         "日蓮",
         "栄西",
@@ -11002,7 +11002,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "座禅によって悟りを開こうとする「禅宗」の一つ、臨済宗を日本に伝えたのは？",
-      "img": "assets/images/history/h_medieval_3_eisai.jpg",
+      "img": "assets/images/history/h_medieval_3_eisai.webp",
       "choices": [
         "栄西",
         "道元",
@@ -11014,7 +11014,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "座禅にひたすら打ち込む（只管打坐）ことを説き、曹洞宗を伝えたのは？",
-      "img": "assets/images/history/h_medieval_3_dogen.jpg",
+      "img": "assets/images/history/h_medieval_3_dogen.webp",
       "choices": [
         "道元",
         "栄西",
@@ -11028,7 +11028,7 @@ const QUIZ_DATA = {
   "h_medieval_4": [
     {
       "q": "鎌倉幕府の滅亡後、後醍醐天皇が始めた、天皇中心の政治を何というか？",
-      "img": "assets/images/history/h_medieval_4_kenmu.jpg",
+      "img": "assets/images/history/h_medieval_4_kenmu.webp",
       "choices": [
         "建武の新政",
         "大化の改新",
@@ -11040,7 +11040,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "建武の新政に不満を持つ武士を率いて反乱を起こし、1338年に征夷大将軍となって幕府を開いた人物は？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_takauji.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_takauji.webp",
       "choices": [
         "足利尊氏",
         "足利義満",
@@ -11052,7 +11052,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足利尊氏が京都に立てた北朝と、後醍醐天皇が奈良の吉野に逃れて立てた南朝が対立し、約60年間争った時代を何というか？",
-      "img": "assets/images/history/h_medieval_4_nanbokucho.jpg",
+      "img": "assets/images/history/h_medieval_4_nanbokucho.webp",
       "choices": [
         "南北朝時代",
         "戦国時代",
@@ -11064,7 +11064,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "南北朝の動乱を終わらせ、1392年に南北朝を統一した室町幕府の第3代将軍は？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
+      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.webp",
       "choices": [
         "足利義満",
         "足利尊氏",
@@ -11076,7 +11076,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町幕府において、将軍を補佐する役職を何というか？",
-      "img": "assets/images/history/h_medieval_4_kanrei.jpg",
+      "img": "assets/images/history/h_medieval_4_kanrei.webp",
       "choices": [
         "管領",
         "執権",
@@ -11088,7 +11088,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎌倉時代の守護が力を強め、一国全体を支配するようになった大名を何というか？",
-      "img": "assets/images/history/h_medieval_4_shugo_daimyo.jpg",
+      "img": "assets/images/history/h_medieval_4_shugo_daimyo.webp",
       "choices": [
         "守護大名",
         "戦国大名",
@@ -11100,7 +11100,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足利義満が中国（明）との間で行った、正式な貿易船に合い札を持たせた貿易を何というか？",
-      "img": "assets/images/history/g_history_medieval_kango_tally_matching.png",
+      "img": "assets/images/history/g_history_medieval_kango_tally_matching.webp",
       "choices": [
         "勘合貿易（日明貿易）",
         "朱印船貿易",
@@ -11112,7 +11112,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮半島や中国沿岸を荒らし回った、日本の海賊集団を何というか？",
-      "img": "assets/images/history/h_ancient_2_wakoku.jpg",
+      "img": "assets/images/history/h_medieval_4_wako_pirates.webp",
       "choices": [
         "倭寇",
         "水軍",
@@ -11126,7 +11126,7 @@ const QUIZ_DATA = {
   "h_medieval_5": [
     {
       "q": "14世紀、元を北へ追いやり、漢民族が再び中国に建てた国は？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
+      "img": "assets/images/history/h_medieval_4_ming_dynasty.webp",
       "choices": [
         "明",
         "清",
@@ -11138,7 +11138,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "14世紀末、高麗を倒して朝鮮半島に建てられた国は？",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
+      "img": "assets/images/history/h_medieval_5_joseon.webp",
       "choices": [
         "朝鮮国（李氏朝鮮）",
         "新羅",
@@ -11150,7 +11150,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "15世紀初め、沖縄本島を統一し、琉球王国を建国した人物は？",
-      "img": "assets/images/history/h_medieval_5_shohashi.jpg",
+      "img": "assets/images/history/h_medieval_5_shohashi.webp",
       "choices": [
         "尚巴志",
         "阿倍仲麻呂",
@@ -11162,7 +11162,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "琉球王国が、日本・中国・東南アジアの間で行った、各国の産物をやり取りする貿易を何というか？",
-      "img": "assets/images/history/h_medieval_5_chukei_boueki.jpg",
+      "img": "assets/images/history/h_medieval_5_chukei_boueki.webp",
       "choices": [
         "中継貿易",
         "勘合貿易",
@@ -11174,7 +11174,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "北海道の先住民族で、狩りや漁を行い、独自の文化を持っていた人々は？",
-      "img": "assets/images/history/h_medieval_5_ainu_1772980283499.jpg",
+      "img": "assets/images/history/h_medieval_5_ainu_1772980283499.webp",
       "choices": [
         "アイヌ民族",
         "琉球民族",
@@ -11186,7 +11186,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "和人が蝦夷地（北海道）に進出し、館（やかた）を築いて交易を独占したことに対し、1457年に蜂起したアイヌの首長は？",
-      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.jpg",
+      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.webp",
       "choices": [
         "コシャマイン",
         "シャクシャイン",
@@ -11198,7 +11198,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代に朝鮮で作られた、現在も使われている独自の文字は？",
-      "img": "assets/images/history/h_medieval_5_hangeul.jpg",
+      "img": "assets/images/history/h_medieval_5_hangeul.webp",
       "choices": [
         "ハングル",
         "かな文字",
@@ -11210,7 +11210,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日明貿易（勘合貿易）において、日本からの主な輸出品は？",
-      "img": "assets/images/history/g_history_medieval_kango_tally_matching.png",
+      "img": "assets/images/history/g_history_medieval_kango_tally_matching.webp",
       "choices": [
         "刀剣・銅・硫黄",
         "生糸・陶磁器",
@@ -11222,7 +11222,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日明貿易（勘合貿易）において、明からの主な輸入品は？",
-      "img": "assets/images/history/g_history_medieval_kango_tally_matching.png",
+      "img": "assets/images/history/g_history_medieval_kango_tally_matching.webp",
       "choices": [
         "銅銭・生糸・陶磁器",
         "刀剣・銅",
@@ -11236,7 +11236,7 @@ const QUIZ_DATA = {
   "h_medieval_6": [
     {
       "q": "足利義満の頃の、公家文化と武家文化が融合した、明るく華やかな文化を何というか？",
-      "img": "assets/images/history/h_medieval_6_kinkaku.jpg",
+      "img": "assets/images/history/h_medieval_6_kinkaku.webp",
       "choices": [
         "北山文化",
         "東山文化",
@@ -11248,7 +11248,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足利義満が京都の北山に建てた、金箔が貼られた華麗な建物は？",
-      "img": "assets/images/history/h_medieval_6_kinkaku.jpg",
+      "img": "assets/images/history/h_medieval_6_kinkaku.webp",
       "choices": [
         "金閣",
         "銀閣",
@@ -11260,7 +11260,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "観阿弥・世阿弥親子によって大成された、面をつけて演じる歌舞劇は？",
-      "img": "assets/images/history/h_medieval_4_ashikaga_yoshimitsu.jpg",
+      "img": "assets/images/history/h_medieval_4_noh_theater.webp",
       "choices": [
         "能（能楽）",
         "歌舞伎",
@@ -11280,12 +11280,12 @@ const QUIZ_DATA = {
       ],
       "a": "狂言",
       "comment": "当時の話し言葉が使われています。",
-      "aImg": "assets/images/history/h_medieval_6_kyogen.jpg",
-      "img": "assets/images/history/h_medieval_6_kyogen.jpg"
+      "aImg": "assets/images/history/h_medieval_6_kyogen.webp",
+      "img": "assets/images/history/h_medieval_6_kyogen.webp"
     },
     {
       "q": "足利義政の頃の、禅宗の影響を受けた、簡素で深みのある文化を何というか？",
-      "img": "assets/images/history/h_medieval_6_ginkaku.jpg",
+      "img": "assets/images/history/h_medieval_6_ginkaku.webp",
       "choices": [
         "東山文化",
         "北山文化",
@@ -11297,7 +11297,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足利義政が京都の東山に建てた、簡素で落ち着いた美しさを持つ建物は？",
-      "img": "assets/images/history/h_medieval_6_ginkaku.jpg",
+      "img": "assets/images/history/h_medieval_6_ginkaku.webp",
       "choices": [
         "銀閣",
         "金閣",
@@ -11309,7 +11309,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "書院造の部屋に飾る絵画として発達した、墨の濃淡で自然の風景などを描く絵画は？",
-      "img": "assets/images/history/h_medieval_6_suibokuga.jpg",
+      "img": "assets/images/history/h_medieval_6_suibokuga.webp",
       "choices": [
         "水墨画",
         "大和絵",
@@ -11321,7 +11321,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "明で水墨画を学び、日本独自の水墨画を大成した人物は？",
-      "img": "assets/images/history/h_medieval_6_suibokuga.jpg",
+      "img": "assets/images/history/h_medieval_6_suibokuga.webp",
       "choices": [
         "雪舟",
         "狩野永徳",
@@ -11333,7 +11333,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "畳、障子、ふすま、床の間などを備えた、現在の和風住宅の元となった建築様式は？",
-      "img": "assets/images/history/h_medieval_6_shoinzukuri.jpg",
+      "img": "assets/images/history/h_medieval_6_shoinzukuri.webp",
       "choices": [
         "書院造",
         "寝殿造",
@@ -11345,7 +11345,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代に流行した、絵入りの短編物語（「一寸法師」など）を何というか？",
-      "img": "assets/images/history/h_medieval_6_otogizoushi.jpg",
+      "img": "assets/images/history/h_medieval_6_otogizoushi.webp",
       "choices": [
         "御伽草子（おとぎぞうし）",
         "絵巻物",
@@ -11357,7 +11357,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、農民たちが作った自治組織を何というか？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
+      "img": "assets/images/history/h_medieval_4_sho_village.webp",
       "choices": [
         "惣（惣村）",
         "座",
@@ -11369,7 +11369,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "農民たちが団結して、年貢の軽減や借金の帳消し（徳政）を求めて起こした反乱を何というか？",
-      "img": "assets/images/history/h_medieval_6_doikki_1772980315893.jpg",
+      "img": "assets/images/history/h_medieval_6_doikki_1772980315893.webp",
       "choices": [
         "土一揆",
         "国一揆",
@@ -11381,7 +11381,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、馬を使って物資を運んだ運送業者を何というか？",
-      "img": "assets/images/history/h_medieval_6_bashaku_1772980331219.jpg",
+      "img": "assets/images/history/h_medieval_6_bashaku_1772980331219.webp",
       "choices": [
         "馬借（ばしゃく）",
         "問屋",
@@ -11393,7 +11393,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、港などで商品の保管や運送、販売を行った業者を何というか？",
-      "img": "assets/images/history/h_medieval_6_toiya_1772980345705.jpg",
+      "img": "assets/images/history/h_medieval_6_toiya_1772980345705.webp",
       "choices": [
         "問（問屋）",
         "土倉",
@@ -11405,7 +11405,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、高利貸しを営んだ質屋のような業者を何というか？",
-      "img": "assets/images/history/h_medieval_6_doso_1772980404797.jpg",
+      "img": "assets/images/history/h_medieval_6_doso_1772980404797.webp",
       "choices": [
         "土倉（どそう）",
         "酒屋",
@@ -11417,7 +11417,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "室町時代、商工業者が同業者ごとに結成し、朝廷や寺社に税を納める代わりに営業の独占権を認められた組織は？",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.webp",
       "choices": [
         "座",
         "株仲間",
@@ -11429,7 +11429,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1428年、近江の馬借らが徳政令を求めて蜂起し、京都に乱入した、日本初の大規模な土一揆は？",
-      "img": "assets/images/history/h_medieval_6_doikki_1772980315893.jpg",
+      "img": "assets/images/history/h_medieval_6_doikki_1772980315893.webp",
       "choices": [
         "正長の土一揆",
         "加賀の一向一揆",
@@ -11443,7 +11443,7 @@ const QUIZ_DATA = {
   "h_medieval_7": [
     {
       "q": "1467年、将軍（足利義政）の跡継ぎ問題などをきっかけに始まり、11年間続いて京都を焼け野原にした戦乱は？",
-      "img": "assets/images/history/g_history_medieval_onin_no_ran.png",
+      "img": "assets/images/history/h_medieval_hosokawa_katsumoto.webp",
       "choices": [
         "応仁の乱",
         "保元の乱",
@@ -11455,7 +11455,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱のきっかけとなった跡継ぎ問題で、争いに関係した第8代将軍は？",
-      "img": "assets/images/history/g_history_medieval_onin_no_ran.png",
+      "img": "assets/images/history/h_medieval_5_ashikaga_yoshimasa.webp",
       "choices": [
         "足利義政",
         "足利義満",
@@ -11467,7 +11467,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱で東軍の総大将となった人物は？",
-      "img": "assets/images/history/g_history_medieval_onin_no_ran.png",
+      "img": "assets/images/history/g_history_medieval_onin_no_ran.webp",
       "choices": [
         "細川勝元",
         "山名宗全",
@@ -11479,7 +11479,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "京都の山城国（現在の京都府南部）で、武士や農民が守護大名を追い出し、8年間にわたって自治を行った出来事は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
+      "img": "assets/images/history/h_medieval_5_yamashiro_kunikki.webp",
       "choices": [
         "山城の国一揆",
         "加賀の一向一揆",
@@ -11491,7 +11491,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "加賀国（現在の石川県）で、浄土真宗の信者らが守護大名を倒し、約100年間にわたって自治を行った出来事は？",
-      "img": "assets/images/history/h_medieval_7_kaga_ikko_ikki_1772980540508.jpg",
+      "img": "assets/images/history/h_medieval_7_kaga_ikko_ikki_1772980540508.webp",
       "choices": [
         "加賀の一向一揆",
         "山城の国一揆",
@@ -11503,7 +11503,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "身分の低い者が、実力で上の者を倒して地位を奪う風潮を何というか？",
-      "img": "assets/images/history/h_medieval_7_gekokujo_1772980555958.jpg",
+      "img": "assets/images/history/h_medieval_7_gekokujo_1772980555958.webp",
       "choices": [
         "下剋上",
         "一所懸命",
@@ -11515,7 +11515,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱の後、各地の守護大名や守護代などが成長し、独自の領国支配を行うようになった大名を何というか？",
-      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
+      "img": "assets/images/history/h_medieval_5_sengoku_daimyo.webp",
       "choices": [
         "戦国大名",
         "守護大名",
@@ -11527,7 +11527,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦国大名が、領地を治めるために独自に定めた法律を何というか？",
-      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
+      "img": "assets/images/history/h_medieval_5_bunkoku_ho.webp",
       "choices": [
         "分国法",
         "御成敗式目",
@@ -11539,7 +11539,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦国時代、甲斐（山梨県）の武田信玄が定めた分国法は？",
-      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
+      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.webp",
       "choices": [
         "甲州法度之次第",
         "塵芥集",
@@ -11551,7 +11551,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦国時代、東北地方の伊達氏が定めた分国法は？",
-      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.jpg",
+      "img": "assets/images/history/h_medieval_7_bunkokuho_1772980452183.webp",
       "choices": [
         "塵芥集（じんかいしゅう）",
         "甲州法度之次第",
@@ -11563,7 +11563,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦国大名が、家臣や商工業者を住まわせるために城の周辺に作った町を何というか？",
-      "img": "assets/images/history/h_medieval_7_jokamachi.jpg",
+      "img": "assets/images/history/h_medieval_7_jokamachi.webp",
       "choices": [
         "城下町",
         "門前町",
@@ -11575,7 +11575,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日明貿易で栄え、「東洋のベニス」とも呼ばれた、36人の会合衆（えごうしゅう）によって自治が行われた都市は？",
-      "img": "assets/images/history/h_medieval_7_sakai_1772980587543.jpg",
+      "img": "assets/images/history/h_medieval_7_sakai_1772980587543.webp",
       "choices": [
         "堺（大阪府）",
         "博多（福岡県）",
@@ -11587,7 +11587,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日宋貿易以来の貿易港として栄え、12人の年行司によって自治が行われた都市は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
+      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.webp",
       "choices": [
         "博多（福岡県）",
         "堺",
@@ -11599,7 +11599,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "応仁の乱の後、京都で町衆（まちしゅう）と呼ばれる裕福な商工業者たちが復興させ、現在まで続く祭りは？",
-      "img": "assets/images/history/h_medieval_7_gion.jpg",
+      "img": "assets/images/history/h_medieval_7_gion.webp",
       "choices": [
         "祇園祭",
         "天神祭",
@@ -11613,7 +11613,7 @@ const QUIZ_DATA = {
   "h_early_modern_1": [
     {
       "q": "14世紀から16世紀にかけてヨーロッパで広まった、古代ギリシャ・ローマの文化を学び直そうとする動きを何というか？",
-      "img": "assets/images/history/h_early_modern_1_renaissance_1772980680705.jpg",
+      "img": "assets/images/history/h_early_modern_1_renaissance_1772980680705.webp",
       "choices": [
         "ルネサンス（文芸復興）",
         "宗教改革",
@@ -11625,7 +11625,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "免罪符（贖宥状）の販売を批判し、ドイツで宗教改革を始めた人物は？",
-      "img": "assets/images/history/h_early_modern_1_luther_1773020209374.jpg",
+      "img": "assets/images/history/h_early_modern_1_luther_1773020209374.webp",
       "choices": [
         "ルター",
         "カルバン",
@@ -11634,12 +11634,12 @@ const QUIZ_DATA = {
       ],
       "a": "ルター",
       "comment": "聖書中心主義を唱え、プロテスタント（新教）が生まれました。",
-      "answerImg": "assets/images/history/h_early_modern_1_luther_1773666264348.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_luther_1773666264348.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1492年、西インド諸島に到達し、アメリカ大陸発見のきっかけを作った人物は？",
-      "img": "assets/images/history/h_early_modern_1_columbus_1773020222528.jpg",
+      "img": "assets/images/history/h_early_modern_1_columbus_1773020222528.webp",
       "choices": [
         "コロンブス",
         "バスコ・ダ・ガマ",
@@ -11648,12 +11648,12 @@ const QUIZ_DATA = {
       ],
       "a": "コロンブス",
       "comment": "スペインの女王イサベルの援助を受けて航海しました。",
-      "answerImg": "assets/images/history/h_early_modern_1_columbus_1773666276034.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_columbus_1773666276034.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1498年、喜望峰を回ってインド航路を発見したポルトガルの探検家は？",
-      "img": "assets/images/history/h_early_modern_1_vasco_da_gama_1773020239061.jpg",
+      "img": "assets/images/history/h_early_modern_1_vasco_da_gama_1773020239061.webp",
       "choices": [
         "バスコ・ダ・ガマ",
         "マゼラン",
@@ -11662,12 +11662,12 @@ const QUIZ_DATA = {
       ],
       "a": "バスコ・ダ・ガマ",
       "comment": "これにより香辛料貿易が盛んになりました。",
-      "answerImg": "assets/images/history/h_early_modern_1_vasco_da_gama_1773666292058.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_vasco_da_gama_1773666292058.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "世界一周を成し遂げ、地球が球体であることを実証した一行の指揮者は？",
-      "img": "assets/images/history/h_early_modern_1_magellan_1773020255905.jpg",
+      "img": "assets/images/history/h_early_modern_1_magellan_1773020255905.webp",
       "choices": [
         "マゼラン",
         "コロンブス",
@@ -11676,12 +11676,12 @@ const QUIZ_DATA = {
       ],
       "a": "マゼラン",
       "comment": "マゼラン自身はフィリピンで戦死しましたが、部下が航海を続けました。",
-      "answerImg": "assets/images/history/h_early_modern_1_magellan_1773666305941.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_magellan_1773666305941.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1543年、種子島に漂着したポルトガル人が伝えた武器は？",
-      "img": "assets/images/history/h_early_modern_1_teppo.jpg",
+      "img": "assets/images/history/h_early_modern_1_teppo.webp",
       "choices": [
         "鉄砲",
         "大砲",
@@ -11693,7 +11693,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1549年、鹿児島に上陸し、日本にキリスト教を伝えたイエズス会の宣教師は？",
-      "img": "assets/images/history/h_early_modern_1_francis_xavier_1773666323655.jpg",
+      "img": "assets/images/history/h_early_modern_1_francis_xavier_1773666323655.webp",
       "choices": [
         "フランシスコ・ザビエル",
         "ルイス・フロイス",
@@ -11702,12 +11702,12 @@ const QUIZ_DATA = {
       ],
       "a": "フランシスコ・ザビエル",
       "comment": "「以後よく（1549）広まるキリスト教」と覚えましょう。",
-      "answerImg": "assets/images/history/h_early_modern_1_francis_xavier_1773666323655.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_francis_xavier_1773666323655.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "ポルトガル人やスペイン人との間で行われた貿易を何というか？",
-      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.jpg",
+      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.webp",
       "choices": [
         "南蛮貿易",
         "勘合貿易",
@@ -11716,12 +11716,12 @@ const QUIZ_DATA = {
       ],
       "a": "南蛮貿易",
       "comment": "鉄砲、火薬、時計、カステラ、ガラス製品などが輸入されました。",
-      "answerImg": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "キリスト教の信者となった大名を何というか？",
-      "img": "assets/images/history/h_early_modern_1_kirishitan_daimyo_1773020321046.jpg",
+      "img": "assets/images/history/h_early_modern_1_kirishitan_daimyo_1773020321046.webp",
       "choices": [
         "キリシタン大名",
         "守護大名",
@@ -11730,12 +11730,12 @@ const QUIZ_DATA = {
       ],
       "a": "キリシタン大名",
       "comment": "大友宗麟や有馬晴信、高山右近などが有名です。",
-      "answerImg": "assets/images/history/h_early_modern_1_kirishitan_daimyo_1773666361075.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_kirishitan_daimyo_1773666361075.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1582年、九州のキリシタン大名たちがローマ教皇のもとへ送った使節団は？",
-      "img": "assets/images/history/h_early_modern_1_tensho_embassy_1773020338207.jpg",
+      "img": "assets/images/history/h_early_modern_1_tensho_embassy_1773020338207.webp",
       "choices": [
         "天正遣欧少年使節",
         "岩倉使節団",
@@ -11744,12 +11744,12 @@ const QUIZ_DATA = {
       ],
       "a": "天正遣欧少年使節",
       "comment": "伊東マンショら4人の少年が派遣されました。",
-      "answerImg": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.jpg",
+      "answerImg": "assets/images/history/h_early_modern_1_tensho_kenoh_shonen_shisetsu_1773666379513.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "南蛮貿易で、日本から主に輸出された鉱物は？",
-      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.jpg",
+      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.webp",
       "choices": [
         "銀",
         "銅",
@@ -11763,7 +11763,7 @@ const QUIZ_DATA = {
   "h_early_modern_2": [
     {
       "q": "1560年、桶狭間の戦いで今川義元を破った戦国大名は？",
-      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.jpg",
+      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.webp",
       "choices": [
         "織田信長",
         "豊臣秀吉",
@@ -11774,8 +11774,8 @@ const QUIZ_DATA = {
       "comment": "少数の兵で大軍を破る奇襲作戦でした。"
     },
     {
-      "q": "織田信長が将軍・足利き義昭を追放し、滅ぼした幕府は？",
-      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.jpg",
+      "q": "織田信長が将軍・足利義昭を追放し、滅ぼした幕府は？",
+      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.webp",
       "choices": [
         "室町幕府",
         "鎌倉幕府",
@@ -11787,7 +11787,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "織田信長が鉄砲を有効に使い、武田勝頼の騎馬隊を破った戦いは？",
-      "img": "assets/images/history/h_early_modern_2_nagashino.jpg",
+      "img": "assets/images/history/h_early_modern_2_nagashino.webp",
       "choices": [
         "長篠の戦い",
         "桶狭間の戦い",
@@ -11799,7 +11799,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "織田信長が琵琶湖のほとりに築いた、豪華な城は？",
-      "img": "assets/images/history/h_early_modern_2_azuchijo.jpg",
+      "img": "assets/images/history/h_early_modern_2_azuchijo.webp",
       "choices": [
         "安土城",
         "大阪城",
@@ -11811,7 +11811,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "織田信長が行った、座を廃止して自由な商工業を認めた政策は？",
-      "img": "assets/images/history/h_early_modern_2_rakuichi_rakuza_1773020402162.jpg",
+      "img": "assets/images/history/h_early_modern_2_rakuichi_rakuza_1773020402162.webp",
       "choices": [
         "楽市・楽座",
         "検地",
@@ -11823,7 +11823,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "一向一揆の拠点であったが、信長に降伏し、後に大阪城が築かれた場所にあった寺は？",
-      "img": "assets/images/history/h_medieval_7_kaga_ikko_ikki_1772980540508.jpg",
+      "img": "assets/images/history/h_medieval_7_kaga_ikko_ikki_1772980540508.webp",
       "choices": [
         "石山本願寺",
         "延暦寺",
@@ -11835,7 +11835,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1582年、明智光秀に本能寺で襲われ、自害した出来事を何というか？",
-      "img": "assets/images/history/h_early_modern_2_honnouji.jpg",
+      "img": "assets/images/history/h_early_modern_2_honnouji.webp",
       "choices": [
         "本能寺の変",
         "桶狭間の戦い",
@@ -11847,7 +11847,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "明智光秀を山崎の戦いで破り、信長の後継者としての地位を固めた人物は？",
-      "img": "assets/images/history/h_early_modern_2_toyotomi_hideyoshi_1773020414593.jpg",
+      "img": "assets/images/history/h_early_modern_2_toyotomi_hideyoshi_1773020414593.webp",
       "choices": [
         "豊臣秀吉",
         "徳川家康",
@@ -11859,7 +11859,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "豊臣秀吉が、農民から武器を取り上げるために行った政策は？",
-      "img": "assets/images/history/h_early_modern_2_katanagari.jpg",
+      "img": "assets/images/history/h_early_modern_2_katanagari.webp",
       "choices": [
         "刀狩",
         "太閤検地",
@@ -11871,7 +11871,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "豊臣秀吉が、全国の土地の良し悪しや広さを調べ、収穫量を石高で表した政策は？",
-      "img": "assets/images/history/h_early_modern_2_taiko_kenchi_1773020441454.jpg",
+      "img": "assets/images/history/h_early_modern_2_taiko_kenchi_1773020441454.webp",
       "choices": [
         "太閤検地",
         "地租改正",
@@ -11883,7 +11883,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "太閤検地と刀狩により、武士と農民の身分がはっきりと分かれたことを何というか？",
-      "img": "assets/images/history/h_early_modern_2_heinobunri.jpg",
+      "img": "assets/images/history/h_early_modern_2_heinobunri.webp",
       "choices": [
         "兵農分離",
         "身分統制",
@@ -11895,7 +11895,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "豊臣秀吉が行った、朝鮮への出兵（侵略）を何というか？",
-      "img": "assets/images/history/h_early_modern_2_bunroku_keicho_1773020457634.jpg",
+      "img": "assets/images/history/h_early_modern_2_bunroku_keicho_1773020457634.webp",
       "choices": [
         "文禄・慶長の役",
         "白村江の戦い",
@@ -11907,7 +11907,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "織田信長や豊臣秀吉の頃の、大名や豪商の富を背景とした、豪華で雄大な文化を何というか？",
-      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.jpg",
+      "img": "assets/images/history/h_early_modern_2_oda_nobunaga_1773020370684.webp",
       "choices": [
         "桃山文化",
         "元禄文化",
@@ -11919,7 +11919,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "桃山文化を代表する建築物で、別名「白鷺城」とも呼ばれる世界遺産は？",
-      "img": "assets/images/history/h_early_modern_2_himejijo.jpg",
+      "img": "assets/images/history/h_early_modern_2_himejijo.webp",
       "choices": [
         "姫路城",
         "安土城",
@@ -11931,7 +11931,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「唐獅子図屏風」などを描いた、桃山文化を代表する画家は？",
-      "img": "assets/images/history/h_early_modern_2_kanoeitoku.jpg",
+      "img": "assets/images/history/h_early_modern_2_kanoeitoku.webp",
       "choices": [
         "狩野永徳",
         "雪舟",
@@ -11943,7 +11943,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「わび茶」を大成させ、茶道を精神的な文化に高めた人物は？",
-      "img": "assets/images/history/h_early_modern_2_sen_no_rikyu_1773020487799.jpg",
+      "img": "assets/images/history/h_early_modern_2_sen_no_rikyu_1773020487799.webp",
       "choices": [
         "千利休",
         "古田織部",
@@ -11955,7 +11955,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "出雲の阿国が京都で始め、後の歌舞伎の起源となった踊りは？",
-      "img": "assets/images/history/h_ancient_1_hands.png",
+      "img": "assets/images/history/h_early_modern_1_kabuki_odori.webp",
       "choices": [
         "かぶき踊り",
         "盆踊り",
@@ -11969,7 +11969,7 @@ const QUIZ_DATA = {
   "h_early_modern_3": [
     {
       "q": "1600年、徳川家康が石田三成らを破り、天下分け目の戦いと呼ばれた戦いは？",
-      "img": "assets/images/history/h_early_modern_2_nagashino.jpg",
+      "img": "assets/images/history/h_early_modern_2_nagashino.webp",
       "choices": [
         "関ヶ原の戦い",
         "大阪冬の陣",
@@ -11981,7 +11981,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "徳川家康が建てた、尾張・紀伊・水戸の3つの徳川家のことを何というか？",
-      "img": "assets/images/history/h_early_modern_3_gosanke.jpg",
+      "img": "assets/images/history/h_early_modern_3_gosanke.webp",
       "choices": [
         "御三家",
         "親藩",
@@ -11993,7 +11993,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "関ヶ原の戦い以前から徳川氏に従っていた大名を何というか？",
-      "img": "assets/images/history/h_medieval_4_shugo_daimyo.jpg",
+      "img": "assets/images/history/h_medieval_4_shugo_daimyo.webp",
       "choices": [
         "譜代大名",
         "親藩",
@@ -12005,7 +12005,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大名を1年ごとに江戸と領地を往復させ、妻子を江戸に住まわせた制度は？",
-      "img": "assets/images/history/h_early_modern_3_sankin_kotai.jpg",
+      "img": "assets/images/history/h_early_modern_3_sankin_kotai.webp",
       "choices": [
         "参勤交代",
         "武家諸法度",
@@ -12017,7 +12017,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "幕府が大名を統制するために定めた法律を何というか？",
-      "img": "assets/images/history/h_early_modern_3_buke_shohatto.jpg",
+      "img": "assets/images/history/h_early_modern_3_buke_shohatto.webp",
       "choices": [
         "武家諸法度",
         "禁中並公家諸法度",
@@ -12029,7 +12029,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1637年、九州でキリスト教徒への弾圧や重い税に苦しむ人々が起こした一揆は？",
-      "img": "assets/images/history/h_early_modern_3_shimabara_amakusa.jpg",
+      "img": "assets/images/history/h_early_modern_3_shimabara_amakusa.webp",
       "choices": [
         "島原・天草一揆",
         "土一揆",
@@ -12041,7 +12041,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "キリスト教徒を見つけ出すために、聖母マリアやイエスの像を踏ませた行為は？",
-      "img": "assets/images/history/h_early_modern_3_ebumi.jpg",
+      "img": "assets/images/history/h_early_modern_3_ebumi.webp",
       "choices": [
         "絵踏",
         "踏み絵",
@@ -12053,7 +12053,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "キリスト教徒でないことを仏教の寺院に証明させた制度を何というか？",
-      "img": "assets/images/history/h_early_modern_3_shumon.jpg",
+      "img": "assets/images/history/h_early_modern_3_shumon.webp",
       "choices": [
         "宗門改（寺請制度）",
         "五人組",
@@ -12065,7 +12065,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "鎖国中、長崎の出島で貿易を許された国は、中国（清）とどこか？",
-      "img": "assets/images/history/h_early_modern_3_oranda.jpg",
+      "img": "assets/images/history/h_early_modern_3_oranda.webp",
       "choices": [
         "オランダ",
         "ポルトガル",
@@ -12077,7 +12077,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「鎖国の四つの窓」のうち、対馬藩を通じて国交のあった国は？",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
+      "img": "assets/images/history/h_medieval_5_joseon.webp",
       "choices": [
         "朝鮮",
         "琉球王国",
@@ -12089,7 +12089,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「鎖国の四つの窓」のうち、薩摩藩（鹿児島県）が実質的に支配していたのは？",
-      "img": "assets/images/history/g_history_medieval_ryukyu_chukey_boueki.png",
+      "img": "assets/images/history/g_history_medieval_ryukyu_chukey_boueki.webp",
       "choices": [
         "琉球王国",
         "アイヌ民族",
@@ -12101,7 +12101,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "松前藩（北海道）が独自の支配権を認められ、交易を行っていた相手は？",
-      "img": "assets/images/history/h_medieval_5_ainu_1772980283499.jpg",
+      "img": "assets/images/history/h_medieval_5_ainu_1772980283499.webp",
       "choices": [
         "アイヌ民族",
         "ロシア",
@@ -12113,7 +12113,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸時代、朝鮮との外交を担当し、釜山に「倭館」を置いて貿易を行った藩は？",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
+      "img": "assets/images/history/h_medieval_5_joseon.webp",
       "choices": [
         "対馬藩（宗氏）",
         "松前藩（松前氏）",
@@ -12125,7 +12125,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "オランダ船が来航するたびに提出させた、海外の情勢を記した報告書は？",
-      "img": "assets/images/history/h_early_modern_3_oranda.jpg",
+      "img": "assets/images/history/h_early_modern_3_oranda.webp",
       "choices": [
         "オランダ風説書",
         "解体新書",
@@ -12137,7 +12137,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸時代の貨幣制度で、金・銀・銭の三種類の貨幣が使われたことを何というか？",
-      "img": "assets/images/history/h_early_modern_3_sanka.jpg",
+      "img": "assets/images/history/h_early_modern_3_sanka.webp",
       "choices": [
         "三貨制度",
         "金本位制",
@@ -12151,7 +12151,7 @@ const QUIZ_DATA = {
   "h_early_modern_4": [
     {
       "q": "江戸時代に発明された、脱穀（米の粒を茎から外す）ための農具は？",
-      "img": "assets/images/history/h_early_modern_4_senbakoki.jpg",
+      "img": "assets/images/history/h_early_modern_4_senbakoki.webp",
       "choices": [
         "千歯こき",
         "備中ぐわ",
@@ -12163,7 +12163,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "深く耕すことができるようになった、江戸時代に広まった耕作道具は？",
-      "img": "assets/images/history/h_early_modern_4_bitchuguwa.jpg",
+      "img": "assets/images/history/h_early_modern_4_bitchuguwa.webp",
       "choices": [
         "備中ぐわ",
         "千歯こき",
@@ -12175,7 +12175,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "商品として売るために栽培された、綿花・菜種・藍などの作物を何というか？",
-      "img": "assets/images/history/h_early_modern_4_cash_crops_1773374713255.jpg",
+      "img": "assets/images/history/h_early_modern_4_cash_crops_1773374713255.webp",
       "choices": [
         "商品作物",
         "工芸作物",
@@ -12187,7 +12187,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "犯罪の防止や年貢の納入において、共同責任を負わせるために作られた5～6軒のグループは？",
-      "img": "assets/images/history/h_early_modern_4_goningumi.jpg",
+      "img": "assets/images/history/h_early_modern_4_goningumi.webp",
       "choices": [
         "五人組",
         "株仲間",
@@ -12199,7 +12199,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸時代、大阪は全国の物資が集まる中心地として何と呼ばれたか？",
-      "img": "assets/images/history/h_early_modern_4_tenka_no_daidokoro.jpg",
+      "img": "assets/images/history/h_early_modern_4_tenka_no_daidokoro.webp",
       "choices": [
         "天下の台所",
         "将軍のおひざもと",
@@ -12211,7 +12211,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "上方（大阪・京都）を中心に栄えた、町人たちの活気あふれる文化を何というか？",
-      "img": "assets/images/history/h_early_modern_4_genroku_bunka.jpg",
+      "img": "assets/images/history/h_early_modern_4_genroku_bunka.webp",
       "choices": [
         "元禄文化",
         "化政文化",
@@ -12223,7 +12223,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「奥の細道」などで知られ、新しい俳諧の作風を確立した人物は？",
-      "img": "assets/images/history/h_early_modern_4_matsuo_basho.jpg",
+      "img": "assets/images/history/h_early_modern_4_matsuo_basho.webp",
       "choices": [
         "松尾芭蕉",
         "小林一茶",
@@ -12235,7 +12235,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「日本永代蔵」などの浮世草子で、町人の生活を描いた作家は？",
-      "img": "assets/images/history/h_early_modern_4_ihara_saikaku.jpg",
+      "img": "assets/images/history/h_early_modern_4_ihara_saikaku.webp",
       "choices": [
         "井原西鶴",
         "近松門左衛門",
@@ -12247,7 +12247,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "人形浄瑠璃の脚本を書き、心中物などで人気を博した人物は？",
-      "img": "assets/images/history/h_early_modern_4_chikamatsu.jpg",
+      "img": "assets/images/history/h_early_modern_4_chikamatsu.webp",
       "choices": [
         "近松門左衛門",
         "井原西鶴",
@@ -12259,7 +12259,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「見返り美人図」などで知られる、浮世絵の創始者とされる人物は？",
-      "img": "assets/images/history/h_early_modern_4_hishikawa.jpg",
+      "img": "assets/images/history/h_early_modern_4_hishikawa.webp",
       "choices": [
         "菱川師宣",
         "喜多川歌麿",
@@ -12271,7 +12271,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "華やかな装飾画である「紅白梅図屏風」や「燕子花図屏風」を描いた画家は？",
-      "img": "assets/images/history/h_early_modern_4_korin.jpg",
+      "img": "assets/images/history/h_early_modern_4_korin.webp",
       "choices": [
         "尾形光琳",
         "俵屋宗達",
@@ -12283,7 +12283,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸時代の農業技術で、イワシなどを干して作った販売用の肥料を何というか？",
-      "img": "assets/images/history/h_early_modern_4_hoshi_ka.jpg",
+      "img": "assets/images/history/h_early_modern_4_hoshi_ka.webp",
       "choices": [
         "干鰯（金肥）",
         "堆肥",
@@ -12295,7 +12295,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸時代、大阪と江戸の間で、木綿や油・酒などの生活物資を運んだ定期船は？",
-      "img": "assets/images/history/h_early_modern_4_higaki_kaisen.jpg",
+      "img": "assets/images/history/h_early_modern_4_higaki_kaisen.webp",
       "choices": [
         "菱垣廻船・樽廻船",
         "北前船",
@@ -12307,7 +12307,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "幕府の命令で、西回り航路や東回り航路を整備した商人は？",
-      "img": "assets/images/history/h_early_modern_4_kawamura_zuiken.jpg",
+      "img": "assets/images/history/h_early_modern_4_kawamura_zuiken.webp",
       "choices": [
         "河村瑞賢",
         "角倉了以",
@@ -12319,7 +12319,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸幕府の財政を支えた、世界最大級の産出量を誇った金山は？",
-      "img": "assets/images/history/h_early_modern_4_sado_kinzan.jpg",
+      "img": "assets/images/history/h_early_modern_4_sado_kinzan.webp",
       "choices": [
         "佐渡金山",
         "石見銀山",
@@ -12333,7 +12333,7 @@ const QUIZ_DATA = {
   "h_early_modern_5": [
     {
       "q": "8代将軍徳川吉宗が行った、質素倹約や新田開発を進めた改革は？",
-      "img": "assets/images/history/h_early_modern_5_kyoho_no_kaikaku.jpg",
+      "img": "assets/images/history/h_early_modern_5_kyoho_no_kaikaku.webp",
       "choices": [
         "享保の改革",
         "寛政の改革",
@@ -12345,7 +12345,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "徳川吉宗が、庶民の意見を聞くために設置したものは？",
-      "img": "assets/images/history/h_early_modern_5_meyasubako.jpg",
+      "img": "assets/images/history/h_early_modern_5_meyasubako.webp",
       "choices": [
         "目安箱",
         "評定衆",
@@ -12357,7 +12357,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "徳川吉宗が定めた、大名に米を献上させる代わりに参勤交代の期間を短くした制度は？",
-      "img": "assets/images/history/h_early_modern_5_agemai.jpg",
+      "img": "assets/images/history/h_early_modern_5_agemai.webp",
       "choices": [
         "上げ米の制",
         "武家諸法度",
@@ -12369,7 +12369,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "飢饉に備えて、徳川吉宗が青木昆陽に栽培を奨励させた作物は？",
-      "img": "assets/images/history/h_early_modern_5_satsumaimo.jpg",
+      "img": "assets/images/history/h_early_modern_5_satsumaimo.webp",
       "choices": [
         "サツマイモ（甘藷）",
         "ジャガイモ",
@@ -12381,7 +12381,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "株仲間の結成を認めて商業を奨励したが、賄賂が横行した老中は？",
-      "img": "assets/images/history/h_early_modern_5_tanuma_okitsugu.jpg",
+      "img": "assets/images/history/h_early_modern_5_tanuma_okitsugu.webp",
       "choices": [
         "田沼意次",
         "松平定信",
@@ -12393,7 +12393,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "田沼意次の後、老中となり、寛政の改革を行った人物は？",
-      "img": "assets/images/history/h_early_modern_5_matsudaira_sadanobu_1773374727486.jpg",
+      "img": "assets/images/history/h_early_modern_5_matsudaira_sadanobu_1773374727486.webp",
       "choices": [
         "松平定信",
         "水野忠邦",
@@ -12405,7 +12405,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "杉田玄白や前野良沢が、オランダ語の医学書を翻訳して出版した本は？",
-      "img": "assets/images/history/h_early_modern_5_kaitai.jpg",
+      "img": "assets/images/history/h_early_modern_5_kaitai.webp",
       "choices": [
         "解体新書",
         "蘭学事始",
@@ -12417,7 +12417,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "徳川吉宗が制定した、裁判の基準や刑罰を定めた法律は？",
-      "img": "assets/images/history/h_early_modern_5_kujikata.jpg",
+      "img": "assets/images/history/h_early_modern_5_kujikata.webp",
       "choices": [
         "公事方御定書",
         "武家諸法度",
@@ -12429,7 +12429,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "田沼意次の時代、長崎貿易で銅の代わりに輸出が奨励された、干しアワビやフカヒレなどの海産物を何というか？",
-      "img": "assets/images/history/h_early_modern_5_tawaramono_1773374740242.jpg",
+      "img": "assets/images/history/h_early_modern_5_tawaramono_1773374740242.webp",
       "choices": [
         "俵物",
         "唐物",
@@ -12441,7 +12441,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本古来の精神や文化を研究する「国学」を大成し、『古事記伝』を著した人物は？",
-      "img": "assets/images/history/h_early_modern_5_motoori_norinaga_1773374751912.jpg",
+      "img": "assets/images/history/h_early_modern_5_motoori_norinaga_1773374751912.webp",
       "choices": [
         "本居宣長",
         "新井白石",
@@ -12455,7 +12455,7 @@ const QUIZ_DATA = {
   "h_early_modern_6": [
     {
       "q": "19世紀初め、江戸の町人を中心に栄えた、皮肉や滑稽さを好む文化を何というか？",
-      "img": "assets/images/history/h_early_modern_6_kasei_culture_1773374764931.jpg",
+      "img": "assets/images/history/h_early_modern_6_kasei_culture_1773374764931.webp",
       "choices": [
         "化政文化",
         "元禄文化",
@@ -12467,7 +12467,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「富嶽三十六景」で知られる、化政文化を代表する浮世絵師は？",
-      "img": "assets/images/history/h_early_modern_6_hokusai.jpg",
+      "img": "assets/images/history/h_early_modern_6_hokusai.webp",
       "choices": [
         "葛飾北斎",
         "歌川広重",
@@ -12479,7 +12479,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「東海道五十三次」で知られる、風景画の名手である浮世絵師は？",
-      "img": "assets/images/history/h_early_modern_6_hiroshige.jpg",
+      "img": "assets/images/history/h_early_modern_6_hiroshige.webp",
       "choices": [
         "歌川広重",
         "葛飾北斎",
@@ -12491,7 +12491,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "滑稽本「東海道中膝栗毛」を書いた作家は？",
-      "img": "assets/images/history/h_early_modern_6_jippensha.jpg",
+      "img": "assets/images/history/h_early_modern_6_jippensha.webp",
       "choices": [
         "十返舎一九",
         "滝沢馬琴",
@@ -12503,7 +12503,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "読み・書き・そろばんを教える庶民の教育機関として普及したものは？",
-      "img": "assets/images/history/h_early_modern_6_terakoya.jpg",
+      "img": "assets/images/history/h_early_modern_6_terakoya.webp",
       "choices": [
         "寺子屋",
         "藩校",
@@ -12515,7 +12515,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "全国を測量して、精密な日本地図「大日本沿海輿地全図」を作った人物は？",
-      "img": "assets/images/history/h_ancient_3_yoshinogari.jpg",
+      "img": "assets/images/history/h_early_modern_ino_tadataka.webp",
       "choices": [
         "伊能忠敬",
         "間宮林蔵",
@@ -12527,7 +12527,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1825年、幕府が出した、外国船を見つけたら砲撃して追い払うよう命じた法令は？",
-      "img": "assets/images/history/h_early_modern_6_ikokusen_uchiharai_rei_1773374782638.jpg",
+      "img": "assets/images/history/h_early_modern_6_ikokusen_uchiharai_rei_1773374782638.webp",
       "choices": [
         "異国船打払令",
         "鎖国令",
@@ -12539,7 +12539,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1837年、大坂で不作と飢饉に苦しむ人々を救うため、幕府の元役人が起こした反乱は？",
-      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.jpg",
+      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.webp",
       "choices": [
         "大塩平八郎の乱",
         "島原の乱",
@@ -12551,7 +12551,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "幕府の鎖国政策を批判し、処罰された渡辺崋山や高野長英の事件を何というか？",
-      "img": "assets/images/history/h_early_modern_7_ansei_purge.jpg",
+      "img": "assets/images/history/h_early_modern_7_ansei_purge.webp",
       "choices": [
         "蛮社の獄",
         "安政の大獄",
@@ -12563,7 +12563,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "老中の水野忠邦が行った、株仲間の解散や人返し令などの改革は？",
-      "img": "assets/images/history/h_early_modern_6_tenpo_reforms_1773374844210.jpg",
+      "img": "assets/images/history/h_early_modern_6_tenpo_reforms_1773374844210.webp",
       "choices": [
         "天保の改革",
         "享保の改革",
@@ -12575,7 +12575,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1853年、浦賀（神奈川県）に来航し、日本に開国を迫ったアメリカの使節は？",
-      "img": "assets/images/history/h_early_modern_6_matthew_perry_1773374856428.jpg",
+      "img": "assets/images/history/h_early_modern_6_matthew_perry_1773374856428.webp",
       "choices": [
         "ペリー",
         "ハリス",
@@ -12587,7 +12587,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "化政文化の頃、多くの美人画（「ポッピンを吹く女」など）を描いた浮世絵師は？",
-      "img": "assets/images/history/h_early_modern_6_kitagawa.jpg",
+      "img": "assets/images/history/h_early_modern_6_kitagawa.webp",
       "choices": [
         "喜多川歌麿",
         "東洲斎写楽",
@@ -12599,7 +12599,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "わずか10ヶ月ほどの活動期間で、個性的な役者絵を数多く描いた謎の浮世絵師は？",
-      "img": "assets/images/history/h_early_modern_4_hishikawa.jpg",
+      "img": "assets/images/history/h_early_modern_4_hishikawa.webp",
       "choices": [
         "東洲斎写楽",
         "喜多川歌麿",
@@ -12611,7 +12611,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1837年、日本人漂流民を送り届けようとしたアメリカの商船を、幕府が砲撃して追い払った事件は？",
-      "img": "assets/images/history/h_early_modern_6_ikokusen_uchiharai_rei_1773374782638.jpg",
+      "img": "assets/images/history/h_early_modern_6_ikokusen_uchiharai_rei_1773374782638.webp",
       "choices": [
         "モリソン号事件",
         "フェートン号事件",
@@ -12623,7 +12623,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "モリソン号事件に対する幕府の対応を批判し、『慎機論』を書いて処罰された人物は？",
-      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.jpg",
+      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.webp",
       "choices": [
         "渡辺崋山",
         "高野長英",
@@ -12637,7 +12637,7 @@ const QUIZ_DATA = {
   "h_early_modern_7": [
     {
       "q": "1853年、浦賀（神奈川県）に来航し、日本に開国を迫ったアメリカの使節は？",
-      "img": "assets/images/history/h_early_modern_6_matthew_perry_1773374856428.jpg",
+      "img": "assets/images/history/h_early_modern_6_matthew_perry_1773374856428.webp",
       "choices": [
         "ペリー",
         "ハリス",
@@ -12649,7 +12649,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1854年、ペリーの再来航により結ばれ、日本が下田と函館を開港した条約は？",
-      "img": "assets/images/history/h_early_modern_7_kanagawa_treaty.jpg",
+      "img": "assets/images/history/h_early_modern_7_kanagawa_treaty.webp",
       "choices": [
         "日米和親条約",
         "日米修好通商条約",
@@ -12661,7 +12661,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1858年、大老の井伊直弼が朝廷の許可を得ずに結んだ、貿易に関する条約は？",
-      "img": "assets/images/history/h_early_modern_7_harris_treaty.jpg",
+      "img": "assets/images/history/h_early_modern_7_harris_treaty.webp",
       "choices": [
         "日米修好通商条約",
         "日米和親条約",
@@ -12673,7 +12673,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日米修好通商条約などの不平等条約で、日本に認められていなかった権利は？",
-      "img": "assets/images/history/h_early_modern_7_tariff_autonomy.jpg",
+      "img": "assets/images/history/h_early_modern_7_tariff_autonomy.webp",
       "choices": [
         "関税自主権",
         "領事裁判権",
@@ -12685,7 +12685,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "幕府の政策を批判した吉田松陰などの尊王攘夷派の人物が、多数処罰された事件は？",
-      "img": "assets/images/history/h_early_modern_5_kansei_strict.png",
+      "img": "assets/images/history/h_early_modern_5_kansei_strict.webp",
       "choices": [
         "安政の大獄",
         "蛮社の獄",
@@ -12697,7 +12697,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1860年、安政の大獄に反発した水戸藩などの元藩士らが、大老・井伊直弼を暗殺した事件は？",
-      "img": "assets/images/history/h_early_modern_7_sakuradamon.jpg",
+      "img": "assets/images/history/h_early_modern_7_sakuradamon.webp",
       "choices": [
         "桜田門外の変",
         "池田屋事件",
@@ -12709,7 +12709,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "天皇を尊ぶ「尊王」と、外国勢力を打ち払う「攘夷」が結びついた幕末の運動は？",
-      "img": "assets/images/history/h_early_modern_7_sonno_joi.jpg",
+      "img": "assets/images/history/h_early_modern_7_sonno_joi.webp",
       "choices": [
         "尊王攘夷運動",
         "自由民権運動",
@@ -12721,7 +12721,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1866年、対立していた薩摩藩と長州藩が、倒幕のために結んだ軍事同盟は？",
-      "img": "assets/images/history/h_early_modern_7_satcho_alliance.jpg",
+      "img": "assets/images/history/h_early_modern_7_satcho_alliance.webp",
       "choices": [
         "薩長同盟",
         "日英同盟",
@@ -12733,7 +12733,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "薩長同盟の仲立ちを行い、海援隊を組織した土佐藩出身の人物は？",
-      "img": "assets/images/history/h_early_modern_7_sakamoto_ryoma.jpg",
+      "img": "assets/images/history/h_early_modern_7_sakamoto_ryoma.webp",
       "choices": [
         "坂本龍馬",
         "西郷隆盛",
@@ -12745,7 +12745,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1867年、民衆が「天からお札が降ってきた」と騒ぎ、世直しを求めて踊り狂った騒動は？",
-      "img": "assets/images/history/h_modern_5_kome_sodo_1773666475858.jpg",
+      "img": "assets/images/history/h_modern_5_kome_sodo_1773666475858.webp",
       "choices": [
         "ええじゃないか",
         "打ちこわし",
@@ -12757,7 +12757,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1867年に大政奉還を行い、政権を朝廷に返した江戸幕府の第15代（最後）の将軍は？",
-      "img": "assets/images/history/h_early_modern_7_tokugawa_yoshinobu.jpg",
+      "img": "assets/images/history/h_early_modern_7_tokugawa_yoshinobu.webp",
       "choices": [
         "徳川慶喜",
         "徳川家康",
@@ -12769,7 +12769,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "15代将軍徳川慶喜が、政権を朝廷に返した出来事を何というか？",
-      "img": "assets/images/history/h_early_modern_7_taisei_hokan.jpg",
+      "img": "assets/images/history/h_early_modern_7_taisei_hokan.webp",
       "choices": [
         "大政奉還",
         "版籍奉還",
@@ -12781,7 +12781,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大政奉還の直後、幕府を廃止して天皇中心の新しい政府を作ることを宣言したものは？",
-      "img": "assets/images/history/h_early_modern_7_osei_fukko.jpg",
+      "img": "assets/images/history/h_early_modern_7_osei_fukko.webp",
       "choices": [
         "王政復古の大号令",
         "五箇条の御誓文",
@@ -12793,7 +12793,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "王政復古の大号令を中心となって進めた公家で、明治時代には欧米使節団の大使にもなったのは？",
-      "img": "assets/images/history/h_early_modern_7_osei_fukko.jpg",
+      "img": "assets/images/history/h_early_modern_7_osei_fukko.webp",
       "choices": [
         "岩倉具視",
         "三条実美",
@@ -12805,7 +12805,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1868年、鳥羽・伏見の戦いから始まり、翌年まで続いた新政府軍と旧幕府軍との内戦は？",
-      "img": "assets/images/history/h_early_modern_7_boshin_war.jpg",
+      "img": "assets/images/history/h_early_modern_7_boshin_war.webp",
       "choices": [
         "戊辰戦争",
         "西南戦争",
@@ -12817,7 +12817,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "絶対王政を倒し、市民が基本的人権や政治参加の権利を獲得した革命を総称して何というか？",
-      "img": "assets/images/history/h_early_modern_7_industrial_revolution.jpg",
+      "img": "assets/images/history/h_early_modern_7_industrial_revolution.webp",
       "choices": [
         "市民革命",
         "産業革命",
@@ -12829,7 +12829,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "17世紀中頃、クロムウェルを指導者としてイギリスで起こり、共和政がしかれた革命は？",
-      "img": "assets/images/history/h_early_modern_7_puritan_revolution.jpg",
+      "img": "assets/images/history/h_early_modern_7_puritan_revolution.webp",
       "choices": [
         "ピューリタン革命",
         "名誉革命",
@@ -12841,7 +12841,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "17世紀後半、流血なしに王を追放し「権利の章典」が出されたイギリスの革命は？",
-      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
+      "img": "assets/images/history/h_early_modern_7_glorious_revolution.webp",
       "choices": [
         "名誉革命",
         "ピューリタン革命",
@@ -12853,7 +12853,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "18世紀後半、イギリスの植民地だった北アメリカが独立を求めて起こした戦争は？",
-      "img": "assets/images/history/h_early_modern_7_american_independence.jpg",
+      "img": "assets/images/history/h_early_modern_7_american_independence.webp",
       "choices": [
         "アメリカ独立戦争",
         "南北戦争",
@@ -12865,7 +12865,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1789年、「人権宣言」を発表し、王政を倒して共和政を樹立した革命は？",
-      "img": "assets/images/history/h_early_modern_7_french_revolution.jpg",
+      "img": "assets/images/history/h_early_modern_7_french_revolution.webp",
       "choices": [
         "フランス革命",
         "名誉革命",
@@ -12877,7 +12877,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "フランス革命後の混乱を収め、皇帝となってヨーロッパの大半を支配した軍人は？",
-      "img": "assets/images/history/h_early_modern_7_french_revolution.jpg",
+      "img": "assets/images/history/h_modern_napoleon_bonaparte.webp",
       "choices": [
         "ナポレオン",
         "クロムウェル",
@@ -12889,7 +12889,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "18世紀後半のイギリスで始まった、機械の発明による生産力の飛躍的な向上と社会の変化は？",
-      "img": "assets/images/history/h_early_modern_7_industrial_revolution.jpg",
+      "img": "assets/images/history/h_early_modern_7_industrial_revolution.webp",
       "choices": [
         "産業革命",
         "市民革命",
@@ -12901,7 +12901,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "産業革命によって確立した、資本家が労働者を雇って利益を追求する経済の仕組みは？",
-      "img": "assets/images/history/h_early_modern_7_capitalism.jpg",
+      "img": "assets/images/history/h_early_modern_7_capitalism.webp",
       "choices": [
         "資本主義",
         "社会主義",
@@ -12913,7 +12913,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "18世紀以降、イギリス・アフリカ・アメリカ（西インド諸島）などの3地域間で行われた貿易は？",
-      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.jpg",
+      "img": "assets/images/history/h_early_modern_1_nanban_boeki_1773666346105.webp",
       "choices": [
         "三角貿易",
         "日宋貿易",
@@ -12925,7 +12925,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1840年、イギリスと清（中国）の間で起こった戦争で、清が敗れて香港を割譲することになったのは？",
-      "img": "assets/images/history/h_early_modern_7_opium_war.jpg",
+      "img": "assets/images/history/h_early_modern_7_opium_war.webp",
       "choices": [
         "アヘン戦争",
         "アロー戦争",
@@ -12939,7 +12939,7 @@ const QUIZ_DATA = {
   "h_modern_1": [
     {
       "q": "1868年、天皇中心の新しい政府を作るために定められた、政治の基本方針は？",
-      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
+      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.webp",
       "choices": [
         "五箇条の御誓文",
         "十七条の憲法",
@@ -12952,7 +12952,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "五箇条の御誓文の翌日、民衆に対して出された立て札（掲示）を何というか？",
-      "img": "assets/images/history/h_ancient_1_christianity.jpg",
+      "img": "assets/images/history/h_modern_gobo_no_keiji.webp",
       "choices": [
         "五榜の掲示",
         "御触書",
@@ -12964,7 +12964,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1869年、大名から土地（版）と人民（籍）を天皇に返させた改革は？",
-      "img": "assets/images/history/h_modern_1_hanseki_1773341740509.jpg",
+      "img": "assets/images/history/h_modern_1_hanseki_1773341740509.webp",
       "choices": [
         "版籍奉還",
         "廃藩置県",
@@ -12976,7 +12976,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1871年、政府が藩を廃止して県を置き、中央から役人を派遣して治めさせた改革は？",
-      "img": "assets/images/history/h_modern_1_haihan_1773341754956.jpg",
+      "img": "assets/images/history/h_modern_1_haihan_1773341754956.webp",
       "choices": [
         "廃藩置県",
         "版籍奉還",
@@ -12988,7 +12988,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「四民平等」のスローガンのもと、江戸時代の身分制度を廃止し、皇族以外のすべての人に名乗ることを許したのは？",
-      "img": "assets/images/history/h_modern_1_myouji_1773341771906.jpg",
+      "img": "assets/images/history/h_modern_1_myouji_1773341771906.webp",
       "choices": [
         "苗字（名字）",
         "家紋",
@@ -13000,7 +13000,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "満20歳以上の男子に兵役の義務を負わせた法令は？",
-      "img": "assets/images/history/h_modern_1_chouhei_1773341786255.jpg",
+      "img": "assets/images/history/h_modern_1_chouhei_1773341786255.webp",
       "choices": [
         "徴兵令",
         "地租改正",
@@ -13012,7 +13012,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "土地の所有者に地券を発行し、地価の3%を現金で納めさせた改革は？",
-      "img": "assets/images/history/h_modern_1_chiso_1773341819391.jpg",
+      "img": "assets/images/history/h_modern_1_chiso_1773341819391.webp",
       "choices": [
         "地租改正",
         "検地",
@@ -13024,7 +13024,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1872年に出され、満6歳以上の男女すべてに小学校教育を受けさせることにした法令は？",
-      "img": "assets/images/history/h_modern_1_gakusei_1773341836478.jpg",
+      "img": "assets/images/history/h_modern_1_gakusei_1773341836478.webp",
       "choices": [
         "学制",
         "教育勅語",
@@ -13036,7 +13036,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "江戸と横浜の間に初めて開通し、「陸蒸気（おかじょうき）」と呼ばれた交通機関は？",
-      "img": "assets/images/history/h_modern_1_tetsudou_1773341856691.jpg",
+      "img": "assets/images/history/h_modern_1_tetsudou_1773341856691.webp",
       "choices": [
         "鉄道",
         "馬車鉄道",
@@ -13048,7 +13048,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "飛脚にかわって全国均一料金で手紙を届ける「郵便制度」を創設した人物は？",
-      "img": "assets/images/history/h_ancient_1_hands.png",
+      "img": "assets/images/history/h_modern_postal_system.webp",
       "choices": [
         "前島密",
         "渋沢栄一",
@@ -13060,7 +13060,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "不平等条約の改正交渉などのため、岩倉具視を全権大使として欧米に派遣された使節団は？",
-      "img": "assets/images/history/h_early_modern_7_iwakura_tomomi.jpg",
+      "img": "assets/images/history/h_early_modern_7_iwakura_tomomi.webp",
       "choices": [
         "岩倉使節団",
         "遣欧少年使節",
@@ -13072,7 +13072,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "岩倉使節団に最年少（6歳）で参加し、後に女子英学塾（現在の津田塾大学）を創設した女性は？",
-      "img": "assets/images/history/h_early_modern_7_iwakura_tomomi.jpg",
+      "img": "assets/images/history/h_modern_tsuda_umeko.webp",
       "choices": [
         "津田梅子",
         "樋口一葉",
@@ -13084,7 +13084,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "当時のスローガンで、経済を発展させて軍隊を強くすることを何というか？",
-      "img": "assets/images/history/h_modern_1_fukoku_1773341886843.jpg",
+      "img": "assets/images/history/h_modern_1_fukoku_1773341886843.webp",
       "choices": [
         "富国強兵",
         "殖産興業",
@@ -13096,7 +13096,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "西洋の文化が入り、人々の生活が変化したこと（ざんぎり頭や牛鍋、太陽暦の採用など）を何というか？",
-      "img": "assets/images/history/h_modern_1_bunmei_1773341920113.jpg",
+      "img": "assets/images/history/h_modern_1_bunmei_1773341920113.webp",
       "choices": [
         "文明開化",
         "産業革命",
@@ -13108,7 +13108,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1874年、征韓論を主張して政府を去った江藤新平らが佐賀県で起こした反乱は？",
-      "img": "assets/images/history/h_medieval_2_kamikaze.jpg",
+      "img": "assets/images/history/h_medieval_2_kamikaze.webp",
       "choices": [
         "佐賀の乱",
         "西南戦争",
@@ -13120,7 +13120,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1877年、西郷隆盛を指導者として鹿児島の士族が起こした、最大かつ最後の士族の反乱は？",
-      "img": "assets/images/history/h_modern_1_seinan_1773341961438.jpg",
+      "img": "assets/images/history/h_modern_1_seinan_1773341961438.webp",
       "choices": [
         "西南戦争",
         "佐賀の乱",
@@ -13134,7 +13134,7 @@ const QUIZ_DATA = {
   "h_modern_2": [
     {
       "q": "1874年、板垣退助らが政府に対して提出した、国民が選んだ議員による議会の開設を求めた意見書は？",
-      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.jpg",
+      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.webp",
       "choices": [
         "民撰議院設立建白書",
         "五箇条の御誓文",
@@ -13146,7 +13146,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "征韓論に敗れて政府を去り、高知で立志社を作って自由民権運動を始めた人物は？",
-      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.jpg",
+      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.webp",
       "choices": [
         "板垣退助",
         "西郷隆盛",
@@ -13159,7 +13159,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "自由民権運動の理論的指導者で、「東洋のルソー」と呼ばれた人物は？",
-      "img": "assets/images/history/h_modern_nakae_chomin.png",
+      "img": "assets/images/history/h_modern_nakae_chomin.webp",
       "choices": [
         "中江兆民",
         "植木枝盛",
@@ -13171,7 +13171,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "民間の人々が独自に作成した憲法の草案を何というか？（植木枝盛の「東洋大日本国国憲按」などが有名）",
-      "img": "assets/images/history/h_modern_shigi_kenpo.png",
+      "img": "assets/images/history/h_modern_shigi_kenpo.webp",
       "choices": [
         "私擬憲法",
         "欽定憲法",
@@ -13183,7 +13183,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1881年、政府が10年後の国会開設を約束した際に、それに向けて組織された板垣退助を党首とする政党は？",
-      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.jpg",
+      "img": "assets/images/history/h_itagaki_taisuke_1773375469902.webp",
       "choices": [
         "自由党",
         "立憲改進党",
@@ -13195,7 +13195,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "政府が、新聞や演説などで政府を批判することを厳しく取り締まった法律は？",
-      "img": "assets/images/history/h_modern_zanbouritsu.png",
+      "img": "assets/images/history/h_modern_zanbouritsu.webp",
       "choices": [
         "新聞紙条例・讒謗律（ざんぼうりつ）",
         "治安維持法",
@@ -13207,7 +13207,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1884年、埼玉県で困窮した農民たちが起こした、自由民権運動の激化を示す事件は？",
-      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.jpg",
+      "img": "assets/images/history/h_early_modern_6_oshio_heihachiro_1773374798503.webp",
       "choices": [
         "秩父事件",
         "米騒動",
@@ -13219,7 +13219,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ヨーロッパの憲法を調査し、初代内閣総理大臣となった人物は？",
-      "img": "assets/images/history/h_modern_2_itou_1773342283856.jpg",
+      "img": "assets/images/history/h_modern_2_itou_1773342283856.webp",
       "choices": [
         "伊藤博文",
         "板垣退助",
@@ -13231,7 +13231,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1885年に内閣制度が作られた際、初代の外務大臣に就任したのは？（「鹿鳴館」で有名）",
-      "img": "assets/images/history/h_modern_3_mutsu_1773342472302.jpg",
+      "img": "assets/images/history/h_modern_3_mutsu_1773342472302.webp",
       "choices": [
         "井上馨",
         "陸奥宗光",
@@ -13243,7 +13243,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1889年に発布された、天皇が国民に与える形（欽定憲法）で制定された憲法は？",
-      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.webp",
       "choices": [
         "大日本帝国憲法",
         "日本国憲法",
@@ -13255,7 +13255,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大日本帝国憲法において、国民（臣民）の権利はどのように規定されていたか？",
-      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
+      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.webp",
       "choices": [
         "法律の範囲内で認められた",
         "無制限に認められた",
@@ -13268,7 +13268,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1890年に教育の基本理念として出され、天皇への忠義や親孝行を説いたものは？",
-      "img": "assets/images/history/h_contemporary_1_kyouiku_1773343259399.jpg",
+      "img": "assets/images/history/h_contemporary_1_kyouiku_1773343259399.webp",
       "choices": [
         "教育勅語",
         "軍人勅諭",
@@ -13280,7 +13280,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1890年に開かれた、日本初の議会を何というか？",
-      "img": "assets/images/history/h_medieval_2_mongolteikoku_1772802716926.jpg",
+      "img": "assets/images/history/h_modern_imperial_diet.webp",
       "choices": [
         "帝国議会",
         "国会",
@@ -13300,14 +13300,14 @@ const QUIZ_DATA = {
       ],
       "a": "直接国税15円以上を納める満25歳以上の男子",
       "comment": "国民のわずか1.1%に過ぎませんでした。",
-      "answerImg": "assets/images/history/h_modern_2_first_election_1773666394178.jpg",
+      "answerImg": "assets/images/history/h_modern_2_first_election_1773666394178.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "h_modern_3": [
     {
       "q": "1886年、イギリス船が沈没した際に、日本人乗客が見殺しにされた事件は？",
-      "img": "assets/images/history/h_modern_3_normanton_incident_1773374920117.jpg",
+      "img": "assets/images/history/h_modern_3_normanton_incident_1773374920117.webp",
       "choices": [
         "ノルマントン号事件",
         "生麦事件",
@@ -13320,7 +13320,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日清戦争の直前、イギリスとの間で治外法権（領事裁判権）の撤廃に成功した外務大臣は？",
-      "img": "assets/images/history/h_modern_3_mutsu_1773342472302.jpg",
+      "img": "assets/images/history/h_modern_3_mutsu_1773342472302.webp",
       "choices": [
         "陸奥宗光",
         "小村寿太郎",
@@ -13332,7 +13332,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1894年に朝鮮半島での反乱（甲午農民戦争）をきっかけに始まった、日本と清（中国）の戦争は？",
-      "img": "assets/images/history/h_modern_3_nisshin_1773342487674.jpg",
+      "img": "assets/images/history/h_modern_3_nisshin_1773342487674.webp",
       "choices": [
         "日清戦争",
         "日露戦争",
@@ -13344,7 +13344,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "下関条約・ポーツマス条約での、中国側の代表（全権）は？",
-      "img": "assets/images/history/h_modern_2_itou_1773342283856.jpg",
+      "img": "assets/images/history/h_modern_2_itou_1773342283856.webp",
       "choices": [
         "李鴻章",
         "蔣介石",
@@ -13356,7 +13356,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "下関条約で日本が得た領土は、台湾とどこか？",
-      "img": "assets/images/history/h_modern_3_sangoku_1773342541270.jpg",
+      "img": "assets/images/history/h_modern_3_sangoku_1773342541270.webp",
       "choices": [
         "遼東半島",
         "朝鮮半島",
@@ -13368,7 +13368,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "下関条約で日本が遼東半島を得たことに対し、ロシア・ドイツ・フランスが返還を要求した出来事は？",
-      "img": "assets/images/history/h_modern_3_sangoku_1773342541270.jpg",
+      "img": "assets/images/history/h_modern_3_sangoku_1773342541270.webp",
       "choices": [
         "三国干渉",
         "三国同盟",
@@ -13380,7 +13380,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "下関条約で日本が得た賠償金をもとに、金本位制を確立し、建設した官営工場は？",
-      "img": "assets/images/history/h_modern_3_yawata.jpg",
+      "img": "assets/images/history/h_modern_3_yawata.webp",
       "choices": [
         "八幡製鉄所",
         "富岡製糸場",
@@ -13392,7 +13392,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1900年、清（中国）で起こった、外国勢力を追い出そうとする「扶清滅洋」を掲げた反乱は？",
-      "img": "assets/images/history/h_modern_3_giwadan_1773342569899.jpg",
+      "img": "assets/images/history/h_modern_3_giwadan_1773342569899.webp",
       "choices": [
         "義和団事件",
         "辛亥革命",
@@ -13404,7 +13404,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1902年、ロシアの南下に対抗するために日本がイギリスと結んだ同盟は？",
-      "img": "assets/images/history/h_modern_3_nichiei_1773342589376.jpg",
+      "img": "assets/images/history/h_modern_3_nichiei_1773342589376.webp",
       "choices": [
         "日英同盟",
         "日独伊三国同盟",
@@ -13416,7 +13416,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日露戦争の開戦に際し、「君死にたまふことなかれ」という詩を発表した歌人は？",
-      "img": "assets/images/history/h_modern_3_yosano_1773342605390.jpg",
+      "img": "assets/images/history/h_modern_3_yosano_1773342605390.webp",
       "choices": [
         "与謝野晶子",
         "樋口一葉",
@@ -13428,7 +13428,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1904年に始まった、日本とロシアとの戦争は？",
-      "img": "assets/images/history/h_modern_3_nichiro_1773342626453.jpg",
+      "img": "assets/images/history/h_modern_3_nichiro_1773342626453.webp",
       "choices": [
         "日露戦争",
         "日清戦争",
@@ -13440,7 +13440,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日露戦争の講和条約（ポーツマス条約）を仲介したアメリカ大統領は？",
-      "img": "assets/images/history/h_modern_3_nichiro_1773342626453.jpg",
+      "img": "assets/images/history/h_modern_theodore_roosevelt.webp",
       "choices": [
         "セオドア・ルーズベルト",
         "ウィルソン",
@@ -13452,7 +13452,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ポーツマス条約で、日本が得た領土は？",
-      "img": "assets/images/history/h_modern_3_karafuto_1773342680820.jpg",
+      "img": "assets/images/history/h_modern_3_karafuto_1773342680820.webp",
       "choices": [
         "樺太（サハリン）の南半分",
         "台湾",
@@ -13464,7 +13464,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日露戦争後、賠償金が得られなかったことに不満を持つ人々が起こした暴動事件は？",
-      "img": "assets/images/history/h_modern_3_hibiya_1773342694787.jpg",
+      "img": "assets/images/history/h_modern_3_hibiya_1773342694787.webp",
       "choices": [
         "日比谷焼き打ち事件",
         "米騒動",
@@ -13476,7 +13476,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1910年、日本が朝鮮半島を完全に領土とした出来事を何というか？",
-      "img": "assets/images/history/h_modern_3_kankoku_1773342710567.jpg",
+      "img": "assets/images/history/h_modern_3_kankoku_1773342710567.webp",
       "choices": [
         "韓国併合",
         "満州事変",
@@ -13488,7 +13488,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日露戦争後の1911年、関税自主権の回復（完全な条約改正）に成功した外務大臣は？",
-      "img": "assets/images/history/h_modern_3_komura_1773342724188.jpg",
+      "img": "assets/images/history/h_modern_3_komura_1773342724188.webp",
       "choices": [
         "小村寿太郎",
         "陸奥宗光",
@@ -13502,7 +13502,7 @@ const QUIZ_DATA = {
   "h_modern_4": [
     {
       "q": "日清戦争の頃に軽工業（製糸・紡績）が、日露戦争の頃に重工業が発展したことを何というか？",
-      "img": "assets/images/history/h_early_modern_7_industrial_revolution.jpg",
+      "img": "assets/images/history/h_early_modern_7_industrial_revolution.webp",
       "choices": [
         "日本の産業革命",
         "文明開化",
@@ -13515,7 +13515,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "経済を支配するようになった、三井・三菱・住友・安田などの巨大な企業グループを何というか？",
-      "img": "assets/images/history/h_modern_4_zaibatsu_new.jpg",
+      "img": "assets/images/history/h_modern_4_zaibatsu_new.webp",
       "choices": [
         "財閥",
         "カルテル",
@@ -13527,7 +13527,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日清戦争の賠償金の一部を使って、北九州に建設された官営の製鉄所は？",
-      "img": "assets/images/history/h_modern_3_yawata.jpg",
+      "img": "assets/images/history/h_modern_3_yawata.webp",
       "choices": [
         "八幡製鉄所",
         "富岡製糸場",
@@ -13539,7 +13539,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "足尾銅山鉱毒事件の実態を訴え、天皇への直訴を試みるなど、生涯をかけて解決に取り組んだ人物は？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
+      "img": "assets/images/history/h_modern_tanaka_shozo.webp",
       "choices": [
         "田中正造",
         "板垣退助",
@@ -13551,7 +13551,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "コッホに学び、破傷風の治療法を発見したり、伝染病研究所を作った医学者は？",
-      "img": "assets/images/history/h_modern_4_kitasato_new.jpg",
+      "img": "assets/images/history/h_modern_4_kitasato_new.webp",
       "choices": [
         "北里柴三郎",
         "野口英世",
@@ -13563,7 +13563,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "黄熱病の研究で世界的に知られ、アフリカで亡くなった細菌学者は？",
-      "img": "assets/images/history/h_modern_4_noguchi_new.jpg",
+      "img": "assets/images/history/h_modern_4_noguchi_new.webp",
       "choices": [
         "野口英世",
         "北里柴三郎",
@@ -13575,7 +13575,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「学問のすゝめ」を書き、慶應義塾を創設した人物は？",
-      "img": "assets/images/history/h_modern_4_fukuzawa.jpg",
+      "img": "assets/images/history/h_modern_4_fukuzawa.webp",
       "choices": [
         "福沢諭吉",
         "大隈重信",
@@ -13587,7 +13587,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "言文一致体で「浮雲」を書いた、近代日本文学の先駆けとされる作家は？",
-      "img": "assets/images/history/h_modern_4_futabatei_new.jpg",
+      "img": "assets/images/history/h_modern_4_futabatei_new.webp",
       "choices": [
         "二葉亭四迷",
         "坪内逍遥",
@@ -13599,7 +13599,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「吾輩は猫である」「坊っちゃん」などの小説を書いた文豪は？",
-      "img": "assets/images/history/h_modern_4_natsume.jpg",
+      "img": "assets/images/history/h_modern_4_natsume.webp",
       "choices": [
         "夏目漱石",
         "森鴎外",
@@ -13619,12 +13619,12 @@ const QUIZ_DATA = {
       ],
       "a": "森鴎外",
       "comment": "ドイツ留学の経験をもとに書かれました。",
-      "answerImg": "assets/images/history/h_modern_4_mori_ogai_1773666408133.jpg",
+      "answerImg": "assets/images/history/h_modern_4_mori_ogai_1773666408133.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "「たけくらべ」などで知られる、明治時代の女性作家は？",
-      "img": "assets/images/history/h_modern_3_yosano_1773342605390.jpg",
+      "img": "assets/images/history/h_modern_higuchi_ichiyo.webp",
       "choices": [
         "樋口一葉",
         "与謝野晶子",
@@ -13636,7 +13636,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「一握の砂」などの歌集を出し、「はたらけどはたらけど…」の歌で知られる人物は？",
-      "img": "assets/images/history/h_modern_4_ishikawa_new.jpg",
+      "img": "assets/images/history/h_modern_4_ishikawa_new.webp",
       "choices": [
         "石川啄木",
         "正岡子規",
@@ -13648,7 +13648,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「柿くへば鐘が鳴るなり法隆寺」など、俳句や短歌の改革を行った人物は？",
-      "img": "assets/images/history/h_ancient_5_horyuji.jpg",
+      "img": "assets/images/history/h_modern_masaoka_shiki.webp",
       "choices": [
         "正岡子規",
         "松尾芭蕉",
@@ -13660,7 +13660,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "フェノロサの指導を受け、伝統的な日本画の復興に尽力した人物は？",
-      "img": "assets/images/history/h_modern_4_okakura_new.jpg",
+      "img": "assets/images/history/h_modern_4_okakura_new.webp",
       "choices": [
         "岡倉天心",
         "黒田清輝",
@@ -13680,12 +13680,12 @@ const QUIZ_DATA = {
       ],
       "a": "黒田清輝",
       "comment": "白馬会を結成し、日本に洋画を広めました。",
-      "answerImg": "assets/images/history/h_modern_4_kuroda_seiki_1773666459276.jpg",
+      "answerImg": "assets/images/history/h_modern_4_kuroda_seiki_1773666459276.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "「荒城の月」や「花」を作曲したが、23歳の若さで亡くなった作曲家は？",
-      "img": "assets/images/history/h_modern_4_taki.jpg",
+      "img": "assets/images/history/h_modern_4_taki.webp",
       "choices": [
         "滝廉太郎",
         "山田耕筰",
@@ -13697,7 +13697,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "原子の模型（土星型原子模型）を発表したが、当時は評価されなかった物理学者は？",
-      "img": "assets/images/history/h_modern_4_nagaoka_new.jpg",
+      "img": "assets/images/history/h_modern_4_nagaoka_new.webp",
       "choices": [
         "長岡半太郎",
         "湯川秀樹",
@@ -13709,7 +13709,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地球の緯度が変化することを発見し、「Z項」と名付けた天文学者は？",
-      "img": "assets/images/history/h_modern_4_kimura_new.jpg",
+      "img": "assets/images/history/h_modern_4_kimura_new.webp",
       "choices": [
         "木村栄",
         "長岡半太郎",
@@ -13721,7 +13721,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "米ぬかからオリザニン（ビタミンB1）を発見し、脚気の予防に貢献した人物は？",
-      "img": "assets/images/history/h_modern_4_umetaro_suzuki_1773374964572.jpg",
+      "img": "assets/images/history/h_modern_4_umetaro_suzuki_1773374964572.webp",
       "choices": [
         "鈴木梅太郎",
         "高峰譲吉",
@@ -13734,7 +13734,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "アドレナリンやタカジアスターゼを発見した化学者は？",
-      "img": "assets/images/history/h_modern_4_takamine_1773342804382.jpg",
+      "img": "assets/images/history/h_modern_4_takamine_1773342804382.webp",
       "choices": [
         "高峰譲吉",
         "鈴木梅太郎",
@@ -13746,7 +13746,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "伝統的な木彫技術に西洋の写実性を取り入れ、「老猿」などの傑作を残した彫刻家は？",
-      "img": "assets/images/history/h_modern_4_takamura_1773342825062.jpg",
+      "img": "assets/images/history/h_modern_4_takamura_1773342825062.webp",
       "choices": [
         "高村光雲",
         "荻原守衛",
@@ -13758,7 +13758,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「悲母観音」を描き、岡倉天心とともに日本画の改革に努めた画家は？",
-      "img": "assets/images/history/h_kano_hogai_1773375547428.jpg",
+      "img": "assets/images/history/h_kano_hogai_1773375547428.webp",
       "choices": [
         "狩野芳崖",
         "橋本雅邦",
@@ -13771,7 +13771,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ロダンの影響を受け、「女」などの作品を残した近代彫刻の先駆者は？",
-      "img": "assets/images/history/h_ogiwara_morie_1773375561178.jpg",
+      "img": "assets/images/history/h_ogiwara_morie_1773375561178.webp",
       "choices": [
         "荻原守衛",
         "高村光雲",
@@ -13786,7 +13786,7 @@ const QUIZ_DATA = {
   "h_modern_5": [
     {
       "q": "1911年に起こった辛亥革命の中心人物で、「三民主義」を唱えたのは？",
-      "img": "assets/images/history/h_sun_yat_sen_1773375576470.jpg",
+      "img": "assets/images/history/h_sun_yat_sen_1773375576470.webp",
       "choices": [
         "孫文",
         "袁世凱",
@@ -13799,7 +13799,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "第一次世界大戦のきっかけとなった、オーストリア皇太子夫妻が暗殺された事件は？",
-      "img": "assets/images/history/h_modern_6_manshu_jihen_1772283403167.jpg",
+      "img": "assets/images/history/h_modern_sarajevo_incident.webp",
       "choices": [
         "サラエボ事件",
         "柳条湖事件",
@@ -13811,7 +13811,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1914年に始まった第一次世界大戦に、日本が参戦した理由は？",
-      "img": "assets/images/history/h_modern_3_nichiei_1773342589376.jpg",
+      "img": "assets/images/history/h_modern_3_nichiei_1773342589376.webp",
       "choices": [
         "日英同盟",
         "日露同盟",
@@ -13823,7 +13823,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "第一次世界大戦中、日本が中国政府に突きつけた要求は？",
-      "img": "assets/images/history/h_modern_7_potsdam_1772302919946.jpg",
+      "img": "assets/images/history/h_modern_twenty_one_demands.webp",
       "choices": [
         "二十一カ条の要求",
         "ポツダム宣言",
@@ -13835,7 +13835,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1917年、レーニンの指導により世界初の社会主義政権が成立した出来事は？",
-      "img": "assets/images/history/h_modern_5_russian_revolution.jpg",
+      "img": "assets/images/history/h_modern_5_russian_revolution.webp",
       "choices": [
         "ロシア革命",
         "フランス革命",
@@ -13847,7 +13847,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ロシア革命に干渉するために、日本などが軍隊を送った出来事は？",
-      "img": "assets/images/history/h_modern_5_russian_revolution.jpg",
+      "img": "assets/images/history/h_modern_5_russian_revolution.webp",
       "choices": [
         "シベリア出兵",
         "北方領土問題",
@@ -13859,7 +13859,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1918年、米の値段が上がったことに怒った人々が起こした暴動は？",
-      "img": "assets/images/history/h_modern_5_kome_sodo_1773666475858.jpg",
+      "img": "assets/images/history/h_modern_5_kome_sodo_1773666475858.webp",
       "choices": [
         "米騒動",
         "打ちこわし",
@@ -13868,12 +13868,12 @@ const QUIZ_DATA = {
       ],
       "a": "米騒動",
       "comment": "富山県の主婦たちから始まり、全国に広がりました。",
-      "answerImg": "assets/images/history/h_modern_5_kome_sodo_1773666475858.jpg",
+      "answerImg": "assets/images/history/h_modern_5_kome_sodo_1773666475858.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "米騒動の後、日本で初めて本格的な政党内閣を組織した「平民宰相」は？",
-      "img": "assets/images/history/h_modern_5_hara_takashi.jpg",
+      "img": "assets/images/history/h_modern_5_hara_takashi.webp",
       "choices": [
         "原敬",
         "加藤高明",
@@ -13885,7 +13885,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "第一次世界大戦の講和条約（ベルサイユ条約）に基づいて作られた、世界平和を守るための国際機関は？",
-      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
+      "img": "assets/images/history/league_of_nations_1773368667564.webp",
       "choices": [
         "国際連盟",
         "国際連合",
@@ -13897,7 +13897,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮で起こった、日本の植民地支配からの独立を求める運動は？",
-      "img": "assets/images/history/h_modern_5_san_ichi_1773342925361.jpg",
+      "img": "assets/images/history/h_modern_5_san_ichi_1773342925361.webp",
       "choices": [
         "三・一独立運動",
         "五・四運動",
@@ -13909,7 +13909,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "大正時代、民主主義を求める運動や風潮が高まったことを何というか？",
-      "img": "assets/images/history/h_modern_5_taisho_democracy.jpg",
+      "img": "assets/images/history/h_modern_5_taisho_democracy.webp",
       "choices": [
         "大正デモクラシー",
         "文明開化",
@@ -13918,12 +13918,12 @@ const QUIZ_DATA = {
       ],
       "a": "大正デモクラシー",
       "comment": "吉野作造が「民本主義」を唱え、護憲運動などが起きました。",
-      "answerImg": "assets/images/history/h_modern_5_taisho_democracy_1773666491368.jpg",
+      "answerImg": "assets/images/history/h_modern_5_taisho_democracy_1773666491368.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "「青鞜」を発刊し、「元始、女性は太陽であった」と平塚らいてうらが訴えた運動は？",
-      "img": "assets/images/history/h_womens_liberation_1773375591562.jpg",
+      "img": "assets/images/history/h_womens_liberation_1773375591562.webp",
       "choices": [
         "女性解放運動",
         "部落解放運動",
@@ -13936,7 +13936,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "被差別部落の人々が、差別からの解放と平等を求めて結成した団体は？",
-      "img": "assets/images/history/h_modern_5_suiheisha_1773342958792.jpg",
+      "img": "assets/images/history/h_modern_5_suiheisha_1773342958792.webp",
       "choices": [
         "全国水平社",
         "立志社",
@@ -13948,7 +13948,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1925年に制定された、満25歳以上のすべての男子に選挙権を与えた法律は？",
-      "img": "assets/images/history/h_modern_5_general_election_law_1773375034348.jpg",
+      "img": "assets/images/history/h_modern_5_general_election_law_1773375034348.webp",
       "choices": [
         "普通選挙法",
         "治安維持法",
@@ -13961,7 +13961,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "普通選挙法と同時に制定された、社会主義運動などを取り締まる法律は？",
-      "img": "assets/images/history/h_modern_5_chian_1773343001388.jpg",
+      "img": "assets/images/history/h_modern_5_chian_1773343001388.webp",
       "choices": [
         "治安維持法",
         "国家総動員法",
@@ -13974,7 +13974,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1925年、新聞や雑誌に加えて開始された、新しい情報の伝達手段は？",
-      "img": "assets/images/history/h_modern_5_radio_1773343017669.jpg",
+      "img": "assets/images/history/h_modern_5_radio_1773343017669.webp",
       "choices": [
         "ラジオ放送",
         "テレビ放送",
@@ -13986,7 +13986,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1923年9月1日に発生し、東京・横浜を中心に甚大な被害をもたらした自然災害は？",
-      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
+      "img": "assets/images/history/h_modern_great_kanto_earthquake.webp",
       "choices": [
         "関東大震災",
         "阪神・淡路大震災",
@@ -13998,7 +13998,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "第一次世界大戦の好景気（大戦景気）により、急に金持ちになった人々を何というか？",
-      "img": "assets/images/history/h_modern_5_narikin_1773343033285.jpg",
+      "img": "assets/images/history/h_modern_5_narikin_1773343033285.webp",
       "choices": [
         "成金",
         "長者",
@@ -14010,7 +14010,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "天皇機関説を唱え、政党政治の理論的支柱となった憲法学者は？",
-      "img": "assets/images/history/h_ancient_3_yoshinogari.jpg",
+      "img": "assets/images/history/h_modern_minobe_tatsukichi.webp",
       "choices": [
         "美濃部達吉",
         "吉野作造",
@@ -14022,7 +14022,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平塚らいてうとともに新婦人協会を設立し、戦後も女性の地位向上に尽くした人物は？",
-      "img": "assets/images/history/h_modern_3_yosano_1773342605390.jpg",
+      "img": "assets/images/history/h_modern_ichikawa_fusae.webp",
       "choices": [
         "市川房枝",
         "与謝野晶子",
@@ -14035,7 +14035,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "プロレタリア文学の代表作「蟹工船」を書き、非合法活動の中で拷問死した作家は？",
-      "img": "assets/images/history/h_modern_5_kobayashi.jpg",
+      "img": "assets/images/history/h_modern_5_kobayashi.webp",
       "choices": [
         "小林多喜二",
         "徳永直",
@@ -14047,7 +14047,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「貧乏物語」を書いて貧困問題を論じ、後にマルクス経済学の研究に進んだ経済学者は？",
-      "img": "assets/images/history/h_medieval_7_sakai_1772980587543.jpg",
+      "img": "assets/images/history/h_modern_kawakami_hajime.webp",
       "choices": [
         "河上肇",
         "幸徳秋水",
@@ -14059,7 +14059,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "「善の研究」を著し、東洋と西洋の思想を融合させた「西田哲学」を確立した哲学者は？",
-      "img": "assets/images/history/h_modern_5_nishida_1773343145078.jpg",
+      "img": "assets/images/history/h_modern_5_nishida_1773343145078.webp",
       "choices": [
         "西田幾多郎",
         "和辻哲郎",
@@ -14071,7 +14071,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "強力な磁石鋼（KS鋼）を発明し、「鉄の神様」と呼ばれた物理学者は？",
-      "img": "assets/images/history/h_modern_5_honda_1773343162028.jpg",
+      "img": "assets/images/history/h_modern_5_honda_1773343162028.webp",
       "choices": [
         "本多光太郎",
         "長岡半太郎",
@@ -14083,7 +14083,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "民芸運動を提唱し、無名の職人が作った日用品（民衆的工芸）の美を称賛した人物は？",
-      "img": "assets/images/history/h_modern_5_yanagi_1773343178622.jpg",
+      "img": "assets/images/history/h_modern_5_yanagi_1773343178622.webp",
       "choices": [
         "柳宗悦",
         "濱田庄司",
@@ -14097,7 +14097,7 @@ const QUIZ_DATA = {
   "h_modern_6": [
     {
       "q": "1929年、アメリカのニューヨークで株価が大暴落したことから始まった不景気は？",
-      "img": "assets/images/history/h_modern_6_sekai_kyoukou_1772283322337.jpg",
+      "img": "assets/images/history/h_modern_6_sekai_kyoukou_1772283322337.webp",
       "choices": [
         "世界恐慌",
         "昭和恐慌",
@@ -14109,7 +14109,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "世界恐慌の影響で、イギリスやフランスが行った、本国と植民地だけで貿易を行う政策は？",
-      "img": "assets/images/history/h_modern_6_block_keizai_1772283338988.jpg",
+      "img": "assets/images/history/h_modern_6_block_keizai_1772283338988.webp",
       "choices": [
         "ブロック経済",
         "ニューディール政策",
@@ -14121,7 +14121,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "ドイツでナチスを率いて独裁政治を行い、ユダヤ人を迫害した人物は？",
-      "img": "assets/images/history/h_modern_6_hitler_1772283357837.jpg",
+      "img": "assets/images/history/h_modern_6_hitler_1772283357837.webp",
       "choices": [
         "ヒトラー",
         "ムッソリーニ",
@@ -14133,7 +14133,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "インドで「非暴力・不服従」を掲げ、イギリスからの独立運動を指導した人物は？",
-      "img": "assets/images/history/h_modern_6_gandhi_1772283388009.jpg",
+      "img": "assets/images/history/h_modern_6_gandhi_1772283388009.webp",
       "choices": [
         "ガンディー",
         "ネルー",
@@ -14145,7 +14145,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1931年、日本軍が南満州鉄道を爆破し、中国軍のしわざとして満州を占領した事件は？",
-      "img": "assets/images/history/h_modern_6_manshu_jihen_1772283403167.jpg",
+      "img": "assets/images/history/h_modern_6_manshu_jihen_1772283403167.webp",
       "choices": [
         "満州事変",
         "盧溝橋事件",
@@ -14157,7 +14157,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "満州事変を批判され、日本が1933年に脱退した国際機関は？",
-      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
+      "img": "assets/images/history/league_of_nations_1773368667564.webp",
       "choices": [
         "国際連盟",
         "国際連合",
@@ -14169,7 +14169,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1932年、海軍の将校らが首相官邸を襲撃し、犬養毅首相を暗殺した事件は？",
-      "img": "assets/images/history/h_ancient_2_silk_road_1773665159298.jpg",
+      "img": "assets/images/history/h_modern_may_15_incident.webp",
       "choices": [
         "五・一五事件",
         "二・二六事件",
@@ -14181,7 +14181,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1936年、陸軍の青年将校らが「昭和維新」を掲げて起こしたクーデター未遂事件は？",
-      "img": "assets/images/history/h_ancient_2_baekje_1773665203226.jpg",
+      "img": "assets/images/history/h_modern_february_26_incident.webp",
       "choices": [
         "二・二六事件",
         "五・一五事件",
@@ -14193,7 +14193,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1937年、北京郊外での武力衝突（盧溝橋事件）をきっかけに始まった戦争は？",
-      "img": "assets/images/history/h_modern_6_nitchu_sensou_1772283487209.jpg",
+      "img": "assets/images/history/h_modern_6_nitchu_sensou_1772283487209.webp",
       "choices": [
         "日中戦争",
         "太平洋戦争",
@@ -14205,7 +14205,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日中戦争の際、日本軍が占領した中国の首都（当時）で、多くの犠牲者を出したとされる事件は？",
-      "img": "assets/images/history/h_modern_6_nitchu_sensou_1772283487209.jpg",
+      "img": "assets/images/history/h_modern_6_nitchu_sensou_1772283487209.webp",
       "choices": [
         "南京事件",
         "上海事変",
@@ -14217,7 +14217,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1938年、戦争のために必要な物資や労働力を、議会の承認なしに動員できるようにした法律は？",
-      "img": "assets/images/history/h_modern_6_kokka_soudouin_1772283539356.jpg",
+      "img": "assets/images/history/h_modern_6_kokka_soudouin_1772283539356.webp",
       "choices": [
         "国家総動員法",
         "治安維持法",
@@ -14229,7 +14229,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日中戦争の長期化に伴い、国民の戦争協力を強めるために掲げられたスローガンは？",
-      "img": "assets/images/history/h_modern_6_nitchu_sensou_1772283487209.jpg",
+      "img": "assets/images/history/h_modern_home_front_senninbari.webp",
       "choices": [
         "八紘一宇",
         "富国強兵",
@@ -14241,7 +14241,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦争に協力するために、すべての政党などが解散して合流した組織は？",
-      "img": "assets/images/history/h_modern_6_taisei_yokusankai_1772283583665.jpg",
+      "img": "assets/images/history/h_modern_6_taisei_yokusankai_1772283583665.webp",
       "choices": [
         "大政翼賛会",
         "立憲政友会",
@@ -14253,7 +14253,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "近衛文麿内閣が掲げた、欧米の支配からアジアを解放し、共存共栄を目指すという構想は？",
-      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
+      "img": "assets/images/history/league_of_nations_1773368667564.webp",
       "choices": [
         "大東亜共栄圏",
         "ヨーロッパ連合",
@@ -14267,7 +14267,7 @@ const QUIZ_DATA = {
   "h_modern_7": [
     {
       "q": "1940年、日本がドイツ・イタリアと結んだ軍事同盟は？",
-      "img": "assets/images/history/h_modern_7_sangoku_doumei_1772302792344.jpg",
+      "img": "assets/images/history/h_modern_7_sangoku_doumei_1772302792344.webp",
       "choices": [
         "日独伊三国同盟",
         "日英同盟",
@@ -14279,7 +14279,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本への石油や鉄などの輸出を禁止し、経済的に追い詰めたアメリカ・イギリス・中国・オランダの包囲網を何というか？",
-      "img": "assets/images/history/h_early_modern_3_oranda.jpg",
+      "img": "assets/images/history/h_early_modern_3_oranda.webp",
       "choices": [
         "ABCD包囲陣",
         "三国干渉",
@@ -14291,7 +14291,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1941年、日本軍がハワイの真珠湾を攻撃して始まった戦争は？",
-      "img": "assets/images/history/h_modern_7_taiheiyou_sensou_1772283634578.jpg",
+      "img": "assets/images/history/h_modern_7_taiheiyou_sensou_1772283634578.webp",
       "choices": [
         "太平洋戦争",
         "日清戦争",
@@ -14303,7 +14303,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "太平洋戦争の戦況を大きく転換させた、1942年の海戦は？",
-      "img": "assets/images/history/h_modern_7_taiheiyou_sensou_1772283634578.jpg",
+      "img": "assets/images/history/h_modern_7_taiheiyou_sensou_1772283634578.webp",
       "choices": [
         "ミッドウェー海戦",
         "日本海海戦",
@@ -14315,7 +14315,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦局が悪化し、大学の文系学生なども軍隊に召集されたことを何というか？",
-      "img": "assets/images/history/h_modern_7_gakuto_shutsujin_1772302755596.jpg",
+      "img": "assets/images/history/h_modern_7_gakuto_shutsujin_1772302755596.webp",
       "choices": [
         "学徒出陣",
         "学童疎開",
@@ -14327,7 +14327,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "小学生が集団で地方のお寺などに避難し、親元を離れて生活したことを何というか？",
-      "img": "assets/images/history/h_modern_7_gakudo_sokai_1772244267399.jpg",
+      "img": "assets/images/history/h_modern_7_gakudo_sokai_1772244267399.webp",
       "choices": [
         "学童疎開",
         "集団就職",
@@ -14339,7 +14339,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1945年3月、一夜にして10万人以上の死者を出した大規模な空襲は？",
-      "img": "assets/images/history/h_modern_7_tokyo_daikuushuu_1772302822754.jpg",
+      "img": "assets/images/history/h_modern_7_tokyo_daikuushuu_1772302822754.webp",
       "choices": [
         "東京大空襲",
         "大阪大空襲",
@@ -14351,7 +14351,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1945年3月、アメリカ軍が上陸し、住民を巻き込む激しい地上戦が行われた場所は？",
-      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.webp",
       "choices": [
         "沖縄県",
         "鹿児島県",
@@ -14363,7 +14363,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1945年2月、米・英・ソの首脳が会談し、ソ連の対日参戦などを決めた会議は？",
-      "img": "assets/images/history/h_modern_7_yalta_kaidan_1772302867470.jpg",
+      "img": "assets/images/history/h_modern_7_yalta_kaidan_1772302867470.webp",
       "choices": [
         "ヤルタ会談",
         "ポツダム会談",
@@ -14375,7 +14375,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1945年8月6日と9日に、原子爆弾が投下された都市の組み合わせで正しいのは？",
-      "img": "assets/images/history/h_modern_7_hiroshima_nagasaki.jpg",
+      "img": "assets/images/history/h_modern_7_hiroshima_nagasaki.webp",
       "choices": [
         "広島・長崎",
         "広島・小倉",
@@ -14387,7 +14387,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本が受け入れて降伏した、連合国軍からの降伏勧告宣言を何というか？",
-      "img": "assets/images/history/h_modern_7_potsdam_1772302919946.jpg",
+      "img": "assets/images/history/h_modern_7_potsdam_1772302919946.webp",
       "choices": [
         "ポツダム宣言",
         "カイロ宣言",
@@ -14399,7 +14399,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦争が終わった後、日本を占領し、改革を行った連合国軍最高司令官総司令部の略称は？",
-      "img": "assets/images/history/h_modern_7_ghq_1772302935349.jpg",
+      "img": "assets/images/history/h_modern_7_ghq_1772302935349.webp",
       "choices": [
         "GHQ",
         "UN",
@@ -14411,7 +14411,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦時中、生活必需品などの不足に対し、切符などを使って配る制度を何というか？",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
+      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.webp",
       "choices": [
         "配給制",
         "座",
@@ -14423,7 +14423,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦時中、住民の団結や監視のために10軒程度で作られた組織は？",
-      "img": "assets/images/history/h_early_modern_4_goningumi.jpg",
+      "img": "assets/images/history/h_modern_tonarigumi.webp",
       "choices": [
         "隣組",
         "五人組",
@@ -14435,7 +14435,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦時中、国民の耐乏生活を強いるために掲げられた代表的なスローガンは？",
-      "img": "assets/images/history/h_modern_1_fukoku_1773341886843.jpg",
+      "img": "assets/images/history/h_modern_1_fukoku_1773341886843.webp",
       "choices": [
         "贅沢（ぜいたく）は敵だ",
         "富国強兵",
@@ -14449,7 +14449,7 @@ const QUIZ_DATA = {
   "h_contemporary_1": [
     {
       "q": "GHQの指令により、軍隊の解散や、戦争協力者の追放、選挙権の拡大などが行われたことを何というか？",
-      "img": "assets/images/history/h_modern_7_ghq_1772302935349.jpg",
+      "img": "assets/images/history/h_modern_7_ghq_1772302935349.webp",
       "choices": [
         "戦後改革（民主化政策）",
         "大正デモクラシー",
@@ -14462,7 +14462,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "経済の民主化のために、三井・三菱・安田・住友などの巨大企業グループを解体したことを何というか？",
-      "img": "assets/images/history/h_contemporary_1_zaibatsu_dissolution.jpg",
+      "img": "assets/images/history/h_contemporary_1_zaibatsu_dissolution.webp",
       "choices": [
         "財閥解体",
         "農地改革",
@@ -14474,7 +14474,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地主が持っていた小作地を政府が買い上げ、小作人に安く売り渡した改革は？",
-      "img": "assets/images/history/h_contemporary_1_nongji_kaikaku.jpg",
+      "img": "assets/images/history/h_contemporary_1_nongji_kaikaku.webp",
       "choices": [
         "農地改革",
         "地租改正",
@@ -14486,7 +14486,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1946年11月3日に公布され、翌年5月3日に施行された、日本の現行憲法は？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
+      "img": "assets/images/history/h_contemporary_constitution_of_japan.webp",
       "choices": [
         "日本国憲法",
         "大日本帝国憲法",
@@ -14498,7 +14498,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本国憲法において、天皇の地位はどのように規定されているか？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.webp",
       "choices": [
         "日本国の象徴",
         "日本の元首",
@@ -14507,12 +14507,12 @@ const QUIZ_DATA = {
       ],
       "a": "日本国の象徴",
       "comment": "政治的な権限は持たず、内閣の助言と承認に基づいて国事行為を行います。",
-      "answerImg": "assets/images/history/h_contemporary_1_tenno_shocho_1773666535406.jpg",
+      "answerImg": "assets/images/history/h_contemporary_1_tenno_shocho_1773666535406.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法第9条で放棄すると定めているものは？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
+      "img": "assets/images/history/h_contemporary_1_article_9_new.webp",
       "choices": [
         "戦争",
         "税金",
@@ -14521,12 +14521,12 @@ const QUIZ_DATA = {
       ],
       "a": "戦争",
       "comment": "戦力の不保持と交戦権の否認も定められました。",
-      "answerImg": "assets/images/history/h_contemporary_1_article_9_new.jpg",
+      "answerImg": "assets/images/history/h_contemporary_1_article_9_new.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "民主的な教育を行うために1947年に制定された法律は？",
-      "img": "assets/images/history/fundamental_law_of_education_1773368683242.jpg",
+      "img": "assets/images/history/fundamental_law_of_education_1773368683242.webp",
       "choices": [
         "教育基本法",
         "教育勅語",
@@ -14538,7 +14538,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "満20歳以上のすべての男女に選挙権が認められ、1946年に行われた選挙で初めて誕生したのは？",
-      "img": "assets/images/history/female_diet_members_1773368702040.jpg",
+      "img": "assets/images/history/female_diet_members_1773368702040.webp",
       "choices": [
         "女性議員",
         "首相公選制",
@@ -14550,7 +14550,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "労働者の権利を守るために制定された、労働基準法・労働組合法・労働関係調整法をまとめて何というか？",
-      "img": "assets/images/history/three_labor_laws_1773368747516.jpg",
+      "img": "assets/images/history/three_labor_laws_1773368747516.webp",
       "choices": [
         "労働三法",
         "独占禁止法",
@@ -14562,7 +14562,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1945年に発足した、戦争を防ぎ世界平和を守るための国際機関は？",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
+      "img": "assets/images/history/united_nations_1773368765000.webp",
       "choices": [
         "国際連合",
         "国際連盟",
@@ -14574,7 +14574,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1946年1月1日、昭和天皇が自らを神ではなく人間であると宣言したことを何というか？",
-      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
+      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.webp",
       "choices": [
         "人間宣言",
         "玉音放送",
@@ -14586,7 +14586,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "戦後の混乱期、駅前などに不法に開かれ、食料や生活用品が売買された市場を何というか？",
-      "img": "assets/images/history/h_medieval_1_teikiichi.jpg",
+      "img": "assets/images/history/h_contemporary_yami_ichi.webp",
       "choices": [
         "闇市（やみいち）",
         "定期市",
@@ -14600,7 +14600,7 @@ const QUIZ_DATA = {
   "h_contemporary_2": [
     {
       "q": "第二次世界大戦後、アメリカを中心とする西側諸国と、ソ連を中心とする東側諸国が対立した状態を何というか？",
-      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
+      "img": "assets/images/history/h_contemporary_2_cold_war.webp",
       "choices": [
         "冷戦（冷たい戦争）",
         "日露戦争",
@@ -14612,7 +14612,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1950年、朝鮮半島の北と南が武力衝突して始まった戦争は？",
-      "img": "assets/images/history/h_contemporary_2_korean_war.jpg",
+      "img": "assets/images/history/h_contemporary_2_korean_war.webp",
       "choices": [
         "朝鮮戦争",
         "ベトナム戦争",
@@ -14624,7 +14624,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "朝鮮戦争の際に日本国内の治安維持のために作られ、後に自衛隊へと発展した組織は？",
-      "img": "assets/images/history/h_contemporary_2_keisatsu_yobitai_1773666567725.jpg",
+      "img": "assets/images/history/h_contemporary_2_keisatsu_yobitai_1773666567725.webp",
       "choices": [
         "警察予備隊",
         "特別高等警察",
@@ -14633,12 +14633,12 @@ const QUIZ_DATA = {
       ],
       "a": "警察予備隊",
       "comment": "その後、保安隊を経て1954年に自衛隊となりました。",
-      "answerImg": "assets/images/history/h_contemporary_2_keisatsu_yobitai_1773666567725.jpg",
+      "answerImg": "assets/images/history/h_contemporary_2_keisatsu_yobitai_1773666567725.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1949年、中国共産党が国民党を破って建国し、毛沢東が主席となった国は？",
-      "img": "assets/images/history/h_contemporary_2_chuuka_1773343360454.jpg",
+      "img": "assets/images/history/h_contemporary_2_chuuka_1773343360454.webp",
       "choices": [
         "中華人民共和国",
         "中華民国",
@@ -14650,7 +14650,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1951年、日本が48カ国と結び、主権を回復した条約は？",
-      "img": "assets/images/history/h_contemporary_2_sanfran_1772244741323.jpg",
+      "img": "assets/images/history/h_contemporary_2_sanfran_1772244741323.webp",
       "choices": [
         "サンフランシスコ平和条約",
         "日ソ共同宣言",
@@ -14662,7 +14662,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "サンフランシスコ平和条約と同時に結ばれ、アメリカ軍が日本に駐留することを認めた条約は？",
-      "img": "assets/images/history/h_contemporary_2_us_japan_security_new_1774106549986.png",
+      "img": "assets/images/history/h_contemporary_2_us_japan_security_new_1774106549986.webp",
       "choices": [
         "日米安全保障条約",
         "日米和親条約",
@@ -14674,7 +14674,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1955年、アジアやアフリカの国々が集まり、植民地主義への反対などを確認した会議は？",
-      "img": "assets/images/history/bandung_conference_1773368854829.jpg",
+      "img": "assets/images/history/bandung_conference_1773368854829.webp",
       "choices": [
         "アジア・アフリカ会議（バンドン会議）",
         "ヤルタ会談",
@@ -14686,7 +14686,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1956年、日本とソ連との間で国交が回復した宣言は？",
-      "img": "assets/images/history/japan_soviet_declaration_1773368877058.jpg",
+      "img": "assets/images/history/japan_soviet_declaration_1773368877058.webp",
       "choices": [
         "日ソ共同宣言",
         "日中共同声明",
@@ -14698,7 +14698,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1955年に自由民主党が結成されて以来、野党第一党の社会党と対立しながら約38年間政権を維持した体制は？",
-      "img": "assets/images/history/h_modern_5_taisho_democracy.jpg",
+      "img": "assets/images/history/h_modern_5_taisho_democracy.webp",
       "choices": [
         "55年体制",
         "大正デモクラシー",
@@ -14710,7 +14710,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1960年、日米安全保障条約の改定をめぐって起こった大規模な反対運動は？",
-      "img": "assets/images/history/h_contemporary_2_us_japan_security_new_1774106549986.png",
+      "img": "assets/images/history/h_contemporary_anpo_protests.webp",
       "choices": [
         "安保闘争",
         "学生運動",
@@ -14722,7 +14722,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1949年、日本人として初めてノーベル賞（物理学賞）を受賞した人物は？",
-      "img": "assets/images/history/hideki_yukawa_1773368960434.jpg",
+      "img": "assets/images/history/hideki_yukawa_1773368960434.webp",
       "choices": [
         "湯川秀樹",
         "川端康成",
@@ -14736,7 +14736,7 @@ const QUIZ_DATA = {
   "h_contemporary_3": [
     {
       "q": "1960年代、日本経済が急速に発展し、世界第2位の経済大国になった時期を何というか？",
-      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
+      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.webp",
       "choices": [
         "高度経済成長",
         "バブル経済",
@@ -14748,7 +14748,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1964年、アジアで初めて開催され、新幹線や高速道路の整備が進むきっかけとなったイベントは？",
-      "img": "assets/images/history/h_contemporary_3_tokyo_oly_1772244771640.jpg",
+      "img": "assets/images/history/h_contemporary_3_tokyo_oly_1772244771640.webp",
       "choices": [
         "東京オリンピック",
         "大阪万博",
@@ -14760,7 +14760,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "高度経済成長期に普及した「三種の神器」とは、白黒テレビ、洗濯機とあと一つは？",
-      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
+      "img": "assets/images/history/h_contemporary_three_sacred_treasures.webp",
       "choices": [
         "冷蔵庫",
         "クーラー",
@@ -14772,7 +14772,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1965年、日本と韓国との間で国交が回復した条約は？",
-      "img": "assets/images/history/japan_korea_treaty_1773368982452.jpg",
+      "img": "assets/images/history/japan_korea_treaty_1773368982452.webp",
       "choices": [
         "日韓基本条約",
         "日中共同声明",
@@ -14784,7 +14784,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1967年に結成された、東南アジア諸国の地域協力機構は？",
-      "img": "assets/images/history/h_contemporary_3_asean_1773343491452.jpg",
+      "img": "assets/images/history/h_contemporary_3_asean_1773343491452.webp",
       "choices": [
         "ASEAN（東南アジア諸国連合）",
         "EU",
@@ -14796,7 +14796,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1968年、アメリカの施政権下にあったが、日本への返還が実現した諸島は？（正式な返還は1968年6月）",
-      "img": "assets/images/history/h_contemporary_3_ogasawara_1773343511497.jpg",
+      "img": "assets/images/history/h_contemporary_3_ogasawara_1773343511497.webp",
       "choices": [
         "小笠原諸島",
         "沖縄県",
@@ -14808,7 +14808,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "工場からの排水や排煙が原因で、水俣病や四日市ぜんそくなどの健康被害が発生した問題を何というか？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.webp",
       "choices": [
         "公害問題",
         "環境汚染",
@@ -14820,7 +14820,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1971年、政府が設置した、公害対策や環境保全を担当する国の機関は？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
+      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.webp",
       "choices": [
         "環境庁（現在の環境省）",
         "公害等調整委員会",
@@ -14829,12 +14829,12 @@ const QUIZ_DATA = {
       ],
       "a": "環境庁（現在の環境省）",
       "comment": "現在は環境省に昇格しています。",
-      "answerImg": "assets/images/history/h_contemporary_3_kankyocho_1773666582329.jpg",
+      "answerImg": "assets/images/history/h_contemporary_3_kankyocho_1773666582329.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1972年、アメリカから日本に返還された、戦後長くアメリカの統治下にあった県は？",
-      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.webp",
       "choices": [
         "沖縄県",
         "北海道",
@@ -14846,7 +14846,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1972年、田中角栄首相が訪中し、中国との国交を正常化した宣言は？",
-      "img": "assets/images/history/japan_china_communique_1773369049078.jpg",
+      "img": "assets/images/history/japan_china_communique_1773369049078.webp",
       "choices": [
         "日中共同声明",
         "日中平和友好条約",
@@ -14858,7 +14858,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1978年、福田赳夫内閣の時に中国と結ばれた平和条約は？",
-      "img": "assets/images/history/japan_china_peace_treaty_1773369070327.jpg",
+      "img": "assets/images/history/japan_china_peace_treaty_1773369070327.webp",
       "choices": [
         "日中平和友好条約",
         "日韓基本条約",
@@ -14870,7 +14870,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "佐藤栄作首相が唱えた、「核兵器を持たず、作らず、持ち込ませず」という原則は？",
-      "img": "assets/images/history/h_contemporary_3_hikaku_1772244298466.jpg",
+      "img": "assets/images/history/h_contemporary_3_hikaku_1772244298466.webp",
       "choices": [
         "非核三原則",
         "平和五原則",
@@ -14884,7 +14884,7 @@ const QUIZ_DATA = {
   "h_contemporary_4": [
     {
       "q": "1973年、第四次中東戦争をきっかけに原油価格が高騰し、世界経済が混乱した出来事を何というか？",
-      "img": "assets/images/history/h_contemporary_3_oil_shock_new_1774108656300.png",
+      "img": "assets/images/history/h_contemporary_3_oil_shock_new_1774108656300.webp",
       "choices": [
         "石油危機（オイルショック）",
         "世界恐慌",
@@ -14896,7 +14896,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1980年代後半、不動産や株の価格が異常に高騰した日本の経済状況を何というか？",
-      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
+      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.webp",
       "choices": [
         "バブル経済",
         "高度経済成長",
@@ -14908,7 +14908,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1989年、東西冷戦の象徴であった壁が取り払われた出来事は？",
-      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
+      "img": "assets/images/history/h_contemporary_2_cold_war.webp",
       "choices": [
         "ベルリンの壁崩壊",
         "ドイツ統一",
@@ -14920,7 +14920,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1989年、米ソ首脳が冷戦の終結を宣言した会談は？",
-      "img": "assets/images/history/h_contemporary_4_malta_conference_1773666611995.jpg",
+      "img": "assets/images/history/h_contemporary_4_malta_conference_1773666611995.webp",
       "choices": [
         "マルタ会談",
         "ヤルタ会談",
@@ -14929,12 +14929,12 @@ const QUIZ_DATA = {
       ],
       "a": "マルタ会談",
       "comment": "ブッシュ（父）大統領とゴルバチョフ書記長が会談しました。",
-      "answerImg": "assets/images/history/h_contemporary_4_malta_conference_1773666611995.jpg",
+      "answerImg": "assets/images/history/h_contemporary_4_malta_conference_1773666611995.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1991年、多国籍軍によるイラクへの攻撃で始まった戦争は？",
-      "img": "assets/images/history/gulf_war_1773369092957.jpg",
+      "img": "assets/images/history/gulf_war_1773369092957.webp",
       "choices": [
         "湾岸戦争",
         "イラク戦争",
@@ -14946,7 +14946,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "湾岸戦争の反省から、1992年に制定された、自衛隊の海外派遣を可能にした法律は？",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
+      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.webp",
       "choices": [
         "PKO協力法",
         "テロ対策特別措置法",
@@ -14958,7 +14958,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1993年、ヨーロッパ諸国が経済・通貨の統合を目指して発足させた組織は？",
-      "img": "assets/images/history/h_contemporary_4_eu_1773343658446.jpg",
+      "img": "assets/images/history/h_contemporary_4_eu_1773343658446.webp",
       "choices": [
         "EU（欧州連合）",
         "EC（欧州共同体）",
@@ -14970,7 +14970,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1995年1月17日に発生し、高速道路の倒壊や火災などで大きな被害を出した地震は？",
-      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
+      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.webp",
       "choices": [
         "阪神・淡路大震災",
         "東日本大震災",
@@ -14982,7 +14982,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1995年、地下鉄サリン事件などを引き起こし、社会を震撼させた宗教団体は？",
-      "img": "assets/images/history/aum_shinrikyo_incident_1773369235813.jpg",
+      "img": "assets/images/history/aum_shinrikyo_incident_1773369235813.webp",
       "choices": [
         "オウム真理教",
         "アルカイダ",
@@ -14994,7 +14994,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1989年、竹下登内閣の時に初めて導入された税金は？",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
+      "img": "assets/images/history/consumption_tax_intro_1773369253156.webp",
       "choices": [
         "消費税",
         "所得税",
@@ -15006,7 +15006,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "1993年、細川護煕を首相とする連立政権が誕生し、終わった政治体制は？",
-      "img": "assets/images/history/h_modern_5_taisho_democracy.jpg",
+      "img": "assets/images/history/h_modern_5_taisho_democracy.webp",
       "choices": [
         "55年体制",
         "総力戦体制",
@@ -15020,7 +15020,7 @@ const QUIZ_DATA = {
   "h_contemporary_5": [
     {
       "q": "2001年9月11日、アメリカでハイジャックされた旅客機が高層ビルに突入した事件は？",
-      "img": "assets/images/history/september_11_attacks_1773369275436.jpg",
+      "img": "assets/images/history/september_11_attacks_1773369275436.webp",
       "choices": [
         "アメリカ同時多発テロ",
         "ロンドン同時爆破テロ",
@@ -15032,7 +15032,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2011年3月11日に発生し、巨大津波や福島第一原発事故を引き起こした地震は？",
-      "img": "assets/images/history/h_contemporary_5_higashi_nihon_daishinsai.jpg",
+      "img": "assets/images/history/h_contemporary_5_higashi_nihon_daishinsai.webp",
       "choices": [
         "東日本大震災",
         "阪神・淡路大震災",
@@ -15044,7 +15044,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "地球温暖化を防ぐため、1997年に京都で採択された温室効果ガス削減の約束は？",
-      "img": "assets/images/history/h_contemporary_5_kyoto_1772244316824.jpg",
+      "img": "assets/images/history/h_contemporary_5_kyoto_1772244316824.webp",
       "choices": [
         "京都議定書",
         "パリ協定",
@@ -15056,7 +15056,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2015年に採択された、すべての国が参加する地球温暖化対策の新たな枠組みは？",
-      "img": "assets/images/history/paris_agreement_1773369293123.jpg",
+      "img": "assets/images/history/paris_agreement_1773369293123.webp",
       "choices": [
         "パリ協定",
         "京都議定書",
@@ -15068,7 +15068,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2015年、国連で採択された「持続可能な開発目標」をアルファベット4文字で何というか？",
-      "img": "assets/images/history/h_contemporary_5_sdgs_1773343811627.jpg",
+      "img": "assets/images/history/h_contemporary_5_sdgs_1773343811627.webp",
       "choices": [
         "SDGs",
         "NATO",
@@ -15080,7 +15080,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2000年代以降、インターネットや携帯電話などが急速に普及し、社会が大きく変化したことを何というか？",
-      "img": "assets/images/history/h_contemporary_4_it_revolution_new_1774109692004.png",
+      "img": "assets/images/history/h_contemporary_4_it_revolution_new_1774109692004.webp",
       "choices": [
         "IT革命（情報革命）",
         "産業革命",
@@ -15092,7 +15092,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "日本が直面している、子供の数が減り、高齢者の割合が増える問題を何というか？",
-      "img": "assets/images/history/h_contemporary_5_shoushi_1772244902724.jpg",
+      "img": "assets/images/history/h_contemporary_5_shoushi_1772244902724.webp",
       "choices": [
         "少子高齢化",
         "人口爆発",
@@ -15104,7 +15104,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "かつて日本で深刻だった公害を教訓に、資源を有効活用し、環境への負荷を減らす社会を何というか？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
+      "img": "assets/images/history/h_contemporary_circular_economy_society.webp",
       "choices": [
         "循環型社会",
         "情報化社会",
@@ -15116,7 +15116,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "2002年、日本と北朝鮮の首脳会談で、北朝鮮が認めて謝罪した問題は？",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
+      "img": "assets/images/history/h_contemporary_5_rachi_mondai_1773666625846.webp",
       "choices": [
         "日本人拉致問題",
         "核開発問題",
@@ -15129,7 +15129,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "沖縄県にある、アメリカ軍基地の移設問題で揺れている飛行場は？",
-      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.webp",
       "choices": [
         "普天間飛行場",
         "嘉手納基地",
@@ -15138,12 +15138,12 @@ const QUIZ_DATA = {
       ],
       "a": "普天間飛行場",
       "comment": "名護市辺野古への移設が進められていますが、反対運動も続いています。",
-      "answerImg": "assets/images/history/h_contemporary_5_futenma_1773666639842.jpg",
+      "answerImg": "assets/images/history/h_contemporary_5_futenma_1773666639842.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "2010年、中国漁船衝突事件をきっかけに問題となった、沖縄県の島々（日本固有の領土）は？",
-      "img": "assets/images/history/h_contemporary_3_okinawa_new.jpg",
+      "img": "assets/images/history/h_contemporary_3_okinawa_new.webp",
       "choices": [
         "尖閣諸島",
         "竹島",
@@ -15152,12 +15152,12 @@ const QUIZ_DATA = {
       ],
       "a": "尖閣諸島",
       "comment": "中国が領有権を主張していますが、歴史的にも国際法的にも日本の領土です。",
-      "answerImg": "assets/images/history/h_contemporary_5_senkaku_shoto_1773666652089.jpg",
+      "answerImg": "assets/images/history/h_contemporary_5_senkaku_shoto_1773666652089.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "島根県に属するが、韓国が不法に占拠している日本固有の領土は？",
-      "img": "assets/images/history/h_contemporary_5_takeshima_1773343826348.jpg",
+      "img": "assets/images/history/h_contemporary_5_takeshima_1773343826348.webp",
       "choices": [
         "竹島",
         "尖閣諸島",
@@ -15179,12 +15179,11 @@ const QUIZ_DATA = {
       ],
       "a": "基本的人権",
       "comment": "基本的人権には、自由権・平等権・社会権・参政権などがあります。",
-      "answerImg": "assets/images/civics/g_civics_1_human_rights_1773475366229.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_human_rights_1773475366229.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1215年にイギリスで発布された、国王の権力を制限した文書はどれか？",
-      "img": "assets/images/history/h_early_modern_7_american_independence.jpg",
       "choices": [
         "マグナカルタ（大憲章）",
         "権利の章典",
@@ -15193,12 +15192,11 @@ const QUIZ_DATA = {
       ],
       "a": "マグナカルタ（大憲章）",
       "comment": "国王が議会の同意なしに税金をかけないことなどを認めさせました。",
-      "answerImg": "assets/images/civics/g_civics_1_magna_carta_1773475394699.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_magna_carta_1773475394699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1919年にドイツで制定され、世界で初めて社会権を保障した憲法はどれか？",
-      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "ワイマール憲法",
         "大日本帝国憲法",
@@ -15207,12 +15205,11 @@ const QUIZ_DATA = {
       ],
       "a": "ワイマール憲法",
       "comment": "「ドイツ共和国憲法」が正式名称で、社会権が初めて保障されました。",
-      "answerImg": "assets/images/civics/g_civics_42_weimar_constitution_1773581468912.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_weimar_constitution_1773581468912.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1689年に名誉革命ののち、イギリスで発布され、議会の同意なしに税金をかけないことなどを定めた法律は何か？",
-      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "権利の章典",
         "マグナカルタ",
@@ -15221,12 +15218,11 @@ const QUIZ_DATA = {
       ],
       "a": "権利の章典",
       "comment": "名誉革命による議会の要求を国王が承認する形で発布されました。",
-      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "『統治二論（市民政府二論）』を著し、権力が不当に行使されたときの「抵抗権」を主張したイギリスの思想家は誰か？",
-      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "ロック",
         "ルソー",
@@ -15235,7 +15231,7 @@ const QUIZ_DATA = {
       ],
       "a": "ロック",
       "comment": "ロックはすべての人間に生命や自由、財産に対する権利があるとし、名誉革命を正当化しました。",
-      "answerImg": "assets/images/civics/g_civics_1_john_locke_1773475422306.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_john_locke_1773475422306.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15248,12 +15244,11 @@ const QUIZ_DATA = {
       ],
       "a": "モンテスキュー",
       "comment": "国家権力を「立法権」「行政権」「司法権」の3つに分け、互いに抑制し合うことが必要だと説きました。",
-      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "『社会契約論』を著し、人民主権を唱えてフランス革命に大きな影響を与えたフランスの思想家は誰か？",
-      "img": "assets/images/history/h_early_modern_7_french_revolution.jpg",
       "choices": [
         "ルソー",
         "モンテスキュー",
@@ -15262,7 +15257,7 @@ const QUIZ_DATA = {
       ],
       "a": "ルソー",
       "comment": "政治は一部の個人の意見ではなく、人民全体の意見にもとづいて行われるべきであると主張しました。",
-      "answerImg": "assets/images/civics/g_civics_1_rousseau_1773475451346.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_rousseau_1773475451346.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15275,12 +15270,11 @@ const QUIZ_DATA = {
       ],
       "a": "立憲主義",
       "comment": "権力を制限する憲法にもとづく政治のあり方を「立憲政治」といいます。",
-      "answerImg": "assets/images/civics/g_civics_2_constitutionalism_1773475917334.jpg",
+      "answerImg": "assets/images/civics/g_civics_2_constitutionalism_1773475917334.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1946年11月3日に公布され、翌年5月3日に施行された日本の「最高法規」は何か？",
-      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "日本国憲法",
         "大日本帝国憲法",
@@ -15289,12 +15283,11 @@ const QUIZ_DATA = {
       ],
       "a": "日本国憲法",
       "comment": "日本のすべての法のなかで最も基本となる、最高位のきまりです。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_constitution_of_japan_1773716869044.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_constitution_of_japan_1773716869044.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法の三大原則のうち、「国民主権」「基本的人権の尊重」ともう一つは何か？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "平和主義",
         "象徴天皇制",
@@ -15303,7 +15296,7 @@ const QUIZ_DATA = {
       ],
       "a": "平和主義",
       "comment": "日本国憲法は、「国民主権」「基本的人権の尊重」「平和主義」を三大原則としています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_pacifism_1773716882599.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_pacifism_1773716882599.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15316,7 +15309,7 @@ const QUIZ_DATA = {
       ],
       "a": "外国人参政権",
       "comment": "最高裁は「憲法はこの権利を禁止していない」としていますが、現在日本では法律として認められていません。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_foreign_suffrage_1773716912380.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_foreign_suffrage_1773716912380.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15329,7 +15322,7 @@ const QUIZ_DATA = {
       ],
       "a": "共生社会",
       "comment": "年齢や性別、国籍、障がいの有無などに関わらず、すべての人が個人として尊重される社会を目指すものです。",
-      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15342,7 +15335,7 @@ const QUIZ_DATA = {
       ],
       "a": "バリアフリー",
       "comment": "段差にスロープをつけたり、点字ブロックを設置したりすることなどがこれにあたります。",
-      "answerImg": "assets/images/civics/g_civics_4_barrier_free_1773480321721.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_barrier_free_1773480321721.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15355,7 +15348,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユニバーサルデザイン",
       "comment": "シャンプーの容器のギザギザや、多目的トイレなど、誰もが最初から使いやすいように設計されたものです。",
-      "answerImg": "assets/images/civics/g_civics_3_universal_design_1773476413957.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_universal_design_1773476413957.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15368,7 +15361,7 @@ const QUIZ_DATA = {
       ],
       "a": "ノーマライゼーション",
       "comment": "現代の社会福祉において、最も基本的な理念の一つとされています。",
-      "answerImg": "assets/images/civics/g_civics_3_normalization_1773476381825.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_normalization_1773476381825.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15381,12 +15374,11 @@ const QUIZ_DATA = {
       ],
       "a": "セクシュアル・ハラスメント（セクハラ）",
       "comment": "労働者の尊厳を傷つけ、職場の秩序を乱す行為として、男女雇用機会均等法などで防ぐことが義務付けられています。",
-      "answerImg": "assets/images/civics/g_civics_26_sme_1773546900945.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_sme_1773546900945.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "男性と女性が互いに人権を尊重し合い、責任を分け合って対等な立場で能力をいかすことができる社会を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "男女共同参画社会",
         "共生社会",
@@ -15395,12 +15387,11 @@ const QUIZ_DATA = {
       ],
       "a": "男女共同参画社会",
       "comment": "1999年にはこれを推進するための男女共同参画社会基本法が施行されました。",
-      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "すべての人が生きていく上で、自由にものを考え、意見を述べ、行動することを保障する権利を何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "自由権",
         "平等権",
@@ -15409,7 +15400,7 @@ const QUIZ_DATA = {
       ],
       "a": "自由権",
       "comment": "日本国憲法では「身体の自由」「精神の自由」「経済活動の自由」の3つに大きく分けられます。",
-      "answerImg": "assets/images/civics/g_civics_3_civil_liberties_1773476345863.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_civil_liberties_1773476345863.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15422,12 +15413,11 @@ const QUIZ_DATA = {
       ],
       "a": "身体の自由",
       "comment": "奴隷的拘束からの自由や、拷問・残虐な刑罰の禁止などがこれに含まれます。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_freedom_of_person_1773716926828.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_freedom_of_person_1773716926828.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "被疑者や被告人に認められている、取り調べや裁判で自分に不利益となることを話さなくてもよい権利を何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "黙秘権",
         "肖像権",
@@ -15436,7 +15426,7 @@ const QUIZ_DATA = {
       ],
       "a": "黙秘権",
       "comment": "日本国憲法第38条で、「何人も、自己に不利益な供述を強要されない」と定められています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_right_to_remain_silent_1773716939055.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_right_to_remain_silent_1773716939055.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15449,7 +15439,7 @@ const QUIZ_DATA = {
       ],
       "a": "精神の自由",
       "comment": "思想・良心の自由、信教の自由、集会・結社・表現の自由、学問の自由などがあります。",
-      "answerImg": "assets/images/civics/g_civics_3_civil_liberties_1773476345863.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_civil_liberties_1773476345863.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15462,7 +15452,7 @@ const QUIZ_DATA = {
       ],
       "a": "信教の自由",
       "comment": "これに関連して、国が特定の宗教に特権を与えたり政治的権力を持たせたりしない「政教分離の原則」があります。",
-      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15475,7 +15465,7 @@ const QUIZ_DATA = {
       ],
       "a": "集会・結社・表現の自由",
       "comment": "マスメディアによる報道の自由も含まれます。検閲は憲法で禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15488,7 +15478,7 @@ const QUIZ_DATA = {
       ],
       "a": "学問の自由",
       "comment": "思想や研究の内容が国家などによって制限・干渉されないことを保障しています。",
-      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15501,12 +15491,11 @@ const QUIZ_DATA = {
       ],
       "a": "経済活動の自由",
       "comment": "居住・移転および職業選択の自由や、財産権の保障などの権利が含まれます。",
-      "answerImg": "assets/images/civics/g_civics_4_economic_freedom_1773480386746.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_economic_freedom_1773480386746.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "人権は最大限保障されるが、他人の人権と衝突する場合などに、社会全体の利益のために人権が制限される原理を何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "公共の福祉",
         "権利の濫用禁止",
@@ -15515,12 +15504,11 @@ const QUIZ_DATA = {
       ],
       "a": "公共の福祉",
       "comment": "日本国憲法第12条などで、国民は人権を「公共の福祉のためにこれを利用する責任を負ふ」と定められています。",
-      "answerImg": "assets/images/civics/g_civics_4_public_welfare_1773480361880.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_public_welfare_1773480361880.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法第25条の「すべて国民は、健康で文化的な最低限度の生活を営む権利を有する」という条文で保障されている権利は何か。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "生存権",
         "教育を受ける権利",
@@ -15529,7 +15517,7 @@ const QUIZ_DATA = {
       ],
       "a": "生存権",
       "comment": "社会権の中でも最も基本となる権利で、これに基づき生活保護法などが制定されています。",
-      "answerImg": "assets/images/civics/g_civics_5_minimum_living_1773480658216.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_minimum_living_1773480658216.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15542,12 +15530,11 @@ const QUIZ_DATA = {
       ],
       "a": "年金",
       "comment": "国民全員が加入して共通で支給される基礎年金などがあり、老後や障がいを負った際などに支給されます。",
-      "answerImg": "assets/images/civics/g_civics_5_pension_1773480720993.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_pension_1773480720993.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "すべての国民が能力に応じてひとしく教育を受けることができる社会権の一つを何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "教育を受ける権利",
         "学習権",
@@ -15556,12 +15543,11 @@ const QUIZ_DATA = {
       ],
       "a": "教育を受ける権利",
       "comment": "この権利を保障するため、義務教育は無償とされています。",
-      "answerImg": "assets/images/civics/g_civics_5_education_right_1773480739184.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_education_right_1773480739184.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "社会権の一つで、働く意思と能力のある人が、国に対して労働の機会を求めることができる権利を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "勤労の権利",
         "労働基本権",
@@ -15570,7 +15556,7 @@ const QUIZ_DATA = {
       ],
       "a": "勤労の権利",
       "comment": "日本国憲法第27条で規定されており、勤労は権利であると同時に国民の義務でもあります。",
-      "answerImg": "assets/images/civics/g_civics_5_right_to_work_1773480751463.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_right_to_work_1773480751463.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15583,7 +15569,7 @@ const QUIZ_DATA = {
       ],
       "a": "労働基本権",
       "comment": "団結権、団体交渉権、団体行動権（争議権）の3つからなります。",
-      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15596,7 +15582,7 @@ const QUIZ_DATA = {
       ],
       "a": "団結権",
       "comment": "一人ひとりの力では弱い労働者が、使用者（会社など）と対等な立場で交渉するための土台となる権利です。",
-      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15609,7 +15595,7 @@ const QUIZ_DATA = {
       ],
       "a": "参政権",
       "comment": "選挙権や被選挙権のほか、最高裁判所裁判官の国民審査権や、憲法改正の国民投票権なども含まれます。",
-      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15622,7 +15608,7 @@ const QUIZ_DATA = {
       ],
       "a": "クローン",
       "comment": "日本では、人間へのクローン技術の適用を禁止する法律が施行されています。",
-      "answerImg": "assets/images/civics/g_civics_5_clone_1773480830160.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_clone_1773480830160.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15635,7 +15621,7 @@ const QUIZ_DATA = {
       ],
       "a": "体外受精",
       "comment": "不妊治療などの一環として用いられることがあります。",
-      "answerImg": "assets/images/civics/g_civics_5_in_vitro_1773480842983.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_in_vitro_1773480842983.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15648,12 +15634,11 @@ const QUIZ_DATA = {
       ],
       "a": "エイズ（後天性免疫不全症候群）",
       "comment": "HIVに感染してもすぐに発症するわけではなく、現在は発症を遅らせる治療が行われています。",
-      "answerImg": "assets/images/civics/g_civics_5_aids_1773480862898.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_aids_1773480862898.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "自分の意思で自分の技術や時間を提供して、社会的な人助けをする人やその行為を何というか。",
-      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
       "choices": [
         "ボランティア",
         "NPO",
@@ -15662,7 +15647,7 @@ const QUIZ_DATA = {
       ],
       "a": "ボランティア",
       "comment": "基本的に無報酬で行われ、阪神・淡路大震災や東日本大震災などをきっかけに重要性が再認識されました。",
-      "answerImg": "assets/images/civics/g_civics_6_volunteer_1773481358706.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_volunteer_1773481358706.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15675,7 +15660,7 @@ const QUIZ_DATA = {
       ],
       "a": "政治",
       "comment": "国や地方公共団体が行う政治がその代表例です。",
-      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15688,7 +15673,7 @@ const QUIZ_DATA = {
       ],
       "a": "民主主義",
       "comment": "紀元前のアテネで行われた市民参加の政治が起源とされ、近現代の市民革命を経て成立しました。",
-      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15701,7 +15686,7 @@ const QUIZ_DATA = {
       ],
       "a": "直接民主制",
       "comment": "古代ギリシャのアテネなどで行われていましたが、国家規模が大きくなると実施が難しくなります。",
-      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15714,7 +15699,7 @@ const QUIZ_DATA = {
       ],
       "a": "間接民主制（代議制）",
       "comment": "現代の多くの民主主義国家で採用されている方式です。",
-      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15727,7 +15712,7 @@ const QUIZ_DATA = {
       ],
       "a": "多数決の原理",
       "comment": "多数決においても、決定の過程で少数意見の発表や批判を自由に行えることが重要です。",
-      "answerImg": "assets/images/civics/g_civics_6_democracy_1773481395832.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_democracy_1773481395832.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15740,7 +15725,7 @@ const QUIZ_DATA = {
       ],
       "a": "少数意見の尊重",
       "comment": "これがなされていないと、多数派による独断的な支配になってしまうおそれがあります。",
-      "answerImg": "assets/images/civics/g_civics_6_majority_rule_1773481450709.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_majority_rule_1773481450709.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15753,7 +15738,7 @@ const QUIZ_DATA = {
       ],
       "a": "選挙権",
       "comment": "国会議員、地方公共団体の長（都道府県知事や市区町村長）、地方議会議員を選出する権利です。",
-      "answerImg": "assets/images/civics/g_civics_6_right_to_be_elected_1773481505441.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_right_to_be_elected_1773481505441.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15766,7 +15751,7 @@ const QUIZ_DATA = {
       ],
       "a": "被選挙権",
       "comment": "参議院議員と都道府県知事は満30歳以上、衆議院議員や市区町村長などは満25歳以上と定められています。",
-      "answerImg": "assets/images/civics/g_civics_6_right_to_be_elected_1773481505441.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_right_to_be_elected_1773481505441.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15779,7 +15764,7 @@ const QUIZ_DATA = {
       ],
       "a": "国民審査権",
       "comment": "やめさせる（罷免する）べきとする票が過半数を占めた場合、その裁判官は罷免されます。",
-      "answerImg": "assets/images/civics/g_civics_6_national_review_1773481523335.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_national_review_1773481523335.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15792,7 +15777,7 @@ const QUIZ_DATA = {
       ],
       "a": "請願権",
       "comment": "人権侵害の救済や、法律の制定・改廃などを求めることができます。",
-      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_politics_1773481377359.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15805,7 +15790,7 @@ const QUIZ_DATA = {
       ],
       "a": "国民投票権",
       "comment": "満18歳以上の日本国民に認められており、有効投票の過半数の賛成があれば改正が承認されます。",
-      "answerImg": "assets/images/civics/g_civics_7_national_referendum_1773481718966.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_national_referendum_1773481718966.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15818,7 +15803,7 @@ const QUIZ_DATA = {
       ],
       "a": "請求権",
       "comment": "国家賠償請求権、刑事補償請求権、裁判を受ける権利などがあります。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15831,7 +15816,7 @@ const QUIZ_DATA = {
       ],
       "a": "国家賠償請求権",
       "comment": "請求権の一つで、国民の権利を守るための重要な権利です。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15844,7 +15829,7 @@ const QUIZ_DATA = {
       ],
       "a": "刑事補償請求権",
       "comment": "不当な身柄拘束などによる損害を回復するための制度です。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15857,7 +15842,7 @@ const QUIZ_DATA = {
       ],
       "a": "知る権利",
       "comment": "これを保障するため、1999年には情報公開法が制定されました。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15870,7 +15855,7 @@ const QUIZ_DATA = {
       ],
       "a": "プライバシーの権利",
       "comment": "情報のデジタル化が進む中で重要視されており、個人情報保護法などで守られています。",
-      "answerImg": "assets/images/civics/g_civics_7_privacy_1773481800773.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_privacy_1773481800773.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15883,7 +15868,7 @@ const QUIZ_DATA = {
       ],
       "a": "個人情報保護法",
       "comment": "個人情報が外部に漏れたり、悪用されたりすることを防ぐための法律です。",
-      "answerImg": "assets/images/civics/g_civics_7_personal_info_1773481816116.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_personal_info_1773481816116.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15896,7 +15881,7 @@ const QUIZ_DATA = {
       ],
       "a": "肖像権",
       "comment": "プライバシーの権利の一部として、また有名人の場合は財産的な価値を持つ権利としても問題になります。",
-      "answerImg": "assets/images/civics/g_civics_7_portrait_rights_1773481835003.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_portrait_rights_1773481835003.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15909,7 +15894,7 @@ const QUIZ_DATA = {
       ],
       "a": "パワーハラスメント（パワハラ）",
       "comment": "暴力や暴言、無理な仕事の強要、仕事を与えないことなどが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_7_power_harassment_1773481851641.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_power_harassment_1773481851641.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15922,7 +15907,7 @@ const QUIZ_DATA = {
       ],
       "a": "著作権",
       "comment": "知的財産権の一つで、日本では原則として著作者の死後70年まで保護されます。",
-      "answerImg": "assets/images/civics/g_civics_8_copyright_1773482547930.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_copyright_1773482547930.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15935,12 +15920,11 @@ const QUIZ_DATA = {
       ],
       "a": "自己決定権",
       "comment": "医療現場でのインフォームド・コンセントや、臓器提供の意思表示などもこの権利に基づいています。",
-      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "「生命、自由及び幸福追求に対する国民の権利」として、日本国憲法第13条で保障されており、新しい人権の根拠ともなる権利は何か。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "幸福追求権",
         "自己決定権",
@@ -15949,12 +15933,11 @@ const QUIZ_DATA = {
       ],
       "a": "幸福追求権",
       "comment": "プライバシーの権利や環境権など、憲法に明記されていない新しい人権を主張する際の拠り所となります。",
-      "answerImg": "assets/images/civics/g_civics_8_happiness_pursuit_1773482588996.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_happiness_pursuit_1773482588996.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "生活する上で、きれいで快適な環境を求める権利を何というか。",
-      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "環境権",
         "生存権",
@@ -15963,12 +15946,11 @@ const QUIZ_DATA = {
       ],
       "a": "環境権",
       "comment": "公害などの問題が深刻化した高度経済成長期以降に、生存権や幸福追求権を根拠に主張されるようになりました。",
-      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "大規模な開発を行う前に、それが周囲の環境にどのような影響を及ぼすかを事前に調査・評価し、対策を立てる制度を何というか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境アセスメント（環境影響評価）",
         "環境基本計画",
@@ -15977,7 +15959,7 @@ const QUIZ_DATA = {
       ],
       "a": "環境アセスメント（環境影響評価）",
       "comment": "環境破壊を未然に防ぐため、一部の大規模な事業には法律でこの実施が義務付けられています。",
-      "answerImg": "assets/images/civics/g_civics_8_environmental_assessment_1773482628858.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_environmental_assessment_1773482628858.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -15990,7 +15972,7 @@ const QUIZ_DATA = {
       ],
       "a": "世界人権宣言",
       "comment": "法的な拘束力はありませんが、各国の人権保障の目標として大きな影響を与えています。",
-      "answerImg": "assets/images/civics/g_civics_1_human_rights_declaration_1773475502792.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_human_rights_declaration_1773475502792.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16003,7 +15985,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際人権規約",
       "comment": "1966年に国連総会で採択され、日本は1979年に批准しました（一部留保あり）。",
-      "answerImg": "assets/images/civics/g_civics_1_human_rights_declaration_1773475502792.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_human_rights_declaration_1773475502792.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16016,7 +15998,7 @@ const QUIZ_DATA = {
       ],
       "a": "アムネスティ・インターナショナル",
       "comment": "世界中の人権侵害状況を調査し、改善を求める活動を行っています。",
-      "answerImg": "assets/images/civics/g_civics_8_amnesty_1773482685832.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_amnesty_1773482685832.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16029,7 +16011,7 @@ const QUIZ_DATA = {
       ],
       "a": "遺伝子診断",
       "comment": "病気の予防や治療に役立つ一方で、差別やプライバシーの侵害につながる懸念も指摘されています。",
-      "answerImg": "assets/images/civics/g_civics_8_genetic_diagnosis_1773482705214.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_genetic_diagnosis_1773482705214.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16042,7 +16024,7 @@ const QUIZ_DATA = {
       ],
       "a": "遺伝子組み換え食品",
       "comment": "害虫に強い、特定の除草剤で枯れないなどの特徴を持たせることができます。日本では表示が義務付けられています。",
-      "answerImg": "assets/images/civics/g_civics_8_gmo_1773482722933.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_gmo_1773482722933.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16055,7 +16037,7 @@ const QUIZ_DATA = {
       ],
       "a": "核家族",
       "comment": "戦後、日本の家族形態の主流となりました。",
-      "answerImg": "assets/images/civics/g_civics_39_family_1773565528418.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_family_1773565528418.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16068,12 +16050,11 @@ const QUIZ_DATA = {
       ],
       "a": "少子高齢化",
       "comment": "労働力不足や社会保障費の増大などが課題です。",
-      "answerImg": "assets/images/civics/g_civics_40_aging_society_with_fewer_children_1773565812987.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_aging_society_with_fewer_children_1773565812987.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "インターネットなどを通じて、大量の情報が瞬時に行き交う社会は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報社会（情報化社会）",
         "工業社会",
@@ -16082,7 +16063,7 @@ const QUIZ_DATA = {
       ],
       "a": "情報社会（情報化社会）",
       "comment": "情報を正しく活用する能力（情報リテラシー）が重要になります。",
-      "answerImg": "assets/images/civics/g_civics_37_information_society_1773564999779.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_information_society_1773564999779.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16095,7 +16076,7 @@ const QUIZ_DATA = {
       ],
       "a": "グローバル化",
       "comment": "異文化理解や多文化共生が求められます。",
-      "answerImg": "assets/images/civics/g_civics_37_globalization_1773564958033.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_globalization_1773564958033.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16108,12 +16089,11 @@ const QUIZ_DATA = {
       ],
       "a": "多文化共生",
       "comment": "多様性を尊重する社会のあり方です。",
-      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "それぞれの地域の風土や歴史の中で育まれてきた、独自の生活様式や価値観は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "伝統文化",
         "大衆文化",
@@ -16122,12 +16102,11 @@ const QUIZ_DATA = {
       ],
       "a": "伝統文化",
       "comment": "祭りや年中行事、芸能などが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_39_traditional_culture_1773565461568.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_traditional_culture_1773565461568.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "男女が性別にかかわりなく、個性と能力を発揮できる社会を目指して制定された法律は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "男女共同参画社会基本法",
         "男女雇用機会均等法",
@@ -16136,7 +16115,7 @@ const QUIZ_DATA = {
       ],
       "a": "男女共同参画社会基本法",
       "comment": "「男は仕事、女は家庭」という固定的性別役割分担の意識を変える必要があります。",
-      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16149,7 +16128,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユニバーサルデザイン",
       "comment": "障害の有無や年齢にかかわらず利用できるようにすることです。",
-      "answerImg": "assets/images/civics/g_civics_3_universal_design_1773476413957.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_universal_design_1773476413957.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16162,12 +16141,11 @@ const QUIZ_DATA = {
       ],
       "a": "バリアフリー",
       "comment": "段差の解消やスロープの設置などが例です。",
-      "answerImg": "assets/images/civics/g_civics_4_barrier_free_1773480321721.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_barrier_free_1773480321721.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "情報を正しく判断し、活用する能力のことを何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報リテラシー",
         "メディアリテラシー",
@@ -16176,7 +16154,7 @@ const QUIZ_DATA = {
       ],
       "a": "情報リテラシー",
       "comment": "情報の信憑性を疑う批判的な視点も重要です。",
-      "answerImg": "assets/images/civics/g_civics_37_information_literacy_1773564914319.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_information_literacy_1773564914319.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16189,12 +16167,11 @@ const QUIZ_DATA = {
       ],
       "a": "ステレオタイプ",
       "comment": "「男性は仕事、女性は家事」などもステレオタイプの一種です。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205756_png_1773667255776.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205756_png_1773667255776.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "将来の世代の利益を損なわない範囲で、現在の世代の教求を満たす社会のあり方は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な社会",
         "高度情報社会",
@@ -16203,12 +16180,11 @@ const QUIZ_DATA = {
       ],
       "a": "持続可能な社会",
       "comment": "サステナビリティ（Sustainability）とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "自発的に社会貢献活動を行う、「志願者」という意味の言葉は？",
-      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
       "choices": [
         "ボランティア",
         "ドナー",
@@ -16217,12 +16193,11 @@ const QUIZ_DATA = {
       ],
       "a": "ボランティア",
       "comment": "阪神・淡路大震災（1995年）は「ボランティア元年」と呼ばれました。",
-      "answerImg": "assets/images/civics/g_civics_6_volunteer_1773481358706.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_volunteer_1773481358706.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本の伝統的な文化財のうち、演劇や音楽などの形のないものを何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "無形文化財",
         "有形文化財",
@@ -16231,7 +16206,7 @@ const QUIZ_DATA = {
       ],
       "a": "無形文化財",
       "comment": "歌舞伎や能楽、和紙（手漉き和紙）の技術などが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16244,7 +16219,7 @@ const QUIZ_DATA = {
       ],
       "a": "異文化理解",
       "comment": "自文化中心主義（エスノセントリズム）に陥らないようにすることが大切です。",
-      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16257,7 +16232,7 @@ const QUIZ_DATA = {
       ],
       "a": "マスメディア",
       "comment": "情報の送り手が一方的になりがちという側面もあります。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205758_png_1773667289194.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205758_png_1773667289194.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16270,7 +16245,7 @@ const QUIZ_DATA = {
       ],
       "a": "世論（よろん）",
       "comment": "政治や社会の動きに大きな影響を与えます。",
-      "answerImg": "assets/images/civics/g_civics_10_public_opinion_1773484181193.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_public_opinion_1773484181193.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16283,7 +16258,7 @@ const QUIZ_DATA = {
       ],
       "a": "知的財産権",
       "comment": "著作権や特許権、商標権などが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16296,7 +16271,7 @@ const QUIZ_DATA = {
       ],
       "a": "著作権",
       "comment": "著作者の死後70年間保護されます（日本の場合）。",
-      "answerImg": "assets/images/civics/g_civics_43_cop_1773581887405.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_cop_1773581887405.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16309,12 +16284,11 @@ const QUIZ_DATA = {
       ],
       "a": "特許権",
       "comment": "特許庁に出願し、審査を受ける必要があります。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "正月や盆など、毎年決まった時期に行われる行事を何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "年中行事",
         "通過儀礼",
@@ -16323,7 +16297,7 @@ const QUIZ_DATA = {
       ],
       "a": "年中行事",
       "comment": "日本人の生活リズムや季節感と深く結びついています。",
-      "answerImg": "assets/images/civics/g_civics_39_annual_events_1773565476098.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_annual_events_1773565476098.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16336,7 +16310,7 @@ const QUIZ_DATA = {
       ],
       "a": "通過儀礼",
       "comment": "イニシエーションとも呼ばれ、子供から大人への成長などを祝います。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205759_png_1773667304853.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205759_png_1773667304853.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16349,7 +16323,7 @@ const QUIZ_DATA = {
       ],
       "a": "世界遺産",
       "comment": "文化遺産、自然遺産、複合遺産の3種類があります。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16362,12 +16336,11 @@ const QUIZ_DATA = {
       ],
       "a": "NPO法（特定非営利活動促進法）",
       "comment": "契約や財産管理が団体名義でできるようになりました。",
-      "answerImg": "assets/images/civics/g_civics_49_npo_1773583913643.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_npo_1773583913643.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地域住民が親睦を深め、住みよい地域を作るために自主的に組織する団体は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "町内会・自治会",
         "NPO法人",
@@ -16376,7 +16349,7 @@ const QUIZ_DATA = {
       ],
       "a": "町内会・自治会",
       "comment": "防災訓練や清掃活動、祭りなどを行っています。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16389,7 +16362,7 @@ const QUIZ_DATA = {
       ],
       "a": "文化摩擦",
       "comment": "異文化理解と対話によって解決していく必要があります。",
-      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16402,7 +16375,7 @@ const QUIZ_DATA = {
       ],
       "a": "食の安全・安心",
       "comment": "トレーサビリティ（生産履歴の追跡）などの取り組みが進められています。",
-      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16415,12 +16388,11 @@ const QUIZ_DATA = {
       ],
       "a": "エシカル消費",
       "comment": "フェアトレード商品や環境配慮型商品の購入などが例です。",
-      "answerImg": "assets/images/civics/g_civics_21_consumption_1773542014728.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_consumption_1773542014728.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法の三大原則は、国民主権、平和主義と何か？",
-      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
       "choices": [
         "基本的人権の尊重",
         "天皇主権",
@@ -16429,12 +16401,11 @@ const QUIZ_DATA = {
       ],
       "a": "基本的人権の尊重",
       "comment": "人間が生まれながらにして持っている権利を永久に保障します。",
-      "answerImg": "assets/images/civics/g_civics_1_human_rights_1773475366229.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_human_rights_1773475366229.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法において、主権は誰にあるとされているか？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国民",
         "天皇",
@@ -16443,7 +16414,7 @@ const QUIZ_DATA = {
       ],
       "a": "国民",
       "comment": "天皇は「日本国の象徴」とされています。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205762_png_1773667352690.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205762_png_1773667352690.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16456,12 +16427,11 @@ const QUIZ_DATA = {
       ],
       "a": "公共の福祉",
       "comment": "他人の人権を侵害しない範囲で、自由や権利が認められます。",
-      "answerImg": "assets/images/civics/g_civics_4_public_welfare_1773480361880.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_public_welfare_1773480361880.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法第14条で定められている、人種や信条、性別などで差別されない原則は？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "法の下の平等",
         "機会均等",
@@ -16470,12 +16440,11 @@ const QUIZ_DATA = {
       ],
       "a": "法の下の平等",
       "comment": "華族などの特権階級も認められていません。",
-      "answerImg": "assets/images/civics/g_civics_2_law_1773475857972.jpg",
+      "answerImg": "assets/images/civics/g_civics_2_law_1773475857972.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法第25条で、「健康で文化的な最低限度の生活を営む権利」と規定されている権利は？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "生存権",
         "自由権",
@@ -16484,7 +16453,7 @@ const QUIZ_DATA = {
       ],
       "a": "生存権",
       "comment": "社会権の一つで、生活保護制度などの根拠となります。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205763_png_1773667369823.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205763_png_1773667369823.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16497,7 +16466,7 @@ const QUIZ_DATA = {
       ],
       "a": "表現の自由",
       "comment": "精神の自由（自由権）の一つです。",
-      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16510,7 +16479,7 @@ const QUIZ_DATA = {
       ],
       "a": "身体の自由",
       "comment": "奴隷的拘束や苦役からの自由も含まれます。",
-      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16523,7 +16492,7 @@ const QUIZ_DATA = {
       ],
       "a": "参政権",
       "comment": "「国民固有の権利」とされています。",
-      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16536,7 +16505,7 @@ const QUIZ_DATA = {
       ],
       "a": "環境権",
       "comment": "日照権などもこれに含まれます。",
-      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16549,7 +16518,7 @@ const QUIZ_DATA = {
       ],
       "a": "知る権利",
       "comment": "情報公開制度によって保障されます。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16562,7 +16531,7 @@ const QUIZ_DATA = {
       ],
       "a": "朝日訴訟",
       "comment": "最高裁は「健康で文化的な最低限度の生活」の基準は厚生大臣の裁量に委ねられると判断しました。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205766_png_1773667720179.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205766_png_1773667720179.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16575,7 +16544,7 @@ const QUIZ_DATA = {
       ],
       "a": "「宴のあと」事件",
       "comment": "日本で初めてプライバシー権が法的に認められるきっかけとなりました。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205767_png_1773667734989.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205767_png_1773667734989.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16588,7 +16557,7 @@ const QUIZ_DATA = {
       ],
       "a": "アクセス権",
       "comment": "「反論権」とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205768_png_1773667751007.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205768_png_1773667751007.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16601,7 +16570,7 @@ const QUIZ_DATA = {
       ],
       "a": "インフォームド・コンセント",
       "comment": "自己決定権の一つとして重要視されています。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205769_png_1773667765591.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205769_png_1773667765591.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16614,7 +16583,7 @@ const QUIZ_DATA = {
       ],
       "a": "世界人権宣言",
       "comment": "法的拘束力はありませんが、各国の憲法や法律に大きな影響を与えました。",
-      "answerImg": "assets/images/civics/g_civics_new_public_assistance_1773667205770_png_1773667781001.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_public_assistance_1773667205770_png_1773667781001.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16627,7 +16596,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際人権規約",
       "comment": "A規約（社会権）とB規約（自由権）があります。",
-      "answerImg": "assets/images/civics/g_civics_5_political_rights_1773480811046.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_political_rights_1773480811046.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16640,7 +16609,7 @@ const QUIZ_DATA = {
       ],
       "a": "子どもの権利条約",
       "comment": "日本は1994年に批准しました。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205771_png_1773667797445.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205771_png_1773667797445.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16653,7 +16622,7 @@ const QUIZ_DATA = {
       ],
       "a": "男女雇用機会均等法",
       "comment": "1985年に制定され、その後も改正されて内容が強化されています。",
-      "answerImg": "assets/images/civics/g_civics_24_equal_employment_opportunity_act_1773546306204.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_equal_employment_opportunity_act_1773546306204.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16666,12 +16635,11 @@ const QUIZ_DATA = {
       ],
       "a": "マグナ・カルタ（大憲章）",
       "comment": "法の支配の原型とされています。",
-      "answerImg": "assets/images/civics/g_civics_1_magna_carta_1773475394699.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_magna_carta_1773475394699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1789年のフランス革命で出された、自由・平等・博愛を掲げた宣言は？",
-      "img": "assets/images/history/h_early_modern_7_american_independence.jpg",
       "choices": [
         "フランス人権宣言",
         "アメリカ独立宣言",
@@ -16680,7 +16648,7 @@ const QUIZ_DATA = {
       ],
       "a": "フランス人権宣言",
       "comment": "「人は生まれながらにして自由かつ平等な権利を持つ」と謳いました。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205772_png_1773667816144.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205772_png_1773667816144.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16693,7 +16661,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワイマール憲法",
       "comment": "「生存権」の考え方に大きな影響を与えました。",
-      "answerImg": "assets/images/civics/g_civics_1_weimar_constitution_1773475478108.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_weimar_constitution_1773475478108.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16706,12 +16674,11 @@ const QUIZ_DATA = {
       ],
       "a": "政教分離の原則",
       "comment": "政治と宗教の結びつきを防ぐためのものです。",
-      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "大学などが、外部の権力（政府など）から干渉されずに研究や教育を行う権利は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "学問の自由",
         "教育を受ける権利",
@@ -16720,7 +16687,7 @@ const QUIZ_DATA = {
       ],
       "a": "学問の自由",
       "comment": "「大学の自治」として保障されています。",
-      "answerImg": "assets/images/civics/g_civics_4_academic_freedom_1773480455553.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_academic_freedom_1773480455553.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16733,7 +16700,7 @@ const QUIZ_DATA = {
       ],
       "a": "職業選択の自由",
       "comment": "公共の福祉による制限を受ける場合があります（資格が必要な職業など）。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205773_png_1773667834943.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205773_png_1773667834943.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16746,7 +16713,7 @@ const QUIZ_DATA = {
       ],
       "a": "罪刑法定主義",
       "comment": "「法律なければ刑罰なし」という言葉で表されます。",
-      "answerImg": "assets/images/civics/g_civics_new_united_nations_1773667205774_png_1773667850360.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_united_nations_1773667205774_png_1773667850360.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16759,7 +16726,7 @@ const QUIZ_DATA = {
       ],
       "a": "令状主義",
       "comment": "不当な捜査から人権を守るための仕組みです。",
-      "answerImg": "assets/images/civics/g_civics_18_warrant_requirement_1773505033665.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_warrant_requirement_1773505033665.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16772,7 +16739,7 @@ const QUIZ_DATA = {
       ],
       "a": "黙秘権",
       "comment": "拷問による自白などを防ぐために保障されています。",
-      "answerImg": "assets/images/civics/g_civics_new_convention_on_rights_of_child_1773667205775_png_1773667865467.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_convention_on_rights_of_child_1773667205775_png_1773667865467.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16785,7 +16752,7 @@ const QUIZ_DATA = {
       ],
       "a": "一事不再理",
       "comment": "刑事裁判の重要な原則の一つです。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205776_png_1773667961417.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205776_png_1773667961417.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16798,7 +16765,7 @@ const QUIZ_DATA = {
       ],
       "a": "自己決定権",
       "comment": "尊厳死や延命治療の拒否などもこの権利に関わります。",
-      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16811,12 +16778,11 @@ const QUIZ_DATA = {
       ],
       "a": "情報公開制度",
       "comment": "知る権利を具体化するための制度です。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205777_png_1773667976723.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205777_png_1773667976723.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "アイヌ民族を先住民族と明記し、独自の文化の振興などを定めた2019年の法律は？",
-      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.jpg",
       "choices": [
         "アイヌ施策推進法",
         "アイヌ文化振興法",
@@ -16825,7 +16791,7 @@ const QUIZ_DATA = {
       ],
       "a": "アイヌ施策推進法",
       "comment": "アイヌ文化の誇りが尊重される社会の実現を目指しています。",
-      "answerImg": "assets/images/civics/g_civics_3_ainu_people_1773476270551.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_ainu_people_1773476270551.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16838,12 +16804,11 @@ const QUIZ_DATA = {
       ],
       "a": "障害者基本法",
       "comment": "障害者の自立と社会参加の支援を定めています。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205778_png_1773667993549.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205778_png_1773667993549.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国の権力を立法、行政、司法の三つに分け、抑制と均衡を保つ仕組みは？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "三権分立",
         "地方自治",
@@ -16852,12 +16817,11 @@ const QUIZ_DATA = {
       ],
       "a": "三権分立",
       "comment": "モンテスキューが『法の精神』で唱えました。",
-      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法において、「国権の最高機関」であり「唯一の立法機関」とされるのは？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国会",
         "内閣",
@@ -16866,7 +16830,7 @@ const QUIZ_DATA = {
       ],
       "a": "国会",
       "comment": "衆議院と参議院の二院制をとっています。",
-      "answerImg": "assets/images/civics/g_civics_11_national_diet_1773503007142.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_national_diet_1773503007142.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16879,7 +16843,7 @@ const QUIZ_DATA = {
       ],
       "a": "内閣",
       "comment": "内閣総理大臣と国務大臣で組織されます。",
-      "answerImg": "assets/images/civics/g_civics_13_prime_minister_cabinet_1773503660268.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_prime_minister_cabinet_1773503660268.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16892,7 +16856,7 @@ const QUIZ_DATA = {
       ],
       "a": "憲法の番人",
       "comment": "違憲立法審査権を行使します。",
-      "answerImg": "assets/images/civics/g_civics_14_courts_1773504084087.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_courts_1773504084087.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16905,7 +16869,7 @@ const QUIZ_DATA = {
       ],
       "a": "10日以内に衆議院を解散するか、総辞職する",
       "comment": "内閣不信任決議権に対する対抗措置です。",
-      "answerImg": "assets/images/civics/g_civics_14_dissolution_house_reps_1773504147249.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_dissolution_house_reps_1773504147249.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16918,7 +16882,7 @@ const QUIZ_DATA = {
       ],
       "a": "弾劾裁判所",
       "comment": "衆参両院の議員で作られます。",
-      "answerImg": "assets/images/civics/g_civics_14_lower_courts_1773504112691.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_lower_courts_1773504112691.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16931,7 +16895,7 @@ const QUIZ_DATA = {
       ],
       "a": "直接選挙",
       "comment": "有権者が自分で直接候補者や政党に投票します。",
-      "answerImg": "assets/images/civics/g_civics_9_direct_election_1773482898610.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_direct_election_1773482898610.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16944,12 +16908,11 @@ const QUIZ_DATA = {
       ],
       "a": "小選挙区比例代表並立制",
       "comment": "二つの投票用紙に記入します。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205779_png_1773668010323.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205779_png_1773668010323.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地域の政治をその地域の住民や自治体が行うことを、「民主主義の学校」と呼んだことにちなんで何というか？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方自治",
         "直接請求権",
@@ -16958,7 +16921,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方自治",
       "comment": "ブライスが提唱した言葉です。",
-      "answerImg": "assets/images/civics/g_civics_19_local_autonomy_1773505207642.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_local_autonomy_1773505207642.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16971,7 +16934,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方交付税交付金",
       "comment": "地域間の財政格差をなくすために交付されます。",
-      "answerImg": "assets/images/civics/g_civics_20_local_allocation_tax_1773505451446.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_local_allocation_tax_1773505451446.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16984,7 +16947,7 @@ const QUIZ_DATA = {
       ],
       "a": "死票（しひょう）",
       "comment": "大政党に有利になりやすいという特徴もあります。",
-      "answerImg": "assets/images/civics/g_civics_new_duties_1773667205780_png_1773668026240.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_duties_1773667205780_png_1773668026240.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -16997,7 +16960,7 @@ const QUIZ_DATA = {
       ],
       "a": "一票の格差",
       "comment": "最高裁判所で違憲判決が出されることもあります。",
-      "answerImg": "assets/images/civics/g_civics_10_vote_disparity_1773484121945.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_vote_disparity_1773484121945.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17010,7 +16973,7 @@ const QUIZ_DATA = {
       ],
       "a": "政党交付金",
       "comment": "所属議員数や得票率に応じて配分されます。",
-      "answerImg": "assets/images/civics/g_civics_10_party_subsidy_1773484142744.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_party_subsidy_1773484142744.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17023,7 +16986,7 @@ const QUIZ_DATA = {
       ],
       "a": "委員会",
       "comment": "本会議の前に詳細な審査を行います（委員会中心主義）。",
-      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17036,7 +16999,7 @@ const QUIZ_DATA = {
       ],
       "a": "国政調査権",
       "comment": "ロッキード事件などの汚職事件の解明などで行使されました。",
-      "answerImg": "assets/images/civics/g_civics_12_investigate_state_affairs_1773503323538.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_investigate_state_affairs_1773503323538.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17049,7 +17012,7 @@ const QUIZ_DATA = {
       ],
       "a": "行政委員会",
       "comment": "政治的な中立性を保つ必要があるため設置されます。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205781_png_1773668042569.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205781_png_1773668042569.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17062,7 +17025,7 @@ const QUIZ_DATA = {
       ],
       "a": "公務員",
       "comment": "政治的活動の制限などの義務があります。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205782_png_1773668057018.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205782_png_1773668057018.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17075,7 +17038,7 @@ const QUIZ_DATA = {
       ],
       "a": "裁判の公開",
       "comment": "裁判の公正さを保つためです（対審と判決）。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205784_png_1773668070753.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205784_png_1773668070753.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17088,7 +17051,7 @@ const QUIZ_DATA = {
       ],
       "a": "検察審査会",
       "comment": "「起訴相当」の議決が出ると、強制的に起訴される場合もあります。",
-      "answerImg": "assets/images/civics/g_civics_17_prosecution_review_commission_1773504826480.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_prosecution_review_commission_1773504826480.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17101,12 +17064,11 @@ const QUIZ_DATA = {
       ],
       "a": "法テラス",
       "comment": "誰もが司法サービスを受けられるように設立されました。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205785_png_1773668085467.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205785_png_1773668085467.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1999年に制定された、国と地方の関係を「対等・協力」の関係に変えることを目指した法律は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方分権一括法",
         "地方自治法",
@@ -17115,12 +17077,11 @@ const QUIZ_DATA = {
       ],
       "a": "地方分権一括法",
       "comment": "機関委任事務が廃止され、自治事務と法定受託事務に再編されました。",
-      "answerImg": "assets/images/civics/g_civics_19_decentralization_1773505300179.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_decentralization_1773505300179.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国政選挙や都道府県知事選挙の事務など、本来は国の仕事だが、法令により地方公共団体が処理する事務は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "法定受託事務",
         "自治事務",
@@ -17129,12 +17090,11 @@ const QUIZ_DATA = {
       ],
       "a": "法定受託事務",
       "comment": "パスポートの交付や生活保護の決定などがこれにあたります。",
-      "answerImg": "assets/images/civics/g_civics_28_trust_1773547519332.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_trust_1773547519332.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "平成の時代に、財政基盤の強化などを目的として、多くの市町村が合併したことを何というか？",
-      "img": "assets/images/history/h_modern_1_haihan_1773341754956.jpg",
       "choices": [
         "平成の大合併",
         "廃藩置県",
@@ -17143,7 +17103,7 @@ const QUIZ_DATA = {
       ],
       "a": "平成の大合併",
       "comment": "市町村の数は約3200から約1700に減りました。",
-      "answerImg": "assets/images/civics/g_civics_20_municipal_mergers_1773505536032.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_municipal_mergers_1773505536032.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17156,7 +17116,7 @@ const QUIZ_DATA = {
       ],
       "a": "衆議院の優越",
       "comment": "予算の議決、条約の承認、内閣総理大臣の指名、法律案の再可決などで認められています。",
-      "answerImg": "assets/images/civics/g_civics_12_supremacy_house_reps_1773503310439.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_supremacy_house_reps_1773503310439.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17169,7 +17129,7 @@ const QUIZ_DATA = {
       ],
       "a": "常会（通常国会）",
       "comment": "会期は150日間で、主に次年度の予算を審議します。",
-      "answerImg": "assets/images/civics/g_civics_12_extraordinary_session_1773503205161.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_extraordinary_session_1773503205161.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17182,7 +17142,7 @@ const QUIZ_DATA = {
       ],
       "a": "ドント式",
       "comment": "得票数を1, 2, 3…と整数で割り、商の大きい順に議席を配分します。",
-      "answerImg": "assets/images/civics/g_civics_10_dhondt_1773484051016.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_dhondt_1773484051016.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17195,12 +17155,11 @@ const QUIZ_DATA = {
       ],
       "a": "閣議",
       "comment": "内閣総理大臣が主宰し、全会一致が原則です。",
-      "answerImg": "assets/images/civics/g_civics_16_cabinet_meeting_1773504653666.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_cabinet_meeting_1773504653666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地方自治法などの特定の法律を制定するために、対象となる地方公共団体の住民の投票で過半数の賛成が必要な制度は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "住民投票",
         "リコール",
@@ -17209,12 +17168,11 @@ const QUIZ_DATA = {
       ],
       "a": "住民投票",
       "comment": "憲法95条に基づく「特別法の制定」の場合です。",
-      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地方自治において、住民が署名を集めて、条例の制定や改廃を首長に請求する権利を何というか？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "直接請求権",
         "請願権",
@@ -17223,7 +17181,7 @@ const QUIZ_DATA = {
       ],
       "a": "直接請求権",
       "comment": "有権者の50分の1以上の署名が必要です。",
-      "answerImg": "assets/images/civics/g_civics_20_direct_demand_1773505488535.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_direct_demand_1773505488535.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17236,7 +17194,7 @@ const QUIZ_DATA = {
       ],
       "a": "リコール（解職請求）",
       "comment": "有権者の3分の1以上の署名が必要です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_recall_1773716553481.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_recall_1773716553481.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17249,7 +17207,7 @@ const QUIZ_DATA = {
       ],
       "a": "裁判員制度",
       "comment": "2009年から開始されました。",
-      "answerImg": "assets/images/civics/g_civics_17_saibanin_system_1773504806548.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_saibanin_system_1773504806548.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17262,7 +17220,7 @@ const QUIZ_DATA = {
       ],
       "a": "常任委員会",
       "comment": "予算委員会や外務委員会などがあります。",
-      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17275,7 +17233,7 @@ const QUIZ_DATA = {
       ],
       "a": "再議権（拒否権）",
       "comment": "拒否権とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_50_veto_power_1773584350813.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_veto_power_1773584350813.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17288,12 +17246,11 @@ const QUIZ_DATA = {
       ],
       "a": "住民投票",
       "comment": "結果に法的拘束力がない場合が多いですが、政治的影響力は大きいです。",
-      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "選挙区のあちこちにポスターを貼ったり、街頭演説をしたりする選挙運動ができる期間は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "公示（告示）日から投票日の前日まで",
         "解散日から投票日まで",
@@ -17302,7 +17259,7 @@ const QUIZ_DATA = {
       ],
       "a": "公示（告示）日から投票日の前日まで",
       "comment": "期間外の選挙運動は事前運動として禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_11_budget_committee_1773502874580.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_budget_committee_1773502874580.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17315,7 +17272,7 @@ const QUIZ_DATA = {
       ],
       "a": "需要量",
       "comment": "価格が下がると需要量は増えるのが一般的です。",
-      "answerImg": "assets/images/civics/g_civics_27_quantity_demanded_1773547273577.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_quantity_demanded_1773547273577.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17328,7 +17285,7 @@ const QUIZ_DATA = {
       ],
       "a": "均衡価格",
       "comment": "商品の価格は均衡価格に近づくように変動します。",
-      "answerImg": "assets/images/civics/g_civics_27_equilibrium_price_1773547314957.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_equilibrium_price_1773547314957.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17341,7 +17298,7 @@ const QUIZ_DATA = {
       ],
       "a": "寡占（かせん）",
       "comment": "一社だけの支配は「独占」といいます。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17354,7 +17311,7 @@ const QUIZ_DATA = {
       ],
       "a": "独占禁止法",
       "comment": "公正取引委員会が運用しています。",
-      "answerImg": "assets/images/civics/g_civics_28_antimonopoly_act_1773547570836.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_antimonopoly_act_1773547570836.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17367,7 +17324,7 @@ const QUIZ_DATA = {
       ],
       "a": "株式会社",
       "comment": "出資者は株式を受け取り、配当金などを得られます。",
-      "answerImg": "assets/images/civics/g_civics_25_company_1773546666299.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_company_1773546666299.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17380,12 +17337,11 @@ const QUIZ_DATA = {
       ],
       "a": "日本銀行",
       "comment": "金融政策を行って景気や物価を調整します。",
-      "answerImg": "assets/images/civics/g_civics_29_bank_of_japan_1773547852483.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_bank_of_japan_1773547852483.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "物価が継続的に上昇し、貨幣価値が下がる現象を何というか？",
-      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "インフレーション",
         "デフレーション",
@@ -17394,12 +17350,11 @@ const QUIZ_DATA = {
       ],
       "a": "インフレーション",
       "comment": "逆に物価が下がり続けるのはデフレーションです。",
-      "answerImg": "assets/images/civics/g_civics_30_inflation_1773548167042.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_inflation_1773548167042.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "納税者と税を負担する人が異なる税金を何というか？",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -17408,12 +17363,11 @@ const QUIZ_DATA = {
       ],
       "a": "間接税",
       "comment": "消費税などが代表例です。",
-      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "所得税のように、所得が高くなるにつれて税率が高くなる仕組みは？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "累進課税",
         "逆進性",
@@ -17422,7 +17376,7 @@ const QUIZ_DATA = {
       ],
       "a": "累進課税",
       "comment": "所得の再分配機能を持っています。",
-      "answerImg": "assets/images/civics/g_civics_30_tax_1773548256683.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_tax_1773548256683.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17435,7 +17389,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会保障",
       "comment": "日本の社会保障は「社会保険」「公的扶助」「社会福祉」「公衆衛生」の4つの柱からなります。",
-      "answerImg": "assets/images/civics/g_civics_34_social_security_1773563396666.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_social_security_1773563396666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17448,7 +17402,7 @@ const QUIZ_DATA = {
       ],
       "a": "クーリング・オフ",
       "comment": "訪問販売の場合は8日間以内であれば書面などで通知して解除できます。",
-      "answerImg": "assets/images/civics/g_civics_23_cooling_off_1773545555874.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_cooling_off_1773545555874.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17461,7 +17415,7 @@ const QUIZ_DATA = {
       ],
       "a": "製造物責任法（PL法）",
       "comment": "「欠陥」があったことを証明すればよいことになりました。",
-      "answerImg": "assets/images/civics/g_civics_23_product_liability_act_1773545494775.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_product_liability_act_1773545494775.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17474,7 +17428,7 @@ const QUIZ_DATA = {
       ],
       "a": "労働三権",
       "comment": "団結権、団体交渉権、団体行動権（争議権）の三つです。",
-      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17487,7 +17441,7 @@ const QUIZ_DATA = {
       ],
       "a": "円高",
       "comment": "円の価値が上がったため、輸入品が安くなります。",
-      "answerImg": "assets/images/civics/g_civics_34_strong_yen_1773563365633.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_strong_yen_1773563365633.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17500,7 +17454,7 @@ const QUIZ_DATA = {
       ],
       "a": "国債（公債）",
       "comment": "公共事業などのための「建設国債」と、赤字を埋める「赤字国債（特例国債）」があります。",
-      "answerImg": "assets/images/civics/g_civics_30_government_1773548232644.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_government_1773548232644.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17513,7 +17467,7 @@ const QUIZ_DATA = {
       ],
       "a": "プライマリー・バランス",
       "comment": "「基礎的財政収支」ともいい、これが黒字化することが財政健全化の目標です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_primary_balance_1773716584545.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_primary_balance_1773716584545.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17526,12 +17480,11 @@ const QUIZ_DATA = {
       ],
       "a": "介護保険制度",
       "comment": "2000年から導入された社会保険の一つです。",
-      "answerImg": "assets/images/civics/g_civics_33_nursing_care_insurance_1773563122432.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_nursing_care_insurance_1773563122432.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "商品を買う時に支払う消費税のように、税金を納める人と負担する人が異なる税金を何というか？",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -17540,7 +17493,7 @@ const QUIZ_DATA = {
       ],
       "a": "間接税",
       "comment": "酒税やたばこ税も間接税です。",
-      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17553,7 +17506,7 @@ const QUIZ_DATA = {
       ],
       "a": "契約",
       "comment": "口約束でも成立しますが、トラブル防止のため契約書を作ることが多いです。",
-      "answerImg": "assets/images/civics/g_civics_23_consumer_contract_act_1773545506699.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_consumer_contract_act_1773545506699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17566,7 +17519,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者基本法",
       "comment": "2004年に消費者保護基本法を改正して制定されました。",
-      "answerImg": "assets/images/civics/g_civics_23_basic_act_on_consumer_policies_1773545519794.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_basic_act_on_consumer_policies_1773545519794.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17579,7 +17532,7 @@ const QUIZ_DATA = {
       ],
       "a": "多重債務",
       "comment": "深刻な場合は弁護士や消費生活センターへの相談が必要です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_multiple_debts_1773716601256.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_multiple_debts_1773716601256.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17592,7 +17545,7 @@ const QUIZ_DATA = {
       ],
       "a": "クレジットカード",
       "comment": "販売店が信販会社から代金を受け取り、消費者は後で信販会社に支払います。",
-      "answerImg": "assets/images/civics/g_civics_22_credit_card_1773543449322.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_credit_card_1773543449322.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17605,7 +17558,7 @@ const QUIZ_DATA = {
       ],
       "a": "企業の社会的責任（CSR）",
       "comment": "法令遵守（コンプライアンス）もその基礎となります。",
-      "answerImg": "assets/images/civics/g_civics_27_csr_1773547242026.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_csr_1773547242026.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17618,7 +17571,7 @@ const QUIZ_DATA = {
       ],
       "a": "非正規雇用",
       "comment": "雇用の不安定さや低賃金などが問題となることがあります。",
-      "answerImg": "assets/images/civics/g_civics_24_non_regular_employee_1773546252948.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_non_regular_employee_1773546252948.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17631,7 +17584,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワーク・ライフ・バランス",
       "comment": "過労死や少子化対策の観点からも重要視されています。",
-      "answerImg": "assets/images/civics/g_civics_25_work_life_balance_1773546549097.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_work_life_balance_1773546549097.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17644,12 +17597,11 @@ const QUIZ_DATA = {
       ],
       "a": "得になる（少ない円でドルを買えるから）",
       "comment": "これは「円高」の状態です。輸入品も安くなります。",
-      "answerImg": "assets/images/civics/g_civics_34_weak_yen_1773563381894.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_weak_yen_1773563381894.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1990年代初め、株価や地価が急激に下落し、景気が後退した現象を何というか？",
-      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "バブル経済の崩壊",
         "リーマン・ショック",
@@ -17658,12 +17610,11 @@ const QUIZ_DATA = {
       ],
       "a": "バブル経済の崩壊",
       "comment": "その後、長期にわたる不況（失われた20年）が続きました。",
-      "answerImg": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
+      "answerImg": "assets/images/history/h_contemporary_4_bubble_1772244803554.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "税収全体に占める、直接税と間接税の割合のことを何というか？",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "直間比率",
         "税負担率",
@@ -17672,7 +17623,7 @@ const QUIZ_DATA = {
       ],
       "a": "直間比率",
       "comment": "日本は近年、消費税の引き上げなどで間接税の割合が高まっています。",
-      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17685,7 +17636,7 @@ const QUIZ_DATA = {
       ],
       "a": "賦課方式（ふかほうしき）",
       "comment": "日本の公的年金制度の基本です（少子高齢化の影響を受けやすい）。",
-      "answerImg": "assets/images/civics/g_civics_5_pension_1773480720993.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_pension_1773480720993.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17698,7 +17649,7 @@ const QUIZ_DATA = {
       ],
       "a": "寡占（かせん）",
       "comment": "一社だけの支配は「独占」といいます。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17711,7 +17662,7 @@ const QUIZ_DATA = {
       ],
       "a": "非価格競争",
       "comment": "管理価格が形成されやすくなります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_non_price_competition_1773716616701.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_non_price_competition_1773716616701.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17724,7 +17675,7 @@ const QUIZ_DATA = {
       ],
       "a": "カルテル",
       "comment": "独占禁止法で原則として禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_28_cartel_1773547501782.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_cartel_1773547501782.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17737,7 +17688,7 @@ const QUIZ_DATA = {
       ],
       "a": "労働三法",
       "comment": "労働基準法、労働組合法、労働関係調整法の3つです。",
-      "answerImg": "assets/images/history/three_labor_laws_1773368747516.jpg",
+      "answerImg": "assets/images/history/three_labor_laws_1773368747516.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17750,12 +17701,11 @@ const QUIZ_DATA = {
       ],
       "a": "仲裁",
       "comment": "仲裁裁定には法的拘束力があります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_arbitration_1773716644769.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_arbitration_1773716644769.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1945年に設立された、世界の平和と安全を守るための国際機関は？",
-      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
       "choices": [
         "国際連合",
         "国際連盟",
@@ -17764,12 +17714,11 @@ const QUIZ_DATA = {
       ],
       "a": "国際連合",
       "comment": "本部はニューヨークにあります。",
-      "answerImg": "assets/images/history/united_nations_1773368765000.jpg",
+      "answerImg": "assets/images/history/united_nations_1773368765000.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国際連合の主要機関の一つで、世界の平和と安全の維持に責任を持つ機関は？",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "安全保障理事会",
         "総会",
@@ -17778,7 +17727,7 @@ const QUIZ_DATA = {
       ],
       "a": "安全保障理事会",
       "comment": "5つの常任理事国には拒否権があります。",
-      "answerImg": "assets/images/civics/g_civics_50_un_security_council_1773584337151.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_un_security_council_1773584337151.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17791,7 +17740,7 @@ const QUIZ_DATA = {
       ],
       "a": "中国",
       "comment": "第二次世界大戦の戦勝国が中心です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_china_1773716658966.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_china_1773716658966.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17804,12 +17753,11 @@ const QUIZ_DATA = {
       ],
       "a": "地球温暖化",
       "comment": "温室効果ガス（二酸化炭素など）の増加が原因とされています。",
-      "answerImg": "assets/images/civics/g_civics_43_global_environmental_issues_1773581811205.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_global_environmental_issues_1773581811205.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "将来の世代の欲求を満たしつつ、現在の世代の欲求も満たすような開発を何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な開発",
         "経済成長",
@@ -17818,12 +17766,11 @@ const QUIZ_DATA = {
       ],
       "a": "持続可能な開発",
       "comment": "「Sustainable Development」の訳語です。",
-      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "2015年に国連で採択された、「持続可能な開発目標」の略称は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "SDGs",
         "GDP",
@@ -17832,12 +17779,11 @@ const QUIZ_DATA = {
       ],
       "a": "SDGs",
       "comment": "17の目標と169のターゲットからなります。",
-      "answerImg": "assets/images/history/h_contemporary_5_sdgs_1773343811627.jpg",
+      "answerImg": "assets/images/history/h_contemporary_5_sdgs_1773343811627.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国境なき医師団やアムネスティ・インターナショナルなど、利益を目的とせずに活動する民間組織は？",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NGO（非政府組織）",
         "NPO（非営利組織）",
@@ -17846,12 +17792,11 @@ const QUIZ_DATA = {
       ],
       "a": "NGO（非政府組織）",
       "comment": "国際的な課題解決に大きな役割を果たしています。",
-      "answerImg": "assets/images/civics/g_civics_49_ngo_1773583896329.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_ngo_1773583896329.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "二酸化炭素の排出を抑えるため、再生可能エネルギーとして注目されているのは？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "太陽光発電",
         "火力発電",
@@ -17860,7 +17805,7 @@ const QUIZ_DATA = {
       ],
       "a": "太陽光発電",
       "comment": "風力や地熱、バイオマスなども再生可能エネルギーです。",
-      "answerImg": "assets/images/civics/g_civics_36_renewable_energy_1773564773351.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_renewable_energy_1773564773351.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17873,12 +17818,11 @@ const QUIZ_DATA = {
       ],
       "a": "南北問題",
       "comment": "北半球に先進国、南半球に途上国が多いことからこう呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_44_north_south_problem_1773582341745.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_north_south_problem_1773582341745.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地域紛争の解決などのために、国連が各国の軍隊などを派遣して行う活動は？",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "PKO（国連平和維持活動）",
         "ODA（政府開発援助）",
@@ -17887,7 +17831,7 @@ const QUIZ_DATA = {
       ],
       "a": "PKO（国連平和維持活動）",
       "comment": "日本も自衛隊を派遣しています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_pko_1773716677116.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_pko_1773716677116.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17900,7 +17844,7 @@ const QUIZ_DATA = {
       ],
       "a": "ラムサール条約",
       "comment": "日本では釧路湿原などが登録されています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_ramsar_convention_1773716689933.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_ramsar_convention_1773716689933.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17913,12 +17857,11 @@ const QUIZ_DATA = {
       ],
       "a": "ワシントン条約",
       "comment": "象牙やタイマイ（ウミガメ）などが対象です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "熊本県の水俣湾沿岸で発生し、工場排水に含まれる有機水銀が原因となった公害病は？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "水俣病",
         "新潟水俣病",
@@ -17927,12 +17870,11 @@ const QUIZ_DATA = {
       ],
       "a": "水俣病",
       "comment": "手足のしびれや運動障害などの症状が出ました。",
-      "answerImg": "assets/images/civics/g_civics_33_four_major_pollution_diseases_1773563154951.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_four_major_pollution_diseases_1773563154951.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "富山県の神通川流域で発生し、鉱山から排出されたカドミウムが原因となった公害病は？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "イタイイタイ病",
         "水俣病",
@@ -17941,7 +17883,7 @@ const QUIZ_DATA = {
       ],
       "a": "イタイイタイ病",
       "comment": "骨がもろくなり、激しい痛みを伴います。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_itai_itai_1773716734075.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_itai_itai_1773716734075.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17954,7 +17896,7 @@ const QUIZ_DATA = {
       ],
       "a": "核拡散防止条約（NPT）",
       "comment": "核保有国の軍縮義務も定めていますが、不十分だという批判もあります。",
-      "answerImg": "assets/images/civics/g_civics_47_npt_1773583341020.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_npt_1773583341020.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17967,7 +17909,7 @@ const QUIZ_DATA = {
       ],
       "a": "EU（欧州連合）",
       "comment": "本部はベルギーのブリュッセルにあります。",
-      "answerImg": "assets/images/geography/g_gw_1_135_eu_flags_1773418101437.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_135_eu_flags_1773418101437.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17980,7 +17922,7 @@ const QUIZ_DATA = {
       ],
       "a": "ASEAN（東南アジア諸国連合）",
       "comment": "「東南アジア諸国連合」の略称です。",
-      "answerImg": "assets/images/history/h_contemporary_3_asean_1773343491452.jpg",
+      "answerImg": "assets/images/history/h_contemporary_3_asean_1773343491452.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -17993,7 +17935,7 @@ const QUIZ_DATA = {
       ],
       "a": "APEC（アジア太平洋経済協力）",
       "comment": "日本、アメリカ、中国、オーストラリアなどが参加しています。",
-      "answerImg": "assets/images/civics/g_civics_46_apec_1773582984693.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_apec_1773582984693.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18006,12 +17948,11 @@ const QUIZ_DATA = {
       ],
       "a": "オゾン層",
       "comment": "オゾンホールが南極上空などで観測されています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_ozone_layer_1773716747939.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_ozone_layer_1773716747939.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "工場や自動車から排出される硫黄酸化物や窒素酸化物が原因で、森林を枯らしたりする雨は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "酸性雨",
         "集中豪雨",
@@ -18020,7 +17961,7 @@ const QUIZ_DATA = {
       ],
       "a": "酸性雨",
       "comment": "国境を越えて被害が広がることもあります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_acid_rain_1773716765319.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_acid_rain_1773716765319.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18033,7 +17974,7 @@ const QUIZ_DATA = {
       ],
       "a": "砂漠化",
       "comment": "アフリカのサヘル地域などで深刻な問題となっています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_desertification_1773716779589.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_desertification_1773716779589.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18046,7 +17987,7 @@ const QUIZ_DATA = {
       ],
       "a": "レアメタル（希少金属）",
       "comment": "リサイクル（都市鉱山）の活用が期待されています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_rare_metal_1773716795880.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_rare_metal_1773716795880.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18059,7 +18000,7 @@ const QUIZ_DATA = {
       ],
       "a": "シェールガス",
       "comment": "アメリカなどで生産が拡大しています（シェール革命）。",
-      "answerImg": "assets/images/civics/g_civics_36_alternative_energy_1773564786176.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_alternative_energy_1773564786176.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18072,7 +18013,7 @@ const QUIZ_DATA = {
       ],
       "a": "コージェネレーションシステム",
       "comment": "エネルギーの利用効率を高めることができます。",
-      "answerImg": "assets/images/civics/g_civics_42_energy_conservation_1773581526455.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_energy_conservation_1773581526455.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18085,7 +18026,7 @@ const QUIZ_DATA = {
       ],
       "a": "人間の安全保障",
       "comment": "貧困、飢餓、感染症、環境破壊などの脅威から人々を守ることを重視します。",
-      "answerImg": "assets/images/civics/g_civics_49_human_security_1773583942925.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_human_security_1773583942925.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18098,7 +18039,7 @@ const QUIZ_DATA = {
       ],
       "a": "対人地雷全面禁止条約（オタワ条約）",
       "comment": "アメリカ、ロシア、中国などは未加盟です。",
-      "answerImg": "assets/images/civics/g_civics_47_ottawa_treaty_1773583265450.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_ottawa_treaty_1773583265450.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18111,7 +18052,7 @@ const QUIZ_DATA = {
       ],
       "a": "EPA（経済連携協定）",
       "comment": "FTA（自由貿易協定）よりも広い範囲の協定です。",
-      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18124,7 +18065,7 @@ const QUIZ_DATA = {
       ],
       "a": "BRICS（ブリックス）",
       "comment": "世界経済における存在感が高まっています。",
-      "answerImg": "assets/images/civics/g_civics_44_emerging_country_1773582314581.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_emerging_country_1773582314581.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18137,7 +18078,7 @@ const QUIZ_DATA = {
       ],
       "a": "パレスチナ問題",
       "comment": "宗教や土地、歴史的背景が複雑に絡み合っています。",
-      "answerImg": "assets/images/civics/g_civics_41_conflict_1773581202464.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_conflict_1773581202464.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18150,7 +18091,7 @@ const QUIZ_DATA = {
       ],
       "a": "JICA（国際協力機構）",
       "comment": "技術協力や青年海外協力隊の派遣などを行っています。",
-      "answerImg": "assets/images/civics/g_civics_50_jica_1773584288261.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_jica_1773584288261.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18163,7 +18104,7 @@ const QUIZ_DATA = {
       ],
       "a": "バイオ燃料",
       "comment": "二酸化炭素の排出量を実質的に増やさない（カーボンニュートラル）とされます。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_biofuel_1773716823861.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_biofuel_1773716823861.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18176,7 +18117,7 @@ const QUIZ_DATA = {
       ],
       "a": "ILO（国際労働機関）",
       "comment": "本部はジュネーブにあります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_ilo_1773716837051.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_ilo_1773716837051.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18189,7 +18130,7 @@ const QUIZ_DATA = {
       ],
       "a": "IAEA（国際原子力機関）",
       "comment": "「核の番人」とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_48_iaea_1773583612847.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_iaea_1773583612847.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18202,7 +18143,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウィーン条約",
       "comment": "具体的な規制内容はモントリオール議定書で定められました。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_vienna_convention_1773716854162.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_vienna_convention_1773716854162.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18215,12 +18156,11 @@ const QUIZ_DATA = {
       ],
       "a": "ワシントン条約",
       "comment": "象牙やウミガメなどが対象です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "難民の保護や支援を行う、国連の機関は？",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "UNHCR（国連難民高等弁務官事務所）",
         "UNICEF（国連児童基金）",
@@ -18229,7 +18169,7 @@ const QUIZ_DATA = {
       ],
       "a": "UNHCR（国連難民高等弁務官事務所）",
       "comment": "緒方貞子さんが高等弁務官を務めました。",
-      "answerImg": "assets/images/civics/g_civics_48_unhcr_1773583569153.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_unhcr_1773583569153.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
@@ -18244,7 +18184,7 @@ const QUIZ_DATA = {
       ],
       "a": "核家族",
       "comment": "戦後、日本の家族形態の主流となりました。",
-      "answerImg": "assets/images/civics/g_civics_39_family_1773565528418.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_family_1773565528418.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18257,12 +18197,11 @@ const QUIZ_DATA = {
       ],
       "a": "少子高齢化",
       "comment": "労働力不足や社会保障費の増大などが課題です。",
-      "answerImg": "assets/images/civics/g_civics_40_aging_society_with_fewer_children_1773565812987.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_aging_society_with_fewer_children_1773565812987.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "インターネットなどを通じて、大量の情報が瞬時に行き交う社会は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報社会（情報化社会）",
         "工業社会",
@@ -18271,7 +18210,7 @@ const QUIZ_DATA = {
       ],
       "a": "情報社会（情報化社会）",
       "comment": "情報を正しく活用する能力（情報リテラシー）が重要になります。",
-      "answerImg": "assets/images/civics/g_civics_37_information_society_1773564999779.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_information_society_1773564999779.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18284,7 +18223,7 @@ const QUIZ_DATA = {
       ],
       "a": "グローバル化",
       "comment": "異文化理解や多文化共生が求められます。",
-      "answerImg": "assets/images/civics/g_civics_37_globalization_1773564958033.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_globalization_1773564958033.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18297,12 +18236,11 @@ const QUIZ_DATA = {
       ],
       "a": "多文化共生",
       "comment": "多様性を尊重する社会のあり方です。",
-      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "それぞれの地域の風土や歴史の中で育まれてきた、独自の生活様式や価値観は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "伝統文化",
         "大衆文化",
@@ -18311,12 +18249,11 @@ const QUIZ_DATA = {
       ],
       "a": "伝統文化",
       "comment": "祭りや年中行事、芸能などが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_39_traditional_culture_1773565461568.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_traditional_culture_1773565461568.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "男女が性別にかかわりなく、個性と能力を発揮できる社会を目指して制定された法律は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "男女共同参画社会基本法",
         "男女雇用機会均等法",
@@ -18325,7 +18262,7 @@ const QUIZ_DATA = {
       ],
       "a": "男女共同参画社会基本法",
       "comment": "「男は仕事、女は家庭」という固定的性別役割分担の意識を変える必要があります。",
-      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18338,7 +18275,7 @@ const QUIZ_DATA = {
       ],
       "a": "ユニバーサルデザイン",
       "comment": "障害の有無や年齢にかかわらず利用できるようにすることです。",
-      "answerImg": "assets/images/civics/g_civics_3_universal_design_1773476413957.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_universal_design_1773476413957.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18351,12 +18288,11 @@ const QUIZ_DATA = {
       ],
       "a": "バリアフリー",
       "comment": "段差の解消やスロープの設置などが例です。",
-      "answerImg": "assets/images/civics/g_civics_4_barrier_free_1773480321721.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_barrier_free_1773480321721.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "情報を正しく判断し、活用する能力のことを何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報リテラシー",
         "メディアリテラシー",
@@ -18365,7 +18301,7 @@ const QUIZ_DATA = {
       ],
       "a": "情報リテラシー",
       "comment": "情報の信憑性を疑う批判的な視点も重要です。",
-      "answerImg": "assets/images/civics/g_civics_37_information_literacy_1773564914319.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_information_literacy_1773564914319.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18378,12 +18314,11 @@ const QUIZ_DATA = {
       ],
       "a": "ステレオタイプ",
       "comment": "「男性は仕事、女性は家事」などもステレオタイプの一種です。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205756_png_1773667255776.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205756_png_1773667255776.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "将来の世代の利益を損なわない範囲で、現在の世代の教求を満たす社会のあり方は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な社会",
         "高度情報社会",
@@ -18392,12 +18327,11 @@ const QUIZ_DATA = {
       ],
       "a": "持続可能な社会",
       "comment": "サステナビリティ（Sustainability）とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "自発的に社会貢献活動を行う、「志願者」という意味の言葉は？",
-      "img": "assets/images/history/great_hanshin_earthquake_1773369201638.jpg",
       "choices": [
         "ボランティア",
         "ドナー",
@@ -18406,12 +18340,11 @@ const QUIZ_DATA = {
       ],
       "a": "ボランティア",
       "comment": "阪神・淡路大震災（1995年）は「ボランティア元年」と呼ばれました。",
-      "answerImg": "assets/images/civics/g_civics_6_volunteer_1773481358706.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_volunteer_1773481358706.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本の伝統的な文化財のうち、演劇や音楽などの形のないものを何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "無形文化財",
         "有形文化財",
@@ -18420,7 +18353,7 @@ const QUIZ_DATA = {
       ],
       "a": "無形文化財",
       "comment": "歌舞伎や能楽、和紙（手漉き和紙）の技術などが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18433,7 +18366,7 @@ const QUIZ_DATA = {
       ],
       "a": "異文化理解",
       "comment": "自文化中心主義（エスノセントリズム）に陥らないようにすることが大切です。",
-      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_cultural_properties_1773667205757_png_1773667274328.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18446,7 +18379,7 @@ const QUIZ_DATA = {
       ],
       "a": "マスメディア",
       "comment": "情報の送り手が一方的になりがちという側面もあります。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205758_png_1773667289194.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205758_png_1773667289194.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18459,7 +18392,7 @@ const QUIZ_DATA = {
       ],
       "a": "世論（よろん）",
       "comment": "政治や社会の動きに大きな影響を与えます。",
-      "answerImg": "assets/images/civics/g_civics_10_public_opinion_1773484181193.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_public_opinion_1773484181193.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18472,7 +18405,7 @@ const QUIZ_DATA = {
       ],
       "a": "知的財産権",
       "comment": "著作権や特許権、商標権などが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18485,7 +18418,7 @@ const QUIZ_DATA = {
       ],
       "a": "著作権",
       "comment": "著作者の死後70年間保護されます（日本の場合）。",
-      "answerImg": "assets/images/civics/g_civics_43_cop_1773581887405.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_cop_1773581887405.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18498,12 +18431,11 @@ const QUIZ_DATA = {
       ],
       "a": "特許権",
       "comment": "特許庁に出願し、審査を受ける必要があります。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "正月や盆など、毎年決まった時期に行われる行事を何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "年中行事",
         "通過儀礼",
@@ -18512,7 +18444,7 @@ const QUIZ_DATA = {
       ],
       "a": "年中行事",
       "comment": "日本人の生活リズムや季節感と深く結びついています。",
-      "answerImg": "assets/images/civics/g_civics_39_annual_events_1773565476098.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_annual_events_1773565476098.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18525,12 +18457,11 @@ const QUIZ_DATA = {
       ],
       "a": "通過儀礼",
       "comment": "イニシエーションとも呼ばれ、子供から大人への成長などを祝います。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205759_png_1773667304853.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205759_png_1773667304853.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1972年に採択された条約に基づき、ユネスコに登録される、人類共通の財産は？",
-      "img": "assets/images/history/h_early_modern_1_silver.jpg",
       "choices": [
         "世界遺産",
         "国宝",
@@ -18539,7 +18470,7 @@ const QUIZ_DATA = {
       ],
       "a": "世界遺産",
       "comment": "文化遺産、自然遺産、複合遺産の3種類があります。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205760_png_1773667323034.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18552,12 +18483,11 @@ const QUIZ_DATA = {
       ],
       "a": "NPO法（特定非営利活動促進法）",
       "comment": "契約や財産管理が団体名義でできるようになりました。",
-      "answerImg": "assets/images/civics/g_civics_49_npo_1773583913643.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_npo_1773583913643.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地域住民が親睦を深め、住みよい地域を作るために自主的に組織する団体は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "町内会・自治会",
         "NPO法人",
@@ -18566,7 +18496,7 @@ const QUIZ_DATA = {
       ],
       "a": "町内会・自治会",
       "comment": "防災訓練や清掃活動、祭りなどを行っています。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205761_png_1773667337211.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18579,7 +18509,7 @@ const QUIZ_DATA = {
       ],
       "a": "文化摩擦",
       "comment": "異文化理解と対話によって解決していく必要があります。",
-      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18592,7 +18522,7 @@ const QUIZ_DATA = {
       ],
       "a": "食の安全・安心",
       "comment": "トレーサビリティ（生産履歴の追跡）などの取り組みが進められています。",
-      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18605,7 +18535,7 @@ const QUIZ_DATA = {
       ],
       "a": "エシカル消費",
       "comment": "フェアトレード商品や環境配慮型商品の購入などが例です。",
-      "answerImg": "assets/images/civics/g_civics_21_consumption_1773542014728.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_consumption_1773542014728.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18618,7 +18548,7 @@ const QUIZ_DATA = {
       ],
       "a": "パワーハラスメント（パワハラ）",
       "comment": "暴力や暴言、無理な仕事の強要、仕事を与えないことなどが含まれます。",
-      "answerImg": "assets/images/civics/g_civics_7_power_harassment_1773481851641.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_power_harassment_1773481851641.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18631,7 +18561,7 @@ const QUIZ_DATA = {
       ],
       "a": "著作権",
       "comment": "知的財産権の一つで、日本では原則として著作者の死後70年まで保護されます。",
-      "answerImg": "assets/images/civics/g_civics_8_copyright_1773482547930.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_copyright_1773482547930.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18644,7 +18574,7 @@ const QUIZ_DATA = {
       ],
       "a": "遺伝子組み換え食品",
       "comment": "害虫に強い、特定の除草剤で枯れないなどの特徴を持たせることができます。日本では表示が義務付けられています。",
-      "answerImg": "assets/images/civics/g_civics_8_gmo_1773482722933.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_gmo_1773482722933.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18657,7 +18587,7 @@ const QUIZ_DATA = {
       ],
       "a": "国政調査権",
       "comment": "証人を呼んで質問（証人喚問）したり、記録の提出を求めたりすることができます。この権限に衆議院の優越はありません。",
-      "answerImg": "assets/images/civics/g_civics_12_investigate_state_affairs_1773503323538.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_investigate_state_affairs_1773503323538.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18670,7 +18600,7 @@ const QUIZ_DATA = {
       ],
       "a": "法務省",
       "comment": "法秩序の維持や国民の権利擁護に関わる業務を行っています。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_of_justice_1773504318672.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_of_justice_1773504318672.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18683,7 +18613,7 @@ const QUIZ_DATA = {
       ],
       "a": "文部科学省",
       "comment": "教育に関する政策の立案・実施などを行っています。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_education_1773504376258.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_education_1773504376258.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18696,7 +18626,7 @@ const QUIZ_DATA = {
       ],
       "a": "三審制",
       "comment": "裁判を慎重・公正に行い、えん罪を防ぐためにとられています。第一審に不服がある場合は「控訴」、第二審に不服がある場合は「上告」ができます。",
-      "answerImg": "assets/images/civics/g_civics_16_three_trial_system_1773504668418.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_three_trial_system_1773504668418.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18709,7 +18639,7 @@ const QUIZ_DATA = {
       ],
       "a": "被告人",
       "comment": "起訴されるまでは被疑者とよばれ、有罪判決が確定するまでは無罪であると考えることが刑事裁判のきまりとされています。",
-      "answerImg": "assets/images/civics/g_civics_18_defendant_1773504973984.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_defendant_1773504973984.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18722,7 +18652,7 @@ const QUIZ_DATA = {
       ],
       "a": "弁護士",
       "comment": "国民の権利を守るための重要な役割を担っています。",
-      "answerImg": "assets/images/civics/g_civics_18_lawyer_1773505003556.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_lawyer_1773505003556.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18735,7 +18665,7 @@ const QUIZ_DATA = {
       ],
       "a": "弾劾裁判",
       "comment": "裁判官には司法権の独立があるため、心身の故障以外で辞めさせられる場合はこの弾劾裁判に限られています。",
-      "answerImg": "assets/images/civics/g_civics_19_impeachment_court_1773505180222.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_impeachment_court_1773505180222.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18748,12 +18678,11 @@ const QUIZ_DATA = {
       ],
       "a": "国庫支出金",
       "comment": "使いみちが指定されているため、地方の独自の政策には使えません。",
-      "answerImg": "assets/images/civics/g_civics_20_treasury_disbursements_1773505434619.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_treasury_disbursements_1773505434619.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地方自治で、住民が重要事項に対して直接意思を反映し、一定数以上の署名をもとに首長や議員の解職、条例の制定・改廃などを請求できる権利を何というか。",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "直接請求権",
         "参政権",
@@ -18762,7 +18691,7 @@ const QUIZ_DATA = {
       ],
       "a": "直接請求権",
       "comment": "条例の制定・改廃請求（イニシアティブ）や、解職請求（リコール）などがあります。",
-      "answerImg": "assets/images/civics/g_civics_20_direct_demand_1773505488535.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_direct_demand_1773505488535.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18775,7 +18704,7 @@ const QUIZ_DATA = {
       ],
       "a": "市町村合併",
       "comment": "2005年までに合併手続きを完了すれば手厚い財政支援が受けられたため、「平成の大合併」と呼ばれる合併が盛んに行われました。",
-      "answerImg": "assets/images/civics/g_civics_20_municipal_mergers_1773505536032.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_municipal_mergers_1773505536032.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18788,7 +18717,7 @@ const QUIZ_DATA = {
       ],
       "a": "キャッチセールス",
       "comment": "言葉巧みに誘い込まれることが多いです。",
-      "answerImg": "assets/images/civics/g_civics_22_catch_sales_1773543493612.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_catch_sales_1773543493612.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18801,7 +18730,7 @@ const QUIZ_DATA = {
       ],
       "a": "アポイントメントセールス",
       "comment": "有利な条件を語って消費者を呼び出すのが特徴です。",
-      "answerImg": "assets/images/civics/g_civics_22_appointment_sales_1773543508405.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_appointment_sales_1773543508405.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18814,7 +18743,7 @@ const QUIZ_DATA = {
       ],
       "a": "製造物責任法（PL法）",
       "comment": "この法律により、消費者は製造業者の過失を証明しなくても責任を問えるようになりました。",
-      "answerImg": "assets/images/civics/g_civics_23_product_liability_act_1773545494775.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_product_liability_act_1773545494775.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18827,7 +18756,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者契約法",
       "comment": "契約上のトラブルから弱い立場である消費者を守るための法律です。",
-      "answerImg": "assets/images/civics/g_civics_23_consumer_contract_act_1773545506699.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_consumer_contract_act_1773545506699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18840,7 +18769,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者基本法",
       "comment": "国や地方公共団体、企業の責務だけでなく、消費者の自立も規定されています。",
-      "answerImg": "assets/images/civics/g_civics_23_basic_act_on_consumer_policies_1773545519794.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_basic_act_on_consumer_policies_1773545519794.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18853,7 +18782,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者の4つの権利",
       "comment": "消費者保護運動の基本となり、日本でも消費者基本法に取り入れられました。",
-      "answerImg": "assets/images/civics/g_civics_23_consumers_four_rights_1773545533749.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_consumers_four_rights_1773545533749.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18866,7 +18795,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者庁",
       "comment": "消費者行政の司令塔として2009年に設置されました。",
-      "answerImg": "assets/images/civics/g_civics_23_consumer_affairs_agency_1773545545310.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_consumer_affairs_agency_1773545545310.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18879,7 +18808,7 @@ const QUIZ_DATA = {
       ],
       "a": "クーリング・オフ",
       "comment": "契約解除の際は、書面で契約解除を伝える必要があります。（訪問販売では8日以内）",
-      "answerImg": "assets/images/civics/g_civics_23_cooling_off_1773545555874.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_cooling_off_1773545555874.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18892,7 +18821,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者運動",
       "comment": "欠陥商品や誇大広告などに対して、消費者自身が生活を守るために行われます。",
-      "answerImg": "assets/images/civics/g_civics_24_consumer_movement_1773546209940.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_consumer_movement_1773546209940.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18905,7 +18834,7 @@ const QUIZ_DATA = {
       ],
       "a": "株主",
       "comment": "株主総会に出席して意見を述べる権利（議決権）を持ち、利益の一部を配当として受け取ります。",
-      "answerImg": "assets/images/civics/g_civics_26_shareholder_1773546981582.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_shareholder_1773546981582.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18918,7 +18847,7 @@ const QUIZ_DATA = {
       ],
       "a": "クラウドファンディング",
       "comment": "新しいアイデアや事業計画を提示して、応援したいと思った人が出資や寄付を行います。",
-      "answerImg": "assets/images/civics/g_civics_27_crowdfunding_1773547216577.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_crowdfunding_1773547216577.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18931,7 +18860,7 @@ const QUIZ_DATA = {
       ],
       "a": "フランチャイズ",
       "comment": "加盟店は本部の商標を使用させてもらったり、商品を提供してもらうかわりに、本部に対し対価を支払います。",
-      "answerImg": "assets/images/civics/g_civics_28_franchise_1773547551157.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_franchise_1773547551157.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18944,7 +18873,7 @@ const QUIZ_DATA = {
       ],
       "a": "独占禁止法",
       "comment": "企業の独占を制限したり、不公正な取引を制限・禁止したりしています。公正取引委員会が実際の運用にあたります。",
-      "answerImg": "assets/images/civics/g_civics_28_antimonopoly_act_1773547570836.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_antimonopoly_act_1773547570836.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18957,12 +18886,11 @@ const QUIZ_DATA = {
       ],
       "a": "直接税",
       "comment": "所得が多いほど税率が高くなる累進課税制度がとられているものが多いです。",
-      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "税金を納める義務のある納税者と、実際に負担する担税者が一致しない税金（消費税や関税など）を何というか。",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -18971,7 +18899,7 @@ const QUIZ_DATA = {
       ],
       "a": "間接税",
       "comment": "所得にかかわらず税率は一定であるため、所得の少ない人ほど所得に占める税負担の割合が高くなる傾向（逆進性）があります。",
-      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18984,7 +18912,7 @@ const QUIZ_DATA = {
       ],
       "a": "円高",
       "comment": "日本では輸入品の価格が安くなるため輸入量が増加する一方、外国では日本の輸出品の価格が高くなるため日本の輸出量は減少します。",
-      "answerImg": "assets/images/civics/g_civics_34_strong_yen_1773563365633.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_strong_yen_1773563365633.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -18997,7 +18925,7 @@ const QUIZ_DATA = {
       ],
       "a": "円安",
       "comment": "日本では外国からの輸入品の価格が高くなるため輸入量が減少しますが、外国では日本の輸出品の価格が安くなるため日本の輸出量は増加します。",
-      "answerImg": "assets/images/civics/g_civics_34_weak_yen_1773563381894.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_weak_yen_1773563381894.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19010,12 +18938,11 @@ const QUIZ_DATA = {
       ],
       "a": "ユビキタス社会",
       "comment": "現在のIoT（モノのインターネット）などが普及した社会を指す言葉です。",
-      "answerImg": "assets/images/civics/g_civics_36_ubiquitous_society_1773564798667.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_ubiquitous_society_1773564798667.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "必要な情報を選び、活用する能力のことを何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "情報リテラシー",
         "情報モラル",
@@ -19024,7 +18951,7 @@ const QUIZ_DATA = {
       ],
       "a": "情報リテラシー",
       "comment": "情報を得るときや発信する場合に、正しく判断し行動する能力が必要です。",
-      "answerImg": "assets/images/civics/g_civics_37_information_literacy_1773564914319.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_information_literacy_1773564914319.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19037,12 +18964,11 @@ const QUIZ_DATA = {
       ],
       "a": "情報モラル",
       "comment": "他人の権利を尊重することや、不確かな情報にまどわされないことなどが大切です。",
-      "answerImg": "assets/images/civics/g_civics_37_information_morals_1773564928646.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_information_morals_1773564928646.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "記憶・学習といった人間が知能を使う活動を行い、言語を理解したり、論理的に考えたりすることが期待されたコンピュータープログラムのことを何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "人工知能（AI）",
         "バーチャルリアリティ（VR）",
@@ -19051,7 +18977,7 @@ const QUIZ_DATA = {
       ],
       "a": "人工知能（AI）",
       "comment": "人が行うと時間も手間もかかるデータ分析などを効率的に行うことができます。",
-      "answerImg": "assets/images/civics/g_civics_37_artificial_intelligence_1773564943134.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_artificial_intelligence_1773564943134.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19064,7 +18990,7 @@ const QUIZ_DATA = {
       ],
       "a": "グローバル化",
       "comment": "人、もの、お金、情報などが国境をこえて移動し、結びつきが強くなっています。",
-      "answerImg": "assets/images/civics/g_civics_37_globalization_1773564958033.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_globalization_1773564958033.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19077,7 +19003,7 @@ const QUIZ_DATA = {
       ],
       "a": "グローバル・スタンダード",
       "comment": "交通信号機の色や、長さ（m）や重さ（g）などの計量単位もその一つです。",
-      "answerImg": "assets/images/civics/g_civics_37_global_standard_1773564972482.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_global_standard_1773564972482.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19090,7 +19016,7 @@ const QUIZ_DATA = {
       ],
       "a": "自給率",
       "comment": "食料の自給率をあらわす食料自給率が代表的ですが、日本の食料自給率は他の先進国と比べて低くなっています。",
-      "answerImg": "assets/images/civics/g_civics_37_self_sufficiency_rate_1773564984807.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_self_sufficiency_rate_1773564984807.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19103,7 +19029,7 @@ const QUIZ_DATA = {
       ],
       "a": "情報社会（IT社会）",
       "comment": "大量の情報が生産・伝達・利用されており、情報化社会ともいいます。",
-      "answerImg": "assets/images/civics/g_civics_37_information_society_1773564999779.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_information_society_1773564999779.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19116,7 +19042,7 @@ const QUIZ_DATA = {
       ],
       "a": "インターネット",
       "comment": "これを利用して情報の受発信や商品の売買などを行うことができ、2000年ごろから急速に普及しました。",
-      "answerImg": "assets/images/civics/g_civics_37_internet_1773565013420.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_internet_1773565013420.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19129,12 +19055,11 @@ const QUIZ_DATA = {
       ],
       "a": "IoT",
       "comment": "「Internet of Things」の頭文字をとったもので、「物のインターネット」と訳されます。",
-      "answerImg": "assets/images/civics/g_civics_37_iot_1773565028857.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_iot_1773565028857.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "インターネットを通じて、口座の残高照会や振込・振替の銀行のサービスが利用できるシステムを何というか。",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "インターネットバンキング",
         "オンラインバンキング",
@@ -19143,7 +19068,7 @@ const QUIZ_DATA = {
       ],
       "a": "インターネットバンキング",
       "comment": "インターネットを利用できる環境があれば、いつでもどこでも利用できる利点があります。",
-      "answerImg": "assets/images/civics/g_civics_37_internet_banking_1773565039785.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_internet_banking_1773565039785.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19156,7 +19081,7 @@ const QUIZ_DATA = {
       ],
       "a": "SNS",
       "comment": "ソーシャル・ネットワーキング・サービスの略。共通の趣味を持つ人々が集まり、コミュニケーションを深める目的で提供されます。",
-      "answerImg": "assets/images/civics/g_civics_38_sns_1773565154157.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_sns_1773565154157.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19169,12 +19094,11 @@ const QUIZ_DATA = {
       ],
       "a": "バーチャルリアリティ（VR）",
       "comment": "2016年はVR元年といわれ、ゲーム業界で大きく取り入れられました。",
-      "answerImg": "assets/images/civics/g_civics_38_virtual_reality_1773565169054.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_virtual_reality_1773565169054.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "情報通信技術の利用が進むにつれて生じる、年齢、教育、所得などの違いによるコンピューターを使う能力の差から生じる格差を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "デジタルディバイド（情報格差）",
         "経済格差",
@@ -19183,7 +19107,7 @@ const QUIZ_DATA = {
       ],
       "a": "デジタルディバイド（情報格差）",
       "comment": "これによって経済的な不平等が拡大すると考えられています。",
-      "answerImg": "assets/images/civics/g_civics_38_digital_divide_1773565183374.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_digital_divide_1773565183374.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19196,12 +19120,11 @@ const QUIZ_DATA = {
       ],
       "a": "外国人登録者",
       "comment": "2012年7月からは在留管理制度に変わり、在留外国人と呼ばれるようになりました。",
-      "answerImg": "assets/images/civics/g_civics_38_foreign_resident_1773565196342.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_foreign_resident_1773565196342.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "災害、疫病など地球規模の問題に対し、各国が力を合わせて取り組むことを何というか。",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "国際協力",
         "国際貢献",
@@ -19210,7 +19133,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際協力",
       "comment": "グローバル化の進展により、一国では解決できない地球規模の問題が増えています。",
-      "answerImg": "assets/images/civics/g_civics_38_international_cooperation_1773565208951.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_international_cooperation_1773565208951.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19223,7 +19146,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際分業",
       "comment": "先進国同士の水平的分業と、先進国と発展途上国間の垂直的分業があります。",
-      "answerImg": "assets/images/civics/g_civics_38_international_division_of_labor_1773565221856.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_international_division_of_labor_1773565221856.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19236,7 +19159,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際競争",
       "comment": "グローバル化が進んだことで、国内商品と輸入品のどちらがより良い品を安く提供できるかなどで競争が激しくなっています。",
-      "answerImg": "assets/images/civics/g_civics_38_international_competition_1773565237330.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_international_competition_1773565237330.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19249,7 +19172,7 @@ const QUIZ_DATA = {
       ],
       "a": "多文化社会（多文化共生社会）",
       "comment": "おたがいの価値観や文化的な違いを認め合いながら、ともに生きていくことが大切です。",
-      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_multicultural_society_1773565249931.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19262,7 +19185,7 @@ const QUIZ_DATA = {
       ],
       "a": "平均寿命",
       "comment": "日本人の平均寿命は、世界で1・2位を争う高さです。",
-      "answerImg": "assets/images/civics/g_civics_38_average_life_expectancy_1773565260645.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_average_life_expectancy_1773565260645.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19275,7 +19198,7 @@ const QUIZ_DATA = {
       ],
       "a": "出生率",
       "comment": "日本の出生率は低下傾向にあり、少子化の原因となっています。",
-      "answerImg": "assets/images/civics/g_civics_38_birth_rate_1773565274196.jpg",
+      "answerImg": "assets/images/civics/g_civics_38_birth_rate_1773565274196.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19288,7 +19211,7 @@ const QUIZ_DATA = {
       ],
       "a": "少子化社会対策基本法",
       "comment": "少子化対策を進めるための基本理念を定めています。",
-      "answerImg": "assets/images/civics/g_civics_39_basic_act_declining_birthrate_1773565409641.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_basic_act_declining_birthrate_1773565409641.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19301,12 +19224,11 @@ const QUIZ_DATA = {
       ],
       "a": "老老介護",
       "comment": "介護者の肉体的・精神的負担が大きく、社会問題となっています。",
-      "answerImg": "assets/images/civics/g_civics_39_elderly_care_by_elderly_1773565421633.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_elderly_care_by_elderly_1773565421633.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本の少子高齢化を止め、家庭や職場、地域の人々誰もが活躍できる社会をめざし、50年後も人口1億人を維持しようとする政策をめざす社会を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "1億総活躍社会",
         "地方創生",
@@ -19315,7 +19237,7 @@ const QUIZ_DATA = {
       ],
       "a": "1億総活躍社会",
       "comment": "2015年10月に発足した第3次安倍晋三改造内閣が掲げた政策です。",
-      "answerImg": "assets/images/civics/g_civics_39_dynamic_engagement_all_citizens_1773565438108.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_dynamic_engagement_all_citizens_1773565438108.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19328,12 +19250,11 @@ const QUIZ_DATA = {
       ],
       "a": "科学",
       "comment": "医療技術や宇宙開発、情報技術などを発展させ、人々の生活を向上させます。",
-      "answerImg": "assets/images/civics/g_civics_39_science_1773565449969.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_science_1773565449969.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "歴史の中ではぐくまれ、人々の間で価値あるものとして古くから継承されてきた文化のことを何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "伝統文化",
         "大衆文化",
@@ -19342,7 +19263,7 @@ const QUIZ_DATA = {
       ],
       "a": "伝統文化",
       "comment": "能や歌舞伎などの専門性が高い文化と、衣食住や年中行事などの生活文化があります。",
-      "answerImg": "assets/images/civics/g_civics_39_traditional_culture_1773565461568.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_traditional_culture_1773565461568.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19355,7 +19276,7 @@ const QUIZ_DATA = {
       ],
       "a": "年中行事",
       "comment": "農作を祈る祭りから始まったものや、外国からきた行事が日本に定着したものがあります。",
-      "answerImg": "assets/images/civics/g_civics_39_annual_events_1773565476098.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_annual_events_1773565476098.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19368,7 +19289,7 @@ const QUIZ_DATA = {
       ],
       "a": "文化財",
       "comment": "民俗文化財や史跡などの記念物、文化的景観なども含まれます。",
-      "answerImg": "assets/images/civics/g_civics_39_cultural_properties_1773565489555.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_cultural_properties_1773565489555.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19381,7 +19302,7 @@ const QUIZ_DATA = {
       ],
       "a": "クールジャパン",
       "comment": "日本の魅力を世界に発信するコンテンツとして注目されています。",
-      "answerImg": "assets/images/civics/g_civics_39_cool_japan_1773565504364.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_cool_japan_1773565504364.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19394,7 +19315,7 @@ const QUIZ_DATA = {
       ],
       "a": "合計特殊出生率",
       "comment": "その年の15歳から49歳までの女性が産んだ子どもの数をもとに算出されます。",
-      "answerImg": "assets/images/civics/g_civics_39_total_fertility_rate_1773565515870.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_total_fertility_rate_1773565515870.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19407,12 +19328,11 @@ const QUIZ_DATA = {
       ],
       "a": "家族",
       "comment": "かつての日本ではいくつの世代が集まった大家族が一般的でしたが、近年は核家族世帯や単独世帯が増加しています。",
-      "answerImg": "assets/images/civics/g_civics_39_family_1773565528418.jpg",
+      "answerImg": "assets/images/civics/g_civics_39_family_1773565528418.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "夫婦のみ、もしくは夫婦と未婚の子ども、または父母のうち一方と未婚の子どもからなる家族形態のことを何というか。",
-      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "核家族世帯",
         "拡大家族世帯",
@@ -19421,7 +19341,7 @@ const QUIZ_DATA = {
       ],
       "a": "核家族世帯",
       "comment": "高度経済成長期以降、その世帯数は増え続け、家族形態の内訳では現在最も割合が多くなっています。",
-      "answerImg": "assets/images/civics/g_civics_40_nuclear_family_1773565705506.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_nuclear_family_1773565705506.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19434,7 +19354,7 @@ const QUIZ_DATA = {
       ],
       "a": "民法",
       "comment": "個人の尊厳と両性の本質的平等を基本的な考え方としています。",
-      "answerImg": "assets/images/civics/g_civics_40_civil_law_1773565717985.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_civil_law_1773565717985.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19447,7 +19367,7 @@ const QUIZ_DATA = {
       ],
       "a": "婚姻",
       "comment": "日本においては、満18歳以上であれば成立します。",
-      "answerImg": "assets/images/civics/g_civics_40_marriage_1773565731615.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_marriage_1773565731615.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19460,7 +19380,7 @@ const QUIZ_DATA = {
       ],
       "a": "晩婚化",
       "comment": "相手にめぐり合えないことや、仕事と家事の両立が難しく結婚を諦めてしまうことなどが背景にあります。",
-      "answerImg": "assets/images/civics/g_civics_40_late_marriage_1773565744044.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_late_marriage_1773565744044.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19473,7 +19393,7 @@ const QUIZ_DATA = {
       ],
       "a": "相続",
       "comment": "夫あるいは妻や子どもは相続人となり、子どもは性別や年齢にかかわりなく等しく相続することができます（均分相続制）。",
-      "answerImg": "assets/images/civics/g_civics_40_inheritance_1773565757039.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_inheritance_1773565757039.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19486,7 +19406,7 @@ const QUIZ_DATA = {
       ],
       "a": "家制度",
       "comment": "家族をまとめる「戸主」を中心とし、家族は戸主に従わなければなりませんでした。第二次大戦後、民法の改正により廃止されました。",
-      "answerImg": "assets/images/civics/g_civics_40_ie_system_1773565773050.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_ie_system_1773565773050.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19499,7 +19419,7 @@ const QUIZ_DATA = {
       ],
       "a": "夫婦別姓",
       "comment": "現在、民法では正式には夫婦どちらかの名字をなのることになっており、夫婦別姓にできるかどうかが議論されています。",
-      "answerImg": "assets/images/civics/g_civics_40_different_surnames_1773565790138.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_different_surnames_1773565790138.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19512,7 +19432,7 @@ const QUIZ_DATA = {
       ],
       "a": "待機児童",
       "comment": "共働き世帯の増加により保育施設の需要が増えている反面、受け入れ環境の整備が遅れていることなどが原因です。",
-      "answerImg": "assets/images/civics/g_civics_40_children_on_waiting_lists_1773565801153.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_children_on_waiting_lists_1773565801153.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19525,7 +19445,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会集団",
       "comment": "集団としてのまとまりをもたせるため、それぞれに応じたルールがあり、それを守っていくことが必要です。",
-      "answerImg": "assets/images/civics/g_civics_40_social_group_1773565824496.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_social_group_1773565824496.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19538,7 +19458,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会的存在",
       "comment": "人間は社会集団と関わらずに生きていくことはできないので、誰もが社会的存在です。",
-      "answerImg": "assets/images/civics/g_civics_41_social_being_1773565996910.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_social_being_1773565996910.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19551,7 +19471,7 @@ const QUIZ_DATA = {
       ],
       "a": "契約",
       "comment": "法律にもとづいて約束を守る義務があり、約束が守られなかった場合は責任をとる必要があります。",
-      "answerImg": "assets/images/civics/g_civics_41_contract_1773566010008.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_contract_1773566010008.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19564,7 +19484,7 @@ const QUIZ_DATA = {
       ],
       "a": "対立",
       "comment": "対立が生じた場合は、合意に達することで解消します。",
-      "answerImg": "assets/images/civics/g_civics_41_conflict_1773581202464.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_conflict_1773581202464.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19577,7 +19497,7 @@ const QUIZ_DATA = {
       ],
       "a": "効率",
       "comment": "対立を解決して合意を目指すための判断基準の一つです。",
-      "answerImg": "assets/images/civics/g_civics_41_efficiency_1773581216421.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_efficiency_1773581216421.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19590,7 +19510,7 @@ const QUIZ_DATA = {
       ],
       "a": "公正",
       "comment": "対立を解決して合意を目指すための判断基準の一つです。",
-      "answerImg": "assets/images/civics/g_civics_41_fairness_1773581230437.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_fairness_1773581230437.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19603,7 +19523,7 @@ const QUIZ_DATA = {
       ],
       "a": "合意",
       "comment": "合意にいたるための手段として、全会一致や多数決によって決める方法があります。",
-      "answerImg": "assets/images/civics/g_civics_41_agreement_1773581247828.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_agreement_1773581247828.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19616,12 +19536,11 @@ const QUIZ_DATA = {
       ],
       "a": "ルール（きまり）",
       "comment": "しきたりやならわしといった慣習から、強制力を持つ法律まで様々な種類があります。",
-      "answerImg": "assets/images/civics/g_civics_41_rules_1773581263785.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_rules_1773581263785.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "法律によって認められている権限や自由のことを何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "権利",
         "義務",
@@ -19630,12 +19549,11 @@ const QUIZ_DATA = {
       ],
       "a": "権利",
       "comment": "日本国憲法では第3章で「国民の権利及び義務」を定めています。",
-      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "したがうべきとされること、当然しなければならないこと。ルールをつくる際には権利とともに明らかにすることが大切なものは何か。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "義務",
         "権利",
@@ -19644,7 +19562,7 @@ const QUIZ_DATA = {
       ],
       "a": "義務",
       "comment": "日本国憲法では「勤労・納税・子どもに普通教育を受けさせる」という三大義務が定められています。",
-      "answerImg": "assets/images/civics/g_civics_41_duties_1773581292849.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_duties_1773581292849.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19657,12 +19575,11 @@ const QUIZ_DATA = {
       ],
       "a": "基本的人権",
       "comment": "人権ともいい、自由権、平等権、社会権、参政権などがあります。",
-      "answerImg": "assets/images/civics/g_civics_41_fundamental_human_rights_1773581307314.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_fundamental_human_rights_1773581307314.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1689年にイギリスで発布された法律。名誉革命がおこり、議会の要求を国王が承認して発布されたものを何というか。",
-      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "権利の章典",
         "マグナカルタ",
@@ -19671,12 +19588,11 @@ const QUIZ_DATA = {
       ],
       "a": "権利の章典",
       "comment": "議会の同意なしで税金をかけないことや、国王も法を守ること（法の支配）などが定められました。",
-      "answerImg": "assets/images/civics/g_civics_42_bill_of_rights_1773581438821.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_bill_of_rights_1773581438821.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国のあり方を最終的に判断する権利を持つ人のことを何というか。",
-      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "主権者",
         "君主",
@@ -19685,12 +19601,11 @@ const QUIZ_DATA = {
       ],
       "a": "主権者",
       "comment": "日本国憲法においては国民が主権者ですが、大日本帝国憲法においては天皇でした。",
-      "answerImg": "assets/images/civics/g_civics_42_sovereign_1773581484830.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_sovereign_1773581484830.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1889年2月11日に発布された、日本最初の近代的な憲法を何というか。",
-      "img": "assets/images/history/h_ancient_5_jushichijyo_kenpo_1773665495687.jpg",
       "choices": [
         "大日本帝国憲法（明治憲法）",
         "日本国憲法",
@@ -19699,12 +19614,11 @@ const QUIZ_DATA = {
       ],
       "a": "大日本帝国憲法（明治憲法）",
       "comment": "主権者は天皇で、国民の人権は「臣民ノ権利」として天皇からあたえられたものと規定されていました。",
-      "answerImg": "assets/images/civics/g_civics_42_meiji_constitution_1773581499022.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_meiji_constitution_1773581499022.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "イギリスの思想家で、『統治二論』をあらわし、すべての人間は生まれながらに生命や自由、財産に対する権利をもち、権力が不当に行使されているときには抵抗する権利（抵抗権）があることを主張した人物は誰か。",
-      "img": "assets/images/history/h_early_modern_7_glorious_revolution.jpg",
       "choices": [
         "ロック",
         "ルソー",
@@ -19713,12 +19627,11 @@ const QUIZ_DATA = {
       ],
       "a": "ロック",
       "comment": "彼の思想は名誉革命を正当化し、アメリカ独立宣言にも大きな影響をあたえました。",
-      "answerImg": "assets/images/civics/g_civics_42_john_locke_1773581512246.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_john_locke_1773581512246.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "資源やエネルギーを効率的に利用し、むだな消費をしないことを何というか。",
-      "img": "assets/images/history/h_contemporary_3_oil_shock_new_1774108656300.png",
       "choices": [
         "省資源・省エネルギー",
         "リサイクル",
@@ -19727,7 +19640,7 @@ const QUIZ_DATA = {
       ],
       "a": "省資源・省エネルギー",
       "comment": "石油危機をきっかけに日本でも進み、資源有効利用促進法などができました。",
-      "answerImg": "assets/images/civics/g_civics_42_energy_conservation_1773581526455.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_energy_conservation_1773581526455.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19740,9 +19653,8 @@ const QUIZ_DATA = {
       ],
       "a": "パリ協定",
       "comment": "先進国のみに削減目標を課していた京都議定書に代わるものです。",
-      "answerImg": "assets/images/civics/g_civics_44_paris_agreement_1773582253708.jpg",
-      "imgCaption": "※画像はイメージです",
-      "img": "assets/images/history/h_modern_paris_agreement.png"
+      "answerImg": "assets/images/civics/g_civics_44_paris_agreement_1773582253708.webp",
+      "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国際社会において国家間の関係を取り決めた法で、条約と国際慣習法に大きく分けられるものを何というか。",
@@ -19754,12 +19666,11 @@ const QUIZ_DATA = {
       ],
       "a": "国際法",
       "comment": "条約は国家間の文書による合意、国際慣習法は長年にわたる慣習から法となったものです。",
-      "answerImg": "assets/images/civics/g_civics_45_international_law_1773582631184.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_international_law_1773582631184.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1989年に国際連合総会で採択された、子どもの基本的人権を国際的に保障することを目的とした条約を何というか。日本は1994年に批准した。",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "子どもの権利条約（児童の権利条約）",
         "世界人権宣言",
@@ -19768,7 +19679,7 @@ const QUIZ_DATA = {
       ],
       "a": "子どもの権利条約（児童の権利条約）",
       "comment": "18歳未満の子どもを保護するとともに、教育を受ける権利や意見を表明する権利などを保障しています。",
-      "answerImg": "assets/images/civics/g_civics_46_convention_on_rights_of_child_1773582914575.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_convention_on_rights_of_child_1773582914575.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19781,7 +19692,7 @@ const QUIZ_DATA = {
       ],
       "a": "参加する権利",
       "comment": "自由に意見を表したり、グループを作って活動したりする権利です。",
-      "answerImg": "assets/images/civics/g_civics_46_right_to_participate_1773582929697.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_right_to_participate_1773582929697.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19794,7 +19705,7 @@ const QUIZ_DATA = {
       ],
       "a": "UNESCO",
       "comment": "国連教育科学文化機関のこと。世界遺産の決定や保護なども行っています。",
-      "answerImg": "assets/images/civics/g_civics_47_unesco_1773583354088.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_unesco_1773583354088.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19807,7 +19718,7 @@ const QUIZ_DATA = {
       ],
       "a": "特定非営利活動促進法（NPO法）",
       "comment": "これにより、法律上の権利・義務の主体となることができるようになりました。",
-      "answerImg": "assets/images/civics/g_civics_49_npo_act_1773583929358.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_npo_act_1773583929358.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19820,12 +19731,11 @@ const QUIZ_DATA = {
       ],
       "a": "拒否権",
       "comment": "重要な問題について議決するには、必ず5常任理事国の賛成が必要となります。",
-      "answerImg": "assets/images/civics/g_civics_50_veto_power_1773584350813.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_veto_power_1773584350813.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国際連合の主要機関の一つで、貿易や工業化といった経済問題や、子どもや女性の権利といった社会問題について研究や勧告を行う機関を何というか。",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "経済社会理事会",
         "安全保障理事会",
@@ -19834,14 +19744,13 @@ const QUIZ_DATA = {
       ],
       "a": "経済社会理事会",
       "comment": "総会で選ばれた54理事国で構成され、専門機関などと連携して活動しています。",
-      "answerImg": "assets/images/civics/g_civics_37_iot_1773565028857.jpg",
+      "answerImg": "assets/images/civics/g_civics_37_iot_1773565028857.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "c_2": [
     {
       "q": "日本国憲法の三大原則は、国民主権、平和主義と何か？",
-      "img": "assets/images/history/h_modern_1_gokajo_no_goseimon_1773374882568.jpg",
       "choices": [
         "基本的人権の尊重",
         "天皇主権",
@@ -19850,12 +19759,11 @@ const QUIZ_DATA = {
       ],
       "a": "基本的人権の尊重",
       "comment": "人間が生まれながらにして持っている権利を永久に保障します。",
-      "answerImg": "assets/images/civics/g_civics_1_human_rights_1773475366229.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_human_rights_1773475366229.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法において、主権は誰にあるとされているか？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国民",
         "天皇",
@@ -19864,7 +19772,7 @@ const QUIZ_DATA = {
       ],
       "a": "国民",
       "comment": "天皇は「日本国の象徴」とされています。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205762_png_1773667352690.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205762_png_1773667352690.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19877,12 +19785,11 @@ const QUIZ_DATA = {
       ],
       "a": "公共の福祉",
       "comment": "他人の人権を侵害しない範囲で、自由や権利が認められます。",
-      "answerImg": "assets/images/civics/g_civics_4_public_welfare_1773480361880.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_public_welfare_1773480361880.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法第14条で定められている、人種や信条、性別などで差別されない原則は？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "法の下の平等",
         "機会均等",
@@ -19891,12 +19798,11 @@ const QUIZ_DATA = {
       ],
       "a": "法の下の平等",
       "comment": "華族などの特権階級も認められていません。",
-      "answerImg": "assets/images/civics/g_civics_2_law_1773475857972.jpg",
+      "answerImg": "assets/images/civics/g_civics_2_law_1773475857972.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法第25条で、「健康で文化的な最低限度の生活を営む権利」と規定されている権利は？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "生存権",
         "自由権",
@@ -19905,7 +19811,7 @@ const QUIZ_DATA = {
       ],
       "a": "生存権",
       "comment": "社会権の一つで、生活保護制度などの根拠となります。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205763_png_1773667369823.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205763_png_1773667369823.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19918,7 +19824,7 @@ const QUIZ_DATA = {
       ],
       "a": "表現の自由",
       "comment": "精神の自由（自由権）の一つです。",
-      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_conflict_1773667205764_png_1773667388142.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19931,7 +19837,7 @@ const QUIZ_DATA = {
       ],
       "a": "身体の自由",
       "comment": "奴隷的拘束や苦役からの自由も含まれます。",
-      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_self_sufficiency_rate_1773667205765_png_1773667404935.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19944,7 +19850,7 @@ const QUIZ_DATA = {
       ],
       "a": "参政権",
       "comment": "「国民固有の権利」とされています。",
-      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_rights_1773581277746.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19957,7 +19863,7 @@ const QUIZ_DATA = {
       ],
       "a": "環境権",
       "comment": "日照権などもこれに含まれます。",
-      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19970,7 +19876,7 @@ const QUIZ_DATA = {
       ],
       "a": "知る権利",
       "comment": "情報公開制度によって保障されます。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19983,7 +19889,7 @@ const QUIZ_DATA = {
       ],
       "a": "朝日訴訟",
       "comment": "最高裁は「健康で文化的な最低限度の生活」の基準は厚生大臣の裁量に委ねられると判断しました。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205766_png_1773667720179.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205766_png_1773667720179.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -19996,7 +19902,7 @@ const QUIZ_DATA = {
       ],
       "a": "「宴のあと」事件",
       "comment": "日本で初めてプライバシー権が法的に認められるきっかけとなりました。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205767_png_1773667734989.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205767_png_1773667734989.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20009,7 +19915,7 @@ const QUIZ_DATA = {
       ],
       "a": "アクセス権",
       "comment": "「反論権」とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205768_png_1773667751007.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205768_png_1773667751007.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20022,7 +19928,7 @@ const QUIZ_DATA = {
       ],
       "a": "インフォームド・コンセント",
       "comment": "自己決定権の一つとして重要視されています。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205769_png_1773667765591.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205769_png_1773667765591.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20035,7 +19941,7 @@ const QUIZ_DATA = {
       ],
       "a": "世界人権宣言",
       "comment": "法的拘束力はありませんが、各国の憲法や法律に大きな影響を与えました。",
-      "answerImg": "assets/images/civics/g_civics_new_public_assistance_1773667205770_png_1773667781001.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_public_assistance_1773667205770_png_1773667781001.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20048,7 +19954,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際人権規約",
       "comment": "A規約（社会権）とB規約（自由権）があります。",
-      "answerImg": "assets/images/civics/g_civics_5_political_rights_1773480811046.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_political_rights_1773480811046.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20061,7 +19967,7 @@ const QUIZ_DATA = {
       ],
       "a": "子どもの権利条約",
       "comment": "日本は1994年に批准しました。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205771_png_1773667797445.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205771_png_1773667797445.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20074,7 +19980,7 @@ const QUIZ_DATA = {
       ],
       "a": "男女雇用機会均等法",
       "comment": "1985年に制定され、その後も改正されて内容が強化されています。",
-      "answerImg": "assets/images/civics/g_civics_24_equal_employment_opportunity_act_1773546306204.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_equal_employment_opportunity_act_1773546306204.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20087,12 +19993,11 @@ const QUIZ_DATA = {
       ],
       "a": "マグナ・カルタ（大憲章）",
       "comment": "法の支配の原型とされています。",
-      "answerImg": "assets/images/civics/g_civics_1_magna_carta_1773475394699.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_magna_carta_1773475394699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1789年のフランス革命で出された、自由・平等・博愛を掲げた宣言は？",
-      "img": "assets/images/history/h_early_modern_7_american_independence.jpg",
       "choices": [
         "フランス人権宣言",
         "アメリカ独立宣言",
@@ -20101,7 +20006,7 @@ const QUIZ_DATA = {
       ],
       "a": "フランス人権宣言",
       "comment": "「人は生まれながらにして自由かつ平等な権利を持つ」と謳いました。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205772_png_1773667816144.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205772_png_1773667816144.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20114,7 +20019,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワイマール憲法",
       "comment": "「生存権」の考え方に大きな影響を与えました。",
-      "answerImg": "assets/images/civics/g_civics_1_weimar_constitution_1773475478108.jpg",
+      "answerImg": "assets/images/civics/g_civics_1_weimar_constitution_1773475478108.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20127,12 +20032,11 @@ const QUIZ_DATA = {
       ],
       "a": "政教分離の原則",
       "comment": "政治と宗教の結びつきを防ぐためのものです。",
-      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "大学などが、外部の権力（政府など）から干渉されずに研究や教育を行う権利は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "学問の自由",
         "教育を受ける権利",
@@ -20141,7 +20045,7 @@ const QUIZ_DATA = {
       ],
       "a": "学問の自由",
       "comment": "「大学の自治」として保障されています。",
-      "answerImg": "assets/images/civics/g_civics_4_academic_freedom_1773480455553.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_academic_freedom_1773480455553.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20154,7 +20058,7 @@ const QUIZ_DATA = {
       ],
       "a": "職業選択の自由",
       "comment": "公共の福祉による制限を受ける場合があります（資格が必要な職業など）。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205773_png_1773667834943.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205773_png_1773667834943.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20167,7 +20071,7 @@ const QUIZ_DATA = {
       ],
       "a": "罪刑法定主義",
       "comment": "「法律なければ刑罰なし」という言葉で表されます。",
-      "answerImg": "assets/images/civics/g_civics_new_united_nations_1773667205774_png_1773667850360.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_united_nations_1773667205774_png_1773667850360.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20180,7 +20084,7 @@ const QUIZ_DATA = {
       ],
       "a": "令状主義",
       "comment": "不当な捜査から人権を守るための仕組みです。",
-      "answerImg": "assets/images/civics/g_civics_18_warrant_requirement_1773505033665.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_warrant_requirement_1773505033665.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20193,7 +20097,7 @@ const QUIZ_DATA = {
       ],
       "a": "黙秘権",
       "comment": "拷問による自白などを防ぐために保障されています。",
-      "answerImg": "assets/images/civics/g_civics_new_convention_on_rights_of_child_1773667205775_png_1773667865467.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_convention_on_rights_of_child_1773667205775_png_1773667865467.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20206,7 +20110,7 @@ const QUIZ_DATA = {
       ],
       "a": "一事不再理",
       "comment": "刑事裁判の重要な原則の一つです。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205776_png_1773667961417.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205776_png_1773667961417.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20219,7 +20123,7 @@ const QUIZ_DATA = {
       ],
       "a": "自己決定権",
       "comment": "尊厳死や延命治療の拒否などもこの権利に関わります。",
-      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20232,12 +20136,11 @@ const QUIZ_DATA = {
       ],
       "a": "情報公開制度",
       "comment": "知る権利を具体化するための制度です。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205777_png_1773667976723.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205777_png_1773667976723.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "アイヌ民族を先住民族と明記し、独自の文化の振興などを定めた2019年の法律は？",
-      "img": "assets/images/history/h_medieval_5_koshamain_1772980296643.jpg",
       "choices": [
         "アイヌ施策推進法",
         "アイヌ文化振興法",
@@ -20246,7 +20149,7 @@ const QUIZ_DATA = {
       ],
       "a": "アイヌ施策推進法",
       "comment": "アイヌ文化の誇りが尊重される社会の実現を目指しています。",
-      "answerImg": "assets/images/civics/g_civics_3_ainu_people_1773476270551.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_ainu_people_1773476270551.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20259,7 +20162,7 @@ const QUIZ_DATA = {
       ],
       "a": "障害者基本法",
       "comment": "障害者の自立と社会参加の支援を定めています。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205778_png_1773667993549.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205778_png_1773667993549.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20272,7 +20175,7 @@ const QUIZ_DATA = {
       ],
       "a": "国家賠償請求権",
       "comment": "請求権の一つで、国民の権利を守るための重要な権利です。",
-      "answerImg": "assets/images/civics/g_civics_7_state_redress_1773481747167.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_state_redress_1773481747167.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20285,7 +20188,7 @@ const QUIZ_DATA = {
       ],
       "a": "知る権利",
       "comment": "これを保障するため、1999年には情報公開法が制定されました。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_know_1773481779167.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20298,7 +20201,7 @@ const QUIZ_DATA = {
       ],
       "a": "プライバシーの権利",
       "comment": "情報のデジタル化が進む中で重要視されており、個人情報保護法などで守られています。",
-      "answerImg": "assets/images/civics/g_civics_7_privacy_1773481800773.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_privacy_1773481800773.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20311,7 +20214,7 @@ const QUIZ_DATA = {
       ],
       "a": "個人情報保護法",
       "comment": "個人情報が外部に漏れたり、悪用されたりすることを防ぐための法律です。",
-      "answerImg": "assets/images/civics/g_civics_7_personal_info_1773481816116.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_personal_info_1773481816116.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20324,7 +20227,7 @@ const QUIZ_DATA = {
       ],
       "a": "肖像権",
       "comment": "プライバシーの権利の一部として、また有名人の場合は財産的な価値を持つ権利としても問題になります。",
-      "answerImg": "assets/images/civics/g_civics_7_portrait_rights_1773481835003.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_portrait_rights_1773481835003.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20337,7 +20240,7 @@ const QUIZ_DATA = {
       ],
       "a": "自己決定権",
       "comment": "医療現場でのインフォームド・コンセントや、臓器提供の意思表示などもこの権利に基づいています。",
-      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_self_determination_1773482568703.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20350,7 +20253,7 @@ const QUIZ_DATA = {
       ],
       "a": "遺伝子診断",
       "comment": "病気の予防や治療に役立つ一方で、差別やプライバシーの侵害につながる懸念も指摘されています。",
-      "answerImg": "assets/images/civics/g_civics_8_genetic_diagnosis_1773482705214.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_genetic_diagnosis_1773482705214.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20363,7 +20266,7 @@ const QUIZ_DATA = {
       ],
       "a": "普通選挙",
       "comment": "これに対し、性別や財産などで制限をする選挙を制限選挙といいます。日本では第二次世界大戦後の1945年に完全な普通選挙が実現しました。",
-      "answerImg": "assets/images/civics/g_civics_9_universal_suffrage_1773482862704.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_universal_suffrage_1773482862704.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20376,12 +20279,11 @@ const QUIZ_DATA = {
       ],
       "a": "公職選挙法",
       "comment": "選挙が正しく行われ、民主政治が行われることが目的であり、選挙権や投票のしかた、選挙運動などについて具体的に定めています。",
-      "answerImg": "assets/images/civics/g_civics_9_election_law_1773482944875.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_election_law_1773482944875.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国民の中から選挙を通じて選ばれた国会議員によってなりたっている機関を何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国会",
         "内閣",
@@ -20390,12 +20292,11 @@ const QUIZ_DATA = {
       ],
       "a": "国会",
       "comment": "国民の代表機関であり、日本国憲法では「国権の最高機関」であり「国の唯一の立法機関」と定められています。",
-      "answerImg": "assets/images/civics/g_civics_11_national_diet_1773503007142.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_national_diet_1773503007142.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法において「国の唯一の立法機関」と定められている機関における、法律を制定する権限（行為）を何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "立法",
         "行政",
@@ -20404,7 +20305,7 @@ const QUIZ_DATA = {
       ],
       "a": "立法",
       "comment": "国会の最も重要な仕事の一つです。",
-      "answerImg": "assets/images/civics/g_civics_12_legislation_1773503238384.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_legislation_1773503238384.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20417,7 +20318,7 @@ const QUIZ_DATA = {
       ],
       "a": "衆議院",
       "comment": "被選挙権は満25歳以上です。法律の制定や内閣総理大臣の指名などで参議院より強い権限（衆議院の優越）が認められています。",
-      "answerImg": "assets/images/civics/g_civics_12_house_of_reps_1773503279602.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_house_of_reps_1773503279602.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20430,7 +20331,7 @@ const QUIZ_DATA = {
       ],
       "a": "参議院",
       "comment": "被選挙権は満30歳以上です。衆議院の行き過ぎをおさえる役割が期待されています。",
-      "answerImg": "assets/images/civics/g_civics_12_house_of_councillors_1773503294409.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_house_of_councillors_1773503294409.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20443,12 +20344,11 @@ const QUIZ_DATA = {
       ],
       "a": "憲法改正の発議",
       "comment": "その後の国民投票で有効投票の過半数の賛成が得られれば、改正が成立します。",
-      "answerImg": "assets/images/civics/g_civics_13_constitutional_amendment_proposal_1773503502714.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_constitutional_amendment_proposal_1773503502714.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国会が制定した法律や予算にもとづいて政治を行うことを何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "行政",
         "立法",
@@ -20457,12 +20357,11 @@ const QUIZ_DATA = {
       ],
       "a": "行政",
       "comment": "日本国憲法でこの権限は内閣に属すると定められています。",
-      "answerImg": "assets/images/civics/g_civics_13_executive_branch_1773503630671.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_executive_branch_1773503630671.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "法にもとづいてもめごとなどを解決することを指し、その権限は最高裁判所と下級裁判所に属すると定められているものを何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "司法",
         "立法",
@@ -20471,7 +20370,7 @@ const QUIZ_DATA = {
       ],
       "a": "司法",
       "comment": "日本国憲法第76条で規定されています。",
-      "answerImg": "assets/images/civics/g_civics_14_judiciary_1773504068344.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_judiciary_1773504068344.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20484,7 +20383,7 @@ const QUIZ_DATA = {
       ],
       "a": "最高裁判所",
       "comment": "長官は内閣の指名にもとづいて天皇が任命し、その他の裁判官は内閣が任命します。違憲立法審査権の最終判断を行うため「憲法の番人」と呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_14_supreme_court_1773504097935.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_supreme_court_1773504097935.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20497,12 +20396,11 @@ const QUIZ_DATA = {
       ],
       "a": "防衛省",
       "comment": "自衛隊の管理や運営など、国防に関する職務を担っています。",
-      "answerImg": "assets/images/civics/g_civics_14_ministry_defense_1773504206363.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_ministry_defense_1773504206363.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国や地方公共団体といった公的機関に勤務する者で、日本国憲法第15条で「全体の奉仕者」と定められている人々を何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "公務員",
         "会社員",
@@ -20511,7 +20409,7 @@ const QUIZ_DATA = {
       ],
       "a": "公務員",
       "comment": "国の仕事をする国家公務員と地方の仕事をする地方公務員があり、一部の人間だけでなく国民全体に奉仕しなければならないとされています。",
-      "answerImg": "assets/images/civics/g_civics_15_civil_servants_1773504441519.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_civil_servants_1773504441519.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20524,7 +20422,7 @@ const QUIZ_DATA = {
       ],
       "a": "官僚",
       "comment": "政治の重要な決定を通じて、本来の主権者の代表である国会よりも大きな権限を持ってしまう「官僚政治」が問題視されることがあります。",
-      "answerImg": "assets/images/civics/g_civics_15_bureaucrats_1773504455069.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_bureaucrats_1773504455069.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20537,7 +20435,7 @@ const QUIZ_DATA = {
       ],
       "a": "政令",
       "comment": "憲法や法律の細かい取り決めを、国会を通さずに行うことが多いです。",
-      "answerImg": "assets/images/civics/g_civics_16_cabinet_order_1773504603535.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_cabinet_order_1773504603535.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20550,12 +20448,11 @@ const QUIZ_DATA = {
       ],
       "a": "違憲立法審査権（違憲審査権）",
       "comment": "下級裁判所でも判断できますが、最終的な判断を行う最高裁判所は「憲法の番人」とよばれます。",
-      "answerImg": "assets/images/civics/g_civics_17_judicial_review_1773504776899.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_judicial_review_1773504776899.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "裁判所で実際に裁判を担当する国家公務員で、日本国憲法第76条で「自らの良心に従い、拘束されるのは憲法と法律だけである」と定められているのは誰か。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "裁判官",
         "検察官",
@@ -20564,7 +20461,7 @@ const QUIZ_DATA = {
       ],
       "a": "裁判官",
       "comment": "最高裁判所長官は内閣が指名し、天皇が任命します。その他の裁判官は内閣が任命します。",
-      "answerImg": "assets/images/civics/g_civics_18_judge_1773505018215.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_judge_1773505018215.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20577,7 +20474,7 @@ const QUIZ_DATA = {
       ],
       "a": "令状主義",
       "comment": "人権侵害を防ぐための考え方ですが、現行犯逮捕の場合は必要ありません。",
-      "answerImg": "assets/images/civics/g_civics_18_warrant_requirement_1773505033665.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_warrant_requirement_1773505033665.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20590,7 +20487,7 @@ const QUIZ_DATA = {
       ],
       "a": "逮捕令状",
       "comment": "基本的人権の1つである身体の自由を保障するために定められています。",
-      "answerImg": "assets/images/civics/g_civics_18_arrest_warrant_1773505052758.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_arrest_warrant_1773505052758.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20603,12 +20500,11 @@ const QUIZ_DATA = {
       ],
       "a": "条例",
       "comment": "住民の直接請求権により、住民が制定や改正・廃止を要求することもできます。",
-      "answerImg": "assets/images/civics/g_civics_19_ordinance_1773505271442.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_ordinance_1773505271442.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "すべての国民が健康で文化的な生活を送ることができるように、国が国民の最低限度の生活を保障しようとするしくみを何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "社会保障",
         "基本的人権",
@@ -20617,7 +20513,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会保障",
       "comment": "日本国憲法第25条の「生存権」にもとづいて整備されており、公的扶助、社会保険、社会福祉、公衆衛生の4つの分野からなります。",
-      "answerImg": "assets/images/civics/g_civics_34_social_security_1773563396666.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_social_security_1773563396666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20630,7 +20526,7 @@ const QUIZ_DATA = {
       ],
       "a": "公的扶助",
       "comment": "生活扶助や住宅扶助、教育扶助、医療扶助などが行われます。",
-      "answerImg": "assets/images/civics/g_civics_34_public_assistance_1773563409971.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_public_assistance_1773563409971.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20643,12 +20539,11 @@ const QUIZ_DATA = {
       ],
       "a": "マグナカルタ（大憲章）",
       "comment": "議会の同意なしに税金をかけないこと、正しい手続きなしに逮捕しないことなどを国王に認めさせました。",
-      "answerImg": "assets/images/civics/g_civics_42_magna_carta_1773581426406.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_magna_carta_1773581426406.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1787年にアメリカで制定された憲法。世界で最初の成文憲法であり、民主主義や三権分立について規定している憲法は何か。",
-      "img": "assets/images/history/h_modern_2_dainippon_1773342325306.jpg",
       "choices": [
         "アメリカ合衆国憲法",
         "フランス憲法",
@@ -20657,7 +20552,7 @@ const QUIZ_DATA = {
       ],
       "a": "アメリカ合衆国憲法",
       "comment": "アメリカ独立戦争の後に制定されました。",
-      "answerImg": "assets/images/civics/g_civics_42_us_constitution_1773581453196.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_us_constitution_1773581453196.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20670,7 +20565,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワイマール憲法",
       "comment": "「ドイツ共和国憲法」が正式名称です。すべての国民に「人間たるに値する生活」を保障することを規定しました。",
-      "answerImg": "assets/images/civics/g_civics_42_weimar_constitution_1773581468912.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_weimar_constitution_1773581468912.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20683,7 +20578,7 @@ const QUIZ_DATA = {
       ],
       "a": "国歌",
       "comment": "オリンピックの表彰式や式典などで演奏されます。",
-      "answerImg": "assets/images/civics/g_civics_45_national_anthem_1773582659380.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_national_anthem_1773582659380.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20696,12 +20591,11 @@ const QUIZ_DATA = {
       ],
       "a": "国旗",
       "comment": "国や国民の象徴として扱われます。",
-      "answerImg": "assets/images/civics/g_civics_45_national_flag_1773582674618.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_national_flag_1773582674618.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "すでに世界にある核兵器を減らすための取り組みを何というか。",
-      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
       "choices": [
         "核軍縮交渉",
         "軍備拡張",
@@ -20710,7 +20604,7 @@ const QUIZ_DATA = {
       ],
       "a": "核軍縮交渉",
       "comment": "冷戦期にアメリカとソ連がお互いの核兵器の数を制限するSALTから始まりました。",
-      "answerImg": "assets/images/civics/g_civics_47_nuclear_disarmament_1773583280730.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_nuclear_disarmament_1773583280730.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20723,12 +20617,11 @@ const QUIZ_DATA = {
       ],
       "a": "NPT",
       "comment": "核拡散防止条約のこと。アメリカ、ロシア、フランス、イギリス、中国の5か国を核保有国と定めています。",
-      "answerImg": "assets/images/civics/g_civics_47_npt_1773583341020.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_npt_1773583341020.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "政府によってつくられたのではなく、民間によってつくられた国際的な協力組織をアルファベットで何というか。",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NGO（非政府組織）",
         "NPO（非営利組織）",
@@ -20737,7 +20630,7 @@ const QUIZ_DATA = {
       ],
       "a": "NGO（非政府組織）",
       "comment": "平和や人権問題、環境問題など地球規模のテーマに取り組んでおり、国境をこえて活動しています。",
-      "answerImg": "assets/images/civics/g_civics_49_ngo_1773583896329.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_ngo_1773583896329.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20750,7 +20643,7 @@ const QUIZ_DATA = {
       ],
       "a": "人間の安全保障",
       "comment": "紛争や環境破壊などに対して、国家の安全保障だけでは不十分であるという考え方に基づきます。",
-      "answerImg": "assets/images/civics/g_civics_49_human_security_1773583942925.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_human_security_1773583942925.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20763,12 +20656,11 @@ const QUIZ_DATA = {
       ],
       "a": "核兵器禁止条約",
       "comment": "アメリカやロシアなど核保有国と、日本など「核の傘」にある国は参加していません。",
-      "answerImg": "assets/images/civics/g_civics_50_tpnw_1773584227313.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_tpnw_1773584227313.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "平和をおびやかす地域紛争などの事態の悪化や国際的な拡大を防止するために国連が行う活動をアルファベットで何というか。",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "PKO",
         "PKF",
@@ -20777,12 +20669,11 @@ const QUIZ_DATA = {
       ],
       "a": "PKO",
       "comment": "平和維持活動のこと。紛争地域に平和維持軍（PKF）などを派遣します。",
-      "answerImg": "assets/images/civics/g_civics_26_sme_1773546900945.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_sme_1773546900945.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "平和維持活動（PKO）などに対し、自衛隊などが参加できるようにするため、1992年に日本で制定された法律を何というか。",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "国連平和維持活動協力法（PKO協力法）",
         "周辺事態法",
@@ -20791,14 +20682,13 @@ const QUIZ_DATA = {
       ],
       "a": "国連平和維持活動協力法（PKO協力法）",
       "comment": "これによりカンボジアなどに自衛隊が派遣されました。",
-      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_gender_equal_society_1773480280690.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "c_3": [
     {
       "q": "国の権力を立法、行政、司法の三つに分け、抑制と均衡を保つ仕組みは？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "三権分立",
         "地方自治",
@@ -20807,12 +20697,11 @@ const QUIZ_DATA = {
       ],
       "a": "三権分立",
       "comment": "モンテスキューが『法の精神』で唱えました。",
-      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本国憲法において、「国権の最高機関」であり「唯一の立法機関」とされるのは？",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "国会",
         "内閣",
@@ -20821,7 +20710,7 @@ const QUIZ_DATA = {
       ],
       "a": "国会",
       "comment": "衆議院と参議院の二院制をとっています。",
-      "answerImg": "assets/images/civics/g_civics_11_national_diet_1773503007142.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_national_diet_1773503007142.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20834,7 +20723,7 @@ const QUIZ_DATA = {
       ],
       "a": "内閣",
       "comment": "内閣総理大臣と国務大臣で組織されます。",
-      "answerImg": "assets/images/civics/g_civics_13_prime_minister_cabinet_1773503660268.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_prime_minister_cabinet_1773503660268.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20847,7 +20736,7 @@ const QUIZ_DATA = {
       ],
       "a": "憲法の番人",
       "comment": "違憲立法審査権を行使します。",
-      "answerImg": "assets/images/civics/g_civics_14_courts_1773504084087.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_courts_1773504084087.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20860,7 +20749,7 @@ const QUIZ_DATA = {
       ],
       "a": "10日以内に衆議院を解散するか、総辞職する",
       "comment": "内閣不信任決議権に対する対抗措置です。",
-      "answerImg": "assets/images/civics/g_civics_14_dissolution_house_reps_1773504147249.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_dissolution_house_reps_1773504147249.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20873,7 +20762,7 @@ const QUIZ_DATA = {
       ],
       "a": "弾劾裁判所",
       "comment": "衆参両院の議員で作られます。",
-      "answerImg": "assets/images/civics/g_civics_14_lower_courts_1773504112691.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_lower_courts_1773504112691.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20886,7 +20775,7 @@ const QUIZ_DATA = {
       ],
       "a": "直接選挙",
       "comment": "有権者が自分で直接候補者や政党に投票します。",
-      "answerImg": "assets/images/civics/g_civics_9_direct_election_1773482898610.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_direct_election_1773482898610.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20899,12 +20788,11 @@ const QUIZ_DATA = {
       ],
       "a": "小選挙区比例代表並立制",
       "comment": "二つの投票用紙に記入します。",
-      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205779_png_1773668010323.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_rights_1773667205779_png_1773668010323.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地域の政治をその地域の住民や自治体が行うことを、「民主主義の学校」と呼んだことにちなんで何というか？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方自治",
         "直接請求権",
@@ -20913,7 +20801,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方自治",
       "comment": "ブライスが提唱した言葉です。",
-      "answerImg": "assets/images/civics/g_civics_19_local_autonomy_1773505207642.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_local_autonomy_1773505207642.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20926,7 +20814,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方交付税交付金",
       "comment": "地域間の財政格差をなくすために交付されます。",
-      "answerImg": "assets/images/civics/g_civics_20_local_allocation_tax_1773505451446.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_local_allocation_tax_1773505451446.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20939,7 +20827,7 @@ const QUIZ_DATA = {
       ],
       "a": "死票（しひょう）",
       "comment": "大政党に有利になりやすいという特徴もあります。",
-      "answerImg": "assets/images/civics/g_civics_new_duties_1773667205780_png_1773668026240.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_duties_1773667205780_png_1773668026240.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20952,7 +20840,7 @@ const QUIZ_DATA = {
       ],
       "a": "一票の格差",
       "comment": "最高裁判所で違憲判決が出されることもあります。",
-      "answerImg": "assets/images/civics/g_civics_10_vote_disparity_1773484121945.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_vote_disparity_1773484121945.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20965,7 +20853,7 @@ const QUIZ_DATA = {
       ],
       "a": "政党交付金",
       "comment": "所属議員数や得票率に応じて配分されます。",
-      "answerImg": "assets/images/civics/g_civics_10_party_subsidy_1773484142744.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_party_subsidy_1773484142744.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20978,7 +20866,7 @@ const QUIZ_DATA = {
       ],
       "a": "委員会",
       "comment": "本会議の前に詳細な審査を行います（委員会中心主義）。",
-      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -20991,7 +20879,7 @@ const QUIZ_DATA = {
       ],
       "a": "国政調査権",
       "comment": "ロッキード事件などの汚職事件の解明などで行使されました。",
-      "answerImg": "assets/images/civics/g_civics_12_investigate_state_affairs_1773503323538.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_investigate_state_affairs_1773503323538.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21004,7 +20892,7 @@ const QUIZ_DATA = {
       ],
       "a": "行政委員会",
       "comment": "政治的な中立性を保つ必要があるため設置されます。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205781_png_1773668042569.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205781_png_1773668042569.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21017,7 +20905,7 @@ const QUIZ_DATA = {
       ],
       "a": "公務員",
       "comment": "政治的活動の制限などの義務があります。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205782_png_1773668057018.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205782_png_1773668057018.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21030,7 +20918,7 @@ const QUIZ_DATA = {
       ],
       "a": "裁判の公開",
       "comment": "裁判の公正さを保つためです（対審と判決）。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205784_png_1773668070753.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205784_png_1773668070753.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21043,7 +20931,7 @@ const QUIZ_DATA = {
       ],
       "a": "検察審査会",
       "comment": "「起訴相当」の議決が出ると、強制的に起訴される場合もあります。",
-      "answerImg": "assets/images/civics/g_civics_17_prosecution_review_commission_1773504826480.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_prosecution_review_commission_1773504826480.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21056,12 +20944,11 @@ const QUIZ_DATA = {
       ],
       "a": "法テラス",
       "comment": "誰もが司法サービスを受けられるように設立されました。",
-      "answerImg": "assets/images/civics/g_civics_new_1773667205785_png_1773668085467.jpg",
+      "answerImg": "assets/images/civics/g_civics_new_1773667205785_png_1773668085467.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1999年に制定された、国と地方の関係を「対等・協力」の関係に変えることを目指した法律は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方分権一括法",
         "地方自治法",
@@ -21070,12 +20957,11 @@ const QUIZ_DATA = {
       ],
       "a": "地方分権一括法",
       "comment": "機関委任事務が廃止され、自治事務と法定受託事務に再編されました。",
-      "answerImg": "assets/images/civics/g_civics_19_decentralization_1773505300179.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_decentralization_1773505300179.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国政選挙や都道府県知事選挙の事務など、本来は国の仕事だが、法令により地方公共団体が処理する事務は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "法定受託事務",
         "自治事務",
@@ -21084,12 +20970,11 @@ const QUIZ_DATA = {
       ],
       "a": "法定受託事務",
       "comment": "パスポートの交付や生活保護の決定などがこれにあたります。",
-      "answerImg": "assets/images/civics/g_civics_28_trust_1773547519332.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_trust_1773547519332.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "平成の時代に、財政基盤の強化などを目的として、多くの市町村が合併したことを何というか？",
-      "img": "assets/images/history/h_modern_1_haihan_1773341754956.jpg",
       "choices": [
         "平成の大合併",
         "廃藩置県",
@@ -21098,7 +20983,7 @@ const QUIZ_DATA = {
       ],
       "a": "平成の大合併",
       "comment": "市町村の数は約3200から約1700に減りました。",
-      "answerImg": "assets/images/civics/g_civics_20_municipal_mergers_1773505536032.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_municipal_mergers_1773505536032.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21111,7 +20996,7 @@ const QUIZ_DATA = {
       ],
       "a": "衆議院の優越",
       "comment": "予算の議決、条約の承認、内閣総理大臣の指名、法律案の再可決などで認められています。",
-      "answerImg": "assets/images/civics/g_civics_12_supremacy_house_reps_1773503310439.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_supremacy_house_reps_1773503310439.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21124,7 +21009,7 @@ const QUIZ_DATA = {
       ],
       "a": "常会（通常国会）",
       "comment": "会期は150日間で、主に次年度の予算を審議します。",
-      "answerImg": "assets/images/civics/g_civics_12_extraordinary_session_1773503205161.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_extraordinary_session_1773503205161.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21137,7 +21022,7 @@ const QUIZ_DATA = {
       ],
       "a": "ドント式",
       "comment": "得票数を1, 2, 3…と整数で割り、商の大きい順に議席を配分します。",
-      "answerImg": "assets/images/civics/g_civics_10_dhondt_1773484051016.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_dhondt_1773484051016.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21150,12 +21035,11 @@ const QUIZ_DATA = {
       ],
       "a": "閣議",
       "comment": "内閣総理大臣が主宰し、全会一致が原則です。",
-      "answerImg": "assets/images/civics/g_civics_16_cabinet_meeting_1773504653666.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_cabinet_meeting_1773504653666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地方自治法などの特定の法律を制定するために、対象となる地方公共団体の住民の投票で過半数の賛成が必要な制度は？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "住民投票",
         "リコール",
@@ -21164,12 +21048,11 @@ const QUIZ_DATA = {
       ],
       "a": "住民投票",
       "comment": "憲法95条に基づく「特別法の制定」の場合です。",
-      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地方自治において、住民が署名を集めて、条例の制定や改廃を首長に請求する権利を何というか？",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "直接請求権",
         "請願権",
@@ -21178,7 +21061,7 @@ const QUIZ_DATA = {
       ],
       "a": "直接請求権",
       "comment": "有権者の50分の1以上の署名が必要です。",
-      "answerImg": "assets/images/civics/g_civics_20_direct_demand_1773505488535.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_direct_demand_1773505488535.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21191,7 +21074,7 @@ const QUIZ_DATA = {
       ],
       "a": "リコール（解職請求）",
       "comment": "有権者の3分の1以上の署名が必要です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_recall_1773716553481.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_recall_1773716553481.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21204,7 +21087,7 @@ const QUIZ_DATA = {
       ],
       "a": "裁判員制度",
       "comment": "2009年から開始されました。",
-      "answerImg": "assets/images/civics/g_civics_17_saibanin_system_1773504806548.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_saibanin_system_1773504806548.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21217,7 +21100,7 @@ const QUIZ_DATA = {
       ],
       "a": "常任委員会",
       "comment": "予算委員会や外務委員会などがあります。",
-      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21230,7 +21113,7 @@ const QUIZ_DATA = {
       ],
       "a": "再議権（拒否権）",
       "comment": "拒否権とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_50_veto_power_1773584350813.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_veto_power_1773584350813.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21243,12 +21126,11 @@ const QUIZ_DATA = {
       ],
       "a": "住民投票",
       "comment": "結果に法的拘束力がない場合が多いですが、政治的影響力は大きいです。",
-      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "選挙区のあちこちにポスターを貼ったり、街頭演説をしたりする選挙運動ができる期間は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "公示（告示）日から投票日の前日まで",
         "解散日から投票日まで",
@@ -21257,7 +21139,7 @@ const QUIZ_DATA = {
       ],
       "a": "公示（告示）日から投票日の前日まで",
       "comment": "期間外の選挙運動は事前運動として禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_11_budget_committee_1773502874580.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_budget_committee_1773502874580.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21270,7 +21152,7 @@ const QUIZ_DATA = {
       ],
       "a": "選挙権",
       "comment": "国会議員、地方公共団体の長（都道府県知事や市区町村長）、地方議会議員を選出する権利です。",
-      "answerImg": "assets/images/civics/g_civics_6_election_right_1773481489228.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_election_right_1773481489228.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21283,7 +21165,7 @@ const QUIZ_DATA = {
       ],
       "a": "被選挙権",
       "comment": "参議院議員と都道府県知事は満30歳以上、衆議院議員や市区町村長などは満25歳以上と定められています。",
-      "answerImg": "assets/images/civics/g_civics_6_right_to_be_elected_1773481505441.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_right_to_be_elected_1773481505441.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21296,7 +21178,7 @@ const QUIZ_DATA = {
       ],
       "a": "国民審査権",
       "comment": "やめさせる（罷免する）べきとする票が過半数を占めた場合、その裁判官は罷免されます。",
-      "answerImg": "assets/images/civics/g_civics_6_national_review_1773481523335.jpg",
+      "answerImg": "assets/images/civics/g_civics_6_national_review_1773481523335.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21309,7 +21191,7 @@ const QUIZ_DATA = {
       ],
       "a": "請願権",
       "comment": "人権侵害の救済や、法律の制定・改廃などを求めることができます。",
-      "answerImg": "assets/images/civics/g_civics_7_petition_right_1773481701998.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_petition_right_1773481701998.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21322,7 +21204,7 @@ const QUIZ_DATA = {
       ],
       "a": "国民投票権",
       "comment": "満18歳以上の日本国民に認められており、有効投票の過半数の賛成があれば改正が承認されます。",
-      "answerImg": "assets/images/civics/g_civics_7_national_referendum_1773481718966.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_national_referendum_1773481718966.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21335,7 +21217,7 @@ const QUIZ_DATA = {
       ],
       "a": "請求権",
       "comment": "国家賠償請求権、刑事補償請求権、裁判を受ける権利などがあります。",
-      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_right_to_claim_1773481729682.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21348,7 +21230,7 @@ const QUIZ_DATA = {
       ],
       "a": "刑事補償請求権",
       "comment": "不当な身柄拘束などによる損害を回復するための制度です。",
-      "answerImg": "assets/images/civics/g_civics_7_criminal_compensation_1773481767306.jpg",
+      "answerImg": "assets/images/civics/g_civics_7_criminal_compensation_1773481767306.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21361,7 +21243,7 @@ const QUIZ_DATA = {
       ],
       "a": "平等選挙",
       "comment": "財産や身分などによって1人の投票数を増減することは認められません。",
-      "answerImg": "assets/images/civics/g_civics_9_equal_suffrage_1773482879320.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_equal_suffrage_1773482879320.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21374,7 +21256,7 @@ const QUIZ_DATA = {
       ],
       "a": "直接選挙",
       "comment": "これに対し、有権者が選んだ選挙人が候補者に対して投票する選挙を間接選挙（例：アメリカ大統領選挙）といいます。",
-      "answerImg": "assets/images/civics/g_civics_9_direct_election_1773482898610.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_direct_election_1773482898610.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21387,7 +21269,7 @@ const QUIZ_DATA = {
       ],
       "a": "秘密選挙",
       "comment": "投票用紙には自分の名前を書かなくてよいことになっており、投票する人の自由な意思を守るために行われます。",
-      "answerImg": "assets/images/civics/g_civics_9_secret_ballot_1773482909476.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_secret_ballot_1773482909476.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21400,7 +21282,7 @@ const QUIZ_DATA = {
       ],
       "a": "投票率",
       "comment": "近年、日本の国政選挙の投票率は7割以下であることが多く、特に若い世代で投票率が低い傾向にあります。",
-      "answerImg": "assets/images/civics/g_civics_9_turnout_1773482961728.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_turnout_1773482961728.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21413,12 +21295,11 @@ const QUIZ_DATA = {
       ],
       "a": "期日前投票",
       "comment": "投票率の向上のため、棄権を減らす取り組みとして導入されています。",
-      "answerImg": "assets/images/civics/g_civics_9_early_voting_1773482983805.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_early_voting_1773482983805.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1つの選挙区から2人以上の代表を選出する選挙方法を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "大選挙区制",
         "小選挙区制",
@@ -21427,7 +21308,7 @@ const QUIZ_DATA = {
       ],
       "a": "大選挙区制",
       "comment": "小さい政党も当選する可能性が高く国民の意思が反映されやすい反面、政党が多くなり政治が不安定になるおそれがあるなどの問題点があります。",
-      "answerImg": "assets/images/civics/g_civics_9_large_electoral_district_1773482995706.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_large_electoral_district_1773482995706.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21440,7 +21321,7 @@ const QUIZ_DATA = {
       ],
       "a": "小選挙区制",
       "comment": "大きな政党に有利になり政治が安定しやすい反面、死票が多くなり、国民の意思が正確に反映されないことなどが問題点としてあげられます。",
-      "answerImg": "assets/images/civics/g_civics_9_small_electoral_district_1773483013727.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_small_electoral_district_1773483013727.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21453,7 +21334,7 @@ const QUIZ_DATA = {
       ],
       "a": "比例代表制",
       "comment": "死票（落選者に投票された票）が少なく国民の意思が反映されやすいですが、小さい政党が多くなり政治が不安定になるおそれがあります。",
-      "answerImg": "assets/images/civics/g_civics_10_proportional_representation_1773484033688.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_proportional_representation_1773484033688.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21466,7 +21347,7 @@ const QUIZ_DATA = {
       ],
       "a": "ドント式",
       "comment": "衆議院議員選挙と参議院議員選挙の比例代表で取り入れられています。",
-      "answerImg": "assets/images/civics/g_civics_10_dhondt_1773484051016.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_dhondt_1773484051016.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21479,7 +21360,7 @@ const QUIZ_DATA = {
       ],
       "a": "小選挙区比例代表並立制",
       "comment": "小選挙区制で289名、比例代表制で176名が選出されます（第48回選挙より）。候補者は両方に重複立候補できる場合があります。",
-      "answerImg": "assets/images/civics/g_civics_10_parallel_system_1773484064177.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_parallel_system_1773484064177.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21492,12 +21373,11 @@ const QUIZ_DATA = {
       ],
       "a": "政権公約（マニフェスト）",
       "comment": "政策の内容や実施期間、財源などがきちんと示されており、その政党が政権をにぎった場合には確実に実行するものだと考えられています。",
-      "answerImg": "assets/images/civics/g_civics_10_manifesto_1773484081663.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_manifesto_1773484081663.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "選挙において、選挙区ごとに有権者の数と議員定数の比率に差が出ているため、一票の価値に差が出てしまっている状態のことを何というか。",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "一票の格差",
         "死票",
@@ -21506,12 +21386,11 @@ const QUIZ_DATA = {
       ],
       "a": "一票の格差",
       "comment": "平等選挙の原則に反するとして、たびたび裁判で問題になっています。",
-      "answerImg": "assets/images/civics/g_civics_10_vote_disparity_1773484121945.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_vote_disparity_1773484121945.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "選挙運動の中心人物が選挙違反をした場合に、候補者の当選が無効になる制度を何というか。",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "連座制",
         "小選挙区制",
@@ -21520,7 +21399,7 @@ const QUIZ_DATA = {
       ],
       "a": "連座制",
       "comment": "選挙運動の責任者や親族などが違反をして刑罰が確定したとき、その後も立候補することが制限されます。",
-      "answerImg": "assets/images/civics/g_civics_10_joint_responsibility_1773484163167.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_joint_responsibility_1773484163167.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21533,7 +21412,7 @@ const QUIZ_DATA = {
       ],
       "a": "世論",
       "comment": "民主政治においては国民の意思にしたがった政治を行う必要があるため、世論は重要です。",
-      "answerImg": "assets/images/civics/g_civics_10_public_opinion_1773484181193.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_public_opinion_1773484181193.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21546,7 +21425,7 @@ const QUIZ_DATA = {
       ],
       "a": "委員会",
       "comment": "国会での審議を慎重かつスムーズに行うために設置されており、予算委員会など17の常任委員会があります。",
-      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_committee_1773484198990.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21559,7 +21438,7 @@ const QUIZ_DATA = {
       ],
       "a": "予算委員会",
       "comment": "国の重要な予算を審議する委員会です。",
-      "answerImg": "assets/images/civics/g_civics_11_budget_committee_1773502874580.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_budget_committee_1773502874580.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21572,7 +21451,7 @@ const QUIZ_DATA = {
       ],
       "a": "本会議",
       "comment": "開くには総議員の3分の1以上の出席が必要で、公開が原則です。通常は出席議員の過半数で議事が決められます。",
-      "answerImg": "assets/images/civics/g_civics_11_plenary_session_1773502889451.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_plenary_session_1773502889451.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21585,7 +21464,7 @@ const QUIZ_DATA = {
       ],
       "a": "公聴会",
       "comment": "予算や税金などに関する重要な法案については必ず開かなければなりません。",
-      "answerImg": "assets/images/civics/g_civics_11_public_hearing_1773502904955.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_public_hearing_1773502904955.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21598,7 +21477,7 @@ const QUIZ_DATA = {
       ],
       "a": "両院協議会",
       "comment": "予算の議決、条約の承認、内閣総理大臣の指名で両院の議決が異なったときは必ず開かれます。",
-      "answerImg": "assets/images/civics/g_civics_11_joint_committee_1773502920101.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_joint_committee_1773502920101.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21611,7 +21490,7 @@ const QUIZ_DATA = {
       ],
       "a": "予算の議決",
       "comment": "予算は必ず先に衆議院に提出されます（予算先議権）。衆議院の優越が認められています。",
-      "answerImg": "assets/images/civics/g_civics_11_budget_voting_1773502934956.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_budget_voting_1773502934956.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21624,7 +21503,7 @@ const QUIZ_DATA = {
       ],
       "a": "条約の承認",
       "comment": "承認は締結の「前」でも「後」でもよいとされています。衆議院の優越が認められています。",
-      "answerImg": "assets/images/civics/g_civics_11_treaty_approval_1773502959900.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_treaty_approval_1773502959900.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21637,7 +21516,7 @@ const QUIZ_DATA = {
       ],
       "a": "内閣総理大臣の指名",
       "comment": "両院協議会を開いても意見が一致しない場合などは、衆議院の議決が国会の議決となる「衆議院の優越」が認められています。",
-      "answerImg": "assets/images/civics/g_civics_11_pm_designation_1773502977799.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_pm_designation_1773502977799.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21650,7 +21529,7 @@ const QUIZ_DATA = {
       ],
       "a": "議会制民主主義（代表制民主主義）",
       "comment": "日本の国会や地方議会は、このしくみをとり入れています。",
-      "answerImg": "assets/images/civics/g_civics_11_parliamentary_democracy_1773502992700.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_parliamentary_democracy_1773502992700.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21663,7 +21542,7 @@ const QUIZ_DATA = {
       ],
       "a": "二院制（両院制）",
       "comment": "国会の構成のことです。国民のさまざまな意見を広く政治に反映させる目的があります。",
-      "answerImg": "assets/images/civics/g_civics_11_bicameral_system_1773503023078.jpg",
+      "answerImg": "assets/images/civics/g_civics_11_bicameral_system_1773503023078.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21676,7 +21555,7 @@ const QUIZ_DATA = {
       ],
       "a": "常会（通常国会）",
       "comment": "おもに次年度の予算の審議が行われます。会期は150日です。",
-      "answerImg": "assets/images/civics/g_civics_12_ordinary_session_1773503176300.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_ordinary_session_1773503176300.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21689,7 +21568,7 @@ const QUIZ_DATA = {
       ],
       "a": "特別会（特別国会）",
       "comment": "内閣総理大臣の指名が中心となります。",
-      "answerImg": "assets/images/civics/g_civics_12_special_session_1773503190313.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_special_session_1773503190313.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21702,7 +21581,7 @@ const QUIZ_DATA = {
       ],
       "a": "臨時会（臨時国会）",
       "comment": "おもに政治上で緊急を要する問題などを審議します。",
-      "answerImg": "assets/images/civics/g_civics_12_extraordinary_session_1773503205161.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_extraordinary_session_1773503205161.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21715,7 +21594,7 @@ const QUIZ_DATA = {
       ],
       "a": "参議院の緊急集会",
       "comment": "ここで決められたことは、次の国会開会後10日以内に衆議院での同意が必要となり、同意がなされなかったときは無効となります。",
-      "answerImg": "assets/images/civics/g_civics_12_emergency_session_1773503222170.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_emergency_session_1773503222170.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21728,7 +21607,7 @@ const QUIZ_DATA = {
       ],
       "a": "議員立法",
       "comment": "これに対し、内閣が提出したものを閣法と呼びます。",
-      "answerImg": "assets/images/civics/g_civics_12_members_bill_1773503264241.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_members_bill_1773503264241.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21741,7 +21620,7 @@ const QUIZ_DATA = {
       ],
       "a": "衆議院の優越",
       "comment": "衆議院の方が任期が短く、解散があるため国民の意思をより早く反映していると考えられているためです。予算の議決や内閣総理大臣の指名、条約の承認などに認められています。",
-      "answerImg": "assets/images/civics/g_civics_12_supremacy_house_reps_1773503310439.jpg",
+      "answerImg": "assets/images/civics/g_civics_12_supremacy_house_reps_1773503310439.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21754,7 +21633,7 @@ const QUIZ_DATA = {
       ],
       "a": "与党",
       "comment": "議院内閣制では、通常、議会で多数を占める政党が与党となります。",
-      "answerImg": "assets/images/civics/g_civics_13_ruling_party_1773503517580.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_ruling_party_1773503517580.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21767,7 +21646,7 @@ const QUIZ_DATA = {
       ],
       "a": "野党",
       "comment": "与党とは違う政策を国民に示すことで、国民が政治を判断する際に役立ちます。",
-      "answerImg": "assets/images/civics/g_civics_13_opposition_party_1773503542714.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_opposition_party_1773503542714.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21780,7 +21659,7 @@ const QUIZ_DATA = {
       ],
       "a": "無党派層",
       "comment": "近年増えており、選挙の際にどの党に投票するかで政権が決まることもあります。",
-      "answerImg": "assets/images/civics/g_civics_13_independent_voters_1773503576665.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_independent_voters_1773503576665.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21793,7 +21672,7 @@ const QUIZ_DATA = {
       ],
       "a": "浮動票",
       "comment": "これに対し、毎回同じように特定の政党や候補者に投票に行く人の票を「固定票」といいます。",
-      "answerImg": "assets/images/civics/g_civics_13_floating_votes_1773503601939.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_floating_votes_1773503601939.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21806,7 +21685,7 @@ const QUIZ_DATA = {
       ],
       "a": "圧力団体（利益団体）",
       "comment": "自分たちだけの特殊な利益を求める要求をすることがあるため、民主政治をゆがめることもあるといわれています。",
-      "answerImg": "assets/images/civics/g_civics_13_pressure_group_1773503615663.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_pressure_group_1773503615663.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21819,7 +21698,7 @@ const QUIZ_DATA = {
       ],
       "a": "内閣",
       "comment": "法律の執行や条約の締結、予算の作成などを行います。",
-      "answerImg": "assets/images/civics/g_civics_13_the_cabinet_1773503646193.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_the_cabinet_1773503646193.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21832,7 +21711,7 @@ const QUIZ_DATA = {
       ],
       "a": "内閣総理大臣（首相）",
       "comment": "内閣を代表し、他の国務大臣を任命・罷免する権限を持ちます。",
-      "answerImg": "assets/images/civics/g_civics_13_prime_minister_cabinet_1773503660268.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_prime_minister_cabinet_1773503660268.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21845,7 +21724,7 @@ const QUIZ_DATA = {
       ],
       "a": "裁判所",
       "comment": "最高裁判所と下級裁判所（高等裁判所、地方裁判所、家庭裁判所、簡易裁判所）で構成されます。",
-      "answerImg": "assets/images/civics/g_civics_14_courts_1773504084087.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_courts_1773504084087.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21858,7 +21737,7 @@ const QUIZ_DATA = {
       ],
       "a": "下級裁判所",
       "comment": "それぞれ扱う事件の種類や重さなどによって担当が分かれています。",
-      "answerImg": "assets/images/civics/g_civics_14_lower_courts_1773504112691.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_lower_courts_1773504112691.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21871,7 +21750,7 @@ const QUIZ_DATA = {
       ],
       "a": "内閣不信任の決議",
       "comment": "この決議が行われた場合、内閣は10日以内に総辞職するか、衆議院を解散しなければなりません。",
-      "answerImg": "assets/images/civics/g_civics_14_no_confidence_resolution_1773504127311.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_no_confidence_resolution_1773504127311.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21884,7 +21763,7 @@ const QUIZ_DATA = {
       ],
       "a": "衆議院の解散",
       "comment": "内閣不信任の決議に対して、内閣から衆議院に対して働きかける方法の1つで、議院内閣制のしくみにもとづいています。",
-      "answerImg": "assets/images/civics/g_civics_14_dissolution_house_reps_1773504147249.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_dissolution_house_reps_1773504147249.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21897,7 +21776,7 @@ const QUIZ_DATA = {
       ],
       "a": "総辞職",
       "comment": "内閣不信任の決議が行われ衆議院の解散をしなかった場合や、衆議院議員総選挙のあとに初めて国会が開かれたとき、内閣総理大臣が欠けたときに行われます。",
-      "answerImg": "assets/images/civics/g_civics_14_cabinet_resignation_1773504161702.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_cabinet_resignation_1773504161702.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21910,7 +21789,7 @@ const QUIZ_DATA = {
       ],
       "a": "省庁",
       "comment": "省の下に庁がおかれています。",
-      "answerImg": "assets/images/civics/g_civics_14_ministries_agencies_1773504176680.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_ministries_agencies_1773504176680.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21923,7 +21802,7 @@ const QUIZ_DATA = {
       ],
       "a": "農林水産省",
       "comment": "農林水産業の振興を行っています。",
-      "answerImg": "assets/images/civics/g_civics_14_ministry_agriculture_1773504191266.jpg",
+      "answerImg": "assets/images/civics/g_civics_14_ministry_agriculture_1773504191266.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21936,7 +21815,7 @@ const QUIZ_DATA = {
       ],
       "a": "総務省",
       "comment": "地方行財政や情報通信に関する業務なども幅広く担っています。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_internal_affairs_1773504332012.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_internal_affairs_1773504332012.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21949,7 +21828,7 @@ const QUIZ_DATA = {
       ],
       "a": "経済産業省",
       "comment": "資源やエネルギーなど、経済にかかわる幅広い仕事をしています。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_economy_1773504348717.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_economy_1773504348717.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21962,7 +21841,7 @@ const QUIZ_DATA = {
       ],
       "a": "国土交通省",
       "comment": "国土の総合的かつ体系的な利用、開発および保全などを担っています。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_land_infra_1773504360547.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_land_infra_1773504360547.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21975,7 +21854,7 @@ const QUIZ_DATA = {
       ],
       "a": "外務省",
       "comment": "国の外交政策の立案や条約に関する事務を行います。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_foreign_affairs_1773504394864.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_foreign_affairs_1773504394864.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -21988,7 +21867,7 @@ const QUIZ_DATA = {
       ],
       "a": "財務省",
       "comment": "国家財政の管理や外国為替の安定の確保などが主な仕事です。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_finance_1773504410249.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_finance_1773504410249.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22001,7 +21880,7 @@ const QUIZ_DATA = {
       ],
       "a": "厚生労働省",
       "comment": "高齢者介護・福祉施策や医療保険制度の推進なども担っています。",
-      "answerImg": "assets/images/civics/g_civics_15_ministry_health_labor_1773504427361.jpg",
+      "answerImg": "assets/images/civics/g_civics_15_ministry_health_labor_1773504427361.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22014,7 +21893,7 @@ const QUIZ_DATA = {
       ],
       "a": "行政指導",
       "comment": "強制力はなく、相手方に任意の協力を求めるものです。",
-      "answerImg": "assets/images/civics/g_civics_16_administrative_guidance_1773504558250.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_administrative_guidance_1773504558250.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22027,7 +21906,7 @@ const QUIZ_DATA = {
       ],
       "a": "行政改革",
       "comment": "規制緩和や公務員の数の削減、国立学校や美術館などの独立行政法人化などが進められています。",
-      "answerImg": "assets/images/civics/g_civics_16_administrative_reform_1773504576489.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_administrative_reform_1773504576489.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22040,7 +21919,7 @@ const QUIZ_DATA = {
       ],
       "a": "閣法（内閣提出法律案）",
       "comment": "現在の通常国会などでは、議員立法に比べて閣法の成立件数の方が多い傾向にあります。",
-      "answerImg": "assets/images/civics/g_civics_16_cabinet_bill_1773504589571.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_cabinet_bill_1773504589571.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22053,7 +21932,7 @@ const QUIZ_DATA = {
       ],
       "a": "議院内閣制",
       "comment": "イギリスや日本でとり入れられているしくみで、内閣の政治が信頼できないときには、衆議院は内閣不信任の決議を行うことができます。",
-      "answerImg": "assets/images/civics/g_civics_16_parliamentary_cabinet_system_1773504616270.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_parliamentary_cabinet_system_1773504616270.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22066,7 +21945,7 @@ const QUIZ_DATA = {
       ],
       "a": "国務大臣",
       "comment": "各省庁の長などを務めます。",
-      "answerImg": "assets/images/civics/g_civics_16_minister_of_state_1773504638666.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_minister_of_state_1773504638666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22079,7 +21958,7 @@ const QUIZ_DATA = {
       ],
       "a": "えん罪",
       "comment": "これを防ぐために三審制などがとられていますが、判決が確定した後でも新たな証拠によって再審で無罪となる場合もあります。",
-      "answerImg": "assets/images/civics/g_civics_16_false_accusation_1773504681500.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_false_accusation_1773504681500.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22092,7 +21971,7 @@ const QUIZ_DATA = {
       ],
       "a": "再審",
       "comment": "えん罪を救済するために重要な制度です。",
-      "answerImg": "assets/images/civics/g_civics_16_retrial_1773504699735.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_retrial_1773504699735.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22105,7 +21984,7 @@ const QUIZ_DATA = {
       ],
       "a": "民事裁判",
       "comment": "訴えをおこした者を「原告」、訴えられた者を「被告」といい、当事者の話し合いで解決する和解や当事者の主張をもとに裁判官が判決を下します。",
-      "answerImg": "assets/images/civics/g_civics_17_civil_trial_1773504789912.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_civil_trial_1773504789912.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22118,7 +21997,7 @@ const QUIZ_DATA = {
       ],
       "a": "裁判員制度",
       "comment": "裁判員は満18歳以上の有権者から抽選で選ばれ、被告人が有罪か無罪か、有罪の場合はどのような刑罰にするかを決めます。",
-      "answerImg": "assets/images/civics/g_civics_17_saibanin_system_1773504806548.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_saibanin_system_1773504806548.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22131,12 +22010,11 @@ const QUIZ_DATA = {
       ],
       "a": "検察審査会",
       "comment": "「起訴すべきである」などの議決が出た場合、検察官は再度事件を検討することになります。",
-      "answerImg": "assets/images/civics/g_civics_17_prosecution_review_commission_1773504826480.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_prosecution_review_commission_1773504826480.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国の権力を「立法」「行政」「司法」の3つに分散・独立させているしくみを何というか。",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "三権分立（権力分立）",
         "議院内閣制",
@@ -22145,7 +22023,7 @@ const QUIZ_DATA = {
       ],
       "a": "三権分立（権力分立）",
       "comment": "権力が1つに集中して乱用されるのを防ぎ、たがいに抑制しあい均衡を保つためにとり入れられています。",
-      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_separation_of_powers_1773504848118.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22158,7 +22036,7 @@ const QUIZ_DATA = {
       ],
       "a": "行政裁判",
       "comment": "選挙の無効を求めたりする裁判なども含まれます。",
-      "answerImg": "assets/images/civics/g_civics_17_administrative_litigation_1773504864251.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_administrative_litigation_1773504864251.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22171,7 +22049,7 @@ const QUIZ_DATA = {
       ],
       "a": "刑事裁判",
       "comment": "裁判所は被告人が有罪か無罪か、有罪のときはどれくらいの刑罰かの判決を下します。",
-      "answerImg": "assets/images/civics/g_civics_17_criminal_trial_1773504878827.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_criminal_trial_1773504878827.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22184,7 +22062,7 @@ const QUIZ_DATA = {
       ],
       "a": "検察官",
       "comment": "検察庁に属しており、刑事裁判において原告となります。",
-      "answerImg": "assets/images/civics/g_civics_17_prosecutor_1773504893313.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_prosecutor_1773504893313.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22197,7 +22075,7 @@ const QUIZ_DATA = {
       ],
       "a": "起訴",
       "comment": "起訴により刑事裁判が始まります。",
-      "answerImg": "assets/images/civics/g_civics_17_indictment_1773504907349.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_indictment_1773504907349.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22210,7 +22088,7 @@ const QUIZ_DATA = {
       ],
       "a": "弁護人",
       "comment": "被告人となった人は、だれでも弁護人を依頼できます。おもに弁護士がその役目にあたります。",
-      "answerImg": "assets/images/civics/g_civics_18_defense_counsel_1773504988791.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_defense_counsel_1773504988791.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22223,7 +22101,7 @@ const QUIZ_DATA = {
       ],
       "a": "執行猶予",
       "comment": "犯罪を犯しても自分の非を認め、立ち直ろうとしているのであれば、刑罰を与えなくてもよいのではないかという考えからつくられました。",
-      "answerImg": "assets/images/civics/g_civics_18_suspended_sentence_1773505067760.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_suspended_sentence_1773505067760.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22236,7 +22114,7 @@ const QUIZ_DATA = {
       ],
       "a": "司法制度改革",
       "comment": "裁判にかかる時間を短くしたり、裁判官などを増やす取り組みも含まれます。",
-      "answerImg": "assets/images/civics/g_civics_18_judicial_reform_1773505083270.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_judicial_reform_1773505083270.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22249,7 +22127,7 @@ const QUIZ_DATA = {
       ],
       "a": "国選弁護人",
       "comment": "法テラスが制度の運営にあたっています。",
-      "answerImg": "assets/images/civics/g_civics_18_court_appointed_counsel_1773505096836.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_court_appointed_counsel_1773505096836.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22262,12 +22140,11 @@ const QUIZ_DATA = {
       ],
       "a": "法テラス",
       "comment": "司法サービスを利用しやすくすることを目的に、2006年に設立されました。",
-      "answerImg": "assets/images/civics/g_civics_18_hou_terrace_1773505109140.jpg",
+      "answerImg": "assets/images/civics/g_civics_18_hou_terrace_1773505109140.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "都道府県や市（区）町村など、地方自治が行われる単位となる団体を何というか。",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方公共団体（地方自治体）",
         "非政府組織（NGO）",
@@ -22276,12 +22153,11 @@ const QUIZ_DATA = {
       ],
       "a": "地方公共団体（地方自治体）",
       "comment": "警察、消防、ごみの収集や学校・図書館の運営など、地域住民の生活に結びついた仕事を行っています。",
-      "answerImg": "assets/images/civics/g_civics_19_local_government_1773505193203.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_local_government_1773505193203.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "それぞれの地域の住民が、自分たちの住んでいる地域の政治を自らの手で行うことであり、「民主主義の学校」といわれるものを何というか。",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方自治",
         "国政",
@@ -22290,12 +22166,11 @@ const QUIZ_DATA = {
       ],
       "a": "地方自治",
       "comment": "地方自治法に定められており、民主政治のあり方を学ぶことができるとされています。",
-      "answerImg": "assets/images/civics/g_civics_19_local_autonomy_1773505207642.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_local_autonomy_1773505207642.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "住民の意思にもとづいて地方の政治を行うことであり、地方自治を行うための要素の1つである原則を何というか。",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "住民自治",
         "団体自治",
@@ -22304,7 +22179,7 @@ const QUIZ_DATA = {
       ],
       "a": "住民自治",
       "comment": "もう1つの要素として、国から独立して地方公共団体の権限で政治を行う「団体自治」があります。",
-      "answerImg": "assets/images/civics/g_civics_19_resident_self_government_1773505221314.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_resident_self_government_1773505221314.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22317,7 +22192,7 @@ const QUIZ_DATA = {
       ],
       "a": "首長",
       "comment": "住民の直接選挙で選ばれ、任期は4年です。地方議会が議決した条例や予算に反対する場合、拒否権を行使して再議決を求めることができます。",
-      "answerImg": "assets/images/civics/g_civics_19_mayor_1773505234948.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_mayor_1773505234948.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22330,7 +22205,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方議会",
       "comment": "一院制で、議員は住民の直接選挙で選ばれます。首長に対する不信任決議権を持っています。",
-      "answerImg": "assets/images/civics/g_civics_19_local_assembly_1773505255587.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_local_assembly_1773505255587.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22343,12 +22218,11 @@ const QUIZ_DATA = {
       ],
       "a": "住民基本台帳ネットワークシステム（住基ネット）",
       "comment": "これにより、転入・転出届が転入時の1回ですむようになりました。",
-      "answerImg": "assets/images/civics/g_civics_19_juki_net_1773505285735.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_juki_net_1773505285735.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "従来の国が画一的に政治を行う中央集権を改め、地方公共団体が自主的に地域の実情にあった政治を行うことを何というか。",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "地方分権",
         "中央集権",
@@ -22357,7 +22231,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方分権",
       "comment": "国の事務権限や財源を地方に移したりしています。",
-      "answerImg": "assets/images/civics/g_civics_19_decentralization_1773505300179.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_decentralization_1773505300179.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22370,7 +22244,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方財政",
       "comment": "歳出で最も多い割合を占めているのは、一般的に民生費や教育費などです。",
-      "answerImg": "assets/images/civics/g_civics_19_local_finance_1773505315624.jpg",
+      "answerImg": "assets/images/civics/g_civics_19_local_finance_1773505315624.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22383,7 +22257,7 @@ const QUIZ_DATA = {
       ],
       "a": "自主財源",
       "comment": "地方公共団体が自由に使える財源ですが、歳入全体に占める割合はそれほど多くありません。",
-      "answerImg": "assets/images/civics/g_civics_20_independent_revenue_1773505399837.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_independent_revenue_1773505399837.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22396,7 +22270,7 @@ const QUIZ_DATA = {
       ],
       "a": "依存財源",
       "comment": "地方公共団体の自主財源が少ないため、これに頼らざるを得ないことが問題となっています。",
-      "answerImg": "assets/images/civics/g_civics_20_dependent_revenue_1773505418568.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_dependent_revenue_1773505418568.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22409,7 +22283,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方交付税交付金",
       "comment": "法人税や所得税といった国税収入の一定割合が交付されます。",
-      "answerImg": "assets/images/civics/g_civics_20_local_allocation_tax_1773505451446.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_local_allocation_tax_1773505451446.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22422,7 +22296,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方債",
       "comment": "毎年利子を支払い、満期がきたら全額返済しなければならないため、大量に発行すると返済にかかる費用が大きくなる問題があります。",
-      "answerImg": "assets/images/civics/g_civics_20_local_bonds_1773505466913.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_local_bonds_1773505466913.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22435,7 +22309,7 @@ const QUIZ_DATA = {
       ],
       "a": "オンブズマン制度",
       "comment": "地方公共団体に導入されていることが多い行政監視制度です。",
-      "answerImg": "assets/images/civics/g_civics_20_ombudsman_1773505502116.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_ombudsman_1773505502116.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22448,12 +22322,11 @@ const QUIZ_DATA = {
       ],
       "a": "構造改革特区",
       "comment": "成功した場合、他の地域でも規制をゆるめることで全国的な構造改革につながることが期待されています。",
-      "answerImg": "assets/images/civics/g_civics_20_structural_reform_zone_1773505518351.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_structural_reform_zone_1773505518351.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "行政と民間組織などいくつかの組織や集団が、同じ目的に向かって協力しながら進んでいくことを何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "協働",
         "競争",
@@ -22462,12 +22335,11 @@ const QUIZ_DATA = {
       ],
       "a": "協働",
       "comment": "それぞれの得意分野をいかすことで、バランスのとれた発展が可能になります。",
-      "answerImg": "assets/images/civics/g_civics_20_collaboration_1773505554026.jpg",
+      "answerImg": "assets/images/civics/g_civics_20_collaboration_1773505554026.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "中心部に都市機能や居住地をコンパクトにまとめたまち、またはそのまちづくりを何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "コンパクトシティ",
         "エコタウン",
@@ -22476,7 +22348,7 @@ const QUIZ_DATA = {
       ],
       "a": "コンパクトシティ",
       "comment": "中心市街地の活性化、暮らしやすさの向上、行政サービス費用の節約をはかることができると考えられています。",
-      "answerImg": "assets/images/civics/g_civics_21_compact_city_1773541900699.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_compact_city_1773541900699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22489,12 +22361,11 @@ const QUIZ_DATA = {
       ],
       "a": "住民投票",
       "comment": "重要な地域の課題について、条例にもとづいて行われることもあります。",
-      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_referendum_1773541915092.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "市町村や特定の地域において、地域社会が主体となって独自の特産品開発などを行い、地域の活性化を進めようとする運動を何というか。",
-      "img": "assets/images/history/h_medieval_7_hakata_1772980601685.jpg",
       "choices": [
         "村おこし（町おこし）",
         "町内会",
@@ -22503,7 +22374,7 @@ const QUIZ_DATA = {
       ],
       "a": "村おこし（町おこし）",
       "comment": "「一村一品運動」やB級グルメなど、様々な取り組みが行われています。",
-      "answerImg": "assets/images/civics/g_civics_21_town_revitalization_1773541930369.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_town_revitalization_1773541930369.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22516,7 +22387,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費生活センター",
       "comment": "国民生活センターと連携して苦情や処理の相談、紛争の解決などを行っています。",
-      "answerImg": "assets/images/civics/g_civics_24_consumer_affairs_center_1773546223622.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_consumer_affairs_center_1773546223622.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22529,7 +22400,7 @@ const QUIZ_DATA = {
       ],
       "a": "ハローワーク",
       "comment": "職業安定法に基づいて設置されています。",
-      "answerImg": "assets/images/civics/g_civics_25_hello_work_1773546563174.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_hello_work_1773546563174.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22542,7 +22413,7 @@ const QUIZ_DATA = {
       ],
       "a": "公企業",
       "comment": "地方公営企業（上下水道や公営バスなど）や独立行政法人などがあります。",
-      "answerImg": "assets/images/civics/g_civics_26_public_enterprise_1773546915340.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_public_enterprise_1773546915340.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22555,7 +22426,7 @@ const QUIZ_DATA = {
       ],
       "a": "株主総会",
       "comment": "経営上の基本方針の決定や取締役の選出、決算の承認などを行います。",
-      "answerImg": "assets/images/civics/g_civics_26_general_meeting_of_shareholders_1773546997097.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_general_meeting_of_shareholders_1773546997097.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22568,7 +22439,7 @@ const QUIZ_DATA = {
       ],
       "a": "公共料金",
       "comment": "価格は自由な競争ではなく、政府が関与することになっています。",
-      "answerImg": "assets/images/civics/g_civics_28_public_utility_charges_1773547587732.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_public_utility_charges_1773547587732.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22581,7 +22452,7 @@ const QUIZ_DATA = {
       ],
       "a": "財政政策",
       "comment": "不景気のときは公共投資を増やしたり減税を行ったりし、好景気のときは増税を行ったりして景気の行き過ぎを抑えます。",
-      "answerImg": "assets/images/civics/g_civics_30_fiscal_policy_1773548208233.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_fiscal_policy_1773548208233.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22594,7 +22465,7 @@ const QUIZ_DATA = {
       ],
       "a": "公共事業",
       "comment": "そのための支出を公共投資といいます。",
-      "answerImg": "assets/images/civics/g_civics_30_public_works_1773548221899.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_public_works_1773548221899.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22607,7 +22478,7 @@ const QUIZ_DATA = {
       ],
       "a": "政府",
       "comment": "社会資本の供給や公共サービスの提供、福祉の充実といった役割を担っています。",
-      "answerImg": "assets/images/civics/g_civics_30_government_1773548232644.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_government_1773548232644.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22620,7 +22491,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会資本（インフラストラクチャー）",
       "comment": "インフラともよばれます。",
-      "answerImg": "assets/images/civics/g_civics_30_social_capital_1773548245811.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_social_capital_1773548245811.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22633,7 +22504,7 @@ const QUIZ_DATA = {
       ],
       "a": "税金（租税）",
       "comment": "国税と地方税に分かれ、さらに直接税と間接税に分類されます。",
-      "answerImg": "assets/images/civics/g_civics_30_tax_1773548256683.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_tax_1773548256683.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22646,7 +22517,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方税",
       "comment": "地方公共団体の自主財源となります。",
-      "answerImg": "assets/images/civics/g_civics_31_local_tax_1773562142631.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_local_tax_1773562142631.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22659,7 +22530,7 @@ const QUIZ_DATA = {
       ],
       "a": "財政",
       "comment": "社会資本の充実や公共サービスの提供、社会保障の充実などにより、国民生活の向上をはかることを目的としています。",
-      "answerImg": "assets/images/civics/g_civics_31_public_finance_1773562169425.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_public_finance_1773562169425.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22672,7 +22543,7 @@ const QUIZ_DATA = {
       ],
       "a": "予算",
       "comment": "国の場合、国家予算は内閣が作成し、国会の議決によって成立します。",
-      "answerImg": "assets/images/civics/g_civics_31_budget_1773562182131.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_budget_1773562182131.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22685,7 +22556,7 @@ const QUIZ_DATA = {
       ],
       "a": "歳入",
       "comment": "税金（租税）や、印紙収入、公債金収入などがあります。",
-      "answerImg": "assets/images/civics/g_civics_31_revenue_1773562194050.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_revenue_1773562194050.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22698,12 +22569,11 @@ const QUIZ_DATA = {
       ],
       "a": "歳出",
       "comment": "国のおもな歳出は、社会保障関係費や公共事業関係費といった一般歳出がもっとも多くを占めます。",
-      "answerImg": "assets/images/civics/g_civics_31_expenditure_1773562206214.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_expenditure_1773562206214.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "公害が深刻化したため、公害を防ぎ、国民の健康と生活環境を守ることを目的に1967年に制定された法律を何というか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "公害対策基本法",
         "環境基本法",
@@ -22712,12 +22582,11 @@ const QUIZ_DATA = {
       ],
       "a": "公害対策基本法",
       "comment": "公害を7種類と定め、企業や国、地方公共団体の公害防止の責任を明記していました。1993年の環境基本法の制定により廃止されました。",
-      "answerImg": "assets/images/civics/g_civics_32_basic_act_for_environmental_pollution_control_1773562759560.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_basic_act_for_environmental_pollution_control_1773562759560.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "様々な環境問題に取り組むため、公害防止や自然環境の保護などのために設置された国の行政機関はどこか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境省",
         "厚生労働省",
@@ -22726,7 +22595,7 @@ const QUIZ_DATA = {
       ],
       "a": "環境省",
       "comment": "1971年に設置された環境庁が、2001年の省庁再編にともない「省」へ格上げされて誕生しました。",
-      "answerImg": "assets/images/civics/g_civics_32_ministry_of_the_environment_1773562793958.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_ministry_of_the_environment_1773562793958.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22739,7 +22608,7 @@ const QUIZ_DATA = {
       ],
       "a": "公債",
       "comment": "国が発行するものを国債、地方公共団体が発行するものを地方債といいます。",
-      "answerImg": "assets/images/civics/g_civics_32_public_bond_1773562858049.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_public_bond_1773562858049.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22752,7 +22621,7 @@ const QUIZ_DATA = {
       ],
       "a": "地方債",
       "comment": "国債と同様、将来世代への負担となることが懸念されています。",
-      "answerImg": "assets/images/civics/g_civics_32_local_bond_1773562883717.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_local_bond_1773562883717.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22765,12 +22634,11 @@ const QUIZ_DATA = {
       ],
       "a": "財政投融資",
       "comment": "「第二の予算」とも呼ばれ、大規模な公共事業などに資金が供給されます。",
-      "answerImg": "assets/images/civics/g_civics_32_fiscal_investment_and_loan_program_1773562896600.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_fiscal_investment_and_loan_program_1773562896600.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地域でおこっている問題について、そこに住んでいる人々が、国や地方公共団体、企業に対して解決を訴えたり、求めたりする運動を何というか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "住民運動",
         "消費者運動",
@@ -22779,7 +22647,7 @@ const QUIZ_DATA = {
       ],
       "a": "住民運動",
       "comment": "おもに公害問題や大規模な開発問題などで発生することが多いです。",
-      "answerImg": "assets/images/civics/g_civics_34_citizens_movement_1773563280197.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_citizens_movement_1773563280197.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22792,12 +22660,11 @@ const QUIZ_DATA = {
       ],
       "a": "地球温暖化防止京都会議",
       "comment": "この会議で、京都議定書が採択されました。",
-      "answerImg": "assets/images/civics/g_civics_43_cop3_kyoto_conference_1773581779999.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_cop3_kyoto_conference_1773581779999.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "気候変動枠組条約締約国会議などを指す「締約国会議」の略称をアルファベット3文字で何というか。",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "COP",
         "NPT",
@@ -22806,7 +22673,7 @@ const QUIZ_DATA = {
       ],
       "a": "COP",
       "comment": "生物多様性条約の締約国会議を指す場合もあります。",
-      "answerImg": "assets/images/civics/g_civics_43_cop_1773581887405.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_cop_1773581887405.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22819,7 +22686,7 @@ const QUIZ_DATA = {
       ],
       "a": "気候変動枠組条約締約国会議",
       "comment": "COP（コップ）と略されます。",
-      "answerImg": "assets/images/civics/g_civics_44_unfccc_cop_1773582240083.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_unfccc_cop_1773582240083.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22832,7 +22699,7 @@ const QUIZ_DATA = {
       ],
       "a": "南北問題",
       "comment": "おもに地球の北側に先進国が多く、南側に発展途上国が多いことからこのようにいなわれます。",
-      "answerImg": "assets/images/civics/g_civics_44_north_south_problem_1773582341745.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_north_south_problem_1773582341745.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22845,7 +22712,7 @@ const QUIZ_DATA = {
       ],
       "a": "内政不干渉の原則",
       "comment": "主権国家の国内の政治や経済のあり方は、その国の国民が決めるべきであるとする考えにもとづいています。",
-      "answerImg": "assets/images/civics/g_civics_45_non_intervention_1773582556798.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_non_intervention_1773582556798.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22858,7 +22725,7 @@ const QUIZ_DATA = {
       ],
       "a": "アフリカ開発会議（TICAD）",
       "comment": "国連やアフリカ連合（AU）委員会、世界銀行と共同で開催しています。",
-      "answerImg": "assets/images/civics/g_civics_45_ticad_1773582603582.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_ticad_1773582603582.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22871,7 +22738,7 @@ const QUIZ_DATA = {
       ],
       "a": "地域主義（リージョナリズム）",
       "comment": "EUやASEAN、USMCAなどが代表的です。",
-      "answerImg": "assets/images/civics/g_civics_45_regionalism_1773582645012.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_regionalism_1773582645012.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22884,7 +22751,7 @@ const QUIZ_DATA = {
       ],
       "a": "テロリズム（テロ）",
       "comment": "一般市民を巻きこんだ大量無差別テロや自爆テロなどがおこって問題となっています。",
-      "answerImg": "assets/images/civics/g_civics_49_terrorism_1773584012992.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_terrorism_1773584012992.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22897,12 +22764,11 @@ const QUIZ_DATA = {
       ],
       "a": "JICA（国際協力機構）",
       "comment": "無償資金協力業務や、青年海外協力隊の派遣などを行っています。",
-      "answerImg": "assets/images/civics/g_civics_50_jica_1773584288261.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_jica_1773584288261.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国際連合の主要機関の一つで、国家間における法的な争いについて、国際法にもとづき裁判を行い、平和的な解決をはかる機関を何というか。",
-      "img": "assets/images/history/h_early_modern_3_oranda.jpg",
       "choices": [
         "国際司法裁判所",
         "国際刑事裁判所",
@@ -22911,7 +22777,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際司法裁判所",
       "comment": "オランダのハーグにあります。",
-      "answerImg": "assets/images/civics/g_civics_3_normalization_1773476381825.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_normalization_1773476381825.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22924,7 +22790,7 @@ const QUIZ_DATA = {
       ],
       "a": "選挙管理委員会",
       "comment": "中央選挙管理会と都道府県選挙管理委員会、市（区）町村選挙管理委員会から構成されています。",
-      "answerImg": "assets/images/civics/g_civics_9_election_commission_1773482925375.jpg",
+      "answerImg": "assets/images/civics/g_civics_9_election_commission_1773482925375.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22937,7 +22803,7 @@ const QUIZ_DATA = {
       ],
       "a": "棄権",
       "comment": "政治への無力感や不信感が背景にあると指摘されています。",
-      "answerImg": "assets/images/civics/g_civics_10_abstention_1773484102301.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_abstention_1773484102301.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22950,7 +22816,7 @@ const QUIZ_DATA = {
       ],
       "a": "政党交付金",
       "comment": "民主政治が正しく行われるために、政党の活動が公正に行われることを目的としています。",
-      "answerImg": "assets/images/civics/g_civics_10_party_subsidy_1773484142744.jpg",
+      "answerImg": "assets/images/civics/g_civics_10_party_subsidy_1773484142744.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22963,7 +22829,7 @@ const QUIZ_DATA = {
       ],
       "a": "連立政権（連立内閣）",
       "comment": "違う政党同士がいっしょになって政治を行うため、政策については話し合いで合意する必要があります。",
-      "answerImg": "assets/images/civics/g_civics_13_coalition_government_1773503559796.jpg",
+      "answerImg": "assets/images/civics/g_civics_13_coalition_government_1773503559796.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -22976,12 +22842,11 @@ const QUIZ_DATA = {
       ],
       "a": "閣議",
       "comment": "閣議で物事を決めるには、全員の意見を1つにする全会一致でなければなりません。",
-      "answerImg": "assets/images/civics/g_civics_16_cabinet_meeting_1773504653666.jpg",
+      "answerImg": "assets/images/civics/g_civics_16_cabinet_meeting_1773504653666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "裁判官が、国会や内閣などからの影響を受けず、独立して公正中立に裁判を行う原則を何というか。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "司法権の独立",
         "三権分立",
@@ -22990,7 +22855,7 @@ const QUIZ_DATA = {
       ],
       "a": "司法権の独立",
       "comment": "日本国憲法第76条で「裁判官は自らの良心に従い、拘束されるのは憲法と法律だけである」と定められています。",
-      "answerImg": "assets/images/civics/g_civics_17_independence_judiciary_1773504763350.jpg",
+      "answerImg": "assets/images/civics/g_civics_17_independence_judiciary_1773504763350.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
@@ -23005,7 +22870,7 @@ const QUIZ_DATA = {
       ],
       "a": "需要量",
       "comment": "価格が下がると需要量は増えるのが一般的です。",
-      "answerImg": "assets/images/civics/g_civics_27_quantity_demanded_1773547273577.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_quantity_demanded_1773547273577.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23018,7 +22883,7 @@ const QUIZ_DATA = {
       ],
       "a": "均衡価格",
       "comment": "商品の価格は均衡価格に近づくように変動します。",
-      "answerImg": "assets/images/civics/g_civics_27_equilibrium_price_1773547314957.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_equilibrium_price_1773547314957.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23031,7 +22896,7 @@ const QUIZ_DATA = {
       ],
       "a": "寡占（かせん）",
       "comment": "一社だけの支配は「独占」といいます。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23044,7 +22909,7 @@ const QUIZ_DATA = {
       ],
       "a": "独占禁止法",
       "comment": "公正取引委員会が運用しています。",
-      "answerImg": "assets/images/civics/g_civics_28_antimonopoly_act_1773547570836.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_antimonopoly_act_1773547570836.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23057,7 +22922,7 @@ const QUIZ_DATA = {
       ],
       "a": "株式会社",
       "comment": "出資者は株式を受け取り、配当金などを得られます。",
-      "answerImg": "assets/images/civics/g_civics_25_company_1773546666299.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_company_1773546666299.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23070,12 +22935,11 @@ const QUIZ_DATA = {
       ],
       "a": "日本銀行",
       "comment": "金融政策を行って景気や物価を調整します。",
-      "answerImg": "assets/images/civics/g_civics_29_bank_of_japan_1773547852483.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_bank_of_japan_1773547852483.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "物価が継続的に上昇し、貨幣価値が下がる現象を何というか？",
-      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "インフレーション",
         "デフレーション",
@@ -23084,12 +22948,11 @@ const QUIZ_DATA = {
       ],
       "a": "インフレーション",
       "comment": "逆に物価が下がり続けるのはデフレーションです。",
-      "answerImg": "assets/images/civics/g_civics_30_inflation_1773548167042.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_inflation_1773548167042.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "納税者と税を負担する人が異なる税金を何というか？",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -23098,12 +22961,11 @@ const QUIZ_DATA = {
       ],
       "a": "間接税",
       "comment": "消費税などが代表例です。",
-      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "所得税のように、所得が高くなるにつれて税率が高くなる仕組みは？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "累進課税",
         "逆進性",
@@ -23112,7 +22974,7 @@ const QUIZ_DATA = {
       ],
       "a": "累進課税",
       "comment": "所得の再分配機能を持っています。",
-      "answerImg": "assets/images/civics/g_civics_30_tax_1773548256683.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_tax_1773548256683.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23125,7 +22987,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会保障",
       "comment": "日本の社会保障は「社会保険」「公的扶助」「社会福祉」「公衆衛生」の4つの柱からなります。",
-      "answerImg": "assets/images/civics/g_civics_34_social_security_1773563396666.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_social_security_1773563396666.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23138,7 +23000,7 @@ const QUIZ_DATA = {
       ],
       "a": "クーリング・オフ",
       "comment": "訪問販売の場合は8日間以内であれば書面などで通知して解除できます。",
-      "answerImg": "assets/images/civics/g_civics_23_cooling_off_1773545555874.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_cooling_off_1773545555874.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23151,7 +23013,7 @@ const QUIZ_DATA = {
       ],
       "a": "製造物責任法（PL法）",
       "comment": "「欠陥」があったことを証明すればよいことになりました。",
-      "answerImg": "assets/images/civics/g_civics_23_product_liability_act_1773545494775.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_product_liability_act_1773545494775.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23164,7 +23026,7 @@ const QUIZ_DATA = {
       ],
       "a": "労働三権",
       "comment": "団結権、団体交渉権、団体行動権（争議権）の三つです。",
-      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_labor_rights_1773480777972.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23177,7 +23039,7 @@ const QUIZ_DATA = {
       ],
       "a": "円高",
       "comment": "円の価値が上がったため、輸入品が安くなります。",
-      "answerImg": "assets/images/civics/g_civics_34_strong_yen_1773563365633.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_strong_yen_1773563365633.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23190,7 +23052,7 @@ const QUIZ_DATA = {
       ],
       "a": "国債（公債）",
       "comment": "公共事業などのための「建設国債」と、赤字を埋める「赤字国債（特例国債）」があります。",
-      "answerImg": "assets/images/civics/g_civics_30_government_1773548232644.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_government_1773548232644.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23203,7 +23065,7 @@ const QUIZ_DATA = {
       ],
       "a": "プライマリー・バランス",
       "comment": "「基礎的財政収支」ともいい、これが黒字化することが財政健全化の目標です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_primary_balance_1773716584545.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_primary_balance_1773716584545.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23216,12 +23078,11 @@ const QUIZ_DATA = {
       ],
       "a": "介護保険制度",
       "comment": "2000年から導入された社会保険の一つです。",
-      "answerImg": "assets/images/civics/g_civics_33_nursing_care_insurance_1773563122432.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_nursing_care_insurance_1773563122432.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "商品を買う時に支払う消費税のように、税金を納める人と負担する人が異なる税金を何というか？",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "間接税",
         "直接税",
@@ -23230,7 +23091,7 @@ const QUIZ_DATA = {
       ],
       "a": "間接税",
       "comment": "酒税やたばこ税も間接税です。",
-      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_indirect_tax_1773548283114.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23243,7 +23104,7 @@ const QUIZ_DATA = {
       ],
       "a": "契約",
       "comment": "口約束でも成立しますが、トラブル防止のため契約書を作ることが多いです。",
-      "answerImg": "assets/images/civics/g_civics_23_consumer_contract_act_1773545506699.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_consumer_contract_act_1773545506699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23256,7 +23117,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者基本法",
       "comment": "2004年に消費者保護基本法を改正して制定されました。",
-      "answerImg": "assets/images/civics/g_civics_23_basic_act_on_consumer_policies_1773545519794.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_basic_act_on_consumer_policies_1773545519794.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23269,7 +23130,7 @@ const QUIZ_DATA = {
       ],
       "a": "多重債務",
       "comment": "深刻な場合は弁護士や消費生活センターへの相談が必要です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_multiple_debts_1773716601256.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_multiple_debts_1773716601256.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23282,7 +23143,7 @@ const QUIZ_DATA = {
       ],
       "a": "クレジットカード",
       "comment": "販売店が信販会社から代金を受け取り、消費者は後で信販会社に支払います。",
-      "answerImg": "assets/images/civics/g_civics_22_credit_card_1773543449322.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_credit_card_1773543449322.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23295,7 +23156,7 @@ const QUIZ_DATA = {
       ],
       "a": "企業の社会的責任（CSR）",
       "comment": "法令遵守（コンプライアンス）もその基礎となります。",
-      "answerImg": "assets/images/civics/g_civics_27_csr_1773547242026.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_csr_1773547242026.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23308,7 +23169,7 @@ const QUIZ_DATA = {
       ],
       "a": "非正規雇用",
       "comment": "雇用の不安定さや低賃金などが問題となることがあります。",
-      "answerImg": "assets/images/civics/g_civics_24_non_regular_employee_1773546252948.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_non_regular_employee_1773546252948.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23321,7 +23182,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワーク・ライフ・バランス",
       "comment": "過労死や少子化対策の観点からも重要視されています。",
-      "answerImg": "assets/images/civics/g_civics_25_work_life_balance_1773546549097.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_work_life_balance_1773546549097.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23334,12 +23195,11 @@ const QUIZ_DATA = {
       ],
       "a": "得になる（少ない円でドルを買えるから）",
       "comment": "これは「円高」の状態です。輸入品も安くなります。",
-      "answerImg": "assets/images/civics/g_civics_34_weak_yen_1773563381894.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_weak_yen_1773563381894.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1990年代初め、株価や地価が急激に下落し、景気が後退した現象を何というか？",
-      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "バブル経済の崩壊",
         "リーマン・ショック",
@@ -23351,7 +23211,6 @@ const QUIZ_DATA = {
     },
     {
       "q": "税収全体に占める、直接税と間接税の割合のことを何というか？",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "直間比率",
         "税負担率",
@@ -23360,7 +23219,7 @@ const QUIZ_DATA = {
       ],
       "a": "直間比率",
       "comment": "日本は近年、消費税の引き上げなどで間接税の割合が高まっています。",
-      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_direct_tax_1773548268523.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23373,7 +23232,7 @@ const QUIZ_DATA = {
       ],
       "a": "賦課方式（ふかほうしき）",
       "comment": "日本の公的年金制度の基本です（少子高齢化の影響を受けやすい）。",
-      "answerImg": "assets/images/civics/g_civics_5_pension_1773480720993.jpg",
+      "answerImg": "assets/images/civics/g_civics_5_pension_1773480720993.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23386,7 +23245,7 @@ const QUIZ_DATA = {
       ],
       "a": "寡占（かせん）",
       "comment": "一社だけの支配は「独占」といいます。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_oligopoly_1773716567927.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23399,7 +23258,7 @@ const QUIZ_DATA = {
       ],
       "a": "非価格競争",
       "comment": "管理価格が形成されやすくなります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_non_price_competition_1773716616701.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_non_price_competition_1773716616701.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23412,12 +23271,11 @@ const QUIZ_DATA = {
       ],
       "a": "カルテル",
       "comment": "独占禁止法で原則として禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_28_cartel_1773547501782.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_cartel_1773547501782.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "労働者が使用者と対等な立場で交渉するために団結する権利などを保障した3つの法律の総称は？",
-      "img": "assets/images/history/three_labor_laws_1773368747516.jpg",
       "choices": [
         "労働三法",
         "労働三権",
@@ -23437,7 +23295,7 @@ const QUIZ_DATA = {
       ],
       "a": "仲裁",
       "comment": "仲裁裁定には法的拘束力があります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_arbitration_1773716644769.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_arbitration_1773716644769.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23450,7 +23308,7 @@ const QUIZ_DATA = {
       ],
       "a": "経済（経済活動）",
       "comment": "政府、企業、家計の3つの経済主体によって行われます。",
-      "answerImg": "assets/images/civics/g_civics_21_economy_1773541944514.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_economy_1773541944514.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23463,7 +23321,7 @@ const QUIZ_DATA = {
       ],
       "a": "家計",
       "comment": "経済活動の基礎となる単位です。",
-      "answerImg": "assets/images/civics/g_civics_21_household_economy_1773541964728.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_household_economy_1773541964728.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23476,7 +23334,7 @@ const QUIZ_DATA = {
       ],
       "a": "財（消費財）",
       "comment": "消費財のうち、自動車や電気製品といった長期間使用できるものを耐久消費財といいます。",
-      "answerImg": "assets/images/civics/g_civics_21_consumer_goods_1773541978854.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_consumer_goods_1773541978854.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23489,7 +23347,7 @@ const QUIZ_DATA = {
       ],
       "a": "サービス",
       "comment": "現代の経済ではサービスに関する産業の割合が大きくなっています。",
-      "answerImg": "assets/images/civics/g_civics_21_services_1773541999649.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_services_1773541999649.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23502,7 +23360,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費",
       "comment": "おもに家計によって行われる経済活動の1つです。",
-      "answerImg": "assets/images/civics/g_civics_21_consumption_1773542014728.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_consumption_1773542014728.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23515,7 +23373,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費支出",
       "comment": "これに対し、税金や社会保険料など、消費を目的としない支出を非消費支出といいます。",
-      "answerImg": "assets/images/civics/g_civics_21_consumption_expenditure_1773542034518.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_consumption_expenditure_1773542034518.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23528,7 +23386,7 @@ const QUIZ_DATA = {
       ],
       "a": "エンゲル係数",
       "comment": "一般的に、収入の少ない家庭ほど食費以外に使える金額が低くなることから、この数値が高くなるといわれ、家計の生活水準をはかる目安とされます。",
-      "answerImg": "assets/images/civics/g_civics_21_engel_coefficient_1773542049920.jpg",
+      "answerImg": "assets/images/civics/g_civics_21_engel_coefficient_1773542049920.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23541,7 +23399,7 @@ const QUIZ_DATA = {
       ],
       "a": "貯蓄",
       "comment": "企業に資金を供給する役割も果たします。",
-      "answerImg": "assets/images/civics/g_civics_22_savings_1773543368058.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_savings_1773543368058.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23554,7 +23412,7 @@ const QUIZ_DATA = {
       ],
       "a": "分業",
       "comment": "分業によって生産されたものを、互いに補うために「交換」が行われます。",
-      "answerImg": "assets/images/civics/g_civics_22_division_of_labor_1773543382512.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_division_of_labor_1773543382512.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23567,7 +23425,7 @@ const QUIZ_DATA = {
       ],
       "a": "所得",
       "comment": "勤労所得、事業所得、財産所得などに分けられます。",
-      "answerImg": "assets/images/civics/g_civics_22_income_1773543397034.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_income_1773543397034.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23580,7 +23438,7 @@ const QUIZ_DATA = {
       ],
       "a": "可処分所得",
       "comment": "実際の手取り収入のことです。",
-      "answerImg": "assets/images/civics/g_civics_22_disposable_income_1773543414837.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_disposable_income_1773543414837.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23593,12 +23451,11 @@ const QUIZ_DATA = {
       ],
       "a": "希少性",
       "comment": "資源や財の量が限られているため、経済ではこの問題が生じます。",
-      "answerImg": "assets/images/civics/g_civics_22_scarcity_1773543431973.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_scarcity_1773543431973.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "代金の後払いで買い物や飲食ができる仕組みのカードで、あらかじめ決められた日に銀行口座から代金が引き落とされるものを何というか。",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "クレジットカード",
         "デビットカード",
@@ -23607,7 +23464,7 @@ const QUIZ_DATA = {
       ],
       "a": "クレジットカード",
       "comment": "カード会社が代金をいったん立て替えて支払う仕組みです。",
-      "answerImg": "assets/images/civics/g_civics_22_credit_card_1773543449322.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_credit_card_1773543449322.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23620,7 +23477,7 @@ const QUIZ_DATA = {
       ],
       "a": "消費者主権",
       "comment": "消費者が経済を動かす力を持っているという考えです。",
-      "answerImg": "assets/images/civics/g_civics_22_consumer_sovereignty_1773543463938.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_consumer_sovereignty_1773543463938.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23633,7 +23490,7 @@ const QUIZ_DATA = {
       ],
       "a": "悪質商法",
       "comment": "絶対にもうかるなどといってお金を出させたり、おどして不要な商品を購入させたりする手口です。",
-      "answerImg": "assets/images/civics/g_civics_22_unscrupulous_business_1773543477235.jpg",
+      "answerImg": "assets/images/civics/g_civics_22_unscrupulous_business_1773543477235.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23646,7 +23503,7 @@ const QUIZ_DATA = {
       ],
       "a": "マルチ商法",
       "comment": "法律で厳しく規制されています（連鎖販売取引）。",
-      "answerImg": "assets/images/civics/g_civics_23_multi_level_marketing_1773545480718.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_multi_level_marketing_1773545480718.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23659,7 +23516,7 @@ const QUIZ_DATA = {
       ],
       "a": "流通",
       "comment": "卸売業や小売業などの商業の活動がこの役割を担っています。",
-      "answerImg": "assets/images/civics/g_civics_23_distribution_1773545569660.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_distribution_1773545569660.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23672,12 +23529,11 @@ const QUIZ_DATA = {
       ],
       "a": "流通の合理化",
       "comment": "消費者に少しでも安く商品をとどけるための取り組みです。",
-      "answerImg": "assets/images/civics/g_civics_23_rationalization_of_distribution_1773545731761.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_rationalization_of_distribution_1773545731761.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "流通のなかで、品物を仕入れ、小売業者に販売する業者を何というか。（一般に問屋ともいわれる）",
-      "img": "assets/images/history/h_medieval_6_toiya_1772980345705.jpg",
       "choices": [
         "卸売業（おろしうりぎょう）",
         "小売業",
@@ -23686,7 +23542,7 @@ const QUIZ_DATA = {
       ],
       "a": "卸売業（おろしうりぎょう）",
       "comment": "生産者が大量に出荷する商品の流通量を調節したり、生産者と小売業者を結びつける働きをしています。",
-      "answerImg": "assets/images/civics/g_civics_23_wholesale_trade_1773545594594.jpg",
+      "answerImg": "assets/images/civics/g_civics_23_wholesale_trade_1773545594594.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23699,7 +23555,7 @@ const QUIZ_DATA = {
       ],
       "a": "小売業",
       "comment": "消費者が日常的に利用する店舗のことです。",
-      "answerImg": "assets/images/civics/g_civics_24_retail_trade_1773546156360.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_retail_trade_1773546156360.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23712,7 +23568,7 @@ const QUIZ_DATA = {
       ],
       "a": "プライベート・ブランド",
       "comment": "自分たちの店の特性や顧客の要望に合う商品をつくることができ、流通の合理化をはかることができます。",
-      "answerImg": "assets/images/civics/g_civics_24_private_brand_1773546171256.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_private_brand_1773546171256.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23725,7 +23581,7 @@ const QUIZ_DATA = {
       ],
       "a": "POSシステム",
       "comment": "「販売時点情報管理システム」とも呼ばれ、コンビニエンスストアなどで多く使われています。",
-      "answerImg": "assets/images/civics/g_civics_24_pos_system_1773546191290.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_pos_system_1773546191290.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23738,7 +23594,7 @@ const QUIZ_DATA = {
       ],
       "a": "正社員",
       "comment": "これ以外の労働者を総称して非正規労働者といいます。",
-      "answerImg": "assets/images/civics/g_civics_24_regular_employee_1773546237213.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_regular_employee_1773546237213.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23751,7 +23607,7 @@ const QUIZ_DATA = {
       ],
       "a": "非正規労働者",
       "comment": "現在は全労働者のうち約4割を占めています。",
-      "answerImg": "assets/images/civics/g_civics_24_non_regular_employee_1773546252948.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_non_regular_employee_1773546252948.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23764,12 +23620,11 @@ const QUIZ_DATA = {
       ],
       "a": "ニート",
       "comment": "（Not in Education, Employment or Training）の略です。",
-      "answerImg": "assets/images/civics/g_civics_24_neet_1773546274738.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_neet_1773546274738.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "働く意思や能力があるのに、職がなく失業し、働く機会が得られない人のことを何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "失業者",
         "ニート",
@@ -23778,7 +23633,7 @@ const QUIZ_DATA = {
       ],
       "a": "失業者",
       "comment": "不況（不景気）になると増加し、好況（好景気）になると減少します。",
-      "answerImg": "assets/images/civics/g_civics_24_unemployed_1773546292223.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_unemployed_1773546292223.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23791,7 +23646,7 @@ const QUIZ_DATA = {
       ],
       "a": "男女雇用機会均等法",
       "comment": "その後何度か改正され、男女双方に対する差別が禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_24_equal_employment_opportunity_act_1773546306204.jpg",
+      "answerImg": "assets/images/civics/g_civics_24_equal_employment_opportunity_act_1773546306204.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23804,7 +23659,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワーク・ライフ・バランス",
       "comment": "育児や介護を支援したり、在宅勤務（テレワーク）を実施したりして実現がはかられています。",
-      "answerImg": "assets/images/civics/g_civics_25_work_life_balance_1773546549097.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_work_life_balance_1773546549097.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23817,7 +23672,7 @@ const QUIZ_DATA = {
       ],
       "a": "ワーキングプア",
       "comment": "非正規労働者の増加などが背景にあります。",
-      "answerImg": "assets/images/civics/g_civics_25_working_poor_1773546579031.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_working_poor_1773546579031.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23830,12 +23685,11 @@ const QUIZ_DATA = {
       ],
       "a": "ワークシェアリング",
       "comment": "失業率が下がるという効果が期待されています。",
-      "answerImg": "assets/images/civics/g_civics_25_work_sharing_1773546593124.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_work_sharing_1773546593124.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "企業などが資本を元手に、利潤の追求を目的として生産活動を行う経済のしくみを何というか。",
-      "img": "assets/images/history/h_early_modern_7_industrial_revolution.jpg",
       "choices": [
         "資本主義経済",
         "社会主義経済",
@@ -23844,12 +23698,11 @@ const QUIZ_DATA = {
       ],
       "a": "資本主義経済",
       "comment": "産業革命によって確立され、現在多くの国で取られている体制です。",
-      "answerImg": "assets/images/civics/g_civics_25_capitalist_economy_1773546606010.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_capitalist_economy_1773546606010.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "生産手段を国家など統制組織が所有し、生産や流通を統制組織が指導する計画経済が行われている経済を何というか。",
-      "img": "assets/images/history/h_medieval_5_joseon.jpg",
       "choices": [
         "社会主義経済",
         "資本主義経済",
@@ -23858,7 +23711,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会主義経済",
       "comment": "北朝鮮などでとられています。",
-      "answerImg": "assets/images/civics/g_civics_25_socialist_economy_1773546620493.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_socialist_economy_1773546620493.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23871,7 +23724,7 @@ const QUIZ_DATA = {
       ],
       "a": "サービス化",
       "comment": "生産額のなかでサービス産業の生産額の割合が増加したり、従事者数が増えたりすることをいいます。",
-      "answerImg": "assets/images/civics/g_civics_25_service_economy_1773546633419.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_service_economy_1773546633419.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23884,7 +23737,7 @@ const QUIZ_DATA = {
       ],
       "a": "ソフト化",
       "comment": "機械など目に見えるハードに対して、目に見えないものをさします。",
-      "answerImg": "assets/images/civics/g_civics_25_software_economy_1773546650684.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_software_economy_1773546650684.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23897,12 +23750,11 @@ const QUIZ_DATA = {
       ],
       "a": "企業",
       "comment": "生産物をつくり、人々に販売して利益を上げることを目的としています。",
-      "answerImg": "assets/images/civics/g_civics_25_company_1773546666299.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_company_1773546666299.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "利益を見込んでお金を出すことを何というか。株式や公債の購入などがある。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "投資",
         "貯蓄",
@@ -23911,7 +23763,7 @@ const QUIZ_DATA = {
       ],
       "a": "投資",
       "comment": "利益が得られる可能性がある反面、利益を得られなくなるリスクもあります。",
-      "answerImg": "assets/images/civics/g_civics_25_investment_1773546679796.jpg",
+      "answerImg": "assets/images/civics/g_civics_25_investment_1773546679796.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23924,7 +23776,7 @@ const QUIZ_DATA = {
       ],
       "a": "設備投資",
       "comment": "新しく工場を建てたり新しい機械を導入したりして、生産力を向上させるために行います。",
-      "answerImg": "assets/images/civics/g_civics_26_capital_investment_1773546886852.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_capital_investment_1773546886852.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23937,7 +23789,7 @@ const QUIZ_DATA = {
       ],
       "a": "中小企業",
       "comment": "日本の全企業数のうち約99％を占めていますが、大企業との間で賃金などの格差があります。",
-      "answerImg": "assets/images/civics/g_civics_26_sme_1773546900945.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_sme_1773546900945.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23950,7 +23802,7 @@ const QUIZ_DATA = {
       ],
       "a": "私企業",
       "comment": "個人企業や法人企業（株式会社など）が含まれます。",
-      "answerImg": "assets/images/civics/g_civics_26_private_enterprise_1773546930889.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_private_enterprise_1773546930889.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23963,7 +23815,7 @@ const QUIZ_DATA = {
       ],
       "a": "株式会社",
       "comment": "現在の企業の中心的な形態です。出資者は株主とよばれます。",
-      "answerImg": "assets/images/civics/g_civics_26_joint_stock_company_1773546948513.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_joint_stock_company_1773546948513.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23976,7 +23828,7 @@ const QUIZ_DATA = {
       ],
       "a": "株式",
       "comment": "株式が売買される市場を株式市場といい、証券取引所などが開設しています。",
-      "answerImg": "assets/images/civics/g_civics_26_stock_1773546966898.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_stock_1773546966898.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -23989,7 +23841,7 @@ const QUIZ_DATA = {
       ],
       "a": "配当",
       "comment": "株主の持っている株式の数に応じて配分されます。",
-      "answerImg": "assets/images/civics/g_civics_26_dividend_1773547010354.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_dividend_1773547010354.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24002,7 +23854,7 @@ const QUIZ_DATA = {
       ],
       "a": "取締役会",
       "comment": "会社の業務執行の意思決定などを行います。",
-      "answerImg": "assets/images/civics/g_civics_26_board_of_directors_1773547024333.jpg",
+      "answerImg": "assets/images/civics/g_civics_26_board_of_directors_1773547024333.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24015,7 +23867,7 @@ const QUIZ_DATA = {
       ],
       "a": "有限責任制",
       "comment": "株主は、自分が出資した額以上の責任は負わなくてよいしくみです。",
-      "answerImg": "assets/images/civics/g_civics_27_limited_liability_1773547188771.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_limited_liability_1773547188771.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24028,7 +23880,7 @@ const QUIZ_DATA = {
       ],
       "a": "イノベーション",
       "comment": "これによって生産コストを削減し、企業の利潤を拡大することができます。",
-      "answerImg": "assets/images/civics/g_civics_27_innovation_1773547203181.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_innovation_1773547203181.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24041,7 +23893,7 @@ const QUIZ_DATA = {
       ],
       "a": "コンプライアンス",
       "comment": "違法残業や商品のデータ偽装などを防ぎ、社会的な信頼を保つために重要です。",
-      "answerImg": "assets/images/civics/g_civics_27_compliance_1773547228567.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_compliance_1773547228567.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24054,12 +23906,11 @@ const QUIZ_DATA = {
       ],
       "a": "CSR",
       "comment": "利潤の追求だけでなく、環境保護や芸術文化の支援（メセナ）なども求められています。",
-      "answerImg": "assets/images/civics/g_civics_27_csr_1773547242026.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_csr_1773547242026.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "さまざまな市場が社会のすみずみにまではりめぐらされている経済のしくみで、市場を通じて需要量や供給量、価格の調節が行われるものを何というか。",
-      "img": "assets/images/history/h_early_modern_7_capitalism.jpg",
       "choices": [
         "市場経済",
         "計画経済",
@@ -24068,7 +23919,7 @@ const QUIZ_DATA = {
       ],
       "a": "市場経済",
       "comment": "資本主義経済の特色の1つであり、自由な競争が行われます。",
-      "answerImg": "assets/images/civics/g_civics_27_market_economy_1773547257699.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_market_economy_1773547257699.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24081,7 +23932,7 @@ const QUIZ_DATA = {
       ],
       "a": "需要量",
       "comment": "価格が上昇すれば需要量は減少し、価格が下落すれば需要量は増大します（需要曲線は右下がり）。",
-      "answerImg": "assets/images/civics/g_civics_27_quantity_demanded_1773547273577.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_quantity_demanded_1773547273577.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24094,7 +23945,7 @@ const QUIZ_DATA = {
       ],
       "a": "供給量",
       "comment": "価格が上昇すれば供給量は増大し、価格が下落すれば供給量は減少します（供給曲線は右上がり）。",
-      "answerImg": "assets/images/civics/g_civics_27_quantity_supplied_1773547288383.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_quantity_supplied_1773547288383.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24107,7 +23958,7 @@ const QUIZ_DATA = {
       ],
       "a": "市場価格",
       "comment": "需要量が供給量を上回っている場合は価格が上昇し、逆に供給量が需要量を上回っている場合は価格は下落します。",
-      "answerImg": "assets/images/civics/g_civics_27_market_price_1773547301689.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_market_price_1773547301689.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24120,7 +23971,7 @@ const QUIZ_DATA = {
       ],
       "a": "均衡価格",
       "comment": "需要曲線と供給曲線の交点で示されます。",
-      "answerImg": "assets/images/civics/g_civics_27_equilibrium_price_1773547314957.jpg",
+      "answerImg": "assets/images/civics/g_civics_27_equilibrium_price_1773547314957.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24133,7 +23984,7 @@ const QUIZ_DATA = {
       ],
       "a": "独占",
       "comment": "こうした状態では自由競争が行われず、企業は高い利潤を維持するために価格を引き下げる価格競争を避けようとします。",
-      "answerImg": "assets/images/civics/g_civics_28_monopoly_1773547489488.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_monopoly_1773547489488.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24146,7 +23997,7 @@ const QUIZ_DATA = {
       ],
       "a": "カルテル（企業連合）",
       "comment": "消費者に不利になるため、原則として独占禁止法で禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_28_cartel_1773547501782.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_cartel_1773547501782.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24159,7 +24010,7 @@ const QUIZ_DATA = {
       ],
       "a": "トラスト（企業合同）",
       "comment": "合併によって市場の競争が働かなくなり独占・寡占の状態になるため、日本では独占禁止法により禁止されています。",
-      "answerImg": "assets/images/civics/g_civics_28_trust_1773547519332.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_trust_1773547519332.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24172,7 +24023,7 @@ const QUIZ_DATA = {
       ],
       "a": "コンツェルン（企業連携）",
       "comment": "株式を保有する親会社が、子会社や孫会社を支配します。",
-      "answerImg": "assets/images/civics/g_civics_28_concern_1773547534849.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_concern_1773547534849.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24185,7 +24036,7 @@ const QUIZ_DATA = {
       ],
       "a": "金融",
       "comment": "株式などを発行して直接資金を集める直接金融と、金融機関からお金を借りる間接金融があります。",
-      "answerImg": "assets/images/civics/g_civics_28_finance_1773547604691.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_finance_1773547604691.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24198,7 +24049,7 @@ const QUIZ_DATA = {
       ],
       "a": "金融機関",
       "comment": "家計や企業から資金を預かり、それを資金を必要とする家計や企業に融通しています。",
-      "answerImg": "assets/images/civics/g_civics_28_financial_institution_1773547618407.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_financial_institution_1773547618407.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24211,7 +24062,7 @@ const QUIZ_DATA = {
       ],
       "a": "融資",
       "comment": "金融機関は家計や企業に融資を行い、利息を得て利潤を得ています。",
-      "answerImg": "assets/images/civics/g_civics_28_financing_1773547633224.jpg",
+      "answerImg": "assets/images/civics/g_civics_28_financing_1773547633224.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24224,7 +24075,7 @@ const QUIZ_DATA = {
       ],
       "a": "利子",
       "comment": "借り入れ額（元金）に対する利子の割合を金利（利子率、利率）といいます。",
-      "answerImg": "assets/images/civics/g_civics_29_interest_1773547822908.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_interest_1773547822908.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24237,7 +24088,7 @@ const QUIZ_DATA = {
       ],
       "a": "中央銀行",
       "comment": "日本では日本銀行がこの役目にあたります。",
-      "answerImg": "assets/images/civics/g_civics_29_central_bank_1773547838850.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_central_bank_1773547838850.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24250,7 +24101,7 @@ const QUIZ_DATA = {
       ],
       "a": "日本銀行",
       "comment": "紙幣（日本銀行券）を発行し、市場に出回る通貨の量を調節しています。",
-      "answerImg": "assets/images/civics/g_civics_29_bank_of_japan_1773547852483.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_bank_of_japan_1773547852483.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24263,7 +24114,7 @@ const QUIZ_DATA = {
       ],
       "a": "マイナス金利",
       "comment": "各金融機関が企業などに融資や投資をしやすくすることで、企業の生産や雇用が拡大し、景気回復につながるという予測のもとで実施されました。",
-      "answerImg": "assets/images/civics/g_civics_29_negative_interest_rate_1773547868463.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_negative_interest_rate_1773547868463.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24276,7 +24127,7 @@ const QUIZ_DATA = {
       ],
       "a": "ペイオフ",
       "comment": "それ以上の預金の払い戻しは保証されません。",
-      "answerImg": "assets/images/civics/g_civics_29_payoff_1773547883094.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_payoff_1773547883094.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24289,7 +24140,7 @@ const QUIZ_DATA = {
       ],
       "a": "電子マネー",
       "comment": "キャッシュレス決済の普及に大きく貢献しています。",
-      "answerImg": "assets/images/civics/g_civics_29_electronic_money_1773547896622.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_electronic_money_1773547896622.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24302,7 +24153,7 @@ const QUIZ_DATA = {
       ],
       "a": "キャッシュレス決済",
       "comment": "店側には盗難の心配がなく、支払う側には現金を持ち歩く必要がないなどのメリットがあります。",
-      "answerImg": "assets/images/civics/g_civics_29_cashless_payment_1773547912514.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_cashless_payment_1773547912514.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24315,7 +24166,7 @@ const QUIZ_DATA = {
       ],
       "a": "金融政策",
       "comment": "現在は、一般の金融機関との間で公債の売買などを行う公開市場操作が中心的な手段となっています。",
-      "answerImg": "assets/images/civics/g_civics_29_monetary_policy_1773547927226.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_monetary_policy_1773547927226.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24328,7 +24179,7 @@ const QUIZ_DATA = {
       ],
       "a": "管理通貨制度",
       "comment": "日本をはじめ、ほとんどの国がこの制度を採用しています。（これに対し、金の保有量によって通貨発行量が決まる制度を金本位制といいます）",
-      "answerImg": "assets/images/civics/g_civics_29_managed_currency_system_1773547939988.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_managed_currency_system_1773547939988.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24341,7 +24192,7 @@ const QUIZ_DATA = {
       ],
       "a": "失業者",
       "comment": "好景気のときは逆に企業は生産を増やし（拡大再生産）、雇用も増加します。",
-      "answerImg": "assets/images/civics/g_civics_29_unemployed_recession_1773547950186.jpg",
+      "answerImg": "assets/images/civics/g_civics_29_unemployed_recession_1773547950186.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24354,7 +24205,7 @@ const QUIZ_DATA = {
       ],
       "a": "インフレーション（インフレ）",
       "comment": "好景気におこりやすく、商品がよく売れて品不足の状態となり、物価が上昇します。",
-      "answerImg": "assets/images/civics/g_civics_30_inflation_1773548167042.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_inflation_1773548167042.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24367,7 +24218,7 @@ const QUIZ_DATA = {
       ],
       "a": "デフレーション（デフレ）",
       "comment": "不景気におこりやすく、商品が売れない状態になり、企業の業績が悪化します。",
-      "answerImg": "assets/images/civics/g_civics_30_deflation_1773548180788.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_deflation_1773548180788.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24380,12 +24231,11 @@ const QUIZ_DATA = {
       ],
       "a": "スタグフレーション",
       "comment": "景気の停滞（スタグネーション）と物価上昇（インフレーション）のかばん語です。",
-      "answerImg": "assets/images/civics/g_civics_30_stagflation_1773548191774.jpg",
+      "answerImg": "assets/images/civics/g_civics_30_stagflation_1773548191774.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国に納める税金（所得税や法人税、消費税など）のことをまとめて何というか。",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "国税",
         "地方税",
@@ -24394,12 +24244,11 @@ const QUIZ_DATA = {
       ],
       "a": "国税",
       "comment": "国の活動の主な財源となります。",
-      "answerImg": "assets/images/civics/g_civics_31_national_tax_1773548466337.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_national_tax_1773548466337.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1月1日から12月31日までの1年間の売上、経費、所得など、または消費税額を計算し、税務署に申告して納税額を確定する手続きを何というか。",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "確定申告",
         "年末調整",
@@ -24408,7 +24257,7 @@ const QUIZ_DATA = {
       ],
       "a": "確定申告",
       "comment": "個人事業主やフリーランスにとって重要な手続きです。",
-      "answerImg": "assets/images/civics/g_civics_31_tax_return_1773562154909.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_tax_return_1773562154909.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24421,12 +24270,11 @@ const QUIZ_DATA = {
       ],
       "a": "景気",
       "comment": "好景気（好況）と不景気（不況）のくり返しを景気変動（景気循環）といいます。",
-      "answerImg": "assets/images/civics/g_civics_31_economy_trend_1773562220879.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_economy_trend_1773562220879.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "資本主義経済において、好景気（好況）と不景気（不況）が交互にくり返されることを何というか。",
-      "img": "assets/images/history/h_early_modern_7_capitalism.jpg",
       "choices": [
         "景気変動（景気循環）",
         "インフレーション",
@@ -24435,7 +24283,7 @@ const QUIZ_DATA = {
       ],
       "a": "景気変動（景気循環）",
       "comment": "景気上昇、好景気、景気後退、不景気、景気回復の波を描きます。",
-      "answerImg": "assets/images/civics/g_civics_31_business_cycle_1773562233349.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_business_cycle_1773562233349.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24448,12 +24296,11 @@ const QUIZ_DATA = {
       ],
       "a": "好景気（好況）",
       "comment": "一方で物価が上昇しやすくなります。",
-      "answerImg": "assets/images/civics/g_civics_31_economic_boom_1773562248001.jpg",
+      "answerImg": "assets/images/civics/g_civics_31_economic_boom_1773562248001.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "環境を保全するため、国の基本的な方針や原則を定めた法律。それまでの公害対策基本法にかわって1993年に制定されたものは何か。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境基本法",
         "公害対策基本法",
@@ -24462,12 +24309,11 @@ const QUIZ_DATA = {
       ],
       "a": "環境基本法",
       "comment": "地球温暖化やオゾン層の破壊といった地球環境問題に対する方針も示しています。",
-      "answerImg": "assets/images/civics/g_civics_32_basic_environment_act_1773562776662.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_basic_environment_act_1773562776662.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "資源を有効に活用していくための考え方で、リデュース、リユース、リサイクルの3つの行動の頭文字をとった言葉は何か。",
-      "img": "assets/images/history/h_contemporary_5_sdgs_1773343811627.jpg",
       "choices": [
         "3R（3つのR）",
         "LCA",
@@ -24476,7 +24322,7 @@ const QUIZ_DATA = {
       ],
       "a": "3R（3つのR）",
       "comment": "ごみをそもそも出さない、くり返し使用する、資源にもどして再び利用する、という重要な考え方です。",
-      "answerImg": "assets/images/civics/g_civics_32_three_rs_1773562811059.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_three_rs_1773562811059.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24489,9 +24335,8 @@ const QUIZ_DATA = {
       ],
       "a": "循環型社会",
       "comment": "これまでの「大量生産・大量消費・大量廃棄型」の社会にかわるものとして示されました。",
-      "answerImg": "assets/images/civics/g_civics_32_sound_material_cycle_society_1773562829905.jpg",
-      "imgCaption": "※画像はイメージです",
-      "img": "assets/images/history/h_modern_circular_economy.png"
+      "answerImg": "assets/images/civics/g_civics_32_sound_material_cycle_society_1773562829905.webp",
+      "imgCaption": "※画像はイメージです"
     },
     {
       "q": "不景気（不況）のときにとられる財政政策の1つで、家計や企業から徴収する税金（租税）を減らすことを何というか。",
@@ -24503,7 +24348,7 @@ const QUIZ_DATA = {
       ],
       "a": "減税",
       "comment": "税金が減ると自由に使えるお金が増えるため、家計では消費を、企業では投資を増やすようになり、景気が刺激されます。",
-      "answerImg": "assets/images/civics/g_civics_32_tax_cut_1773562844504.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_tax_cut_1773562844504.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24516,7 +24361,7 @@ const QUIZ_DATA = {
       ],
       "a": "国債",
       "comment": "大量に発行すると、その返済（利払い含む）のための費用が大きくなるという問題があり、国債残高は年々増加しています。",
-      "answerImg": "assets/images/civics/g_civics_32_national_bond_1773562871356.jpg",
+      "answerImg": "assets/images/civics/g_civics_32_national_bond_1773562871356.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24529,12 +24374,11 @@ const QUIZ_DATA = {
       ],
       "a": "貨幣",
       "comment": "かつては金や銀などで造られ貨幣自体に価値がありましたが、現在の貨幣はその材料そのものに価値があるわけではありません。",
-      "answerImg": "assets/images/civics/g_civics_33_money_1773563041613.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_money_1773563041613.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "社会の中で実際に使われているお金のことで、日本銀行券や硬貨（現金通貨）と、銀行の預金（預金通貨）をあわせて何というか。",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "通貨",
         "外貨",
@@ -24543,12 +24387,11 @@ const QUIZ_DATA = {
       ],
       "a": "通貨",
       "comment": "預金も口座振替や小切手などにより支払いに用いられるため通貨に含まれます。",
-      "answerImg": "assets/images/civics/g_civics_33_currency_1773563055498.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_currency_1773563055498.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "現金を直接輸送しない資金の決済方法を何というか。銀行振込や口座からの引き落とし、手形や小切手などがある。",
-      "img": "assets/images/history/g_history_medieval_muromachi_commerce_za.png",
       "choices": [
         "為替",
         "融資",
@@ -24557,7 +24400,7 @@ const QUIZ_DATA = {
       ],
       "a": "為替",
       "comment": "遠隔地間の取引などで、現金を送る危険や手間を省くことができます。",
-      "answerImg": "assets/images/civics/g_civics_33_exchange_1773563068989.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_exchange_1773563068989.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24570,7 +24413,7 @@ const QUIZ_DATA = {
       ],
       "a": "為替相場（為替レート）",
       "comment": "基本的には市場での外国為替の需要と供給により決定されます（変動相場制）。",
-      "answerImg": "assets/images/civics/g_civics_33_exchange_rate_1773563080131.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_exchange_rate_1773563080131.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24583,12 +24426,11 @@ const QUIZ_DATA = {
       ],
       "a": "社会福祉",
       "comment": "社会保障制度の1つです。老人福祉、児童福祉などがあります。",
-      "answerImg": "assets/images/civics/g_civics_33_social_welfare_1773563097413.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_social_welfare_1773563097413.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国民の健康の保持・増進のため、病気の予防や生活環境の整備などを行うしくみを何というか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "公衆衛生",
         "社会福祉",
@@ -24597,7 +24439,7 @@ const QUIZ_DATA = {
       ],
       "a": "公衆衛生",
       "comment": "予防接種などの感染症対策や、上下水道の整備、公害対策などを行っています。",
-      "answerImg": "assets/images/civics/g_civics_33_public_health_1773563110425.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_public_health_1773563110425.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24610,7 +24452,7 @@ const QUIZ_DATA = {
       ],
       "a": "介護保険制度",
       "comment": "社会保険の1つであり、介護サービスを受けるためには介護が必要な程度の認定を受ける必要があります。",
-      "answerImg": "assets/images/civics/g_civics_33_nursing_care_insurance_1773563122432.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_nursing_care_insurance_1773563122432.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24623,12 +24465,11 @@ const QUIZ_DATA = {
       ],
       "a": "介助犬",
       "comment": "盲導犬や聴導犬と同じように、公共施設や公共交通機関などに同伴することができます。",
-      "answerImg": "assets/images/civics/g_civics_33_service_dog_1773563136446.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_service_dog_1773563136446.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "水俣病、イタイイタイ病、新潟水俣病、四日市ぜんそくのことをまとめて何というか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "四大公害病",
         "特定疾患",
@@ -24637,7 +24478,7 @@ const QUIZ_DATA = {
       ],
       "a": "四大公害病",
       "comment": "熊本、富山、新潟、三重でそれぞれ水質汚濁や大気汚染が原因で発生しました。",
-      "answerImg": "assets/images/civics/g_civics_33_four_major_pollution_diseases_1773563154951.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_four_major_pollution_diseases_1773563154951.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24650,7 +24491,7 @@ const QUIZ_DATA = {
       ],
       "a": "ダイオキシン",
       "comment": "強い発がん性などがあるとされ、ダイオキシン類対策特別措置法が制定されました。",
-      "answerImg": "assets/images/civics/g_civics_33_dioxin_1773563168701.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_dioxin_1773563168701.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24663,12 +24504,11 @@ const QUIZ_DATA = {
       ],
       "a": "PPP（汚染者負担の原則）",
       "comment": "この原則から、環境汚染が未然に防げると考えられています。",
-      "answerImg": "assets/images/civics/g_civics_34_polluter_pays_principle_1773563293781.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_polluter_pays_principle_1773563293781.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "購入する商品・サービスにかけられる税金で、国税であり間接税であるものは何か。",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "消費税",
         "所得税",
@@ -24677,12 +24517,11 @@ const QUIZ_DATA = {
       ],
       "a": "消費税",
       "comment": "所得の少ない人ほど所得に占める税負担の割合が高くなるため、「逆進性」の問題があると言われます。",
-      "answerImg": "assets/images/civics/g_civics_34_consumption_tax_1773563307236.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_consumption_tax_1773563307236.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "個人の所得に対してかけられる税金で、国税であり直接税であるものは何か。",
-      "img": "assets/images/history/consumption_tax_intro_1773369253156.jpg",
       "choices": [
         "所得税",
         "消費税",
@@ -24691,7 +24530,7 @@ const QUIZ_DATA = {
       ],
       "a": "所得税",
       "comment": "それぞれの所得に応じて税を負担するように、累進課税の方法がとり入れられています。",
-      "answerImg": "assets/images/civics/g_civics_34_income_tax_1773563317994.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_income_tax_1773563317994.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24704,7 +24543,7 @@ const QUIZ_DATA = {
       ],
       "a": "累進課税",
       "comment": "所得の多い人には大きな負担を求め、国民の所得の再分配を行うはたらきをしています。",
-      "answerImg": "assets/images/civics/g_civics_34_progressive_taxation_1773563332465.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_progressive_taxation_1773563332465.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24717,7 +24556,7 @@ const QUIZ_DATA = {
       ],
       "a": "ジニ係数",
       "comment": "収入格差がない完全に平等な集団では0になります。",
-      "answerImg": "assets/images/civics/g_civics_34_gini_coefficient_1773563348174.jpg",
+      "answerImg": "assets/images/civics/g_civics_34_gini_coefficient_1773563348174.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24730,7 +24569,7 @@ const QUIZ_DATA = {
       ],
       "a": "社会保険",
       "comment": "医療保険、年金保険、雇用保険、介護保険、労災保険の5つがあります。",
-      "answerImg": "assets/images/civics/g_civics_35_social_insurance_1773563540737.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_social_insurance_1773563540737.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24743,7 +24582,7 @@ const QUIZ_DATA = {
       ],
       "a": "医療保険",
       "comment": "国民の多くが加入しており、病院などでの窓口負担割合が軽減されます。",
-      "answerImg": "assets/images/civics/g_civics_35_medical_insurance_1773563554754.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_medical_insurance_1773563554754.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24756,7 +24595,7 @@ const QUIZ_DATA = {
       ],
       "a": "年金保険",
       "comment": "基礎年金（国民年金）や厚生年金などがあります。",
-      "answerImg": "assets/images/civics/g_civics_35_pension_insurance_1773563566614.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_pension_insurance_1773563566614.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24769,7 +24608,7 @@ const QUIZ_DATA = {
       ],
       "a": "雇用保険",
       "comment": "失業給付などを行い、労働者の生活の安定や再就職を支援します。",
-      "answerImg": "assets/images/civics/g_civics_35_employment_insurance_1773563580458.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_employment_insurance_1773563580458.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24782,7 +24621,7 @@ const QUIZ_DATA = {
       ],
       "a": "労災保険",
       "comment": "業務中や通勤中の災害に対して、労働者やその遺族を保護するための制度です。",
-      "answerImg": "assets/images/civics/g_civics_35_workers_compensation_insurance_1773563592645.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_workers_compensation_insurance_1773563592645.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24795,9 +24634,8 @@ const QUIZ_DATA = {
       ],
       "a": "循環型社会形成推進基本法",
       "comment": "容器包装リサイクル法、家電リサイクル法など、各種のリサイクル法の基本的な枠組みとなっています。",
-      "answerImg": "assets/images/civics/g_civics_35_basic_act_for_establishing_a_sound_material_cycle_society_1773563607700.jpg",
-      "imgCaption": "※画像はイメージです",
-      "img": "assets/images/history/h_modern_circular_economy.png"
+      "answerImg": "assets/images/civics/g_civics_35_basic_act_for_establishing_a_sound_material_cycle_society_1773563607700.webp",
+      "imgCaption": "※画像はイメージです"
     },
     {
       "q": "日本の景勝地や貴重な自然環境が残されている場所で、国によって指定された公園を何というか。",
@@ -24809,7 +24647,7 @@ const QUIZ_DATA = {
       ],
       "a": "国立公園",
       "comment": "環境省が保護・管理を行っており、尾瀬や伊勢志摩などがあります。",
-      "answerImg": "assets/images/civics/g_civics_35_national_park_1773563619907.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_national_park_1773563619907.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24822,12 +24660,11 @@ const QUIZ_DATA = {
       ],
       "a": "エコマーク",
       "comment": "消費者が環境によりよい商品を選ぶときの基準となるよう導入されました。",
-      "answerImg": "assets/images/civics/g_civics_35_eco_mark_1773563639657.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_eco_mark_1773563639657.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "ある産業で排出された廃棄物を、別の産業が原材料などとして有効活用することにより、社会全体の廃棄物をゼロにするという考え方を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "ゼロエミッション",
         "3R",
@@ -24836,7 +24673,7 @@ const QUIZ_DATA = {
       ],
       "a": "ゼロエミッション",
       "comment": "産業間の連携によって資源を完全に循環させることを目指します。",
-      "answerImg": "assets/images/civics/g_civics_35_zero_emission_1773563652087.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_zero_emission_1773563652087.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24849,12 +24686,11 @@ const QUIZ_DATA = {
       ],
       "a": "環境税",
       "comment": "地球温暖化防止を目的としており、1990年にフィンランドで初めて導入されました。",
-      "answerImg": "assets/images/civics/g_civics_35_environmental_tax_1773563662804.jpg",
+      "answerImg": "assets/images/civics/g_civics_35_environmental_tax_1773563662804.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "金融機関が企業などに融資（資金を貸すこと）した貸付金のうち、返してもらうことが困難となりそうな貸付金のことを何というか。",
-      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "不良債権",
         "国債",
@@ -24863,7 +24699,7 @@ const QUIZ_DATA = {
       ],
       "a": "不良債権",
       "comment": "バブル経済後に急増し、金融機関の資金不足や経営悪化を招き、問題視されました。",
-      "answerImg": "assets/images/civics/g_civics_36_non_performing_loans_1773564680374.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_non_performing_loans_1773564680374.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24876,12 +24712,11 @@ const QUIZ_DATA = {
       ],
       "a": "金融の自由化",
       "comment": "外国資本の金融機関への参入や、金利や各種手数料などの競争が行われることにより、消費者の選択の輪を広げることを目的としています。",
-      "answerImg": "assets/images/civics/g_civics_36_financial_deregulation_1773564691979.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_financial_deregulation_1773564691979.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "物価下落と経済活動の縮小が相互に作用して、景気が悪化する悪循環のことを何というか。",
-      "img": "assets/images/history/h_contemporary_4_bubble_1772244803554.jpg",
       "choices": [
         "デフレスパイラル",
         "スタグフレーション",
@@ -24890,7 +24725,7 @@ const QUIZ_DATA = {
       ],
       "a": "デフレスパイラル",
       "comment": "物価の下落が企業の収益を悪化させ、それにより所得が減少して消費がふるわなくなり、結果さらに物価が下落するという形がくり返されます。",
-      "answerImg": "assets/images/civics/g_civics_36_deflationary_spiral_1773564706297.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_deflationary_spiral_1773564706297.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24903,7 +24738,7 @@ const QUIZ_DATA = {
       ],
       "a": "ソフト",
       "comment": "経済のソフト化・サービス化にかかわる重要な概念です。",
-      "answerImg": "assets/images/civics/g_civics_36_software_1773564719179.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_software_1773564719179.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24916,7 +24751,7 @@ const QUIZ_DATA = {
       ],
       "a": "情報技術産業（IT産業）",
       "comment": "情報を提供する産業、情報の送受信を提供する産業、関連ソフトを製造する産業などがあります。",
-      "answerImg": "assets/images/civics/g_civics_36_it_industry_1773564730120.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_it_industry_1773564730120.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24929,12 +24764,11 @@ const QUIZ_DATA = {
       ],
       "a": "ベンチャー企業",
       "comment": "日本では、情報産業やエレクトロニクス、コンサルティングなどの分野を中心として1970年代に誕生し、発達してきました。",
-      "answerImg": "assets/images/civics/g_civics_36_venture_company_1773564745076.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_venture_company_1773564745076.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "とることができる年数が限られているエネルギーのことで、石油、石炭、天然ガスといった化石燃料をさして何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "有限エネルギー",
         "無限エネルギー",
@@ -24943,12 +24777,11 @@ const QUIZ_DATA = {
       ],
       "a": "有限エネルギー",
       "comment": "これに対し、なくなる可能性のないエネルギーを無限エネルギーといいます。",
-      "answerImg": "assets/images/civics/g_civics_36_finite_energy_1773564762374.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_finite_energy_1773564762374.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "なくなる可能性のない自然エネルギーのことで、太陽光や風力、地熱、水力、波力、バイオマスなどをまとめて何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "再生可能エネルギー",
         "有限エネルギー",
@@ -24957,12 +24790,11 @@ const QUIZ_DATA = {
       ],
       "a": "再生可能エネルギー",
       "comment": "環境への負荷が少ないという特徴もあります。",
-      "answerImg": "assets/images/civics/g_civics_36_renewable_energy_1773564773351.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_renewable_energy_1773564773351.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "化石燃料にかわる新しいエネルギーの総称を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "代替エネルギー",
         "自然エネルギー",
@@ -24971,7 +24803,7 @@ const QUIZ_DATA = {
       ],
       "a": "代替エネルギー",
       "comment": "化石燃料が環境問題の原因となることや、枯渇する懸念から注目されており、原子力や再生可能エネルギー（太陽光、風力など）が代表的です。",
-      "answerImg": "assets/images/civics/g_civics_36_alternative_energy_1773564786176.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_alternative_energy_1773564786176.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24984,7 +24816,7 @@ const QUIZ_DATA = {
       ],
       "a": "少子高齢社会",
       "comment": "医療費や年金など社会保障の費用が増加する一方で、保険料や税金を支払う働く世代が少なくなり、負担が増えることが問題となっています。",
-      "answerImg": "assets/images/civics/g_civics_40_aging_society_with_fewer_children_1773565812987.jpg",
+      "answerImg": "assets/images/civics/g_civics_40_aging_society_with_fewer_children_1773565812987.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -24997,7 +24829,7 @@ const QUIZ_DATA = {
       ],
       "a": "ナショナル・トラスト",
       "comment": "日本でも知床（北海道）や狭山丘陵（埼玉県）など全国各地で広く行われています。",
-      "answerImg": "assets/images/civics/g_civics_44_national_trust_1773582268057.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_national_trust_1773582268057.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25010,7 +24842,7 @@ const QUIZ_DATA = {
       ],
       "a": "先進工業国（先進国）",
       "comment": "発展途上国に対して使われることばです。",
-      "answerImg": "assets/images/civics/g_civics_44_developed_country_1773582283630.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_developed_country_1773582283630.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25023,7 +24855,7 @@ const QUIZ_DATA = {
       ],
       "a": "発展途上国",
       "comment": "貧困や飢餓が深刻な問題になっている国が多いです。",
-      "answerImg": "assets/images/civics/g_civics_44_developing_country_1773582298442.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_developing_country_1773582298442.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25036,7 +24868,7 @@ const QUIZ_DATA = {
       ],
       "a": "新興国",
       "comment": "世界経済において影響力を増しています。",
-      "answerImg": "assets/images/civics/g_civics_44_emerging_country_1773582314581.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_emerging_country_1773582314581.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25049,7 +24881,7 @@ const QUIZ_DATA = {
       ],
       "a": "南南問題",
       "comment": "工業化が進んでいる国と、最貧国などの間の問題です。",
-      "answerImg": "assets/images/civics/g_civics_44_south_south_problem_1773582355386.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_south_south_problem_1773582355386.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25062,7 +24894,7 @@ const QUIZ_DATA = {
       ],
       "a": "マイクロクレジット",
       "comment": "バングラデシュのグラミン銀行などが有名です。",
-      "answerImg": "assets/images/civics/g_civics_45_microcredit_1773582688091.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_microcredit_1773582688091.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25075,7 +24907,7 @@ const QUIZ_DATA = {
       ],
       "a": "GNP",
       "comment": "国民総生産のこと。現在ではGDPのほうが重視されています。",
-      "answerImg": "assets/images/civics/g_civics_46_gnp_1773582944219.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_gnp_1773582944219.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25088,7 +24920,7 @@ const QUIZ_DATA = {
       ],
       "a": "GDP",
       "comment": "国内総生産のこと。1国の経済規模を示す指標として用いられています。",
-      "answerImg": "assets/images/civics/g_civics_46_gdp_1773582958296.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_gdp_1773582958296.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25101,7 +24933,7 @@ const QUIZ_DATA = {
       ],
       "a": "GNI",
       "comment": "国民総所得のこと。GNPにかわって用いられている概念です。",
-      "answerImg": "assets/images/civics/g_civics_46_gni_1773582970928.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_gni_1773582970928.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25114,7 +24946,7 @@ const QUIZ_DATA = {
       ],
       "a": "APEC",
       "comment": "アジア太平洋経済協力会議のこと。貿易・投資の自由化などを目的としています。",
-      "answerImg": "assets/images/civics/g_civics_46_apec_1773582984693.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_apec_1773582984693.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25127,7 +24959,7 @@ const QUIZ_DATA = {
       ],
       "a": "アジアNIES",
       "comment": "1970年代以降、急速に工業が発展しました。",
-      "answerImg": "assets/images/civics/g_civics_47_asian_nies_1773583223211.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_asian_nies_1773583223211.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25140,7 +24972,7 @@ const QUIZ_DATA = {
       ],
       "a": "UNCTAD",
       "comment": "国連貿易開発会議のことです。",
-      "answerImg": "assets/images/civics/g_civics_48_unctad_1773583584906.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_unctad_1773583584906.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25153,7 +24985,7 @@ const QUIZ_DATA = {
       ],
       "a": "OECD",
       "comment": "経済協力開発機構のこと。発展途上国の経済発展を援助する目的でも組織されました。",
-      "answerImg": "assets/images/civics/g_civics_48_oecd_1773583598442.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_oecd_1773583598442.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25166,7 +24998,7 @@ const QUIZ_DATA = {
       ],
       "a": "EPA",
       "comment": "経済連携協定のことです。",
-      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25179,12 +25011,11 @@ const QUIZ_DATA = {
       ],
       "a": "TPP",
       "comment": "環太平洋戦略的経済連携協定のこと。アメリカが離脱しましたが、2024年にイギリスが加盟しました。",
-      "answerImg": "assets/images/civics/g_civics_48_tpp_1773583656472.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_tpp_1773583656472.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "社会に貢献するサービスに取り組む、利益の追求を目的としない民間組織をアルファベットで何というか。",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NPO（非営利組織）",
         "NGO（非政府組織）",
@@ -25193,12 +25024,11 @@ const QUIZ_DATA = {
       ],
       "a": "NPO（非営利組織）",
       "comment": "福祉や教育・文化、まちづくり、環境などの分野で活動しています。",
-      "answerImg": "assets/images/civics/g_civics_49_npo_1773583913643.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_npo_1773583913643.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "発展途上国に対して、先進工業国などの政府が行う資金援助や技術協力のことをアルファベット3文字で何というか。",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "ODA",
         "NGO",
@@ -25207,7 +25037,7 @@ const QUIZ_DATA = {
       ],
       "a": "ODA",
       "comment": "政府開発援助のこと。発展途上国の経済開発や福祉の向上を目的としています。",
-      "answerImg": "assets/images/civics/g_civics_50_oda_1773584275124.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_oda_1773584275124.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25220,7 +25050,7 @@ const QUIZ_DATA = {
       ],
       "a": "海外協力隊",
       "comment": "専門の技術をもった人々が発展途上国に派遣され活動しています。",
-      "answerImg": "assets/images/civics/g_civics_50_jocv_1773584304751.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_jocv_1773584304751.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25232,12 +25062,11 @@ const QUIZ_DATA = {
         "専守防衛"
       ],
       "comment": "国際連合は、安全保障理事会の決定により、経済制裁や武力制裁を加えることができます。",
-      "answerImg": "assets/images/civics/g_civics_8_copyright_1773482547930.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_copyright_1773482547930.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "経済・社会・文化などに関する国際問題を専門的に扱い、経済社会理事会を通じて国際連合と連携している国際機関を総称して何というか（UNESCOやILOなど）。",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "専門機関",
         "補助機関",
@@ -25246,7 +25075,7 @@ const QUIZ_DATA = {
       ],
       "a": "専門機関",
       "comment": "FAO（国連食糧農業機関）やWHO（世界保健機関）なども含まれます。",
-      "answerImg": "assets/images/civics/g_civics_3_civil_liberties_1773476345863.jpg",
+      "answerImg": "assets/images/civics/g_civics_3_civil_liberties_1773476345863.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25259,14 +25088,13 @@ const QUIZ_DATA = {
       ],
       "a": "ILO",
       "comment": "国際労働機関のことです。",
-      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.jpg",
+      "answerImg": "assets/images/civics/g_civics_4_mental_freedoms_1773480339590.webp",
       "imgCaption": "※画像はイメージです"
     }
   ],
   "c_5": [
     {
       "q": "1945年に設立された、世界の平和と安全を守るための国際機関は？",
-      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
       "choices": [
         "国際連合",
         "国際連盟",
@@ -25278,7 +25106,6 @@ const QUIZ_DATA = {
     },
     {
       "q": "国際連合の主要機関の一つで、世界の平和と安全の維持に責任を持つ機関は？",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "安全保障理事会",
         "総会",
@@ -25287,7 +25114,7 @@ const QUIZ_DATA = {
       ],
       "a": "安全保障理事会",
       "comment": "5つの常任理事国には拒否権があります。",
-      "answerImg": "assets/images/civics/g_civics_50_un_security_council_1773584337151.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_un_security_council_1773584337151.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25300,7 +25127,7 @@ const QUIZ_DATA = {
       ],
       "a": "中国",
       "comment": "第二次世界大戦の戦勝国が中心です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_china_1773716658966.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_china_1773716658966.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25313,12 +25140,11 @@ const QUIZ_DATA = {
       ],
       "a": "地球温暖化",
       "comment": "温室効果ガス（二酸化炭素など）の増加が原因とされています。",
-      "answerImg": "assets/images/civics/g_civics_43_global_environmental_issues_1773581811205.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_global_environmental_issues_1773581811205.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "将来の世代の欲求を満たしつつ、現在の世代の欲求も満たすような開発を何というか？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な開発",
         "経済成長",
@@ -25327,12 +25153,11 @@ const QUIZ_DATA = {
       ],
       "a": "持続可能な開発",
       "comment": "「Sustainable Development」の訳語です。",
-      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "2015年に国連で採択された、「持続可能な開発目標」の略称は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "SDGs",
         "GDP",
@@ -25344,7 +25169,6 @@ const QUIZ_DATA = {
     },
     {
       "q": "国境なき医師団やアムネスティ・インターナショナルなど、利益を目的とせずに活動する民間組織は？",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "NGO（非政府組織）",
         "NPO（非営利組織）",
@@ -25353,12 +25177,11 @@ const QUIZ_DATA = {
       ],
       "a": "NGO（非政府組織）",
       "comment": "国際的な課題解決に大きな役割を果たしています。",
-      "answerImg": "assets/images/civics/g_civics_49_ngo_1773583896329.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_ngo_1773583896329.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "二酸化炭素の排出を抑えるため、再生可能エネルギーとして注目されているのは？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "太陽光発電",
         "火力発電",
@@ -25367,7 +25190,7 @@ const QUIZ_DATA = {
       ],
       "a": "太陽光発電",
       "comment": "風力や地熱、バイオマスなども再生可能エネルギーです。",
-      "answerImg": "assets/images/civics/g_civics_36_renewable_energy_1773564773351.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_renewable_energy_1773564773351.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25380,12 +25203,11 @@ const QUIZ_DATA = {
       ],
       "a": "南北問題",
       "comment": "北半球に先進国、南半球に途上国が多いことからこう呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_44_north_south_problem_1773582341745.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_north_south_problem_1773582341745.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地域紛争の解決などのために、国連が各国の軍隊などを派遣して行う活動は？",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "PKO（国連平和維持活動）",
         "ODA（政府開発援助）",
@@ -25394,7 +25216,7 @@ const QUIZ_DATA = {
       ],
       "a": "PKO（国連平和維持活動）",
       "comment": "日本も自衛隊を派遣しています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_pko_1773716677116.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_pko_1773716677116.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25407,7 +25229,7 @@ const QUIZ_DATA = {
       ],
       "a": "ラムサール条約",
       "comment": "日本では釧路湿原などが登録されています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_ramsar_convention_1773716689933.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_ramsar_convention_1773716689933.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25420,12 +25242,11 @@ const QUIZ_DATA = {
       ],
       "a": "ワシントン条約",
       "comment": "象牙やタイマイ（ウミガメ）などが対象です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "熊本県の水俣湾沿岸で発生し、工場排水に含まれる有機水銀が原因となった公害病は？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "水俣病",
         "新潟水俣病",
@@ -25434,12 +25255,11 @@ const QUIZ_DATA = {
       ],
       "a": "水俣病",
       "comment": "手足のしびれや運動障害などの症状が出ました。",
-      "answerImg": "assets/images/civics/g_civics_33_four_major_pollution_diseases_1773563154951.jpg",
+      "answerImg": "assets/images/civics/g_civics_33_four_major_pollution_diseases_1773563154951.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "富山県の神通川流域で発生し、鉱山から排出されたカドミウムが原因となった公害病は？",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "イタイイタイ病",
         "水俣病",
@@ -25448,7 +25268,7 @@ const QUIZ_DATA = {
       ],
       "a": "イタイイタイ病",
       "comment": "骨がもろくなり、激しい痛みを伴います。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_itai_itai_1773716734075.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_itai_itai_1773716734075.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25461,12 +25281,11 @@ const QUIZ_DATA = {
       ],
       "a": "核拡散防止条約（NPT）",
       "comment": "核保有国の軍縮義務も定めていますが、不十分だという批判もあります。",
-      "answerImg": "assets/images/civics/g_civics_47_npt_1773583341020.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_npt_1773583341020.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "ヨーロッパの多くの国が加盟し、共通通貨ユーロを導入するなどして経済的・政治的に統合を進めている組織は？",
-      "img": "assets/images/history/h_contemporary_4_eu_1773343658446.jpg",
       "choices": [
         "EU（欧州連合）",
         "ASEAN（東南アジア諸国連合）",
@@ -25475,12 +25294,11 @@ const QUIZ_DATA = {
       ],
       "a": "EU（欧州連合）",
       "comment": "本部はベルギーのブリュッセルにあります。",
-      "answerImg": "assets/images/geography/g_gw_1_135_eu_flags_1773418101437.jpg",
+      "answerImg": "assets/images/geography/g_gw_1_135_eu_flags_1773418101437.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "東南アジアの10カ国が加盟し、経済成長や地域の安定を目指して協力している組織は？",
-      "img": "assets/images/history/h_contemporary_3_asean_1773343491452.jpg",
       "choices": [
         "ASEAN（東南アジア諸国連合）",
         "APEC（アジア太平洋経済協力）",
@@ -25500,7 +25318,7 @@ const QUIZ_DATA = {
       ],
       "a": "APEC（アジア太平洋経済協力）",
       "comment": "日本、アメリカ、中国、オーストラリアなどが参加しています。",
-      "answerImg": "assets/images/civics/g_civics_46_apec_1773582984693.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_apec_1773582984693.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25513,12 +25331,11 @@ const QUIZ_DATA = {
       ],
       "a": "オゾン層",
       "comment": "オゾンホールが南極上空などで観測されています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_ozone_layer_1773716747939.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_ozone_layer_1773716747939.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "工場や自動車から排出される硫黄酸化物や窒素酸化物が原因で、森林を枯らしたりする雨は？",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "酸性雨",
         "集中豪雨",
@@ -25527,7 +25344,7 @@ const QUIZ_DATA = {
       ],
       "a": "酸性雨",
       "comment": "国境を越えて被害が広がることもあります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_acid_rain_1773716765319.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_acid_rain_1773716765319.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25540,7 +25357,7 @@ const QUIZ_DATA = {
       ],
       "a": "砂漠化",
       "comment": "アフリカのサヘル地域などで深刻な問題となっています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_desertification_1773716779589.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_desertification_1773716779589.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25553,7 +25370,7 @@ const QUIZ_DATA = {
       ],
       "a": "レアメタル（希少金属）",
       "comment": "リサイクル（都市鉱山）の活用が期待されています。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_rare_metal_1773716795880.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_rare_metal_1773716795880.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25566,7 +25383,7 @@ const QUIZ_DATA = {
       ],
       "a": "シェールガス",
       "comment": "アメリカなどで生産が拡大しています（シェール革命）。",
-      "answerImg": "assets/images/civics/g_civics_36_alternative_energy_1773564786176.jpg",
+      "answerImg": "assets/images/civics/g_civics_36_alternative_energy_1773564786176.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25579,7 +25396,7 @@ const QUIZ_DATA = {
       ],
       "a": "コージェネレーションシステム",
       "comment": "エネルギーの利用効率を高めることができます。",
-      "answerImg": "assets/images/civics/g_civics_42_energy_conservation_1773581526455.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_energy_conservation_1773581526455.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25592,7 +25409,7 @@ const QUIZ_DATA = {
       ],
       "a": "人間の安全保障",
       "comment": "貧困、飢餓、感染症、環境破壊などの脅威から人々を守ることを重視します。",
-      "answerImg": "assets/images/civics/g_civics_49_human_security_1773583942925.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_human_security_1773583942925.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25605,7 +25422,7 @@ const QUIZ_DATA = {
       ],
       "a": "対人地雷全面禁止条約（オタワ条約）",
       "comment": "アメリカ、ロシア、中国などは未加盟です。",
-      "answerImg": "assets/images/civics/g_civics_47_ottawa_treaty_1773583265450.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_ottawa_treaty_1773583265450.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25618,7 +25435,7 @@ const QUIZ_DATA = {
       ],
       "a": "EPA（経済連携協定）",
       "comment": "FTA（自由貿易協定）よりも広い範囲の協定です。",
-      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_epa_1773583640184.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25631,7 +25448,7 @@ const QUIZ_DATA = {
       ],
       "a": "BRICS（ブリックス）",
       "comment": "世界経済における存在感が高まっています。",
-      "answerImg": "assets/images/civics/g_civics_44_emerging_country_1773582314581.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_emerging_country_1773582314581.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25644,7 +25461,7 @@ const QUIZ_DATA = {
       ],
       "a": "パレスチナ問題",
       "comment": "宗教や土地、歴史的背景が複雑に絡み合っています。",
-      "answerImg": "assets/images/civics/g_civics_41_conflict_1773581202464.jpg",
+      "answerImg": "assets/images/civics/g_civics_41_conflict_1773581202464.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25657,7 +25474,7 @@ const QUIZ_DATA = {
       ],
       "a": "JICA（国際協力機構）",
       "comment": "技術協力や青年海外協力隊の派遣などを行っています。",
-      "answerImg": "assets/images/civics/g_civics_50_jica_1773584288261.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_jica_1773584288261.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25670,7 +25487,7 @@ const QUIZ_DATA = {
       ],
       "a": "バイオ燃料",
       "comment": "二酸化炭素の排出量を実質的に増やさない（カーボンニュートラル）とされます。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_biofuel_1773716823861.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_biofuel_1773716823861.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25683,7 +25500,7 @@ const QUIZ_DATA = {
       ],
       "a": "ILO（国際労働機関）",
       "comment": "本部はジュネーブにあります。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_ilo_1773716837051.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_ilo_1773716837051.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25696,7 +25513,7 @@ const QUIZ_DATA = {
       ],
       "a": "IAEA（国際原子力機関）",
       "comment": "「核の番人」とも呼ばれます。",
-      "answerImg": "assets/images/civics/g_civics_48_iaea_1773583612847.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_iaea_1773583612847.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25709,7 +25526,7 @@ const QUIZ_DATA = {
       ],
       "a": "ウィーン条約",
       "comment": "具体的な規制内容はモントリオール議定書で定められました。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_vienna_convention_1773716854162.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_vienna_convention_1773716854162.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25722,12 +25539,11 @@ const QUIZ_DATA = {
       ],
       "a": "ワシントン条約",
       "comment": "象牙やウミガメなどが対象です。",
-      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.jpg",
+      "answerImg": "assets/images/civics/g_civics_batch_final_washington_convention_1773716704476.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "難民の保護や支援を行う、国連の機関は？",
-      "img": "assets/images/history/h_contemporary_4_pko_1773343640594.jpg",
       "choices": [
         "UNHCR（国連難民高等弁務官事務所）",
         "UNICEF（国連児童基金）",
@@ -25736,12 +25552,11 @@ const QUIZ_DATA = {
       ],
       "a": "UNHCR（国連難民高等弁務官事務所）",
       "comment": "緒方貞子さんが高等弁務官を務めました。",
-      "answerImg": "assets/images/civics/g_civics_48_unhcr_1773583569153.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_unhcr_1773583569153.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "「生命、自由及び幸福追求に対する国民の権利」として、日本国憲法第13条で保障されており、新しい人権の根拠ともなる権利は何か。",
-      "img": "assets/images/history/h_contemporary_1_article_9_new.jpg",
       "choices": [
         "幸福追求権",
         "自己決定権",
@@ -25750,12 +25565,11 @@ const QUIZ_DATA = {
       ],
       "a": "幸福追求権",
       "comment": "プライバシーの権利や環境権など、憲法に明記されていない新しい人権を主張する際の拠り所となります。",
-      "answerImg": "assets/images/civics/g_civics_8_happiness_pursuit_1773482588996.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_happiness_pursuit_1773482588996.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "生活する上で、きれいで快適な環境を求める権利を何というか。",
-      "img": "assets/images/history/h_contemporary_3_stable_growth_new_1774108672268.png",
       "choices": [
         "環境権",
         "生存権",
@@ -25764,12 +25578,11 @@ const QUIZ_DATA = {
       ],
       "a": "環境権",
       "comment": "公害などの問題が深刻化した高度経済成長期以降に、生存権や幸福追求権を根拠に主張されるようになりました。",
-      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_environmental_right_1773482605636.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "大規模な開発を行う前に、それが周囲の環境にどのような影響を及ぼすかを事前に調査・評価し、対策を立てる制度を何というか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "環境アセスメント（環境影響評価）",
         "環境基本計画",
@@ -25778,7 +25591,7 @@ const QUIZ_DATA = {
       ],
       "a": "環境アセスメント（環境影響評価）",
       "comment": "環境破壊を未然に防ぐため、一部の大規模な事業には法律でこの実施が義務付けられています。",
-      "answerImg": "assets/images/civics/g_civics_8_environmental_assessment_1773482628858.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_environmental_assessment_1773482628858.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25791,7 +25604,7 @@ const QUIZ_DATA = {
       ],
       "a": "世界人権宣言",
       "comment": "法的な拘束力はありませんが、各国の人権保障の目標として大きな影響を与えています。",
-      "answerImg": "assets/images/civics/g_civics_8_udhr_1773482647496.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_udhr_1773482647496.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25804,7 +25617,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際人権規約",
       "comment": "1966年に国連総会で採択され、日本は1979年に批准しました（一部留保あり）。",
-      "answerImg": "assets/images/civics/g_civics_8_icescr_1773482663761.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_icescr_1773482663761.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25817,7 +25630,7 @@ const QUIZ_DATA = {
       ],
       "a": "アムネスティ・インターナショナル",
       "comment": "世界中の人権侵害状況を調査し、改善を求める活動を行っています。",
-      "answerImg": "assets/images/civics/g_civics_8_amnesty_1773482685832.jpg",
+      "answerImg": "assets/images/civics/g_civics_8_amnesty_1773482685832.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25830,7 +25643,7 @@ const QUIZ_DATA = {
       ],
       "a": "ハイブリッドカー",
       "comment": "ガソリン車と比べて二酸化炭素をふくむ排気ガスの排出量が少ないことから注目されています。",
-      "answerImg": "assets/images/civics/g_civics_42_hybrid_car_1773581540188.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_hybrid_car_1773581540188.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25843,7 +25656,7 @@ const QUIZ_DATA = {
       ],
       "a": "電気自動車",
       "comment": "走行中は二酸化炭素が出ないことから、環境に優しい自動車として注目されています。",
-      "answerImg": "assets/images/civics/g_civics_42_electric_car_1773581554566.jpg",
+      "answerImg": "assets/images/civics/g_civics_42_electric_car_1773581554566.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25856,7 +25669,7 @@ const QUIZ_DATA = {
       ],
       "a": "燃料電池車",
       "comment": "環境に影響を与えない車として注目されています。",
-      "answerImg": "assets/images/civics/g_civics_43_fuel_cell_vehicle_1773581763967.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_fuel_cell_vehicle_1773581763967.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25869,12 +25682,11 @@ const QUIZ_DATA = {
       ],
       "a": "京都議定書",
       "comment": "2008年から2012年の間に、1990年の水準から先進国全体で5.2%、日本で6%減らすことなどを定めました。",
-      "answerImg": "assets/images/civics/g_civics_43_kyoto_protocol_1773581797697.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_kyoto_protocol_1773581797697.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "地球環境問題の原因の一つである、地球規模での環境汚染や環境破壊がもとで発生するさまざまな問題をまとめて何というか。",
-      "img": "assets/images/history/h_contemporary_3_kougai_1772244786037.jpg",
       "choices": [
         "地球環境問題",
         "公害問題",
@@ -25883,7 +25695,7 @@ const QUIZ_DATA = {
       ],
       "a": "地球環境問題",
       "comment": "地球温暖化、酸性雨、砂漠化、オゾン層の破壊などがあり、各国が連携して取り組む必要があります。",
-      "answerImg": "assets/images/civics/g_civics_43_global_environmental_issues_1773581811205.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_global_environmental_issues_1773581811205.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25896,7 +25708,7 @@ const QUIZ_DATA = {
       ],
       "a": "国連人間環境会議",
       "comment": "環境問題に取り組む方向性を示した「人間環境宣言」が採択され、国連環境計画（UNEP）の設立が決められました。",
-      "answerImg": "assets/images/civics/g_civics_43_un_conference_human_environment_1773581824957.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_un_conference_human_environment_1773581824957.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25909,12 +25721,11 @@ const QUIZ_DATA = {
       ],
       "a": "国連環境計画（UNEP）",
       "comment": "環境保護のための活動、国際協力の推進に取り組んでいます。",
-      "answerImg": "assets/images/civics/g_civics_43_unep_1773581839382.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_unep_1773581839382.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "1992年にブラジルのリオデジャネイロで開かれた、「持続可能な開発」を基本理念とする環境に関する国際会議を何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "国連環境開発会議（地球サミット）",
         "国連人間環境会議",
@@ -25923,12 +25734,11 @@ const QUIZ_DATA = {
       ],
       "a": "国連環境開発会議（地球サミット）",
       "comment": "「環境と開発に関するリオ宣言」などが採択され、地球温暖化防止条約が調印されました。",
-      "answerImg": "assets/images/civics/g_civics_43_earth_summit_1773581856251.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_earth_summit_1773581856251.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "将来の世代に資源と良好な環境を残せるように、開発と環境保全を調和させようとする考えを何というか（1992年の地球サミットの基本理念）。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "持続可能な開発",
         "人間環境宣言",
@@ -25937,7 +25747,7 @@ const QUIZ_DATA = {
       ],
       "a": "持続可能な開発",
       "comment": "2002年の環境開発サミットでもテーマとされました。",
-      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_sustainable_development_1773581873361.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25950,7 +25760,7 @@ const QUIZ_DATA = {
       ],
       "a": "気候変動枠組条約（地球温暖化防止条約）",
       "comment": "この枠組みの中で、各国の話し合い（COP）が継続して行われています。",
-      "answerImg": "assets/images/civics/g_civics_43_unfccc_1773581902754.jpg",
+      "answerImg": "assets/images/civics/g_civics_43_unfccc_1773581902754.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25963,7 +25773,7 @@ const QUIZ_DATA = {
       ],
       "a": "識字率",
       "comment": "発展途上国では、男性より女性のほうが低い傾向にあります。",
-      "answerImg": "assets/images/civics/g_civics_44_literacy_rate_1773582329765.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_literacy_rate_1773582329765.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25976,7 +25786,7 @@ const QUIZ_DATA = {
       ],
       "a": "主権国家",
       "comment": "内政不干渉の原則と主権平等の原則にもとづいています。",
-      "answerImg": "assets/images/civics/g_civics_44_sovereign_state_1773582368987.jpg",
+      "answerImg": "assets/images/civics/g_civics_44_sovereign_state_1773582368987.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -25989,7 +25799,7 @@ const QUIZ_DATA = {
       ],
       "a": "主権平等の原則",
       "comment": "大国であっても小国であっても、主権をもつ国家として平等とされます。",
-      "answerImg": "assets/images/civics/g_civics_45_sovereign_equality_1773582573096.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_sovereign_equality_1773582573096.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26002,7 +25812,7 @@ const QUIZ_DATA = {
       ],
       "a": "アジア・アフリカ会議（バンドン会議）",
       "comment": "民族の自立と国際平和を求めて開かれました。",
-      "answerImg": "assets/images/civics/g_civics_45_bandung_conference_1773582588067.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_bandung_conference_1773582588067.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26015,7 +25825,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際社会",
       "comment": "第二次世界大戦後、アジアやアフリカの植民地が次々に独立して主権国家となったことから拡大しました。",
-      "answerImg": "assets/images/civics/g_civics_45_international_society_1773582617423.jpg",
+      "answerImg": "assets/images/civics/g_civics_45_international_society_1773582617423.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26028,7 +25838,7 @@ const QUIZ_DATA = {
       ],
       "a": "ストリートチルドレン",
       "comment": "路上で物売りをしたり、通行人に物やお金をもらったりして生活しています。",
-      "answerImg": "assets/images/civics/g_civics_46_street_children_1773582880515.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_street_children_1773582880515.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26041,7 +25851,7 @@ const QUIZ_DATA = {
       ],
       "a": "ハンガーマップ",
       "comment": "国連の世界食糧計画（WFP）によって作成されています。",
-      "answerImg": "assets/images/civics/g_civics_46_hunger_map_1773582896234.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_hunger_map_1773582896234.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26054,7 +25864,7 @@ const QUIZ_DATA = {
       ],
       "a": "FTA",
       "comment": "自由貿易協定のこと。貿易を活発にすることを目的としています。",
-      "answerImg": "assets/images/civics/g_civics_46_fta_1773582997177.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_fta_1773582997177.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26067,12 +25877,11 @@ const QUIZ_DATA = {
       ],
       "a": "USMCA",
       "comment": "米国・メキシコ・カナダ協定のこと。管理貿易の傾向が見られます。",
-      "answerImg": "assets/images/civics/g_civics_46_usmca_1773583012380.jpg",
+      "answerImg": "assets/images/civics/g_civics_46_usmca_1773583012380.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "サンフランシスコ会議で採択された憲章にもとづき、1945年に発足した国際平和機構を何というか。",
-      "img": "assets/images/history/league_of_nations_1773368667564.jpg",
       "choices": [
         "国際連合",
         "国際連盟",
@@ -26081,7 +25890,7 @@ const QUIZ_DATA = {
       ],
       "a": "国際連合",
       "comment": "本部はニューヨークにあります。",
-      "answerImg": "assets/images/civics/g_civics_47_united_nations_1773583237806.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_united_nations_1773583237806.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26094,7 +25903,7 @@ const QUIZ_DATA = {
       ],
       "a": "地雷",
       "comment": "1999年には、対人地雷の生産・使用などを全面的に禁止するオタワ条約が発効しました。",
-      "answerImg": "assets/images/civics/g_civics_47_landmine_1773583251638.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_landmine_1773583251638.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26107,7 +25916,7 @@ const QUIZ_DATA = {
       ],
       "a": "オタワ条約",
       "comment": "正式名称は対人地雷禁止条約です。",
-      "answerImg": "assets/images/civics/g_civics_47_ottawa_treaty_1773583265450.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_ottawa_treaty_1773583265450.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26120,12 +25929,11 @@ const QUIZ_DATA = {
       ],
       "a": "INF全廃条約（中距離核戦力全廃条約）",
       "comment": "地上から発射するミサイルに限定されたものでした。",
-      "answerImg": "assets/images/civics/g_civics_47_inf_treaty_1773583293515.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_inf_treaty_1773583293515.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "アメリカ合衆国とソ連（ロシア）との間で結ばれた、大陸間をこえて直接攻撃できる核ミサイルの削減に関する条約をアルファベットで何というか。",
-      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
       "choices": [
         "START（戦略兵器削減条約）",
         "SALT（戦略兵器制限交渉）",
@@ -26134,7 +25942,7 @@ const QUIZ_DATA = {
       ],
       "a": "START（戦略兵器削減条約）",
       "comment": "これによりアメリカとロシアの戦略核弾頭数は、冷戦期の約60%にまで減少しました。",
-      "answerImg": "assets/images/civics/g_civics_47_start_treaty_1773583309251.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_start_treaty_1773583309251.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26147,7 +25955,7 @@ const QUIZ_DATA = {
       ],
       "a": "PTBT",
       "comment": "部分的核実験停止条約のこと。地下での核実験を禁止していないため、部分的とされています。",
-      "answerImg": "assets/images/civics/g_civics_47_ptbt_1773583327513.jpg",
+      "answerImg": "assets/images/civics/g_civics_47_ptbt_1773583327513.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26160,7 +25968,7 @@ const QUIZ_DATA = {
       ],
       "a": "WHO",
       "comment": "世界保健機関のこと。感染症の発生状況の報告なども行っています。",
-      "answerImg": "assets/images/civics/g_civics_48_who_1773583527331.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_who_1773583527331.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26173,7 +25981,7 @@ const QUIZ_DATA = {
       ],
       "a": "IMF",
       "comment": "国際通貨基金のこと。通貨危機におちいった国に対して短期的な貸し出しなどを行っています。",
-      "answerImg": "assets/images/civics/g_civics_48_imf_1773583541428.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_imf_1773583541428.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26186,7 +25994,7 @@ const QUIZ_DATA = {
       ],
       "a": "UNICEF",
       "comment": "国連児童基金のこと。発展途上国の子どもに対する保健衛生や栄養補給などの援助活動を行っています。",
-      "answerImg": "assets/images/civics/g_civics_48_unicef_1773583556642.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_unicef_1773583556642.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26199,7 +26007,7 @@ const QUIZ_DATA = {
       ],
       "a": "UNHCR",
       "comment": "国連難民高等弁務官事務所のことです。",
-      "answerImg": "assets/images/civics/g_civics_48_unhcr_1773583569153.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_unhcr_1773583569153.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26212,7 +26020,7 @@ const QUIZ_DATA = {
       ],
       "a": "IAEA",
       "comment": "国際原子力機関のこと。核物質のあつかわれ方について調査（査察）を行ったりします。",
-      "answerImg": "assets/images/civics/g_civics_48_iaea_1773583612847.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_iaea_1773583612847.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26225,12 +26033,11 @@ const QUIZ_DATA = {
       ],
       "a": "WTO",
       "comment": "世界貿易機関のこと。貿易をめぐり各国間で紛争がおこった場合の解決方法が強化されました。",
-      "answerImg": "assets/images/civics/g_civics_48_wto_1773583627153.jpg",
+      "answerImg": "assets/images/civics/g_civics_48_wto_1773583627153.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "2001年9月11日に、アメリカ合衆国のニューヨークやワシントンなどで同時におこった旅客機によるテロ事件を何というか。",
-      "img": "assets/images/history/h_contemporary_2_cold_war.jpg",
       "choices": [
         "同時多発テロ",
         "冷戦の終結",
@@ -26239,7 +26046,7 @@ const QUIZ_DATA = {
       ],
       "a": "同時多発テロ",
       "comment": "世界貿易センタービルなどに旅客機が突入し、多くの犠牲者が出ました。",
-      "answerImg": "assets/images/civics/g_civics_49_911_attacks_1773583853643.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_911_attacks_1773583853643.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26252,7 +26059,7 @@ const QUIZ_DATA = {
       ],
       "a": "イラク戦争",
       "comment": "この戦争の結果、フセイン政権が倒されました。",
-      "answerImg": "assets/images/civics/g_civics_49_iraq_war_1773583867949.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_iraq_war_1773583867949.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26265,7 +26072,7 @@ const QUIZ_DATA = {
       ],
       "a": "IS（イスラム国）",
       "comment": "ISILとも呼び、世界中でテロ行為などを行っています。",
-      "answerImg": "assets/images/civics/g_civics_49_islamic_state_1773583880959.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_islamic_state_1773583880959.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26278,12 +26085,11 @@ const QUIZ_DATA = {
       ],
       "a": "PDCAサイクル",
       "comment": "国際規格を定めるISOでは、環境規格においてこのサイクルを取り入れています。",
-      "answerImg": "assets/images/civics/g_civics_49_pdca_cycle_1773583958348.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_pdca_cycle_1773583958348.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国連が2015年に定めた、2030年までに達成すべき17の目標をアルファベットで何というか。",
-      "img": "assets/images/history/h_medieval_6_noh.jpg",
       "choices": [
         "SDGs（持続可能な開発目標）",
         "MDGs（ミレニアム開発目標）",
@@ -26292,7 +26098,7 @@ const QUIZ_DATA = {
       ],
       "a": "SDGs（持続可能な開発目標）",
       "comment": "教育の普及や、貧困や飢餓をなくすことなどが含まれています。",
-      "answerImg": "assets/images/civics/g_civics_49_sdgs_1773583974277.jpg",
+      "answerImg": "assets/images/civics/g_civics_49_sdgs_1773583974277.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26305,12 +26111,11 @@ const QUIZ_DATA = {
       ],
       "a": "CTBT（包括的核実験禁止条約）",
       "comment": "アメリカや中国などが批准しておらず、発効の見通しは立っていません。",
-      "answerImg": "assets/images/civics/g_civics_50_ctbt_1773584213024.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_ctbt_1773584213024.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "北朝鮮の核開発問題について、日本、アメリカ、韓国、中国、ロシア、北朝鮮の担当者が話し合う会議を何というか（2003年〜2008年）。",
-      "img": "assets/images/history/h_modern_abduction_issue.png",
       "choices": [
         "6か国協議",
         "サミット",
@@ -26319,7 +26124,7 @@ const QUIZ_DATA = {
       ],
       "a": "6か国協議",
       "comment": "議長国である中国で開催されましたが、2008年以降は開催されていません。",
-      "answerImg": "assets/images/civics/g_civics_50_six_party_talks_1773584244682.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_six_party_talks_1773584244682.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
@@ -26332,12 +26137,11 @@ const QUIZ_DATA = {
       ],
       "a": "サミット（主要国首脳会議）",
       "comment": "現在は先進工業国によるG7や、新興工業国などを加えたG20などが開かれています。",
-      "answerImg": "assets/images/civics/g_civics_50_g7_summit_1773584257096.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_g7_summit_1773584257096.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "全加盟国で構成される国際連合の中心的機関を何というか。",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "国連総会",
         "安全保障理事会",
@@ -26346,12 +26150,11 @@ const QUIZ_DATA = {
       ],
       "a": "国連総会",
       "comment": "加盟国にはそれぞれ1票の議決権が与えられ、通常総会は年1回定期的に行われます。",
-      "answerImg": "assets/images/civics/g_civics_50_un_general_assembly_1773584321665.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_un_general_assembly_1773584321665.webp",
       "imgCaption": "※画像はイメージです"
     },
     {
       "q": "国際連合の主要機関の一つで、世界の平和と安全の維持を目的とし、常任理事国5か国と非常任理事国10か国で構成される機関を何というか。",
-      "img": "assets/images/history/united_nations_1773368765000.jpg",
       "choices": [
         "安全保障理事会",
         "国連総会",
@@ -26360,7 +26163,7 @@ const QUIZ_DATA = {
       ],
       "a": "安全保障理事会",
       "comment": "常任理事国には拒否権があります。",
-      "answerImg": "assets/images/civics/g_civics_50_un_security_council_1773584337151.jpg",
+      "answerImg": "assets/images/civics/g_civics_50_un_security_council_1773584337151.webp",
       "imgCaption": "※画像はイメージです"
     }
   ]
