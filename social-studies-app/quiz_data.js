@@ -10061,7 +10061,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "墾田永年私財法によって広がった、貴族や寺社の私有地を何というか？",
-      "img": "assets/images/history/h_ancient_8_shoen.jpg",
+      "img": "assets/images/history/h_ancient_7_shoen.png",
       "choices": [
         "荘園",
         "公領",
