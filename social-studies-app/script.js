@@ -1008,7 +1008,7 @@ const app = {
         if (this.quizState.currentUnitId === 'c_exam_all') unitTitle = '公民 総復習';
 
         // Calculate progress (answeredVars) for this unit
-        const hId = `quiz_history_${this.currentUser}_${this.quizState.currentUnitId}`;
+        const hId = `quiz_history_${this.quizState.currentUnitId}`;
         const history = JSON.parse(localStorage.getItem(hId) || '{}');
         let answeredVars = Object.keys(history).length;
         if (answeredVars > unitTotal) answeredVars = unitTotal;
