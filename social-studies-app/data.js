@@ -9582,7 +9582,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖徳太子が亡くなった後、蘇我氏（蝦夷・入鹿）が権力を独占し、対立したのは誰の一族か？",
-      "img": "assets/images/history/h_ancient_5_shotoku_taishi.png",
+      "img": "assets/images/history/h_ancient_5_shotoku_family.png",
       "choices": [
         "天皇家（聖徳太子の一族）",
         "藤原氏",
