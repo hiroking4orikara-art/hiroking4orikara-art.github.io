@@ -9808,7 +9808,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "平城京で使われた、役人が文字や記録を書くために使った木の札を何というか？",
-      "img": "assets/images/history/h_ancient_7_heijokyo.jpg",
+      "img": "assets/images/history/h_ancient_7_mokkan.jpg",
       "choices": [
         "木簡",
         "竹簡",
@@ -9834,7 +9834,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "神話や伝承をもとに、天武天皇の命で編纂され、712年に完成した日本最古の歴史書は？",
-      "img": "assets/images/history/h_ancient_7_kojiki.jpg",
+      "img": "assets/images/history/h_ancient_7_kojiki.png",
       "choices": [
         "古事記",
         "日本書紀",
@@ -9846,7 +9846,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "720年に完成した、国造りの様子などが漢文で年代順に記された歴史書は？",
-      "img": "assets/images/history/h_ancient_7_nihon_shoki.jpg",
+      "img": "assets/images/history/h_ancient_7_nihon_shoki.png",
       "choices": [
         "日本書紀",
         "古事記",
@@ -9884,7 +9884,6 @@ const QUIZ_DATA = {
     },
     {
       "q": "天皇や貴族だけでなく、防人や農民の歌も収められている、日本最古の和歌集は？",
-      "img": "assets/images/history/h_ancient_7_manyoshu.jpg",
       "choices": [
         "万葉集",
         "古今和歌集",
@@ -9892,7 +9891,9 @@ const QUIZ_DATA = {
         "百人一首"
       ],
       "a": "万葉集",
-      "comment": "大伴家持らが編集に関わったとされ、約4500首が収められています。"
+      "comment": "大伴家持らが編集に関わったとされ、約4500首が収められています。",
+      "answerImg": "assets/images/history/h_ancient_7_manyoshu.jpg",
+      "imgCaption": "※画像はイメージです"
     },
     {
       "q": "万葉集に収められている「貧窮問答歌」を詠み、農民の苦しい生活を描いた人物は？",
@@ -10036,7 +10037,7 @@ const QUIZ_DATA = {
     },
     {
       "q": "聖武天皇の后で、聖武天皇とともに仏教を厚く信仰し、孤児や病人のための施設を作った人物は？",
-      "img": "assets/images/history/g_history_ancient_kanji_buddhism_generated.png",
+      "img": "assets/images/history/h_ancient_7_komyo_kogo.png",
       "choices": [
         "光明皇后",
         "持統天皇",
