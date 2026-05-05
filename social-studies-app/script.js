@@ -795,7 +795,6 @@ const app = {
 
         // Background Image Handling
         const questionWrapper = document.getElementById('quiz-question-wrapper');
-        const bgLayer = document.getElementById('quiz-bg-layer');
         
         if (q.bgImg) {
             bgLayer.style.backgroundImage = `url('${q.bgImg}')`;
