@@ -795,6 +795,7 @@ const app = {
 
         // Background Image Handling
         const questionWrapper = document.getElementById('quiz-question-wrapper');
+        const bgLayer = document.getElementById('quiz-bg-layer');
         
         if (q.bgImg) {
             bgLayer.style.backgroundImage = `url('${q.bgImg}')`;
@@ -806,55 +807,55 @@ const app = {
             // No specific image, check if we should show a pop-art background for the region
             const unitImages = {
                 // 世界地理
-                'gw_1': 'assets/images/geography/bg_world_pop_art_user.png',
-                'gw_2': 'assets/images/geography/bg_asia_pop_art_fixed_1771588437746.png',
-                'gw_3': 'assets/images/geography/bg_europe_pop_art_1771587959603.png',
-                'gw_4': 'assets/images/geography/bg_africa_pop_art_1771587978888.png',
-                'gw_5': 'assets/images/geography/bg_namerica_pop_art_1771587996226.png',
-                'gw_6': 'assets/images/geography/bg_samerica_pop_art_1771588031667.png',
-                'gw_7': 'assets/images/geography/bg_oceania_pop_art_1771588053777.png',
+                'gw_1': 'assets/images/geography/bg_world_pop_art_user.webp',
+                'gw_2': 'assets/images/geography/bg_asia_pop_art_fixed_1771588437746.webp',
+                'gw_3': 'assets/images/geography/bg_europe_pop_art_1771587959603.webp',
+                'gw_4': 'assets/images/geography/bg_africa_pop_art_1771587978888.webp',
+                'gw_5': 'assets/images/geography/bg_namerica_pop_art_1771587996226.webp',
+                'gw_6': 'assets/images/geography/bg_samerica_pop_art_1771588031667.webp',
+                'gw_7': 'assets/images/geography/bg_oceania_pop_art_1771588053777.webp',
                 
                 // 日本地理
-                'gj_1': 'assets/images/geography/japan_pop_art_bg.png',
-                'gj_2': 'assets/images/geography/japan_pop_art_bg.png',
-                'gj_3': 'images/geography/kyushu_region_1.png',
-                'gj_4': 'images/geography/chugoku_region_1.png',
-                'gj_5': 'images/geography/kinki_region_1.png',
-                'gj_6': 'images/geography/chubu_region_1.png',
-                'gj_7': 'images/geography/kanto_region.png',
-                'gj_8': 'images/geography/tohoku_region_1.png',
-                'gj_9': 'images/geography/hokkaido_region_1.png',
-                'gj_10': 'assets/images/geography/japan_pop_art_bg.png'
+                'gj_1': 'assets/images/geography/japan_pop_art_bg.webp',
+                'gj_2': 'assets/images/geography/japan_pop_art_bg.webp',
+                'gj_3': 'assets/images/geography/kyushu_region_1.webp',
+                'gj_4': 'assets/images/geography/chugoku_region_1.webp',
+                'gj_5': 'assets/images/geography/kinki_region_1.webp',
+                'gj_6': 'assets/images/geography/chubu_region_1.webp',
+                'gj_7': 'assets/images/geography/kanto_region.webp',
+                'gj_8': 'assets/images/geography/tohoku_region_1.webp',
+                'gj_9': 'assets/images/geography/hokkaido_region_1.webp',
+                'gj_10': 'assets/images/geography/japan_pop_art_bg.webp'
             };
 
             // Identify history era based on unit ID
             let historyBgPath = null;
             if (this.quizState.currentUnitId.startsWith('h_ancient')) {
-                historyBgPath = 'assets/images/history/bg_history_ancient.png';
+                historyBgPath = 'assets/images/history/bg_history_ancient.webp';
             } else if (this.quizState.currentUnitId.startsWith('h_medieval')) {
-                historyBgPath = 'assets/images/history/bg_history_medieval.png';
+                historyBgPath = 'assets/images/history/bg_history_medieval.webp';
             } else if (this.quizState.currentUnitId.startsWith('h_early_modern')) {
-                historyBgPath = 'assets/images/history/bg_history_early_modern.png';
+                historyBgPath = 'assets/images/history/bg_history_early_modern.webp';
             } else if (this.quizState.currentUnitId === 'h_modern_6' || this.quizState.currentUnitId === 'h_modern_7') {
                 // World War eras -> Blank World Map
-                historyBgPath = 'assets/images/geography/map_world_blank_pacific_1771577772064.png';
+                historyBgPath = 'assets/images/geography/map_world_blank_pacific_1771577772064.webp';
             } else if (this.quizState.currentUnitId.startsWith('h_contemporary')) {
                 // Contemporary
-                historyBgPath = 'assets/images/history/bg_history_modern_contemporary.png'; 
+                historyBgPath = 'assets/images/history/bg_history_modern_contemporary.webp'; 
             } else if (this.quizState.currentUnitId.startsWith('h_modern')) {
-                historyBgPath = 'assets/images/history/bg_history_modern.png';
+                historyBgPath = 'assets/images/history/bg_history_modern.webp';
             } else if (this.quizState.currentUnitId.startsWith('c_1')) {
-                historyBgPath = 'assets/images/civics/bg_civics_c1_constitution_1773718621685.png';
+                historyBgPath = 'assets/images/civics/bg_civics_c1_constitution_1773718621685.webp';
             } else if (this.quizState.currentUnitId.startsWith('c_2')) {
-                historyBgPath = 'assets/images/civics/bg_civics_c2_rights_1773718635969.png';
+                historyBgPath = 'assets/images/civics/bg_civics_c2_rights_1773718635969.webp';
             } else if (this.quizState.currentUnitId.startsWith('c_3')) {
-                historyBgPath = 'assets/images/civics/bg_civics_c3_politics_1773718649298.png';
+                historyBgPath = 'assets/images/civics/bg_civics_c3_politics_1773718649298.webp';
             } else if (this.quizState.currentUnitId.startsWith('c_4')) {
-                historyBgPath = 'assets/images/civics/bg_civics_c4_economy_1773718663293.png';
+                historyBgPath = 'assets/images/civics/bg_civics_c4_economy_1773718663293.webp';
             } else if (this.quizState.currentUnitId.startsWith('c_5')) {
-                historyBgPath = 'assets/images/civics/bg_civics_c5_international_1773718679700.png';
+                historyBgPath = 'assets/images/civics/bg_civics_c5_international_1773718679700.webp';
             } else if (this.quizState.currentUnitId.startsWith('cw_1')) {
-                historyBgPath = 'assets/images/civics/bg_civics_cw1_review_1773718693818.png';
+                historyBgPath = 'assets/images/civics/bg_civics_cw1_review_1773718693818.webp';
             }
 
             if (historyBgPath) {
@@ -934,7 +935,10 @@ const app = {
             text.style.color = '#3498db';
         }
 
-        let commentHTML = `<span style="display:block; font-weight:bold; color:#e74c3c; margin-bottom:10px; font-size: 1.4rem;">正解：${q.a}</span>${q.comment || ''}`;
+        const total = this.quizState.questions.length;
+        const current = this.quizState.currentIndex + 1;
+        let commentHTML = `<div style="text-align:center; font-weight:bold; color:#7f8c8d; margin-bottom:15px; font-size:1.2rem;">（ 全${total}問中 ${current}問目 ）</div>`;
+        commentHTML += `<span style="display:block; font-weight:bold; color:#e74c3c; margin-bottom:10px; font-size: 1.4rem;">正解：${q.a}</span>${q.comment || ''}`;
         
         if (q.aImg) {
             commentHTML += `<div style="text-align: center; margin-top: 15px;"><img src="${q.aImg}" style="max-width: 150px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Answer Image"></div>`;

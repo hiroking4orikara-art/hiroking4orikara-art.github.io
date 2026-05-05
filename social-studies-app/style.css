@@ -786,3 +786,34 @@ main {
 
 .stats-tab.tab-back { background-color: #95a5a6; color: #fff; }
 .stats-tab.tab-back:active { background-color: #7f8c8d; }
+
+
+/* Ticker character styles */
+.ticker-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 20px auto;
+    position: relative;
+    z-index: 10;
+}
+.ticker-char {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+.left-char {
+    margin-right: 15px;
+}
+.right-char {
+    margin-left: 15px;
+}
+.info-ticker-container {
+    background: #34495e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: inline-block;
+}
