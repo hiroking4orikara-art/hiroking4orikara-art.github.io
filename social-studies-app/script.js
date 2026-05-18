@@ -391,70 +391,70 @@ const app = {
     playVideo(unitId) {
         const videoLinks = {
             // Civics
-            'c_1_1': 'https://youtube.com/shorts/dDZDnKUlEJY',
-            'c_1_2': 'https://youtube.com/shorts/1S5ao04FTgw',
-            'c_2_1': 'https://youtube.com/shorts/11sqImBlLKM',
-            'c_2_2': 'https://youtube.com/shorts/68HaBq1Wi4I',
-            'c_3_1': 'https://youtube.com/shorts/5uubwz4ukRA',
-            'c_3_2': 'https://youtube.com/shorts/uYDqqhr9eng',
-            'c_4_1': 'https://youtube.com/shorts/sHT9uNcMBr4',
-            'c_4_2': 'https://youtube.com/shorts/PO28ZLqdCoM',
-            'c_5_1': 'https://youtube.com/shorts/70KWBgficH8',
-            'c_5_2': 'https://youtube.com/shorts/O6anPROrRQA',
+            'c_1_1': 'https://youtube.com/shorts/mv6NRddz8aE',
+            'c_1_2': 'https://youtube.com/shorts/-aWeNZzQG0E',
+            'c_2_1': 'https://youtube.com/shorts/rYs3VAWgqcc',
+            'c_2_2': 'https://youtube.com/shorts/Xq26nXQCmf4',
+            'c_3_1': 'https://youtube.com/shorts/0D-39_pxJVo',
+            'c_3_2': 'https://youtube.com/shorts/pbtVMJ5udW4',
+            'c_4_1': 'https://youtube.com/shorts/bYDAHaAK8I8',
+            'c_4_2': 'https://youtube.com/shorts/Vh8IfP0fIRU',
+            'c_5_1': 'https://youtube.com/shorts/uafRZ83kqGM',
+            'c_5_2': 'https://youtube.com/shorts/ErgLIIALYQM',
             
             // History - Ancient
-            'h_ancient_1': 'https://youtube.com/shorts/V4oipvVsUDk',
-            'h_ancient_2': 'https://youtube.com/shorts/HkRtHKKgiZg',
-            'h_ancient_3': 'https://youtube.com/shorts/dF5vsGpUxvY',
-            'h_ancient_4': 'https://youtube.com/shorts/M11PMhXBgVg',
-            'h_ancient_5': 'https://youtube.com/shorts/nqRwXao66Ho',
-            'h_ancient_6': 'https://youtube.com/shorts/lfLBj8VNx1M',
-            'h_ancient_7': 'https://youtube.com/shorts/2Xvzd0pxfUo',
-            'h_ancient_8': 'https://youtube.com/shorts/Hs3VA7LWgqU',
-            'h_ancient_9': 'https://youtube.com/shorts/sf4RmK8kNYY',
+            'h_ancient_1': 'https://youtube.com/shorts/swHE8KMYipg',
+            'h_ancient_2': 'https://youtube.com/shorts/jUUsvfYzfgs',
+            'h_ancient_3': 'https://youtube.com/shorts/9UJanGwiugw',
+            'h_ancient_4': 'https://youtube.com/shorts/sWLIiA09yZs',
+            'h_ancient_5': 'https://youtube.com/shorts/tvB5RZ8LTsA',
+            'h_ancient_6': 'https://youtube.com/shorts/N_n4TF02d9s',
+            'h_ancient_7': 'https://youtube.com/shorts/VA3oglt5rLY',
+            'h_ancient_8': 'https://youtube.com/shorts/kbWhbG3Xy3M',
+            'h_ancient_9': 'https://youtube.com/shorts/ZBtMPvCj_B0',
 
             // History - Medieval
-            'h_medieval_1': 'https://youtube.com/shorts/mPOe5V03jyA',
-            'h_medieval_2': 'https://youtube.com/shorts/jRMtYjUlCfA',
-            'h_medieval_3': 'https://youtube.com/shorts/I5VD_LR5vdQ',
-            'h_medieval_4': 'https://youtube.com/shorts/Xtf4jD6QaY0',
-            'h_medieval_5': 'https://youtube.com/shorts/xKJYyZZMVtg',
-            'h_medieval_6': 'https://youtube.com/shorts/MhOz0BMG_Gw',
-            'h_medieval_7': 'https://youtube.com/shorts/7UrV3dlMJr8',
+            'h_medieval_1': 'https://youtube.com/shorts/pv6EdhoeSNw',
+            'h_medieval_2': 'https://youtube.com/shorts/Ydv_XkzS_o0',
+            'h_medieval_3': 'https://youtube.com/shorts/dx2yQsuqTuY',
+            'h_medieval_4': 'https://youtube.com/shorts/O5IW7lnELHY',
+            'h_medieval_5': 'https://youtube.com/shorts/4kg6ok3E0X0',
+            'h_medieval_6': 'https://youtube.com/shorts/1aYnN9LrBPc',
+            'h_medieval_7': 'https://youtube.com/shorts/Pk2engRvsUU',
 
             // History - Early Modern
-            'h_early_modern_1': 'https://youtube.com/shorts/5BaTY_zZ0RU',
-            'h_early_modern_2': 'https://youtube.com/shorts/JApYqNd5gLY',
-            'h_early_modern_3': 'https://youtube.com/shorts/KJ8Jfri4PSo',
-            'h_early_modern_4': 'https://youtube.com/shorts/jIQtZ8i1wYg',
-            'h_early_modern_5': 'https://youtube.com/shorts/PJtI2SJonew',
-            'h_early_modern_6': 'https://youtube.com/shorts/aisgJURaxNM',
-            'h_early_modern_7': 'https://youtube.com/shorts/Q8RRGEhGxoQ',
+            'h_early_modern_1': 'https://youtube.com/shorts/ng-1YQIob1w',
+            'h_early_modern_2': 'https://youtube.com/shorts/xk_es3iJgVc',
+            'h_early_modern_3': 'https://youtube.com/shorts/Icb-w3bPZak',
+            'h_early_modern_4': 'https://youtube.com/shorts/H1RnaJ_fcLs',
+            'h_early_modern_5': 'https://youtube.com/shorts/AeNRYL0R7qc',
+            'h_early_modern_6': 'https://youtube.com/shorts/n2RmbnIE0bw',
+            'h_early_modern_7': 'https://youtube.com/shorts/ijwoO1oLy30',
 
             // History - Modern
-            'h_modern_1': 'https://youtube.com/shorts/ywDAbpSZWAM',
-            'h_modern_2': 'https://youtube.com/shorts/gtk_blVVQn4',
-            'h_modern_3': 'https://youtube.com/shorts/ox1qmErTHHA',
-            'h_modern_4': 'https://youtube.com/shorts/QWOmhwwdJr4',
-            'h_modern_5': 'https://youtube.com/shorts/Ukr70_keFCg',
-            'h_modern_6': 'https://youtube.com/shorts/UFkO6Pwa4wc',
-            'h_modern_7': 'https://youtube.com/shorts/Ju0v2QxcF4Q',
+            'h_modern_1': 'https://youtube.com/shorts/lEfPTL6-ovY',
+            'h_modern_2': 'https://youtube.com/shorts/82NNn_9_sKM',
+            'h_modern_3': 'https://youtube.com/shorts/EeveGbadVlU',
+            'h_modern_4': 'https://youtube.com/shorts/j1GtZXjokd8',
+            'h_modern_5': 'https://youtube.com/shorts/mmwYBEPfj6I',
+            'h_modern_6': 'https://youtube.com/shorts/Z_FSkf4-j_E',
+            'h_modern_7': 'https://youtube.com/shorts/fO1KqvErtQc',
 
             // History - Contemporary
-            'h_contemporary_1': 'https://youtube.com/shorts/emOcWNnN_5s',
-            'h_contemporary_2': 'https://youtube.com/shorts/vc6scPWbOWc',
-            'h_contemporary_3': 'https://youtube.com/shorts/Hx_TeU111tI',
-            'h_contemporary_4': 'https://youtube.com/shorts/aBmZf17Oj98',
-            'h_contemporary_5': 'https://youtube.com/shorts/eJq5Nbs67JA',
+            'h_contemporary_1': 'https://youtube.com/shorts/-idyT70glE8',
+            'h_contemporary_2': 'https://youtube.com/shorts/1Tow1yZSg2s',
+            'h_contemporary_3': 'https://youtube.com/shorts/KB82wcWBp4Y',
+            'h_contemporary_4': 'https://youtube.com/shorts/hD3Nsg682Zw',
+            'h_contemporary_5': 'https://youtube.com/shorts/ueK7Gn0szUc',
 
             // World Geography
-            'gw_1': 'https://youtube.com/shorts/BVsG_BA5Am4',
-            'gw_2': 'https://youtube.com/shorts/3oU06EJ2Bis',
-            'gw_3': 'https://youtube.com/shorts/IjwQJRYnas4',
-            'gw_4': 'https://youtube.com/shorts/BSaDIpMjQoM',
-            'gw_5': 'https://youtube.com/shorts/JF12FtC67_g',
-            'gw_6': 'https://youtube.com/shorts/zWWnFUECWRY',
-            'gw_7': 'https://youtube.com/shorts/LsEnOJ5jz_0',
+            'gw_1': 'https://youtube.com/shorts/_6jtqQp63UU',
+            'gw_2': 'https://youtube.com/shorts/W3E_jO3aIoE',
+            'gw_3': 'https://youtube.com/shorts/9P6OLCaRmXM',
+            'gw_4': 'https://youtube.com/shorts/5gchl9n3abc',
+            'gw_5': 'https://youtube.com/shorts/8edpmoxzlIU',
+            'gw_6': 'https://youtube.com/shorts/rFHQJy_rnxk',
+            'gw_7': 'https://youtube.com/shorts/Cj7aPdsPmwE',
             // Health & PE - Practical (Ball games)
             'ph_basketball': 'https://youtube.com/shorts/placeholder_basketball_handball',
             'ph_handball': 'https://youtube.com/shorts/placeholder_basketball_handball',
@@ -466,16 +466,16 @@ const app = {
             'ph_volleyball': 'https://youtube.com/shorts/placeholder_basketball_handball',
 
             // Japan Geography
-            'gj_1': 'https://youtube.com/shorts/ey6-vUzfoIM',
-            'gj_2': 'https://youtube.com/shorts/Q63UoXACqlU',
-            'gj_3': 'https://youtube.com/shorts/bVRBkhuJG2I',
-            'gj_4': 'https://youtube.com/shorts/I4ghzum_-tM',
-            'gj_5': 'https://youtube.com/shorts/mDFZpSQOGWg',
-            'gj_6': 'https://youtube.com/shorts/DyP_acwvPBw',
-            'gj_7': 'https://youtube.com/shorts/B1kROd84ACA',
-            'gj_8': 'https://youtube.com/shorts/4vuygkAtAbE',
-            'gj_9': 'https://youtube.com/shorts/b7TFLvWmUn8',
-            'gj_10': 'https://youtube.com/shorts/9t6uhSpsB90'
+            'gj_1': 'https://youtube.com/shorts/wRAmvpS4i-Y',
+            'gj_2': 'https://youtube.com/shorts/hcXIccyVMZ4',
+            'gj_3': 'https://youtube.com/shorts/9HirXvQ1ZYA',
+            'gj_4': 'https://youtube.com/shorts/g1ikfWvWQJU',
+            'gj_5': 'https://youtube.com/shorts/j8KI1TG9cGc',
+            'gj_6': 'https://youtube.com/shorts/MaaHaBGTLlE',
+            'gj_7': 'https://youtube.com/shorts/YrDzVRSiL_E',
+            'gj_8': 'https://youtube.com/shorts/Q9lpAyBiQ20',
+            'gj_9': 'https://youtube.com/shorts/WqA_wx08eY4',
+            'gj_10': 'https://youtube.com/shorts/GwARsFT9KII'
         };
 
         if (videoLinks[unitId]) {
@@ -817,13 +817,13 @@ const app = {
                 // 日本地理
                 'gj_1': 'assets/images/geography/japan_pop_art_bg.webp',
                 'gj_2': 'assets/images/geography/japan_pop_art_bg.webp',
-                'gj_3': 'assets/images/geography/kyushu_region_1.webp',
-                'gj_4': 'assets/images/geography/chugoku_region_1.webp',
-                'gj_5': 'assets/images/geography/kinki_region_1.webp',
-                'gj_6': 'assets/images/geography/chubu_region_1.webp',
-                'gj_7': 'assets/images/geography/kanto_region.webp',
-                'gj_8': 'assets/images/geography/tohoku_region_1.webp',
-                'gj_9': 'assets/images/geography/hokkaido_region_1.webp',
+                'gj_3': 'images/geography/kyushu_region_1.webp',
+                'gj_4': 'images/geography/chugoku_region_1.webp',
+                'gj_5': 'images/geography/kinki_region_1.webp',
+                'gj_6': 'images/geography/chubu_region_1.webp',
+                'gj_7': 'images/geography/kanto_region.webp',
+                'gj_8': 'images/geography/tohoku_region_1.webp',
+                'gj_9': 'images/geography/hokkaido_region_1.webp',
                 'gj_10': 'assets/images/geography/japan_pop_art_bg.webp'
             };
 
@@ -934,10 +934,7 @@ const app = {
             text.style.color = '#3498db';
         }
 
-        const total = this.quizState.questions.length;
-        const current = this.quizState.currentIndex + 1;
-        let commentHTML = `<div style="text-align:center; font-weight:bold; color:#7f8c8d; margin-bottom:15px; font-size:1.2rem;">（ 全${total}問中 ${current}問目 ）</div>`;
-        commentHTML += `<span style="display:block; font-weight:bold; color:#e74c3c; margin-bottom:10px; font-size: 1.4rem;">正解：${q.a}</span>${q.comment || ''}`;
+        let commentHTML = `<span style="display:block; font-weight:bold; color:#e74c3c; margin-bottom:10px; font-size: 1.4rem;">正解：${q.a}</span>${q.comment || ''}`;
         
         if (q.aImg) {
             commentHTML += `<div style="text-align: center; margin-top: 15px;"><img src="${q.aImg}" style="max-width: 150px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Answer Image"></div>`;
