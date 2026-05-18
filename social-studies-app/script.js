@@ -389,7 +389,7 @@ const app = {
     },
 
     playVideo(unitId) {
-        const videoLinks = {
+                        const videoLinks = {
             // Civics
             'c_1_1': 'https://youtube.com/shorts/mv6NRddz8aE',
             'c_1_2': 'https://youtube.com/shorts/-aWeNZzQG0E',
@@ -455,6 +455,7 @@ const app = {
             'gw_5': 'https://youtube.com/shorts/8edpmoxzlIU',
             'gw_6': 'https://youtube.com/shorts/rFHQJy_rnxk',
             'gw_7': 'https://youtube.com/shorts/Cj7aPdsPmwE',
+            
             // Health & PE - Practical (Ball games)
             'ph_basketball': 'https://youtube.com/shorts/placeholder_basketball_handball',
             'ph_handball': 'https://youtube.com/shorts/placeholder_basketball_handball',
