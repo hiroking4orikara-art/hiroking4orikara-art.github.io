@@ -479,7 +479,7 @@ const app = {
         };
 
         if (videoLinks[unitId]) {
-            window.open(videoLinks[unitId], '_blank');
+            window.open(videoLinks[unitId], '_system');
         } else {
             alert("この単元の動画は現在準備中です。");
         }
