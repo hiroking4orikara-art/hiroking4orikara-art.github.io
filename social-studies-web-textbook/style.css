@@ -9,6 +9,12 @@
     --border-radius: 12px;
     --box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
     --border-color: #BDC3C7;
+    
+    /* 分野別テーマカラー */
+    --color-history: #E67E22;       /* 歴史：温かみのあるオレンジ */
+    --color-world-geo: #2980B9;     /* 世界地理：知的なブルー */
+    --color-japan-geo: #27AE60;     /* 日本地理：豊かなグリーン */
+    --color-civics: #8E44AD;        /* 公民：厳格なパープル */
 }
 
 * {
@@ -31,7 +37,7 @@ body {
 header {
     background-color: var(--textbook-primary);
     color: var(--white);
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     position: relative;
@@ -72,6 +78,16 @@ header p {
     background: rgba(255,255,255,0.2);
 }
 
+@media (max-width: 768px) {
+    header {
+        padding-top: 4rem; /* 戻るボタン用のスペースを確保 */
+    }
+    .back-link {
+        top: 1.5rem;
+        transform: none;
+    }
+}
+
 /* メインコンテナ */
 main {
     flex: 1;
@@ -81,7 +97,142 @@ main {
     padding: 2rem 1.2rem;
 }
 
-/* 教科書目次カード */
+/* 教科書が並んでいる感じ（本棚・グリッド） */
+.shelf-container {
+    margin-top: 2rem;
+}
+
+.shelf-title {
+    font-size: 1.4rem;
+    color: var(--textbook-primary);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--textbook-primary);
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.subject-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 600px) {
+    .subject-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* 本（教科書）を模した立体的なカードデザイン */
+.book-card {
+    background: var(--white);
+    border-radius: 4px 12px 12px 4px; /* 右角を丸く、本らしく */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08), -2px 0 5px rgba(0, 0, 0, 0.05);
+    padding: 2rem 1.5rem 2rem 2.5rem; /* 左側（背表紙側）の余白を広めに */
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s;
+    overflow: hidden;
+}
+
+/* 本の「背表紙（とじしろ）」を表現するグラデーションライン */
+.book-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 4px 0 0 4px;
+    box-shadow: inset -3px 0 5px rgba(0,0,0,0.15);
+}
+
+/* 本の「背のカラーバー」 */
+.book-card::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    opacity: 0.8;
+}
+
+.book-card:hover {
+    transform: translateY(-8px) rotate(1deg);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.12), -2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* 各テーマごとの「とじしろ」カラーバー設定 */
+.theme-history::after { background-color: var(--color-history); }
+.theme-world-geo::after { background-color: var(--color-world-geo); }
+.theme-japan-geo::after { background-color: var(--color-japan-geo); }
+.theme-civics::after { background-color: var(--color-civics); }
+
+.book-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.theme-history h3 { color: var(--color-history); }
+.theme-world-geo h3 { color: var(--color-world-geo); }
+.theme-japan-geo h3 { color: var(--color-japan-geo); }
+.theme-civics h3 { color: var(--color-civics); }
+
+.book-card p {
+    font-size: 0.9rem;
+    color: var(--textbook-light);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.book-card .book-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.theme-history .book-footer { color: var(--color-history); }
+.theme-world-geo .book-footer { color: var(--color-world-geo); }
+.theme-japan-geo .book-footer { color: var(--color-japan-geo); }
+.theme-civics .book-footer { color: var(--color-civics); }
+
+/* 準備中のカード（グレーアウト） */
+.book-card.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    pointer-events: none; /* クリック不可 */
+}
+
+.book-card.disabled:hover {
+    transform: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.book-card.disabled::after {
+    background-color: #95A5A6;
+}
+
+.book-card.disabled h3 {
+    color: #7F8C8D;
+}
+
+
+/* === 単元一覧（目次）カード === */
 .textbook-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -136,7 +287,7 @@ main {
     color: var(--textbook-accent);
 }
 
-/* 記事コンテンツ */
+/* === 記事（コラム）コンテンツ === */
 article {
     background: var(--white);
     padding: 2.5rem 1.5rem;
