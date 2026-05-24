@@ -249,19 +249,21 @@ main {
 .unit-card {
     background: var(--white);
     border-radius: var(--border-radius);
+    border: 2px solid #ECEFF1; /* 四方にしっかりとした枠線を追加 */
     box-shadow: var(--box-shadow);
     padding: 1.5rem;
-    border-top: 4px solid var(--textbook-accent);
+    border-top: 5px solid var(--textbook-accent); /* 上部は少し太めに */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
     text-decoration: none;
     color: inherit;
 }
 
 .unit-card:hover {
     transform: translateY(-4px);
+    border-color: var(--textbook-accent); /* ホバー時に枠線がテーマカラーに光る */
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
 }
 
@@ -285,6 +287,20 @@ main {
     font-size: 0.85rem;
     font-weight: bold;
     color: var(--textbook-accent);
+}
+
+/* 準備中の単元カード（グレーアウト） */
+.unit-card.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    border-top-color: #BDC3C7;
+    pointer-events: none; /* クリック不可 */
+}
+
+.unit-card.disabled:hover {
+    transform: none;
+    border-color: #ECEFF1;
+    box-shadow: var(--box-shadow);
 }
 
 /* === 記事（コラム）コンテンツ === */
