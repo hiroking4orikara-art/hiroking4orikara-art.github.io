@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="中学歴史の単元一覧ページです。各単元の学習コラム（文明の起こり、文明と東アジアなど）を分かりやすい図解付きで公開中。定期テスト対策や高校受験の勉強に最適です。">
-    <title>中学歴史 単元一覧 | 社会のweb教科書</title>
+    <meta name="description" content="中学歴史の時代別目次ページです。古代・中世・近世・近代・現代の各時代を、分かりやすいコラムと豊富な図解で解説します。定期テスト対策や高校受験の勉強に最適です。">
+    <title>中学歴史 時代選択 | 社会のweb教科書</title>
     <link rel="stylesheet" href="style.css?v=3">
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -19,125 +19,66 @@
     </header>
 
     <main>
-        <section>
-            <h2 style="font-size: 1.4rem; color: #E67E22; margin-bottom: 1.5rem; border-bottom: 2px solid #E67E22; padding-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-                <i class="fas fa-scroll"></i> 歴史・古代の単元一覧
-            </h2>
+        <section class="shelf-container">
+            <h2 class="shelf-title"><i class="fas fa-book-open"></i> 時代を選択してください</h2>
             
-            <div class="textbook-grid">
-                <!-- 歴史：文明の起こり（公開中） -->
-                <a href="history_ancient_1.html" class="unit-card" style="border-top-color: #E67E22;">
+            <div class="subject-grid">
+                <!-- 古代（公開中） -->
+                <a href="history_ancient.html" class="book-card theme-history">
                     <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第1単元）</span>
-                        <h3>1. 文明の起こり</h3>
-                        <p>人類の誕生から進化、そして世界の四大文明（エジプト・メソポタミア・インダス・中国）の成立と発展のポイントを解説します。</p>
+                        <h3><i class="fas fa-scroll"></i> 1. 古代</h3>
+                        <p>人類の誕生から世界の四大文明の成立、飛鳥・奈良・平安時代までの日本の国家形成と貴族政治の繁栄までを整理します。</p>
                     </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
+                    <div class="book-footer">
+                        <span>目次を開く</span>
                         <span>➔</span>
                     </div>
                 </a>
 
-                <!-- 歴史：文明と東アジア（公開中） -->
-                <a href="history_ancient_2.html" class="unit-card" style="border-top-color: #E67E22;">
+                <!-- 中世（公開中） -->
+                <a href="history_medieval.html" class="book-card theme-history">
                     <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第2単元）</span>
-                        <h3>2. 文明と東アジア</h3>
-                        <p>中国を統一した秦・漢帝国やシルクロード、朝鮮半島の三国（高句麗・百済・新羅）、そして金印や卑弥呼などの古代日本の関わりを解説します。</p>
+                        <h3><i class="fas fa-shield-halved"></i> 2. 中世</h3>
+                        <p>武士の台頭から鎌倉幕府・室町幕府の成立と東アジア交流、そして民衆の成長と群雄割拠する戦国時代までの激動の歴史を整理します。</p>
                     </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
+                    <div class="book-footer">
+                        <span>目次を開く</span>
                         <span>➔</span>
                     </div>
                 </a>
 
-                <!-- 歴史：縄文・弥生文化（公開中） -->
-                <a href="history_ancient_3.html" class="unit-card" style="border-top-color: #E67E22;">
+                <!-- 近世（公開中） -->
+                <a href="history_early_modern.html" class="book-card theme-history">
                     <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第3単元）</span>
-                        <h3>3. 縄文・弥生文化</h3>
-                        <p>縄文土器とたて穴住居での豊かな採集生活から、米作りが始まり金属器が伝わった弥生時代の暮らしの変化について解説します。</p>
+                        <h3><i class="fas fa-compass"></i> 3. 近世</h3>
+                        <p>織田信長・豊臣秀吉による天下統一から、徳川家康が開いた江戸幕府の仕組み、鎖国と四つの窓口、そして幕末の動乱を整理します。</p>
                     </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
+                    <div class="book-footer">
+                        <span>目次を開く</span>
                         <span>➔</span>
                     </div>
                 </a>
 
-                <!-- 歴史：国の誕生と古墳文化（公開中） -->
-                <a href="history_ancient_4.html" class="unit-card" style="border-top-color: #E67E22;">
+                <!-- 近代（公開中） -->
+                <a href="history_modern.html" class="book-card theme-history">
                     <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第4単元）</span>
-                        <h3>4. 国の誕生と古墳文化</h3>
-                        <p>邪馬台国後のヤマト政権の誕生や、各地に築かれた前方後円墳などの巨大古墳と当時の社会、朝鮮半島からの渡来人の影響を整理します。</p>
+                        <h3><i class="fas fa-landmark"></i> 4. 近代</h3>
+                        <p>明治維新による国家の近代化、大日本帝国憲法、日清・日露戦争、大正デモクラシーから、世界恐慌と第二次世界大戦までを整理します。</p>
                     </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
+                    <div class="book-footer">
+                        <span>目次を開く</span>
                         <span>➔</span>
                     </div>
                 </a>
 
-                <!-- 歴史：大王の時代（公開中） -->
-                <a href="history_ancient_5.html" class="unit-card" style="border-top-color: #E67E22;">
+                <!-- 現代（公開中） -->
+                <a href="history_contemporary.html" class="book-card theme-history">
                     <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第5単元）</span>
-                        <h3>5. 大王の時代</h3>
-                        <p>推古天皇の摂政となった聖徳太子の改革（冠位十二階・十七条の憲法）や遣隋使・小野妹子の派遣、法隆寺に代表される日本初の仏教文化である飛鳥文化を解説します。</p>
+                        <h3><i class="fas fa-building-flag"></i> 5. 現代</h3>
+                        <p>第二次世界大戦後の日本の戦後復興、高度経済成長、冷戦体制と国際社会、そして私たちの生きる現代社会の歩みを整理します。</p>
                     </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
-                        <span>➔</span>
-                    </div>
-                </a>
-
-                <!-- 歴史：律令国家の形成（公開中） -->
-                <a href="history_ancient_6.html" class="unit-card" style="border-top-color: #E67E22;">
-                    <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第6単元）</span>
-                        <h3>6. 律令国家の形成</h3>
-                        <p>蘇我氏を倒した大化の改新から、白村江の戦い、壬申の乱、大宝律令の制定（律令国家の完成）、そして口分田と租・調・庸などの税の仕組みを詳しく解説します。</p>
-                    </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
-                        <span>➔</span>
-                    </div>
-                </a>
-
-                <!-- 歴史：平城京の生活と文化（公開中） -->
-                <a href="history_ancient_7.html" class="unit-card" style="border-top-color: #E67E22;">
-                    <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第7単元）</span>
-                        <h3>7. 平城京の生活と文化</h3>
-                        <p>710年の平城京への遷都、唐の長安を模した都の様子、木簡による役人の仕事、農民の困窮（逃散・貧窮問答歌）や、記紀（古事記・日本書紀）、風土記、万葉集の誕生について解説します。</p>
-                    </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
-                        <span>➔</span>
-                    </div>
-                </a>
-
-                <!-- 歴史：奈良時代と仏教の政治（公開中） -->
-                <a href="history_ancient_8.html" class="unit-card" style="border-top-color: #E67E22;">
-                    <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第8単元）</span>
-                        <h3>8. 奈良時代と仏教の政治</h3>
-                        <p>聖武天皇による鎮護国家の政治、東大寺大仏や国分寺の造立、行基や鑑真の活躍、そして公地公民の崩壊へとつながる墾田永年私財法の制定と荘園の発生について解説します。</p>
-                    </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
-                        <span>➔</span>
-                    </div>
-                </a>
-
-                <!-- 歴史：平安京の遷都と摂関政治（公開中） -->
-                <a href="history_ancient_9.html" class="unit-card" style="border-top-color: #E67E22;">
-                    <div>
-                        <span style="display:inline-block; background-color:#FFE0B2; color:#E67E22; padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-bottom:0.5rem;">歴史・古代（第9単元）</span>
-                        <h3>9. 平安京の遷都と摂関政治</h3>
-                        <p>794年の平安京遷都と坂上田村麻呂の派遣、遣唐使の廃止、藤原氏による摂関政治の栄華、そしてかな文字の誕生や源氏物語・平等院鳳凰堂に代表される国風文化を解説します。</p>
-                    </div>
-                    <div class="card-footer" style="color: #E67E22;">
-                        <span>読む（学習を始める）</span>
+                    <div class="book-footer">
+                        <span>目次を開く</span>
                         <span>➔</span>
                     </div>
                 </a>
