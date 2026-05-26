@@ -55,12 +55,12 @@ header p {
     opacity: 0.8;
 }
 
-/* 戻るボタン */
+/* 戻るボタン - スクロール追従（固定）・オレンジベース */
 .back-link {
-    position: absolute;
+    position: fixed;
     left: 1.5rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 1.5rem;
+    z-index: 1000;
     color: var(--white);
     text-decoration: none;
     font-size: 0.9rem;
@@ -68,23 +68,30 @@ header p {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background: rgba(255,255,255,0.1);
-    padding: 0.5rem 1rem;
+    background: #E67E22; /* オレンジベース */
+    border: 2px solid var(--white);
+    padding: 0.6rem 1.2rem;
     border-radius: 20px;
-    transition: background 0.2s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: background 0.2s, transform 0.2s;
 }
 
 .back-link:hover {
-    background: rgba(255,255,255,0.2);
+    background: #D35400; /* ホバー時に少し暗く */
+    transform: scale(1.05);
+    color: var(--white);
 }
 
 @media (max-width: 768px) {
     header {
-        padding-top: 4rem; /* 戻るボタン用のスペースを確保 */
+        padding-top: 4.5rem; /* モバイルでの余白を十分に確保 */
     }
     .back-link {
-        top: 1.5rem;
-        transform: none;
+        left: 0.75rem;
+        top: 0.75rem;
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
 }
 
@@ -460,10 +467,13 @@ article h3 {
     text-align: center;
 }
 
-/* ページネーション（次へ進む） */
+/* ページネーション（戻る / 次へ進む） */
 .article-navigation {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
     margin-top: 3rem;
 }
 
@@ -486,6 +496,17 @@ article h3 {
 
 .btn-next:active {
     transform: scale(0.98);
+}
+
+@media (max-width: 480px) {
+    .article-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .article-navigation .btn-next {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* フッター */
