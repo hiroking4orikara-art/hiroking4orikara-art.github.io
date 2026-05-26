@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中学技術「情報の技術」の定期テスト対策まとめコラム。コンピュータの5大装置（CPU・メモリ）、LANとプロトコル、IPアドレス、プログラムの基本構造（順次・分岐・反復）、情報セキュリティ、知的財産権、計測・制御を解説。">
+    <title>技術 単元4 情報の技術 要点解説コラム | 副教科のweb教科書</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --textbook-accent: #E67E22; /* 技術家庭のテーマカラー：オレンジ */
+        }
+        .article-category {
+            background-color: #FFF3E0;
+            color: var(--textbook-accent);
+        }
+        .btn-next {
+            background-color: var(--textbook-accent);
+            box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3);
+        }
+        .btn-next:hover {
+            background-color: #D35400;
+        }
+        .image-flex {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+        .image-flex .illustration {
+            margin: 0;
+            flex: 1;
+            min-width: 180px;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #E67E22;">
+        <a href="tech_home.html" class="back-link">
+            <span><i class="fas fa-arrow-left"></i> 目次へ戻る</span>
+        </a>
+        <h1>副教科 the Web教科書</h1>
+        <p>中学技術・家庭 | 定期テスト対策の要点整理</p>
+    </header>
+
+    <main>
+        <article>
+            <div class="article-header">
+                <span class="article-category">中学技術（情報の技術）</span>
+                <h1 class="article-title">単元4: 情報の技術</h1>
+            </div>
+
+            <p>現代の生活に欠かせない「情報の技術」について整理します。コンピュータの仕組み（5大装置）、ネットワークの基本（IPアドレスやプロトコル）、プログラムの基本処理構造、セキュリティ対策、知的財産権、そして自動運転やエアコン等に使われる「計測・制御システム」の要点をマスターしましょう！</p>
+
+            <h2>1. コンピュータの構成と情報の表し方</h2>
+            <p>ハードウェアとソフトウェアが連携してコンピュータは動きます。</p>
+            
+            <h3>① コンピュータの5大装置とCPU</h3>
+            <ul>
+                <li><strong>ハードウェア</strong>：PC本体や周辺機器などの物理的な機器。</li>
+                <li><strong>ソフトウェア</strong>：OSやアプリなどのプログラム。</li>
+                <li><strong>5大装置</strong>：コンピュータを構成する5つの基本装置。
+                    <ul>
+                        <li><strong>入力装置</strong>：キーボード、マウス、マイクなど。<span class="marker-orange">外部から情報を読み取る</span>装置。</li>
+                        <li><strong>出力装置</strong>：ディスプレイ、プリンタ、スピーカーなど。</li>
+                        <li><strong>記憶装置</strong>：メインメモリ（主記憶）、ハードディスクやSSD（補助記憶）など。<span class="marker-yellow">データを保存しておく</span>装置。</li>
+                        <li><strong>演算装置</strong>：データの計算や処理を行う装置。</li>
+                        <li><strong>制御装置</strong>：各装置へ指示を出し、動作をコントロールする装置。</li>
+                    </ul>
+                </li>
+                <li><strong>CPU（中央処理装置）</strong>：<span class="marker-orange">制御装置と演算装置を一体化した</span>コンピュータの「頭脳」にあたるLSIチップ。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_3.jpg" alt="ハードウェア">
+                    <p class="illustration-caption">目に見える機器「ハードウェア」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_5.jpg" alt="CPU">
+                    <p class="illustration-caption">演算と制御を行う「CPU」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_6.jpg" alt="記憶装置">
+                    <p class="illustration-caption">データを蓄える「記憶装置」</p>
+                </div>
+            </div>
+
+            <h3>② 情報の表し方と量</h3>
+            <ul>
+                <li><strong>アナログ情報</strong>：温度や音の大きさのように、<span class="marker-orange">切れ目のない連続的な量</span>で表される情報。</li>
+                <li><strong>デジタル情報</strong>：数字のように、0と1の組み合わせなど離散的な数値で表される情報。</li>
+                <li><strong>情報の単位</strong>：
+                    <ul>
+                        <li><strong>bit（ビット）</strong>：情報の最小単位（0か1かの1桁）。</li>
+                        <li><strong>Byte（バイト）</strong>：<span class="marker-orange">1B = 8bit</span>。</li>
+                        <li><strong>1KB（キロバイト）</strong>：<span class="marker-yellow">1024B</span>（※コンピュータが2進数で処理するため、1000ではなく1024倍になります）。</li>
+                    </ul>
+                </li>
+                <li><strong>解像度（かいぞうど）</strong>：画像のきめの細かさを表す数値。高いほど画像は細かく滑らかになります。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_1.jpg" alt="1B=8bit">
+                    <p class="illustration-caption">情報量の関係「1Byte ＝ 8bit」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_26.jpg" alt="アナログ情報">
+                    <p class="illustration-caption">切れ目のない連続的な「アナログ情報」</p>
+                </div>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>2. ネットワークとインターネット</h2>
+            
+            <h3>① ネットワークの基本用語</h3>
+            <ul>
+                <li><strong>LAN（ラン）</strong>：学校や家庭内など、<span class="marker-orange">限られた狭い範囲</span>で情報機器同士をつないだ高速ネットワーク。</li>
+                <li><strong>サーバ</strong>：ネットワーク上で他のPC（クライアント）へファイルなどのサービスを提供するコンピュータ。</li>
+                <li><strong>IPアドレス</strong>：インターネット上で、接続された情報機器1台1台に割り当てられる<span class="marker-orange">通信のための識別番号（住所）</span>。</li>
+                <li><strong>通信プロトコル</strong>：インターネット上でデータをやり取りするための<span class="marker-orange">約束事（共通ルール）</span>（例：TCP/IP）。</li>
+                <li><strong>URL</strong>：Webページのネット上の住所（https://...で始まる文字列）。</li>
+                <li><strong>ドメイン名</strong>：URLの中の「bunri.co.jp」などのように、IPアドレスに対応して付けられた人間が覚えやすい組織名等の名前。</li>
+                <li><strong>パケット通信</strong>：データを<span class="marker-orange">細かく分割（パケット＝小包）して送受信する</span>仕組み。回線を効率よく共有できます。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_8.jpg" alt="LAN">
+                    <p class="illustration-caption">狭い範囲をつなぐ「LAN（ラン）」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_10.jpg" alt="IPアドレス">
+                    <p class="illustration-caption">ネット上の住所にあたる「IPアドレス」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_31.jpg" alt="パケット通信">
+                    <p class="illustration-caption">データを細かく分ける「パケット通信」</p>
+                </div>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>3. プログラミングとアルゴリズム</h2>
+            
+            <h3>① 双方向性のあるコンテンツ</h3>
+            <ul>
+                <li><strong>双方向性（そうほうこうせい）</strong>：使用者の操作（入力）に応じて、表示が変わるなどの応答（出力）をするコンテンツ（例：オンラインチャット、学習アプリ）。</li>
+            </ul>
+
+            <h3>② アルゴリズム（考え方・手順）と3つの基本構造</h3>
+            <p>プログラムが情報を処理する手順や考え方を<strong>アルゴリズム</strong>といい、どんな複雑なプログラムも次の3つの基本構造の組み合わせで出来ています。</p>
+            <ul>
+                <li><strong>順次（じゅんじ）処理</strong>：上から下へ順番に処理する構造。</li>
+                <li><strong>分岐（ぶんき）処理</strong>：<span class="marker-orange">条件によって処理を分ける</span>構造（例：「もし〜ならA、そうでなければB」）。</li>
+                <li><strong>反復（はんぷく）処理</strong>：条件を満たすまで処理を<span class="marker-orange">繰り返す</span>構造。</li>
+                <li><strong>フローチャート（流れ図）</strong>：四角やひし形などの記号を矢印で結び、プログラムの流れを図式化したもの。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_40.jpg" alt="分岐処理">
+                    <p class="illustration-caption">条件で分ける「分岐処理」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_41.jpg" alt="反復処理">
+                    <p class="illustration-caption">同じ作業をループする「反復処理」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_42.jpg" alt="フローチャート">
+                    <p class="illustration-caption">ひし形などで条件を示す「フローチャート」</p>
+                </div>
+            </div>
+
+            <h3>③ 制作手順とデバッグ</h3>
+            <ul>
+                <li><strong>制作手順</strong>：問題の発見 ➔ 課題の設定 ➔ 解決策の構想 ➔ 設計・制作 ➔ <span class="marker-orange">評価</span> の順に進めます。</li>
+                <li><strong>デバッグ</strong>：プログラムの不具合（<strong>バグ</strong>）を発見し、<span class="marker-orange">修正する作業</span>。</li>
+            </ul>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>4. セキュリティと知的財産権</h2>
+            
+            <h3>① 情報セキュリティ対策</h3>
+            <ul>
+                <li><strong>認証システム</strong>：IDとパスワード、生体認証（指紋など）を用いて本人確認をし、不正アクセスを防ぐ仕組み。</li>
+                <li><strong>ファイアウォール（防火壁）</strong>：外部ネットワークからの不正な通信を監視・遮断するシステム。</li>
+                <li><strong>フィルタリング</strong>：有害なWebページや違法な情報の閲覧を制限する仕組み。</li>
+                <li><strong>暗号化（あんごうか）</strong>：通信中のデータを他人に読み取られないよう、規則的な文字や記号へ変換する技術。</li>
+                <li><strong>バックアップ</strong>：データの破損に備え、別の記憶装置にデータをコピーしておくこと。</li>
+                <li><strong>フィッシング詐欺</strong>：偽のメール等で本物のサイトになりすまし、パスワードなどの個人情報を盗む詐欺。</li>
+                <li><strong>情報モラル</strong>：情報社会で適切に活動するための基本的な考え方や態度。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_44.jpg" alt="ファイアウォール">
+                    <p class="illustration-caption">不正侵入を防ぐ「ファイアウォール」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_45.jpg" alt="フィルタリング">
+                    <p class="illustration-caption">有害サイトをブロックする「フィルタリング」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_46.jpg" alt="暗号化">
+                    <p class="illustration-caption">データを読み取れなくする「暗号化」</p>
+                </div>
+            </div>
+
+            <h3>② 知的財産権（ちてきざいさんけん）</h3>
+            <ul>
+                <li><strong>著作権（ちょさくけん）</strong>：小説・音楽・絵画・プログラムなど、創作した作品（著作物）を保護する権利。創作時に自動的に発生します。</li>
+                <li><strong>産業財産権（さんぎょうざいさんけん）</strong>：新しい発明（特許権）やデザイン（意匠権）、商品のマーク（商標権）などを保護する権利。特許庁への出願・登録が必要です。</li>
+            </ul>
+            <div class="illustration" style="max-width: 250px;">
+                <img src="../sub-subjects-app/assets/images/tech/th_merged_4_51.jpg" alt="著作権">
+                <p class="illustration-caption">コピーや無断転載を防ぐ「著作権」</p>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>5. 計測・制御システム</h2>
+            <p>身の回りの自動機器（エアコン、自動炊飯器など）は、以下の3つの要素で構成されています。</p>
+            <ul>
+                <li><strong>センサ</strong>：温度、明るさ、音などの周囲の状況を<span class="marker-orange">計測して電気信号にする</span>部品。</li>
+                <li><strong>アクチュエータ</strong>：モータを回したり、熱を出したりして、エネルギーを<span class="marker-orange">機械的な動き（仕事）に変換する</span>部品。</li>
+                <li><strong>インタフェース</strong>：アナログのセンサ信号とデジタルのコンピュータなど、性質の異なる機器間で<span class="marker-orange">情報のやり取りができるように仲介する（A/D変換等）</span>部分。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_60.jpg" alt="センサ">
+                    <p class="illustration-caption">状況を測る「センサ（エアコンの例）」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_61.jpg" alt="アクチュエータ">
+                    <p class="illustration-caption">命令を受けて動く「アクチュエータ」</p>
+                </div>
+                <div class="illustration">
+                    <img src="../sub-subjects-app/assets/images/tech/th_merged_4_62.jpg" alt="インタフェース">
+                    <p class="illustration-caption">橋渡しを行う「インタフェース」</p>
+                </div>
+            </div>
+
+            <div class="point-box">
+                <p style="font-weight: bold; color: #D35400; margin-bottom: 0.5rem; font-size: 1.1rem;">🔥 定期テスト対策・暗記のコツ</p>
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>① 5大装置とCPUの引っ掛け</strong><br>
+                「CPU」は制御装置と演算装置が一緒になったものです。記憶装置（メモリやHDD）はCPUには含まれません！この違いは非常によくテストに出ます。</p>
+                
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>② IPアドレス と 通信プロトコル</strong><br>
+                「<strong>IPアドレス</strong> ➔ ネットワーク上の<strong>住所（識別番号）</strong>」「<strong>通信プロトコル</strong> ➔ データの送受信における<strong>共通ルール（約束事）</strong>」。言葉の定義を正確に覚えておきましょう。</p>
+
+                <p style="font-size: 0.95rem;"><strong>③ 計測制御の「センサ」「アクチュエータ」</strong><br>
+                「センサ ➔ 情報を<strong>入力する</strong>（温度などを測る）」「アクチュエータ ➔ 情報を<strong>出力する（実際に動かす）</strong>」という関係をイメージしておくと、機器の分類問題も簡単に解けます！</p>
+            </div>
+
+            <!-- ナビゲーションブロック：update_navigation_buttons.pyによって自動書き換えされます -->
+            <div class="article-navigation">
+                <a href="tech_home.html" class="btn-next" style="background-color: #7F8C8D;">単元一覧へ戻る</a>
+                <a href="th_merged_5.html" class="btn-next">次の単元へ進む</a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="tech_home.html">技術家庭目次</a> |
+            <a href="index.html">目次トップ</a> |
+            <a href="../index.html">ホームへ戻る</a>
+        </div>
+        <p>&copy; 2026 雨川の旦那. All rights reserved.</p>
+    </footer>
+</body>
+</html>
