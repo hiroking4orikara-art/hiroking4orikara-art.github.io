@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中学音楽「音楽の知識①」の定期テスト対策まとめコラム。音符・休符の名称と長さ、長さの足し算・計算、音部記号・調号・拍子記号の定義、拍子（4/4、8/6、2/2）の意味、第1線、日本の音名（ハニホヘトイロ）を解説。">
+    <title>音楽 音楽の知識① 要点解説コラム | 副教科のweb教科書</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --textbook-accent: #d6ad00; /* 音楽のテーマカラー：黄色 */
+        }
+        .article-category {
+            background-color: #FFFDE7;
+            color: var(--textbook-accent);
+        }
+        .btn-next {
+            background-color: var(--textbook-accent);
+            box-shadow: 0 4px 10px rgba(214, 173, 0, 0.3);
+        }
+        .btn-next:hover {
+            background-color: #b59200;
+        }
+        .note-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .note-card {
+            background-color: #FAFAFA;
+            border: 1px solid #E0E0E0;
+            border-radius: 8px;
+            padding: 0.8rem;
+            text-align: center;
+        }
+        .note-card img {
+            max-width: 60px;
+            height: auto;
+            margin-bottom: 0.5rem;
+        }
+        .note-card div {
+            font-size: 0.95rem;
+            font-weight: bold;
+        }
+        .note-card span {
+            font-size: 0.8rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #f39c12;">
+        <a href="music.html" class="back-link">
+            <span><i class="fas fa-arrow-left"></i> 目次へ戻る</span>
+        </a>
+        <h1>副教科 the Web教科書</h1>
+        <p>中学音楽 | 定期テスト対策の要点整理</p>
+    </header>
+
+    <main>
+        <article>
+            <div class="article-header">
+                <span class="article-category">中学音楽（楽典）</span>
+                <h1 class="article-title">音楽の知識① (記号やリズム・音符と休符)</h1>
+            </div>
+
+            <p>楽譜を正しく読み取るための「楽典の超基本」を整理します。定期テストで確実に出題される音符・休符の形や名前、長さの計算問題、楽譜の最初に置かれる各種記号の意味、日本の音名（ハニホヘトイロ）をしっかりマスターしましょう！</p>
+
+            <h2>1. 音符と休符の基本</h2>
+            <p>音を出す長さを表す「音符」と、音を休む長さを表す「休符」の形と名称を一致させましょう。</p>
+            
+            <h3>① 音符の名称と形</h3>
+            <div class="note-grid">
+                <div class="note-card">
+                    <img src="../sub-subjects-app/assets/images/music/music_symbol_note_whole.jpg" alt="全音符">
+                    <div>全音符</div>
+                    <span>（白塗りの丸だけ）</span>
+                </div>
+                <div class="note-card">
+                    <img src="../sub-subjects-app/assets/images/music/music_symbol_note_half.jpg" alt="2分音符">
+                    <div>2分音符</div>
+                    <span>（白塗りの玉に棒）</span>
+                </div>
+                <div class="note-card">
+                    <img src="../sub-subjects-app/assets/images/music/music_symbol_note_quarter.jpg" alt="4分音符">
+                    <div>4分音符</div>
+                    <span>（黒塗りの玉に棒）</span>
+                </div>
+                <div class="note-card">
+                    <img src="../sub-subjects-app/assets/images/music/music_symbol_note_eighth.jpg" alt="8分音符">
+                    <div>8分音符</div>
+                    <span>（黒塗りの玉に旗1つ）</span>
+                </div>
+            </div>
+
+            <h3>② 休符の名称と形</h3>
+            <div class="note-grid">
+                <div class="note-card">
+                    <img src="../sub-subjects-app/assets/images/music/exp/exp_sym_rest_whole.jpg" alt="全休符">
+                    <div>全休符</div>
+                    <span>（第4線からぶら下がる）</span>
+                </div>
+                <div class="note-card">
+                    <!-- 2分休符はアセットにあるか不明だが、テキストと形状で補足 -->
+                    <div style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">𝄻</div>
+                    <div>2分休符</div>
+                    <span>（第3線の上に乗る）</span>
+                </div>
+                <div class="note-card">
+                    <div style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">𝄽</div>
+                    <div>4分休符</div>
+                    <span>（独特の折れ曲がった形）</span>
+                </div>
+                <div class="note-card">
+                    <div style="font-size: 2.5rem; line-height: 1; margin-bottom: 0.5rem;">𝄾</div>
+                    <div>8分休符</div>
+                    <span>（斜め線に玉が1つ）</span>
+                </div>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>2. 音符と休符の長さの計算（テスト必出！）</h2>
+            <p>音符や休符を足し合わせて、1つの音符・休符にまとめる計算問題です。基準となる長さを意識して暗記しましょう。</p>
+
+            <div class="vocab-card">
+                <ul style="margin: 0; padding-left: 1.2rem;">
+                    <li><strong>8分音符 ＋ 8分音符</strong> ➔ <span class="marker-yellow">4分音符</span> （0.5拍＋0.5拍＝1拍）</li>
+                    <li><strong>付点4分音符 ＋ 8分音符</strong> ➔ <span class="marker-orange">2分音符</span> （1.5拍＋0.5拍＝2拍）</li>
+                    <li><strong>2分音符 ＋ 2分音符</strong> ➔ <span class="marker-yellow">全音符</span> （2拍＋2拍＝4拍）</li>
+                    <li><strong>4分休符 ＋ 4分休符</strong> ➔ <span class="marker-orange">2分休符</span> （1拍＋1拍＝2拍休む）</li>
+                    <li><strong>8分休符 ＋ 8分休符</strong> ➔ <span class="marker-yellow">4分休符</span> （0.5拍＋0.5拍＝1拍休む）</li>
+                </ul>
+            </div>
+
+            <div class="vocab-card" style="margin-top: 1rem; background-color: #F5F5F5;">
+                <strong>💡 長さの個数換算</strong><br>
+                <ul>
+                    <li><span class="marker-orange">2分音符</span>は、8分音符<span class="marker-yellow">4個分</span>の長さに相当します。</li>
+                </ul>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>3. 楽譜の始まりの記号（三つの記号）</h2>
+            <p>五線譜の左端に並ぶ、曲の演奏条件を示す重要な3つの記号の定義です。</p>
+            <div class="illustration" style="margin: 1rem 0; text-align: left;">
+                <img src="../sub-subjects-app/assets/images/music/exp/exp_theory_staff.jpg" alt="五線" style="max-width: 250px; border-radius: 8px;">
+                <p class="illustration-caption">五線譜の左端には、音部記号、調号、拍子記号の順に並びます。</p>
+            </div>
+
+            <ul>
+                <li><strong>音部記号（おんぶきごう）</strong>：ト音記号やヘ音記号（<img src="../sub-subjects-app/assets/images/music/exp/exp_sym_f_clef.jpg" alt="ヘ音記号" style="height: 20px; vertical-align: middle;">）など、<span class="marker-orange">音域（音の高さの範囲）</span>を示すために五線の最初に書く記号。</li>
+                <li><strong>調号（ちょうごう）</strong>：♯（<img src="../sub-subjects-app/assets/images/music/exp/exp_sym_sharp.jpg" alt="シャープ" style="height: 16px; vertical-align: middle;">）や♭を使って、その曲の<span class="marker-orange">調（キー）</span>を表すために五線の最初に書く記号。</li>
+                <li><strong>拍子記号（ひょうしきごう）</strong>：数字の分数のように書いて、その曲の<span class="marker-orange">拍子（リズムのまとまり）</span>を表す記号。</li>
+            </ul>
+
+            <h3>① 拍子記号の分数の意味</h3>
+            <p>拍子記号に書かれた分数の上下の数字は、それぞれ以下の意味を持ちます（穴埋め頻出！）。</p>
+            <ul>
+                <li><strong>上の数字</strong> ➔ <span class="marker-yellow">1小節内の拍数</span> （何拍入るか）</li>
+                <li><strong>下の数字</strong> ➔ <span class="marker-yellow">1拍に数える音符の種類</span> （どの音符を基準にするか）</li>
+            </ul>
+
+            <h3>② 具体的な拍子の意味</h3>
+            <ul>
+                <li><strong>4分の4拍子</strong> ➔ <span class="marker-orange">4分音符を1拍として、1小節に4拍入る</span>拍子。</li>
+                <li><strong>8分の6拍子</strong> ➔ <span class="marker-orange">8分音符を1拍として、1小節に6拍入る</span>拍子。</li>
+                <li><strong>2分の2拍子</strong> ➔ <span class="marker-orange">2分音符を1拍として、1小節に2拍入る</span>拍子。</li>
+            </ul>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>4. 五線譜の構造と日本の音名</h2>
+            
+            <h3>① 五線譜の線と間の名前</h3>
+            <p>五線譜の5本の線は、下から順番に数えます。</p>
+            <ul>
+                <li>五線の5本の線のうち、<strong>一番下の線</strong>を<span class="marker-yellow">第1線（だいいっせん）</span>と呼びます。（一番上は「第5線」）</li>
+            </ul>
+
+            <h3>② 日本の音名（ドレミ ➔ ハニホヘトイロ）</h3>
+            <p>イタリア語の階名「ド・レ・ミ・ファ・ソ・ラ・シ」を、日本の伝統的な音名で表すと、いろは順に対応します。</p>
+            <div class="vocab-card" style="text-align: center; font-size: 1.1rem; font-weight: bold; letter-spacing: 2px;">
+                ド ➔ レ ➔ ミ ➔ ファ ➔ ソ ➔ ラ ➔ シ<br>
+                <span style="color: #E67E22;"><i class="fas fa-arrow-down" style="font-size: 0.9rem;"></i></span><br>
+                <span class="marker-yellow">ハ ➔ ニ ➔ ホ ➔ ヘ ➔ ト ➔ イ ➔ ロ</span>
+            </div>
+
+            <div class="point-box" style="background-color: #FFFDE7; border-color: #FFF59D; margin-top: 3rem;">
+                <p style="font-weight: bold; color: #d6ad00; margin-bottom: 0.5rem; font-size: 1.1rem;">🔥 定期テスト対策・暗記のコツ</p>
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>① 全休符と2分休符の見分け方</strong><br>
+                「<strong>全休符</strong>は第4線から<strong>ぶら下がる</strong>（下向きの帽子）」「<strong>2分休符</strong>は第3線の<strong>上に乗る</strong>（上向きの帽子）」です。線に対してどちらに付いているかでテストで引っかかりやすいので、必ず見分けられるようにしましょう。</p>
+                
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>② 拍子記号の分数の「上下」のひっかけ</strong><br>
+                テストでは「上が拍数」「下が基準音符」をあえて逆に記述させる選択肢が出ます。例えば、<strong>4分の3拍子</strong>の定義は「<strong>4分音符を基準（下）に、1小節に3拍（上）</strong>」と、頭の中で分数の上下を逆から訳すように覚えると間違いありません！</p>
+
+                <p style="font-size: 0.95rem;"><strong>③ 日本の音名のスタート位置</strong><br>
+                「ド」が「ハ」から始まります。「ハ・ニ・ホ・ヘ・ト・イ・ロ」の順です。ちなみに、クラシックでよく聴く「ハ長調」は、主音が「ド（ハ）」で始まる明るい曲（長調）という意味になります。</p>
+            </div>
+
+            <!-- ナビゲーションブロック：update_navigation_buttons.pyによって自動書き換えされます -->
+            <div class="article-navigation">
+                <a href="music.html" class="btn-next" style="background-color: #7F8C8D;">単元一覧へ戻る</a>
+                <a href="m_theory_2.html" class="btn-next">次の単元へ進む</a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="music.html">音楽目次</a> |
+            <a href="index.html">目次トップ</a> |
+            <a href="../index.html">ホームへ戻る</a>
+        </div>
+        <p>&copy; 2026 雨川の旦那. All rights reserved.</p>
+    </footer>
+</body>
+</html>
