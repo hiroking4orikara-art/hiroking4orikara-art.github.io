@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中学技術「エネルギー変換の技術」の定期テスト対策まとめコラム。発電方式、交流・直流、電気回路（短絡・漏電）、安全装置（ブレーカー・アース）、リンク機構・カム・ベアリング等の機械要素、LCAを解説。">
+    <title>技術 単元3 エネルギー変換の技術 要点解説コラム | 副教科のweb教科書</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --textbook-accent: #E67E22; /* 技術家庭のテーマカラー：オレンジ */
+        }
+        .article-category {
+            background-color: #FFF3E0;
+            color: var(--textbook-accent);
+        }
+        .btn-next {
+            background-color: var(--textbook-accent);
+            box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3);
+        }
+        .btn-next:hover {
+            background-color: #D35400;
+        }
+        .image-flex {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+        .image-flex .illustration {
+            margin: 0;
+            flex: 1;
+            min-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #E67E22;">
+        <a href="tech_home.html" class="back-link">
+            <span><i class="fas fa-arrow-left"></i> 目次へ戻る</span>
+        </a>
+        <h1>副教科 the Web教科書</h1>
+        <p>中学技術・家庭 | 定期テスト対策の要点整理</p>
+    </header>
+
+    <main>
+        <article>
+            <div class="article-header">
+                <span class="article-category">中学技術（エネルギー変換）</span>
+                <h1 class="article-title">単元3: エネルギー変換の技術</h1>
+            </div>
+
+            <p>電気や機械の仕組みを学ぶ「エネルギー変換の技術」について整理します。各種発電の特徴、交流と直流の違い、電気回路の安全対策（短絡・漏電など）、そして動きを伝える機械要素（リンク、カム、歯車など）は、図解とセットで非常によくテストに出る重要項目です！</p>
+
+            <h2>1. エネルギー変換と発電の仕組み</h2>
+            <p>エネルギーは様々な形（電気、熱、光、運動など）に変換して利用されます。</p>
+            
+            <h3>① エネルギー変換効率（へんかんこうりつ）</h3>
+            <ul>
+                <li>もととなるエネルギー（入力）に対して、<span class="marker-orange">使用目的に利用されたエネルギー（出力）の割合（％）</span>を<strong>エネルギー変換効率</strong>といいます。無駄になる熱などのロスが少ないほど効率が高くなります。</li>
+                <li><strong>熱機関（ねつきかん）</strong>：ガソリンエンジンや蒸気機関など、熱エネルギーを運動（機械）エネルギーに変換する装置。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_0.jpg" alt="変換効率">
+                    <p class="illustration-caption">目的に変換されたエネルギーの割合（％）</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_15.jpg" alt="熱機関">
+                    <p class="illustration-caption">熱を運動に変えるエンジンの例（熱機関）</p>
+                </div>
+            </div>
+
+            <h3>② 発電方式の特徴</h3>
+            <ul>
+                <li><strong>火力発電</strong>：化石燃料を燃やして発電する。<span class="marker-orange">多量の二酸化炭素（CO2）を排出する</span>課題がある。</li>
+                <li><strong>コンバインドサイクル発電</strong>：ガスタービンと蒸気タービンの両方を回すことで、変換効率を大きく高めた火力発電。</li>
+                <li><strong>原子力発電</strong>：ウランなどの核燃料を利用する。発電時にCO2を出さないが、<span class="marker-yellow">放射性廃棄物の管理</span>に大きな課題がある。</li>
+                <li><strong>再生可能エネルギー</strong>：太陽光、風力、水力、地熱など、資源が枯渇せず繰り返し使えるクリーンなエネルギー。</li>
+                <li><strong>二次電池（にじでんち）</strong>：使い切りの「一次電池」に対し、スマートフォン等のバッテリーのように<span class="marker-orange">充電して繰り返し使える電池</span>。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_1.jpg" alt="火力発電">
+                    <p class="illustration-caption">化石燃料を用いる「火力発電」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_19.jpg" alt="原子力発電">
+                    <p class="illustration-caption">放射性廃棄物の課題がある「原子力発電」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_20.jpg" alt="再生可能エネルギー">
+                    <p class="illustration-caption">風力や太陽光などの「再生可能エネルギー」</p>
+                </div>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>2. 送電と家庭の電気</h2>
+            
+            <h3>① 交流（AC）と直流（DC）</h3>
+            <ul>
+                <li><strong>交流（AC）</strong>：電圧の向きと電流の方向が周期的にプラスとマイナスに変わる電気。<span class="marker-orange">発電所から家庭のコンセントに送られる電気</span>は交流です。変圧しやすい利点があります。</li>
+                <li><strong>直流（DC）</strong>：電流と電圧の向きが常に一定の電気。電池やACアダプタから出力される電気。</li>
+                <li><strong>周波数（Hz）</strong>：交流が1秒間に変化する回数。日本のコンセントは東西で異なり、<span class="marker-orange">東日本は50Hz、西日本は60Hz</span>です。</li>
+                <li><strong>柱上変圧器（ちゅうじょうへんあつき）</strong>：電柱の上部にあるバケツ型の機器。発電所から送られてきた高い電圧（6600Vなど）を、家庭用の100Vや200Vに引き下げる役割を持ちます。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_22.jpg" alt="交流">
+                    <p class="illustration-caption">周期的に方向が変わる「交流（AC）」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_24.jpg" alt="柱上変圧器">
+                    <p class="illustration-caption">電圧を100V/200Vに下げる「柱上変圧器」</p>
+                </div>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>3. 電気回路と安全・点検</h2>
+            <p>電気を安全に使用するための基本知識と図記号です。</p>
+
+            <h3>① 回路の構成</h3>
+            <ul>
+                <li><strong>負荷（ふか）</strong>：モータや電球など、<span class="marker-orange">電気エネルギーを光・音・運動などに変換して消費・利用する部分</span>。</li>
+                <li><strong>回路図</strong>：JISで定められた電気用図記号を使って表した図面。
+                    <ul>
+                        <li><strong>発光ダイオード（LED）の図記号</strong>：通常のダイオードの記号の右上に、光を表す<span class="marker-orange">2本の矢印</span>が描かれます。</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_25.jpg" alt="負荷">
+                    <p class="illustration-caption">電気を光や熱に変える電球などの「負荷」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_40.jpg" alt="LED図記号" style="max-width: 150px;">
+                    <p class="illustration-caption">LED（発光ダイオード）のJIS図記号</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_8.jpg" alt="JISマーク" style="max-width: 150px;">
+                    <p class="illustration-caption">JIS（日本産業規格）のマーク</p>
+                </div>
+            </div>
+
+            <h3>② 事故と安全対策</h3>
+            <ul>
+                <li><strong>短絡（ショート）</strong>：2本の導線が直接触れ合うなどして、<span class="marker-orange">負荷を通らずに過大な電流が流れてしまう</span>非常に危険な状態。</li>
+                <li><strong>漏電（ろうでん）</strong>：電線の絶縁被覆が破れるなどして、回路以外の金属部分等に電流が漏れ出てしまう現象。感電や火災の原因になります。</li>
+                <li><strong>配線用遮断器（ブレーカー）</strong>：設定値を超える電流が流れたとき、自動的に回路を遮断して屋内配線を守る装置。</li>
+                <li><strong>漏電遮断器（ろうでんしゃだんき）</strong>：回路のどこかで電気が漏れたとき、それを検知して自動的に電気を遮断する装置。</li>
+                <li><strong>アース線（接地線）</strong>：洗濯機や電子レンジ等に接続し、漏電時に電気を地面に逃がすことで感電を防ぎ、漏電遮断器を作動しやすくする安全線。</li>
+                <li><strong>定格（ていがく）</strong>：電気機器が安全に使用できる限界スペック（定格電流・定格電圧）。</li>
+                <li><strong>トラッキング現象</strong>：コンセントに差し込んだプラグの隙間にホコリがたまり、湿気を吸って火花が散り、発火・火災に至る現象。</li>
+                <li><strong>回路計（テスタ）</strong>：安全点検のために、回路の電圧・電流・抵抗などを測定できるマルチメーター。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_27.jpg" alt="短絡">
+                    <p class="illustration-caption">大電流が流れて発熱する「短絡（ショート）」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_28.jpg" alt="漏電">
+                    <p class="illustration-caption">回路の金属部に漏れ出る「漏電」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_7.jpg" alt="回路計">
+                    <p class="illustration-caption">電圧・電流などを測る「回路計（テスタ）」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_42.jpg" alt="トラッキング現象">
+                    <p class="illustration-caption">ホコリと湿気が原因の「トラッキング現象」</p>
+                </div>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #ECEFF1; margin: 3rem 0;">
+
+            <h2>4. 動力を伝える「機械要素」</h2>
+            <p>モータなどの回転を他の部品に伝え、動きの種類を変える部品の仕組みです。</p>
+
+            <h3>① 動力伝達比（速度伝達比）</h3>
+            <ul>
+                <li><strong>速度伝達比</strong>：回す側（駆動軸）と回される側（被動軸）の回転速度の比。<br>
+                $$\text{速度伝達比} = \frac{\text{駆動軸の回転速度（または歯車・プーリの直径・歯数）}}{\text{被動軸の回転速度（または歯車・プーリの直径・歯数）}}$$</li>
+            </ul>
+
+            <h3>② さまざまな伝達・運動変換機構</h3>
+            <ul>
+                <li><strong>摩擦車（まさつしゃ）</strong>：回転する2つの車を接触させ、その摩擦で動力を伝える。滑りやすいため大きな力には不向き。</li>
+                <li><strong>チェーンとスプロケット</strong>：自転車のように、凹凸のあるスプロケット（歯車）とチェーンを噛み合わせて動力を伝える。滑らず大きな力を伝達できる。</li>
+                <li><strong>ラックとピニオン</strong>：平らな棒状の歯車（ラック）と小さな丸い歯車（ピニオン）を噛み合わせ、<span class="marker-orange">回転運動を直線運動に変換する</span>機構（例：車のステアリング）。</li>
+                <li><strong>リンク機構（4節リンク機構）</strong>：4本の棒（リンク）をピンでつなぎ、特定の動きを作る機構。
+                    <ul>
+                        <li><strong>クランク</strong>：リンク機構の中で、ぐるぐると1回転するリンク。</li>
+                        <li><strong>てこ</strong>：1回転せず、一定の角度で揺れ動く（揺動する）リンク。</li>
+                        <li><strong>てこクランク機構</strong>：最短のリンク（クランク）が回転すると、連接棒を介してもう一つのリンク（てこ）が往復揺動運動をする機構（例：車のワイパー）。</li>
+                    </ul>
+                </li>
+                <li><strong>カム機構</strong>：いびつな形をした「カム（原動節）」が回転することで、接触している「従動節」を規則的に<span class="marker-orange">往復（上下）運動に変換する</span>機構（例：ミシンの針の動き）。</li>
+                <li><strong>軸受（ベアリング）</strong>：回転する軸を支え、摩擦を減らしてなめらかに回すための共通機械部品。</li>
+            </ul>
+            <div class="image-flex">
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_10.jpg" alt="摩擦車">
+                    <p class="illustration-caption">摩擦で伝える「摩擦車」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_34.jpg" alt="スプロケット・チェーン">
+                    <p class="illustration-caption">滑らず伝える「スプロケットとチェーン」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_35.jpg" alt="ラック・ピニオン">
+                    <p class="illustration-caption">回転を直線に変える「ラックとピニオン」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_13.jpg" alt="てこクランク機構">
+                    <p class="illustration-caption">回転を揺れに変える「てこクランク機構」</p>
+                </div>
+                <div class="illustration">
+                    <img src="assets/images/tech/th_merged_3_14.jpg" alt="カム機構">
+                    <p class="illustration-caption">特定の往復運動をつくる「カム機構」</p>
+                </div>
+            </div>
+
+            <h3>③ LCA（ライフサイクルアセスメント）</h3>
+            <ul>
+                <li>製品の材料採取から、製造、流通、使用、廃棄までの生涯すべての段階における環境負荷を総合的に評価する手法を<strong>LCA（ライフサイクルアセスメント）</strong>といいます。</li>
+            </ul>
+
+            <div class="point-box">
+                <p style="font-weight: bold; color: #D35400; margin-bottom: 0.5rem; font-size: 1.1rem;">🔥 定期テスト対策・暗記のコツ</p>
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>① 短絡と漏電の言葉の定義</strong><br>
+                「<strong>短絡</strong> ➔ 負荷を通らずショートし大電流が流れる」「<strong>漏電</strong> ➔ 傷ついた被覆から電気が漏れ出る」。テストの穴埋めや正誤判定で非常にひっかかりやすいので注意！</p>
+                
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>② ラック＆ピニオン と カム機構</strong><br>
+                どちらも運動の変換ですが、「回転を<strong>直線運動</strong>に変える ➔ ラック＆ピニオン（直線的なギザギザ板）」「回転を複雑な<strong>往復運動</strong>に変える ➔ カム（卵型やハート型の回転板）」という違いを形状から見分けられるようにしましょう。</p>
+
+                <p style="font-size: 0.95rem;"><strong>③ 東日本50Hz、西日本60Hz</strong><br>
+                日本の周波数の境界です。覚えるコツは「<strong>東五西六（とうごせいろく）</strong>」。東日本が50Hz、西日本が60Hzです！</p>
+            </div>
+
+            <!-- ナビゲーションブロック：update_navigation_buttons.pyによって自動書き換えされます -->
+            <div class="article-navigation">
+                <a href="tech_home.html" class="btn-next" style="background-color: #7F8C8D;">単元一覧へ戻る</a>
+                <a href="th_merged_4.html" class="btn-next">次の単元へ進む</a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="tech_home.html">技術家庭目次</a> |
+            <a href="index.html">目次トップ</a> |
+            <a href="../index.html">ホームへ戻る</a>
+        </div>
+        <p>&copy; 2026 雨川の旦那. All rights reserved.</p>
+    </footer>
+</body>
+</html>

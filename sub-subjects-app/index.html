@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script>
+        window.addEventListener('error', function(event) {
+            var msg = "Global JS Error:\n" + event.message + "\nAt: " + event.filename + ":" + event.lineno;
+            if (event.error && event.error.stack) {
+                msg += "\nStack:\n" + event.error.stack;
+            }
+            console.error(msg);
+            try { alert(msg); } catch(e){}
+        });
+        window.addEventListener('unhandledrejection', function(event) {
+            var msg = "Unhandled Promise Rejection:\n" + event.reason;
+            if (event.reason && event.reason.stack) {
+                msg += "\nStack:\n" + event.reason.stack;
+            }
+            console.error(msg);
+            try { alert(msg); } catch(e){}
+        });
+        
+        // Placeholder for app to prevent ReferenceError during load
+        var app = {
+            selectSubject: function() {},
+            selectBranch: function() {},
+            startQuiz: function() {},
+            playVideo: function() {},
+            closeQuiz: function() {},
+            nextQuestion: function() {},
+            closeVideo: function() {},
+            switchStatsTab: function() {},
+            showTrivia: function() {},
+            resetStatsData: function() {}
+        };
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中学副教科 これ一本！</title>
+    <link rel="stylesheet" href="style_v4.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app-container">
+        <!-- Header -->
+        <header>
+            <button id="back-button" class="icon-button" style="display: none; font-size: 1.2rem; padding: 5px 15px; border-radius: 20px; background-color: #fff; color: #333; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"><i class="fas fa-arrow-left" style="margin-right: 5px;"></i>戻る</button>
+            <h1 id="page-title">中学副教科<br>これ一本！</h1>
+            <div style="width: 40px;"></div> <!-- Spacer for balancing -->
+        </header>
+    
+        <!-- Main Content Area -->
+        <main>
+            <!-- 1. Home Screen (Subject Selection) -->
+            <section id="home-screen" class="screen active">
+                <!-- Trivia Popup Easter Egg -->
+                <div id="trivia-popup" class="trivia-popup"></div>
+                
+                <!-- Information Bar with Characters -->
+                <div class="ticker-wrapper">
+                    <!-- Left Column: Music and PE -->
+                    <div class="left-chars" style="display: flex; flex-direction: column; gap: 6px;">
+                        <div class="ticker-char left-char" onclick="app.showTrivia('music', event)" style="cursor:pointer; background:#ffcce5; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:2px solid white; box-shadow:0 2px 4px rgba(0,0,0,0.1);"><i class="fas fa-music" style="color:#d81b60; font-size:1.2rem;"></i></div>
+                        <div class="ticker-char left-char" onclick="app.showTrivia('pe', event)" style="cursor:pointer; background:#93ff93; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:2px solid white; box-shadow:0 2px 4px rgba(0,0,0,0.1);"><i class="fas fa-basketball-ball" style="color:#1b5e20; font-size:1.2rem;"></i></div>
+                    </div>
+                    <div class="info-ticker-container">
+                        <div class="info-ticker-content" id="info-ticker-text">
+                            今日も一日がんばろう！
+                        </div>
+                    </div>
+                    <!-- Right Column: Art and Tech -->
+                    <div class="right-chars" style="display: flex; flex-direction: column; gap: 6px;">
+                        <div class="ticker-char right-char" onclick="app.showTrivia('art', event)" style="cursor:pointer; background:#93ffff; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:2px solid white; box-shadow:0 2px 4px rgba(0,0,0,0.1);"><i class="fas fa-palette" style="color:#00838f; font-size:1.2rem;"></i></div>
+                        <div class="ticker-char right-char" onclick="app.showTrivia('tech', event)" style="cursor:pointer; background:#ffc993; width:40px; height:40px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:2px solid white; box-shadow:0 2px 4px rgba(0,0,0,0.1);"><i class="fas fa-home" style="color:#d84315; font-size:1.2rem;"></i></div>
+                    </div>
+                </div>
+
+                <div class="menu-grid">
+                    <button class="menu-card" style="background-color: #ffff93; color: #f57f17; border-color: #fbc02d;" onclick="app.selectSubject('music')">
+                        <i class="fas fa-music"></i>
+                        <span>音楽</span>
+                    </button>
+                    <button class="menu-card" style="background-color: #ffc993; color: #d84315; border-color: #ff8a65;" onclick="app.selectSubject('tech_home')">
+                        <i class="fas fa-home"></i>
+                        <span>技術・家庭</span>
+                    </button>
+                    <button class="menu-card" style="background-color: #93ff93; color: #1b5e20; border-color: #66bb6a;" onclick="app.selectSubject('pe_health')">
+                        <i class="fas fa-basketball-ball"></i>
+                        <span>保健体育</span>
+                    </button>
+                    <button class="menu-card" style="background-color: #93ffff; color: #006064; border-color: #26c6da;" onclick="app.selectSubject('art')">
+                        <i class="fas fa-palette"></i>
+                        <span>美術</span>
+                    </button>
+                </div>
+                
+                <!-- Streak UI -->
+                <div id="streak-ui" style="margin: 20px auto; max-width: 400px; padding: 15px; background: rgba(255, 255, 255, 0.9); border-radius: 15px; display: flex; flex-direction: column; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 2px solid #ff4081;">
+                    <div style="font-size: 1.2rem; color: #d81b60; font-weight: bold; margin-bottom: 5px;">
+                        <i class="fas fa-fire" style="color: #ff4081;"></i> 連続起動日数
+                    </div>
+                    <div id="streak-days-display" style="font-size: 2.5rem; color: #ff4081; font-weight: bold; line-height: 1.2;">
+                        0日
+                    </div>
+                    <div id="streak-message-display" style="margin-top: 5px; font-size: 1.1rem; color: #c2185b; font-weight: bold;">
+                        これから頑張ろう！
+                    </div>
+                </div>
+
+                <!-- 宣伝エリア -->
+                <div class="promo-section">
+                    <!-- 公式ホームページ -->
+                    <a href="https://hiroking4orikara-art.github.io/" target="_blank" rel="noopener noreferrer" class="promo-card promo-hp">
+                        <i class="fas fa-globe promo-icon"></i>
+                        <div class="promo-content">
+                            <span class="promo-subtitle">他の学習ツールも！</span>
+                            <span class="promo-title">公式ホームページ</span>
+                        </div>
+                        <i class="fas fa-chevron-right promo-arrow"></i>
+                    </a>
+
+                    <!-- 中学 社会 これ一本 -->
+                    <a href="https://play.google.com/store/apps/details?id=com.teambits.socialstudies" target="_blank" rel="noopener noreferrer" class="promo-card promo-social">
+                        <i class="fas fa-globe-asia promo-icon"></i>
+                        <div class="promo-content">
+                            <span class="promo-subtitle">地理・歴史・公民！</span>
+                            <span class="promo-title">中学社会アプリ</span>
+                        </div>
+                        <i class="fas fa-chevron-right promo-arrow"></i>
+                    </a>
+
+                    <!-- 中学 英語 並べ替え ３００ -->
+                    <a href="https://play.google.com/store/apps/details?id=com.hiroki.grammar" target="_blank" rel="noopener noreferrer" class="promo-card promo-grammar">
+                        <i class="fas fa-pencil-alt promo-icon"></i>
+                        <div class="promo-content">
+                            <span class="promo-subtitle">並べ替え300</span>
+                            <span class="promo-title">中学英文法アプリ</span>
+                        </div>
+                        <i class="fas fa-chevron-right promo-arrow"></i>
+                    </a>
+
+                    <!-- 中学 英語 教科書単語 サックサク！ -->
+                    <a href="https://play.google.com/store/apps/details?id=com.sakkusaku.englishvocab" target="_blank" rel="noopener noreferrer" class="promo-card promo-vocab">
+                        <i class="fas fa-book promo-icon"></i>
+                        <div class="promo-content">
+                            <span class="promo-subtitle">単語 サックサク！</span>
+                            <span class="promo-title">中学英単語アプリ</span>
+                        </div>
+                        <i class="fas fa-chevron-right promo-arrow"></i>
+                    </a>
+                </div>
+
+                <!-- Spacer for AdMob Banner (approx 3 lines) -->
+                <div style="height: 80px;"></div>
+
+            </section>
+    
+            <!-- 2. Sub-Category Screen (Branch Selection) -->
+            <section id="sub-category-screen" class="screen">
+                <h2 id="sub-category-title">分野を選んでください</h2>
+                <div class="menu-grid" id="sub-category-grid">
+                    <!-- Injected by script_v4.js -->
+                </div>
+            </section>
+    
+            <!-- 3. Unit List Screen -->
+            <section id="unit-list-screen" class="screen">
+                <div class="unit-list-container">
+                    <div id="unit-list">
+                        <!-- Unit items will be generated here -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 4. Video Modal (Kept just in case we add videos later) -->
+            <div id="video-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal" onclick="app.closeVideo()">&times;</span>
+                    <div class="video-wrapper">
+                        <video id="video-player" controls style="width: 100%; display:none;"></video>
+                        <div id="youtube-placeholder" style="display:none;"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- 5. Quiz Screen (Full Page) -->
+            <section id="quiz-screen" class="screen">
+                <div class="quiz-header" style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
+                    <button class="quit-btn" onclick="app.closeQuiz()">やめる</button>
+                    <div class="quiz-status">
+                        <span id="quiz-progress">Question 1 / 10</span>
+                    </div>
+                </div>
+    
+                <div class="quiz-main-content">
+                    <div id="quiz-image-outer" style="display:none; margin-bottom: 20px; text-align: center; width: 100%;">
+                        <div id="quiz-image-container" style="position: relative; display: inline-block;">
+                            <img id="quiz-image" src="" alt="Question Image" style="max-width: 100%; max-height: 35vh; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block;">
+                            <div id="quiz-map-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></div>
+                        </div>
+                        <div id="quiz-image-caption" style="display:none; text-align: right; font-size: 0.8rem; color: #7f8c8d; margin-top: 5px; width: 100%; max-width: 500px; margin-left: auto; margin-right: auto;"></div>
+                    </div>
+                    
+                    <div id="quiz-question-wrapper">
+                        <!-- Custom backgrounds omitted for now, we will add generic colored backgrounds -->
+                        <div id="quiz-bg-layer" style="opacity: 0.15; z-index: 1;"></div>
+                        <h2 id="quiz-question" style="margin: 20px 0; font-size: 2rem; position: relative; z-index: 2;">ここに問題が表示されます</h2>
+                        
+                        <div id="quiz-feedback" style="display:none; margin-top: 10px; width: 100%; z-index: 3;">
+                            <div id="feedback-icon"></div>
+                            <p id="feedback-text" style="font-size: 2rem; margin: 10px 0;"></p>
+                            <p id="feedback-correct-answer" style="font-size: 1.4rem; font-weight: bold; color: #e74c3c; margin-bottom: 15px;"></p>
+                            <div id="answer-image-container" style="display:none; text-align: center; margin: 15px 0;">
+                                <img id="answer-image" src="" alt="Answer visual" style="max-width: 100%; max-height: 40vh; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                                <div id="answer-image-caption" style="font-size: 0.8rem; color: #7f8c8d; margin-top: 5px; text-align: right; width: 100%; max-width: 400px; margin-left: auto; margin-right: auto;"></div>
+                            </div>
+                            
+                            <button id="next-btn" class="unit-btn btn-quiz" onclick="app.nextQuestion()" style="margin-top: 10px; margin-bottom: 20px; width: 100%;">次へ</button>
+                            
+                            <p id="feedback-comment" style="font-size: 1.2rem; white-space: pre-wrap;"></p>
+                        </div>
+                    </div>
+    
+                    <div id="quiz-options" class="quiz-options-grid">
+                        <!-- Options generated here -->
+                    </div>
+                </div>
+    
+                <div id="quiz-result" style="display:none; margin-top: 50px;">
+                    <h2>結果発表！</h2>
+                    <p id="score-text" style="font-size: 3rem; margin: 20px 0; color: #d81b60;"></p>
+                    <button class="unit-btn btn-quiz" onclick="app.closeQuiz()">単元一覧に戻る</button>
+                </div>
+            </section>
+    
+        </main>
+
+        <!-- Footer Navigation -->
+        <footer id="app-footer" class="app-footer">
+            <button id="nav-calendar-btn" class="nav-icon-btn">
+                <i class="fas fa-calendar-alt nav-icon"></i>
+                <span class="nav-label">カレンダー</span>
+            </button>
+            <div class="user-nav-container">
+                <button id="nav-user-btn" class="nav-icon-btn">
+                    <div class="user-avatar-placeholder"><i class="fas fa-user"></i></div>
+                    <span id="current-user-name" class="nav-label">Guest</span>
+                </button>
+                <!-- User Menu Popup -->
+                <div id="user-menu-popup" class="user-menu hidden">
+                    <ul id="user-list">
+                        <!-- Users injected here -->
+                    </ul>
+                    <button id="add-new-user-btn" class="add-user-btn">＋ 新規追加</button>
+                </div>
+            </div>
+            <button id="nav-stats-btn" class="nav-icon-btn">
+                <i class="fas fa-book-open nav-icon"></i>
+                <span class="nav-label">学習の記録</span>
+            </button>
+            <button id="nav-help-btn" class="nav-icon-btn">
+                <i class="fas fa-question-circle nav-icon"></i>
+                <span class="nav-label">ヘルプ</span>
+            </button>
+        </footer>
+
+        <!-- Calendar Modal -->
+        <div id="calendar-modal" class="modal">
+            <div class="modal-content calendar-modal-content">
+                <span id="close-calendar-modal" class="close-modal-btn">&times;</span>
+                <h2>学習カレンダー</h2>
+                <div class="calendar-controls">
+                    <button id="prev-month-btn" class="icon-text-btn">&lt;</button>
+                    <span id="calendar-month-label">2026年 2月</span>
+                    <button id="next-month-btn" class="icon-text-btn">&gt;</button>
+                </div>
+                <div id="calendar-grid" class="calendar-grid">
+                    <!-- Dates -->
+                </div>
+                <p class="calendar-legend">数字は今日解いた問題数です</p>
+            </div>
+        </div>
+
+        <!-- Stats Modal (Tabbed version) -->
+        <div id="stats-modal" class="modal">
+            <div class="modal-content stats-modal-wrap" style="background: transparent; padding: 0; box-shadow: none;">
+                <span id="close-stats-modal" class="close-modal-btn" style="color: white; top: -35px; right: 0; z-index: 10;">&times;</span>
+                <div class="stats-tabs">
+                    <div class="stats-tab tab-back" onclick="document.getElementById('stats-modal').style.display='none'" style="font-size: 1.0rem; display: flex; align-items: center; justify-content: center; background-color: #ff80ab;"><i class="fas fa-arrow-left" style="margin-right: 2px;"></i>戻る</div>
+                    <div class="stats-tab tab-music active" onclick="app.switchStatsTab('music')" style="background-color: #ffff93; color: #f57f17;">音楽</div>
+                    <div class="stats-tab tab-tech" onclick="app.switchStatsTab('tech_home')" style="background-color: #ffc993; color: #d84315;">技・家</div>
+                    <div class="stats-tab tab-pe" onclick="app.switchStatsTab('pe_health')" style="background-color: #93ff93; color: #1b5e20;">保・体</div>
+                    <div class="stats-tab tab-art" onclick="app.switchStatsTab('art')" style="background-color: #93ffff; color: #006064;">美術</div>
+                </div>
+                <!-- Default bg is music initially -->
+                <div id="stats-content-wrapper" class="stats-content-wrapper bg-music">
+                    <div id="stats-content" class="stats-list">
+                        <p>データ読み込み中...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Modal -->
+        <div id="help-modal" class="modal">
+            <div class="modal-content help-modal-content">
+                <span id="close-help-modal" class="close-modal-btn">&times;</span>
+                <h2 style="margin-bottom: 20px; color: #d81b60; font-size: 1.4rem;"><i class="fas fa-star" style="color:#f1c40f;"></i> アプリの特長と使い方</h2>
+                
+                <div style="text-align: left; padding: 0 5px;">
+                    <div class="help-feature-card">
+                        <div class="help-feature-title"><i class="fas fa-video" style="color:#e67e22; width:25px; text-align:center;"></i> 導入動画で予習・復習！</div>
+                        <div class="help-feature-desc">各教科の単元ごとに、分かりやすい導入動画を用意しています！苦手な単元や、学校をお休みしてしまった時の内容は、まず動画をチェックして学習のイメージをつかみましょう。</div>
+                    </div>
+
+                    <div class="help-feature-card">
+                        <div class="help-feature-title"><i class="fas fa-list-ol" style="color:#2ecc71; width:25px; text-align:center;"></i> 圧倒的な問題数！</div>
+                        <div class="help-feature-desc">4教科（音楽・美術・保健体育・技術家庭）合わせて<strong>1500問以上</strong>の問題を収録。定期テスト対策から日々の学習まで、これ一本でバッチリ対策できます！</div>
+                    </div>
+
+                    <div class="help-feature-card">
+                        <div class="help-feature-title"><i class="fas fa-hand-paper" style="color:#f1c40f; width:25px; text-align:center;"></i> 集中力が続く「5問」セット</div>
+                        <div class="help-feature-desc">長い問題集は疲れてしまう…そんな悩みを解決！スキマ時間でもサクサク進められるよう、問題は常に<strong>5問ずつ</strong>出題されます。毎日の通学や待ち時間を有効活用しましょう。</div>
+                    </div>
+
+                    <div class="help-feature-card">
+                        <div class="help-feature-title"><i class="fas fa-redo" style="color:#9b59b6; width:25px; text-align:center;"></i> 徹底的な「解きなおし」機能</div>
+                        <div class="help-feature-desc">間違えた問題は優先的に「解きなおし」として再出題されます。何度も挑戦して、苦手な問題をゼロにしましょう！</div>
+                    </div>
+
+                    <div class="help-feature-card">
+                        <div class="help-feature-title"><i class="fas fa-calendar-check" style="color:#e74c3c; width:25px; text-align:center;"></i> カレンダーで努力を実感</div>
+                        <div class="help-feature-desc">その日解いた問題数がカレンダーに自動で記録されます。「今日もがんばった！」という達成感が、毎日の学習のモチベーションにつながります。</div>
+                    </div>
+
+                    <div class="help-feature-card">
+                        <div class="help-feature-title"><i class="fas fa-chart-line" style="color:#3498db; width:25px; text-align:center;"></i> 学習の記録で弱点を克服</div>
+                        <div class="help-feature-desc">「どの単元をどれくらい進めたか」をひと目で確認できる学習記録機能付き！テスト前に復習すべき単元がすぐに分かります。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="data.js?v=7"></script>
+    <script src="quiz_data.js?v=7"></script>
+    <script src="trivia.js?v=1"></script>
+    <script src="script_v4.js?v=7"></script>
+</body>
+</html>

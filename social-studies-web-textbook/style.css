@@ -1,0 +1,529 @@
+/* style.css - 社会のweb教科書 専用スタイルシート */
+:root {
+    --textbook-primary: #2C3E50;
+    --textbook-accent: #E67E22;
+    --textbook-bg: #FAF9F6; /* 温かみのある紙風の背景色 */
+    --textbook-text: #2C3E50;
+    --textbook-light: #7F8C8D;
+    --white: #FFFFFF;
+    --border-radius: 12px;
+    --box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    --border-color: #BDC3C7;
+    
+    /* 分野別テーマカラー */
+    --color-history: #E67E22;       /* 歴史：温かみのあるオレンジ */
+    --color-world-geo: #2980B9;     /* 世界地理：知的なブルー */
+    --color-japan-geo: #27AE60;     /* 日本地理：豊かなグリーン */
+    --color-civics: #8E44AD;        /* 公民：厳格なパープル */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+    line-height: 1.8;
+    color: var(--textbook-text);
+    background-color: var(--textbook-bg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ヘッダー */
+header {
+    background-color: var(--textbook-primary);
+    color: var(--white);
+    padding: 2.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+}
+
+header p {
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* 戻るボタン - スクロール追従（固定）・オレンジベース */
+.back-link {
+    position: fixed;
+    left: 1.5rem;
+    top: 1.5rem;
+    z-index: 1000;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #E67E22; /* オレンジベース */
+    border: 2px solid var(--white);
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: background 0.2s, transform 0.2s;
+}
+
+.back-link:hover {
+    background: #D35400; /* ホバー時に少し暗く */
+    transform: scale(1.05);
+    color: var(--white);
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-top: 4.5rem; /* モバイルでの余白を十分に確保 */
+    }
+    .back-link {
+        left: 0.75rem;
+        top: 0.75rem;
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+}
+
+/* メインコンテナ */
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.2rem;
+}
+
+/* 教科書が並んでいる感じ（本棚・グリッド） */
+.shelf-container {
+    margin-top: 2rem;
+}
+
+.shelf-title {
+    font-size: 1.4rem;
+    color: var(--textbook-primary);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--textbook-primary);
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.subject-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 600px) {
+    .subject-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* 本（教科書）を模した立体的なカードデザイン */
+.book-card {
+    background: var(--white);
+    border-radius: 4px 12px 12px 4px; /* 右角を丸く、本らしく */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08), -2px 0 5px rgba(0, 0, 0, 0.05);
+    padding: 2rem 1.5rem 2rem 2.5rem; /* 左側（背表紙側）の余白を広めに */
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s;
+    overflow: hidden;
+}
+
+/* 本の「背表紙（とじしろ）」を表現するグラデーションライン */
+.book-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 4px 0 0 4px;
+    box-shadow: inset -3px 0 5px rgba(0,0,0,0.15);
+}
+
+/* 本の「背のカラーバー」 */
+.book-card::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    opacity: 0.8;
+}
+
+.book-card:hover {
+    transform: translateY(-8px) rotate(1deg);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.12), -2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* 各テーマごとの「とじしろ」カラーバー設定 */
+.theme-history::after { background-color: var(--color-history); }
+.theme-world-geo::after { background-color: var(--color-world-geo); }
+.theme-japan-geo::after { background-color: var(--color-japan-geo); }
+.theme-civics::after { background-color: var(--color-civics); }
+
+.book-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.theme-history h3 { color: var(--color-history); }
+.theme-world-geo h3 { color: var(--color-world-geo); }
+.theme-japan-geo h3 { color: var(--color-japan-geo); }
+.theme-civics h3 { color: var(--color-civics); }
+
+.book-card p {
+    font-size: 0.9rem;
+    color: var(--textbook-light);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.book-card .book-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.theme-history .book-footer { color: var(--color-history); }
+.theme-world-geo .book-footer { color: var(--color-world-geo); }
+.theme-japan-geo .book-footer { color: var(--color-japan-geo); }
+.theme-civics .book-footer { color: var(--color-civics); }
+
+/* 準備中のカード（グレーアウト） */
+.book-card.disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    pointer-events: none; /* クリック不可 */
+}
+
+.book-card.disabled:hover {
+    transform: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.book-card.disabled::after {
+    background-color: #95A5A6;
+}
+
+.book-card.disabled h3 {
+    color: #7F8C8D;
+}
+
+
+/* === 単元一覧（目次）カード === */
+.textbook-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    .textbook-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.unit-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    border: 2px solid #ECEFF1; /* 四方にしっかりとした枠線を追加 */
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem;
+    border-top: 5px solid var(--textbook-accent); /* 上部は少し太めに */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.unit-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--textbook-accent); /* ホバー時に枠線がテーマカラーに光る */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.unit-card h3 {
+    font-size: 1.2rem;
+    color: var(--textbook-primary);
+    margin-bottom: 0.5rem;
+}
+
+.unit-card p {
+    font-size: 0.9rem;
+    color: var(--textbook-light);
+    line-height: 1.5;
+}
+
+.unit-card .card-footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: var(--textbook-accent);
+}
+
+/* 準備中の単元カード（グレーアウト） */
+.unit-card.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    border-top-color: #BDC3C7;
+    pointer-events: none; /* クリック不可 */
+}
+
+.unit-card.disabled:hover {
+    transform: none;
+    border-color: #ECEFF1;
+    box-shadow: var(--box-shadow);
+}
+
+/* === 記事（コラム）コンテンツ === */
+article {
+    background: var(--white);
+    padding: 2.5rem 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+@media (min-width: 768px) {
+    article {
+        padding: 3.5rem 3rem;
+    }
+}
+
+/* 記事タイトル */
+.article-header {
+    border-bottom: 2px solid #E5E7EB;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.article-category {
+    display: inline-block;
+    background-color: #FFF3E0;
+    color: var(--textbook-accent);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.article-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--textbook-primary);
+    line-height: 1.3;
+}
+
+/* 本文テキスト */
+article p {
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+/* 見出し */
+article h2 {
+    font-size: 1.45rem;
+    color: var(--textbook-primary);
+    margin: 2.5rem 0 1.2rem;
+    padding-left: 0.75rem;
+    border-left: 5px solid var(--textbook-accent);
+    line-height: 1.4;
+}
+
+article h3 {
+    font-size: 1.2rem;
+    color: var(--textbook-primary);
+    margin: 1.8rem 0 1rem;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 0.4rem;
+}
+
+/* 蛍光ペン風マーカー効果 */
+.marker-yellow {
+    background: linear-gradient(transparent 60%, #FFF59D 0%);
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+.marker-orange {
+    background: linear-gradient(transparent 60%, #FFE0B2 0%);
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+/* テストに出る！ポイント囲み枠 */
+.point-box {
+    background-color: #FFFDE7;
+    border: 2px solid #FFF59D;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.point-box::before {
+    content: "定期テストによく出る！";
+    position: absolute;
+    top: -12px;
+    left: 1.5rem;
+    background: #FBC02D;
+    color: var(--textbook-primary);
+    padding: 2px 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.point-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.point-box li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.point-box li::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    color: #F57F17;
+}
+
+.point-box li:last-child {
+    margin-bottom: 0;
+}
+
+/* 重要ワード暗記カード風 */
+.vocab-card {
+    background: #F8F9FA;
+    border-left: 4px solid var(--textbook-primary);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.vocab-card strong {
+    color: var(--textbook-accent);
+}
+
+/* 画像・挿絵 */
+.illustration {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border: 1px solid #ECEFF1;
+}
+
+.illustration-caption {
+    font-size: 0.85rem;
+    color: var(--textbook-light);
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* ページネーション（戻る / 次へ進む） */
+.article-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.btn-next {
+    display: inline-block;
+    background-color: var(--textbook-accent);
+    color: var(--white);
+    padding: 0.8rem 2.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3);
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-next:hover {
+    background-color: #D35400;
+}
+
+.btn-next:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 480px) {
+    .article-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .article-navigation .btn-next {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* フッター */
+footer {
+    background-color: var(--textbook-primary);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    font-size: 0.85rem;
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

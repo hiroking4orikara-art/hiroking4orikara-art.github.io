@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Blackboard background -->
+  <rect width="200" height="200" fill="#2E4A35" rx="10" />
+  <!-- Title -->
+  <text x="100" y="30" fill="white" font-family="sans-serif" font-size="16" text-anchor="middle">3拍子の振り方</text>
+  
+  <!-- Path -->
+  <path d="M 100 50 L 100 150 L 150 100 L 100 50" fill="none" stroke="white" stroke-width="4" stroke-linejoin="round" />
+  
+  <!-- Arrows -->
+  <polygon points="95,140 105,140 100,150" fill="white" />
+  <polygon points="140,110 145,100 150,105" fill="white" />
+  <polygon points="110,60 100,50 105,65" fill="white" />
+  
+  <!-- Numbers -->
+  <circle cx="90" cy="100" r="12" fill="#FFB74D" />
+  <text x="90" y="105" fill="#2E4A35" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">1</text>
+  
+  <circle cx="150" cy="120" r="12" fill="#FFB74D" />
+  <text x="150" y="125" fill="#2E4A35" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">2</text>
+  
+  <circle cx="120" cy="60" r="12" fill="#FFB74D" />
+  <text x="120" y="65" fill="#2E4A35" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">3</text>
+</svg>

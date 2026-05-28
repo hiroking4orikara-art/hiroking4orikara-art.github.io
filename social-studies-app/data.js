@@ -284,3 +284,93 @@ const UNIT_DATA = {
         }
     ]
 };
+
+window.TEXTBOOK_MAP = {
+    // 世界地理
+    "gw_1": "world_geography_1.html",
+    "gw_2": "world_geography_2.html",
+    "gw_3": "world_geography_3.html",
+    "gw_4": "world_geography_4.html",
+    "gw_5": "world_geography_5.html",
+    "gw_6": "world_geography_6.html",
+    "gw_7": "world_geography_7.html",
+    // 日本地理
+    "gj_1": "japan_geography_1.html",
+    "gj_2": "japan_geography_2.html",
+    "gj_3": "japan_geography_3.html",
+    "gj_4": "japan_geography_4.html",
+    "gj_5": "japan_geography_5.html",
+    "gj_6": "japan_geography_6.html",
+    "gj_7": "japan_geography_7.html",
+    "gj_8": "japan_geography_8.html",
+    "gj_9": "japan_geography_9.html",
+    "gj_10": "japan_geography_10.html",
+    // 歴史 (古代)
+    "h_ancient_1": "history_ancient_1.html",
+    "h_ancient_2": "history_ancient_2.html",
+    "h_ancient_3": "history_ancient_3.html",
+    "h_ancient_4": "history_ancient_4.html",
+    "h_ancient_5": "history_ancient_5.html",
+    "h_ancient_6": "history_ancient_6.html",
+    "h_ancient_7": "history_ancient_7.html",
+    "h_ancient_8": "history_ancient_8.html",
+    "h_ancient_9": "history_ancient_9.html",
+    // 歴史 (中世)
+    "h_medieval_1": "history_medieval_1.html",
+    "h_medieval_2": "history_medieval_2.html",
+    "h_medieval_3": "history_medieval_5.html", // 文化枠
+    "h_medieval_4": "history_medieval_3.html",
+    "h_medieval_5": "history_medieval_3.html",
+    "h_medieval_6": "history_medieval_5.html",
+    "h_medieval_7": "history_medieval_4.html",
+    // 歴史 (近世)
+    "h_early_modern_1": "history_early_modern_1.html",
+    "h_early_modern_2": "history_early_modern_2.html",
+    "h_early_modern_3": "history_early_modern_3.html",
+    "h_early_modern_4": "history_early_modern_4.html",
+    "h_early_modern_5": "history_early_modern_5.html",
+    "h_early_modern_6": "history_early_modern_6.html",
+    "h_early_modern_7": "history_early_modern_7.html",
+    // 歴史 (近代)
+    "h_modern_1": "history_modern_1.html",
+    "h_modern_2": "history_modern_2.html",
+    "h_modern_3": "history_modern_4.html",
+    "h_modern_4": "history_modern_5.html",
+    "h_modern_5": "history_modern_7.html",
+    "h_modern_6": "history_modern_8.html",
+    "h_modern_7": "history_modern_9.html",
+    // 歴史 (現代)
+    "h_contemporary_1": "history_contemporary_1.html",
+    "h_contemporary_2": "history_contemporary_2.html",
+    "h_contemporary_3": "history_contemporary_3.html",
+    "h_contemporary_4": "history_contemporary_4.html",
+    "h_contemporary_5": "history_contemporary_5.html",
+    // 公民
+    "c_1": [
+        { "file": "civics_1.html", "title": "現代社会の特色とルール" }
+    ],
+    "c_2": [
+        { "file": "civics_2.html", "title": "日本国憲法の成立と平和主義" },
+        { "file": "civics_3.html", "title": "基本的人権の尊重と新しい人権" }
+    ],
+    "c_3": [
+        { "file": "civics_4.html", "title": "民主政治と選挙" },
+        { "file": "civics_5.html", "title": "国会 ─国の立法機関─" },
+        { "file": "civics_6.html", "title": "内閣 ─国の行政機関─" },
+        { "file": "civics_7.html", "title": "裁判所 ─国の司法機関─" },
+        { "file": "civics_8.html", "title": "地方自治と住民参加" }
+    ],
+    "c_4": [
+        { "file": "civics_9.html", "title": "消費生活と契約" },
+        { "file": "civics_10.html", "title": "市場の仕組みと価格" },
+        { "file": "civics_11.html", "title": "生産と労働" },
+        { "file": "civics_12.html", "title": "金融と日本銀行" },
+        { "file": "civics_13.html", "title": "財政政策と税金" },
+        { "file": "civics_14.html", "title": "社会保障と社会福祉" }
+    ],
+    "c_5": [
+        { "file": "civics_15.html", "title": "国際社会と国際連合" },
+        { "file": "civics_16.html", "title": "地球規模の課題とこれからの人類" }
+    ]
+};
+
