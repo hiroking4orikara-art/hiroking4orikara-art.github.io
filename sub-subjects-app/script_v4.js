@@ -301,8 +301,18 @@ var app = {
                 let videoButtonsHtml = '';
                 if (window.VIDEO_MAP && window.VIDEO_MAP[unit.id]) {
                     videoButtonsHtml = `
-                        <button class="unit-btn btn-video" style="margin: 0; background-color: #e67e22; color: white;" onclick="app.playVideo('${unit.id}')">
+                        <button class="unit-btn btn-video" style="margin: 0; background-color: #e67e22; color: white; width: 100%;" onclick="app.playVideo('${unit.id}')">
                             <i class="fas fa-video"></i> 導入動画を見る
+                        </button>
+                    `;
+                }
+
+                let textbookButtonHtml = '';
+                if (window.TEXTBOOK_MAP && window.TEXTBOOK_MAP[unit.id]) {
+                    const url = `https://hiroking4orikara-art.github.io/sub-subjects-web-textbook/${window.TEXTBOOK_MAP[unit.id]}`;
+                    textbookButtonHtml = `
+                        <button class="unit-btn btn-material" style="margin: 0; background-color: #4CAF50; color: white; width: 100%;" onclick="app.openMaterial('${url}')">
+                            <i class="fas fa-book-open"></i> web教科書を見る
                         </button>
                     `;
                 }
@@ -312,7 +322,10 @@ var app = {
                         <span class="unit-title">${unit.title} <span class="unit-count" style="font-size: 0.9rem; color: #666; margin-left: 10px;">(全${c}問)</span></span>
                     </div>
                     <div class="unit-controls" style="display: flex; gap: 10px; align-items: center; justify-content: flex-end;">
-                        ${videoButtonsHtml}
+                        <div style="display: flex; flex-direction: column; gap: 5px; min-width: 150px;">
+                            ${videoButtonsHtml}
+                            ${textbookButtonHtml}
+                        </div>
                         <button class="unit-btn btn-quiz" style="margin: 0; background-color: #3498db; color: white;" onclick="app.startQuiz('${unit.id}')">
                             <i class="fas fa-pencil-alt"></i> クイズ
                         </button>
@@ -342,12 +355,23 @@ var app = {
                     
                     let borderStyle = (idx === group.units.length - 1) ? '' : 'border-bottom: 1px dashed #ccc; padding-bottom: 15px; margin-bottom: 15px;';
                     
+                    let textbookBtnHtml = '';
+                    if (window.TEXTBOOK_MAP && window.TEXTBOOK_MAP[unit.id]) {
+                        const url = `https://hiroking4orikara-art.github.io/sub-subjects-web-textbook/${window.TEXTBOOK_MAP[unit.id]}`;
+                        textbookBtnHtml = `
+                            <button class="unit-btn btn-material" onclick="app.openMaterial('${url}')" style="margin: 0 10px 0 0; background-color: #4CAF50; color: white; padding: 8px 20px; font-size: 1.1rem;">
+                                <i class="fas fa-book-open"></i> web教科書を見る
+                            </button>
+                        `;
+                    }
+
                     itemsHtml += `
                         <div style="display: flex; flex-direction: column; gap: 10px; ${borderStyle}">
                             <div style="font-size: 1.1rem; font-weight: bold; color: #333; text-align: left;">
                                 ${unit.title} <span class="unit-count" style="font-size: 0.9rem; color: #666; margin-left: 10px;">(全${c}問)</span>
                             </div>
-                            <div style="display: flex; justify-content: flex-end;">
+                            <div style="display: flex; justify-content: flex-end; align-items: center;">
+                                ${textbookBtnHtml}
                                 <button class="unit-btn btn-quiz" onclick="app.startQuiz('${unit.id}')" style="margin: 0; background-color: #3498db; color: white; padding: 8px 30px; font-size: 1.1rem;">
                                     <i class="fas fa-pencil-alt"></i> クイズ
                                 </button>

@@ -221,3 +221,74 @@ window.VIDEO_MAP = {
     'art_history_jp': 'https://youtu.be/_Yu0zecd478',
     'art_history_west': 'https://youtube.com/shorts/3N0XXXHM5Bg'
 };
+
+// 単元IDからweb教科書ファイルへのマッピング
+window.TEXTBOOK_MAP = {
+    // 音楽 (Music)
+    'm_vocal_1': 'm_vocal_1.html',
+    'm_vocal_2': 'm_vocal_2.html',
+    'm_vocal_3': 'm_vocal_3.html',
+    'm_vocal_4': 'm_vocal_4.html',
+    'm_vocal_5': 'm_vocal_5.html',
+    'm_vocal_6': 'm_vocal_6.html',
+    'm_vocal_7': 'm_vocal_7.html',
+    'm_vocal_8': 'm_vocal_8.html',
+    'm_vocal_9': 'm_vocal_9.html',
+    'm_vocal_10': 'm_vocal_10.html',
+    'm_app_1': 'm_app_1.html',
+    'm_app_2': 'm_app_2.html',
+    'm_app_3': 'm_app_3.html',
+    'm_app_4': 'm_app_4.html',
+    'm_app_5': 'm_app_5.html',
+    'm_plus_1': 'm_theory_1.html',
+    'm_plus_2': 'm_theory_2.html',
+    'm_plus_3': 'm_theory_3.html',
+    'm_plus_4': 'm_theory_4.html',
+    'm_plus_5': 'm_theory_5.html',
+    'm_plus_6': 'm_theory_6.html',
+
+    // 技術・家庭 (tech_home)
+    'th_merged_1': 'th_merged_1.html',
+    'th_merged_2': 'th_merged_2.html',
+    'th_merged_3': 'th_merged_3.html',
+    'th_merged_4': 'th_merged_4.html',
+    'th_merged_5': 'th_merged_5.html',
+    'th_merged_6': 'th_merged_6.html',
+    'th_merged_7': 'th_merged_7.html',
+    'th_merged_8': 'th_merged_8.html',
+    'th_merged_9': 'th_merged_9.html',
+    'th_merged_10': 'th_merged_10.html',
+
+    // 保健体育 (pe_health)
+    'ph_h1': 'ph_h1.html',
+    'ph_h2': 'ph_h2.html',
+    'ph_h3': 'ph_h3.html',
+    'ph_h4': 'ph_h4.html',
+    'ph_h5': 'ph_h5.html',
+    'ph_h6': 'ph_h6.html',
+    'ph_t1': 'ph_t1.html',
+    'ph_t2': 'ph_t2.html',
+    'ph_t3': 'ph_t3.html',
+    'ph_p1': 'ph_p1.html',
+    'ph_p2': 'ph_p2.html',
+    'ph_volleyball': 'ph_volleyball.html',
+    'ph_basketball': 'ph_basketball.html',
+    'ph_handball': 'ph_handball.html',
+    'ph_softball': 'ph_softball.html',
+    'ph_soccer': 'ph_soccer.html',
+    'ph_table_tennis': 'ph_table_tennis.html',
+    'ph_soft_tennis': 'ph_soft_tennis.html',
+    'ph_badminton': 'ph_badminton.html',
+    'ph_martial': 'ph_martial.html',
+    'ph_dance': 'ph_dance.html',
+
+    // 美術 (art)
+    'art_1_1': 'art_1_1.html',
+    'art_1_2': 'art_1_2.html',
+    'art_1_3': 'art_1_3.html',
+    'art_2_1': 'art_2_1.html',
+    'art_2_2': 'art_2_2.html',
+    'art_2_3': 'art_2_3.html',
+    'art_history_jp': 'art_history_jp.html',
+    'art_history_west': 'art_history_west.html'
+};

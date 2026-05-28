@@ -886,3 +886,109 @@ main {
     right: -16px;
     top: 12px;
 }
+
+/* 宣伝エリア (Promo Section) */
+.promo-section {
+    margin: 20px auto 40px;
+    max-width: 400px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.promo-card {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.promo-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.promo-card:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.promo-icon {
+    font-size: 1.8rem;
+    margin-right: 15px;
+    width: 35px;
+    text-align: center;
+}
+
+.promo-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.promo-subtitle {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.promo-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.promo-arrow {
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.promo-card:hover .promo-arrow {
+    transform: translateX(4px);
+}
+
+/* 個別カラー定義 */
+/* 公式ホームページ: 黄色 */
+.promo-hp {
+    background: linear-gradient(135deg, #fff8e1, #ffe082);
+    border: 2px solid #ffb300;
+    color: #ff8f00;
+}
+.promo-hp .promo-subtitle {
+    color: #ff8f00;
+}
+
+/* 中学 社会 これ一本: 青 */
+.promo-social {
+    background: linear-gradient(135deg, #e3f2fd, #90caf9);
+    border: 2px solid #2196f3;
+    color: #0d47a1;
+}
+.promo-social .promo-subtitle {
+    color: #1565c0;
+}
+
+/* 中学 英語 並べ替え: ピンク */
+.promo-grammar {
+    background: linear-gradient(135deg, #fce4ec, #f48fb1);
+    border: 2px solid #c2185b;
+    color: #880e4f;
+}
+.promo-grammar .promo-subtitle {
+    color: #880e4f;
+}
+
+/* 中学 英語 単語: 緑 */
+.promo-vocab {
+    background: linear-gradient(135deg, #e0f2f1, #b2dfdb);
+    border: 2px solid #009688;
+    color: #00695c;
+}
+.promo-vocab .promo-subtitle {
+    color: #004d40;
+}
+
