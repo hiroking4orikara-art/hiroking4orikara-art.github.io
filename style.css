@@ -249,9 +249,11 @@ footer p {
 
 .game-icon-wrapper {
     flex-shrink: 0;
-    width: 84px;
-    height: 84px;
-    border-radius: 18px;
+    width: 180px;
+    height: 180px;
+    max-width: 15em;
+    max-height: 15em;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
     border: 2px solid rgba(245, 158, 11, 0.45);
@@ -349,20 +351,23 @@ footer p {
 }
 
 .btn-googleplay {
+    width: 10em;
+    max-width: 160px;
     background: linear-gradient(135deg, #059669 0%, #047857 100%);
     color: #ffffff !important;
-    padding: 0.85rem 1.6rem;
+    padding: 0.75rem 0.5rem;
     border-radius: 30px;
     font-weight: bold;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
     box-shadow: 0 4px 14px rgba(5, 150, 105, 0.45);
     transition: all 0.2s ease;
     border: 1px solid rgba(255, 255, 255, 0.2);
     white-space: nowrap;
+    box-sizing: border-box;
 }
 
 .btn-googleplay:hover {
@@ -402,9 +407,208 @@ footer p {
     }
     .game-card-action {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .btn-googleplay {
-        width: 100%;
+        width: 10em;
+        max-width: 160px;
     }
 }
+    .game-badges {
+        justify-content: center;
+    }
+    .game-card-action {
+        width: 100%;
+    }
+    .btn-googleplay {
+    width: 10em;
+    max-width: 160px;
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    color: #ffffff !important;
+    padding: 0.75rem 0.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: 0 4px 14px rgba(5, 150, 105, 0.45);
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+}
 
+
+/* ===================================================
+   ゲーム紹介用特別カード（The knight commander）
+   勉強アプリと明確に差別化し、リフレッシュ用として目立たせる
+   =================================================== */
+.game-card {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border: 2px solid #f59e0b;
+    border-left: 6px solid #f59e0b;
+    box-shadow: 0 8px 25px rgba(245, 158, 11, 0.25), 0 4px 12px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+}
+
+.game-card::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 160px;
+    height: 160px;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.18) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.game-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(245, 158, 11, 0.35), 0 6px 16px rgba(0, 0, 0, 0.45);
+}
+
+.game-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.badge-refresh {
+    display: inline-block;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.78rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(217, 119, 6, 0.4);
+}
+
+.badge-free {
+    display: inline-block;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.78rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(5, 150, 105, 0.4);
+}
+
+.badge-genre {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    color: #e2e8f0;
+    font-size: 0.78rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+
+.game-title {
+    color: #fbbf24 !important;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.game-desc {
+    color: #f1f5f9 !important;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.game-desc strong {
+    color: #fef08a;
+}
+
+.game-subdesc {
+    color: #94a3b8 !important;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.game-card-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.action-game-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(245, 158, 11, 0.45);
+    background: #1e293b;
+    flex-shrink: 0;
+}
+
+.action-game-icon img,
+.game-icon-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.game-action-subtext {
+    font-size: 0.82rem;
+    color: #fbbf24;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-googleplay {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    color: #ffffff !important;
+    padding: 0.75rem 1.2rem;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    box-shadow: 0 4px 14px rgba(5, 150, 105, 0.45);
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    white-space: nowrap;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+}
+
+.btn-googleplay:hover {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(16, 185, 129, 0.55);
+}
+
+.play-svg-icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+    .game-card-action {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .action-game-icon {
+        width: 130px;
+        height: 130px;
+    }
+}
