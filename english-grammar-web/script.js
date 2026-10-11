@@ -34,7 +34,12 @@ const UNIT_NAMES = {
   "jhs3_indirect": "中3 間接疑問",
   "jhs3_subjunctive": "中3 仮定法過去",
   "jhs3_causative": "中3 使役動詞",
-  "jhs3_it_for_to": "中3 It is ... for ..."
+  "jhs3_it_for_to": "中3 It is ... for ...",
+  "phrase_greeting": "挨拶",
+  "phrase_conversation": "日常会話",
+  "phrase_idiom_verb1": "熟語（動）①",
+  "phrase_idiom_verb2": "熟語（動）②",
+  "phrase_idiom_other": "熟語（形・副）③"
 };
 
 const VIDEO_LINKS = {
@@ -73,6 +78,7 @@ const submitBtn = document.getElementById('submitBtn');
 const hintBtn = document.getElementById('hintBtn');
 const resetBtn = document.getElementById('resetBtn');
 const restartBtn = document.getElementById('restartBtn');
+const continueSameUnitBtn = document.getElementById('continueSameUnitBtn');
 const setupDiv = document.querySelector('.setup');
 const japaneseTextDiv = document.getElementById('japaneseText');
 const answerAreaDiv = document.getElementById('answerArea');
@@ -85,6 +91,8 @@ const readAloudBtn = document.getElementById('readAloudBtn');
 // Help Modal Elements
 const setupHelpBtn = document.getElementById('setupHelpBtn');
 const quizHelpBtn = document.getElementById('quizHelpBtn');
+const quizBackBtn = document.getElementById('quizBackBtn');
+const quizBackAction = document.getElementById('quizBackAction');
 const helpModal = document.getElementById('helpModal');
 const closeModal = document.getElementById('closeModal');
 const modalText = document.getElementById('modalText');
@@ -112,9 +120,11 @@ const newUserBtn = document.getElementById('newUserBtn');
 // Mascot Elements
 const mascotContainer = document.getElementById('mascotContainer');
 const mascotBubble = document.getElementById('mascotBubble');
+const setupBottomBar = document.getElementById('setupBottomBar');
 
 // Initialize app
 function init() {
+  initPrintFeature();
   loadUsers();
   loadStats();
   // Load initial user selection
@@ -127,6 +137,8 @@ function init() {
   hintBtn.addEventListener('click', showHint);
   resetBtn.addEventListener('click', resetCurrentQuestion);
   restartBtn.addEventListener('click', restartQuiz);
+  if (quizBackBtn) quizBackBtn.addEventListener('click', restartQuiz);
+  if (continueSameUnitBtn) continueSameUnitBtn.addEventListener('click', continueSameUnitQuiz);
 
   setupHelpBtn.addEventListener('click', () => showHelp('setup'));
   quizHelpBtn.addEventListener('click', () => showHelp('quiz'));
@@ -155,7 +167,7 @@ function init() {
   const viewStatsBtn = document.getElementById('viewStatsBtn');
   if (viewStatsBtn) {
     viewStatsBtn.addEventListener('click', () => {
-      setupDiv.classList.add('hidden');
+      setupDiv.classList.add('hidden'); if (setupBottomBar) setupBottomBar.classList.add('hidden');
       document.querySelector('.stats').classList.remove('hidden');
       // Dummy empty session stats so it doesn't skew global
       currentSessionStats = {};
@@ -169,7 +181,7 @@ function init() {
   if (closeStatsBtn) {
     closeStatsBtn.addEventListener('click', () => {
       document.querySelector('.stats').classList.add('hidden');
-      setupDiv.classList.remove('hidden');
+      setupDiv.classList.remove('hidden'); if (setupBottomBar) setupBottomBar.classList.remove('hidden');
       showMascot("Ready to study?", "勉強する準備はいい？");
     });
   }
@@ -179,7 +191,7 @@ function init() {
   if (closeCelebrationBtn) {
     closeCelebrationBtn.addEventListener('click', () => {
       document.querySelector('.celebration').classList.add('hidden');
-      setupDiv.classList.remove('hidden');
+      setupDiv.classList.remove('hidden'); if (setupBottomBar) setupBottomBar.classList.remove('hidden');
       showMascot("Let's keep up the good work!", "この調子で頑張ろう！");
     });
   }
@@ -229,15 +241,24 @@ function init() {
 }
 
 function showMascot(text, translation = "") {
-  if (!mascotContainer) return;
-  mascotContainer.classList.remove('hidden');
-  mascotBubble.textContent = text;
-  mascotBubble.dataset.tooltip = translation; // Set tooltip
-
-  // Animation reset
-  mascotBubble.style.animation = 'none';
-  mascotBubble.offsetHeight; /* trigger reflow */
-  mascotBubble.style.animation = 'fadeIn 0.5s ease-out';
+  if (mascotContainer) {
+    mascotContainer.classList.remove('hidden');
+  }
+  if (mascotBubble) {
+    mascotBubble.textContent = text;
+    mascotBubble.dataset.tooltip = translation;
+    mascotBubble.style.animation = 'none';
+    mascotBubble.offsetHeight;
+    mascotBubble.style.animation = 'fadeIn 0.5s ease-out';
+  }
+  const setupBubble = document.getElementById('setupMascotBubble');
+  if (setupBubble) {
+    setupBubble.textContent = text;
+    setupBubble.dataset.tooltip = translation;
+    setupBubble.style.animation = 'none';
+    setupBubble.offsetHeight;
+    setupBubble.style.animation = 'fadeIn 0.5s ease-out';
+  }
 }
 
 function loadUsers() {
@@ -454,7 +475,7 @@ function attachUnitListeners() {
   });
 
   // Bulk Selection Logic
-  const grades = ['jhs1', 'jhs2', 'jhs3'];
+  const grades = ['jhs1', 'jhs2', 'jhs3', 'phrase'];
   grades.forEach(grade => {
     const startStr = grade + '_';
     const selectAll = document.getElementById(`selectAll_${grade}`);
@@ -479,6 +500,7 @@ function updateSelectAllState(changedCheckbox) {
   if (val.startsWith("jhs1_")) grade = "jhs1";
   else if (val.startsWith("jhs2_")) grade = "jhs2";
   else if (val.startsWith("jhs3_")) grade = "jhs3";
+  else if (val.startsWith("phrase_")) grade = "phrase";
 
   if (!grade) return;
 
@@ -587,8 +609,11 @@ function startQuiz() {
   });
 
   currentIndex = 0;
-  setupDiv.classList.add('hidden');
+  sessionMistakes = [];
+  document.querySelector('.results').classList.add('hidden');
+  setupDiv.classList.add('hidden'); if (setupBottomBar) setupBottomBar.classList.add('hidden');
   document.querySelector('.quiz').classList.remove('hidden');
+  if (quizBackAction) quizBackAction.classList.remove('hidden');
   mascotContainer.classList.remove('hidden');
   renderCurrentQuestion();
 
@@ -616,6 +641,20 @@ function renderCurrentQuestion() {
   submitBtn.disabled = false;
   hintBtn.disabled = false;
   resetBtn.disabled = false;
+}
+
+
+function formatExplanation(text) {
+  if (!text) return "";
+  const idx = text.indexOf('(');
+  if (idx === -1) return `<div style="margin-top: 4px;">${text}</div>`;
+  const main = text.substring(0, idx).trim();
+  let note = text.substring(idx + 1).trim();
+  if (note.endsWith(')')) {
+    note = note.substring(0, note.length - 1).trim();
+  }
+  note = note.replace(/【/g, '<br>【').replace(/※/g, '<br>※');
+  return `<div style="font-weight: 500; font-size: 1.05rem; margin-top: 4px; margin-bottom: 4px;">${main}</div><div class="explanation-note">${note}</div>`;
 }
 
 function renderWordBank(q) {
@@ -722,10 +761,10 @@ function submitAnswer() {
   feedbackDiv.classList.remove('hidden');
   partsDiv.classList.add('hidden');
 
-  if (isCorrect) {
-    feedbackDiv.innerHTML = `<span style="color:#8fdb8f; font-size:1.2em">正解！</span><br>${currentQ.explanation}`;
+    if (isCorrect) {
+    feedbackDiv.innerHTML = `<div style="color:#8fdb8f; font-weight:bold; font-size:1.2em; margin-bottom:4px;">正解！</div>${formatExplanation(currentQ.explanation)}`;
   } else {
-    feedbackDiv.innerHTML = `<span style="color:#ff6b6b; font-size:1.2em">不正解...</span><br>正解: ${correct.join(' ')}<br>解説: ${currentQ.explanation}`;
+    feedbackDiv.innerHTML = `<div style="color:#ff6b6b; font-weight:bold; font-size:1.2em; margin-bottom:4px;">不正解...</div><div style="margin-bottom:6px;">正解: <b>${correct.join(' ')}</b></div>${formatExplanation(currentQ.explanation)}`;
   }
 
   submitBtn.textContent = '次へ';
@@ -812,6 +851,8 @@ async function readAloudCurrentSentence() {
       return;
     } catch (e) {
       console.warn("Capacitor TTS error:", e);
+      alert("ネイティブ音声エンジンが利用できません（エミュレータ固有の現象の可能性）: " + e.message);
+      return;
     }
   }
   
@@ -832,6 +873,8 @@ async function readAloudCurrentSentence() {
 
 function showResults() {
   document.querySelector('.quiz').classList.add('hidden');
+  if (quizBackAction) quizBackAction.classList.add('hidden');
+  if (quizBackAction) quizBackAction.classList.add('hidden');
   document.querySelector('.results').classList.remove('hidden');
 
   const nextActionDiv = document.getElementById('nextAction');
@@ -859,7 +902,7 @@ function showResults() {
     sessionMistakes.forEach(q => {
       mistakesHtml += `<li style="margin-bottom:0.5rem;">
         <div><b>${q.correctOrder.join(' ')}</b></div>
-        <div style="font-size:0.9em; color:#ddd;">${q.explanation}</div>
+        <div style="font-size:0.9em; color:#ddd;">${formatExplanation(q.explanation)}</div>
       </li>`;
     });
     mistakesHtml += `</ul></div>`;
@@ -904,6 +947,7 @@ function startRetryQuiz() {
   currentIndex = 0;
   document.querySelector('.results').classList.add('hidden');
   document.querySelector('.quiz').classList.remove('hidden');
+  if (quizBackAction) quizBackAction.classList.remove('hidden');
   renderCurrentQuestion();
   showMascot("Let's review!", "復習しよう！");
 }
@@ -971,13 +1015,20 @@ function renderStats(targetId) {
   container.innerHTML = html;
 }
 
+function continueSameUnitQuiz() {
+  document.querySelector('.results').classList.add('hidden');
+  startQuiz();
+}
+
 function restartQuiz() {
   document.querySelector('.results').classList.add('hidden');
   document.querySelector('.stats').classList.add('hidden');
   document.querySelector('.quiz').classList.add('hidden');
+  if (quizBackAction) quizBackAction.classList.add('hidden');
+  if (quizBackAction) quizBackAction.classList.add('hidden');
   document.querySelector('.celebration').classList.add('hidden');
   document.querySelector('.setup').classList.remove('hidden'); // Ensure setup is targeted correctly if setupDiv variable is not available in scope, but it is global.
-  setupDiv.classList.remove('hidden');
+  setupDiv.classList.remove('hidden'); if (setupBottomBar) setupBottomBar.classList.remove('hidden');
   showMascot("Welcome back!", "おかえり！");
 }
 
@@ -1007,8 +1058,10 @@ function checkAllCleared() {
 }
 
 function showCelebration() {
-  setupDiv.classList.add('hidden');
+  setupDiv.classList.add('hidden'); if (setupBottomBar) setupBottomBar.classList.add('hidden');
   document.querySelector('.quiz').classList.add('hidden');
+  if (quizBackAction) quizBackAction.classList.add('hidden');
+  if (quizBackAction) quizBackAction.classList.add('hidden');
   document.querySelector('.stats').classList.add('hidden');
   document.querySelector('.results').classList.add('hidden');
 
@@ -1168,7 +1221,353 @@ function loadUserSelection() {
   updateSelectAllState({ value: 'jhs1_' });
   updateSelectAllState({ value: 'jhs2_' });
   updateSelectAllState({ value: 'jhs3_' });
+  updateSelectAllState({ value: 'phrase_' });
 
   // Update internal state
   updateSelectedUnits();
+}
+
+
+// =========================================
+// Print / Copy Feature Logic
+
+function shuffleArray(arr) {
+  if (!arr) return [];
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+// =========================================
+
+let printAdTimer = null;
+let currentPrintJobConfig = null;
+
+function initPrintFeature() {
+  const copyBtn = document.getElementById('copyBtn');
+  const printConfigModal = document.getElementById('printConfigModal');
+  const closePrintConfigBtn = document.getElementById('closePrintConfigBtn');
+  const startPrintJobBtn = document.getElementById('startPrintJobBtn');
+  const closeAdBtn = document.getElementById('closeAdBtn');
+  const printExecuteBtn = document.getElementById('printExecuteBtn');
+  const exitPrintViewBtn = document.getElementById('exitPrintViewBtn');
+
+  if (copyBtn) copyBtn.addEventListener('click', handleCopyBtnClick);
+  if (closePrintConfigBtn) closePrintConfigBtn.addEventListener('click', () => {
+    printConfigModal.classList.add('hidden');
+  });
+  if (startPrintJobBtn) startPrintJobBtn.addEventListener('click', startPrintJob);
+  if (closeAdBtn) closeAdBtn.addEventListener('click', finishAdAndShowPrint);
+  if (printExecuteBtn) printExecuteBtn.addEventListener('click', () => window.print());
+  if (exitPrintViewBtn) exitPrintViewBtn.addEventListener('click', exitPrintView);
+}
+
+function handleCopyBtnClick() {
+  if (!selectedUnits || selectedUnits.length === 0) {
+    alert("最低でも１つの単元を選んでください");
+    return;
+  }
+
+  // Summary of selected units
+  const unitNamesList = selectedUnits.map(u => UNIT_NAMES[u] || u);
+  const summaryEl = document.getElementById('printUnitSummary');
+  if (summaryEl) {
+    summaryEl.innerHTML = `<b>対象単元 (${selectedUnits.length}単元):</b> ` + unitNamesList.join(', ');
+  }
+
+  // Calculate available questions
+  const availableQuestions = QUESTION_DATA.filter(q => selectedUnits.includes(q.unit));
+  const totalQ = availableQuestions.length;
+  const maxPages = Math.max(1, Math.floor(totalQ / 10));
+
+  // Populate Page Count Select
+  const pageSelect = document.getElementById('printPageCountSelect');
+  if (pageSelect) {
+    pageSelect.innerHTML = '';
+    for (let p = 1; p <= maxPages; p++) {
+      const opt = document.createElement('option');
+      opt.value = p;
+      opt.textContent = `${p} ページ (${p * 10} 問)`;
+      pageSelect.appendChild(opt);
+    }
+    // Default to min(maxPages, 2) or 1
+    pageSelect.value = Math.min(maxPages, 2);
+  }
+
+  const noteEl = document.getElementById('printMaxPageNote');
+  if (noteEl) {
+    noteEl.textContent = `(最大 ${maxPages} ページ / 全 ${totalQ} 問)`;
+  }
+
+  const modal = document.getElementById('printConfigModal');
+  if (modal) modal.classList.remove('hidden');
+}
+
+// Print Interstitial Ad Handler (Native Capacitor AdMob or Web fallback)
+async function showPrintInterstitialAd(onComplete) {
+  // If running in Native Capacitor app with AdMob plugin
+  if (typeof Capacitor !== 'undefined' && Capacitor.Plugins && Capacitor.Plugins.AdMob) {
+    try {
+      const { AdMob } = Capacitor.Plugins;
+
+      let finished = false;
+      const proceed = () => {
+        if (!finished) {
+          finished = true;
+          if (onComplete) onComplete();
+          // Prepare next interstitial for subsequent use
+          AdMob.prepareInterstitial({
+            adId: ADMOB_AD_UNIT_ID,
+            isTesting: false
+          }).catch(err => console.warn("Prepare interstitial in background:", err));
+        }
+      };
+
+      // Listen for ad dismissal event
+      let listenerHandle = null;
+      try {
+        listenerHandle = await AdMob.addListener('interstitialAdDismissed', () => {
+          if (listenerHandle) listenerHandle.remove();
+          proceed();
+        });
+      } catch (e) {
+        console.warn("addListener for interstitialAdDismissed not supported, using fallback await", e);
+      }
+
+      await AdMob.showInterstitial();
+      // Safety timer in case dismiss event doesn't fire
+      setTimeout(proceed, 1000);
+      return;
+    } catch (e) {
+      console.error("Native AdMob show failed for print, proceeding to print directly", e);
+      if (onComplete) onComplete();
+      return;
+    }
+  }
+
+  // Web Browser Simulation
+  showWebSimulationAd(onComplete);
+}
+
+function showWebSimulationAd(onComplete) {
+  const adModal = document.getElementById('interstitialAdModal');
+  const countdownText = document.getElementById('adCountdownText');
+  if (adModal) adModal.classList.remove('hidden');
+
+  let secondsLeft = 3;
+  if (countdownText) countdownText.textContent = `まもなく印刷画面へ移動します (${secondsLeft})...`;
+
+  if (printAdTimer) clearInterval(printAdTimer);
+  printAdTimer = setInterval(() => {
+    secondsLeft--;
+    if (secondsLeft > 0) {
+      if (countdownText) countdownText.textContent = `まもなく印刷画面へ移動します (${secondsLeft})...`;
+    } else {
+      finishAdAndShowPrint(onComplete);
+    }
+  }, 1000);
+}
+
+function finishAdAndShowPrint(callback) {
+  if (printAdTimer) {
+    clearInterval(printAdTimer);
+    printAdTimer = null;
+  }
+
+  const adModal = document.getElementById('interstitialAdModal');
+  if (adModal) adModal.classList.add('hidden');
+
+  if (typeof callback === 'function') {
+    callback();
+  } else if (currentPrintJobConfig) {
+    generateAndDisplayPrintSheets(currentPrintJobConfig);
+  }
+}
+
+function startPrintJob() {
+  const pageSelect = document.getElementById('printPageCountSelect');
+  const shuffleCheck = document.getElementById('printShuffleOrder');
+  const pageCount = parseInt(pageSelect ? pageSelect.value : 1, 10);
+  const isShuffle = shuffleCheck ? shuffleCheck.checked : true;
+
+  currentPrintJobConfig = {
+    pageCount: pageCount,
+    totalQuestions: pageCount * 10,
+    isShuffle: isShuffle,
+    units: [...selectedUnits]
+  };
+
+  // Close config modal
+  const configModal = document.getElementById('printConfigModal');
+  if (configModal) configModal.classList.add('hidden');
+
+  // Show Interstitial Ad (100% frequency on print: 1回で広告)
+  showPrintInterstitialAd(() => {
+    if (currentPrintJobConfig) {
+      generateAndDisplayPrintSheets(currentPrintJobConfig);
+    }
+  });
+}
+
+function generateAndDisplayPrintSheets(config) {
+  const totalNeeded = config.totalQuestions;
+  const units = config.units;
+
+  // Group available questions by unit
+  const unitPool = {};
+  units.forEach(u => {
+    unitPool[u] = shuffleArray([...QUESTION_DATA.filter(q => q.unit === u)]);
+  });
+
+  // Balanced sampling from selected units
+  const selectedQuestions = [];
+  const unitCount = units.length;
+  const perUnitBase = Math.floor(totalNeeded / unitCount);
+  let remainder = totalNeeded % unitCount;
+
+  // First pass: extract perUnitBase + (remainder > 0 ? 1 : 0) from each unit
+  units.forEach((u, i) => {
+    const quota = perUnitBase + (i < remainder ? 1 : 0);
+    const take = Math.min(quota, unitPool[u].length);
+    selectedQuestions.push(...unitPool[u].splice(0, take));
+  });
+
+  // Second pass: if some units had fewer questions, fill remainder from any available questions in pool
+  if (selectedQuestions.length < totalNeeded) {
+    const leftoverPool = [];
+    units.forEach(u => leftoverPool.push(...unitPool[u]));
+    const shuffledLeftovers = shuffleArray(leftoverPool);
+    const neededMore = totalNeeded - selectedQuestions.length;
+    selectedQuestions.push(...shuffledLeftovers.slice(0, neededMore));
+  }
+
+  // Shuffle question order if option is checked
+  const finalQuestions = config.isShuffle ? shuffleArray(selectedQuestions) : selectedQuestions;
+
+  // Format unit display string
+
+  // Generate HTML for A4 pages
+  let sheetsHtml = '';
+  const pagesCount = config.pageCount;
+
+  for (let p = 0; p < pagesCount; p++) {
+    const pageQuestions = finalQuestions.slice(p * 10, (p + 1) * 10);
+    let questionsListHtml = '';
+
+    pageQuestions.forEach((q, qIndex) => {
+      const globalNum = p * 10 + qIndex + 1;
+
+      // Extract clean prompt Japanese text (remove parentheses)
+      let jpPrompt = q.explanation;
+      if (jpPrompt.includes('(')) {
+        jpPrompt = jpPrompt.split('(')[0].trim();
+      }
+
+      // Shuffle words for ( word1 / word2 / ... )
+      const wordsToShuffle = [...q.correctOrder];
+      const shuffledWords = shuffleArray(wordsToShuffle);
+      const wordsStr = '( ' + shuffledWords.join(' / ') + ' )';
+
+      questionsListHtml += `
+        <div class="print-q-item">
+          <div class="print-q-top">
+            <span class="print-q-num">(${globalNum})</span>
+            <span class="print-q-jp">${jpPrompt}</span>
+          </div>
+          <div class="print-q-words">${wordsStr}</div>
+          <div class="print-q-line"></div>
+        </div>
+      `;
+    });
+
+    sheetsHtml += `
+      <div class="print-page">
+        <div class="print-header">
+          <div class="print-title">
+            <span>英語文法並べ替え問題プリント</span>
+          </div>
+          <p class="print-instruction">日本文の意味を表すように、(　)内の語句を並べかえなさい。</p>
+        </div>
+
+        <div class="print-questions-list">
+          ${questionsListHtml}
+        </div>
+
+        <div class="print-footer">
+          - ${p + 1} / ${pagesCount} -
+        </div>
+      </div>
+    `;
+  }
+
+  // Generate Answer Sheet(s) - 10 questions per page, 1 single column, generous vertical margins
+  const ansPageCount = Math.ceil(finalQuestions.length / 10);
+  for (let ap = 0; ap < ansPageCount; ap++) {
+    const pageAnsQuestions = finalQuestions.slice(ap * 10, (ap + 1) * 10);
+    let answersListHtml = '';
+
+    pageAnsQuestions.forEach((q, qIndex) => {
+      const globalNum = ap * 10 + qIndex + 1;
+      const correctSentence = q.correctOrder.join(' ');
+      
+      let noteHtml = '';
+      if (q.explanation.includes('(')) {
+        const idx = q.explanation.indexOf('(');
+        let note = q.explanation.substring(idx + 1).trim();
+        if (note.endsWith(')')) note = note.slice(0, -1).trim();
+        noteHtml = `<div class="print-ans-note">${note}</div>`;
+      }
+
+      let jpPrompt = q.explanation.includes('(') ? q.explanation.split('(')[0].trim() : q.explanation;
+
+      answersListHtml += `
+        <div class="print-answer-item" style="break-inside: avoid;">
+          <div class="print-ans-en">(${globalNum}) ${correctSentence}</div>
+          <div class="print-ans-jp">${jpPrompt}</div>
+          ${noteHtml}
+        </div>
+      `;
+    });
+
+    const ansPageLabel = ansPageCount > 1 ? `- 解答 ${ap + 1} / ${ansPageCount} -` : `- 解答 -`;
+
+    sheetsHtml += `
+      <div class="print-answer-page">
+        <div class="print-header">
+          <div class="print-title">
+            <span>英語文法並べ替え問題プリント 【解答・解説】</span>
+          </div>
+        </div>
+
+        <div class="print-answers-list">
+          ${answersListHtml}
+        </div>
+
+        <div class="print-footer">
+          ${ansPageLabel}
+        </div>
+      </div>
+    `;
+  }
+
+  // Render sheets
+  const sheetsArea = document.getElementById('printSheetsArea');
+  if (sheetsArea) sheetsArea.innerHTML = sheetsHtml;
+
+  // Show container
+  document.body.classList.add('in-print-view');
+  const container = document.getElementById('printViewContainer');
+  if (container) {
+    container.classList.remove('hidden');
+    container.scrollTop = 0;
+  }
+}
+
+function exitPrintView() {
+  document.body.classList.remove('in-print-view');
+  const container = document.getElementById('printViewContainer');
+  if (container) container.classList.add('hidden');
 }
