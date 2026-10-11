@@ -1339,7 +1339,10 @@ body {
   width: 100%;
   background: rgba(30, 39, 46, 0.95);
   backdrop-filter: blur(5px);
-  padding: 12px 20px;
+  padding-top: calc(env(safe-area-inset-top, 0px) + 52px);
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   box-sizing: border-box;
   z-index: 100;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
@@ -1506,24 +1509,70 @@ body {
   margin-top: 2px;
 }
 
+
 /* =========================================
    Print Media Query (Physical Printer / PDF)
    ========================================= */
 @media print {
-  .header, .setup, .setup-bottom-bar, #setupBottomBar, .mascot-bubble, .mascot-dock-container {
+  .no-print,
+  .print-control-bar,
+  .header,
+  .setup,
+  .setup-bottom-bar,
+  #setupBottomBar,
+  .mascot-container,
+  .mascot-dock-container,
+  .mascot-bubble,
+  .quiz,
+  .results,
+  .stats,
+  .celebration,
+  .modal {
     display: none !important;
+    visibility: hidden !important;
   }
-  .print-page {
-    padding: 14mm 16mm !important;
-  }
-  .print-answer-page {
-    padding: 22mm 18mm !important;
-  }
+
+  body, html {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
     margin: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  #printViewContainer {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    background: #ffffff !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .print-sheets-area {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+    gap: 0 !important;
+  }
+
+  .print-page, .print-answer-page {
+    width: 210mm !important;
+    min-height: 297mm !important;
+    padding: 14mm 16mm !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
     page-break-after: always !important;
     break-after: page !important;
+    background: #ffffff !important;
     box-sizing: border-box !important;
-    background: #fff !important;
+  }
+
+  .print-answer-page {
+    padding: 22mm 18mm !important;
   }
 
   @page {
@@ -1532,50 +1581,41 @@ body {
   }
 }
 
-
-/* Hide all main screen UI when print view is active */
-body.in-print-view .header,
-body.in-print-view main,
-body.in-print-view .container,
-body.in-print-view .setup,
-body.in-print-view .setup-bottom-bar,
-body.in-print-view #setupBottomBar,
-body.in-print-view .fixed-action-bar,
-body.in-print-view .mascot-bubble,
-body.in-print-view .mascot-dock-container,
-body.in-print-view .quiz-container,
-body.in-print-view .results {
-  display: none !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-}
-
-
-.print-answers-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-grow: 1;
-  gap: 6px;
-  width: 100%;
-}
-
-/* Robust Mascot Protection Rules */
-#mascotContainer.hidden {
-  display: none !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-}
-
-body:not(:has(.setup.hidden)) #mascotContainer,
-.setup:not(.hidden) ~ #mascotContainer {
-  display: none !important;
-}
-
-.mascot-img {
-  width: 120px !important;
-  max-width: 120px !important;
-  height: auto !important;
-  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.4));
-  animation: bounce 2s infinite ease-in-out;
+/* Mobile Screen Fit for Print Preview (No horizontal clipping) */
+@media screen and (max-width: 768px) {
+  .print-sheets-area {
+    padding: 20px 8px 80px 8px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    align-items: center !important;
+  }
+  .print-page, .print-answer-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    padding: 18px 12px !important;
+    margin: 0 0 20px 0 !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    border-radius: 8px;
+    box-sizing: border-box !important;
+  }
+  .print-title {
+    font-size: 1.1rem !important;
+  }
+  .print-instruction {
+    font-size: 0.82rem !important;
+  }
+  .print-q-top {
+    font-size: 0.88rem !important;
+    gap: 4px !important;
+  }
+  .print-q-words {
+    font-size: 0.84rem !important;
+    word-break: break-word !important;
+    margin: 3px 0 5px 0 !important;
+  }
+  .print-q-line {
+    margin-top: 8px !important;
+    margin-bottom: 6px !important;
+  }
 }

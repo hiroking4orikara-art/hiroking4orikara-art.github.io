@@ -1266,7 +1266,7 @@ function initPrintFeature() {
   });
   if (startPrintJobBtn) startPrintJobBtn.addEventListener('click', startPrintJob);
   if (closeAdBtn) closeAdBtn.addEventListener('click', finishAdAndShowPrint);
-  if (printExecuteBtn) printExecuteBtn.addEventListener('click', () => window.print());
+  if (printExecuteBtn) printExecuteBtn.addEventListener('click', executePrintAction);
   if (exitPrintViewBtn) exitPrintViewBtn.addEventListener('click', exitPrintView);
 }
 
@@ -1575,4 +1575,18 @@ function exitPrintView() {
   document.body.classList.remove('in-print-view');
   const container = document.getElementById('printViewContainer');
   if (container) container.classList.add('hidden');
+}
+
+
+function executePrintAction() {
+  if (window.AndroidPrinter && typeof window.AndroidPrinter.print === 'function') {
+    try {
+      window.AndroidPrinter.print();
+    } catch (e) {
+      console.error("Android native print failed, falling back to window.print", e);
+      window.print();
+    }
+  } else {
+    window.print();
+  }
 }
