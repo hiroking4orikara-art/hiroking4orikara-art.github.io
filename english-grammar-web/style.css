@@ -1559,3 +1559,23 @@ body.in-print-view .results {
   gap: 6px;
   width: 100%;
 }
+
+/* Robust Mascot Protection Rules */
+#mascotContainer.hidden {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+body:not(:has(.setup.hidden)) #mascotContainer,
+.setup:not(.hidden) ~ #mascotContainer {
+  display: none !important;
+}
+
+.mascot-img {
+  width: 120px !important;
+  max-width: 120px !important;
+  height: auto !important;
+  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.4));
+  animation: bounce 2s infinite ease-in-out;
+}

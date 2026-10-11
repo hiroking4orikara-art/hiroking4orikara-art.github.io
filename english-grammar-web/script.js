@@ -241,8 +241,13 @@ function init() {
 }
 
 function showMascot(text, translation = "") {
+  const isSetupActive = setupDiv && !setupDiv.classList.contains('hidden');
   if (mascotContainer) {
-    mascotContainer.classList.remove('hidden');
+    if (isSetupActive) {
+      mascotContainer.classList.add('hidden');
+    } else {
+      mascotContainer.classList.remove('hidden');
+    }
   }
   if (mascotBubble) {
     mascotBubble.textContent = text;
