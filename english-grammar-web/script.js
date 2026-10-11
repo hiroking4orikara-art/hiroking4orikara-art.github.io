@@ -643,6 +643,9 @@ function renderCurrentQuestion() {
   renderWordBank(q);
 
   feedbackDiv.classList.add('hidden');
+  partsDiv.classList.remove('hidden');
+  submitBtn.textContent = '回答する';
+  submitBtn.classList.remove('next-mode');
   submitBtn.disabled = false;
   hintBtn.disabled = false;
   resetBtn.disabled = false;
@@ -1026,13 +1029,27 @@ function continueSameUnitQuiz() {
 }
 
 function restartQuiz() {
+  userAnswers = [];
+  if (typeof answerAreaDiv !== 'undefined' && answerAreaDiv) answerAreaDiv.innerHTML = '';
+  if (typeof partsDiv !== 'undefined' && partsDiv) {
+    partsDiv.innerHTML = '';
+    partsDiv.classList.remove('hidden');
+  }
+  if (typeof feedbackDiv !== 'undefined' && feedbackDiv) feedbackDiv.classList.add('hidden');
+  if (typeof submitBtn !== 'undefined' && submitBtn) {
+    submitBtn.textContent = '回答する';
+    submitBtn.classList.remove('next-mode');
+    submitBtn.disabled = false;
+  }
+  if (typeof hintBtn !== 'undefined' && hintBtn) hintBtn.disabled = false;
+  if (typeof resetBtn !== 'undefined' && resetBtn) resetBtn.disabled = false;
+
   document.querySelector('.results').classList.add('hidden');
   document.querySelector('.stats').classList.add('hidden');
   document.querySelector('.quiz').classList.add('hidden');
   if (quizBackAction) quizBackAction.classList.add('hidden');
-  if (quizBackAction) quizBackAction.classList.add('hidden');
   document.querySelector('.celebration').classList.add('hidden');
-  document.querySelector('.setup').classList.remove('hidden'); // Ensure setup is targeted correctly if setupDiv variable is not available in scope, but it is global.
+  document.querySelector('.setup').classList.remove('hidden');
   setupDiv.classList.remove('hidden'); if (setupBottomBar) setupBottomBar.classList.remove('hidden');
   showMascot("Welcome back!", "おかえり！");
 }
