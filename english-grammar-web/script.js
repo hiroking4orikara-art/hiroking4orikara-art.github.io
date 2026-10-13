@@ -1494,7 +1494,7 @@ function generateAndDisplayPrintSheets(config) {
       const wordsStr = '( ' + shuffledWords.join(' / ') + ' )';
 
       questionsListHtml += `
-        <div class="print-q-item">
+        <div class="print-q-item" style="break-inside: avoid; page-break-inside: avoid;">
           <div class="print-q-top">
             <span class="print-q-num">(${globalNum})</span>
             <span class="print-q-jp">${jpPrompt}</span>
